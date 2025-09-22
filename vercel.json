@@ -1,7 +1,10 @@
 @'
 {
   "crons": [
-    { "path": "/api/updates", "schedule": "0 */4 * * *" }
+    {
+      "path": "/api/updates",
+      "schedule": "0 */4 * * *"
+    }
   ]
 }
-'@ | Set-Content vercel.json
+'@ | Set-Content vercel.json -Encoding utf8
