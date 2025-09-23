@@ -2,11 +2,12 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-export interface PostMeta {
+export interface PostMeta{
   title: string;
   date: string;
   description: string;
   category: string;
+  image?: string; // Add this line
   [key: string]: any;
 }
 
