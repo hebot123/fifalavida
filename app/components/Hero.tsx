@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       className="py-12 text-center bg-cover bg-center bg-no-repeat text-white rounded-lg"
-      style={{ backgroundImage: "url('/hero-background.jpg')" }}
+      style={{ backgroundImage: "url('/players/kylian-mbappe.jpg')"}}
     >
       <div className="max-w-3xl mx-auto px-4 bg-black bg-opacity-50 rounded-lg py-8">
         <h1 className="text-4xl font-extrabold mb-4">FIFA La Vida</h1>
