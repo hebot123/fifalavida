@@ -11,7 +11,7 @@ export interface Collectable {
 export default function CollectableCard({ collectable }: { collectable: Collectable }) {
   return (
     <div className="bg-[#121212] border border-[#00FF66] rounded-lg p-4 flex flex-col items-center text-center hover:shadow-lg transition-shadow">
-    < img
+     <imgmg
         src={collectable.image}
         alt={collectable.name}
         width={200}
