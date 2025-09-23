@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+
 
 /**
  * Type for a news item.
@@ -19,7 +19,7 @@ export default function NewsCard({ news }: { news: NewsItem }) {
   return (
     <div className="bg-gray-900 border border-[#00FF66] rounded-xl overflow-hidden hover:shadow-lg transition-shadow">
       <div className="relative w-full h-48">
-        <Image src={news.image} alt={news.title} fill className="object-cover" />
+ <i<img src={news.image} alt={news.title} className="object-cover w-full h-48" />
       </div>
       <div className="p-4">
         <p className="text-xs text-gray-400">{news.date}</p>
