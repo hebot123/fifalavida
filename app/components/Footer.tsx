@@ -2,48 +2,59 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 border-t mt-12">
-      <div className="container mx-auto px-4 py-8 text-sm text-gray-600 flex flex-col md:flex-row justify-between">
-        <div className="mb-4 md:mb-0">
-          <p className="font-semibold mb-2">FIFA La Vida</p>
-          <p className="max-w-xs">
-            A fan-run hub celebrating FIFA moments and NFTs. Not affiliated with FIFA or any official organisation.
+    <footer className="bg-[#0A0A0A] border-t border-[#00FF66] mt-12 text-gray-400">
+      <div className="max-w-7xl mx-auto px-4 py-12 grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+        <div>
+          <h3 className="text-2xl font-bold text-white mb-2">FIFA La Vida</h3>
+          <p className="text-sm">
+            A fan-run hub celebrating FIFA moments and collectables. Not affiliated with FIFA or any official organisation.
           </p>
         </div>
-        <div className="mb-4 md:mb-0 space-y-2">
-          <Link href="/updates" className="block hover:text-blue-600">
-            Updates
-          </Link>
-          <Link href="/blog" className="block hover:text-blue-600">
-            Blog
-          </Link>
-          <Link href="/about" className="block hover:text-blue-600">
-            About
-          </Link>
-          <Link href="/contact" className="block hover:text-blue-600">
-            Contact
-          </Link>
-          <Link href="/privacy" className="block hover:text-blue-600">
-            Privacy
-          </Link>
-          <Link href="/disclaimer" className="block hover:text-blue-600">
-            Disclaimer
-          </Link>
+        <div>
+          <h4 className="text-xl font-semibold text-white mb-2">Explore</h4>
+          <ul className="space-y-1">
+            <li>
+              <Link href="/updates" className="hover:text-[#00FF66]">
+                Updates
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog" className="hover:text-[#00FF66]">
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link href="/about" className="hover:text-[#00FF66]">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className="hover:text-[#00FF66]">
+                Contact
+              </Link>
+            </li>
+          </ul>
         </div>
         <div>
-          <p className="font-semibold mb-2">Stay Connected</p>
-          <div className="flex space-x-3">
-            <a href="https://www.instagram.com/fifalavida.x" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">
-              Instagram
-            </a>
-            {/* YouTube placeholder for future integration */}
-            <span className="text-gray-400">/</span>
-            <span className="text-gray-400">YouTube</span>
-          </div>
+          <h4 className="text-xl font-semibold text-white mb-2">Legal</h4>
+          <ul className="space-y-1">
+            <li>
+              <Link href="/privacy" className="hover:text-[#00FF66]">
+                Privacy
+              </Link>
+            </li>
+            <li>
+              <Link href="/disclaimer" className="hover:text-[#00FF66]">
+                Disclaimer
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
-      <div className="text-center text-xs text-gray-400 py-4 border-t">
-        &copy; {new Date().getFullYear()} FIFA La Vida. All rights reserved.
+      <div className="border-t border-gray-700">
+        <p className="text-center text-xs py-4 text-gray-500">
+          &copy; {new Date().getFullYear()} FIFA La Vida. All rights reserved.
+        </p>
       </div>
     </footer>
   );
