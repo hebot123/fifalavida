@@ -1,7 +1,7 @@
-import HeroSection from '@app/components/HeroSection';
-import MatchSection from '@app/components/MatchSection';
-import NewsSection from '@app/components/NewsSection';
-import CollectablesSection from '@app/components/CollectablesSection';
+import HeroSection from './components/HeroSection';
+import MatchSection from './components/MatchSection';
+import NewsSection from './components/NewsSection';
+import CollectablesSection from './components/CollectablesSection';
 
 export default function HomePage() {
   return (
