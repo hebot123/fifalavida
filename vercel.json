@@ -4,5 +4,6 @@
       "path": "/api/updates",
       "schedule": "0 6 * * *"
     }
-  ]
+  ],
+  "outputDirectory": "public"
 }
