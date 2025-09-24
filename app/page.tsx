@@ -3,6 +3,8 @@ import UpdatesTicker from '@/app/components/UpdatesTicker';
 import PostCard from '@/app/components/PostCard';
 import InstagramFeed from '@/app/components/InstagramFeed';
 import NewsletterCTA from '@/app/components/NewsletterCTA';
+import Countdown from '@/app/components/Countdown';
+import NftReel from '@/app/components/NftReel';
 import { getAllPosts } from '@/lib/posts';
 
 export default function HomePage() {
@@ -11,6 +13,8 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <Countdown />
+      <NftReel />
       <section className="my-12">
         <h2 className="text-2xl font-bold mb-4">Latest Updates</h2>
         <UpdatesTicker />
