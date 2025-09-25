@@ -9,7 +9,8 @@ const withMDX = require('@next/mdx')({
 });
 
 const nextConfig = {
-  pageExtensions: ['ts', 'tsx', 'mdx', 'md'],
+  // Remove 'mdx' and 'md' from this array.
+  pageExtensions: ['ts', 'tsx'],
   images: { domains: [] },
 };
 
