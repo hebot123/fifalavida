@@ -1,5 +1,5 @@
 "use client";
-import { getAllVideos, NftVideo } from "@/lib/nftVideos";
+import getAllVideos, { NftVideo } from "@/lib/nftVideos"; // Corrected import statement
 import { useEffect, useState } from "react";
 
 export default function NftReel() {
@@ -18,12 +18,12 @@ export default function NftReel() {
               src={video.videoUrl}
               preload="metadata"
               controls
-              title={video.description} // Corrected from Description to description
+              title={video.description}
             />
           </div>
           <div className="p-4">
             <p className="mt-2 text-sm text-gray-700">
-              {video.description} {/* Corrected from Description to description */}
+              {video.description}
             </p>
           </div>
         </div>
