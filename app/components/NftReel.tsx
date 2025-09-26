@@ -1,12 +1,13 @@
 "use client";
-import getAllVideos, { NftVideo } from "@/lib/nftVideos"; // Corrected import statement
+import nftVideos, { NftVideo } from "@/lib/nftVideos";
 import { useEffect, useState } from "react";
 
 export default function NftReel() {
   const [videos, setVideos] = useState<NftVideo[]>([]);
 
   useEffect(() => {
-    setVideos(getAllVideos());
+    // Use the imported array directly instead of calling it as a function
+    setVideos(nftVideos);
   }, []);
 
   return (
