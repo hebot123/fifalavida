@@ -42,9 +42,9 @@ const ReelCard = ({ index }: { index: number }) => {
           ref={videoRef}
           className="h-full w-full object-cover"
           poster={reel.poster}
-          preload="none"
+          preload="metadata"
           playsInline
-          controls={state.isPlaying}
+          controls
           onEnded={handleEnded}
           aria-label={`${reel.title} reel`}
         >
@@ -54,23 +54,31 @@ const ReelCard = ({ index }: { index: number }) => {
         <button
           type="button"
           onClick={handleTogglePlayback}
-          className={`absolute inset-0 flex items-center justify-center text-sm font-medium transition-opacity focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 ${
+          className={`absolute flex items-center justify-center text-sm font-medium transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 ${
             state.isPlaying
-              ? 'pointer-events-none opacity-0'
-              : 'bg-black/50 text-white opacity-100 hover:bg-black/60'
+              ? 'bottom-4 left-4 right-auto top-auto rounded-full bg-blue-600 px-4 py-2 text-white shadow-lg hover:bg-blue-500'
+              : 'inset-0 rounded-none bg-black/60 text-white hover:bg-black/70'
           }`}
           aria-label={state.isPlaying ? `Pause ${reel.title}` : `Play ${reel.title}`}
+          aria-pressed={state.isPlaying}
         >
-          <span className="flex items-center gap-2 rounded-full bg-blue-600 px-4 py-2 text-white shadow-lg">
-            <svg
-              aria-hidden="true"
-              className="h-5 w-5"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-            >
-              <path d="M4.5 3.5v13l11-6.5-11-6.5z" />
-            </svg>
-            Play
+          <span
+            className={`flex items-center gap-2 rounded-full ${
+              state.isPlaying
+                ? 'bg-transparent text-white'
+                : 'bg-blue-600 px-4 py-2 text-white shadow-lg'
+            }`}
+          >
+            {state.isPlaying ? (
+              <svg aria-hidden="true" className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M6 4.5h2.5v11H6zm5.5 0H14v11h-2.5z" />
+              </svg>
+            ) : (
+              <svg aria-hidden="true" className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M4.5 3.5v13l11-6.5-11-6.5z" />
+              </svg>
+            )}
+            {state.isPlaying ? 'Pause' : 'Play'}
           </span>
         </button>
       </div>

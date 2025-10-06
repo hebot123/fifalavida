@@ -1,12 +1,11 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useId, useMemo, useState } from 'react';
 
 const KICKOFF_ISO = '2026-06-11T00:00:00-06:00';
 
-const getTimeDifference = (target: Date) => {
-  const now = new Date();
-  const total = target.getTime() - now.getTime();
+export const getTimeDifference = (target: Date, currentTime: Date = new Date()) => {
+  const total = target.getTime() - currentTime.getTime();
 
   if (total <= 0) {
     return {
@@ -53,9 +52,14 @@ const CountdownTimer = () => {
     { label: 'Seconds', value: timeLeft.seconds },
   ];
 
+  const countdownDescriptionId = useId();
+
   return (
-    <div className="mx-auto max-w-3xl text-center">
-      <h2 className="text-3xl font-bold mb-6">Countdown to Kickoff</h2>
+    <div
+      className="mx-auto max-w-3xl text-center"
+      aria-describedby={countdownDescriptionId}
+    >
+      <h2 className="text-3xl font-bold mb-6 text-blue-900">Countdown to Kickoff</h2>
       {timeLeft.isPast ? (
         <p className="text-lg font-semibold" role="status" aria-live="polite">
           The FIFA World Cup 2026 has kicked off!
@@ -69,7 +73,7 @@ const CountdownTimer = () => {
           {segments.map((segment) => (
             <div
               key={segment.label}
-              className="bg-white/80 rounded-lg shadow px-6 py-4 min-w-[110px]"
+              className="bg-white/90 backdrop-blur-sm rounded-lg shadow px-6 py-4 min-w-[110px] border border-blue-100"
             >
               <div className="text-3xl font-extrabold text-blue-600" aria-hidden="true">
                 {segment.value.toString().padStart(2, '0')}
@@ -79,7 +83,9 @@ const CountdownTimer = () => {
           ))}
         </div>
       )}
-      <p className="mt-4 text-sm text-gray-500">until FIFA World Cup 2026</p>
+      <p id={countdownDescriptionId} className="mt-4 text-sm text-gray-600">
+        until FIFA World Cup 2026
+      </p>
     </div>
   );
 };

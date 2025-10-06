@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "emitDeclarationOnly": false,
+    "outDir": ".test-dist",
+    "module": "commonjs",
+    "target": "es2019",
+    "jsx": "react-jsx",
+    "lib": ["dom", "es2020"],
+    "types": ["node"],
+    "isolatedModules": false
+  },
+  "include": [
+    "app/components/CountdownTimer.tsx",
+    "app/components/ReelShowcase.tsx",
+    "content/reels.ts",
+    "tests/**/*.ts",
+    "types/**/*.d.ts"
+  ]
+}

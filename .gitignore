@@ -1,4 +1,3 @@
-@'
 # Dependencies
 node_modules/
 # Next.js
@@ -20,7 +19,5 @@ Thumbs.db
 .vercel/
 # Editor
 .vscode/
-'@ | Set-Content .gitignore
-
-# verify it exists
-Get-Content .gitignore
+# Test build artifacts
+.test-dist/
