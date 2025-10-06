@@ -3,6 +3,8 @@ import UpdatesTicker from '@/app/components/UpdatesTicker';
 import PostCard from '@/app/components/PostCard';
 import InstagramFeed from '@/app/components/InstagramFeed';
 import NewsletterCTA from '@/app/components/NewsletterCTA';
+import CountdownTimer from '@/app/components/CountdownTimer';
+import ReelShowcase from '@/app/components/ReelShowcase';
 import { getAllPosts } from '@/lib/posts';
 
 export default function HomePage() {
@@ -11,6 +13,9 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <section className="my-12">
+        <CountdownTimer />
+      </section>
       <section className="my-12">
         <h2 className="text-2xl font-bold mb-4">Latest Updates</h2>
         <UpdatesTicker />
@@ -22,6 +27,9 @@ export default function HomePage() {
             <PostCard key={post.slug} post={post} />
           ))}
         </div>
+      </section>
+      <section className="my-12">
+        <ReelShowcase />
       </section>
       <section className="my-12">
         <h2 className="text-2xl font-bold mb-4">From Instagram</h2>
