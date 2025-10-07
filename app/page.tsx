@@ -1,40 +1,30 @@
-import Link from 'next/link';
-
-import CountdownTimer from '@/app/components/CountdownTimer';
+import React from "react";
 
 export default function HomePage() {
   return (
     <main className="mx-auto max-w-5xl px-6 py-12">
-      <header className="text-center">
-        <h1 className="text-4xl font-extrabold tracking-tight text-emerald-700 md:text-5xl">
-          Countdown to FIFA World Cup 2026
-        </h1>
-        <p className="mt-3 text-base text-slate-600 md:text-lg">until FIFA World Cup 2026</p>
-      </header>
+      <h1 className="text-3xl font-bold">Countdown to FIFA World Cup 2026</h1>
+      <p className="mt-2 text-gray-600">until FIFA World Cup 2026</p>
 
-      <section className="mt-10">
-        <CountdownTimer />
+      <section className="mt-8">
+        {/* TODO: Replace with the project’s actual countdown component */}
+        <div className="rounded-lg border p-6">
+          <h2 className="text-xl font-semibold">Countdown</h2>
+          <p className="mt-2 text-gray-600">
+            Placeholder timer. Wire up the real component later.
+          </p>
+        </div>
       </section>
 
-      <section className="mt-12 grid gap-6 md:grid-cols-2">
-        <Link
-          href="/updates"
-          className="group rounded-2xl border border-emerald-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500"
-        >
-          <h2 className="text-xl font-semibold text-emerald-700">Latest Updates →</h2>
-          <p className="mt-2 text-sm text-slate-600">
-            Match news, releases, and site updates.
-          </p>
-        </Link>
-        <Link
-          href="/blog"
-          className="group rounded-2xl border border-blue-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
-        >
-          <h2 className="text-xl font-semibold text-blue-700">From the Blog →</h2>
-          <p className="mt-2 text-sm text-slate-600">
-            Articles on FIFA Collect and more.
-          </p>
-        </Link>
+      <section className="mt-10 grid gap-6 md:grid-cols-2">
+        <a href="/updates" className="rounded-lg border p-6 hover:bg-gray-50">
+          <h3 className="text-lg font-semibold">Latest Updates →</h3>
+          <p className="mt-2 text-gray-600">Match news and site updates.</p>
+        </a>
+        <a href="/blog" className="rounded-lg border p-6 hover:bg-gray-50">
+          <h3 className="text-lg font-semibold">From the Blog →</h3>
+          <p className="mt-2 text-gray-600">Articles on FIFA Collect and more.</p>
+        </a>
       </section>
     </main>
   );
