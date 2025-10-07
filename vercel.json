@@ -1,7 +1,9 @@
-@'
 {
+  "outputDirectory": ".next",
   "crons": [
-    { "path": "/api/updates", "schedule": "0 */4 * * *" }
+    {
+      "path": "/api/updates",
+      "schedule": "0 0 * * *"
+    }
   ]
 }
-'@ | Set-Content vercel.json

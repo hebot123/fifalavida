@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "npm run test:build && NODE_OPTIONS=\"--require ./tests/register-alias.cjs\" node --test .test-dist/tests/**/*.test.js",
+    "test:build": "rm -rf .test-dist && tsc --project tsconfig.test.json"
   },
   "dependencies": {
     "@mdx-js/react": "^3.1.1",

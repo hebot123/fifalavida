@@ -11,6 +11,11 @@ const withMDX = require('@next/mdx')({
 const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'mdx', 'md'],
   images: { domains: [] },
+  async redirects() {
+    return [
+      { source: '/', destination: '/updates', permanent: false },
+    ];
+  },
 };
 
 module.exports = withMDX(nextConfig);
