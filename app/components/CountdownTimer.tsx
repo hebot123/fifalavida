@@ -3,6 +3,7 @@
 import { useEffect, useId, useMemo, useState } from 'react';
 
 const KICKOFF_ISO = '2026-06-11T00:00:00-06:00';
+const SEGMENT_LABELS = ['Days', 'Hours', 'Minutes', 'Seconds'] as const;
 
 export const getTimeDifference = (target: Date, currentTime: Date = new Date()) => {
   const total = target.getTime() - currentTime.getTime();
@@ -45,48 +46,71 @@ const CountdownTimer = () => {
     return () => clearInterval(timer);
   }, [targetDate]);
 
-  const segments = [
-    { label: 'Days', value: timeLeft.days },
-    { label: 'Hours', value: timeLeft.hours },
-    { label: 'Minutes', value: timeLeft.minutes },
-    { label: 'Seconds', value: timeLeft.seconds },
-  ];
-
   const countdownDescriptionId = useId();
+  const headingId = useId();
+
+  const valuesByLabel: Record<(typeof SEGMENT_LABELS)[number], number> = {
+    Days: timeLeft.days,
+    Hours: timeLeft.hours,
+    Minutes: timeLeft.minutes,
+    Seconds: timeLeft.seconds,
+  };
+
+  const segments = SEGMENT_LABELS.map((label) => ({
+    label,
+    value: valuesByLabel[label],
+  }));
 
   return (
-    <div
-      className="mx-auto max-w-3xl text-center"
+    <section
+      aria-labelledby={headingId}
       aria-describedby={countdownDescriptionId}
+      className="relative mx-auto max-w-4xl overflow-hidden rounded-3xl bg-gradient-to-br from-emerald-600 via-blue-600 to-slate-900 px-6 py-12 text-center text-white shadow-2xl"
     >
-      <h2 className="text-3xl font-bold mb-6 text-blue-900">Countdown to Kickoff</h2>
-      {timeLeft.isPast ? (
-        <p className="text-lg font-semibold" role="status" aria-live="polite">
-          The FIFA World Cup 2026 has kicked off!
-        </p>
-      ) : (
-        <div
-          className="flex flex-wrap items-center justify-center gap-4"
-          role="timer"
-          aria-live="polite"
-        >
-          {segments.map((segment) => (
-            <div
-              key={segment.label}
-              className="bg-white/90 backdrop-blur-sm rounded-lg shadow px-6 py-4 min-w-[110px] border border-blue-100"
-            >
-              <div className="text-3xl font-extrabold text-blue-600" aria-hidden="true">
-                {segment.value.toString().padStart(2, '0')}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,215,0,0.28),transparent_65%)]"
+      />
+      <div className="relative z-10 flex flex-col items-center gap-6">
+        <h2 id={headingId} className="text-3xl font-extrabold tracking-tight">
+          Countdown to Kickoff
+        </h2>
+        {timeLeft.isPast ? (
+          <p
+            className="rounded-full bg-white/10 px-6 py-3 text-base font-semibold text-emerald-50 shadow-lg backdrop-blur"
+            role="status"
+            aria-live="polite"
+            aria-label="The FIFA World Cup 2026 has kicked off"
+          >
+            The FIFA World Cup 2026 has kicked off!
+          </p>
+        ) : (
+          <div
+            className="flex w-full flex-wrap items-center justify-center gap-4 md:gap-6"
+            role="timer"
+            aria-live="polite"
+            aria-label="Countdown to FIFA World Cup 2026 kickoff"
+          >
+            {segments.map((segment) => (
+              <div
+                key={segment.label}
+                className="flex min-w-[120px] flex-col items-center rounded-2xl border border-white/30 bg-white/15 px-6 py-5 shadow-lg backdrop-blur transition-transform duration-300 ease-out hover:-translate-y-1"
+              >
+                <span className="text-4xl font-black text-white" aria-hidden="true">
+                  {segment.value.toString().padStart(2, '0')}
+                </span>
+                <span className="mt-2 text-sm font-medium uppercase tracking-[0.2em] text-emerald-100">
+                  {segment.label}
+                </span>
               </div>
-              <span className="block text-sm font-medium text-gray-600">{segment.label}</span>
-            </div>
-          ))}
-        </div>
-      )}
-      <p id={countdownDescriptionId} className="mt-4 text-sm text-gray-600">
-        until FIFA World Cup 2026
-      </p>
-    </div>
+            ))}
+          </div>
+        )}
+        <p id={countdownDescriptionId} className="text-sm font-medium text-emerald-100">
+          until FIFA World Cup 2026
+        </p>
+      </div>
+    </section>
   );
 };
 
