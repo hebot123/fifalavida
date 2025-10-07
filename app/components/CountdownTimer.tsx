@@ -5,18 +5,29 @@ import { useEffect, useId, useMemo, useState } from 'react';
 const KICKOFF_ISO = '2026-06-11T00:00:00-06:00';
 const SEGMENT_LABELS = ['Days', 'Hours', 'Minutes', 'Seconds'] as const;
 
-export const getTimeDifference = (target: Date, currentTime: Date = new Date()) => {
+export type TimeDifference = {
+  readonly total: number;
+  readonly days: number;
+  readonly hours: number;
+  readonly minutes: number;
+  readonly seconds: number;
+  readonly isPast: boolean;
+};
+
+const createElapsedState = (): TimeDifference => ({
+  total: 0,
+  days: 0,
+  hours: 0,
+  minutes: 0,
+  seconds: 0,
+  isPast: true,
+});
+
+export const getTimeDifference = (target: Date, currentTime: Date = new Date()): TimeDifference => {
   const total = target.getTime() - currentTime.getTime();
 
   if (total <= 0) {
-    return {
-      total: 0,
-      days: 0,
-      hours: 0,
-      minutes: 0,
-      seconds: 0,
-      isPast: true,
-    } as const;
+    return createElapsedState();
   }
 
   const seconds = Math.floor((total / 1000) % 60);
@@ -36,9 +47,12 @@ export const getTimeDifference = (target: Date, currentTime: Date = new Date()) 
 
 const CountdownTimer = () => {
   const targetDate = useMemo(() => new Date(KICKOFF_ISO), []);
-  const [timeLeft, setTimeLeft] = useState(() => getTimeDifference(targetDate));
+  const [timeLeft, setTimeLeft] = useState<TimeDifference>(() => getTimeDifference(targetDate));
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
+    setIsClient(true);
+
     const timer = setInterval(() => {
       setTimeLeft(getTimeDifference(targetDate));
     }, 1000);
@@ -49,17 +63,26 @@ const CountdownTimer = () => {
   const countdownDescriptionId = useId();
   const headingId = useId();
 
-  const valuesByLabel: Record<(typeof SEGMENT_LABELS)[number], number> = {
-    Days: timeLeft.days,
-    Hours: timeLeft.hours,
-    Minutes: timeLeft.minutes,
-    Seconds: timeLeft.seconds,
-  };
+  const valuesByLabel: Record<(typeof SEGMENT_LABELS)[number], number> | null =
+    isClient && !timeLeft.isPast
+      ? {
+          Days: timeLeft.days,
+          Hours: timeLeft.hours,
+          Minutes: timeLeft.minutes,
+          Seconds: timeLeft.seconds,
+        }
+      : null;
 
-  const segments = SEGMENT_LABELS.map((label) => ({
-    label,
-    value: valuesByLabel[label],
-  }));
+  const segments = useMemo(
+    () =>
+      valuesByLabel
+        ? SEGMENT_LABELS.map((label) => ({
+            label,
+            value: valuesByLabel[label],
+          }))
+        : [],
+    [valuesByLabel],
+  );
 
   return (
     <section
@@ -75,7 +98,15 @@ const CountdownTimer = () => {
         <h2 id={headingId} className="text-3xl font-extrabold tracking-tight">
           Countdown to Kickoff
         </h2>
-        {timeLeft.isPast ? (
+        {!isClient ? (
+          <p
+            className="rounded-full bg-white/10 px-6 py-3 text-base font-semibold text-emerald-50 shadow-lg backdrop-blur"
+            role="status"
+            aria-live="polite"
+          >
+            Loading live countdown&hellip;
+          </p>
+        ) : timeLeft.isPast ? (
           <p
             className="rounded-full bg-white/10 px-6 py-3 text-base font-semibold text-emerald-50 shadow-lg backdrop-blur"
             role="status"
