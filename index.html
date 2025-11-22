@@ -481,26 +481,144 @@
                 }, 1000);
             },
 
-            // Tournament Logic (Data generation same as before)
+            // --- BRACKET ENGINE (RESTORED) ---
             matches: [],
             generateMatches: () => {
                 app.matches = [];
-                const officialVenues = { 1: "Azteca, Mexico City", 2: "Guadalajara", 104: "New York/New Jersey" }; // truncated for brevity
-                // Basic Loop to prevent crash if logic not fully expanded in this snippet
-                for(let i=1; i<=72; i++) {
-                    app.matches.push({id: i, stage: "Group Stage", group: "A", teamA: "TBD", teamB: "TBD", date: "June 11", stadium: "Azteca"});
+                const groups = ['A','B','C','D','E','F','G','H','I','J','K','L'];
+                const cities = ["Mexico City", "New York/NJ", "Dallas", "Kansas City", "Houston", "Atlanta", "Los Angeles", "Philadelphia", "Seattle", "San Francisco", "Boston", "Miami", "Toronto", "Vancouver", "Guadalajara", "Monterrey"];
+                
+                // 1. Generate Group Stage (6 matches * 12 groups = 72 matches)
+                let matchId = 1;
+                groups.forEach((g, index) => {
+                    const teams = index === 0 ? ["Mexico", "TBD", "TBD", "TBD"] : // Mexico in Group A
+                                  index === 1 ? ["Canada", "TBD", "TBD", "TBD"] : // Canada in Group B
+                                  index === 3 ? ["USA", "TBD", "TBD", "TBD"] :    // USA in Group D
+                                  ["TBD", "TBD", "TBD", "TBD"];
+                    
+                    // Simple Round Robin Logic
+                    const pairs = [[0,1], [2,3], [0,2], [1,3], [0,3], [1,2]];
+                    pairs.forEach((pair, pIdx) => {
+                         app.matches.push({
+                            id: matchId++,
+                            stage: "Group Stage",
+                            group: `Group ${g}`,
+                            teamA: teams[pair[0]],
+                            teamB: teams[pair[1]],
+                            date: `June ${11 + Math.floor(matchId/4)}`, // Fake dates
+                            stadium: cities[matchId % cities.length]
+                        });
+                    });
+                });
+
+                // 2. Round of 32 (16 Matches)
+                for(let i=0; i<16; i++) {
+                     app.matches.push({ id: matchId++, stage: "Round of 32", teamA: "Group Winner", teamB: "Group Runner-up", date: "June 28-July 3", stadium: cities[i%cities.length] });
                 }
-                for(let i=73; i<=104; i++) {
-                     app.matches.push({id: i, stage: "Knockout", teamA: "TBD", teamB: "TBD", date: "July", stadium: "TBD"});
+
+                // 3. Round of 16 (8 Matches)
+                for(let i=0; i<8; i++) {
+                     app.matches.push({ id: matchId++, stage: "Round of 16", teamA: "R32 Winner", teamB: "R32 Winner", date: "July 4-7", stadium: cities[i%cities.length] });
                 }
-                // (Note: full logic persists in memory if I didn't overwrite it, but for safety in this "fix" turn, I am providing a safe basic version. 
-                // To restore FULL bracket logic, I would copy the 100-line block from Version 6.0, but I will assume user wants the *fix* primarily).
+
+                // 4. Quarter Finals (4 Matches)
+                for(let i=0; i<4; i++) {
+                     app.matches.push({ id: matchId++, stage: "Quarter Final", teamA: "R16 Winner", teamB: "R16 Winner", date: "July 9-11", stadium: cities[i%cities.length] });
+                }
+
+                // 5. Semi Finals
+                app.matches.push({ id: 101, stage: "Semi Final", teamA: "QF Winner 1", teamB: "QF Winner 2", date: "July 14", stadium: "Dallas" });
+                app.matches.push({ id: 102, stage: "Semi Final", teamA: "QF Winner 3", teamB: "QF Winner 4", date: "July 15", stadium: "Atlanta" });
+
+                // 6. Finals
+                app.matches.push({ id: 103, stage: "Third Place", teamA: "Semi Loser 1", teamB: "Semi Loser 2", date: "July 18", stadium: "Miami" });
+                app.matches.push({ id: 104, stage: "Final", teamA: "Semi Winner 1", teamB: "Semi Winner 2", date: "July 19", stadium: "New York/New Jersey" });
             },
-            
-            // ... (Rest of logic: setFilter, getMatchCard same as previous versions)
-            setFilter: (type) => { app.state.filter = type; app.renderMatches(); },
-            renderMatches: () => { /* ... */ },
-            getMatchCard: (m) => { /* ... */ }
+
+            setFilter: (type) => { 
+                app.state.filter = type;
+                
+                // Update Button Styles
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('bg-white', 'text-black', 'shadow-[0_0_15px_rgba(255,255,255,0.2)]');
+                    btn.classList.add('text-gray-500', 'hover:text-white');
+                    if(btn.id === `btn-${type}`) {
+                         btn.classList.add('bg-white', 'text-black', 'shadow-[0_0_15px_rgba(255,255,255,0.2)]');
+                         btn.classList.remove('text-gray-500', 'hover:text-white');
+                    }
+                });
+
+                app.renderMatches(); 
+            },
+
+            renderMatches: () => {
+                const container = document.getElementById('matches-container');
+                container.innerHTML = '';
+
+                let filtered = app.matches;
+                if(app.state.filter === 'group') filtered = app.matches.filter(m => m.stage === "Group Stage");
+                if(app.state.filter === 'knockout') filtered = app.matches.filter(m => m.stage !== "Group Stage");
+
+                // Render
+                if(app.state.filter === 'calendar') {
+                    // Simple Calendar View
+                    container.innerHTML = `<div class="text-center py-20 text-gray-500">Calendar View Coming Soon</div>`;
+                    return;
+                }
+
+                // Group matches by Stage for cleaner UI
+                const groups = {};
+                filtered.forEach(m => {
+                    const key = m.stage === "Group Stage" ? m.group : m.stage;
+                    if(!groups[key]) groups[key] = [];
+                    groups[key].push(m);
+                });
+
+                Object.keys(groups).forEach(groupName => {
+                    const groupTitle = document.createElement('h3');
+                    groupTitle.className = "text-2xl font-oswald text-emerald-400 mt-8 mb-4 border-b border-white/10 pb-2";
+                    groupTitle.innerText = groupName;
+                    container.appendChild(groupTitle);
+
+                    const grid = document.createElement('div');
+                    grid.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4";
+                    
+                    groups[groupName].forEach(match => {
+                        grid.innerHTML += app.getMatchCard(match);
+                    });
+                    container.appendChild(grid);
+                });
+                lucide.createIcons();
+            },
+
+            getMatchCard: (m) => {
+                const isKnockout = m.stage !== "Group Stage";
+                const cardClass = isKnockout ? "border-emerald-500/30 bg-emerald-900/10" : "border-white/10 bg-white/5";
+                
+                return `
+                <div class="border ${cardClass} rounded-lg p-4 hover:bg-white/10 transition group relative overflow-hidden">
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="text-xs font-bold text-gray-500 uppercase tracking-widest">Match ${m.id}</div>
+                        <div class="text-xs text-gray-400 flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> ${m.stadium}</div>
+                    </div>
+                    
+                    <div class="flex justify-between items-center mb-2">
+                        <div class="flex items-center gap-2 font-bold text-lg">
+                            ${getFlagHTML(m.teamA)} ${m.teamA}
+                        </div>
+                        <div class="text-gray-600 font-mono text-sm">vs</div>
+                        <div class="flex items-center gap-2 font-bold text-lg">
+                            ${m.teamB} ${getFlagHTML(m.teamB)}
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-3 border-t border-white/5 flex justify-between items-center">
+                         <span class="text-xs text-emerald-400 font-bold uppercase">${m.date}</span>
+                         <button class="text-xs bg-white/10 hover:bg-white hover:text-black px-2 py-1 rounded transition">Get Tickets</button>
+                    </div>
+                </div>
+                `;
+            }
         };
 
         window.addEventListener('DOMContentLoaded', app.init);
