@@ -254,18 +254,88 @@
     <script>
         // --- HELPERS (Flags) ---
         const countryCodes = { "Mexico": "mx", "Canada": "ca", "USA": "us", "Argentina": "ar", "Brazil": "br", "France": "fr", "Germany": "de", "Spain": "es", "England": "gb-eng", "Portugal": "pt", "Netherlands": "nl", "Italy": "it", "Belgium": "be", "Croatia": "hr", "Uruguay": "uy", "Colombia": "co", "Japan": "jp", "South Korea": "kr", "Australia": "au", "Morocco": "ma", "Senegal": "sn", "Cameroon": "cm", "Ghana": "gh", "Saudi Arabia": "sa", "Iran": "ir", "Qatar": "qa", "Switzerland": "ch", "Denmark": "dk", "Sweden": "se", "Poland": "pl" };
+        
         function getFlagHTML(teamName) {
+            // Strip HTML tags if any (passed from TBD logic)
             const cleanName = teamName.replace(/<[^>]*>?/gm, '').trim();
             if (countryCodes[cleanName]) return `<img src="https://flagcdn.com/24x18/${countryCodes[cleanName]}.png" class="w-5 h-3.5 object-cover rounded-sm shadow-sm inline-block mr-2">`;
             return `<i data-lucide="globe" class="w-4 h-4 text-gray-600 inline-block mr-2 align-middle"></i>`;
         }
+
+        // --- BRACKET DATA ---
+        const officialVenues = {
+            1: "Azteca, Mexico City", 2: "Guadalajara", 3: "Toronto", 4: "Los Angeles",
+            5: "Boston", 6: "Vancouver", 7: "New York/New Jersey", 8: "San Francisco",
+            9: "Philadelphia", 10: "Houston", 11: "Dallas", 12: "Monterrey",
+            13: "Miami", 14: "Atlanta", 15: "Los Angeles", 16: "Seattle",
+            17: "New York/New Jersey", 18: "Boston", 19: "Kansas City", 20: "San Francisco",
+            21: "Toronto", 22: "Dallas", 23: "Houston", 24: "Azteca, Mexico City",
+            25: "Atlanta", 26: "Los Angeles", 27: "Vancouver", 28: "Guadalajara",
+            29: "Philadelphia", 30: "Boston", 31: "San Francisco", 32: "Seattle",
+            33: "Toronto", 34: "Kansas City", 35: "Houston", 36: "Monterrey",
+            37: "Miami", 38: "Atlanta", 39: "Los Angeles", 40: "Vancouver",
+            41: "New York/New Jersey", 42: "Philadelphia", 43: "Dallas", 44: "San Francisco",
+            45: "Boston", 46: "Toronto", 47: "Houston", 48: "Guadalajara",
+            49: "Miami", 50: "Atlanta", 51: "Vancouver", 52: "Seattle",
+            53: "Azteca, Mexico City", 54: "Monterrey", 55: "Philadelphia", 56: "New York/New Jersey",
+            57: "Dallas", 58: "Kansas City", 59: "Los Angeles", 60: "San Francisco",
+            61: "Boston", 62: "Toronto", 63: "Seattle", 64: "Vancouver",
+            65: "Houston", 66: "Guadalajara", 67: "New York/New Jersey", 68: "Philadelphia",
+            69: "Kansas City", 70: "Dallas", 71: "Miami", 72: "Atlanta",
+            73: "Los Angeles", 74: "Boston", 75: "Monterrey", 76: "Houston",
+            77: "New York/New Jersey", 78: "Dallas", 79: "Azteca, Mexico City", 80: "Atlanta",
+            81: "San Francisco", 82: "Seattle", 83: "Toronto", 84: "Los Angeles",
+            85: "Vancouver", 86: "Miami", 87: "Kansas City", 88: "Dallas",
+            89: "Philadelphia", 90: "Houston", 91: "New York/New Jersey", 92: "Azteca, Mexico City",
+            93: "Dallas", 94: "Seattle", 95: "Atlanta", 96: "Vancouver",
+            97: "Boston", 98: "Los Angeles", 99: "Miami", 100: "Kansas City",
+            101: "Dallas", 102: "Atlanta", 103: "Miami", 104: "New York/New Jersey"
+        };
+
+        const officialGroups = {
+            1: 'A', 2: 'A', 25: 'A', 28: 'A', 53: 'A', 54: 'A',
+            3: 'B', 8: 'B', 26: 'B', 27: 'B', 51: 'B', 52: 'B',
+            5: 'C', 7: 'C', 29: 'C', 30: 'C', 49: 'C', 50: 'C',
+            4: 'D', 6: 'D', 31: 'D', 32: 'D', 59: 'D', 60: 'D',
+            9: 'E', 10: 'E', 33: 'E', 34: 'E', 55: 'E', 56: 'E',
+            11: 'F', 12: 'F', 35: 'F', 36: 'F', 57: 'F', 58: 'F',
+            15: 'G', 16: 'G', 39: 'G', 40: 'G', 63: 'G', 64: 'G',
+            13: 'H', 14: 'H', 37: 'H', 38: 'H', 65: 'H', 66: 'H',
+            17: 'I', 18: 'I', 41: 'I', 42: 'I', 61: 'I', 62: 'I',
+            19: 'J', 20: 'J', 43: 'J', 44: 'J', 69: 'J', 70: 'J',
+            23: 'K', 24: 'K', 47: 'K', 48: 'K', 71: 'K', 72: 'K',
+            21: 'L', 22: 'L', 45: 'L', 46: 'L', 67: 'L', 68: 'L'
+        };
+
+        const knockoutMapping = {
+            73: ["Group A 2nd", "Group B 2nd", "June 28"], 74: ["Group E Winner", "Group A/B/C/D/F 3rd", "June 29"],
+            75: ["Group F Winner", "Group C 2nd", "June 29"], 76: ["Group C Winner", "Group F 2nd", "June 29"],
+            77: ["Group I Winner", "Group C/D/F/G/H 3rd", "June 30"], 78: ["Group E 2nd", "Group I 2nd", "June 30"],
+            79: ["Group A Winner", "Group C/E/F/H/I 3rd", "June 30"], 80: ["Group L Winner", "Group E/H/I/J/K 3rd", "July 1"],
+            81: ["Group D Winner", "Group B/E/F/I/J 3rd", "July 1"], 82: ["Group G Winner", "Group A/E/H/I/J 3rd", "July 1"],
+            83: ["Group K 2nd", "Group L 2nd", "July 2"], 84: ["Group H Winner", "Group J 2nd", "July 2"],
+            85: ["Group B Winner", "Group E/F/G/I/J 3rd", "July 2"], 86: ["Group J Winner", "Group H 2nd", "July 3"],
+            87: ["Group K Winner", "Group D/E/I/J/L 3rd", "July 3"], 88: ["Group D 2nd", "Group G 2nd", "July 3"],
+            
+            89: ["Winner Match 74", "Winner Match 77", "July 4"], 90: ["Winner Match 73", "Winner Match 75", "July 4"],
+            91: ["Winner Match 76", "Winner Match 78", "July 5"], 92: ["Winner Match 79", "Winner Match 80", "July 5"],
+            93: ["Winner Match 83", "Winner Match 84", "July 6"], 94: ["Winner Match 81", "Winner Match 82", "July 6"],
+            95: ["Winner Match 86", "Winner Match 88", "July 7"], 96: ["Winner Match 85", "Winner Match 87", "July 7"],
+            
+            97: ["Winner Match 89", "Winner Match 90", "July 9"], 98: ["Winner Match 93", "Winner Match 94", "July 10"],
+            99: ["Winner Match 91", "Winner Match 92", "July 11"], 100: ["Winner Match 95", "Winner Match 96", "July 11"],
+            
+            101: ["Winner Match 97", "Winner Match 98", "July 14"], 102: ["Winner Match 99", "Winner Match 100", "July 15"],
+            
+            103: ["Loser Match 101", "Loser Match 102", "July 18"], 104: ["Winner Match 101", "Winner Match 102", "July 19"]
+        };
 
         // --- APP ENGINE ---
         const app = {
             state: { view: 'home', filter: 'all' },
             newsData: [], 
             
-            // FALLBACK DATA (For Canvas/Preview Mode)
+            // FALLBACK DATA
             fallbackData: [
                  {
                     id: 1,
@@ -273,15 +343,9 @@
                     category: "Bracket Analysis",
                     image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
                     date: "Oct 26, 2025",
-                    snippet: "Why finishing second in Group C might be a tactical masterstroke to avoid the tournament favorites in the Round of 32.",
+                    snippet: "Why finishing second in Group C might be a tactical masterstroke.",
                     filename: "article-1.html",
-                    content: `
-                        <p class="lead mb-6 text-xl text-gray-300">In the expanded 48-team format, winning your group isn't always the golden ticket it used to be.</p>
-                        <p class="mb-4">Our simulation of the Group C bracket path reveals a startling anomaly. The winner of Group C is projected to face the runner-up of Group F in the Round of 32—a spot historically occupied by European heavyweights like Germany or France.</p>
-                        <p class="mb-4">However, the runner-up of Group C enters the lower bracket half, potentially facing a 'best 3rd place' team. For mid-tier nations, tactical losses in the final group game could be the difference between a Quarter-final run and an early exit.</p>
-                        <h3 class="text-2xl font-bold text-white mt-8 mb-4">The Data</h3>
-                        <p class="mb-4">Running 10,000 simulations, the Group C runner-up reaches the Quarter-finals 18% more often than the Group Winner.</p>
-                    `
+                    content: `<p>Article Content...</p>`
                 },
                 {
                     id: 2,
@@ -289,17 +353,9 @@
                     category: "Scouting",
                     image: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
                     date: "Oct 24, 2025",
-                    snippet: "The classic playmaker is evolving. We analyze three young stars redefining the role before 2026.",
+                    snippet: "The classic playmaker is evolving.",
                     filename: "article-2.html",
-                    content: `
-                        <p class="lead mb-6 text-xl text-gray-300">The era of the stationary #10 is dead. The 2026 World Cup will belong to the hybrid playmaker.</p>
-                        <p class="mb-4">We are tracking the progress of three key players:</p>
-                        <ul class="list-disc pl-5 mb-4 space-y-2 text-gray-400">
-                            <li><strong>Florian Wirtz (Germany):</strong> Averaging 3.4 key passes per game, he operates in the half-spaces like a phantom.</li>
-                            <li><strong>Jamal Musiala (Germany):</strong> His dribble success rate (68%) makes him the ultimate low-block breaker.</li>
-                            <li><strong>Kendry Páez (Ecuador):</strong> The teenage sensation will likely be the youngest starter in the tournament, bringing fearless creativity.</li>
-                        </ul>
-                    `
+                    content: `<p>Article Content...</p>`
                 },
                 {
                     id: 3,
@@ -307,13 +363,9 @@
                     category: "Tactics",
                     image: "https://images.unsplash.com/photo-1522778119026-d647f0565c6a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
                     date: "Oct 22, 2025",
-                    snippet: "Heat, travel, and wide pitches. Why the wing-back system is the meta for the 2026 conditions.",
+                    snippet: "Heat, travel, and wide pitches.",
                     filename: "article-3.html",
-                    content: `
-                        <p class="lead mb-6 text-xl text-gray-300">The conditions in 2026 will be unlike any European World Cup. The travel distances are vast, and the summer heat in cities like Miami and Dallas will be punishing.</p>
-                        <p class="mb-4">Historically, back-three systems perform better in high-temperature tournaments (see: 2002, 2014). By utilizing wing-backs, teams can conserve energy in central areas while creating overload in wide channels.</p>
-                        <p class="mb-4">Expect managers to abandon the high-pressing 4-3-3 for a more compact 3-5-2 that prioritizes transition speed over possession.</p>
-                    `
+                    content: `<p>Article Content...</p>`
                 }
             ],
 
@@ -321,7 +373,7 @@
                 lucide.createIcons();
                 app.startCountdown();
                 app.generateMatches();
-                app.fetchNews(); // NEW: Fetch external news list
+                app.fetchNews();
                 
                 document.getElementById('mobile-menu-btn').addEventListener('click', () => {
                     document.getElementById('mobile-menu').classList.toggle('hidden');
@@ -329,24 +381,17 @@
             },
 
             // --- EXTERNAL CONTENT LOADING ---
-            
             fetchNews: async () => {
                 try {
-                    // Try to fetch the manifest file (Standard path)
                     const response = await fetch('news.json');
                     if (!response.ok) throw new Error("Could not fetch news manifest");
                     app.newsData = await response.json();
                 } catch (e) {
-                    // SILENT FAILURE / FALLBACK
-                    // This is expected in Canvas/Preview since news.json doesn't exist here.
                     console.log("Using internal fallback data (Preview Mode)");
                     app.newsData = app.fallbackData;
                 }
-                
-                // Update UI (Runs for both Success and Fallback)
                 const loading = document.getElementById('home-news-loading');
                 if(loading) loading.classList.add('hidden');
-                
                 document.getElementById('home-news-grid').classList.remove('hidden');
                 app.renderNews();
             },
@@ -358,11 +403,9 @@
                     if (!response.ok) throw new Error("External file not found");
                     return await response.text();
                 } catch (e) {
-                    // FALLBACK FOR ARTICLE CONTENT
                     const fallback = app.newsData.find(n => n.id === articleId);
                     if(fallback && fallback.content) return fallback.content;
-                    
-                    return "<p>Article content could not be loaded. (Please check your 'articles' folder).</p>";
+                    return "<p>Article content could not be loaded.</p>";
                 }
             },
 
@@ -381,7 +424,6 @@
                     document.getElementById(`${viewName}-view`).classList.remove('hidden');
                 }
                 
-                // Active Nav State logic
                 document.querySelectorAll('.nav-btn').forEach(btn => {
                     if(btn.dataset.target === viewName) {
                         btn.classList.remove('text-gray-300', 'bg-white/10');
@@ -403,11 +445,9 @@
                 const contentDiv = document.getElementById('article-content');
                 const loader = document.getElementById('article-loader');
                 
-                // Show loader, hide old content
                 contentDiv.innerHTML = '';
                 loader.classList.remove('hidden');
 
-                // Fetch the body content from the file
                 const bodyHTML = await app.loadArticleContent(article.filename, article.id);
 
                 loader.classList.add('hidden');
@@ -481,143 +521,155 @@
                 }, 1000);
             },
 
-            // --- BRACKET ENGINE (RESTORED) ---
+            // --- BRACKET ENGINE (RESTORED FROM PREVIOUS VERSION) ---
             matches: [],
+            
             generateMatches: () => {
-                app.matches = [];
-                const groups = ['A','B','C','D','E','F','G','H','I','J','K','L'];
-                const cities = ["Mexico City", "New York/NJ", "Dallas", "Kansas City", "Houston", "Atlanta", "Los Angeles", "Philadelphia", "Seattle", "San Francisco", "Boston", "Miami", "Toronto", "Vancouver", "Guadalajara", "Monterrey"];
-                
-                // 1. Generate Group Stage (6 matches * 12 groups = 72 matches)
-                let matchId = 1;
-                groups.forEach((g, index) => {
-                    const teams = index === 0 ? ["Mexico", "TBD", "TBD", "TBD"] : // Mexico in Group A
-                                  index === 1 ? ["Canada", "TBD", "TBD", "TBD"] : // Canada in Group B
-                                  index === 3 ? ["USA", "TBD", "TBD", "TBD"] :    // USA in Group D
-                                  ["TBD", "TBD", "TBD", "TBD"];
+                app.matches = []; // Clear existing
+
+                // Helper for Pots
+                function getPotTBD(matchIndex, side) {
+                     const pattern = [[1, 2], [3, 4], [1, 3], [2, 4], [4, 1], [2, 3]];
+                     const patternIndex = (matchIndex - 1) % 6; 
+                     const pot = pattern[patternIndex][side === 'A' ? 0 : 1];
+                     return `TBD <span class="text-gray-600 font-normal text-[10px] ml-1">(Pot ${pot})</span>`;
+                }
+
+                // 1. Group Stage Loop (1-72)
+                for(let i=1; i<=72; i++) {
+                    let date = `June ${11 + Math.floor((i-1)/4)}`;
+                    let stad = officialVenues[i] || "TBD";
+                    let groupLabel = officialGroups[i] || 'A'; 
                     
-                    // Simple Round Robin Logic
-                    const pairs = [[0,1], [2,3], [0,2], [1,3], [0,3], [1,2]];
-                    pairs.forEach((pair, pIdx) => {
-                         app.matches.push({
-                            id: matchId++,
-                            stage: "Group Stage",
-                            group: `Group ${g}`,
-                            teamA: teams[pair[0]],
-                            teamB: teams[pair[1]],
-                            date: `June ${11 + Math.floor(matchId/4)}`, // Fake dates
-                            stadium: cities[matchId % cities.length]
-                        });
+                    let tA = getPotTBD(i, 'A');
+                    let tB = getPotTBD(i, 'B');
+
+                    // Hardcoded Hosts Logic
+                    if(i === 1) { tA = "Mexico"; tB = getPotTBD(i, 'B'); date = "June 11"; }
+                    if(i === 3) { tA = "Canada"; tB = getPotTBD(i, 'B'); date = "June 12"; }
+                    if(i === 4) { tA = "USA"; tB = getPotTBD(i, 'B'); date = "June 12"; }
+
+                    app.matches.push({
+                        id: i,
+                        stage: "Group Stage",
+                        group: groupLabel,
+                        teamA: tA,
+                        teamB: tB,
+                        date: date,
+                        stadium: stad
                     });
-                });
-
-                // 2. Round of 32 (16 Matches)
-                for(let i=0; i<16; i++) {
-                     app.matches.push({ id: matchId++, stage: "Round of 32", teamA: "Group Winner", teamB: "Group Runner-up", date: "June 28-July 3", stadium: cities[i%cities.length] });
                 }
 
-                // 3. Round of 16 (8 Matches)
-                for(let i=0; i<8; i++) {
-                     app.matches.push({ id: matchId++, stage: "Round of 16", teamA: "R32 Winner", teamB: "R32 Winner", date: "July 4-7", stadium: cities[i%cities.length] });
+                // 2. Knockout Loop (73-104)
+                for(let i=73; i<=104; i++) {
+                    const data = knockoutMapping[i];
+                    let stageName = "Round of 32";
+                    if(i > 88) stageName = "Round of 16";
+                    if(i > 96) stageName = "Quarter-Final";
+                    if(i > 100) stageName = "Semi-Final";
+                    if(i === 103) stageName = "Bronze Final";
+                    if(i === 104) stageName = "FINAL";
+
+                    app.matches.push({
+                        id: i,
+                        stage: stageName,
+                        teamA: data[0],
+                        teamB: data[1],
+                        date: data[2],
+                        stadium: officialVenues[i] || "TBD"
+                    });
                 }
-
-                // 4. Quarter Finals (4 Matches)
-                for(let i=0; i<4; i++) {
-                     app.matches.push({ id: matchId++, stage: "Quarter Final", teamA: "R16 Winner", teamB: "R16 Winner", date: "July 9-11", stadium: cities[i%cities.length] });
-                }
-
-                // 5. Semi Finals
-                app.matches.push({ id: 101, stage: "Semi Final", teamA: "QF Winner 1", teamB: "QF Winner 2", date: "July 14", stadium: "Dallas" });
-                app.matches.push({ id: 102, stage: "Semi Final", teamA: "QF Winner 3", teamB: "QF Winner 4", date: "July 15", stadium: "Atlanta" });
-
-                // 6. Finals
-                app.matches.push({ id: 103, stage: "Third Place", teamA: "Semi Loser 1", teamB: "Semi Loser 2", date: "July 18", stadium: "Miami" });
-                app.matches.push({ id: 104, stage: "Final", teamA: "Semi Winner 1", teamB: "Semi Winner 2", date: "July 19", stadium: "New York/New Jersey" });
             },
 
-            setFilter: (type) => { 
+            setFilter: (type) => {
                 app.state.filter = type;
-                
-                // Update Button Styles
+                // Update UI Buttons
                 document.querySelectorAll('.filter-btn').forEach(btn => {
-                    btn.classList.remove('bg-white', 'text-black', 'shadow-[0_0_15px_rgba(255,255,255,0.2)]');
-                    btn.classList.add('text-gray-500', 'hover:text-white');
                     if(btn.id === `btn-${type}`) {
-                         btn.classList.add('bg-white', 'text-black', 'shadow-[0_0_15px_rgba(255,255,255,0.2)]');
-                         btn.classList.remove('text-gray-500', 'hover:text-white');
+                        btn.classList.remove('text-gray-500');
+                        btn.classList.add('bg-white', 'text-black', 'shadow-[0_0_15px_rgba(255,255,255,0.2)]');
+                    } else {
+                        btn.classList.add('text-gray-500');
+                        btn.classList.remove('bg-white', 'text-black', 'shadow-[0_0_15px_rgba(255,255,255,0.2)]');
                     }
                 });
-
-                app.renderMatches(); 
+                app.renderMatches();
             },
 
             renderMatches: () => {
                 const container = document.getElementById('matches-container');
                 container.innerHTML = '';
+                
+                let data = app.matches;
+                if(app.state.filter === 'group') data = data.filter(m => m.id <= 72);
+                if(app.state.filter === 'knockout') data = data.filter(m => m.id > 72);
 
-                let filtered = app.matches;
-                if(app.state.filter === 'group') filtered = app.matches.filter(m => m.stage === "Group Stage");
-                if(app.state.filter === 'knockout') filtered = app.matches.filter(m => m.stage !== "Group Stage");
-
-                // Render
+                // Render Calendar View Special Case
                 if(app.state.filter === 'calendar') {
-                    // Simple Calendar View
-                    container.innerHTML = `<div class="text-center py-20 text-gray-500">Calendar View Coming Soon</div>`;
-                    return;
-                }
-
-                // Group matches by Stage for cleaner UI
-                const groups = {};
-                filtered.forEach(m => {
-                    const key = m.stage === "Group Stage" ? m.group : m.stage;
-                    if(!groups[key]) groups[key] = [];
-                    groups[key].push(m);
-                });
-
-                Object.keys(groups).forEach(groupName => {
-                    const groupTitle = document.createElement('h3');
-                    groupTitle.className = "text-2xl font-oswald text-emerald-400 mt-8 mb-4 border-b border-white/10 pb-2";
-                    groupTitle.innerText = groupName;
-                    container.appendChild(groupTitle);
-
-                    const grid = document.createElement('div');
-                    grid.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4";
+                    container.className = "flex flex-col gap-8 max-w-4xl mx-auto";
+                    const dates = [...new Set(app.matches.map(m => m.date))];
                     
-                    groups[groupName].forEach(match => {
-                        grid.innerHTML += app.getMatchCard(match);
+                    dates.slice(0, 10).forEach(date => { // Show first 10 days
+                        const dayMatches = app.matches.filter(m => m.date === date);
+                        const section = document.createElement('div');
+                        section.className = "pl-6 border-l border-white/20 relative pb-8";
+                        section.innerHTML = `
+                            <div class="absolute -left-[5px] top-0 w-2.5 h-2.5 bg-emerald-500 rounded-full"></div>
+                            <h3 class="text-xl font-bold mb-4 text-emerald-400 font-mono uppercase">${date}</h3>
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                ${dayMatches.map(m => app.getMatchCard(m)).join('')}
+                            </div>
+                        `;
+                        container.appendChild(section);
                     });
-                    container.appendChild(grid);
-                });
+                } else {
+                    // Standard Grid
+                    container.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4";
+                    data.forEach(m => {
+                        container.innerHTML += app.getMatchCard(m);
+                    });
+                }
                 lucide.createIcons();
             },
 
-            getMatchCard: (m) => {
-                const isKnockout = m.stage !== "Group Stage";
-                const cardClass = isKnockout ? "border-emerald-500/30 bg-emerald-900/10" : "border-white/10 bg-white/5";
+            getMatchCard: (match) => {
+                const isGroup = match.stage === 'Group Stage';
+                const groupBadge = isGroup ? `<span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-1.5 py-0.5 rounded ml-2 border border-emerald-500/20">GRP ${match.group}</span>` : '';
                 
+                const rawTeamA = match.teamA.replace(/<[^>]*>?/gm, '');
+                const rawTeamB = match.teamB.replace(/<[^>]*>?/gm, '');
+                const searchQuery = encodeURIComponent(`FIFA World Cup 2026 Match ${match.id} ${rawTeamA} vs ${rawTeamB} tickets`);
+                const searchUrl = `https://www.google.com/search?q=${searchQuery}`;
+
                 return `
-                <div class="border ${cardClass} rounded-lg p-4 hover:bg-white/10 transition group relative overflow-hidden">
-                    <div class="flex justify-between items-start mb-4">
-                        <div class="text-xs font-bold text-gray-500 uppercase tracking-widest">Match ${m.id}</div>
-                        <div class="text-xs text-gray-400 flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> ${m.stadium}</div>
+                <div class="bg-white/5 border border-white/10 rounded p-4 hover:bg-white/10 transition group relative overflow-hidden">
+                    <div class="flex justify-between items-center mb-4 text-xs uppercase tracking-wider">
+                        <div class="flex items-center text-gray-500 font-bold">
+                            Match ${match.id} ${groupBadge}
+                        </div>
+                        <span class="text-gray-400">${match.date}</span>
                     </div>
                     
-                    <div class="flex justify-between items-center mb-2">
-                        <div class="flex items-center gap-2 font-bold text-lg">
-                            ${getFlagHTML(m.teamA)} ${m.teamA}
+                    <div class="space-y-3 mb-4">
+                        <div class="flex items-center">
+                            ${getFlagHTML(match.teamA)}
+                            <span class="font-bold text-gray-200 text-sm md:text-base">${match.teamA}</span>
                         </div>
-                        <div class="text-gray-600 font-mono text-sm">vs</div>
-                        <div class="flex items-center gap-2 font-bold text-lg">
-                            ${m.teamB} ${getFlagHTML(m.teamB)}
+                        <div class="flex items-center">
+                            ${getFlagHTML(match.teamB)}
+                            <span class="font-bold text-gray-200 text-sm md:text-base">${match.teamB}</span>
                         </div>
                     </div>
 
-                    <div class="mt-4 pt-3 border-t border-white/5 flex justify-between items-center">
-                         <span class="text-xs text-emerald-400 font-bold uppercase">${m.date}</span>
-                         <button class="text-xs bg-white/10 hover:bg-white hover:text-black px-2 py-1 rounded transition">Get Tickets</button>
+                    <div class="border-t border-white/10 pt-3 flex justify-between items-center text-xs text-gray-500">
+                        <div class="truncate max-w-[50%] flex items-center gap-1">
+                            <i data-lucide="map-pin" class="w-3 h-3"></i> ${match.stadium}
+                        </div>
+                        <a href="${searchUrl}" target="_blank" class="text-emerald-400 hover:text-white transition font-bold uppercase flex items-center gap-1">
+                            Find Tickets <i data-lucide="external-link" class="w-3 h-3"></i>
+                        </a>
                     </div>
-                </div>
-                `;
+                </div>`;
             }
         };
 
