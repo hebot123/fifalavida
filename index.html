@@ -1,75 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>    <meta property="og:image" content="https://fifalavida.com/og-image.jpg">
+    <meta property="og:description" content="The unofficial heartbeat of the 2026 World Cup. 104 Matches. 48 Teams. 3 Host Nations.">
+    <meta property="og:title" content="FIFA La Vida | World Cup 26™ Hub">
+    <meta property="og:url" content="https://fifalavida.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FIFA La Vida | World Cup 26™ Hub">
+    <meta name="twitter:description" content="The unofficial heartbeat of the 2026 World Cup. 104 Matches. 48 Teams. 3 Host Nations.">
+    <meta name="twitter:image" content="https://fifalavida.com/og-image.jpg">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIFA La Vida | World Cup 26™ Hub</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Leaflet for interactive map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-sA+e2s7w1mQ2b9R9t7VDa0p3xR9p7kGk5x0fXv+ZQmM=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j8GkYfZ2bqg7J3gYp3K8f6s3j9k1y0M3yZ6Y7FQ=" crossorigin=""></script>
+    <!-- LOAD MATCH ENGINE -->
+    <script src="match-logic.js"></script> 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        /* Brand Fonts */
         body { font-family: 'Inter', sans-serif; }
         h1, h2, h3, h4, h5, h6, .brand-font { font-family: 'Oswald', sans-serif; text-transform: uppercase; }
-        
-        /* FIFA 26™ Inspired Theme - High Contrast */
-        :root {
-            --brand-black: #000000;
-            --brand-white: #FFFFFF;
-            --brand-accent: #34D399; /* Emerald-ish accent for data */
-        }
-
-        /* Custom Patterns */
-        .brand-pattern {
-            background-color: #000000;
-            background-image: radial-gradient(#333 1px, transparent 1px);
-            background-size: 20px 20px;
-        }
-
-        /* Scrollbar */
+        :root { --brand-black: #000000; --brand-white: #FFFFFF; --brand-accent: #34D399; }
+        .brand-pattern { background-color: #000000; background-image: radial-gradient(#333 1px, transparent 1px); background-size: 20px 20px; }
         ::-webkit-scrollbar { width: 6px; height: 6px; }
         ::-webkit-scrollbar-track { background: #111; }
         ::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
         ::-webkit-scrollbar-thumb:hover { background: #fff; }
-
-        /* Animations */
-        @keyframes pulse-live {
-            0% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.4); }
-            70% { box-shadow: 0 0 0 6px rgba(52, 211, 153, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); }
-        }
-        .live-indicator {
-            animation: pulse-live 2s infinite;
-        }
-        
-        .article-card:hover img {
-            transform: scale(1.05);
-        }
-        
-        /* Utility for hiding scrollbar but keeping functionality */
-        .no-scrollbar::-webkit-scrollbar {
-            display: none;
-        }
-        .no-scrollbar {
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-        
-        /* Countdown Box Style */
-        .countdown-box {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(5px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
+        @keyframes pulse-live { 0% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.4); } 70% { box-shadow: 0 0 0 6px rgba(52, 211, 153, 0); } 100% { box-shadow: 0 0 0 0 rgba(52, 211, 153, 0); } }
+        .live-indicator { animation: pulse-live 2s infinite; }
+        .article-card:hover img { transform: scale(1.05); }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .countdown-box { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255, 255, 255, 0.2); }
+        .venue-pin { transition: all 0.3s; cursor: pointer; }
+        .venue-pin:hover { transform: scale(1.5); fill: #34D399; }
     </style>
 </head>
 <body class="bg-black text-white flex flex-col min-h-screen selection:bg-emerald-500 selection:text-black">
 
     <!-- Navigation -->
     <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-50 backdrop-blur-md">
-        <div class="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
-                <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center gap-3 cursor-pointer group" onclick="app.router('home')">
                     <div class="bg-white text-black p-1 rounded-sm relative overflow-hidden">
                         <div class="absolute inset-0 bg-emerald-500 mix-blend-multiply opacity-0 group-hover:opacity-100 transition"></div>
@@ -80,943 +55,380 @@
                         <span class="text-[10px] uppercase tracking-[0.2em] text-gray-500 group-hover:text-gray-300">World Cup Hub</span>
                     </div>
                 </div>
-                
-                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-1 items-center">
-                    <!-- 1. Home -->
                     <button onclick="app.router('home')" class="nav-btn text-white bg-white/10 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="home">Home</button>
-                    
-                    <!-- 2. Path to Glory -->
-                    <button onclick="app.scrollToPath()" class="nav-btn text-emerald-400 border border-emerald-500/50 bg-emerald-900/10 hover:bg-emerald-500 hover:text-black px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition flex items-center gap-2 mx-2">
-                        <i data-lucide="map" class="w-4 h-4"></i> Path to Glory
-                    </button>
-
-                    <!-- 3. Matches -->
-                    <button onclick="app.router('tournament')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2" data-target="tournament">
-                        <i data-lucide="layout-grid" class="w-4 h-4"></i> Matches
-                    </button>
-
-                    <!-- 4. Articles -->
+                    <button onclick="app.scrollToPath()" class="nav-btn text-emerald-400 border border-emerald-500/50 bg-emerald-900/10 hover:bg-emerald-500 hover:text-black px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition flex items-center gap-2 mx-2"><i data-lucide="map" class="w-4 h-4"></i> Path to Glory</button>
+                    <button onclick="app.router('tournament')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2" data-target="tournament"><i data-lucide="layout-grid" class="w-4 h-4"></i> Matches</button>
+                    <button onclick="app.router('venues')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i> Venues</button>
                     <button onclick="app.router('news')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="news">Articles</button>
-                    
                     <div class="h-6 w-px bg-white/20 mx-4"></div>
-                    
-                    <!-- 5. FIFA Collect -->
-                    <a href="https://collect.fifa.com/?referrer=fifalavida" target="_blank" class="bg-white text-black hover:bg-emerald-400 px-6 py-2 rounded font-bold text-sm uppercase transition flex items-center gap-2">
-                        <i data-lucide="gem" class="w-4 h-4"></i> FIFA Collect
-                    </a>
+                    <a href="https://collect.fifa.com/?referrer=fifalavida" target="_blank" class="bg-white text-black hover:bg-emerald-400 px-6 py-2 rounded font-bold text-sm uppercase transition flex items-center gap-2"><i data-lucide="gem" class="w-4 h-4"></i> Collect</a>
                 </div>
-
-                <!-- Mobile Toggle -->
                 <button id="mobile-menu-btn" class="md:hidden text-white"><i data-lucide="menu" class="h-8 w-8"></i></button>
             </div>
         </div>
-        <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-black border-b border-white/10 absolute w-full left-0 top-20">
             <div class="px-4 pt-2 pb-4 space-y-2">
                 <button onclick="app.router('home')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Home</button>
                 <button onclick="app.scrollToPath()" class="block w-full text-left text-emerald-400 py-3 font-bold uppercase border-b border-white/10">Path to Glory</button>
                 <button onclick="app.router('tournament')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Matches & Bracket</button>
+                <button onclick="app.router('venues')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Host Cities</button>
                 <button onclick="app.router('news')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Articles</button>
                 <a href="https://collect.fifa.com/?referrer=fifalavida" target="_blank" class="block text-center bg-white text-black py-3 mt-4 font-bold uppercase rounded">FIFA Collect</a>
             </div>
         </div>
     </nav>
 
-    <!-- MAIN CONTAINER -->
     <main id="main-content" class="flex-grow">
-        
         <!-- HOME VIEW -->
         <div id="home-view" class="view-section">
-            <!-- Hero -->
             <div class="relative min-h-[85vh] flex items-center justify-center overflow-hidden brand-pattern group">
-                <!-- Dynamic Background Image -->
                 <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518091043644-c1d4457512c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center opacity-40 group-hover:scale-105 transition duration-[20s]"></div>
                 <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
                 <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-transparent to-black/80"></div>
-                
                 <div class="relative z-10 text-center px-4 max-w-5xl mx-auto mt-10">
                     <div class="inline-flex items-center gap-3 border border-emerald-500/30 bg-emerald-900/20 backdrop-blur px-4 py-1.5 rounded-full mb-8 animate-fade-up">
                         <div class="w-2 h-2 bg-emerald-500 rounded-full live-indicator"></div>
                         <span class="text-xs font-bold uppercase tracking-widest text-emerald-400">Road to 2026</span>
                     </div>
-                    <h1 class="text-7xl md:text-[10rem] font-bold mb-2 leading-[0.85] tracking-tighter drop-shadow-2xl">
-                        FIFA <span class="text-transparent bg-clip-text bg-gradient-to-br from-white to-gray-600">LA VIDA</span>
-                    </h1>
-                    <!-- Updated Tagline -->
-                    <p class="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto font-light mb-8 mt-6">
-                        The unofficial heartbeat of the 2026 World Cup. <br>
-                        <span class="text-emerald-400 font-bold">104 Matches. 48 Teams. 3 Host Nations.</span>
-                    </p>
-
-                    <!-- COUNTDOWN TIMER -->
+                    <h1 class="text-7xl md:text-[10rem] font-bold mb-2 leading-[0.85] tracking-tighter drop-shadow-2xl">FIFA <span class="text-transparent bg-clip-text bg-gradient-to-br from-white to-gray-600">LA VIDA</span></h1>
+                    <p class="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto font-light mb-8 mt-6">The unofficial heartbeat of the 2026 World Cup. <br><span class="text-emerald-400 font-bold">104 Matches. 48 Teams. 3 Host Nations.</span></p>
                     <div class="flex flex-wrap justify-center gap-4 mb-12" id="countdown-container">
-                        <div class="countdown-box p-4 rounded-lg w-24 md:w-32">
-                            <div class="text-3xl md:text-5xl font-bold font-mono" id="cd-days">00</div>
-                            <div class="text-xs uppercase tracking-widest text-gray-400">Days</div>
-                        </div>
-                        <div class="countdown-box p-4 rounded-lg w-24 md:w-32">
-                            <div class="text-3xl md:text-5xl font-bold font-mono" id="cd-hours">00</div>
-                            <div class="text-xs uppercase tracking-widest text-gray-400">Hours</div>
-                        </div>
-                        <div class="countdown-box p-4 rounded-lg w-24 md:w-32">
-                            <div class="text-3xl md:text-5xl font-bold font-mono" id="cd-minutes">00</div>
-                            <div class="text-xs uppercase tracking-widest text-gray-400">Mins</div>
-                        </div>
-                        <div class="countdown-box p-4 rounded-lg w-24 md:w-32 border-emerald-500/30">
-                            <div class="text-3xl md:text-5xl font-bold font-mono text-emerald-400" id="cd-seconds">00</div>
-                            <div class="text-xs uppercase tracking-widest text-emerald-500/80">Secs</div>
-                        </div>
+                        <div class="countdown-box p-4 rounded-lg w-24 md:w-32"><div class="text-3xl md:text-5xl font-bold font-mono" id="cd-days">00</div><div class="text-xs uppercase tracking-widest text-gray-400">Days</div></div>
+                        <div class="countdown-box p-4 rounded-lg w-24 md:w-32"><div class="text-3xl md:text-5xl font-bold font-mono" id="cd-hours">00</div><div class="text-xs uppercase tracking-widest text-gray-400">Hours</div></div>
+                        <div class="countdown-box p-4 rounded-lg w-24 md:w-32"><div class="text-3xl md:text-5xl font-bold font-mono" id="cd-minutes">00</div><div class="text-xs uppercase tracking-widest text-gray-400">Mins</div></div>
+                        <div class="countdown-box p-4 rounded-lg w-24 md:w-32 border-emerald-500/30"><div class="text-3xl md:text-5xl font-bold font-mono text-emerald-400" id="cd-seconds">00</div><div class="text-xs uppercase tracking-widest text-emerald-500/80">Secs</div></div>
                     </div>
-
                     <div class="flex flex-col md:flex-row gap-4 justify-center">
-                        <button onclick="app.router('tournament')" class="bg-white text-black hover:bg-emerald-400 transition-colors font-bold text-lg px-10 py-4 rounded uppercase tracking-widest shadow-[0_0_30px_rgba(255,255,255,0.1)]">
-                            Match Schedule
-                        </button>
-                        <button onclick="app.router('news')" class="bg-transparent border border-white/30 text-white hover:bg-white/10 transition-colors font-bold text-lg px-10 py-4 rounded uppercase tracking-widest">
-                            Latest Articles
-                        </button>
+                        <button onclick="app.router('tournament')" class="bg-white text-black hover:bg-emerald-400 transition-colors font-bold text-lg px-10 py-4 rounded uppercase tracking-widest shadow-[0_0_30px_rgba(255,255,255,0.1)]">Match Schedule</button>
+                        <button onclick="app.router('news')" class="bg-transparent border border-white/30 text-white hover:bg-white/10 transition-colors font-bold text-lg px-10 py-4 rounded uppercase tracking-widest">Latest Articles</button>
                     </div>
                 </div>
             </div>
 
-            <!-- Fan Vote Section (Moved UP) -->
+            <!-- FAN POLL -->
             <div class="bg-black border-y border-white/10 py-12">
                 <div class="max-w-4xl mx-auto px-4">
                     <div class="bg-white/5 border border-white/10 rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 relative overflow-hidden">
                         <div class="absolute top-0 right-0 p-32 bg-emerald-500/10 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
-                        
                         <div class="flex-1">
                             <span class="text-emerald-400 font-bold tracking-widest text-xs uppercase mb-2 block">Fan Poll</span>
                             <h3 class="text-3xl font-bold mb-2 uppercase">Who lifts the trophy?</h3>
                             <p class="text-gray-400 text-sm mb-6">Cast your vote for the 2026 champion. Top 4 teams shown.</p>
-                            
-                            <!-- Dynamic Dropdown -->
                             <div class="flex gap-2 max-w-xs">
                                 <select id="poll-select" class="bg-black border border-white/20 text-white rounded px-4 py-2 w-full text-sm focus:border-emerald-500 outline-none">
                                     <option value="" disabled selected>Vote for a team...</option>
-                                    <!-- Populated by JS -->
                                 </select>
-                                <button onclick="app.handleDropdownVote()" class="bg-emerald-500 hover:bg-emerald-400 text-black font-bold uppercase text-xs px-4 py-2 rounded transition">
-                                    Vote
-                                </button>
+                                <button onclick="app.handleDropdownVote()" class="bg-emerald-500 hover:bg-emerald-400 text-black font-bold uppercase text-xs px-4 py-2 rounded transition">Vote</button>
                             </div>
-                            <!-- Undo Vote Button -->
-                            <button id="undo-vote-btn" onclick="app.clearVote()" class="hidden mt-4 text-xs text-red-400 hover:text-red-300 underline">
-                                Undo my vote
-                            </button>
+                            <button id="undo-vote-btn" onclick="app.clearVote()" class="hidden mt-4 text-xs text-red-400 hover:text-red-300 underline">Undo my vote</button>
                         </div>
-                        <div class="flex-1 w-full space-y-3" id="poll-options">
-                            <!-- Poll rendered by JS -->
-                        </div>
+                        <div class="flex-1 w-full space-y-3" id="poll-options"></div>
                     </div>
                 </div>
             </div>
 
-            <!-- PATH TO GLORY SECTION -->
+            <!-- PATH TO GLORY -->
             <div id="path-section" class="bg-[#050505] border-t border-white/10 py-20 scroll-mt-20">
                 <div class="max-w-[1400px] mx-auto px-4">
-                    <div class="flex flex-col md:flex-row gap-12">
-                        
-                        <!-- Explainer -->
-                        <div class="md:w-1/3">
-                            <span class="text-emerald-400 font-bold tracking-widest text-xs uppercase mb-2 block">Tournament Format</span>
-                            <h2 class="text-4xl font-bold font-oswald mb-4 uppercase">Your Path to <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">Glory</span></h2>
-                            <p class="text-gray-400 mb-6 leading-relaxed">
-                                For the first time ever, 48 teams will compete for the ultimate prize. The field is divided into 12 groups of 4. 
-                                The top 2 from each group, plus the 8 best 3rd-place finishers, advance to the knockout stage.
-                            </p>
-                            
-                            <div class="bg-white/5 border border-white/10 rounded-xl p-6 mb-6">
-                                <h3 class="font-bold text-white mb-4 flex items-center gap-2"><i data-lucide="info" class="w-4 h-4 text-emerald-400"></i> How the Draw Works</h3>
-                                <ul class="text-sm text-gray-400 space-y-3">
-                                    <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 flex-shrink-0"></span> Hosts (Mexico, Canada, USA) are automatically placed in Pot 1.</li>
-                                    <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 flex-shrink-0"></span> Teams are seeded into 4 Pots based on FIFA Ranking.</li>
-                                    <li class="flex items-start gap-2"><span class="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 flex-shrink-0"></span> Round of 32 introduces a new layer of knockout chaos.</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <!-- Interactive Mapper -->
-                        <div class="md:w-2/3">
-                            <div class="bg-white/5 border border-white/10 rounded-2xl p-8 h-full flex flex-col">
+                    <div class="flex flex-col lg:flex-row gap-16">
+                        <div class="lg:w-1/3">
+                            <div class="sticky top-32">
+                                <span class="text-emerald-400 font-bold tracking-widest text-xs uppercase mb-2 block">Tournament Format</span>
+                                <h2 class="text-5xl font-bold font-oswald mb-6 uppercase leading-none">Path to <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">Glory</span></h2>
+                                <p class="text-gray-400 mb-8 leading-relaxed">The 2026 World Cup is a test of endurance. 48 teams. 3 countries. Use our interactive tool to visualize the hurdles.</p>
                                 <div class="mb-8">
                                     <label class="block text-xs uppercase font-bold text-gray-500 mb-2">Select Your Team</label>
-                                    <select id="path-team-select" onchange="app.renderPath()" class="w-full bg-black border border-white/20 text-white rounded-lg px-4 py-3 focus:border-emerald-500 outline-none text-lg font-bold">
+                                    <select id="path-team-select" onchange="app.renderPath()" class="w-full bg-white text-black rounded-lg px-4 py-3 focus:border-emerald-500 outline-none text-lg font-bold shadow-xl border-2 border-gray-200">
                                         <option value="Mexico">Mexico (Host - Group A)</option>
                                         <option value="Canada">Canada (Host - Group B)</option>
                                         <option value="USA">USA (Host - Group D)</option>
-                                        <optgroup label="Contenders" id="path-team-options">
-                                            <!-- Populated via JS -->
-                                        </optgroup>
+                                        <optgroup label="Contenders" id="path-team-options"></optgroup>
                                     </select>
                                 </div>
-
-                                <div id="path-timeline" class="flex-grow space-y-0 relative border-l-2 border-white/10 ml-3 pl-8 py-2">
-                                    <!-- Rendered by JS -->
+                                <div id="path-ticket-link" class="hidden">
+                                    <a href="#" target="_blank" class="w-full flex items-center justify-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-black font-bold py-3 rounded transition uppercase tracking-widest shadow-[0_0_20px_rgba(52,211,153,0.4)]">
+                                        <i data-lucide="ticket"></i> Find Tickets
+                                    </a>
+                                    <p class="text-xs text-center text-gray-500 mt-2">* Links to official/partner resale sites</p>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="lg:w-2/3">
+                            <div id="path-visualizer" class="bg-[#0a0a0a] border border-white/10 rounded-3xl p-8 relative overflow-hidden min-h-[600px]">
+                                <div class="absolute inset-0 opacity-20 pointer-events-none">
+                                    <svg width="100%" height="100%"><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="0.5"/></pattern><rect width="100%" height="100%" fill="url(#grid)" /></svg>
+                                </div>
+                                <div id="path-timeline" class="relative z-10 space-y-8"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Featured News Preview (Moved Down) -->
-            <div class="max-w-[1400px] mx-auto px-4 py-20">
+            <!-- PREVIEW -->
+            <div class="max-w-[1400px] mx-auto px-4 py-20 border-t border-white/10">
                 <div class="flex justify-between items-end mb-10">
-                    <div>
-                        <h2 class="text-4xl font-bold mb-2">MATCH <span class="text-emerald-400">ARTICLES</span></h2>
-                        <p class="text-gray-500">Breakdowns, predictions, and player profiles.</p>
-                    </div>
+                    <div><h2 class="text-4xl font-bold mb-2">LATEST <span class="text-emerald-400">ARTICLES</span></h2><p class="text-gray-500">Breakdowns, predictions, and player profiles.</p></div>
                     <button onclick="app.router('news')" class="hidden md:flex items-center gap-2 text-sm font-bold uppercase hover:text-emerald-400 transition">View All <i data-lucide="arrow-right" class="w-4 h-4"></i></button>
                 </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="home-news-grid"></div>
+            </div>
+        </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="home-news-grid">
-                    <!-- Injected by JS -->
+        <!-- MATCHES VIEW -->
+        <div id="tournament-view" class="view-section hidden bg-[#050505] min-h-screen">
+            <div id="matches-component-container"></div>
+        </div>
+
+        <!-- VENUES VIEW -->
+        <div id="venues-view" class="view-section hidden bg-black min-h-screen pb-20">
+            <div class="bg-black/95 backdrop-blur border-b border-white/10 sticky top-20 z-40 py-4">
+                <div class="max-w-[1600px] mx-auto px-4"><h2 class="text-2xl font-oswald text-white">HOST CITIES <span class="text-emerald-400">MAP</span></h2></div>
+            </div>
+            <div class="max-w-[1600px] mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
+                
+                <!-- Interactive Map Column -->
+                <div class="w-full lg:w-2/3 relative">
+                    <div class="relative w-full h-[500px] bg-[#111] border border-white/10 rounded-2xl overflow-hidden group flex items-center justify-center">
+                        <!-- Interactive map removed. Show static map image as a fallback. -->
+                        <img src="https://digitalhub.fifa.com/transform/abd11366-c26a-4564-927a-7fe275f4e3a1/FWC26-Map-with-Matches?&io=transform:fill,width:1366&quality=75" alt="Host cities map" class="w-full h-full object-cover rounded-2xl" onerror="this.style.display='none'">
+                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none text-gray-400 text-sm">Interactive map disabled — use the venue list to explore cities.</div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Info Panel -->
+                <div class="w-full lg:w-1/3">
+                    <div class="bg-white/5 border border-white/10 rounded-xl p-6 h-full">
+                        <h3 class="text-emerald-400 font-bold text-sm uppercase tracking-widest mb-4">Selected Venue</h3>
+                        <div id="venue-details">
+                            <p class="text-gray-500 text-sm italic">Click a city on the map or list to view details.</p>
+                        </div>
+                        <div class="mt-8 border-t border-white/10 pt-4">
+                            <div class="grid grid-cols-2 gap-2" id="venue-list-mini">
+                                <!-- Mini List -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- NEWS LIST VIEW -->
+        <!-- ARTICLES VIEW -->
         <div id="news-view" class="view-section hidden pt-10 pb-20">
             <div class="max-w-[1400px] mx-auto px-4">
                 <h1 class="text-6xl md:text-8xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-800">ARTICLES</h1>
-                
-                <!-- Main News Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12" id="full-news-grid">
-                    <!-- Populated by JS -->
-                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12" id="full-news-grid"></div>
             </div>
         </div>
 
-        <!-- ARTICLE READING VIEW -->
+        <!-- ARTICLE READING -->
         <div id="article-view" class="view-section hidden bg-black min-h-screen pb-20">
-            <!-- Content Injected Here -->
-            <div id="article-content" class="max-w-3xl mx-auto px-4 pt-10">
-                <!-- Dynamic Article -->
-            </div>
+            <div id="article-content" class="max-w-3xl mx-auto px-4 pt-10"></div>
         </div>
-
-        <!-- TOURNAMENT VIEW -->
-        <div id="tournament-view" class="view-section hidden bg-[#050505] min-h-screen">
-            
-            <!-- Sticky Sub-Nav -->
-            <div class="bg-black/95 backdrop-blur border-b border-white/10 sticky top-20 z-40 py-4">
-                <div class="max-w-[1600px] mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <div class="flex gap-2 p-1 rounded-lg overflow-x-auto w-full md:w-auto no-scrollbar">
-                        <button onclick="app.setFilter('all')" id="btn-all" class="filter-btn px-6 py-2 rounded font-bold text-sm uppercase bg-white text-black transition whitespace-nowrap shadow-[0_0_15px_rgba(255,255,255,0.2)]">All Matches</button>
-                        <button onclick="app.setFilter('group')" id="btn-group" class="filter-btn px-6 py-2 rounded font-bold text-sm uppercase text-gray-500 hover:text-white transition whitespace-nowrap">Group Stage</button>
-                        <button onclick="app.setFilter('knockout')" id="btn-knockout" class="filter-btn px-6 py-2 rounded font-bold text-sm uppercase text-gray-500 hover:text-white transition whitespace-nowrap">Knockout</button>
-                        <button onclick="app.setFilter('calendar')" id="btn-calendar" class="filter-btn px-6 py-2 rounded font-bold text-sm uppercase text-gray-500 hover:text-white transition whitespace-nowrap flex items-center gap-2"><i data-lucide="calendar" class="w-3 h-3"></i> Calendar</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="max-w-[1600px] mx-auto px-4 py-8">
-                <div id="matches-container" class="grid gap-6 animate-fade-in">
-                    <!-- Content populated by JS -->
-                </div>
-            </div>
-        </div>
-
     </main>
 
     <footer class="bg-black border-t border-white/10 py-12 mt-auto">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <div class="flex justify-center items-center gap-2 mb-4">
-                 <i data-lucide="trophy" class="h-5 w-5 text-emerald-400"></i>
-                 <div class="brand-font text-2xl font-bold">FIFA LA VIDA</div>
-            </div>
-            <p class="text-gray-500 text-sm mb-8 max-w-md mx-auto">
-                The ultimate unofficial companion for the 2026 World Cup. Built by fans, for fans.
-            </p>
-            
+            <div class="flex justify-center items-center gap-2 mb-4"><i data-lucide="trophy" class="h-5 w-5 text-emerald-400"></i><div class="brand-font text-2xl font-bold">FIFA LA VIDA</div></div>
+            <p class="text-gray-500 text-sm mb-8 max-w-md mx-auto">The ultimate unofficial companion for the 2026 World Cup. Built by fans, for fans.</p>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto text-xs text-gray-500 uppercase tracking-widest mb-12">
                 <a href="#" class="hover:text-emerald-400 transition" onclick="app.router('home')">Home</a>
                 <a href="#" class="hover:text-emerald-400 transition" onclick="app.router('news')">Articles</a>
                 <a href="#" class="hover:text-emerald-400 transition" onclick="app.router('tournament')">Bracket</a>
                 <a href="mailto:admin@fifalavida.com" class="hover:text-emerald-400 transition">Contact</a>
             </div>
-
-            <p class="text-gray-700 text-[10px]">
-                Not affiliated with FIFA. All trademarks belong to their respective owners.<br>
-                Generated by Google Gemini.
-            </p>
+            <p class="text-gray-700 text-[10px]">Not affiliated with FIFA.</p>
         </div>
     </footer>
 
     <script>
-        // --- HELPERS (Flags) ---
-        const countryCodes = {
-            "Mexico": "mx", "Canada": "ca", "USA": "us",
-            "Argentina": "ar", "Brazil": "br", "France": "fr",
-            "Germany": "de", "Spain": "es", "England": "gb-eng",
-            "Portugal": "pt", "Netherlands": "nl", "Italy": "it",
-            "Belgium": "be", "Croatia": "hr", "Uruguay": "uy",
-            "Colombia": "co", "Japan": "jp", "South Korea": "kr",
-            "Australia": "au", "Morocco": "ma", "Senegal": "sn",
-            "Cameroon": "cm", "Ghana": "gh", "Saudi Arabia": "sa",
-            "Iran": "ir", "Qatar": "qa", "Switzerland": "ch",
-            "Denmark": "dk", "Sweden": "se", "Poland": "pl",
-            "Ecuador": "ec", "Paraguay": "py", "Chile": "cl", "Peru": "pe",
-            "Venezuela": "ve", "Costa Rica": "cr", "Panama": "pa",
-            "Jamaica": "jm", "Nigeria": "ng", "Algeria": "dz",
-            "Egypt": "eg", "Tunisia": "tn", "Ivory Coast": "ci"
-        };
+        // --- DATA ---
+        const venueData = [
+            { city: "Mexico City", stadium: "Estadio Azteca", cap: "87,523", country: "mx", matches: 5 },
+            { city: "New York/NJ", stadium: "MetLife Stadium", cap: "82,500", country: "us", matches: 8 },
+            { city: "Dallas", stadium: "AT&T Stadium", cap: "80,000", country: "us", matches: 9 },
+            { city: "Kansas City", stadium: "Arrowhead Stadium", cap: "76,416", country: "us", matches: 6 },
+            { city: "Houston", stadium: "NRG Stadium", cap: "72,220", country: "us", matches: 7 },
+            { city: "Atlanta", stadium: "Mercedes-Benz Stadium", cap: "71,000", country: "us", matches: 8 },
+            { city: "Los Angeles", stadium: "SoFi Stadium", cap: "70,240", country: "us", matches: 8 },
+            { city: "Philadelphia", stadium: "Lincoln Financial Field", cap: "69,796", country: "us", matches: 6 },
+            { city: "Seattle", stadium: "Lumen Field", cap: "69,000", country: "us", matches: 6 },
+            { city: "San Francisco", stadium: "Levi's Stadium", cap: "68,500", country: "us", matches: 6 },
+            { city: "Boston", stadium: "Gillette Stadium", cap: "65,878", country: "us", matches: 7 },
+            { city: "Miami", stadium: "Hard Rock Stadium", cap: "64,767", country: "us", matches: 7 },
+            { city: "Vancouver", stadium: "BC Place", cap: "54,500", country: "ca", matches: 7 },
+            { city: "Monterrey", stadium: "Estadio BBVA", cap: "53,500", country: "mx", matches: 4 },
+            { city: "Guadalajara", stadium: "Estadio Akron", cap: "49,850", country: "mx", matches: 4 },
+            { city: "Toronto", stadium: "BMO Field", cap: "45,736", country: "ca", matches: 6 }
+        ];
 
-        const allTeams = Object.keys(countryCodes).sort();
-
-        function getFlagHTML(teamName) {
-            // Strip HTML tags if any
-            const cleanName = teamName.replace(/<[^>]*>?/gm, '').trim();
-            
-            if (countryCodes[cleanName]) {
-                return `<img src="https://flagcdn.com/24x18/${countryCodes[cleanName]}.png" class="w-5 h-3.5 object-cover rounded-sm shadow-sm inline-block mr-2">`;
-            }
-            // Default icon for TBD/Groups
-            return `<i data-lucide="globe" class="w-4 h-4 text-gray-600 inline-block mr-2 align-middle"></i>`;
-        }
-
-        // --- DATA LAYER (Updated for Analytical Content) ---
-        
-        // 1. News Data
         const newsData = [
-            {
-                id: 1,
-                title: "Bracketology: The 'Path of Death' in Group C",
-                category: "Bracket Analysis",
-                image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                date: "Nov 22, 2025",
-                snippet: "Why finishing second in Group C might be a tactical masterstroke to avoid the tournament favorites in the Round of 32.",
-                content: `<p>Content here...</p>`
-            },
-            {
-                id: 2,
-                title: "Player Watch: The Next Generation #10s",
-                category: "Scouting",
-                image: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                date: "Oct 24, 2025",
-                snippet: "The classic playmaker is evolving. We analyze three young stars redefining the role before 2026.",
-                content: `<p>Content here...</p>`
-            },
-            {
-                id: 3,
-                title: "FIFA Collect: The Ultimate Guide (2025 Edition)",
-                category: "Fifa Collect",
-                image: "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-                date: "Nov 22, 2025",
-                snippet: "FIFA Collect: The Digital Era, but is it for you? Your complete guide to NFT tickets and the marketplace.",
-                content: `<p>Content here...</p>`
-            }
+            { id: 1, title: "Bracketology: The 'Path of Death' in Group C", category: "Analysis", image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018", date: "Nov 22, 2025", snippet: "Why finishing second in Group C might be a tactical masterstroke.", filename: "GroupCanalysis.html" },
+            { id: 2, title: "Player Watch: The Next Generation #10s", category: "Scouting", image: "https://images.unsplash.com/photo-1517466787929-bc90951d0974", date: "Oct 24, 2025", snippet: "The classic playmaker is evolving.", filename: "article-player.html" },
+            { id: 3, title: "FIFA Collect: The Ultimate Guide (2025)", category: "Fifa Collect", image: "https://images.unsplash.com/photo-1614680376593-902f74cf0d41", date: "Nov 22, 2025", snippet: "Your complete guide to NFT tickets.", filename: "article-fifacollect.html" }
         ];
 
-        // 2. Poll Data (Dynamic State)
-        let pollOptions = [
-            { name: "Brazil", votes: 240, color: "bg-yellow-500" },
-            { name: "France", votes: 210, color: "bg-blue-600" },
-            { name: "Argentina", votes: 180, color: "bg-sky-400" },
-            { name: "England", votes: 95, color: "bg-white" }
-        ];
+        window.countryCodes = { "Mexico": "mx", "Canada": "ca", "USA": "us", "Argentina": "ar", "Brazil": "br", "France": "fr", "Germany": "de", "Spain": "es", "England": "gb-eng", "Portugal": "pt", "Netherlands": "nl", "Italy": "it", "Belgium": "be", "Croatia": "hr", "Uruguay": "uy", "Colombia": "co", "Japan": "jp", "South Korea": "kr", "Australia": "au", "Morocco": "ma", "Senegal": "sn", "Cameroon": "cm", "Ghana": "gh", "Saudi Arabia": "sa", "Iran": "ir", "Qatar": "qa", "Switzerland": "ch", "Denmark": "dk", "Sweden": "se", "Poland": "pl", "Ecuador": "ec", "Paraguay": "py", "Chile": "cl", "Peru": "pe", "Venezuela": "ve", "Costa Rica": "cr", "Panama": "pa", "Jamaica": "jm", "Nigeria": "ng", "Algeria": "dz", "Egypt": "eg", "Tunisia": "tn", "Ivory Coast": "ci" };
+        window.getFlagHTML = (teamName) => { const clean = teamName.replace(/<[^>]*>?/gm, '').trim(); if (window.countryCodes[clean]) return `<img src="https://flagcdn.com/24x18/${window.countryCodes[clean]}.png" class="w-5 h-3.5 object-cover rounded-sm shadow-sm inline-block mr-2">`; return `<i data-lucide="globe" class="w-4 h-4 text-gray-600 inline-block mr-2 align-middle"></i>`; };
 
-        // --- BRACKET DATA ---
-        const officialVenues = {
-            1: "Azteca, Mexico City", 2: "Guadalajara", 3: "Toronto", 4: "Los Angeles",
-            5: "Boston", 6: "Vancouver", 7: "New York/New Jersey", 8: "San Francisco",
-            9: "Philadelphia", 10: "Houston", 11: "Dallas", 12: "Monterrey",
-            13: "Miami", 14: "Atlanta", 15: "Los Angeles", 16: "Seattle",
-            17: "New York/New Jersey", 18: "Boston", 19: "Kansas City", 20: "San Francisco",
-            21: "Toronto", 22: "Dallas", 23: "Houston", 24: "Azteca, Mexico City",
-            25: "Atlanta", 26: "Los Angeles", 27: "Vancouver", 28: "Guadalajara",
-            29: "Philadelphia", 30: "Boston", 31: "San Francisco", 32: "Seattle",
-            33: "Toronto", 34: "Kansas City", 35: "Houston", 36: "Monterrey",
-            37: "Miami", 38: "Atlanta", 39: "Los Angeles", 40: "Vancouver",
-            41: "New York/New Jersey", 42: "Philadelphia", 43: "Dallas", 44: "San Francisco",
-            45: "Boston", 46: "Toronto", 47: "Houston", 48: "Guadalajara",
-            49: "Miami", 50: "Atlanta", 51: "Vancouver", 52: "Seattle",
-            53: "Azteca, Mexico City", 54: "Monterrey", 55: "Philadelphia", 56: "New York/New Jersey",
-            57: "Dallas", 58: "Kansas City", 59: "Los Angeles", 60: "San Francisco",
-            61: "Boston", 62: "Toronto", 63: "Seattle", 64: "Vancouver",
-            65: "Houston", 66: "Guadalajara", 67: "New York/New Jersey", 68: "Philadelphia",
-            69: "Kansas City", 70: "Dallas", 71: "Miami", 72: "Atlanta",
-            73: "Los Angeles", 74: "Boston", 75: "Monterrey", 76: "Houston",
-            77: "New York/New Jersey", 78: "Dallas", 79: "Azteca, Mexico City", 80: "Atlanta",
-            81: "San Francisco", 82: "Seattle", 83: "Toronto", 84: "Los Angeles",
-            85: "Vancouver", 86: "Miami", 87: "Kansas City", 88: "Dallas",
-            89: "Philadelphia", 90: "Houston", 91: "New York/New Jersey", 92: "Azteca, Mexico City",
-            93: "Dallas", 94: "Seattle", 95: "Atlanta", 96: "Vancouver",
-            97: "Boston", 98: "Los Angeles", 99: "Miami", 100: "Kansas City",
-            101: "Dallas", 102: "Atlanta", 103: "Miami", 104: "New York/New Jersey"
-        };
-
-        const officialGroups = {
-            1: 'A', 2: 'A', 25: 'A', 28: 'A', 53: 'A', 54: 'A',
-            3: 'B', 8: 'B', 26: 'B', 27: 'B', 51: 'B', 52: 'B',
-            5: 'C', 7: 'C', 29: 'C', 30: 'C', 49: 'C', 50: 'C',
-            4: 'D', 6: 'D', 31: 'D', 32: 'D', 59: 'D', 60: 'D',
-            9: 'E', 10: 'E', 33: 'E', 34: 'E', 55: 'E', 56: 'E',
-            11: 'F', 12: 'F', 35: 'F', 36: 'F', 57: 'F', 58: 'F',
-            15: 'G', 16: 'G', 39: 'G', 40: 'G', 63: 'G', 64: 'G',
-            13: 'H', 14: 'H', 37: 'H', 38: 'H', 65: 'H', 66: 'H',
-            17: 'I', 18: 'I', 41: 'I', 42: 'I', 61: 'I', 62: 'I',
-            19: 'J', 20: 'J', 43: 'J', 44: 'J', 69: 'J', 70: 'J',
-            23: 'K', 24: 'K', 47: 'K', 48: 'K', 71: 'K', 72: 'K',
-            21: 'L', 22: 'L', 45: 'L', 46: 'L', 67: 'L', 68: 'L'
-        };
-
-        const knockoutMapping = {
-            73: ["Group A 2nd", "Group B 2nd", "June 28"], 74: ["Group E Winner", "Group A/B/C/D/F 3rd", "June 29"],
-            75: ["Group F Winner", "Group C 2nd", "June 29"], 76: ["Group C Winner", "Group F 2nd", "June 29"],
-            77: ["Group I Winner", "Group C/D/F/G/H 3rd", "June 30"], 78: ["Group E 2nd", "Group I 2nd", "June 30"],
-            79: ["Group A Winner", "Group C/E/F/H/I 3rd", "June 30"], 80: ["Group L Winner", "Group E/H/I/J/K 3rd", "July 1"],
-            81: ["Group D Winner", "Group B/E/F/I/J 3rd", "July 1"], 82: ["Group G Winner", "Group A/E/H/I/J 3rd", "July 1"],
-            83: ["Group K 2nd", "Group L 2nd", "July 2"], 84: ["Group H Winner", "Group J 2nd", "July 2"],
-            85: ["Group B Winner", "Group E/F/G/I/J 3rd", "July 2"], 86: ["Group J Winner", "Group H 2nd", "July 3"],
-            87: ["Group K Winner", "Group D/E/I/J/L 3rd", "July 3"], 88: ["Group D 2nd", "Group G 2nd", "July 3"],
-            
-            89: ["Winner Match 74", "Winner Match 77", "July 4"], 90: ["Winner Match 73", "Winner Match 75", "July 4"],
-            91: ["Winner Match 76", "Winner Match 78", "July 5"], 92: ["Winner Match 79", "Winner Match 80", "July 5"],
-            93: ["Winner Match 83", "Winner Match 84", "July 6"], 94: ["Winner Match 81", "Winner Match 82", "July 6"],
-            95: ["Winner Match 86", "Winner Match 88", "July 7"], 96: ["Winner Match 85", "Winner Match 87", "July 7"],
-            
-            97: ["Winner Match 89", "Winner Match 90", "July 9"], 98: ["Winner Match 93", "Winner Match 94", "July 10"],
-            99: ["Winner Match 91", "Winner Match 92", "July 11"], 100: ["Winner Match 95", "Winner Match 96", "July 11"],
-            
-            101: ["Winner Match 97", "Winner Match 98", "July 14"], 102: ["Winner Match 99", "Winner Match 100", "July 15"],
-            
-            103: ["Loser Match 101", "Loser Match 102", "July 18"], 104: ["Winner Match 101", "Winner Match 102", "July 19"]
-        };
-
-        // --- APP ENGINE ---
-        
+        // --- APP ---
         const app = {
-            state: {
-                view: 'home',
-                filter: 'all'
-            },
-            newsData: newsData,
+            state: { view: 'home' },
+            newsData: [],
 
             init: () => {
                 lucide.createIcons();
-                app.renderNews();
-                
-                // Populate Poll Dropdown
-                const select = document.getElementById('poll-select');
-                const teamSelect = document.getElementById('path-team-select');
-                const teamOptGroup = document.getElementById('path-team-options');
-                
-                allTeams.forEach(team => {
-                    // Poll Dropdown
-                    const opt = document.createElement('option');
-                    opt.value = team;
-                    opt.innerText = team;
-                    select.appendChild(opt);
-                    
-                    // Path Dropdown (Skip Hosts as they are hardcoded at top)
-                    if(!['Mexico', 'Canada', 'USA'].includes(team)) {
-                        const pOpt = document.createElement('option');
-                        pOpt.value = team;
-                        pOpt.innerText = team;
-                        teamOptGroup.appendChild(pOpt);
-                    }
-                });
-
-                // Initialize Poll State
-                const savedVote = localStorage.getItem('fifa_poll_vote');
-                if(savedVote) {
-                    app.recordVoteInternal(savedVote); 
-                    document.getElementById('undo-vote-btn').classList.remove('hidden');
-                }
-                app.renderPoll();
-                
-                // Initialize Path Logic
-                app.renderPath();
-                
-                app.generateMatches();
-                app.startCountdown(); 
                 app.fetchNews();
                 
-                document.getElementById('mobile-menu-btn').addEventListener('click', () => {
-                    document.getElementById('mobile-menu').classList.toggle('hidden');
+                // Poll
+                const select = document.getElementById('poll-select');
+                const teamOptGroup = document.getElementById('path-team-options');
+                const allTeams = Object.keys(window.countryCodes).sort();
+                allTeams.forEach(team => {
+                    const opt = document.createElement('option'); opt.value = team; opt.innerText = team; select.appendChild(opt);
+                    if(!['Mexico', 'Canada', 'USA'].includes(team)) { const pOpt = document.createElement('option'); pOpt.value = team; pOpt.innerText = team; teamOptGroup.appendChild(pOpt); }
                 });
+                const savedVote = localStorage.getItem('fifa_poll_vote');
+                if(savedVote) { app.recordVoteInternal(savedVote); document.getElementById('undo-vote-btn').classList.remove('hidden'); }
+                app.renderPoll();
+                
+                app.renderPath(); 
+                app.renderVenues();
+                app.startCountdown();
+                
+                document.getElementById('mobile-menu-btn').addEventListener('click', () => document.getElementById('mobile-menu').classList.toggle('hidden'));
             },
 
-            // NEW: PATH TO GLORY LOGIC
+            // Render News
+            renderNews: () => {
+                const createCard = (a) => `<div onclick="app.router('article', ${a.id})" class="cursor-pointer bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-emerald-500 transition"><div class="h-48 bg-gray-800"><img src="${a.image}" class="w-full h-full object-cover"></div><div class="p-6"><h3 class="font-bold text-xl mb-2 font-oswald">${a.title}</h3><p class="text-sm text-gray-400">${a.snippet}</p></div></div>`;
+                document.getElementById('home-news-grid').innerHTML = app.newsData.slice(0,3).map(createCard).join('');
+                document.getElementById('full-news-grid').innerHTML = app.newsData.map(createCard).join('');
+            },
+
+            // Path To Glory Logic
             renderPath: () => {
                 const team = document.getElementById('path-team-select').value;
                 const container = document.getElementById('path-timeline');
-                let content = '';
-
-                // 1. Determine Context
-                let isHost = false;
-                let groupInfo = "Group TBD";
+                const ticketContainer = document.getElementById('path-ticket-link');
                 
-                if (team === 'Mexico') { isHost = true; groupInfo = "Group A"; }
-                if (team === 'Canada') { isHost = true; groupInfo = "Group B"; }
-                if (team === 'USA') { isHost = true; groupInfo = "Group D"; }
+                let steps = [];
+                if (team === 'Mexico') steps = [ { stage: "Group Stage", dates: "June 11 & 24", loc: "Mexico City & Guadalajara", desc: "Home soil advantage." }, { stage: "Round of 32", dates: "June 29", loc: "Mexico City (Likely)", desc: "If they win Group A." }, { stage: "Round of 16", dates: "July 5", loc: "Mexico City", desc: "Historic run begins." } ];
+                else if (team === 'Canada') steps = [ { stage: "Group Stage", dates: "June 12 & 18", loc: "Toronto & Vancouver", desc: "Coast to coast." }, { stage: "Round of 32", dates: "June 28", loc: "Vancouver (Likely)", desc: "Win Group B." } ];
+                else if (team === 'USA') steps = [ { stage: "Group Stage", dates: "June 12 & 19", loc: "Los Angeles & Seattle", desc: "West coast fortress." }, { stage: "Round of 32", dates: "June 29", loc: "Los Angeles (Likely)", desc: "SoFi Stadium awaits." } ];
+                else steps = [ { stage: "Group Stage", dates: "TBD", loc: "Various Cities", desc: "Fight for a top-2 finish." }, { stage: "Knockouts", dates: "June 28+", loc: "USA/Mexico/Canada", desc: "Survival of the fittest." } ];
 
-                // 2. Generate Steps
-                // Step 1: Group Stage
-                content += `
-                    <div class="relative pl-8 pb-8 border-l border-emerald-500/30 last:border-0">
-                        <div class="absolute -left-[9px] top-0 w-4 h-4 bg-emerald-500 rounded-full border-4 border-black"></div>
-                        <div class="text-xs uppercase font-bold text-emerald-400 mb-1">June 11 - June 27</div>
-                        <h4 class="text-xl font-bold text-white mb-2">Group Stage (${groupInfo})</h4>
-                        <p class="text-gray-400 text-sm">
-                            ${isHost ? `As a host, ${team} plays 2 games on home soil to kick off the campaign.` : `If drawn into ${groupInfo}, ${team} battles for a top-2 spot.`}
-                        </p>
-                    </div>
-                `;
-
-                // Step 2: Round of 32
-                content += `
-                    <div class="relative pl-8 pb-8 border-l border-emerald-500/30 last:border-0">
-                        <div class="absolute -left-[9px] top-0 w-4 h-4 bg-gray-700 rounded-full border-4 border-black"></div>
-                        <div class="text-xs uppercase font-bold text-gray-500 mb-1">June 28 - July 3</div>
-                        <h4 class="text-xl font-bold text-white mb-2">Round of 32</h4>
-                        <p class="text-gray-400 text-sm">
-                            Winning the group likely avoids heavyweights. Finishing 2nd means a tougher matchup.
-                        </p>
-                    </div>
-                `;
-
-                // Step 3: The Deep Run
-                content += `
-                    <div class="relative pl-8 pb-8 border-l border-emerald-500/30 last:border-0">
-                        <div class="absolute -left-[9px] top-0 w-4 h-4 bg-gray-700 rounded-full border-4 border-black"></div>
-                        <div class="text-xs uppercase font-bold text-gray-500 mb-1">July 4 - July 11</div>
-                        <h4 class="text-xl font-bold text-white mb-2">Road to Quarters</h4>
-                        <p class="text-gray-400 text-sm">
-                            Survive the Round of 16. Historically, this is where legends are made.
-                        </p>
-                    </div>
-                `;
-
-                // Step 4: The Final
-                content += `
-                    <div class="relative pl-8">
-                        <div class="absolute -left-[9px] top-0 w-4 h-4 bg-yellow-500 rounded-full border-4 border-black shadow-[0_0_10px_rgba(234,179,8,0.5)]"></div>
-                        <div class="text-xs uppercase font-bold text-yellow-500 mb-1">July 19, 2026</div>
-                        <h4 class="text-xl font-bold text-white mb-2">The Final</h4>
-                        <p class="text-gray-400 text-sm">
-                            MetLife Stadium, New York/New Jersey. The world is watching.
-                        </p>
-                    </div>
-                `;
-
-                container.innerHTML = content;
+                container.innerHTML = steps.map((s, i) => `<div class="flex gap-6 group"><div class="flex flex-col items-center"><div class="w-4 h-4 rounded-full bg-emerald-500 border-4 border-emerald-900 shadow-[0_0_15px_rgba(52,211,153,0.5)] z-10 relative"></div>${i!==steps.length-1?'<div class="w-0.5 h-20 bg-white/10 group-hover:bg-emerald-500/50 transition duration-500"></div>':''}</div><div class="pb-8"><span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">${s.dates}</span><h3 class="text-2xl font-bold text-white mb-1">${s.stage}</h3><div class="flex items-center gap-2 text-sm text-gray-400 mb-2"><i data-lucide="map-pin" class="w-3 h-3"></i> ${s.loc}</div><p class="text-gray-500 text-sm leading-relaxed max-w-md">${s.desc}</p></div></div>`).join('') + `<div class="flex gap-6 mt-2 opacity-50 group hover:opacity-100 transition"><div class="flex flex-col items-center"><div class="w-4 h-4 rounded-full bg-yellow-500 border-4 border-yellow-900 shadow-[0_0_15px_rgba(234,179,8,0.5)]"></div></div><div><span class="text-xs font-bold text-yellow-500 uppercase tracking-widest">July 19, 2026</span><h3 class="text-2xl font-bold text-white">World Cup Final</h3><div class="text-sm text-gray-400">New York / New Jersey</div></div></div>`;
+                
+                const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(`FIFA World Cup 2026 ${team} tickets`)}`;
+                if(ticketContainer) { ticketContainer.querySelector('a').href = searchUrl; ticketContainer.classList.remove('hidden'); }
+                lucide.createIcons();
             },
 
-            // --- EXTERNAL CONTENT LOADING ---
-            fetchNews: async () => {
+            // Interactive Map Logic
+            selectVenue: (city) => {
+                const venue = venueData.find(v => v.city === city);
+                if(!venue) return;
+                
+                const details = document.getElementById('venue-details');
+                const tooltip = document.getElementById('venue-tooltip');
+                
+                // Update Side Panel
+                details.innerHTML = `
+                    <div class="mb-6">
+                        <h2 class="text-4xl font-bold font-oswald text-white mb-1">${venue.city}</h2>
+                        <div class="text-xl text-emerald-400">${venue.stadium}</div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+                        <div class="bg-white/10 p-3 rounded">
+                            <span class="block text-xs text-gray-400 uppercase">Capacity</span>
+                            <span class="font-bold text-white">${venue.cap}</span>
+                        </div>
+                        <div class="bg-white/10 p-3 rounded">
+                            <span class="block text-xs text-gray-400 uppercase">Matches</span>
+                            <span class="font-bold text-white">${venue.matches}</span>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-6">One of the premier host cities for 2026. Get ready for an electric atmosphere.</p>
+                    <button onclick="app.viewMatchesForVenue('${venue.city.replace("'","\\'") }')" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded transition uppercase tracking-widest">View Matches</button>
+                `;
+
+                // Update Tooltip (if we had mouse coords, simplified here)
+                tooltip.innerHTML = `<strong>${venue.city}</strong><br>${venue.stadium}`;
+                tooltip.classList.remove('hidden');
+                setTimeout(() => tooltip.classList.add('hidden'), 3000);
+            },
+
+            renderVenues: () => {
+                const list = document.getElementById('venue-list-mini');
+                if(!list) return; // Only on venues page? No, we moved it.
+                
+                // Since the layout changed, we adapt:
+                // If we are on the venues page (hidden by default), we need to populate the mini-list in the sidebar
+                list.innerHTML = venueData.map(v => `
+                    <div onclick="app.selectVenue('${v.city}')" class="p-2 bg-black/40 hover:bg-emerald-900/40 rounded cursor-pointer border border-white/5 hover:border-emerald-500/30 transition flex items-center justify-between">
+                        <span class="text-xs font-bold text-gray-300">${v.city}</span>
+                        <i data-lucide="chevron-right" class="w-3 h-3 text-gray-600"></i>
+                    </div>
+                `).join('');
+            },
+
+            // Router
+            scrollToPath: () => { app.router('home'); setTimeout(() => document.getElementById('path-section').scrollIntoView({behavior:'smooth'}), 100); },
+            scrollToVenues: () => { app.router('venues'); window.scrollTo({top:0, behavior:'smooth'}); },
+            
+            // Show matches for a specific venue: navigates to matches view and applies a venue filter
+            viewMatchesForVenue: async (city) => {
+                if(!city) return;
+                // Navigate to tournament view which loads matches.html and initializes MatchEngine
+                await app.router('tournament');
                 try {
-                    const response = await fetch('news.json');
-                    if (!response.ok) throw new Error("Could not fetch news manifest");
-                    app.newsData = await response.json();
-                } catch (e) {
-                    console.log("Using internal fallback data (Preview Mode)");
-                    app.newsData = newsData;
-                }
-                const loading = document.getElementById('home-news-loading');
-                if(loading) loading.classList.add('hidden');
-                document.getElementById('home-news-grid').classList.remove('hidden');
-                app.renderNews();
-            },
-
-            loadArticleContent: async (filename, articleId) => {
-                try {
-                    if(!filename) throw new Error("No filename");
-                    const response = await fetch(`articles/${filename}`);
-                    if (!response.ok) throw new Error("External file not found");
-                    return await response.text();
-                } catch (e) {
-                    const fallback = app.newsData.find(n => n.id === articleId);
-                    if(fallback && fallback.content) return fallback.content;
-                    return "<p>Article content could not be loaded.</p>";
-                }
-            },
-
-            // Countdown Logic
-            startCountdown: () => {
-                const targetDate = new Date('June 11, 2026 12:00:00').getTime();
-
-                function update() {
-                    const now = new Date().getTime();
-                    const distance = targetDate - now;
-
-                    if (distance < 0) {
-                        document.getElementById("countdown-container").innerHTML = "<div class='text-2xl font-bold text-emerald-400'>THE TOURNAMENT IS LIVE!</div>";
-                        return;
+                    if(typeof MatchEngine !== 'undefined' && typeof MatchEngine.setVenue === 'function') {
+                        MatchEngine.setVenue(city);
                     }
-
-                    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                    document.getElementById("cd-days").innerText = days < 10 ? "0" + days : days;
-                    document.getElementById("cd-hours").innerText = hours < 10 ? "0" + hours : hours;
-                    document.getElementById("cd-minutes").innerText = minutes < 10 ? "0" + minutes : minutes;
-                    document.getElementById("cd-seconds").innerText = seconds < 10 ? "0" + seconds : seconds;
-                }
-
-                setInterval(update, 1000);
-                update(); 
+                } catch(e) { console.warn('Unable to filter matches by venue', e); }
             },
-
-            scrollToPath: () => {
-                app.router('home');
-                setTimeout(() => {
-                    document.getElementById('path-section').scrollIntoView({ behavior: 'smooth' });
-                }, 100);
-            },
-
-            // Navigation Logic
-            router: async (viewName, param = null) => {
-                if(viewName !== 'home') window.scrollTo({top: 0, behavior: 'smooth'});
-                app.state.view = viewName;
-
-                // Hide all views
-                document.querySelectorAll('.view-section').forEach(el => el.classList.add('hidden'));
+            
+            router: async (view, param) => {
+                if(view !== 'home' && view !== 'venues') window.scrollTo({top:0,behavior:'smooth'});
+                app.state.view = view;
+                document.querySelectorAll('.view-section').forEach(e => e.classList.add('hidden'));
                 document.getElementById('mobile-menu').classList.add('hidden');
-
-                if(viewName === 'article' && param) {
+                if(view==='article' && param) {
                     await app.renderArticle(param);
                     document.getElementById('article-view').classList.remove('hidden');
-                } else {
-                    document.getElementById(`${viewName}-view`).classList.remove('hidden');
-                }
-                
-                // Update Active Nav State
-                document.querySelectorAll('.nav-btn').forEach(btn => {
-                    if(btn.dataset.target === viewName) {
-                        btn.classList.remove('text-gray-300', 'bg-white/10');
-                        btn.classList.add('bg-white', 'text-black');
-                    } else {
-                        // Skip styling for the special Path to Glory button
-                        if(!btn.onclick.toString().includes('scrollToPath')) {
-                            btn.classList.add('text-gray-300', 'bg-white/10');
-                            btn.classList.remove('bg-white', 'text-black');
-                        }
+                } else if (view === 'tournament') {
+                    document.getElementById('tournament-view').classList.remove('hidden');
+                    const container = document.getElementById('matches-component-container');
+                    if(container.innerHTML === '') {
+                        try {
+                            const r = await fetch('matches.html');
+                            if(r.ok) { container.innerHTML = await r.text(); if(typeof MatchEngine !== 'undefined') MatchEngine.init(); }
+                        } catch (e) { container.innerHTML = `<div class="text-white p-10 text-center">Matches logic loaded via MatchEngine.</div>`; if(typeof MatchEngine !== 'undefined') MatchEngine.init(); }
                     }
-                });
-
-                if(viewName === 'tournament') app.renderMatches();
-                lucide.createIcons();
-            },
-
-            // Render Full Article
-            renderArticle: async (id) => {
-                const article = app.newsData.find(n => n.id === id);
-                if(!article) return;
-
-                const contentDiv = document.getElementById('article-content');
-                const loader = document.getElementById('article-loader');
-                
-                contentDiv.innerHTML = '';
-                loader.classList.remove('hidden');
-
-                const bodyHTML = await app.loadArticleContent(article.filename, article.id);
-
-                loader.classList.add('hidden');
-                contentDiv.innerHTML = `
-                    <button onclick="app.router('news')" class="text-gray-400 hover:text-white mb-8 flex items-center gap-2 text-sm uppercase font-bold tracking-widest transition">
-                        <i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Articles
-                    </button>
-                    
-                    <div class="mb-8">
-                        <div class="flex items-center gap-3 mb-4">
-                            <span class="bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider border border-emerald-500/30">${article.category}</span>
-                            <span class="text-gray-500 text-xs flex items-center gap-1"><i data-lucide="clock" class="w-3 h-3"></i> ${article.date}</span>
-                        </div>
-                        <h1 class="text-4xl md:text-6xl font-bold font-oswald mb-6 leading-tight">${article.title}</h1>
-                    </div>
-
-                    <div class="w-full h-[400px] mb-10 rounded-xl overflow-hidden relative border border-white/10">
-                        <img src="${article.image}" class="w-full h-full object-cover">
-                    </div>
-
-                    <div class="prose prose-invert prose-lg max-w-none text-gray-300">
-                        ${bodyHTML}
-                    </div>
-                `;
-                lucide.createIcons();
-            },
-
-            // Render News Cards
-            renderNews: () => {
-                const homeGrid = document.getElementById('home-news-grid');
-                const fullGrid = document.getElementById('full-news-grid');
-                
-                const createCard = (article) => `
-                    <div onclick="app.router('article', ${article.id})" class="article-card group cursor-pointer bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-emerald-500/50 transition relative">
-                        <div class="h-48 overflow-hidden relative">
-                            <img src="${article.image}" class="w-full h-full object-cover transition duration-700">
-                            <div class="absolute top-2 left-2 bg-black/80 backdrop-blur text-white text-[10px] font-bold uppercase px-2 py-1 rounded border border-white/10">
-                                ${article.category}
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <div class="text-gray-500 text-xs mb-2 flex items-center gap-2">
-                                <i data-lucide="clock" class="w-3 h-3"></i> ${article.date}
-                            </div>
-                            <h3 class="text-xl font-bold font-oswald mb-2 leading-tight group-hover:text-emerald-400 transition">${article.title}</h3>
-                            <p class="text-gray-400 text-sm line-clamp-2">${article.snippet}</p>
-                            <div class="mt-4 flex items-center text-emerald-400 text-xs font-bold uppercase tracking-widest opacity-0 group-hover:opacity-100 transition transform translate-y-2 group-hover:translate-y-0">
-                                Read Full Story <i data-lucide="arrow-right" class="w-3 h-3 ml-1"></i>
-                            </div>
-                        </div>
-                    </div>
-                `;
-
-                if(homeGrid) homeGrid.innerHTML = app.newsData.slice(0, 3).map(createCard).join('');
-                if(fullGrid) fullGrid.innerHTML = app.newsData.map(createCard).join('');
-            },
-
-            // Vote Logic
-            recordVoteInternal: (teamName) => {
-                const existing = pollOptions.find(p => p.name === teamName);
-                if(existing) {
-                    // Don't double count if merely reloading UI from storage state
                 } else {
-                    // If not in Top list, add it dynamically
-                    pollOptions.push({ name: teamName, votes: 1, color: 'bg-emerald-500' });
+                    document.getElementById(`${view}-view`).classList.remove('hidden');
                 }
-                pollOptions.sort((a, b) => b.votes - a.votes);
-            },
-
-            handleDropdownVote: () => {
-                const select = document.getElementById('poll-select');
-                const team = select.value;
-                if(!team) return;
-                app.vote(team);
-            },
-
-            vote: (teamName) => {
-                // If changing vote, clear old one first
-                const currentVote = localStorage.getItem('fifa_poll_vote');
-                if(currentVote) {
-                    if(currentVote === teamName) {
-                        // User clicking same team = toggle off (clear vote)
-                        app.clearVote();
-                        return;
-                    }
-                    // Decrement old vote
-                    const oldOption = pollOptions.find(p => p.name === currentVote);
-                    if(oldOption) oldOption.votes--;
-                }
-                
-                // Add new vote
-                const option = pollOptions.find(p => p.name === teamName);
-                if(option) {
-                    option.votes++;
-                } else {
-                    pollOptions.push({ name: teamName, votes: 1, color: 'bg-emerald-500' });
-                }
-                
-                localStorage.setItem('fifa_poll_vote', teamName);
-                document.getElementById('undo-vote-btn').classList.remove('hidden');
-                
-                pollOptions.sort((a, b) => b.votes - a.votes);
-                app.renderPoll();
-            },
-
-            clearVote: () => {
-                const currentVote = localStorage.getItem('fifa_poll_vote');
-                if(currentVote) {
-                    const option = pollOptions.find(p => p.name === currentVote);
-                    if(option) option.votes--;
-                    localStorage.removeItem('fifa_poll_vote');
-                }
-                document.getElementById('undo-vote-btn').classList.add('hidden');
-                document.getElementById('poll-select').value = "";
-                pollOptions.sort((a, b) => b.votes - a.votes);
-                app.renderPoll();
-            },
-
-            // Render Poll
-            renderPoll: () => {
-                const container = document.getElementById('poll-options');
-                if(!container) return;
-                
-                const totalVotes = pollOptions.reduce((acc, curr) => acc + curr.votes, 0);
-                const userVote = localStorage.getItem('fifa_poll_vote');
-                
-                // Show Top 4 Only
-                const displayOptions = pollOptions.slice(0, 4);
-                
-                container.innerHTML = displayOptions.map((opt, index) => {
-                    const percentage = totalVotes > 0 ? Math.round((opt.votes / totalVotes) * 100) : 0;
-                    const isVoted = userVote === opt.name;
-                    // Highlight user selection
-                    const borderClass = isVoted ? 'border-emerald-500 ring-1 ring-emerald-500' : 'border-transparent';
-                    
-                    return `
-                    <div class="relative h-12 bg-white/5 rounded border ${borderClass} overflow-hidden cursor-pointer group hover:bg-white/10 transition" onclick="app.vote('${opt.name}')">
-                        <div class="absolute inset-y-0 left-0 ${opt.color} opacity-20 transition-all duration-1000" style="width: ${percentage}%"></div>
-                        <div class="absolute inset-0 flex items-center justify-between px-4">
-                            <span class="font-bold text-sm uppercase flex items-center gap-2">
-                                ${getFlagHTML(opt.name)} ${opt.name}
-                                ${isVoted ? '<i data-lucide="check-circle" class="w-3 h-3 text-emerald-400"></i>' : ''}
-                            </span>
-                            <span class="text-xs font-mono text-gray-400">${percentage}%</span>
-                        </div>
-                    </div>`;
-                }).join('');
                 lucide.createIcons();
             },
 
-            // Tournament Logic
-            matches: [],
+            // Poll Logic (Condensed)
+            pollOptions: [{ name: "Brazil", votes: 240, color: "bg-yellow-500" }, { name: "France", votes: 210, color: "bg-blue-600" }, { name: "Argentina", votes: 180, color: "bg-sky-400" }, { name: "England", votes: 95, color: "bg-white" }],
+            recordVoteInternal: (t) => { const e = app.pollOptions.find(p => p.name === t); if(!e) app.pollOptions.push({ name: t, votes: 1, color: 'bg-emerald-500' }); app.pollOptions.sort((a, b) => b.votes - a.votes); },
+            handleDropdownVote: () => { const v = document.getElementById('poll-select').value; if(v) app.vote(v); },
+            vote: (t) => { if(localStorage.getItem('fifa_poll_vote') === t) { app.clearVote(); return; } const o = app.pollOptions.find(p => p.name === t); if(o) o.votes++; else app.pollOptions.push({ name: t, votes: 1, color: 'bg-emerald-500' }); localStorage.setItem('fifa_poll_vote', t); document.getElementById('undo-vote-btn').classList.remove('hidden'); app.pollOptions.sort((a, b) => b.votes - a.votes); app.renderPoll(); },
+            clearVote: () => { const c = localStorage.getItem('fifa_poll_vote'); if(c) { const o = app.pollOptions.find(p => p.name === c); if(o) o.votes--; localStorage.removeItem('fifa_poll_vote'); } document.getElementById('undo-vote-btn').classList.add('hidden'); document.getElementById('poll-select').value = ""; app.pollOptions.sort((a, b) => b.votes - a.votes); app.renderPoll(); },
+            renderPoll: () => { const c = document.getElementById('poll-options'); if(!c) return; const t = app.pollOptions.reduce((a, v) => a + v.votes, 0); const u = localStorage.getItem('fifa_poll_vote'); c.innerHTML = app.pollOptions.slice(0,4).map(o => `<div class="relative h-12 bg-white/5 rounded border ${u===o.name?'border-emerald-500':'border-transparent'} overflow-hidden cursor-pointer group hover:bg-white/10 transition" onclick="app.vote('${o.name}')"><div class="absolute inset-y-0 left-0 ${o.color} opacity-20 transition-all duration-1000" style="width: ${t>0?Math.round((o.votes/t)*100):0}%"></div><div class="absolute inset-0 flex items-center justify-between px-4"><span class="font-bold text-sm uppercase flex items-center gap-2">${o.name} ${u===o.name?'<i data-lucide="check-circle" class="w-3 h-3 text-emerald-400"></i>':''}</span><span class="text-xs font-mono text-gray-400">${t>0?Math.round((o.votes/t)*100):0}%</span></div></div>`).join(''); lucide.createIcons(); },
+
+            fetchNews: async () => { try { const r = await fetch('news.json'); app.newsData = r.ok ? await r.json() : []; } catch (e) { app.newsData = newsData; } app.renderNews(); },
+            renderArticle: async (id) => { const a = app.newsData.find(n => n.id === id); if(!a) return; let c = ""; try { const r = await fetch(`articles/${a.filename}`); c = r.ok ? await r.text() : a.content; } catch (e) { c = a.content; } document.getElementById('article-content').innerHTML = `<button onclick="app.router('news')" class="text-gray-400 hover:text-white mb-8 flex items-center gap-2 text-sm uppercase font-bold tracking-widest transition"><i data-lucide="arrow-left" class="w-4 h-4"></i> Back to Articles</button><div class="mb-8"><div class="flex items-center gap-3 mb-4"><span class="bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider border border-emerald-500/30">${a.category}</span></div><h1 class="text-4xl md:text-6xl font-bold font-oswald mb-6 leading-tight">${a.title}</h1></div><div class="w-full h-[400px] mb-10 rounded-xl overflow-hidden bg-gray-800"><img src="${a.image}" class="w-full h-full object-cover"></div><div class="prose prose-invert prose-lg max-w-none text-gray-300">${c}</div>`; lucide.createIcons(); },
             
-            generateMatches: () => {
-                app.matches = []; 
-
-                function getPotTBD(matchIndex, side) {
-                     const pattern = [[1, 2], [3, 4], [1, 3], [2, 4], [4, 1], [2, 3]];
-                     const patternIndex = (matchIndex - 1) % 6; 
-                     const pot = pattern[patternIndex][side === 'A' ? 0 : 1];
-                     return `TBD <span class="text-gray-600 font-normal text-[10px] ml-1">(Pot ${pot})</span>`;
-                }
-
-                // 1. Group Stage Loop (1-72)
-                for(let i=1; i<=72; i++) {
-                    let date = `June ${11 + Math.floor((i-1)/4)}`;
-                    let stad = officialVenues[i] || "TBD";
-                    let groupLabel = officialGroups[i] || 'A'; 
-                    
-                    let tA = getPotTBD(i, 'A');
-                    let tB = getPotTBD(i, 'B');
-
-                    if(i === 1) { tA = "Mexico"; tB = getPotTBD(i, 'B'); date = "June 11"; }
-                    if(i === 3) { tA = "Canada"; tB = getPotTBD(i, 'B'); date = "June 12"; }
-                    if(i === 4) { tA = "USA"; tB = getPotTBD(i, 'B'); date = "June 12"; }
-
-                    app.matches.push({
-                        id: i,
-                        stage: "Group Stage",
-                        group: groupLabel,
-                        teamA: tA,
-                        teamB: tB,
-                        date: date,
-                        stadium: stad
-                    });
-                }
-
-                // 2. Knockout Loop (73-104)
-                for(let i=73; i<=104; i++) {
-                    const data = knockoutMapping[i];
-                    let stageName = "Round of 32";
-                    if(i > 88) stageName = "Round of 16";
-                    if(i > 96) stageName = "Quarter-Final";
-                    if(i > 100) stageName = "Semi-Final";
-                    if(i === 103) stageName = "Bronze Final";
-                    if(i === 104) stageName = "FINAL";
-
-                    app.matches.push({
-                        id: i,
-                        stage: stageName,
-                        teamA: data[0],
-                        teamB: data[1],
-                        date: data[2],
-                        stadium: officialVenues[i] || "TBD"
-                    });
-                }
-            },
-
-            setFilter: (type) => {
-                app.state.filter = type;
-                document.querySelectorAll('.filter-btn').forEach(btn => {
-                    if(btn.id === `btn-${type}`) {
-                        btn.classList.remove('text-gray-500');
-                        btn.classList.add('bg-white', 'text-black', 'shadow-[0_0_15px_rgba(255,255,255,0.2)]');
-                    } else {
-                        btn.classList.add('text-gray-500');
-                        btn.classList.remove('bg-white', 'text-black', 'shadow-[0_0_15px_rgba(255,255,255,0.2)]');
-                    }
-                });
-                app.renderMatches();
-            },
-
-            renderMatches: () => {
-                const container = document.getElementById('matches-container');
-                container.innerHTML = '';
-                
-                let data = app.matches;
-                if(app.state.filter === 'group') data = data.filter(m => m.id <= 72);
-                if(app.state.filter === 'knockout') data = data.filter(m => m.id > 72);
-
-                // Render Calendar View
-                if(app.state.filter === 'calendar') {
-                    container.className = "flex flex-col gap-8 max-w-4xl mx-auto";
-                    const dates = [...new Set(app.matches.map(m => m.date))];
-                    
-                    dates.forEach(date => {
-                        const dayMatches = app.matches.filter(m => m.date === date);
-                        const section = document.createElement('div');
-                        section.className = "pl-6 border-l border-white/20 relative pb-8";
-                        section.innerHTML = `
-                            <div class="absolute -left-[5px] top-0 w-2.5 h-2.5 bg-emerald-500 rounded-full"></div>
-                            <h3 class="text-xl font-bold mb-4 text-emerald-400 font-mono uppercase">${date}</h3>
-                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                ${dayMatches.map(m => app.getMatchCard(m)).join('')}
-                            </div>
-                        `;
-                        container.appendChild(section);
-                    });
-                } else {
-                    // Standard Grid
-                    container.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4";
-                    data.forEach(m => {
-                        container.innerHTML += app.getMatchCard(m);
-                    });
-                }
-                lucide.createIcons();
-            },
-
-            getMatchCard: (match) => {
-                const isGroup = match.stage === 'Group Stage';
-                const groupBadge = isGroup ? `<span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-1.5 py-0.5 rounded ml-2 border border-emerald-500/20">GRP ${match.group}</span>` : '';
-                
-                const rawTeamA = match.teamA.replace(/<[^>]*>?/gm, '');
-                const rawTeamB = match.teamB.replace(/<[^>]*>?/gm, '');
-                const searchQuery = encodeURIComponent(`FIFA World Cup 2026 Match ${match.id} ${rawTeamA} vs ${rawTeamB} tickets`);
-                const searchUrl = `https://www.google.com/search?q=${searchQuery}`;
-
-                return `
-                <div class="bg-white/5 border border-white/10 rounded p-4 hover:bg-white/10 transition group relative overflow-hidden">
-                    <div class="flex justify-between items-center mb-4 text-xs uppercase tracking-wider">
-                        <div class="flex items-center text-gray-500 font-bold">
-                            Match ${match.id} ${groupBadge}
-                        </div>
-                        <span class="text-gray-400">${match.date}</span>
-                    </div>
-                    
-                    <div class="space-y-3 mb-4">
-                        <div class="flex items-center">
-                            ${getFlagHTML(match.teamA)}
-                            <span class="font-bold text-gray-200 text-sm md:text-base">${match.teamA}</span>
-                        </div>
-                        <div class="flex items-center">
-                            ${getFlagHTML(match.teamB)}
-                            <span class="font-bold text-gray-200 text-sm md:text-base">${match.teamB}</span>
-                        </div>
-                    </div>
-
-                    <div class="border-t border-white/10 pt-3 flex justify-between items-center text-xs text-gray-500">
-                        <div class="truncate max-w-[50%] flex items-center gap-1">
-                            <i data-lucide="map-pin" class="w-3 h-3"></i> ${match.stadium}
-                        </div>
-                        <a href="${searchUrl}" target="_blank" class="text-emerald-400 hover:text-white transition font-bold uppercase flex items-center gap-1">
-                            Find Tickets <i data-lucide="external-link" class="w-3 h-3"></i>
-                        </a>
-                    </div>
-                </div>`;
-            }
+            startCountdown: () => { const d = new Date('June 11, 2026 12:00:00').getTime(); setInterval(() => { const n = new Date().getTime(), dist = d - n; if(dist<0) { document.getElementById("countdown-container").innerHTML = "LIVE!"; return; } document.getElementById("cd-days").innerText = String(Math.floor(dist/(1000*60*60*24))).padStart(2,'0'); document.getElementById("cd-hours").innerText = String(Math.floor((dist%(1000*60*60*24))/(1000*60*60))).padStart(2,'0'); document.getElementById("cd-minutes").innerText = String(Math.floor((dist%(1000*60*60))/(1000*60))).padStart(2,'0'); document.getElementById("cd-seconds").innerText = String(Math.floor((dist%(1000*60))/1000)).padStart(2,'0'); }, 1000); }
         };
 
-        // Boot
         window.addEventListener('DOMContentLoaded', app.init);
-
     </script>
 </body>
 </html>
