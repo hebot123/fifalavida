@@ -1,4 +1,4 @@
-// MATCH LOGIC ENGINE (UPDATED WITH MATRIX DATA)
+// MATCH LOGIC ENGINE (VISUALS: BORDERS & FLAGS)
 const MatchEngine = {
     matches: [],
     filter: 'all',
@@ -9,40 +9,51 @@ const MatchEngine = {
     
     officialGroups: { 1: 'A', 2: 'A', 25: 'A', 28: 'A', 53: 'A', 54: 'A', 3: 'B', 8: 'B', 26: 'B', 27: 'B', 51: 'B', 52: 'B', 5: 'C', 7: 'C', 29: 'C', 30: 'C', 49: 'C', 50: 'C', 4: 'D', 6: 'D', 31: 'D', 32: 'D', 59: 'D', 60: 'D', 9: 'E', 10: 'E', 33: 'E', 34: 'E', 55: 'E', 56: 'E', 11: 'F', 12: 'F', 35: 'F', 36: 'F', 57: 'F', 58: 'F', 15: 'G', 16: 'G', 39: 'G', 40: 'G', 63: 'G', 64: 'G', 13: 'H', 14: 'H', 37: 'H', 38: 'H', 65: 'H', 66: 'H', 17: 'I', 18: 'I', 41: 'I', 42: 'I', 61: 'I', 62: 'I', 19: 'J', 20: 'J', 43: 'J', 44: 'J', 69: 'J', 70: 'J', 23: 'K', 24: 'K', 47: 'K', 48: 'K', 71: 'K', 72: 'K', 21: 'L', 22: 'L', 45: 'L', 46: 'L', 67: 'L', 68: 'L' },
     
-    // NEW: Specific Matrix Overrides for known pairings
-    // Based on "Hub and Spoke" logic and the leaked schedule matrix
-    specificMatchups: {
-        // --- SAN FRANCISCO (Venue 8/20/31/44/60) ---
-        8:  ["B3 (Pot 2/3/4)", "B4 (Pot 2/3/4)"], // Canada (B1) is in Toronto
-        20: ["J2 (Pot 2/3/4)", "J4 (Pot 2/3/4)"], // J1 is in KC (Match 19)
-        31: ["D2 (Pot 2/3/4)", "D4 (Pot 2/3/4)"], // USA (D1) is in Seattle
-        44: ["J1 (Pot 1 Seed)", "J3 (Pot 2/3/4)"], // **THE POT 1 GAME** (J1 travels from KC)
-        60: ["D2 (Pot 2/3/4)", "D3 (Pot 2/3/4)"], // USA (D1) is in LA
-
-        // --- HOST MATCHES (Confirmed) ---
-        1:  ["Mexico (A1)", "A2"],
-        3:  ["Canada (B1)", "B2"],
-        4:  ["USA (D1)", "D2"],
-        27: ["Canada (B1)", "B3"], // Vancouver
-        28: ["Mexico (A1)", "A3"], // Guadalajara
-        32: ["USA (D1)", "D3"],    // Seattle
-        51: ["Canada (B1)", "B4"], // Vancouver
-        53: ["Mexico (A1)", "A4"], // Azteca
-        59: ["USA (D1)", "D4"],    // LA
-    },
-
-    pot1Openers: {
-        5: "Group C Seed (Pot 1)",  9: "Group E Seed (Pot 1)", 11: "Group F Seed (Pot 1)",
-        13: "Group H Seed (Pot 1)", 15: "Group G Seed (Pot 1)", 17: "Group I Seed (Pot 1)",
-        19: "Group J Seed (Pot 1)", 21: "Group L Seed (Pot 1)", 23: "Group K Seed (Pot 1)"
+    // FULL MATRIX EXTRACTION
+    confirmedMatchups: {
+        1: ["Mexico (A1)", "A2"], 2: ["A3", "A4"],
+        3: ["Canada (B1)", "B2"], 4: ["USA (D1)", "D2"],
+        5: ["C1", "C2"], 6: ["D3", "D4"],
+        7: ["C3", "C4"], 8: ["B3", "B4"],
+        9: ["E1", "E2"], 10: ["E3", "E4"],
+        11: ["F1", "F2"], 12: ["F3", "F4"],
+        13: ["H1", "H2"], 14: ["H3", "H4"],
+        15: ["G1", "G2"], 16: ["G3", "G4"],
+        17: ["I1", "I2"], 18: ["I3", "I4"],
+        19: ["J1", "J2"], 20: ["J3", "J4"],
+        21: ["L1", "L2"], 22: ["L3", "L4"],
+        23: ["K1", "K2"], 24: ["K3", "K4"],
+        25: ["A2", "A4"], 26: ["B2", "B4"],
+        27: ["Canada (B1)", "B3"], 28: ["Mexico (A1)", "A3"],
+        29: ["C2", "C4"], 30: ["C1", "C3"],
+        31: ["D2", "D4"], 32: ["USA (D1)", "D3"],
+        33: ["E2", "E4"], 34: ["E1", "E3"],
+        35: ["F2", "F4"], 36: ["F1", "F3"],
+        37: ["H2", "H4"], 38: ["H1", "H3"],
+        39: ["G2", "G4"], 40: ["G1", "G3"],
+        41: ["I2", "I4"], 42: ["I1", "I3"],
+        43: ["J2", "J4"], 44: ["J1", "J3"],
+        45: ["L2", "L4"], 46: ["L1", "L3"],
+        47: ["K2", "K4"], 48: ["K1", "K3"],
+        49: ["C1", "C4"], 50: ["C2", "C3"],
+        51: ["Canada (B1)", "B4"], 52: ["B2", "B3"],
+        53: ["Mexico (A1)", "A4"], 54: ["A2", "A3"],
+        55: ["E1", "E4"], 56: ["E2", "E3"],
+        57: ["F1", "F4"], 58: ["F2", "F3"],
+        59: ["USA (D1)", "D4"], 60: ["D2", "D3"],
+        61: ["I1", "I4"], 62: ["I2", "I3"],
+        63: ["G1", "G4"], 64: ["G2", "G3"],
+        65: ["H1", "H4"], 66: ["H2", "H3"],
+        67: ["L1", "L4"], 68: ["L2", "L3"],
+        69: ["J1", "J4"], 70: ["J2", "J3"],
+        71: ["K1", "K4"], 72: ["K2", "K3"]
     },
 
     knockoutMapping: { 73: ["Group A 2nd", "Group B 2nd", "June 28"], 74: ["Group E Winner", "Group A/B/C/D/F 3rd", "June 29"], 75: ["Group F Winner", "Group C 2nd", "June 29"], 76: ["Group C Winner", "Group F 2nd", "June 29"], 77: ["Group I Winner", "Group C/D/F/G/H 3rd", "June 30"], 78: ["Group E 2nd", "Group I 2nd", "June 30"], 79: ["Group A Winner", "Group C/E/F/H/I 3rd", "June 30"], 80: ["Group L Winner", "Group E/H/I/J/K 3rd", "July 1"], 81: ["Group D Winner", "Group B/E/F/I/J 3rd", "July 1"], 82: ["Group G Winner", "Group A/E/H/I/J 3rd", "July 1"], 83: ["Group K 2nd", "Group L 2nd", "July 2"], 84: ["Group H Winner", "Group J 2nd", "July 2"], 85: ["Group B Winner", "Group E/F/G/I/J 3rd", "July 2"], 86: ["Group J Winner", "Group H 2nd", "July 3"], 87: ["Group K Winner", "Group D/E/I/J/L 3rd", "July 3"], 88: ["Group D 2nd", "Group G 2nd", "July 3"], 89: ["Winner Match 74", "Winner Match 77", "July 4"], 90: ["Winner Match 73", "Winner Match 75", "July 4"], 91: ["Winner Match 76", "Winner Match 78", "July 5"], 92: ["Winner Match 79", "Winner Match 80", "July 5"], 93: ["Winner Match 83", "Winner Match 84", "July 6"], 94: ["Winner Match 81", "Winner Match 82", "July 6"], 95: ["Winner Match 86", "Winner Match 88", "July 7"], 96: ["Winner Match 85", "Winner Match 87", "July 7"], 97: ["Winner Match 89", "Winner Match 90", "July 9"], 98: ["Winner Match 93", "Winner Match 94", "July 10"], 99: ["Winner Match 91", "Winner Match 92", "July 11"], 100: ["Winner Match 95", "Winner Match 96", "July 11"], 101: ["Winner Match 97", "Winner Match 98", "July 14"], 102: ["Winner Match 99", "Winner Match 100", "July 15"], 103: ["Loser Match 101", "Loser Match 102", "July 18"], 104: ["Winner Match 101", "Winner Match 102", "July 19"] },
 
-    // Helper to get precise date for Group Matches
     getMatchDate: (id) => {
-        if (id >= 1 && id <= 2) return "June 11";
-        if (id >= 3 && id <= 4) return "June 12";
+        if (id === 1 || id === 2) return "June 11";
+        if (id === 3 || id === 4) return "June 12";
         if (id >= 5 && id <= 8) return "June 13";
         if (id >= 9 && id <= 12) return "June 14";
         if (id >= 13 && id <= 16) return "June 15";
@@ -52,10 +63,9 @@ const MatchEngine = {
         if (id >= 29 && id <= 32) return "June 19";
         if (id >= 33 && id <= 36) return "June 20";
         if (id >= 37 && id <= 40) return "June 21";
-        if (id >= 41 && id <= 44) return "June 22";
-        if (id >= 45 && id <= 48) return "June 23";
-        // Final Group Matches (6 matches per day)
-        if (id >= 49 && id <= 54) return "June 24"; 
+        if (id === 41 || id === 43 || id === 44 || id === 46) return "June 22";
+        if (id === 42 || id === 45 || id === 47 || id === 48) return "June 23";
+        if (id >= 49 && id <= 54) return "June 24";
         if (id >= 55 && id <= 60) return "June 25";
         if (id >= 61 && id <= 66) return "June 26";
         if (id >= 67 && id <= 72) return "June 27";
@@ -127,45 +137,52 @@ const MatchEngine = {
     generateMatches: () => {
         MatchEngine.matches = [];
         
-        // Helper to format generic Pot entries
-        const formatPot = (pots) => `TBD <span class="text-gray-600 font-normal text-[10px] ml-1">(${pots})</span>`;
-        // Helper to Highlight Pot 1 entries
-        const formatPot1 = (name) => `<span class="text-emerald-400 font-bold">${name}</span>`;
+        // Helper: Check if a Team Name is "Pot 1" (Seeds 1, or Hosts)
+        // Matches "X1" but avoids "X10", "X11" etc. Includes specific host names.
+        const checkIsPot1 = (name) => {
+            if (!name) return false;
+            return (name.includes("1") && !name.includes("10") && !name.includes("11") && !name.includes("12") && !name.includes("21")) || 
+                   name.includes("Mexico") || name.includes("USA") || name.includes("Canada");
+        };
 
-        // Group Stage
+        const formatPot = (pots) => `TBD <span class="text-gray-600 font-normal text-[10px] ml-1">(${pots})</span>`;
+        
+        const formatPot1 = (name) => {
+            const isPot1 = checkIsPot1(name);
+            return isPot1 ? `<span class="text-emerald-400 font-bold">${name}</span>` : `<span class="text-gray-200 font-bold">${name}</span>`;
+        };
+
+        // Group Stage (1-72)
         for(let i=1; i<=72; i++) {
             const d = MatchEngine.getMatchDate(i);
             const stadium = MatchEngine.officialVenues[i] || "TBD";
             const group = MatchEngine.officialGroups[i] || 'A';
             let teamA, teamB;
+            let isPremium = false; // Flag for Pot 1 Border
 
-            // --- PRIORITY 1: SPECIFIC MATRIX OVERRIDES ---
-            if (MatchEngine.specificMatchups[i]) {
-                const m = MatchEngine.specificMatchups[i];
-                // Check if names should be highlighted
-                const tA = m[0].includes("Pot 1") || m[0].includes("Mexico") || m[0].includes("USA") || m[0].includes("Canada") ? formatPot1(m[0]) : formatPot(m[0]);
-                const tB = m[1].includes("Pot 1") || m[1].includes("Mexico") || m[1].includes("USA") || m[1].includes("Canada") ? formatPot1(m[1]) : formatPot(m[1]);
-                
-                // Allow direct string usage if it already has HTML or is simple
-                teamA = m[0].includes("span") ? m[0] : tA;
-                teamB = m[1].includes("span") ? m[1] : tB;
-            }
-            // --- PRIORITY 2: POT 1 OPENERS ---
-            else if (MatchEngine.pot1Openers[i]) {
-                teamA = formatPot1(MatchEngine.pot1Openers[i]);
-                teamB = formatPot("Group " + group + " Opponent");
-            }
-            // --- PRIORITY 3: STANDARD LOGIC ---
-            else if (['A', 'B', 'D'].includes(group)) {
-                teamA = formatPot("Pot 2/3/4");
-                teamB = formatPot("Pot 2/3/4");
-            } 
-            else {
+            if (MatchEngine.confirmedMatchups[i]) {
+                const m = MatchEngine.confirmedMatchups[i];
+                teamA = formatPot1(m[0]);
+                teamB = formatPot1(m[1]);
+                // Set Premium Flag if either team is Pot 1
+                if(checkIsPot1(m[0]) || checkIsPot1(m[1])) {
+                    isPremium = true;
+                }
+            } else {
                 teamA = formatPot("Group " + group);
                 teamB = formatPot("Group " + group);
             }
 
-            MatchEngine.matches.push({id:i, stage:"Group Stage", group:group, teamA:teamA, teamB:teamB, date:d, stadium:stadium});
+            MatchEngine.matches.push({
+                id: i, 
+                stage: "Group Stage", 
+                group: group, 
+                teamA: teamA, 
+                teamB: teamB, 
+                date: d, 
+                stadium: stadium,
+                isPremium: isPremium // Store the flag
+            });
         }
 
         // Knockout Stage
@@ -173,7 +190,7 @@ const MatchEngine = {
             const d = MatchEngine.knockoutMapping[i];
             let sn = "Round of 32";
             if(i>88) sn="Round of 16"; if(i>96) sn="Quarter-Final"; if(i>100) sn="Semi-Final"; if(i===103) sn="Bronze Final"; if(i===104) sn="FINAL";
-            MatchEngine.matches.push({id:i, stage:sn, teamA:d[0], teamB:d[1], date:d[2], stadium:MatchEngine.officialVenues[i]||"TBD"});
+            MatchEngine.matches.push({id:i, stage:sn, teamA:d[0], teamB:d[1], date:d[2], stadium:MatchEngine.officialVenues[i]||"TBD", isPremium:false});
         }
     },
 
@@ -219,19 +236,17 @@ const MatchEngine = {
             container.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6";
             data.forEach(m => container.innerHTML += MatchEngine.getCardHTML(m));
         }
-        try {
-            const clearBtn = document.getElementById('btn-clear-venue');
-            if(clearBtn) {
-                if(MatchEngine.venueFilter) clearBtn.classList.remove('hidden'); else clearBtn.classList.add('hidden');
-            }
-        } catch(e) { }
-
         try { if(typeof window.updateVenueSelectFromEngine === 'function') window.updateVenueSelectFromEngine(); } catch(e) { }
 
         if(window.lucide) window.lucide.createIcons();
     },
 
     getCardHTML: (match) => {
+        // 1. Determine Border Class (Emerald if Premium/Pot1, standard otherwise)
+        const borderClass = match.isPremium 
+            ? "border-emerald-500/50 shadow-[0_0_10px_rgba(52,211,153,0.1)] bg-emerald-900/10" 
+            : "border-white/10 bg-white/5";
+
         const groupBadge = match.stage === 'Group Stage' ? `<span class="bg-emerald-500/10 text-emerald-400 text-[10px] px-1.5 py-0.5 rounded ml-2 border border-emerald-500/20">GRP ${match.group}</span>` : '';
         const formatStageLabel = (s) => {
             if(!s) return '';
@@ -241,10 +256,25 @@ const MatchEngine = {
             return s;
         };
         const stageLabel = match.stage && match.stage !== 'Group Stage' ? `<span class="bg-white/5 text-gray-300 text-[10px] px-2 py-0.5 rounded ml-2 uppercase">${formatStageLabel(match.stage)}</span>` : '';
-        const getFlag = (name) => { if(typeof window.getFlagHTML === 'function') return window.getFlagHTML(name); return ''; };
+        
+        // 2. Updated Flag Logic for Known Countries
+        const getFlag = (htmlStr) => { 
+            // htmlStr comes in as "<span class...>Mexico (A1)</span>" or plain text
+            // Strip HTML to get raw name
+            const raw = htmlStr.replace(/<[^>]*>?/gm, ''); 
+            
+            if (raw.includes("USA")) return "🇺🇸 ";
+            if (raw.includes("Mexico")) return "🇲🇽 ";
+            if (raw.includes("Canada")) return "🇨🇦 ";
+            
+            // Fallback for others (optional window hook)
+            if(typeof window.getFlagHTML === 'function') return window.getFlagHTML(raw); 
+            return ''; 
+        };
+
         const clean = (n) => n.replace(/<[^>]*>?/gm, '').trim();
         const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(`FIFA World Cup 2026 Match ${match.id} ${clean(match.teamA)} vs ${clean(match.teamB)} tickets`)}`;
         
-        return `<div class="bg-white/5 border border-white/10 rounded p-4 hover:bg-white/10 transition group relative overflow-hidden"><div class="flex justify-between items-center mb-4 text-xs uppercase tracking-wider"><div class="flex items-center text-gray-500 font-bold">Match ${match.id} ${groupBadge} ${stageLabel}</div><span class="text-gray-400">${match.date}</span></div><div class="space-y-3 mb-4"><div class="flex items-center">${getFlag(match.teamA)}<span class="font-bold text-gray-200 text-sm md:text-base">${match.teamA}</span></div><div class="flex items-center">${getFlag(match.teamB)}<span class="font-bold text-gray-200 text-sm md:text-base">${match.teamB}</span></div></div><div class="border-t border-white/10 pt-3 flex justify-between items-center text-xs text-gray-500"><div class="truncate max-w-[50%] flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> ${match.stadium}</div><a href="${searchUrl}" target="_blank" class="text-emerald-400 hover:text-white transition font-bold uppercase flex items-center gap-1 hover:bg-emerald-500/20 px-2 py-1 rounded">Find Tickets <i data-lucide="external-link" class="w-3 h-3"></i></a></div></div>`;
+        return `<div class="${borderClass} border rounded p-4 hover:bg-white/10 transition group relative overflow-hidden"><div class="flex justify-between items-center mb-4 text-xs uppercase tracking-wider"><div class="flex items-center text-gray-500 font-bold">Match ${match.id} ${groupBadge} ${stageLabel}</div><span class="text-gray-400">${match.date}</span></div><div class="space-y-3 mb-4"><div class="flex items-center">${getFlag(match.teamA)}<span class="font-bold text-gray-200 text-sm md:text-base ml-1">${match.teamA}</span></div><div class="flex items-center">${getFlag(match.teamB)}<span class="font-bold text-gray-200 text-sm md:text-base ml-1">${match.teamB}</span></div></div><div class="border-t border-white/10 pt-3 flex justify-between items-center text-xs text-gray-500"><div class="truncate max-w-[50%] flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> ${match.stadium}</div><a href="${searchUrl}" target="_blank" class="text-emerald-400 hover:text-white transition font-bold uppercase flex items-center gap-1 hover:bg-emerald-500/20 px-2 py-1 rounded">Find Tickets <i data-lucide="external-link" class="w-3 h-3"></i></a></div></div>`;
     }
 };
