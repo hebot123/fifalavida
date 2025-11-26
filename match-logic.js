@@ -1,4 +1,4 @@
-// MATCH LOGIC ENGINE (CORRECTED DATES)
+// MATCH LOGIC ENGINE (UPDATED WITH MATRIX DATA)
 const MatchEngine = {
     matches: [],
     filter: 'all',
@@ -9,10 +9,26 @@ const MatchEngine = {
     
     officialGroups: { 1: 'A', 2: 'A', 25: 'A', 28: 'A', 53: 'A', 54: 'A', 3: 'B', 8: 'B', 26: 'B', 27: 'B', 51: 'B', 52: 'B', 5: 'C', 7: 'C', 29: 'C', 30: 'C', 49: 'C', 50: 'C', 4: 'D', 6: 'D', 31: 'D', 32: 'D', 59: 'D', 60: 'D', 9: 'E', 10: 'E', 33: 'E', 34: 'E', 55: 'E', 56: 'E', 11: 'F', 12: 'F', 35: 'F', 36: 'F', 57: 'F', 58: 'F', 15: 'G', 16: 'G', 39: 'G', 40: 'G', 63: 'G', 64: 'G', 13: 'H', 14: 'H', 37: 'H', 38: 'H', 65: 'H', 66: 'H', 17: 'I', 18: 'I', 41: 'I', 42: 'I', 61: 'I', 62: 'I', 19: 'J', 20: 'J', 43: 'J', 44: 'J', 69: 'J', 70: 'J', 23: 'K', 24: 'K', 47: 'K', 48: 'K', 71: 'K', 72: 'K', 21: 'L', 22: 'L', 45: 'L', 46: 'L', 67: 'L', 68: 'L' },
     
-    hostSeeds: {
-        1: "Mexico (A1)", 28: "Mexico (A1)", 53: "Mexico (A1)",
-        3: "Canada (B1)", 27: "Canada (B1)", 51: "Canada (B1)",
-        4: "USA (D1)", 32: "USA (D1)", 59: "USA (D1)"
+    // NEW: Specific Matrix Overrides for known pairings
+    // Based on "Hub and Spoke" logic and the leaked schedule matrix
+    specificMatchups: {
+        // --- SAN FRANCISCO (Venue 8/20/31/44/60) ---
+        8:  ["B3 (Pot 2/3/4)", "B4 (Pot 2/3/4)"], // Canada (B1) is in Toronto
+        20: ["J2 (Pot 2/3/4)", "J4 (Pot 2/3/4)"], // J1 is in KC (Match 19)
+        31: ["D2 (Pot 2/3/4)", "D4 (Pot 2/3/4)"], // USA (D1) is in Seattle
+        44: ["J1 (Pot 1 Seed)", "J3 (Pot 2/3/4)"], // **THE POT 1 GAME** (J1 travels from KC)
+        60: ["D2 (Pot 2/3/4)", "D3 (Pot 2/3/4)"], // USA (D1) is in LA
+
+        // --- HOST MATCHES (Confirmed) ---
+        1:  ["Mexico (A1)", "A2"],
+        3:  ["Canada (B1)", "B2"],
+        4:  ["USA (D1)", "D2"],
+        27: ["Canada (B1)", "B3"], // Vancouver
+        28: ["Mexico (A1)", "A3"], // Guadalajara
+        32: ["USA (D1)", "D3"],    // Seattle
+        51: ["Canada (B1)", "B4"], // Vancouver
+        53: ["Mexico (A1)", "A4"], // Azteca
+        59: ["USA (D1)", "D4"],    // LA
     },
 
     pot1Openers: {
@@ -39,7 +55,7 @@ const MatchEngine = {
         if (id >= 41 && id <= 44) return "June 22";
         if (id >= 45 && id <= 48) return "June 23";
         // Final Group Matches (6 matches per day)
-        if (id >= 49 && id <= 54) return "June 24"; // Covers M52
+        if (id >= 49 && id <= 54) return "June 24"; 
         if (id >= 55 && id <= 60) return "June 25";
         if (id >= 61 && id <= 66) return "June 26";
         if (id >= 67 && id <= 72) return "June 27";
@@ -110,26 +126,36 @@ const MatchEngine = {
 
     generateMatches: () => {
         MatchEngine.matches = [];
+        
+        // Helper to format generic Pot entries
         const formatPot = (pots) => `TBD <span class="text-gray-600 font-normal text-[10px] ml-1">(${pots})</span>`;
+        // Helper to Highlight Pot 1 entries
         const formatPot1 = (name) => `<span class="text-emerald-400 font-bold">${name}</span>`;
 
         // Group Stage
         for(let i=1; i<=72; i++) {
-            // FIXED: Use getMatchDate helper instead of formula
             const d = MatchEngine.getMatchDate(i);
-            
             const stadium = MatchEngine.officialVenues[i] || "TBD";
             const group = MatchEngine.officialGroups[i] || 'A';
             let teamA, teamB;
 
-            if (MatchEngine.hostSeeds[i]) {
-                teamA = formatPot1(MatchEngine.hostSeeds[i]);
-                teamB = formatPot("Group " + group + " Opponent");
-            } 
+            // --- PRIORITY 1: SPECIFIC MATRIX OVERRIDES ---
+            if (MatchEngine.specificMatchups[i]) {
+                const m = MatchEngine.specificMatchups[i];
+                // Check if names should be highlighted
+                const tA = m[0].includes("Pot 1") || m[0].includes("Mexico") || m[0].includes("USA") || m[0].includes("Canada") ? formatPot1(m[0]) : formatPot(m[0]);
+                const tB = m[1].includes("Pot 1") || m[1].includes("Mexico") || m[1].includes("USA") || m[1].includes("Canada") ? formatPot1(m[1]) : formatPot(m[1]);
+                
+                // Allow direct string usage if it already has HTML or is simple
+                teamA = m[0].includes("span") ? m[0] : tA;
+                teamB = m[1].includes("span") ? m[1] : tB;
+            }
+            // --- PRIORITY 2: POT 1 OPENERS ---
             else if (MatchEngine.pot1Openers[i]) {
                 teamA = formatPot1(MatchEngine.pot1Openers[i]);
                 teamB = formatPot("Group " + group + " Opponent");
             }
+            // --- PRIORITY 3: STANDARD LOGIC ---
             else if (['A', 'B', 'D'].includes(group)) {
                 teamA = formatPot("Pot 2/3/4");
                 teamB = formatPot("Pot 2/3/4");
