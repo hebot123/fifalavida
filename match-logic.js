@@ -110,16 +110,19 @@ const MatchEngine = {
             const stadium = MatchEngine.officialVenues[i] || "TBD";
             const group = MatchEngine.officialGroups[i] || 'A';
             let teamA, teamB;
+            let isPot1Match = false;
 
             // --- 1. CHECK FOR HOST SEEDS (Mexico, Canada, USA) ---
             if (MatchEngine.hostSeeds[i]) {
                 teamA = formatPot1(MatchEngine.hostSeeds[i]); // Highlight Host
                 teamB = formatPot("Group " + group + " Opponent");
+                isPot1Match = true;
             } 
             // --- 2. CHECK FOR NON-HOST POT 1 OPENERS ---
             else if (MatchEngine.pot1Openers[i]) {
                 teamA = formatPot1(MatchEngine.pot1Openers[i]); // Highlight Pot 1 Seed
                 teamB = formatPot("Group " + group + " Opponent");
+                isPot1Match = true;
             }
             // --- 3. STANDARD MATCHES ---
             else if (['A', 'B', 'D'].includes(group)) {
@@ -133,7 +136,7 @@ const MatchEngine = {
                 teamB = formatPot("Group " + group);
             }
 
-            MatchEngine.matches.push({id:i, stage:"Group Stage", group:group, teamA:teamA, teamB:teamB, date:d, stadium:stadium});
+            MatchEngine.matches.push({id:i, stage:"Group Stage", group:group, teamA:teamA, teamB:teamB, date:d, stadium:stadium, isPot1Match: isPot1Match});
         }
 
         // Knockout Stage (Logic Unchanged)
@@ -213,7 +216,8 @@ const MatchEngine = {
         
         // UPDATED LINK HERE
         const ticketUrl = "https://viagogo.prf.hn/click/camref:1110ltZ7y/[p_id:1110l23734]/destination:https%3A%2F%2Fwww.viagogo.com%2FSports-Tickets%2FSoccer%2FSoccer-Tournament%2FSoccer-World-Cup-Tickets%3Fagqi%3D5ff4c7ee-562d-42dc-8b3d-90428039fcb0%26agi%3Dstubhub%26agut%3Dd0fd2010-cb9f-4d0f-b13c-553113c1bfed";
+        const pot1BorderStyle = match.isPot1Match ? 'border-emerald-500/50' : 'border-white/10';
         
-        return `<div class="bg-white/5 border border-white/10 rounded p-4 hover:bg-white/10 transition group relative overflow-hidden"><div class="flex justify-between items-center mb-4 text-xs uppercase tracking-wider"><div class="flex items-center text-gray-500 font-bold">Match ${match.id} ${groupBadge} ${stageLabel}</div><span class="text-gray-400">${match.date}</span></div><div class="space-y-3 mb-4"><div class="flex items-center">${getFlag(match.teamA)}<span class="font-bold text-gray-200 text-sm md:text-base">${match.teamA}</span></div><div class="flex items-center">${getFlag(match.teamB)}<span class="font-bold text-gray-200 text-sm md:text-base">${match.teamB}</span></div></div><div class="border-t border-white/10 pt-3 flex justify-between items-center text-xs text-gray-500"><div class="truncate max-w-[50%] flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> ${match.stadium}</div><a href="${ticketUrl}" target="_blank" rel="nofollow" class="text-emerald-400 hover:text-white transition font-bold uppercase flex items-center gap-1 hover:bg-emerald-500/20 px-2 py-1 rounded">Find Tickets <i data-lucide="external-link" class="w-3 h-3"></i></a></div></div>`;
+        return `<div class="bg-white/5 border ${pot1BorderStyle} rounded p-4 hover:bg-white/10 transition group relative overflow-hidden"><div class="flex justify-between items-center mb-4 text-xs uppercase tracking-wider"><div class="flex items-center text-gray-500 font-bold">Match ${match.id} ${groupBadge} ${stageLabel}</div><span class="text-gray-400">${match.date}</span></div><div class="space-y-3 mb-4"><div class="flex items-center">${getFlag(match.teamA)}<span class="font-bold text-gray-200 text-sm md:text-base">${match.teamA}</span></div><div class="flex items-center">${getFlag(match.teamB)}<span class="font-bold text-gray-200 text-sm md:text-base">${match.teamB}</span></div></div><div class="border-t border-white/10 pt-3 flex justify-between items-center text-xs text-gray-500"><div class="truncate max-w-[50%] flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> ${match.stadium}</div><a href="${ticketUrl}" target="_blank" rel="nofollow" class="text-emerald-400 hover:text-white transition font-bold uppercase flex items-center gap-1 hover:bg-emerald-500/20 px-2 py-1 rounded">Find Tickets <i data-lucide="external-link" class="w-3 h-3"></i></a></div></div>`;
     }
 };
