@@ -1,4 +1,4 @@
-// MATCH LOGIC ENGINE (CORRECTED)
+// MATCH LOGIC ENGINE (UPDATED FOR POT 1 HIGHLIGHTS)
 const MatchEngine = {
     matches: [],
     filter: 'all',
@@ -10,14 +10,24 @@ const MatchEngine = {
     officialGroups: { 1: 'A', 2: 'A', 25: 'A', 28: 'A', 53: 'A', 54: 'A', 3: 'B', 8: 'B', 26: 'B', 27: 'B', 51: 'B', 52: 'B', 5: 'C', 7: 'C', 29: 'C', 30: 'C', 49: 'C', 50: 'C', 4: 'D', 6: 'D', 31: 'D', 32: 'D', 59: 'D', 60: 'D', 9: 'E', 10: 'E', 33: 'E', 34: 'E', 55: 'E', 56: 'E', 11: 'F', 12: 'F', 35: 'F', 36: 'F', 57: 'F', 58: 'F', 15: 'G', 16: 'G', 39: 'G', 40: 'G', 63: 'G', 64: 'G', 13: 'H', 14: 'H', 37: 'H', 38: 'H', 65: 'H', 66: 'H', 17: 'I', 18: 'I', 41: 'I', 42: 'I', 61: 'I', 62: 'I', 19: 'J', 20: 'J', 43: 'J', 44: 'J', 69: 'J', 70: 'J', 23: 'K', 24: 'K', 47: 'K', 48: 'K', 71: 'K', 72: 'K', 21: 'L', 22: 'L', 45: 'L', 46: 'L', 67: 'L', 68: 'L' },
     
     // Explicit known seed matches for Hosts (Mexico A1, Canada B1, USA D1)
-    // Based on official FIFA schedule released Feb 2024
     hostSeeds: {
-        // Mexico (A1)
         1: "Mexico (A1)", 28: "Mexico (A1)", 53: "Mexico (A1)",
-        // Canada (B1)
         3: "Canada (B1)", 27: "Canada (B1)", 51: "Canada (B1)",
-        // USA (D1)
         4: "USA (D1)", 32: "USA (D1)", 59: "USA (D1)"
+    },
+
+    // NEW: Explicit Opening Matches for the other 9 Pot 1 Teams
+    // Based on "Position 1" logic: C1, E1, F1, G1, H1, I1, J1, K1, L1 play in the "1 vs 2" match.
+    pot1Openers: {
+        5: "Group C Seed (Pot 1)",  // Boston
+        9: "Group E Seed (Pot 1)",  // Philly
+        11: "Group F Seed (Pot 1)", // Dallas
+        13: "Group H Seed (Pot 1)", // Miami
+        15: "Group G Seed (Pot 1)", // LA (SoFi)
+        17: "Group I Seed (Pot 1)", // NY/NJ
+        19: "Group J Seed (Pot 1)", // Kansas City
+        21: "Group L Seed (Pot 1)", // Toronto
+        23: "Group K Seed (Pot 1)"  // Houston
     },
 
     knockoutMapping: { 73: ["Group A 2nd", "Group B 2nd", "June 28"], 74: ["Group E Winner", "Group A/B/C/D/F 3rd", "June 29"], 75: ["Group F Winner", "Group C 2nd", "June 29"], 76: ["Group C Winner", "Group F 2nd", "June 29"], 77: ["Group I Winner", "Group C/D/F/G/H 3rd", "June 30"], 78: ["Group E 2nd", "Group I 2nd", "June 30"], 79: ["Group A Winner", "Group C/E/F/H/I 3rd", "June 30"], 80: ["Group L Winner", "Group E/H/I/J/K 3rd", "July 1"], 81: ["Group D Winner", "Group B/E/F/I/J 3rd", "July 1"], 82: ["Group G Winner", "Group A/E/H/I/J 3rd", "July 1"], 83: ["Group K 2nd", "Group L 2nd", "July 2"], 84: ["Group H Winner", "Group J 2nd", "July 2"], 85: ["Group B Winner", "Group E/F/G/I/J 3rd", "July 2"], 86: ["Group J Winner", "Group H 2nd", "July 3"], 87: ["Group K Winner", "Group D/E/I/J/L 3rd", "July 3"], 88: ["Group D 2nd", "Group G 2nd", "July 3"], 89: ["Winner Match 74", "Winner Match 77", "July 4"], 90: ["Winner Match 73", "Winner Match 75", "July 4"], 91: ["Winner Match 76", "Winner Match 78", "July 5"], 92: ["Winner Match 79", "Winner Match 80", "July 5"], 93: ["Winner Match 83", "Winner Match 84", "July 6"], 94: ["Winner Match 81", "Winner Match 82", "July 6"], 95: ["Winner Match 86", "Winner Match 88", "July 7"], 96: ["Winner Match 85", "Winner Match 87", "July 7"], 97: ["Winner Match 89", "Winner Match 90", "July 9"], 98: ["Winner Match 93", "Winner Match 94", "July 10"], 99: ["Winner Match 91", "Winner Match 92", "July 11"], 100: ["Winner Match 95", "Winner Match 96", "July 11"], 101: ["Winner Match 97", "Winner Match 98", "July 14"], 102: ["Winner Match 99", "Winner Match 100", "July 15"], 103: ["Loser Match 101", "Loser Match 102", "July 18"], 104: ["Winner Match 101", "Winner Match 102", "July 19"] },
@@ -89,6 +99,8 @@ const MatchEngine = {
         
         // Helper to format generic Pot entries
         const formatPot = (pots) => `TBD <span class="text-gray-600 font-normal text-[10px] ml-1">(${pots})</span>`;
+        // Helper to Highlight Pot 1 entries
+        const formatPot1 = (name) => `<span class="text-emerald-400 font-bold">${name}</span>`;
 
         // Group Stage
         for(let i=1; i<=72; i++) {
@@ -99,23 +111,24 @@ const MatchEngine = {
             const group = MatchEngine.officialGroups[i] || 'A';
             let teamA, teamB;
 
-            // --- LOGIC FOR HOST GROUPS (A, B, D) ---
-            if (['A', 'B', 'D'].includes(group)) {
-                if (MatchEngine.hostSeeds[i]) {
-                    // This is a Host match (Mexico, Canada, USA)
-                    teamA = MatchEngine.hostSeeds[i];
-                    teamB = formatPot("Group " + group + " Opponent");
-                } else {
-                    // This is a match in a Host Group NOT involving the Host
-                    // Therefore it MUST be Pot X vs Pot Y (No Pot 1)
-                    teamA = formatPot("Pot 2/3/4");
-                    teamB = formatPot("Pot 2/3/4");
-                }
+            // --- 1. CHECK FOR HOST SEEDS (Mexico, Canada, USA) ---
+            if (MatchEngine.hostSeeds[i]) {
+                teamA = formatPot1(MatchEngine.hostSeeds[i]); // Highlight Host
+                teamB = formatPot("Group " + group + " Opponent");
             } 
-            // --- LOGIC FOR OTHER GROUPS ---
+            // --- 2. CHECK FOR NON-HOST POT 1 OPENERS ---
+            else if (MatchEngine.pot1Openers[i]) {
+                teamA = formatPot1(MatchEngine.pot1Openers[i]); // Highlight Pot 1 Seed
+                teamB = formatPot("Group " + group + " Opponent");
+            }
+            // --- 3. STANDARD MATCHES ---
+            else if (['A', 'B', 'D'].includes(group)) {
+                // Matches in Host groups not involving the host
+                teamA = formatPot("Pot 2/3/4");
+                teamB = formatPot("Pot 2/3/4");
+            } 
             else {
-                // We don't know exactly which match is the Pot 1 match yet, 
-                // so we use a generic label to be safe.
+                // Generic matches
                 teamA = formatPot("Group " + group);
                 teamB = formatPot("Group " + group);
             }
