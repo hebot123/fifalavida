@@ -1,4 +1,4 @@
-// MATCH LOGIC ENGINE (UPDATED FOR POT 1 HIGHLIGHTS)
+// MATCH LOGIC ENGINE (CORRECTED DATES)
 const MatchEngine = {
     matches: [],
     filter: 'all',
@@ -9,28 +9,42 @@ const MatchEngine = {
     
     officialGroups: { 1: 'A', 2: 'A', 25: 'A', 28: 'A', 53: 'A', 54: 'A', 3: 'B', 8: 'B', 26: 'B', 27: 'B', 51: 'B', 52: 'B', 5: 'C', 7: 'C', 29: 'C', 30: 'C', 49: 'C', 50: 'C', 4: 'D', 6: 'D', 31: 'D', 32: 'D', 59: 'D', 60: 'D', 9: 'E', 10: 'E', 33: 'E', 34: 'E', 55: 'E', 56: 'E', 11: 'F', 12: 'F', 35: 'F', 36: 'F', 57: 'F', 58: 'F', 15: 'G', 16: 'G', 39: 'G', 40: 'G', 63: 'G', 64: 'G', 13: 'H', 14: 'H', 37: 'H', 38: 'H', 65: 'H', 66: 'H', 17: 'I', 18: 'I', 41: 'I', 42: 'I', 61: 'I', 62: 'I', 19: 'J', 20: 'J', 43: 'J', 44: 'J', 69: 'J', 70: 'J', 23: 'K', 24: 'K', 47: 'K', 48: 'K', 71: 'K', 72: 'K', 21: 'L', 22: 'L', 45: 'L', 46: 'L', 67: 'L', 68: 'L' },
     
-    // Explicit known seed matches for Hosts (Mexico A1, Canada B1, USA D1)
     hostSeeds: {
         1: "Mexico (A1)", 28: "Mexico (A1)", 53: "Mexico (A1)",
         3: "Canada (B1)", 27: "Canada (B1)", 51: "Canada (B1)",
         4: "USA (D1)", 32: "USA (D1)", 59: "USA (D1)"
     },
 
-    // NEW: Explicit Opening Matches for the other 9 Pot 1 Teams
-    // Based on "Position 1" logic: C1, E1, F1, G1, H1, I1, J1, K1, L1 play in the "1 vs 2" match.
     pot1Openers: {
-        5: "Group C Seed (Pot 1)",  // Boston
-        9: "Group E Seed (Pot 1)",  // Philly
-        11: "Group F Seed (Pot 1)", // Dallas
-        13: "Group H Seed (Pot 1)", // Miami
-        15: "Group G Seed (Pot 1)", // LA (SoFi)
-        17: "Group I Seed (Pot 1)", // NY/NJ
-        19: "Group J Seed (Pot 1)", // Kansas City
-        21: "Group L Seed (Pot 1)", // Toronto
-        23: "Group K Seed (Pot 1)"  // Houston
+        5: "Group C Seed (Pot 1)",  9: "Group E Seed (Pot 1)", 11: "Group F Seed (Pot 1)",
+        13: "Group H Seed (Pot 1)", 15: "Group G Seed (Pot 1)", 17: "Group I Seed (Pot 1)",
+        19: "Group J Seed (Pot 1)", 21: "Group L Seed (Pot 1)", 23: "Group K Seed (Pot 1)"
     },
 
     knockoutMapping: { 73: ["Group A 2nd", "Group B 2nd", "June 28"], 74: ["Group E Winner", "Group A/B/C/D/F 3rd", "June 29"], 75: ["Group F Winner", "Group C 2nd", "June 29"], 76: ["Group C Winner", "Group F 2nd", "June 29"], 77: ["Group I Winner", "Group C/D/F/G/H 3rd", "June 30"], 78: ["Group E 2nd", "Group I 2nd", "June 30"], 79: ["Group A Winner", "Group C/E/F/H/I 3rd", "June 30"], 80: ["Group L Winner", "Group E/H/I/J/K 3rd", "July 1"], 81: ["Group D Winner", "Group B/E/F/I/J 3rd", "July 1"], 82: ["Group G Winner", "Group A/E/H/I/J 3rd", "July 1"], 83: ["Group K 2nd", "Group L 2nd", "July 2"], 84: ["Group H Winner", "Group J 2nd", "July 2"], 85: ["Group B Winner", "Group E/F/G/I/J 3rd", "July 2"], 86: ["Group J Winner", "Group H 2nd", "July 3"], 87: ["Group K Winner", "Group D/E/I/J/L 3rd", "July 3"], 88: ["Group D 2nd", "Group G 2nd", "July 3"], 89: ["Winner Match 74", "Winner Match 77", "July 4"], 90: ["Winner Match 73", "Winner Match 75", "July 4"], 91: ["Winner Match 76", "Winner Match 78", "July 5"], 92: ["Winner Match 79", "Winner Match 80", "July 5"], 93: ["Winner Match 83", "Winner Match 84", "July 6"], 94: ["Winner Match 81", "Winner Match 82", "July 6"], 95: ["Winner Match 86", "Winner Match 88", "July 7"], 96: ["Winner Match 85", "Winner Match 87", "July 7"], 97: ["Winner Match 89", "Winner Match 90", "July 9"], 98: ["Winner Match 93", "Winner Match 94", "July 10"], 99: ["Winner Match 91", "Winner Match 92", "July 11"], 100: ["Winner Match 95", "Winner Match 96", "July 11"], 101: ["Winner Match 97", "Winner Match 98", "July 14"], 102: ["Winner Match 99", "Winner Match 100", "July 15"], 103: ["Loser Match 101", "Loser Match 102", "July 18"], 104: ["Winner Match 101", "Winner Match 102", "July 19"] },
+
+    // Helper to get precise date for Group Matches
+    getMatchDate: (id) => {
+        if (id >= 1 && id <= 2) return "June 11";
+        if (id >= 3 && id <= 4) return "June 12";
+        if (id >= 5 && id <= 8) return "June 13";
+        if (id >= 9 && id <= 12) return "June 14";
+        if (id >= 13 && id <= 16) return "June 15";
+        if (id >= 17 && id <= 20) return "June 16";
+        if (id >= 21 && id <= 24) return "June 17";
+        if (id >= 25 && id <= 28) return "June 18";
+        if (id >= 29 && id <= 32) return "June 19";
+        if (id >= 33 && id <= 36) return "June 20";
+        if (id >= 37 && id <= 40) return "June 21";
+        if (id >= 41 && id <= 44) return "June 22";
+        if (id >= 45 && id <= 48) return "June 23";
+        // Final Group Matches (6 matches per day)
+        if (id >= 49 && id <= 54) return "June 24"; // Covers M52
+        if (id >= 55 && id <= 60) return "June 25";
+        if (id >= 61 && id <= 66) return "June 26";
+        if (id >= 67 && id <= 72) return "June 27";
+        return "TBD";
+    },
 
     normalizeVenueName: (name) => {
         if(!name) return name;
@@ -96,50 +110,39 @@ const MatchEngine = {
 
     generateMatches: () => {
         MatchEngine.matches = [];
-        
-        // Helper to format generic Pot entries
         const formatPot = (pots) => `TBD <span class="text-gray-600 font-normal text-[10px] ml-1">(${pots})</span>`;
-        // Helper to Highlight Pot 1 entries
         const formatPot1 = (name) => `<span class="text-emerald-400 font-bold">${name}</span>`;
 
         // Group Stage
         for(let i=1; i<=72; i++) {
-            let d = `June ${11 + Math.floor((i-1)/4)}`;
-            if(i===1) d = "June 11"; // Opener
+            // FIXED: Use getMatchDate helper instead of formula
+            const d = MatchEngine.getMatchDate(i);
             
             const stadium = MatchEngine.officialVenues[i] || "TBD";
             const group = MatchEngine.officialGroups[i] || 'A';
             let teamA, teamB;
-            let isPot1Match = false;
 
-            // --- 1. CHECK FOR HOST SEEDS (Mexico, Canada, USA) ---
             if (MatchEngine.hostSeeds[i]) {
-                teamA = formatPot1(MatchEngine.hostSeeds[i]); // Highlight Host
+                teamA = formatPot1(MatchEngine.hostSeeds[i]);
                 teamB = formatPot("Group " + group + " Opponent");
-                isPot1Match = true;
             } 
-            // --- 2. CHECK FOR NON-HOST POT 1 OPENERS ---
             else if (MatchEngine.pot1Openers[i]) {
-                teamA = formatPot1(MatchEngine.pot1Openers[i]); // Highlight Pot 1 Seed
+                teamA = formatPot1(MatchEngine.pot1Openers[i]);
                 teamB = formatPot("Group " + group + " Opponent");
-                isPot1Match = true;
             }
-            // --- 3. STANDARD MATCHES ---
             else if (['A', 'B', 'D'].includes(group)) {
-                // Matches in Host groups not involving the host
                 teamA = formatPot("Pot 2/3/4");
                 teamB = formatPot("Pot 2/3/4");
             } 
             else {
-                // Generic matches
                 teamA = formatPot("Group " + group);
                 teamB = formatPot("Group " + group);
             }
 
-            MatchEngine.matches.push({id:i, stage:"Group Stage", group:group, teamA:teamA, teamB:teamB, date:d, stadium:stadium, isPot1Match: isPot1Match});
+            MatchEngine.matches.push({id:i, stage:"Group Stage", group:group, teamA:teamA, teamB:teamB, date:d, stadium:stadium});
         }
 
-        // Knockout Stage (Logic Unchanged)
+        // Knockout Stage
         for(let i=73; i<=104; i++) {
             const d = MatchEngine.knockoutMapping[i];
             let sn = "Round of 32";
@@ -213,11 +216,9 @@ const MatchEngine = {
         };
         const stageLabel = match.stage && match.stage !== 'Group Stage' ? `<span class="bg-white/5 text-gray-300 text-[10px] px-2 py-0.5 rounded ml-2 uppercase">${formatStageLabel(match.stage)}</span>` : '';
         const getFlag = (name) => { if(typeof window.getFlagHTML === 'function') return window.getFlagHTML(name); return ''; };
+        const clean = (n) => n.replace(/<[^>]*>?/gm, '').trim();
+        const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(`FIFA World Cup 2026 Match ${match.id} ${clean(match.teamA)} vs ${clean(match.teamB)} tickets`)}`;
         
-        // UPDATED LINK HERE
-        const ticketUrl = "https://viagogo.prf.hn/click/camref:1110ltZ7y/[p_id:1110l23734]/destination:https%3A%2F%2Fwww.viagogo.com%2FSports-Tickets%2FSoccer%2FSoccer-Tournament%2FSoccer-World-Cup-Tickets%3Fagqi%3D5ff4c7ee-562d-42dc-8b3d-90428039fcb0%26agi%3Dstubhub%26agut%3Dd0fd2010-cb9f-4d0f-b13c-553113c1bfed";
-        const pot1BorderStyle = match.isPot1Match ? 'border-emerald-500/50' : 'border-white/10';
-        
-        return `<div class="bg-white/5 border ${pot1BorderStyle} rounded p-4 hover:bg-white/10 transition group relative overflow-hidden"><div class="flex justify-between items-center mb-4 text-xs uppercase tracking-wider"><div class="flex items-center text-gray-500 font-bold">Match ${match.id} ${groupBadge} ${stageLabel}</div><span class="text-gray-400">${match.date}</span></div><div class="space-y-3 mb-4"><div class="flex items-center">${getFlag(match.teamA)}<span class="font-bold text-gray-200 text-sm md:text-base">${match.teamA}</span></div><div class="flex items-center">${getFlag(match.teamB)}<span class="font-bold text-gray-200 text-sm md:text-base">${match.teamB}</span></div></div><div class="border-t border-white/10 pt-3 flex justify-between items-center text-xs text-gray-500"><div class="truncate max-w-[50%] flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> ${match.stadium}</div><a href="${ticketUrl}" target="_blank" rel="nofollow" class="text-emerald-400 hover:text-white transition font-bold uppercase flex items-center gap-1 hover:bg-emerald-500/20 px-2 py-1 rounded">Find Tickets <i data-lucide="external-link" class="w-3 h-3"></i></a></div></div>`;
+        return `<div class="bg-white/5 border border-white/10 rounded p-4 hover:bg-white/10 transition group relative overflow-hidden"><div class="flex justify-between items-center mb-4 text-xs uppercase tracking-wider"><div class="flex items-center text-gray-500 font-bold">Match ${match.id} ${groupBadge} ${stageLabel}</div><span class="text-gray-400">${match.date}</span></div><div class="space-y-3 mb-4"><div class="flex items-center">${getFlag(match.teamA)}<span class="font-bold text-gray-200 text-sm md:text-base">${match.teamA}</span></div><div class="flex items-center">${getFlag(match.teamB)}<span class="font-bold text-gray-200 text-sm md:text-base">${match.teamB}</span></div></div><div class="border-t border-white/10 pt-3 flex justify-between items-center text-xs text-gray-500"><div class="truncate max-w-[50%] flex items-center gap-1"><i data-lucide="map-pin" class="w-3 h-3"></i> ${match.stadium}</div><a href="${searchUrl}" target="_blank" class="text-emerald-400 hover:text-white transition font-bold uppercase flex items-center gap-1 hover:bg-emerald-500/20 px-2 py-1 rounded">Find Tickets <i data-lucide="external-link" class="w-3 h-3"></i></a></div></div>`;
     }
 };
