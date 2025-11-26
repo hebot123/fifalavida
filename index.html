@@ -195,7 +195,6 @@
                         <img src="https://digitalhub.fifa.com/transform/abd11366-c26a-4564-927a-7fe275f4e3a1/FWC26-Map-with-Matches?&io=transform:fill,width:1366&quality=75" alt="Host cities map" class="w-full h-full object-cover rounded-2xl" onerror="this.style.display='none'">
                         <div class="absolute inset-0 flex items-center justify-center pointer-events-none text-gray-400 text-sm">Interactive map disabled — use the venue list to explore cities.</div>
                     </div>
-                    </div>
                 </div>
 
                 <!-- Info Panel -->
@@ -322,8 +321,13 @@
 
                 container.innerHTML = steps.map((s, i) => `<div class="flex gap-6 group"><div class="flex flex-col items-center"><div class="w-4 h-4 rounded-full bg-emerald-500 border-4 border-emerald-900 shadow-[0_0_15px_rgba(52,211,153,0.5)] z-10 relative"></div>${i!==steps.length-1?'<div class="w-0.5 h-20 bg-white/10 group-hover:bg-emerald-500/50 transition duration-500"></div>':''}</div><div class="pb-8"><span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">${s.dates}</span><h3 class="text-2xl font-bold text-white mb-1">${s.stage}</h3><div class="flex items-center gap-2 text-sm text-gray-400 mb-2"><i data-lucide="map-pin" class="w-3 h-3"></i> ${s.loc}</div><p class="text-gray-500 text-sm leading-relaxed max-w-md">${s.desc}</p></div></div>`).join('') + `<div class="flex gap-6 mt-2 opacity-50 group hover:opacity-100 transition"><div class="flex flex-col items-center"><div class="w-4 h-4 rounded-full bg-yellow-500 border-4 border-yellow-900 shadow-[0_0_15px_rgba(234,179,8,0.5)]"></div></div><div><span class="text-xs font-bold text-yellow-500 uppercase tracking-widest">July 19, 2026</span><h3 class="text-2xl font-bold text-white">World Cup Final</h3><div class="text-sm text-gray-400">New York / New Jersey</div></div></div>`;
                 
-                const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(`FIFA World Cup 2026 ${team} tickets`)}`;
-                if(ticketContainer) { ticketContainer.querySelector('a').href = searchUrl; ticketContainer.classList.remove('hidden'); }
+                // UPDATED LINK: Viagogo Affiliate Link
+                const ticketUrl = "https://viagogo.prf.hn/click/camref:1110ltZ7y/[p_id:1110l23734]/destination:https%3A%2F%2Fwww.viagogo.com%2FSports-Tickets%2FSoccer%2FSoccer-Tournament%2FSoccer-World-Cup-Tickets%3Fagqi%3D5ff4c7ee-562d-42dc-8b3d-90428039fcb0%26agi%3Dstubhub%26agut%3Dd0fd2010-cb9f-4d0f-b13c-553113c1bfed";
+                
+                if(ticketContainer) { 
+                    ticketContainer.querySelector('a').href = ticketUrl; 
+                    ticketContainer.classList.remove('hidden'); 
+                }
                 lucide.createIcons();
             },
 
