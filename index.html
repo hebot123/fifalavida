@@ -17,8 +17,9 @@
     <!-- Leaflet for interactive map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-sA+e2s7w1mQ2b9R9t7VDa0p3xR9p7kGk5x0fXv+ZQmM=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j8GkYfZ2bqg7J3gYp3K8f6s3j9k1y0M3yZ6Y7FQ=" crossorigin=""></script>
-    <!-- LOAD MATCH ENGINE -->
+    <!-- LOAD LOGIC & DATA -->
     <script src="match-logic.js"></script> 
+    <script src="venues.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
@@ -244,24 +245,7 @@
 
     <script>
         // --- DATA ---
-        const venueData = [
-            { city: "Mexico City", stadium: "Estadio Azteca", cap: "87,523", country: "mx", matches: 5 },
-            { city: "New York/NJ", stadium: "MetLife Stadium", cap: "82,500", country: "us", matches: 8 },
-            { city: "Dallas", stadium: "AT&T Stadium", cap: "80,000", country: "us", matches: 9 },
-            { city: "Kansas City", stadium: "Arrowhead Stadium", cap: "76,416", country: "us", matches: 6 },
-            { city: "Houston", stadium: "NRG Stadium", cap: "72,220", country: "us", matches: 7 },
-            { city: "Atlanta", stadium: "Mercedes-Benz Stadium", cap: "71,000", country: "us", matches: 8 },
-            { city: "Los Angeles", stadium: "SoFi Stadium", cap: "70,240", country: "us", matches: 8 },
-            { city: "Philadelphia", stadium: "Lincoln Financial Field", cap: "69,796", country: "us", matches: 6 },
-            { city: "Seattle", stadium: "Lumen Field", cap: "69,000", country: "us", matches: 6 },
-            { city: "San Francisco", stadium: "Levi's Stadium", cap: "68,500", country: "us", matches: 6 },
-            { city: "Boston", stadium: "Gillette Stadium", cap: "65,878", country: "us", matches: 7 },
-            { city: "Miami", stadium: "Hard Rock Stadium", cap: "64,767", country: "us", matches: 7 },
-            { city: "Vancouver", stadium: "BC Place", cap: "54,500", country: "ca", matches: 7 },
-            { city: "Monterrey", stadium: "Estadio BBVA", cap: "53,500", country: "mx", matches: 4 },
-            { city: "Guadalajara", stadium: "Estadio Akron", cap: "49,850", country: "mx", matches: 4 },
-            { city: "Toronto", stadium: "BMO Field", cap: "45,736", country: "ca", matches: 6 }
-        ];
+        // venueData is now loaded from venues.js
 
         const newsData = [
             { id: 1, title: "Bracketology: The 'Path of Death' in Group C", category: "Analysis", image: "https://images.unsplash.com/photo-1574629810360-7efbbe195018", date: "Nov 22, 2025", snippet: "Why finishing second in Group C might be a tactical masterstroke.", filename: "GroupCanalysis.html" },
@@ -363,6 +347,9 @@
                 const details = document.getElementById('venue-details');
                 const tooltip = document.getElementById('venue-tooltip');
                 
+                // Helper to generate list items
+                const renderList = (items) => (items || []).map(i => `<li class="text-gray-400 text-sm mb-1 pl-3 relative"><span class="absolute left-0 top-1.5 w-1 h-1 bg-emerald-500 rounded-full"></span> ${i}</li>`).join('');
+
                 // Update Side Panel
                 details.innerHTML = `
                     <div class="mb-6">
@@ -379,22 +366,31 @@
                             <span class="font-bold text-white">${venue.matches}</span>
                         </div>
                     </div>
-                    <p class="text-gray-400 text-sm mb-6">One of the premier host cities for 2026. Get ready for an electric atmosphere.</p>
-                    <button onclick="app.viewMatchesForVenue('${venue.city.replace("'","\\'") }')" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded transition uppercase tracking-widest">View Matches</button>
+                    
+                    <div class="mb-6">
+                        <h4 class="text-emerald-400 font-bold text-xs uppercase tracking-widest mb-3 border-b border-white/10 pb-2">Top Attractions</h4>
+                        <ul class="space-y-1">${renderList(venue.attractions)}</ul>
+                    </div>
+                    <div class="mb-6">
+                        <h4 class="text-emerald-400 font-bold text-xs uppercase tracking-widest mb-3 border-b border-white/10 pb-2">Where to Stay</h4>
+                        <ul class="space-y-1">${renderList(venue.hotels)}</ul>
+                    </div>
+
+                    <button onclick="app.viewMatchesForVenue('${venue.city.replace("'","\\'") }')" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded transition uppercase tracking-widest mt-4">View Matches</button>
                 `;
 
-                // Update Tooltip (if we had mouse coords, simplified here)
-                tooltip.innerHTML = `<strong>${venue.city}</strong><br>${venue.stadium}`;
-                tooltip.classList.remove('hidden');
-                setTimeout(() => tooltip.classList.add('hidden'), 3000);
+                // Update Tooltip
+                if(tooltip) {
+                    tooltip.innerHTML = `<strong>${venue.city}</strong><br>${venue.stadium}`;
+                    tooltip.classList.remove('hidden');
+                    setTimeout(() => tooltip.classList.add('hidden'), 3000);
+                }
             },
 
             renderVenues: () => {
                 const list = document.getElementById('venue-list-mini');
-                if(!list) return; // Only on venues page? No, we moved it.
+                if(!list) return; 
                 
-                // Since the layout changed, we adapt:
-                // If we are on the venues page (hidden by default), we need to populate the mini-list in the sidebar
                 list.innerHTML = venueData.map(v => `
                     <div onclick="app.selectVenue('${v.city}')" class="p-2 bg-black/40 hover:bg-emerald-900/40 rounded cursor-pointer border border-white/5 hover:border-emerald-500/30 transition flex items-center justify-between">
                         <span class="text-xs font-bold text-gray-300">${v.city}</span>
