@@ -5,6 +5,7 @@ const venueData = [
         cap: "87,523", 
         country: "mx", 
         matches: 5,
+        coords: [19.3029, -99.1505],
         attractions: ["Museo Frida Kahlo (Coyoacán)", "Xochimilco Floating Gardens", "Zócalo & Historic Center", "Museo Nacional de Antropología"],
         hotels: ["Royal Pedregal (Near Stadium)", "Gran Hotel Ciudad de México (Center)", "Camino Real Polanco"]
     },
@@ -14,6 +15,7 @@ const venueData = [
         cap: "82,500", 
         country: "us", 
         matches: 8,
+        coords: [40.8128, -74.0742],
         attractions: ["American Dream Mall (Next to Stadium)", "Times Square & Broadway", "Statue of Liberty", "Central Park"],
         hotels: ["Renaissance Meadowlands (NJ)", "The Park Hotel (NJ)", "New York Marriott Marquis (NYC)"]
     },
@@ -23,6 +25,7 @@ const venueData = [
         cap: "80,000", 
         country: "us", 
         matches: 9,
+        coords: [32.7473, -97.0945],
         attractions: ["Texas Live! (Entertainment District)", "Six Flags Over Texas", "The Sixth Floor Museum", "Fort Worth Stockyards"],
         hotels: ["Live! by Loews (Arlington)", "Sheraton Arlington Hotel", "Omni Dallas Hotel"]
     },
@@ -32,6 +35,7 @@ const venueData = [
         cap: "76,416", 
         country: "us", 
         matches: 6,
+        coords: [39.0489, -94.4839],
         attractions: ["National WWI Museum", "Joe's Kansas City Bar-B-Que", "Country Club Plaza", "Power & Light District"],
         hotels: ["Loews Kansas City Hotel", "Hotel Kansas City", "Four Seasons Hotel (near Plaza)"]
     },
@@ -41,6 +45,7 @@ const venueData = [
         cap: "72,220", 
         country: "us", 
         matches: 7,
+        coords: [29.6847, -95.4107],
         attractions: ["Space Center Houston", "The Galleria", "Houston Museum of Natural Science", "Hermann Park"],
         hotels: ["Hotel ZaZa (Museum District)", "Marriott Marquis Houston", "Blossom Hotel Houston (Near Stadium)"]
     },
@@ -50,6 +55,7 @@ const venueData = [
         cap: "71,000", 
         country: "us", 
         matches: 8,
+        coords: [33.7554, -84.4009],
         attractions: ["Georgia Aquarium", "World of Coca-Cola", "Centennial Olympic Park", "Martin Luther King Jr. NHP"],
         hotels: ["Omni Atlanta Hotel (at CNN Center)", "The Westin Peachtree Plaza", "Hyatt Regency Atlanta"]
     },
@@ -59,6 +65,7 @@ const venueData = [
         cap: "70,240", 
         country: "us", 
         matches: 8,
+        coords: [33.9534, -118.3390],
         attractions: ["Santa Monica Pier", "Griffith Observatory", "Hollywood Walk of Fame", "The Getty Center"],
         hotels: ["Corkbag Hotel (Classic LA)", "Sonder Lüm (Inglewood)", "The Hollywood Roosevelt"]
     },
@@ -68,6 +75,7 @@ const venueData = [
         cap: "69,796", 
         country: "us", 
         matches: 6,
+        coords: [39.9012, -75.1675],
         attractions: ["Liberty Bell & Independence Hall", "Reading Terminal Market", "Philadelphia Museum of Art (Rocky Steps)", "Eastern State Penitentiary"],
         hotels: ["Live! Casino & Hotel (Stadium District)", "The Ritz-Carlton Philadelphia", "Loews Philadelphia Hotel"]
     },
@@ -77,6 +85,7 @@ const venueData = [
         cap: "69,000", 
         country: "us", 
         matches: 6,
+        coords: [47.5952, -122.3316],
         attractions: ["Pike Place Market", "Space Needle & Chihuly Garden", "Seattle Waterfront", "Museum of Pop Culture (MoPOP)"],
         hotels: ["Silver Cloud Hotel (Stadium)", "The Edgewater Hotel", "Embassy Suites Pioneer Square"]
     },
@@ -86,6 +95,7 @@ const venueData = [
         cap: "68,500", 
         country: "us", 
         matches: 6,
+        coords: [37.4030, -121.9702],
         attractions: ["Golden Gate Bridge", "Alcatraz Island", "Fisherman's Wharf", "California's Great America (Near Stadium)"],
         hotels: ["Hyatt Regency Santa Clara (Near Stadium)", "Hilton Santa Clara", "Fairmont San Francisco (City)"]
     },
@@ -95,6 +105,7 @@ const venueData = [
         cap: "65,878", 
         country: "us", 
         matches: 7,
+        coords: [42.0909, -71.2643],
         attractions: ["Freedom Trail", "Fenway Park", "Faneuil Hall Marketplace", "Patriot Place (Next to Stadium)"],
         hotels: ["Renaissance Boston Patriot Place", "Hilton Garden Inn Foxborough", "Omni Parker House (City)"]
     },
@@ -104,6 +115,7 @@ const venueData = [
         cap: "64,767", 
         country: "us", 
         matches: 7,
+        coords: [25.9580, -80.2389],
         attractions: ["South Beach & Art Deco District", "Wynwood Walls", "Vizcaya Museum", "Little Havana"],
         hotels: ["Seminole Hard Rock Hotel & Casino", "Fontainebleau Miami Beach", "Stadium Hotel (Miami Gardens)"]
     },
@@ -113,6 +125,7 @@ const venueData = [
         cap: "54,500", 
         country: "ca", 
         matches: 7,
+        coords: [49.2768, -123.1120],
         attractions: ["Stanley Park", "Granville Island Public Market", "Capilano Suspension Bridge", "Gastown Steam Clock"],
         hotels: ["Parq Vancouver (Next to Stadium)", "Georgian Court Hotel", "Fairmont Pacific Rim"]
     },
@@ -122,6 +135,7 @@ const venueData = [
         cap: "53,500", 
         country: "mx", 
         matches: 4,
+        coords: [25.6186, -100.2366],
         attractions: ["Parque Fundidora", "Paseo Santa Lucía", "Macroplaza", "Chipinque Ecological Park"],
         hotels: ["Grand Fiesta Americana Monterrey Valle", "Live Aqua Urban Resort", "Safi Royal Luxury Towers"]
     },
@@ -131,6 +145,7 @@ const venueData = [
         cap: "49,850", 
         country: "mx", 
         matches: 4,
+        coords: [20.6816, -103.4626],
         attractions: ["Hospicio Cabañas", "Catedral de Guadalajara", "Tlaquepaque Historic Center", "Tequila Express Train"],
         hotels: ["Hard Rock Hotel Guadalajara", "Hyatt Regency Andares", "Fiesta Inn Guadalajara Poniente"]
     },
@@ -140,6 +155,7 @@ const venueData = [
         cap: "45,736", 
         country: "ca", 
         matches: 6,
+        coords: [43.6332, -79.4186],
         attractions: ["CN Tower", "Ripley's Aquarium", "Distillery District", "Royal Ontario Museum"],
         hotels: ["Hotel X Toronto (On Exhibition Grounds)", "The Drake Hotel", "Fairmont Royal York"]
     }

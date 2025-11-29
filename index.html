@@ -14,12 +14,15 @@
     <title>FIFA La Vida | World Cup 26™ Hub</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <!-- Leaflet for interactive map -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-sA+e2s7w1mQ2b9R9t7VDa0p3xR9p7kGk5x0fXv+ZQmM=" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j8GkYfZ2bqg7J3gYp3K8f6s3j9k1y0M3yZ6Y7FQ=" crossorigin=""></script>
+    
+    <!-- GOOGLE MAPS API (Replace YOUR_API_KEY with your actual key) -->
+    <!-- We include 'libraries=places' to search for hotels/attractions automatically -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDNIpt5UipAs2aPiMOLwjXgeQaEjSmAzQ&libraries=places&callback=initGoogleMaps" async defer></script>
+
     <!-- LOAD LOGIC & DATA -->
     <script src="match-logic.js"></script> 
     <script src="venues.js"></script>
+    <script src="chatbot.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
@@ -38,6 +41,10 @@
         .countdown-box { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255, 255, 255, 0.2); }
         .venue-pin { transition: all 0.3s; cursor: pointer; }
         .venue-pin:hover { transform: scale(1.5); fill: #34D399; }
+        
+        /* Map Container override */
+        #venue-map-container { height: 600px; width: 100%; }
+        .gm-style .gm-style-iw { color: #000; } 
     </style>
 </head>
 <body class="bg-black text-white flex flex-col min-h-screen selection:bg-emerald-500 selection:text-black">
@@ -191,10 +198,10 @@
                 
                 <!-- Interactive Map Column -->
                 <div class="w-full lg:w-2/3 relative">
-                    <div class="relative w-full h-[500px] bg-[#111] border border-white/10 rounded-2xl overflow-hidden group flex items-center justify-center">
-                        <!-- Interactive map removed. Show static map image as a fallback. -->
-                        <img src="https://digitalhub.fifa.com/transform/abd11366-c26a-4564-927a-7fe275f4e3a1/FWC26-Map-with-Matches?&io=transform:fill,width:1366&quality=75" alt="Host cities map" class="w-full h-full object-cover rounded-2xl" onerror="this.style.display='none'">
-                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none text-gray-400 text-sm">Interactive map disabled — use the venue list to explore cities.</div>
+                    <!-- Added ID venue-map-container -->
+                    <div id="venue-map-container" class="relative w-full h-[600px] bg-[#111] border border-white/10 rounded-2xl overflow-hidden group">
+                        <!-- Static fallback if JS fails -->
+                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none text-gray-500 text-sm">Loading Google Maps...</div>
                     </div>
                 </div>
 
@@ -203,7 +210,7 @@
                     <div class="bg-white/5 border border-white/10 rounded-xl p-6 h-full">
                         <h3 class="text-emerald-400 font-bold text-sm uppercase tracking-widest mb-4">Selected Venue</h3>
                         <div id="venue-details">
-                            <p class="text-gray-500 text-sm italic">Click a city on the map or list to view details.</p>
+                            <p class="text-gray-500 text-sm italic">Click a city on the list to view details.</p>
                         </div>
                         <div class="mt-8 border-t border-white/10 pt-4">
                             <div class="grid grid-cols-2 gap-2" id="venue-list-mini">
@@ -243,6 +250,17 @@
         </div>
     </footer>
 
+    <!-- GLOBAL CALLBACK FOR GOOGLE MAPS -->
+    <script>
+        function initGoogleMaps() {
+            window.isGoogleMapsLoaded = true;
+            if (window.app && window.app.state.pendingVenue) {
+                window.app.renderMap(window.app.state.pendingVenue);
+                window.app.state.pendingVenue = null;
+            }
+        }
+    </script>
+
     <script>
         // --- DATA ---
         // venueData is now loaded from venues.js
@@ -258,7 +276,7 @@
 
         // --- APP ---
         const app = {
-            state: { view: 'home' },
+            state: { view: 'home', mapInstance: null, pendingVenue: null, isGmapsLoaded: false },
             newsData: [],
 
             init: () => {
@@ -282,6 +300,9 @@
                 app.startCountdown();
                 
                 document.getElementById('mobile-menu-btn').addEventListener('click', () => document.getElementById('mobile-menu').classList.toggle('hidden'));
+                
+                // If deep-linked to venues, select default
+                if (window.location.hash === '#venues') app.router('venues');
             },
 
             // Render News
@@ -345,7 +366,6 @@
                 if(!venue) return;
                 
                 const details = document.getElementById('venue-details');
-                const tooltip = document.getElementById('venue-tooltip');
                 
                 // Helper to generate list items
                 const renderList = (items) => (items || []).map(i => `<li class="text-gray-400 text-sm mb-1 pl-3 relative"><span class="absolute left-0 top-1.5 w-1 h-1 bg-emerald-500 rounded-full"></span> ${i}</li>`).join('');
@@ -378,13 +398,102 @@
 
                     <button onclick="app.viewMatchesForVenue('${venue.city.replace("'","\\'") }')" class="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 rounded transition uppercase tracking-widest mt-4">View Matches</button>
                 `;
+                
+                // --- RENDER MAP ---
+                app.renderMap(venue);
+            },
 
-                // Update Tooltip
-                if(tooltip) {
-                    tooltip.innerHTML = `<strong>${venue.city}</strong><br>${venue.stadium}`;
-                    tooltip.classList.remove('hidden');
-                    setTimeout(() => tooltip.classList.add('hidden'), 3000);
+            renderMap: (venue) => {
+                const containerId = 'venue-map-container';
+                const container = document.getElementById(containerId);
+                
+                if(!window.isGoogleMapsLoaded) {
+                    app.state.pendingVenue = venue;
+                    if(window.google && window.google.maps) initGoogleMaps(); // Retry if script loaded but callback missed
+                    return;
                 }
+                
+                // Convert [lat, lng] to {lat, lng}
+                const position = { lat: venue.coords[0], lng: venue.coords[1] };
+                
+                // Init Map with Dark Style
+                const map = new google.maps.Map(container, {
+                    center: position,
+                    zoom: 13,
+                    mapId: 'DEMO_MAP_ID', // Optional: for vector maps if user has it
+                    styles: [
+                        { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
+                        { elementType: "labels.text.stroke", stylers: [{ color: "#242f3e" }] },
+                        { elementType: "labels.text.fill", stylers: [{ color: "#746855" }] },
+                        { featureType: "administrative.locality", elementType: "labels.text.fill", stylers: [{ color: "#d59563" }] },
+                        { featureType: "poi", elementType: "labels.text.fill", stylers: [{ color: "#d59563" }] },
+                        { featureType: "poi.park", elementType: "geometry", stylers: [{ color: "#263c3f" }] },
+                        { featureType: "road", elementType: "geometry", stylers: [{ color: "#38414e" }] },
+                        { featureType: "road", elementType: "geometry.stroke", stylers: [{ color: "#212a37" }] },
+                        { featureType: "road.highway", elementType: "geometry", stylers: [{ color: "#746855" }] },
+                        { featureType: "water", elementType: "geometry", stylers: [{ color: "#17263c" }] }
+                    ]
+                });
+
+                // Stadium Marker
+                new google.maps.Marker({
+                    position: position,
+                    map: map,
+                    title: venue.stadium,
+                    icon: {
+                        path: google.maps.SymbolPath.CIRCLE,
+                        scale: 10,
+                        fillColor: "#34D399",
+                        fillOpacity: 1,
+                        strokeWeight: 2,
+                        strokeColor: "#ffffff"
+                    }
+                });
+
+                // Nearby Search for Hotels & Attractions
+                const service = new google.maps.places.PlacesService(map);
+                
+                // Search for attractions
+                service.nearbySearch({
+                    location: position,
+                    radius: 3000,
+                    type: ['tourist_attraction']
+                }, (results, status) => {
+                    if (status === google.maps.places.PlacesServiceStatus.OK) {
+                        results.forEach(place => {
+                            new google.maps.Marker({
+                                position: place.geometry.location,
+                                map: map,
+                                title: place.name,
+                                icon: {
+                                    url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+                                }
+                            });
+                        });
+                    }
+                });
+
+                // Search for hotels
+                service.nearbySearch({
+                    location: position,
+                    radius: 3000,
+                    type: ['lodging']
+                }, (results, status) => {
+                    if (status === google.maps.places.PlacesServiceStatus.OK) {
+                        results.forEach(place => {
+                            new google.maps.Marker({
+                                position: place.geometry.location,
+                                map: map,
+                                title: place.name,
+                                icon: {
+                                    url: "http://maps.google.com/mapfiles/ms/icons/purple-dot.png"
+                                }
+                            });
+                        });
+                    }
+                });
+
+                app.state.mapInstance = map;
             },
 
             renderVenues: () => {
@@ -397,6 +506,11 @@
                         <i data-lucide="chevron-right" class="w-3 h-3 text-gray-600"></i>
                     </div>
                 `).join('');
+                
+                // Select first venue by default if none selected
+                if (!app.state.mapInstance && venueData.length > 0) {
+                     // app.selectVenue(venueData[0].city); // Optional: auto-select first
+                }
             },
 
             // Router
@@ -420,6 +534,7 @@
                 app.state.view = view;
                 document.querySelectorAll('.view-section').forEach(e => e.classList.add('hidden'));
                 document.getElementById('mobile-menu').classList.add('hidden');
+                
                 if(view==='article' && param) {
                     await app.renderArticle(param);
                     document.getElementById('article-view').classList.remove('hidden');
@@ -452,6 +567,7 @@
             startCountdown: () => { const d = new Date('June 11, 2026 12:00:00').getTime(); setInterval(() => { const n = new Date().getTime(), dist = d - n; if(dist<0) { document.getElementById("countdown-container").innerHTML = "LIVE!"; return; } document.getElementById("cd-days").innerText = String(Math.floor(dist/(1000*60*60*24))).padStart(2,'0'); document.getElementById("cd-hours").innerText = String(Math.floor((dist%(1000*60*60*24))/(1000*60*60))).padStart(2,'0'); document.getElementById("cd-minutes").innerText = String(Math.floor((dist%(1000*60*60))/(1000*60))).padStart(2,'0'); document.getElementById("cd-seconds").innerText = String(Math.floor((dist%(1000*60))/1000)).padStart(2,'0'); }, 1000); }
         };
 
+        window.app = app; // Make app object globally accessible for the callback
         window.addEventListener('DOMContentLoaded', app.init);
     </script>
 </body>
