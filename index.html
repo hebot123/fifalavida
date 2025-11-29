@@ -15,6 +15,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     
+    <!-- GLOBAL CALLBACK FOR GOOGLE MAPS (Moved to Head to prevent Race Condition) -->
+    <script>
+        function initGoogleMaps() {
+            window.isGoogleMapsLoaded = true;
+            if (window.app && window.app.state.pendingVenue) {
+                window.app.renderMap(window.app.state.pendingVenue);
+                window.app.state.pendingVenue = null;
+            }
+        }
+    </script>
+
     <!-- GOOGLE MAPS API (Replace YOUR_API_KEY with your actual key) -->
     <!-- We include 'libraries=places' to search for hotels/attractions automatically -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpMLiQsNuXAuCSwR2cyPBQE6VQt56gNck&libraries=places&callback=initGoogleMaps" async defer></script>
@@ -249,17 +260,6 @@
             <p class="text-gray-700 text-[10px]">Not affiliated with FIFA.</p>
         </div>
     </footer>
-
-    <!-- GLOBAL CALLBACK FOR GOOGLE MAPS -->
-    <script>
-        function initGoogleMaps() {
-            window.isGoogleMapsLoaded = true;
-            if (window.app && window.app.state.pendingVenue) {
-                window.app.renderMap(window.app.state.pendingVenue);
-                window.app.state.pendingVenue = null;
-            }
-        }
-    </script>
 
     <script>
         // --- DATA ---
@@ -509,7 +509,7 @@
                 
                 // Select first venue by default if none selected
                 if (!app.state.mapInstance && venueData.length > 0) {
-                     // app.selectVenue(venueData[0].city); // Optional: auto-select first
+                     app.selectVenue('Mexico City'); // Default to Mexico City
                 }
             },
 
@@ -570,6 +570,9 @@
         window.app = app; // Make app object globally accessible for the callback
         window.addEventListener('DOMContentLoaded', app.init);
     </script>
+
+    <!-- Chatbot container -->
+    <div id="chatbot-container"></div>
 </body>
 
 </html>
