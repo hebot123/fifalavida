@@ -6,8 +6,7 @@
         "image": "./assets/CanadaTravel.jpg",
         "date": "Nov 28, 2025",
         "snippet": "An in-depth look at why Canada's national team faces the toughest travel schedule and what it means for their campaign.",
-        "filename": "TravelTime.html",
-        "venue_city": "Toronto"
+        "filename": "TravelTime.html"
     },
     {
         "id": 2,
@@ -35,7 +34,7 @@
         "date": "Nov 29, 2025",
         "snippet": "Treat this game as both a historic national moment and the kickoff to a full Toronto festival.",
         "filename": "caopener.html",
-        "venue_city": "Toronto"
+        "venue_city": ["Toronto"]
     },
     {
         "id": 5,
@@ -45,7 +44,7 @@
         "date": "Nov 29, 2025",
         "snippet": "A Smart Traveler’s Guide to the World Cup 26™ Kickoff in Mexico City.",
         "filename": "ChatFGOpener.html",
-        "venue_city": "Mexico City"
+        "venue_city": ["Mexico City"]
     },
     {
         "id": 6,
@@ -55,7 +54,7 @@
         "date": "Nov 19, 2025",
         "snippet": "A Smart Traveler’s Guide to FIFA World Cup 26.",
         "filename": "LaTG.html",
-        "venue_city": "Los Angeles"
+        "venue_city": ["Los Angeles"]
     },
     {
         "id": 7,
@@ -65,8 +64,6 @@
         "date": "Nov 29, 2025",
         "snippet": "Get the most out of your plane ticket for a 1 week vacation.",
         "filename": "mostgames.html",
-        "venue_city": ["Los Angeles", "Atlanta", "New York"]
+        "venue_city": ["Los Angeles", "Atlanta", "New York / New Jersey"]
     }
-
 ]
-
