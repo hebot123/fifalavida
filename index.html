@@ -302,8 +302,15 @@
                 
                 document.getElementById('mobile-menu-btn').addEventListener('click', () => document.getElementById('mobile-menu').classList.toggle('hidden'));
                 
-                // If deep-linked to venues, select default
-                if (window.location.hash === '#venues') app.router('venues');
+                // Handle deep linking from URL hash
+                const hash = window.location.hash;
+                if (hash === '#matches') {
+                    app.router('tournament');
+                } else if (hash === '#articles') {
+                    app.router('news');
+                } else if (hash === '#venues') {
+                    app.router('venues');
+                }
             },
 
             // Render News
@@ -548,6 +555,17 @@
             
             router: async (view, param) => {
                 if(view !== 'home' && view !== 'venues') window.scrollTo({top:0,behavior:'smooth'});
+
+                // Update URL hash for deep linking
+                if (view === 'home') {
+                    history.pushState(null, null, ' ');
+                } else if (view === 'tournament') {
+                    history.pushState(null, null, '#matches');
+                } else if (view === 'news') {
+                    history.pushState(null, null, '#articles');
+                } else if (view === 'venues') {
+                    history.pushState(null, null, '#venues');
+                }
                 app.state.view = view;
                 document.querySelectorAll('.view-section').forEach(e => e.classList.add('hidden'));
                 document.getElementById('mobile-menu').classList.add('hidden');
