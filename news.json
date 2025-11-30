@@ -1,29 +1,65 @@
 [
     {
         "id": 1,
-        "title": "The Transcontinental Gamble",
-        "category": "Team Analysis",
-        "image": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "title": "The Transcontinental Gamble: Canada's Travel Burden",
+        "category": "Match Analysis",
+        "image": "./assets/CanadaTravel.jpg",
         "date": "Nov 28, 2025",
-        "snippet": "Why Canada got the shortend of the stick.",
+        "snippet": "An in-depth look at why Canada's national team faces the toughest travel schedule and what it means for their campaign.",
         "filename": "TravelTime.html"
     },
     {
         "id": 2,
         "title": "Which Matches Will Feature a Top Tier Team?",
-        "category": "Path to Glory",
-        "image": "https://images.unsplash.com/photo-1517466787929-bc90951d0974?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "category": "Match Analysis",
+        "image": "./assets/pot1.png",
         "date": "Nov 25, 2025",
-        "snippet": "The draft is 05DEC, but get your sneak peak here.",
+        "snippet": "The group stage draw is set for December 5th, but we're giving you a sneak peek at which top-seeded teams might clash early.",
         "filename": "pot1analysis.html"
     },
     {
         "id": 3,
         "title": "FIFA Collect: The Ultimate Guide (2025 Edition)",
-        "category": "Fifa Collect",
-        "image": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "category": "Fan Guide",
+        "image": "./assets/fifacollect.jpg",
         "date": "Nov 22, 2025",
-        "snippet": "FIFA Collect: The Digital Era, but is it for you?",
+        "snippet": "Exploring the world of digital collectibles for the World Cup. Is it a worthy investment for fans or just a passing trend?",
         "filename": "article-fifacollect.html"
+    },
+    {
+        "id": 4,
+        "title": "Canada’s Opening Match in Toronto – FIFA World Cup 26™ Travel Playbook",
+        "category": "Travel Guide",
+        "image": "./assets/caopener.jpg",
+        "date": "Nov 29, 2025",
+        "snippet": "Treat this game as both a historic national moment and the kickoff to a full Toronto festival.",
+        "filename": "caopener.html"
+    },
+    {
+        "id": 5,
+        "title": "Opening Night in Mexico City – FIFA World Cup 26™ Travel Playbook",
+        "category": "Travel Guide",
+        "image": "./assets/mxopener2.jpg",
+        "date": "Nov 29, 2025",
+        "snippet": "A Smart Traveler’s Guide to the World Cup 26™ Kickoff in Mexico City.",
+        "filename": "ChatFGOpener.html"
+    },
+    {
+        "id": 6,
+        "title": "Your Guide To Hectic World of Los Angeles – FIFA World Cup 26™ Travel Playbook",
+        "category": "Travel Guide",
+        "image": "./assets/usopener.jpg",
+        "date": "Nov 19, 2025",
+        "snippet": "A Smart Traveler’s Guide to FIFA World Cup 26.",
+        "filename": "LaTG.html"
+    },
+    {
+        "id": 7,
+        "title": "How to See the Most Games in One Week",
+        "category": "Travel Guide",
+        "image": "./assets/mostgames.jpg",
+        "date": "Nov 29, 2025",
+        "snippet": "Get the most out of your plane ticket for a 1 week vacation.",
+        "filename": "mostgames.html"
     }
 ]
