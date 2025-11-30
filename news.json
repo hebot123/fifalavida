@@ -6,7 +6,7 @@
         "image": "./assets/CanadaTravel.jpg",
         "date": "Nov 28, 2025",
         "snippet": "An in-depth look at why Canada's national team faces the toughest travel schedule and what it means for their campaign.",
-        "filename": "TravelTime.html"
+        "filename": "TravelTime.html",
         "venue_city": "Toronto"
     },
     {
@@ -64,8 +64,9 @@
         "image": "./assets/mostgames.jpg",
         "date": "Nov 29, 2025",
         "snippet": "Get the most out of your plane ticket for a 1 week vacation.",
-        "filename": "mostgames.html"
-        "venue_city": "Los Angeles", "Atlanta", "New York"
+        "filename": "mostgames.html",
+        "venue_city": ["Los Angeles", "Atlanta", "New York"]
     }
 
 ]
+
