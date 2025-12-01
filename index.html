@@ -64,15 +64,8 @@
     <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-50 backdrop-blur-md">
         <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
-                <div class="flex-shrink-0 flex items-center gap-3 cursor-pointer group" onclick="app.router('home')">
-                    <div class="bg-white text-black p-1 rounded-sm relative overflow-hidden">
-                        <div class="absolute inset-0 bg-emerald-500 mix-blend-multiply opacity-0 group-hover:opacity-100 transition"></div>
-                        <i data-lucide="trophy" class="h-6 w-6 relative z-10"></i>
-                    </div>
-                    <div class="flex flex-col leading-none">
-                        <span class="brand-font text-2xl font-bold tracking-tighter group-hover:text-emerald-400 transition">FIFA LA VIDA</span>
-                        <span class="text-[10px] uppercase tracking-[0.2em] text-gray-500 group-hover:text-gray-300">World Cup Hub</span>
-                    </div>
+                <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer group" onclick="app.router('home')">
+                    <img src="./assets/logo_b.jpg" alt="FIFA La Vida Logo" class="h-12 w-auto">
                 </div>
                 <div class="hidden md:flex space-x-1 items-center">
                     <button onclick="app.router('home')" class="nav-btn text-white bg-white/10 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="home">Home</button>
@@ -345,25 +338,33 @@
                 let steps = [];
                 if (team === 'Mexico') {
                     steps = [
-                        { stage: "Match 1 (Opening Match)", dates: "June 11", loc: "Mexico City", desc: "Kicking off the tournament at the historic Estadio Azteca." },
+                        { stage: "Match 1 (Opening Match)", dates: "June 11", loc: "Mexico City", desc: "Kicking off the tournament at the historic Estadio Azteca as team A1." },
                         { stage: "Match 26", dates: "June 18", loc: "Guadalajara", desc: "Second group stage test at Estadio Akron." },
                         { stage: "Match 53", dates: "June 24", loc: "Mexico City", desc: "Final group match back at the Azteca to secure a knockout spot." },
-                        { stage: "Round of 32", dates: "June 30", loc: "Mexico City (If 1st in Group A)", desc: "A potential knockout game on home soil." },
-                        { stage: "Round of 16", dates: "July 5", loc: "Mexico City (If path allows)", desc: "The dream of a deep run continues." }
+                        { stage: "Round of 32 (M79)", dates: "July 1", loc: "Houston", desc: "The knockout journey begins in Houston, assuming a 2nd place finish in Group A." },
+                        { stage: "Round of 16 (M92)", dates: "July 6", loc: "Boston", desc: "The path to glory heads to the Northeast for a spot in the quarters." },
+                        { stage: "Quarter-Final (M99)", dates: "July 11", loc: "Boston", desc: "A second consecutive match in Boston, with a semi-final berth on the line." },
+                        { stage: "Semi-Final (M102)", dates: "July 16", loc: "Dallas", desc: "One step away from the final, playing in Dallas." }
                     ];
                 } else if (team === 'Canada') {
                     steps = [
-                        { stage: "Match 3", dates: "June 12", loc: "Toronto", desc: "Canada's campaign begins at BMO Field." },
+                        { stage: "Match 3", dates: "June 12", loc: "Toronto", desc: "Canada's campaign begins at BMO Field as team B1." },
                         { stage: "Match 28", dates: "June 18", loc: "Vancouver", desc: "Cross-country trip to face their second opponent at BC Place." },
                         { stage: "Match 52", dates: "June 24", loc: "Vancouver", desc: "Final group match, aiming to advance from Group B." },
-                        { stage: "Round of 32", dates: "July 2", loc: "Vancouver (If 1st in Group B)", desc: "A chance to play a knockout match at home." }
+                        { stage: "Round of 32 (M80)", dates: "July 2", loc: "Vancouver", desc: "A chance to play a knockout match at home, assuming a 1st place finish in Group B." },
+                        { stage: "Round of 16 (M85)", dates: "July 5", loc: "Vancouver", desc: "Another knockout match on home turf at BC Place." },
+                        { stage: "Quarter-Final (M96)", dates: "July 11", loc: "Miami", desc: "The path to glory leads through Miami for a spot in the semis." },
+                        { stage: "Semi-Final (M100)", dates: "July 15", loc: "Atlanta", desc: "A semi-final showdown in Atlanta for a place in the final." }
                     ];
                 } else if (team === 'USA') {
                     steps = [
-                        { stage: "Match 4", dates: "June 12", loc: "Los Angeles", desc: "The USMNT starts their journey at SoFi Stadium." },
+                        { stage: "Match 4", dates: "June 12", loc: "Los Angeles", desc: "The USMNT starts their journey at SoFi Stadium as team D1." },
                         { stage: "Match 32", dates: "June 19", loc: "Seattle", desc: "Heading to the pacific northwest and Lumen Field." },
                         { stage: "Match 55", dates: "June 25", loc: "Los Angeles", desc: "Returning to LA to close out the group stage." },
-                        { stage: "Round of 32", dates: "July 1", loc: "Los Angeles (If 1st in Group D)", desc: "Fighting for a spot in the Round of 16 at home." }
+                        { stage: "Round of 32 (M81)", dates: "July 1", loc: "Bay Area", desc: "Assuming a 1st place finish in Group D, the knockout stage begins in the Bay Area." },
+                        { stage: "Round of 16 (M94)", dates: "July 6", loc: "Atlanta", desc: "A cross-country trip to Atlanta for a place in the quarters." },
+                        { stage: "Quarter-Final (M98)", dates: "July 11", loc: "Los Angeles", desc: "Returning to the familiar ground of SoFi Stadium." },
+                        { stage: "Semi-Final (M101)", dates: "July 15", loc: "Dallas", desc: "The final hurdle before the World Cup Final, played in Dallas." }
                     ];
                 } else {
                     steps = [
@@ -372,7 +373,7 @@
                     ];
                 }
 
-                container.innerHTML = steps.map((s, i) => `<div class="flex gap-6 group"><div class="flex flex-col items-center"><div class="w-4 h-4 rounded-full bg-emerald-500 border-4 border-emerald-900 shadow-[0_0_15px_rgba(52,211,153,0.5)] z-10 relative"></div>${i!==steps.length-1?'<div class="w-0.5 h-20 bg-white/10 group-hover:bg-emerald-500/50 transition duration-500"></div>':''}</div><div class="pb-8"><span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">${s.dates}</span><h3 class="text-2xl font-bold text-white mb-1">${s.stage}</h3><div class="flex items-center gap-2 text-sm text-gray-400 mb-2"><i data-lucide="map-pin" class="w-3 h-3"></i> ${s.loc}</div><p class="text-gray-500 text-sm leading-relaxed max-w-md">${s.desc}</p></div></div>`).join('') + `<div class="flex gap-6 mt-2 opacity-50 group hover:opacity-100 transition"><div class="flex flex-col items-center"><div class="w-4 h-4 rounded-full bg-yellow-500 border-4 border-yellow-900 shadow-[0_0_15px_rgba(234,179,8,0.5)]"></div></div><div><span class="text-xs font-bold text-yellow-500 uppercase tracking-widest">July 19, 2026</span><h3 class="text-2xl font-bold text-white">World Cup Final</h3><div class="text-sm text-gray-400">New York / New Jersey</div></div></div>`;
+                container.innerHTML = steps.map((s, i) => `<div class="flex gap-6 group"><div class="flex flex-col items-center"><div class="w-4 h-4 rounded-full bg-emerald-500 border-4 border-emerald-900 shadow-[0_0_15px_rgba(52,211,153,0.5)] z-10 relative"></div>${i!==steps.length-1?'<div class="w-0.5 h-20 bg-white/10 group-hover:bg-emerald-500/50 transition duration-500"></div>':''}</div><div class="pb-8"><span class="text-xs font-bold text-emerald-400 uppercase tracking-widest">${s.dates}</span><h3 class="text-2xl font-bold text-white mb-1">${s.stage}</h3><div class="flex items-center gap-2 text-sm text-gray-400 mb-2"><i data-lucide="map-pin" class="w-3 h-3"></i> ${s.loc}</div><p class="text-gray-500 text-sm leading-relaxed max-w-md">${s.desc}</p></div></div>`).join('') + `<div class="flex gap-6 mt-2 opacity-50 group hover:opacity-100 transition"><div class="flex flex-col items-center"><div class="w-4 h-4 rounded-full bg-yellow-500 border-4 border-yellow-900 shadow-[0_0_15px_rgba(234,179,8,0.5)]"></div></div><div><span class="text-xs font-bold text-yellow-500 uppercase tracking-widest">July 19, 2026</span><h3 class="text-2xl font-bold text-white">World Cup Final (M104)</h3><div class="text-sm text-gray-400">New York / New Jersey</div></div></div>`;
                 
                 // UPDATED LINK: Viagogo Affiliate Link
                 const ticketUrl = "https://viagogo.prf.hn/click/camref:1110ltZ7y/[p_id:1110l23734]/destination:https%3A%2F%2Fwww.viagogo.com%2FSports-Tickets%2FSoccer%2FSoccer-Tournament%2FSoccer-World-Cup-Tickets%3Fagqi%3D5ff4c7ee-562d-42dc-8b3d-90428039fcb0%26agi%3Dstubhub%26agut%3Dd0fd2010-cb9f-4d0f-b13c-553113c1bfed";
