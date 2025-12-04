@@ -73,6 +73,7 @@
                     <button onclick="app.router('tournament')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2" data-target="tournament"><i data-lucide="layout-grid" class="w-4 h-4"></i> Matches</button>
                     <button onclick="app.router('venues')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i> Venues</button>
                     <button onclick="app.router('news')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="news">Articles</button>
+                    <button onclick="app.router('videos')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="videos">Videos</button>
                     <div class="h-6 w-px bg-white/20 mx-4"></div>
                     <a href="https://collect.fifa.com/?referrer=fifalavida" target="_blank" class="bg-white text-black hover:bg-emerald-400 px-6 py-2 rounded font-bold text-sm uppercase transition flex items-center gap-2"><i data-lucide="gem" class="w-4 h-4"></i> Collect</a>
                 </div>
@@ -86,6 +87,7 @@
                 <button onclick="app.router('tournament')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Matches & Bracket</button>
                 <button onclick="app.router('venues')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Host Cities</button>
                 <button onclick="app.router('news')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Articles</button>
+                <button onclick="app.router('videos')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Videos</button>
                 <a href="https://collect.fifa.com/?referrer=fifalavida" target="_blank" class="block text-center bg-white text-black py-3 mt-4 font-bold uppercase rounded">FIFA Collect</a>
             </div>
         </div>
@@ -241,6 +243,14 @@
             </div>
         </div>
 
+        <!-- VIDEOS VIEW -->
+        <div id="videos-view" class="view-section hidden pt-10 pb-20">
+            <div class="max-w-[1400px] mx-auto px-4">
+                <h1 class="text-6xl md:text-8xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-800">VIDEOS</h1>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12" id="full-videos-grid"></div>
+            </div>
+        </div>
+
         <!-- ARTICLE READING -->
         <div id="article-view" class="view-section hidden bg-black min-h-screen pb-20">
             <div id="article-content" class="max-w-3xl mx-auto px-4 pt-10"></div>
@@ -254,6 +264,7 @@
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto text-xs text-gray-500 uppercase tracking-widest mb-12">
                 <a href="#" class="hover:text-emerald-400 transition" onclick="app.router('home')">Home</a>
                 <a href="#" class="hover:text-emerald-400 transition" onclick="app.router('news')">Articles</a>
+                <a href="#" class="hover:text-emerald-400 transition" onclick="app.router('videos')">Videos</a>
                 <a href="#" class="hover:text-emerald-400 transition" onclick="app.router('tournament')">Bracket</a>
                 <a href="mailto:admin@fifalavida.com" class="hover:text-emerald-400 transition">Contact</a>
             </div>
@@ -272,11 +283,13 @@
         const app = {
             state: { view: 'home', mapInstance: null, pendingVenue: null, isGmapsLoaded: false, newsFilter: 'All' },
             newsData: [],
+            mediaData: [],
 
             init: () => {
                 lucide.createIcons();
                 app.fetchNews();
-                
+                app.fetchMedia();
+
                 // Poll
                 const select = document.getElementById('poll-select');
                 const teamOptGroup = document.getElementById('path-team-options');
@@ -303,6 +316,8 @@
                     app.router('news');
                 } else if (hash === '#venues') {
                     app.router('venues');
+                } else if (hash === '#videos') {
+                    app.router('videos');
                 }
             },
 
@@ -327,6 +342,17 @@
                 if (filteredArticles.length === 0) {
                     fullGrid.innerHTML = `<p class="text-gray-500 md:col-span-3 text-center">No articles found for this category.</p>`;
                 }
+            },
+
+            // Render Videos
+            renderMedia: () => {
+                const grid = document.getElementById('full-videos-grid');
+                if (!grid) return;
+
+                const createCard = (m) => `<a href="https://www.youtube.com/watch?v=${m.youtubeId}" target="_blank" rel="noopener noreferrer" class="cursor-pointer bg-white/5 border border-white/10 rounded-xl overflow-hidden hover:border-emerald-500 transition group"><div class="h-48 bg-gray-800 relative"><img src="https://i.ytimg.com/vi/${m.youtubeId}/hqdefault.jpg" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"><div class="absolute inset-0 bg-black/30 flex items-center justify-center"><i data-lucide="play-circle" class="w-16 h-16 text-white/70 group-hover:text-white transition-colors"></i></div></div><div class="p-6"><h3 class="font-bold text-xl mb-2 font-oswald">${m.title}</h3><p class="text-sm text-gray-400">${m.snippet}</p></div></a>`;
+
+                grid.innerHTML = app.mediaData.map(createCard).join('');
+                lucide.createIcons();
             },
 
             // Path To Glory Logic
@@ -576,6 +602,8 @@
                     history.pushState(null, null, '#articles');
                 } else if (view === 'venues') {
                     history.pushState(null, null, '#venues');
+                } else if (view === 'videos') {
+                    history.pushState(null, null, '#videos');
                 }
                 app.state.view = view;
                 document.querySelectorAll('.view-section').forEach(e => e.classList.add('hidden'));
@@ -617,6 +645,16 @@
                     app.newsData = []; // Default to empty on error
                 } 
                 app.renderNews(); 
+            },
+            fetchMedia: async () => {
+                try {
+                    const r = await fetch('media.json');
+                    const data = r.ok ? await r.json() : [];
+                    app.mediaData = data.sort((a, b) => new Date(b.date) - new Date(a.date));
+                } catch (e) {
+                    app.mediaData = [];
+                }
+                app.renderMedia();
             },
             filterNews: (category) => {
                 app.state.newsFilter = category;
