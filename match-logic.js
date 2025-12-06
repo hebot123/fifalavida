@@ -7,12 +7,12 @@ const MatchEngine = {
 
     // --- CONFIGURATION ---
     officialVenues: { 
-        1: "Azteca, Mexico City", 2: "Guadalajara", 3: "Toronto", 4: "Los Angeles", 5: "Boston", 6: "Seattle", 7: "New York/New Jersey", 8: "San Francisco", 9: "Philadelphia", 10: "Houston", 
+        1: "Azteca, Mexico City", 2: "Guadalajara", 3: "Toronto", 4: "Los Angeles", 5: "New York/New Jersey", 6: "Vancouver", 7: "Boston", 8: "San Francisco", 9: "Philadelphia", 10: "Houston", 
         11: "Dallas", 12: "Monterrey", 13: "Miami", 14: "Atlanta", 15: "Los Angeles", 16: "Seattle", 17: "New York/New Jersey", 18: "Boston", 19: "Kansas City", 20: "San Francisco", 
-        21: "Toronto", 22: "Dallas", 23: "Houston", 24: "Azteca, Mexico City", 25: "Atlanta", 26: "Los Angeles", 27: "Vancouver", 28: "Guadalajara", 29: "Philadelphia", 30: "Boston", 
+        21: "Toronto", 22: "Dallas", 23: "Houston", 24: "Azteca, Mexico City", 25: "Atlanta", 26: "Los Angeles", 27: "Vancouver", 28: "Guadalajara", 29: "Boston", 30: "Philadelphia", 
         31: "San Francisco", 32: "Seattle", 33: "Toronto", 34: "Kansas City", 35: "Houston", 36: "Monterrey", 37: "Miami", 38: "Atlanta", 39: "Los Angeles", 40: "Vancouver", 
-        41: "New York/New Jersey", 42: "Philadelphia", 43: "Dallas", 44: "San Francisco", 45: "Boston", 46: "Toronto", 47: "Houston", 48: "Guadalajara", 49: "Miami", 50: "Atlanta", 
-        51: "Vancouver", 52: "Seattle", 53: "Azteca, Mexico City", 54: "Monterrey", 55: "Philadelphia", 56: "New York/New Jersey", 57: "Dallas", 58: "Kansas City", 59: "Los Angeles", 60: "San Francisco", 
+        41: "Philadelphia", 42: "New York/New Jersey", 43: "Dallas", 44: "San Francisco", 45: "Boston", 46: "Toronto", 47: "Houston", 48: "Guadalajara", 49: "Miami", 50: "Atlanta", 
+        51: "Vancouver", 52: "Seattle", 53: "Azteca, Mexico City", 54: "Monterrey", 55: "New York/New Jersey", 56: "Philadelphia", 57: "Dallas", 58: "Kansas City", 59: "Los Angeles", 60: "San Francisco", 
         61: "Boston", 62: "Toronto", 63: "Seattle", 64: "Vancouver", 65: "Houston", 66: "Guadalajara", 67: "New York/New Jersey", 68: "Philadelphia", 69: "Kansas City", 70: "Dallas", 
         71: "Miami", 72: "Atlanta", 73: "Los Angeles", 74: "Boston", 75: "Monterrey", 76: "Houston", 77: "New York/New Jersey", 78: "Dallas", 79: "Azteca, Mexico City", 80: "Atlanta", 
         81: "San Francisco", 82: "Seattle", 83: "Toronto", 84: "Los Angeles", 85: "Vancouver", 86: "Miami", 87: "Kansas City", 88: "Dallas", 89: "Philadelphia", 90: "Houston", 
@@ -45,31 +45,55 @@ const MatchEngine = {
     // SPECIFIC MATCH SCHEDULE (Overrides automated generation)
     // Format: [TeamA, TeamB, Time (Local approx)]
     specificSchedule: {
+        // GROUP A
+        1: ["Mexico", "South Africa", "15:00"],
+        2: ["Korea Republic", "FIFA Play-off (DEN/MKD/CZE/IRL)", "22:00"],
+        25: ["FIFA Play-off (DEN/MKD/CZE/IRL)", "South Africa", "12:00"],
+        28: ["Mexico", "Korea Republic", "21:00"],
+        53: ["FIFA Play-off (DEN/MKD/CZE/IRL)", "Mexico", "21:00"],
+        54: ["South Africa", "Korea Republic", "21:00"],
+
+        // GROUP B
+        3: ["Canada", "FIFA Play-off (ITA/NIR/WAL/BIH)", "15:00"],
+        8: ["Qatar", "Switzerland", "15:00"],
+        26: ["Switzerland", "FIFA Play-off (ITA/NIR/WAL/BIH)", "15:00"],
+        27: ["Canada", "Qatar", "18:00"],
+        51: ["Switzerland", "Canada", "15:00"],
+        52: ["FIFA Play-off (ITA/NIR/WAL/BIH)", "Qatar", "15:00"],
+
         // GROUP C
-        5: ["Haiti", "Scotland", "21:00"], 
-        7: ["Brazil", "Morocco", "18:00"], 
-        29: ["Brazil", "Haiti", "21:00"], 
-        30: ["Scotland", "Morocco", "18:00"],
+        5: ["Brazil", "Morocco", "18:00"], 
+        7: ["Haiti", "Scotland", "21:00"], 
+        29: ["Scotland", "Morocco", "18:00"], 
+        30: ["Brazil", "Haiti", "21:00"],
         49: ["Scotland", "Brazil", "18:00"], 
         50: ["Morocco", "Haiti", "18:00"],
+
+        // GROUP D
+        4: ["USA", "Paraguay", "21:00"],
+        6: ["Australia", "FIFA Play-off (TUR/ROU/SVK/KOS)", "00:00"],
+        31: ["FIFA Play-off (TUR/ROU/SVK/KOS)", "Paraguay", "00:00"],
+        32: ["USA", "Australia", "15:00"],
+        59: ["FIFA Play-off (TUR/ROU/SVK/KOS)", "USA", "22:00"],
+        60: ["Paraguay", "Australia", "22:00"],
 
         // GROUP E
         9: ["Côte d'Ivoire", "Ecuador", "19:00"],
         10: ["Germany", "Curaçao", "13:00"],
         33: ["Germany", "Côte d'Ivoire", "16:00"],
         34: ["Ecuador", "Curaçao", "20:00"],
-        55: ["Curaçao", "Côte d'Ivoire", "16:00"],
-        56: ["Ecuador", "Germany", "16:00"],
+        55: ["Ecuador", "Germany", "16:00"],
+        56: ["Curaçao", "Côte d'Ivoire", "16:00"],
 
         // GROUP F
         11: ["Netherlands", "Japan", "16:00"],
-        12: ["FIFA Play-off (UKR/SWE)", "Tunisia", "22:00"],
-        35: ["Netherlands", "FIFA Play-off (UKR/SWE)", "13:00"],
+        12: ["FIFA Play-off (UKR/SWE/POL/ALB)", "Tunisia", "22:00"],
+        35: ["Netherlands", "FIFA Play-off (UKR/SWE/POL/ALB)", "13:00"],
         36: ["Tunisia", "Japan", "00:00"],
-        57: ["Japan", "FIFA Play-off (UKR/SWE)", "19:00"],
+        57: ["Japan", "FIFA Play-off (UKR/SWE/POL/ALB)", "19:00"],
         58: ["Tunisia", "Netherlands", "19:00"],
 
-        // GROUP G
+        // GROUP G (Retained synthetic data as no image provided)
         15: ["IR Iran", "New Zealand", "21:00"],
         16: ["Belgium", "Egypt", "15:00"],
         39: ["Belgium", "IR Iran", "15:00"],
@@ -87,11 +111,11 @@ const MatchEngine = {
 
         // GROUP I
         17: ["France", "Senegal", "15:00"],
-        18: ["FIFA Play-off (IRQ/BOL)", "Norway", "18:00"],
-        41: ["France", "FIFA Play-off (IRQ/BOL)", "17:00"],
+        18: ["FIFA Play-off (IRQ/BOL/SUR)", "Norway", "18:00"],
+        41: ["France", "FIFA Play-off (IRQ/BOL/SUR)", "17:00"],
         42: ["Norway", "Senegal", "20:00"],
         61: ["Norway", "France", "15:00"],
-        62: ["Senegal", "FIFA Play-off (IRQ/BOL)", "15:00"],
+        62: ["Senegal", "FIFA Play-off (IRQ/BOL/SUR)", "15:00"],
 
         // GROUP J
         19: ["Argentina", "Algeria", "21:00"],
@@ -102,12 +126,12 @@ const MatchEngine = {
         70: ["Jordan", "Argentina", "22:00"],
 
         // GROUP K
-        23: ["Portugal", "FIFA Play-off (COD/JAM)", "13:00"],
+        23: ["Portugal", "FIFA Play-off (COD/JAM/NCL)", "13:00"],
         24: ["Uzbekistan", "Colombia", "22:00"],
         47: ["Portugal", "Uzbekistan", "13:00"],
-        48: ["Colombia", "FIFA Play-off (COD/JAM)", "22:00"],
+        48: ["Colombia", "FIFA Play-off (COD/JAM/NCL)", "22:00"],
         71: ["Colombia", "Portugal", "19:30"],
-        72: ["FIFA Play-off (COD/JAM)", "Uzbekistan", "19:30"],
+        72: ["FIFA Play-off (COD/JAM/NCL)", "Uzbekistan", "19:30"],
 
         // GROUP L
         21: ["Ghana", "Panama", "19:00"],
