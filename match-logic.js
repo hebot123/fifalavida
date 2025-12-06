@@ -3,6 +3,7 @@ const MatchEngine = {
     matches: [],
     filter: 'all',
     venueFilter: null,
+    teamFilter: null,
 
     // --- CONFIGURATION ---
     officialVenues: { 1: "Azteca, Mexico City", 2: "Guadalajara", 3: "Toronto", 4: "Los Angeles", 5: "Boston", 6: "Vancouver", 7: "New York/New Jersey", 8: "San Francisco", 9: "Philadelphia", 10: "Houston", 11: "Dallas", 12: "Monterrey", 13: "Miami", 14: "Atlanta", 15: "Los Angeles", 16: "Seattle", 17: "New York/New Jersey", 18: "Boston", 19: "Kansas City", 20: "San Francisco", 21: "Toronto", 22: "Dallas", 23: "Houston", 24: "Azteca, Mexico City", 25: "Atlanta", 26: "Los Angeles", 27: "Vancouver", 28: "Guadalajara", 29: "Philadelphia", 30: "Boston", 31: "San Francisco", 32: "Seattle", 33: "Toronto", 34: "Kansas City", 35: "Houston", 36: "Monterrey", 37: "Miami", 38: "Atlanta", 39: "Los Angeles", 40: "Vancouver", 41: "New York/New Jersey", 42: "Philadelphia", 43: "Dallas", 44: "San Francisco", 45: "Boston", 46: "Toronto", 47: "Houston", 48: "Guadalajara", 49: "Miami", 50: "Atlanta", 51: "Vancouver", 52: "Seattle", 53: "Azteca, Mexico City", 54: "Monterrey", 55: "Philadelphia", 56: "New York/New Jersey", 57: "Dallas", 58: "Kansas City", 59: "Los Angeles", 60: "San Francisco", 61: "Boston", 62: "Toronto", 63: "Seattle", 64: "Vancouver", 65: "Houston", 66: "Guadalajara", 67: "New York/New Jersey", 68: "Philadelphia", 69: "Kansas City", 70: "Dallas", 71: "Miami", 72: "Atlanta", 73: "Los Angeles", 74: "Boston", 75: "Monterrey", 76: "Houston", 77: "New York/New Jersey", 78: "Dallas", 79: "Azteca, Mexico City", 80: "Atlanta", 81: "San Francisco", 82: "Seattle", 83: "Toronto", 84: "Los Angeles", 85: "Vancouver", 86: "Miami", 87: "Kansas City", 88: "Dallas", 89: "Philadelphia", 90: "Houston", 91: "New York/New Jersey", 92: "Azteca, Mexico City", 93: "Dallas", 94: "Seattle", 95: "Atlanta", 96: "Vancouver", 97: "Boston", 98: "Los Angeles", 99: "Miami", 100: "Kansas City", 101: "Dallas", 102: "Atlanta", 103: "Miami", 104: "New York/New Jersey" },
@@ -11,18 +12,18 @@ const MatchEngine = {
     
     // OFFICIAL DRAW RESULTS (Dec 5, 2025)
     potMapping: {
-        'A': { 1: 'Mexico 🇲🇽', 2: 'South Africa 🇿🇦', 3: 'Korea Republic 🇰🇷', 4: 'Winner UEFA Play-off D' },
-        'B': { 1: 'Canada 🇨🇦', 2: 'Winner UEFA Play-off A', 3: 'Qatar 🇶🇦', 4: 'Switzerland 🇨🇭' },
-        'C': { 1: 'Brazil 🇧🇷', 2: 'Morocco 🇲🇦', 3: 'Haiti 🇭🇹', 4: 'Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿' },
-        'D': { 1: 'USA 🇺🇸', 2: 'Paraguay 🇵🇾', 3: 'Australia 🇦🇺', 4: 'Winner UEFA Play-off C' },
-        'E': { 1: 'Germany 🇩🇪', 2: 'Curaçao 🇨🇼', 3: 'Côte d\'Ivoire 🇨🇮', 4: 'Ecuador 🇪🇨' },
-        'F': { 1: 'Netherlands 🇳🇱', 2: 'Japan 🇯🇵', 3: 'Winner UEFA Play-off B', 4: 'Tunisia 🇹🇳' },
-        'G': { 1: 'Belgium 🇧🇪', 2: 'Egypt 🇪🇬', 3: 'IR Iran 🇮🇷', 4: 'New Zealand 🇳🇿' },
-        'H': { 1: 'Spain 🇪🇸', 2: 'Cabo Verde 🇨🇻', 3: 'Saudi Arabia 🇸🇦', 4: 'Uruguay 🇺🇾' },
-        'I': { 1: 'France 🇫🇷', 2: 'Senegal 🇸🇳', 3: 'Winner FIFA Play-off 2', 4: 'Norway 🇳🇴' },
-        'J': { 1: 'Argentina 🇦🇷', 2: 'Algeria 🇩🇿', 3: 'Austria 🇦🇹', 4: 'Jordan 🇯🇴' },
-        'K': { 1: 'Portugal 🇵🇹', 2: 'Winner FIFA Play-off 1', 3: 'Uzbekistan 🇺🇿', 4: 'Colombia 🇨🇴' },
-        'L': { 1: 'England 🏴󠁧󠁢󠁥󠁮󠁧󠁿', 2: 'Croatia 🇭🇷', 3: 'Ghana 🇬🇭', 4: 'Panama 🇵🇦' },
+        'A': { 1: 'Mexico', 2: 'South Africa', 3: 'Korea Republic', 4: 'Winner UEFA Play-off D' },
+        'B': { 1: 'Canada', 2: 'Winner UEFA Play-off A', 3: 'Qatar', 4: 'Switzerland' },
+        'C': { 1: 'Brazil', 2: 'Morocco', 3: 'Haiti', 4: 'Scotland' },
+        'D': { 1: 'USA', 2: 'Paraguay', 3: 'Australia', 4: 'Winner UEFA Play-off C' },
+        'E': { 1: 'Germany', 2: 'Curaçao', 3: 'Côte d\'Ivoire', 4: 'Ecuador' },
+        'F': { 1: 'Netherlands', 2: 'Japan', 3: 'Winner UEFA Play-off B', 4: 'Tunisia' },
+        'G': { 1: 'Belgium', 2: 'Egypt', 3: 'IR Iran', 4: 'New Zealand' },
+        'H': { 1: 'Spain', 2: 'Cabo Verde', 3: 'Saudi Arabia', 4: 'Uruguay' },
+        'I': { 1: 'France', 2: 'Senegal', 3: 'Winner FIFA Play-off 2', 4: 'Norway' },
+        'J': { 1: 'Argentina', 2: 'Algeria', 3: 'Austria', 4: 'Jordan' },
+        'K': { 1: 'Portugal', 2: 'Winner FIFA Play-off 1', 3: 'Uzbekistan', 4: 'Colombia' },
+        'L': { 1: 'England', 2: 'Croatia', 3: 'Ghana', 4: 'Panama' },
     },
 
     // FULL MATRIX MATCHUPS
@@ -106,6 +107,7 @@ const MatchEngine = {
         MatchEngine.generateMatches();
         MatchEngine.render();
         MatchEngine.populateVenueSelect();
+        MatchEngine.populateTeamSelect();
     },
 
     populateVenueSelect: () => {
@@ -142,13 +144,50 @@ const MatchEngine = {
         } catch(e) { }
     },
 
+    populateTeamSelect: () => {
+        try {
+            const select = document.getElementById('team-filter-select');
+            if(!select) return;
+            select.innerHTML = '<option value="">All Teams</option>';
+            
+            const teams = new Set();
+            Object.values(MatchEngine.potMapping).forEach(group => {
+                Object.values(group).forEach(teamName => {
+                    // Clean the team name (remove flag emoji)
+                    const cleanName = teamName.replace(/(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g, '').trim();
+                    teams.add(cleanName);
+                });
+            });
+
+            const sortedTeams = Array.from(teams).sort();
+            sortedTeams.forEach(team => {
+                const opt = document.createElement('option');
+                opt.value = team;
+                opt.text = team;
+                select.appendChild(opt);
+            });
+
+            select.value = MatchEngine.teamFilter || '';
+            select.onchange = function() {
+                const v = this.value;
+                if (!v) MatchEngine.clearTeamFilter();
+                else MatchEngine.setTeam(v);
+            };
+        } catch (e) {
+            console.error("Failed to populate team select:", e);
+        }
+    },
+
     setVenue: (venueName) => {
         const canonical = MatchEngine.normalizeVenueName(venueName ? String(venueName).trim() : null);
         MatchEngine.venueFilter = canonical || null;
+        MatchEngine.teamFilter = null; // Clear team filter when venue is set
         MatchEngine.setFilter('calendar');
     },
 
+    setTeam: (teamName) => { MatchEngine.teamFilter = teamName; MatchEngine.venueFilter = null; MatchEngine.setFilter('all'); },
     clearVenue: () => { MatchEngine.venueFilter = null; MatchEngine.setFilter('all'); },
+    clearTeamFilter: () => { MatchEngine.teamFilter = null; MatchEngine.setFilter('all'); },
 
     generateMatches: () => {
         MatchEngine.matches = [];
@@ -198,6 +237,17 @@ const MatchEngine = {
             let teamA, teamB;
             let isPremium = false;
 
+            // Find country for the match
+            let country = null;
+            if (stadium !== "TBD" && typeof venueData !== 'undefined') {
+                const venueCity = stadium.split(',').pop().trim();
+                const venueInfo = venueData.find(v => v.city === venueCity || (v.city === 'New York/NJ' && stadium.includes('New York')));
+                if (venueInfo) {
+                    country = venueInfo.country;
+                }
+            }
+
+
             if (MatchEngine.confirmedMatchups[i]) {
                 const m = MatchEngine.confirmedMatchups[i];
                 teamA = formatTeam(m[0]);
@@ -215,16 +265,26 @@ const MatchEngine = {
                 teamB: teamB, 
                 date: d, 
                 stadium: stadium,
-                isPremium: isPremium
+                isPremium: isPremium,
+                country: country
             });
         }
 
         // Knockout Stage
         for(let i=73; i<=104; i++) {
             const d = MatchEngine.knockoutMapping[i];
+            const stadium = MatchEngine.officialVenues[i] || "TBD";
             let sn = "Round of 32";
+            // Find country for knockout matches
+            let country = null;
+            if (stadium !== "TBD" && typeof venueData !== 'undefined') {
+                const venueCity = stadium.split(',').pop().trim();
+                const venueInfo = venueData.find(v => v.city === venueCity || (v.city === 'New York/NJ' && stadium.includes('New York')));
+                if (venueInfo) { country = venueInfo.country; }
+            }
+
             if(i>88) sn="Round of 16"; if(i>96) sn="Quarter-Final"; if(i>100) sn="Semi-Final"; if(i===103) sn="Bronze Final"; if(i===104) sn="FINAL";
-            MatchEngine.matches.push({id:i, stage:sn, teamA:d[0], teamB:d[1], date:d[2], stadium:MatchEngine.officialVenues[i]||"TBD", isPremium:false});
+            MatchEngine.matches.push({id:i, stage:sn, teamA:d[0], teamB:d[1], date:d[2], stadium:stadium, isPremium:false, country: country});
         }
     },
 
@@ -255,6 +315,12 @@ const MatchEngine = {
             data = data.filter(m => (m.stadium||'').toLowerCase().includes(vf));
         }
 
+        if(MatchEngine.teamFilter) {
+            const tf = MatchEngine.teamFilter.toLowerCase();
+            const clean = (n) => n.replace(/<[^>]*>?/gm, '').trim().toLowerCase();
+            data = data.filter(m => clean(m.teamA).includes(tf) || clean(m.teamB).includes(tf));
+        }
+
         if(MatchEngine.filter === 'calendar') {
             container.className = "flex flex-col gap-8 max-w-4xl mx-auto";
             const dates = [...new Set(data.map(m => m.date))];
@@ -271,6 +337,7 @@ const MatchEngine = {
             data.forEach(m => container.innerHTML += MatchEngine.getCardHTML(m));
         }
         try { if(typeof window.updateVenueSelectFromEngine === 'function') window.updateVenueSelectFromEngine(); } catch(e) { }
+        try { if(typeof MatchEngine.populateTeamSelect === 'function') MatchEngine.populateTeamSelect(); } catch(e) { }
 
         if(window.lucide) window.lucide.createIcons();
     },
