@@ -9,20 +9,20 @@ const MatchEngine = {
     
     officialGroups: { 1: 'A', 2: 'A', 25: 'A', 28: 'A', 53: 'A', 54: 'A', 3: 'B', 8: 'B', 26: 'B', 27: 'B', 51: 'B', 52: 'B', 5: 'C', 7: 'C', 29: 'C', 30: 'C', 49: 'C', 50: 'C', 4: 'D', 6: 'D', 31: 'D', 32: 'D', 59: 'D', 60: 'D', 9: 'E', 10: 'E', 33: 'E', 34: 'E', 55: 'E', 56: 'E', 11: 'F', 12: 'F', 35: 'F', 36: 'F', 57: 'F', 58: 'F', 15: 'G', 16: 'G', 39: 'G', 40: 'G', 63: 'G', 64: 'G', 13: 'H', 14: 'H', 37: 'H', 38: 'H', 65: 'H', 66: 'H', 17: 'I', 18: 'I', 41: 'I', 42: 'I', 61: 'I', 62: 'I', 19: 'J', 20: 'J', 43: 'J', 44: 'J', 69: 'J', 70: 'J', 23: 'K', 24: 'K', 47: 'K', 48: 'K', 71: 'K', 72: 'K', 21: 'L', 22: 'L', 45: 'L', 46: 'L', 67: 'L', 68: 'L' },
     
-    // OFFICIAL POT MAPPING (Source: Draw Procedures Appendix B)
+    // OFFICIAL DRAW RESULTS (Dec 5, 2025)
     potMapping: {
-        'A': { 1: 'Mexico (Pot 1)', 2: 'Pot 3', 3: 'Pot 2', 4: 'Pot 4' },
-        'B': { 1: 'Canada (Pot 1)', 2: 'Pot 4', 3: 'Pot 3', 4: 'Pot 2' },
-        'C': { 1: 'Pot 1', 2: 'Pot 2', 3: 'Pot 4', 4: 'Pot 3' },
-        'D': { 1: 'USA (Pot 1)', 2: 'Pot 3', 3: 'Pot 2', 4: 'Pot 4' },
-        'E': { 1: 'Pot 1', 2: 'Pot 4', 3: 'Pot 3', 4: 'Pot 2' },
-        'F': { 1: 'Pot 1', 2: 'Pot 2', 3: 'Pot 4', 4: 'Pot 3' },
-        'G': { 1: 'Pot 1', 2: 'Pot 3', 3: 'Pot 2', 4: 'Pot 4' },
-        'H': { 1: 'Pot 1', 2: 'Pot 4', 3: 'Pot 3', 4: 'Pot 2' },
-        'I': { 1: 'Pot 1', 2: 'Pot 2', 3: 'Pot 4', 4: 'Pot 3' },
-        'J': { 1: 'Pot 1', 2: 'Pot 3', 3: 'Pot 2', 4: 'Pot 4' }, // J3 is Pot 2!
-        'K': { 1: 'Pot 1', 2: 'Pot 4', 3: 'Pot 3', 4: 'Pot 2' },
-        'L': { 1: 'Pot 1', 2: 'Pot 2', 3: 'Pot 4', 4: 'Pot 3' },
+        'A': { 1: 'Mexico 🇲🇽', 2: 'South Africa 🇿🇦', 3: 'Korea Republic 🇰🇷', 4: 'Winner UEFA Play-off D' },
+        'B': { 1: 'Canada 🇨🇦', 2: 'Winner UEFA Play-off A', 3: 'Qatar 🇶🇦', 4: 'Switzerland 🇨🇭' },
+        'C': { 1: 'Brazil 🇧🇷', 2: 'Morocco 🇲🇦', 3: 'Haiti 🇭🇹', 4: 'Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿' },
+        'D': { 1: 'USA 🇺🇸', 2: 'Paraguay 🇵🇾', 3: 'Australia 🇦🇺', 4: 'Winner UEFA Play-off C' },
+        'E': { 1: 'Germany 🇩🇪', 2: 'Curaçao 🇨🇼', 3: 'Côte d\'Ivoire 🇨🇮', 4: 'Ecuador 🇪🇨' },
+        'F': { 1: 'Netherlands 🇳🇱', 2: 'Japan 🇯🇵', 3: 'Winner UEFA Play-off B', 4: 'Tunisia 🇹🇳' },
+        'G': { 1: 'Belgium 🇧🇪', 2: 'Egypt 🇪🇬', 3: 'IR Iran 🇮🇷', 4: 'New Zealand 🇳🇿' },
+        'H': { 1: 'Spain 🇪🇸', 2: 'Cabo Verde 🇨🇻', 3: 'Saudi Arabia 🇸🇦', 4: 'Uruguay 🇺🇾' },
+        'I': { 1: 'France 🇫🇷', 2: 'Senegal 🇸🇳', 3: 'Winner FIFA Play-off 2', 4: 'Norway 🇳🇴' },
+        'J': { 1: 'Argentina 🇦🇷', 2: 'Algeria 🇩🇿', 3: 'Austria 🇦🇹', 4: 'Jordan 🇯🇴' },
+        'K': { 1: 'Portugal 🇵🇹', 2: 'Winner FIFA Play-off 1', 3: 'Uzbekistan 🇺🇿', 4: 'Colombia 🇨🇴' },
+        'L': { 1: 'England 🏴󠁧󠁢󠁥󠁮󠁧󠁿', 2: 'Croatia 🇭🇷', 3: 'Ghana 🇬🇭', 4: 'Panama 🇵🇦' },
     },
 
     // FULL MATRIX MATCHUPS
@@ -153,9 +153,9 @@ const MatchEngine = {
     generateMatches: () => {
         MatchEngine.matches = [];
         
-        // Helper to extract Pot from Group + Position
+        // Helper to extract Team from Group + Position
         const getTeamLabel = (code) => {
-            // code ex: "A1", "J3", "USA (D1)"
+            // code ex: "A1", "J3"
             let raw = code.replace(/<[^>]*>?/gm, '').trim();
             let group, pos;
             
@@ -167,16 +167,9 @@ const MatchEngine = {
                 return code; // Fallback
             }
 
-            // Lookup Pot
+            // Lookup Team Directly
             if(MatchEngine.potMapping[group] && MatchEngine.potMapping[group][pos]) {
-                const potLabel = MatchEngine.potMapping[group][pos];
-                // Keep the original name if it's a Host
-                if(raw.includes("USA")) return "USA 🇺🇸";
-                if(raw.includes("Mexico")) return "Mexico 🇲🇽";
-                if(raw.includes("Canada")) return "Canada 🇨🇦";
-                
-                // Return generic "J3 (Pot 2)"
-                return `${code} <span class="text-gray-500 text-[10px]">(${potLabel.replace('Pot ', 'P')})</span>`;
+                return MatchEngine.potMapping[group][pos];
             }
             return code;
         };
@@ -185,10 +178,8 @@ const MatchEngine = {
             let raw = code.replace(/<[^>]*>?/gm, '').trim();
             const match = raw.match(/([A-L])(\d)/);
             if(match) {
-                const group = match[1];
-                const pos = parseInt(match[2]);
-                const label = MatchEngine.potMapping[group]?.[pos] || "";
-                return label.includes("Pot 1");
+                // All Position 1 teams are Pot 1 / Seeds
+                return parseInt(match[2]) === 1;
             }
             return false;
         };
@@ -301,11 +292,8 @@ const MatchEngine = {
         
         const getFlag = (htmlStr) => { 
             const raw = htmlStr.replace(/<[^>]*>?/gm, ''); 
-            if (raw.includes("USA")) return "🇺🇸 ";
-            if (raw.includes("Mexico")) return "🇲🇽 ";
-            if (raw.includes("Canada")) return "🇨🇦 ";
             if(typeof window.getFlagHTML === 'function') return window.getFlagHTML(raw); 
-            return ''; 
+            return ''; // Fallback if the global function doesn't exist
         };
 
         const clean = (n) => n.replace(/<[^>]*>?/gm, '').trim();
