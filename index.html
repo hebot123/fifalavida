@@ -302,6 +302,9 @@
                 const savedVote = localStorage.getItem('fifa_poll_vote');
                 if(savedVote) { app.recordVoteInternal(savedVote); document.getElementById('undo-vote-btn').classList.remove('hidden'); }
                 app.renderPoll();
+
+                // Generate match data so other components can use it
+                if (typeof MatchEngine !== 'undefined') MatchEngine.generateMatches();
                 
                 PathToGlory.render(); 
                 app.renderVenues();
