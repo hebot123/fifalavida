@@ -7,30 +7,19 @@
             <button onclick="MatchEngine.setFilter('knockout')" id="btn-knockout" class="filter-btn px-6 py-2 rounded font-bold text-sm uppercase text-gray-500 hover:text-white transition whitespace-nowrap">Knockout</button>
             <button onclick="MatchEngine.setFilter('calendar')" id="btn-calendar" class="filter-btn px-6 py-2 rounded font-bold text-sm uppercase text-gray-500 hover:text-white transition whitespace-nowrap flex items-center gap-2"><i data-lucide="calendar" class="w-3 h-3"></i> Calendar</button>
                 <!-- Venue filter dropdown (filters to a specific city/stadium) -->
-                <select id="venue-filter-select" class="ml-3 bg-black/70 border border-white/10 text-white text-sm rounded px-3 py-2 outline-none">
+            <div class="ml-3 flex items-center gap-2">
+                <select id="venue-filter-select" class="bg-black/70 border border-white/10 text-white text-sm rounded px-3 py-2 outline-none">
                     <option value="">All Venues</option>
                 </select>
-                <button id="btn-clear-venue" onclick="MatchEngine.clearVenue()" class="ml-2 px-4 py-2 rounded text-sm uppercase tracking-wide bg-white/5 text-gray-300 border border-white/10 hidden">Clear</button>
+                <select id="team-filter-select" class="bg-black/70 border border-white/10 text-white text-sm rounded px-3 py-2 outline-none">
+                    <option value="">All Teams</option>
+                </select>
+                <button id="btn-clear-venue" onclick="MatchEngine.clearVenue()" class="px-4 py-2 rounded text-sm uppercase tracking-wide bg-white/5 text-gray-300 border border-white/10 hidden">Clear</button>
+            </div>
         </div>
         <div class="flex items-center gap-2">
             <div class="text-gray-500 text-xs font-mono hidden md:block tracking-widest">OFFICIAL MATCH SCHEDULE</div>
         </div>
-            <script>
-                <!-- Venue select is populated by MatchEngine.populateVenueSelect() to ensure the script runs when matches.html is injected. -->
-                            for(const o of select.options){ if(o.value.toLowerCase().includes(vf)){ select.value = o.value; break; } }
-                        }
-                    }
-
-                    // initial populate and retries to handle timing where index.html data might load slightly later
-                    populate();
-                    setTimeout(populate, 150);
-                    setTimeout(populate, 800);
-
-                    // wire change (guard if select remains empty)
-                    try{ select.addEventListener('change', function(){ const v = this.value; if(!v) MatchEngine.clearVenue(); else MatchEngine.setVenue(v); }); } catch(e){}
-                    window.updateVenueSelectFromEngine = function(){ try{ if(!select) return; if(window.MatchEngine && MatchEngine.venueFilter){ const vf = MatchEngine.venueFilter.toLowerCase(); for(const o of select.options){ if(o.value.toLowerCase().includes(vf)){ select.value = o.value; return; } } } else { select.value = ''; } }catch(e){} };
-                })();
-            </script>
     </div>
 </div>
 
