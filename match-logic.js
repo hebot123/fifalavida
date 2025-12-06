@@ -1,4 +1,4 @@
-// MATCH LOGIC ENGINE (UPDATED: Full Draw & Times)
+// MATCH LOGIC ENGINE (UPDATED: Full Groups & Teams)
 const MatchEngine = {
     matches: [],
     filter: 'all',
@@ -35,11 +35,20 @@ const MatchEngine = {
         21: 'L', 22: 'L', 45: 'L', 46: 'L', 67: 'L', 68: 'L' 
     },
     
-    // Pot Mapping for Groups not explicitly detailed in recent images (A, B, D fallback)
+    // Pot Mapping: Updated with ALL teams to ensure dropdowns populate correctly
     potMapping: {
         'A': { 1: 'Mexico', 2: 'South Africa', 3: 'Korea Republic', 4: 'Winner Play-off D' },
         'B': { 1: 'Canada', 2: 'Winner Play-off A', 3: 'Qatar', 4: 'Switzerland' },
-        'D': { 1: 'USA', 2: 'Paraguay', 3: 'Australia', 4: 'Winner Play-off C' }
+        'C': { 1: 'Brazil', 2: 'Morocco', 3: 'Haiti', 4: 'Scotland' },
+        'D': { 1: 'USA', 2: 'Paraguay', 3: 'Australia', 4: 'Winner Play-off C' },
+        'E': { 1: 'Germany', 2: 'Curaçao', 3: 'Côte d\'Ivoire', 4: 'Ecuador' },
+        'F': { 1: 'Netherlands', 2: 'Japan', 3: 'Winner Play-off B', 4: 'Tunisia' },
+        'G': { 1: 'Belgium', 2: 'Egypt', 3: 'IR Iran', 4: 'New Zealand' },
+        'H': { 1: 'Spain', 2: 'Cabo Verde', 3: 'Saudi Arabia', 4: 'Uruguay' },
+        'I': { 1: 'France', 2: 'Senegal', 3: 'Winner Play-off 2', 4: 'Norway' },
+        'J': { 1: 'Argentina', 2: 'Algeria', 3: 'Austria', 4: 'Jordan' },
+        'K': { 1: 'Portugal', 2: 'Winner Play-off 1', 3: 'Uzbekistan', 4: 'Colombia' },
+        'L': { 1: 'England', 2: 'Croatia', 3: 'Ghana', 4: 'Panama' }
     },
 
     // SPECIFIC MATCH SCHEDULE (Overrides automated generation)
@@ -47,19 +56,19 @@ const MatchEngine = {
     specificSchedule: {
         // GROUP A
         1: ["Mexico", "South Africa", "15:00"],
-        2: ["Korea Republic", "FIFA Play-off (DEN/MKD/CZE/IRL)", "22:00"],
-        25: ["FIFA Play-off (DEN/MKD/CZE/IRL)", "South Africa", "12:00"],
+        2: ["Korea Republic", "Winner Play-off D", "22:00"],
+        25: ["Winner Play-off D", "South Africa", "12:00"],
         28: ["Mexico", "Korea Republic", "21:00"],
-        53: ["FIFA Play-off (DEN/MKD/CZE/IRL)", "Mexico", "21:00"],
+        53: ["Winner Play-off D", "Mexico", "21:00"],
         54: ["South Africa", "Korea Republic", "21:00"],
 
         // GROUP B
-        3: ["Canada", "FIFA Play-off (ITA/NIR/WAL/BIH)", "15:00"],
+        3: ["Canada", "Winner Play-off A", "15:00"],
         8: ["Qatar", "Switzerland", "15:00"],
-        26: ["Switzerland", "FIFA Play-off (ITA/NIR/WAL/BIH)", "15:00"],
+        26: ["Switzerland", "Winner Play-off A", "15:00"],
         27: ["Canada", "Qatar", "18:00"],
         51: ["Switzerland", "Canada", "15:00"],
-        52: ["FIFA Play-off (ITA/NIR/WAL/BIH)", "Qatar", "15:00"],
+        52: ["Winner Play-off A", "Qatar", "15:00"],
 
         // GROUP C
         5: ["Brazil", "Morocco", "18:00"], 
@@ -71,10 +80,10 @@ const MatchEngine = {
 
         // GROUP D
         4: ["USA", "Paraguay", "21:00"],
-        6: ["Australia", "FIFA Play-off (TUR/ROU/SVK/KOS)", "00:00"],
-        31: ["FIFA Play-off (TUR/ROU/SVK/KOS)", "Paraguay", "00:00"],
+        6: ["Australia", "Winner Play-off C", "00:00"],
+        31: ["Winner Play-off C", "Paraguay", "00:00"],
         32: ["USA", "Australia", "15:00"],
-        59: ["FIFA Play-off (TUR/ROU/SVK/KOS)", "USA", "22:00"],
+        59: ["Winner Play-off C", "USA", "22:00"],
         60: ["Paraguay", "Australia", "22:00"],
 
         // GROUP E
@@ -87,13 +96,13 @@ const MatchEngine = {
 
         // GROUP F
         11: ["Netherlands", "Japan", "16:00"],
-        12: ["FIFA Play-off (UKR/SWE/POL/ALB)", "Tunisia", "22:00"],
-        35: ["Netherlands", "FIFA Play-off (UKR/SWE/POL/ALB)", "13:00"],
+        12: ["Winner Play-off B", "Tunisia", "22:00"],
+        35: ["Netherlands", "Winner Play-off B", "13:00"],
         36: ["Tunisia", "Japan", "00:00"],
-        57: ["Japan", "FIFA Play-off (UKR/SWE/POL/ALB)", "19:00"],
+        57: ["Japan", "Winner Play-off B", "19:00"],
         58: ["Tunisia", "Netherlands", "19:00"],
 
-        // GROUP G (Retained synthetic data as no image provided)
+        // GROUP G
         15: ["IR Iran", "New Zealand", "21:00"],
         16: ["Belgium", "Egypt", "15:00"],
         39: ["Belgium", "IR Iran", "15:00"],
@@ -111,11 +120,11 @@ const MatchEngine = {
 
         // GROUP I
         17: ["France", "Senegal", "15:00"],
-        18: ["FIFA Play-off (IRQ/BOL/SUR)", "Norway", "18:00"],
-        41: ["France", "FIFA Play-off (IRQ/BOL/SUR)", "17:00"],
+        18: ["Winner Play-off 2", "Norway", "18:00"],
+        41: ["France", "Winner Play-off 2", "17:00"],
         42: ["Norway", "Senegal", "20:00"],
         61: ["Norway", "France", "15:00"],
-        62: ["Senegal", "FIFA Play-off (IRQ/BOL/SUR)", "15:00"],
+        62: ["Senegal", "Winner Play-off 2", "15:00"],
 
         // GROUP J
         19: ["Argentina", "Algeria", "21:00"],
@@ -126,12 +135,12 @@ const MatchEngine = {
         70: ["Jordan", "Argentina", "22:00"],
 
         // GROUP K
-        23: ["Portugal", "FIFA Play-off (COD/JAM/NCL)", "13:00"],
+        23: ["Portugal", "Winner Play-off 1", "13:00"],
         24: ["Uzbekistan", "Colombia", "22:00"],
         47: ["Portugal", "Uzbekistan", "13:00"],
-        48: ["Colombia", "FIFA Play-off (COD/JAM/NCL)", "22:00"],
+        48: ["Colombia", "Winner Play-off 1", "22:00"],
         71: ["Colombia", "Portugal", "19:30"],
-        72: ["FIFA Play-off (COD/JAM/NCL)", "Uzbekistan", "19:30"],
+        72: ["Winner Play-off 1", "Uzbekistan", "19:30"],
 
         // GROUP L
         21: ["Ghana", "Panama", "19:00"],
@@ -142,7 +151,7 @@ const MatchEngine = {
         68: ["Croatia", "Ghana", "17:00"]
     },
 
-    // Default Fallback for A, B, D (using standard position logic)
+    // Default Fallback
     confirmedMatchups: {
         1: ["A1", "A2"], 2: ["A3", "A4"],
         3: ["B1", "B2"], 4: ["D1", "D2"],

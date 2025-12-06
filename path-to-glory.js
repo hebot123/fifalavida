@@ -22,56 +22,81 @@ const PathToGlory = {
             return [{ stage: "Group Stage", dates: "June 11-27", loc: "Various Cities", desc: `The path for ${teamName} will be revealed after the final draw.` }];
         }
 
+        // Add Group Stage Steps
         teamMatches.forEach(match => {
             const opponent = clean(match.teamA).includes(teamName) ? clean(match.teamB) : clean(match.teamA);
             steps.push({
                 stage: `Match ${match.id} (vs ${opponent})`,
                 dates: match.date,
                 loc: match.stadium,
-                desc: `Group stage clash against ${opponent} to earn crucial points.`
+                desc: `Group stage clash against ${opponent} in Group ${match.group}.`
             });
         });
 
-        // 2. Determine potential knockout path
+        // 2. Calculate Knockout Path (Assuming Group Winner)
         const group = teamMatches[0].group;
-        const r32_1st_match = Object.entries(MatchEngine.knockoutMapping).find(([id, data]) => data[0] === `Group ${group} Winner`);
-        const r32_2nd_match = Object.entries(MatchEngine.knockoutMapping).find(([id, data]) => data[0] === `Group ${group} 2nd`);
+        const groupWinnerLabel = `Group ${group} Winner`;
+        const groupRunnerUpLabel = `Group ${group} 2nd`;
 
-        let r32_desc = "The knockout journey begins. Win the group to play one path, or finish second for another.";
-        if (r32_1st_match && r32_2nd_match) {
-            const [id1, data1] = r32_1st_match;
-            const [id2, data2] = r32_2nd_match;
-            const loc1 = MatchEngine.officialVenues[id1] || 'TBD';
-            const loc2 = MatchEngine.officialVenues[id2] || 'TBD';
-            r32_desc = `The knockout journey begins. Finishing 1st in Group ${group} leads to a match in ${loc1} (M${id1}). Finishing 2nd leads to ${loc2} (M${id2}).`;
+        // Helper to find a knockout match based on criteria (e.g., "Group A Winner" or "Winner Match 74")
+        const findNextMatch = (criteria) => {
+            return Object.entries(MatchEngine.knockoutMapping).find(([id, data]) => {
+                // Check both Home (0) and Away (1) slots for the criteria
+                return data[0] === criteria || data[1] === criteria;
+            });
+        };
+
+        // Find R32 Match for Group Winner
+        const r32WinnerEntry = findNextMatch(groupWinnerLabel);
+        const r32RunnerUpEntry = findNextMatch(groupRunnerUpLabel);
+
+        if (r32WinnerEntry) {
+            const [r32Id, r32Data] = r32WinnerEntry;
+            const r32Loc = MatchEngine.officialVenues[r32Id] || 'TBD';
+            
+            // Build description mentioning the alternative path
+            let r32Desc = `If ${teamName} wins Group ${group}, they play here (M${r32Id}).`;
+            if (r32RunnerUpEntry) {
+                const [r32RunId, r32RunData] = r32RunnerUpEntry;
+                const r32RunLoc = MatchEngine.officialVenues[r32RunId] || 'TBD';
+                r32Desc += ` If they finish 2nd, they travel to ${r32RunLoc} (M${r32RunId}).`;
+            }
+
+            steps.push({
+                stage: "Round of 32",
+                dates: r32Data[2] || "June 28-July 3",
+                loc: r32Loc,
+                desc: r32Desc
+            });
+
+            // 3. Trace the "Winner's Path" deep into the bracket
+            let currentMatchId = r32Id;
+            
+            // We need to trace: R32 -> R16 -> QF -> SF
+            // Logic: Find the match where "Winner Match [currentMatchId]" is playing
+            while (currentMatchId < 101) { // Stop before Final/3rd Place
+                const nextMatchEntry = findNextMatch(`Winner Match ${currentMatchId}`);
+                if (!nextMatchEntry) break;
+
+                const [nextId, nextData] = nextMatchEntry;
+                const nextLoc = MatchEngine.officialVenues[nextId] || 'TBD';
+                
+                // Determine stage name based on Match ID ranges or iteration
+                let stageName = "Knockout Stage";
+                if (nextId > 88 && nextId <= 96) stageName = "Round of 16";
+                if (nextId > 96 && nextId <= 100) stageName = "Quarter-Final";
+                if (nextId > 100 && nextId <= 102) stageName = "Semi-Final";
+
+                steps.push({
+                    stage: `${stageName} (M${nextId})`,
+                    dates: nextData[2],
+                    loc: nextLoc,
+                    desc: `Potential ${stageName} match if they continue winning.`
+                });
+
+                currentMatchId = nextId;
+            }
         }
-
-        steps.push({
-            stage: "Round of 32",
-            dates: "June 28 - July 3",
-            loc: "TBD",
-            desc: r32_desc
-        });
-
-        // 3. Add generic subsequent knockout rounds
-        steps.push({
-            stage: "Round of 16",
-            dates: "July 4 - 7",
-            loc: "TBD",
-            desc: "Win the Round of 32 to advance to the final 16 teams in the tournament."
-        });
-        steps.push({
-            stage: "Quarter-Final",
-            dates: "July 9 - 11",
-            loc: "TBD",
-            desc: "A victory here secures a spot in the semi-finals, just two wins from the final."
-        });
-        steps.push({
-            stage: "Semi-Final",
-            dates: "July 14 - 15",
-            loc: "TBD",
-            desc: "The final hurdle before the World Cup Final, played in either Dallas or Atlanta."
-        });
 
         return steps;
     },
@@ -80,7 +105,13 @@ const PathToGlory = {
      * Renders the path to glory timeline for a selected team.
      */
     render: () => {
-        const team = document.getElementById('path-team-select').value;
+        // Ensure dropdown is populated (Fix for incomplete list)
+        PathToGlory.populateTeamSelect();
+
+        const select = document.getElementById('path-team-select');
+        if (!select) return;
+        
+        const team = select.value;
         const container = document.getElementById('path-timeline');
         const ticketContainer = document.getElementById('path-ticket-link');
 
@@ -123,5 +154,39 @@ const PathToGlory = {
         if (window.lucide) {
             lucide.createIcons();
         }
+    },
+
+    /**
+     * Populates the team select dropdown with all teams found in MatchEngine.
+     * Guaranteed to fix missing countries.
+     */
+    populateTeamSelect: () => {
+        const optGroup = document.getElementById('path-team-options');
+        // Prevent re-populating if already done (check if children > 0)
+        if (!optGroup || optGroup.children.length > 0) return;
+
+        const teams = new Set();
+        // Use potMapping from MatchEngine as the source of truth
+        if (typeof MatchEngine !== 'undefined' && MatchEngine.potMapping) {
+            Object.values(MatchEngine.potMapping).forEach(group => {
+                Object.values(group).forEach(teamName => {
+                    if (!teamName.toLowerCase().includes('winner')) teams.add(teamName);
+                });
+            });
+        }
+
+        const sortedTeams = Array.from(teams).sort();
+        // The Hosts (Mexico, Canada, USA) are usually hardcoded in the HTML, 
+        // so we filter them out to avoid duplicates in the Contenders group.
+        const hosts = ['Mexico', 'Canada', 'USA'];
+
+        sortedTeams.forEach(team => {
+            if(!hosts.includes(team)) {
+                const opt = document.createElement('option');
+                opt.value = team;
+                opt.text = team;
+                optGroup.appendChild(opt);
+            }
+        });
     }
 };
