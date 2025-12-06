@@ -293,12 +293,21 @@
 
                 // Poll
                 const select = document.getElementById('poll-select');
-                const teamOptGroup = document.getElementById('path-team-options');
-                const allTeams = Object.keys(window.countryCodes).sort();
-                allTeams.forEach(team => {
-                    const opt = document.createElement('option'); opt.value = team; opt.innerText = team; select.appendChild(opt);
-                    if(!['Mexico', 'Canada', 'USA'].includes(team)) { const pOpt = document.createElement('option'); pOpt.value = team; pOpt.innerText = team; teamOptGroup.appendChild(pOpt); }
-                });
+                const pathTeamOptGroup = document.getElementById('path-team-options');
+                
+                if (typeof MatchEngine !== 'undefined' && MatchEngine.potMapping) {
+                    const teams = new Set();
+                    Object.values(MatchEngine.potMapping).forEach(group => {
+                        Object.values(group).forEach(teamName => {
+                            if (!teamName.toLowerCase().includes('winner')) teams.add(teamName);
+                        });
+                    });
+                    const sortedTeams = Array.from(teams).sort();
+                    sortedTeams.forEach(team => {
+                        select.appendChild(new Option(team, team));
+                        if(!['Mexico', 'Canada', 'USA'].includes(team)) pathTeamOptGroup.appendChild(new Option(team, team));
+                    });
+                }
                 const savedVote = localStorage.getItem('fifa_poll_vote');
                 if(savedVote) { app.recordVoteInternal(savedVote); document.getElementById('undo-vote-btn').classList.remove('hidden'); }
                 app.renderPoll();
