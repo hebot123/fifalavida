@@ -23,25 +23,26 @@
     .glass-panel { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
     .phase-locked { opacity: 0.5; pointer-events: none; filter: grayscale(100%); transition: all 0.5s; }
     
-    /* --- BRACKET VISUALS OPTIMIZED --- */
+    /* --- BRACKET VISUALS --- */
     .bracket-wrapper {
         display: flex;
-        flex-direction: row;
-        gap: 80px; /* Increased from 60px for better spacing */
+        flex-direction: row; /* Forces horizontal layout */
+        gap: 80px;         /* Increased gap for better spacing */
         padding-bottom: 40px;
-        padding-left: 20px; /* Added padding for left edge */
+        padding-left: 20px;
+        align-items: stretch; /* Ensures all columns are same height for vertical alignment */
     }
 
     .bracket-column { 
         display: flex; 
         flex-direction: column; 
         justify-content: space-around; 
-        width: 320px;      /* Increased from 260px */
-        flex-shrink: 0;    
+        width: 320px;      /* Wider columns for desktop */
+        flex-shrink: 0;    /* Prevents columns from squishing */
         position: relative;
     }
 
-    /* Match Node: Fixed height */
+    /* Match Node */
     .match-node {
         height: 96px; 
         width: 100%;
@@ -51,7 +52,7 @@
         border: 1px solid rgba(255,255,255,0.1);
         border-radius: 0.5rem;
         transition: all 0.2s;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5); /* Added depth */
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
     }
     .match-node:hover { border-color: rgba(16, 185, 129, 0.5); transform: translateY(-1px); }
 
@@ -61,31 +62,29 @@
         justify-content: center;
         gap: 40px; 
         position: relative;
-        height: 100%; 
+        height: 100%; /* Important for vertical centering */
     }
     
-    /* Connector Lines - Updated for 80px Gap */
-    /* Total Gap is 80px. Fork covers first 40px, Stem covers next 40px. */
-    
+    /* Connector Lines (Calculated for 80px gap) */
     .line-fork { 
         position: absolute; 
-        right: -40px;   /* Half of gap */
+        right: -40px;    /* Half of gap */
         top: 48px;    
         bottom: 48px; 
-        width: 40px;    /* Half of gap */
+        width: 40px;     /* Half of gap */
         border-right: 2px solid #333; 
         border-top: 2px solid #333; 
         border-bottom: 2px solid #333; 
-        border-radius: 0 12px 12px 0; /* Slightly rounder corners */
+        border-radius: 0 12px 12px 0;
         z-index: 10; 
         pointer-events: none; 
     }
     
     .line-stem { 
         position: absolute; 
-        right: -80px;   /* Full gap width */
+        right: -80px;    /* Full gap width */
         top: 50%; 
-        width: 40px;    /* Remaining half of gap */
+        width: 40px;     /* Remaining half */
         height: 2px; 
         background: #333; 
         z-index: 10; 
@@ -104,7 +103,7 @@
 
     /* Header Styling */
     .header-cell {
-        width: 320px; /* Matches new column width */
+        width: 320px; /* MUST Match .bracket-column width */
         flex-shrink: 0;
         text-align: center;
         font-family: 'Oswald', sans-serif;
