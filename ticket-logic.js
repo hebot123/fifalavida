@@ -211,23 +211,12 @@ const TicketEngine = {
                 <td class="p-4 text-emerald-400 font-mono font-bold">#${row.matchNo}</td>
                 <td class="p-4">
                     <div class="font-bold text-white">${row.matchLabel}</div>
-                    <div class="text-xs text-gray-500">${row.date}</div>
                 </td>
                 <td class="p-4">
                     <div class="text-gray-300">${row.city}</div>
-                    <div class="text-xs text-gray-500">${row.stadium}</div>
                 </td>
                 <td class="p-4 text-sm text-gray-400">${row.round}</td>
                 <td class="p-4"><span class="bg-white/10 px-2 py-1 rounded text-xs uppercase tracking-widest text-gray-300">${row.category}</span></td>
-                <td class="p-4 text-sm text-gray-400">$${row.faceValue}</td>
-                <td class="p-4">
-                    <div class="text-gray-300">$${row.volumeUsd.toLocaleString()}</div>
-                    <div class="text-xs text-gray-500">${row.volumeSales} sales</div>
-                </td>
-                <td class="p-4">
-                    <div class="text-emerald-400 font-bold">$${row.lastSale}</div>
-                    <div class="text-xs text-gray-500">${row.lastSaleDate}</div>
-                </td>
                 <td class="p-4">
                     <a href="${row.fifaCollectUrl}" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded font-bold text-sm uppercase transition">
                         $${row.startingPrice.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} <i data-lucide="external-link" class="w-3 h-3"></i>
