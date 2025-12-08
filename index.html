@@ -15,7 +15,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     
-    <!-- GLOBAL CALLBACK FOR GOOGLE MAPS (Moved to Head to prevent Race Condition) -->
     <script>
         function initGoogleMaps() {
             window.isGoogleMapsLoaded = true;
@@ -26,14 +25,12 @@
         }
     </script>
 
-    <!-- GOOGLE MAPS API (Replace YOUR_API_KEY with your actual key) -->
-    <!-- We include 'libraries=places' to search for hotels/attractions automatically -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBpMLiQsNuXAuCSwR2cyPBQE6VQt56gNck&libraries=places&callback=initGoogleMaps" async defer></script>
 
-    <!-- LOAD LOGIC & DATA -->
     <script src="match-logic.js"></script> 
     <script src="venues.js"></script>
     <script src="path-to-glory.js"></script>
+    <script src="ticket-logic.js"></script>
     <script src="chatbot.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
@@ -61,7 +58,6 @@
 </head>
 <body class="bg-black text-white flex flex-col min-h-screen selection:bg-emerald-500 selection:text-black">
 
-    <!-- Navigation -->
     <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-50 backdrop-blur-md">
         <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
@@ -75,8 +71,9 @@
                     <button onclick="app.router('venues')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i> Venues</button>
                     <button onclick="app.router('news')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="news">Articles</button>
                     <button onclick="app.router('videos')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="videos">Videos</button>
+                    <button onclick="app.router('tickets')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2" data-target="tickets"><i data-lucide="ticket"></i> Tracker</button>
                     <div class="h-6 w-px bg-white/20 mx-4"></div>
-                    <a href="https://collect.fifa.com/?referrer=fifalavida" target="_blank" class="bg-white text-black hover:bg-emerald-400 px-6 py-2 rounded font-bold text-sm uppercase transition flex items-center gap-2"><i data-lucide="gem" class="w-4 h-4"></i> Collect</a>
+                    <a href="https://collect.fifa.com/?referrer=fifalavida" target="_blank" class="bg-white text-black hover:bg-emerald-400 px-6 py-2 rounded font-bold text-sm uppercase transition flex items-center gap-2"><i data-lucide="gem" class="w-4 h-4"></i> FIFA Collect</a>
                 </div>
                 <button id="mobile-menu-btn" class="md:hidden text-white"><i data-lucide="menu" class="h-8 w-8"></i></button>
             </div>
@@ -89,13 +86,13 @@
                 <button onclick="app.router('venues')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Host Cities</button>
                 <button onclick="app.router('news')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Articles</button>
                 <button onclick="app.router('videos')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Videos</button>
+                <button onclick="app.router('tickets')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Ticket Tracker</button>
                 <a href="https://collect.fifa.com/?referrer=fifalavida" target="_blank" class="block text-center bg-white text-black py-3 mt-4 font-bold uppercase rounded">FIFA Collect</a>
             </div>
         </div>
     </nav>
 
     <main id="main-content" class="flex-grow">
-        <!-- HOME VIEW -->
         <div id="home-view" class="view-section">
             <div class="relative min-h-[85vh] flex items-center justify-center overflow-hidden brand-pattern group">
                 <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1518091043644-c1d4457512c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center opacity-40 group-hover:scale-105 transition duration-[20s]"></div>
@@ -121,7 +118,6 @@
                 </div>
             </div>
 
-            <!-- FAN POLL -->
             <div class="bg-black border-y border-white/10 py-12">
                 <div class="max-w-4xl mx-auto px-4">
                     <div class="bg-white/5 border border-white/10 rounded-2xl p-8 flex flex-col md:flex-row items-center gap-8 relative overflow-hidden">
@@ -143,7 +139,6 @@
                 </div>
             </div>
 
-            <!-- PATH TO GLORY -->
             <div id="path-section" class="bg-[#050505] border-t border-white/10 py-20 scroll-mt-20">
                 <div class="max-w-[1400px] mx-auto px-4">
                     <div class="flex flex-col lg:flex-row gap-16">
@@ -181,7 +176,6 @@
                 </div>
             </div>
 
-            <!-- PREVIEW -->
             <div class="max-w-[1400px] mx-auto px-4 py-20 border-t border-white/10">
                 <div class="flex justify-between items-end mb-10">
                     <div><h2 class="text-4xl font-bold mb-2">LATEST <span class="text-emerald-400">ARTICLES</span></h2><p class="text-gray-500">Breakdowns, predictions, and player profiles.</p></div>
@@ -191,28 +185,22 @@
             </div>
         </div>
 
-        <!-- MATCHES VIEW -->
         <div id="tournament-view" class="view-section hidden bg-[#050505] min-h-screen">
             <div id="matches-component-container"></div>
         </div>
 
-        <!-- VENUES VIEW -->
         <div id="venues-view" class="view-section hidden bg-black min-h-screen pb-20">
             <div class="bg-black/95 backdrop-blur border-b border-white/10 sticky top-20 z-40 py-4">
                 <div class="max-w-[1600px] mx-auto px-4"><h2 class="text-2xl font-oswald text-white">HOST CITIES <span class="text-emerald-400">MAP</span></h2></div>
             </div>
             <div class="max-w-[1600px] mx-auto px-4 py-8 flex flex-col lg:flex-row gap-8">
                 
-                <!-- Interactive Map Column -->
                 <div class="w-full lg:w-2/3 relative">
-                    <!-- Added ID venue-map-container -->
                     <div id="venue-map-container" class="relative w-full h-[600px] bg-[#111] border border-white/10 rounded-2xl overflow-hidden group">
-                        <!-- Static fallback if JS fails -->
                         <div class="absolute inset-0 flex items-center justify-center pointer-events-none text-gray-500 text-sm">Loading Google Maps...</div>
                     </div>
                 </div>
 
-                <!-- Info Panel -->
                 <div class="w-full lg:w-1/3">
                     <div class="bg-white/5 border border-white/10 rounded-xl p-6 h-full">
                         <h3 class="text-emerald-400 font-bold text-sm uppercase tracking-widest mb-4">Selected Venue</h3>
@@ -221,15 +209,13 @@
                         </div>
                         <div class="mt-8 border-t border-white/10 pt-4">
                             <div class="grid grid-cols-2 gap-2" id="venue-list-mini">
-                                <!-- Mini List -->
-                            </div>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- ARTICLES VIEW -->
         <div id="news-view" class="view-section hidden pt-10 pb-20">
             <div class="max-w-[1400px] mx-auto px-4">
                 <h1 class="text-6xl md:text-8xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-800">ARTICLES</h1>
@@ -244,7 +230,6 @@
             </div>
         </div>
 
-        <!-- VIDEOS VIEW -->
         <div id="videos-view" class="view-section hidden pt-10 pb-20">
             <div class="max-w-[1400px] mx-auto px-4">
                 <h1 class="text-6xl md:text-8xl font-bold mb-10 text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-800">VIDEOS</h1>
@@ -252,7 +237,9 @@
             </div>
         </div>
 
-        <!-- ARTICLE READING -->
+        <div id="tickets-view" class="view-section hidden bg-black min-h-screen">
+            </div>
+
         <div id="article-view" class="view-section hidden bg-black min-h-screen pb-20">
             <div id="article-content" class="max-w-3xl mx-auto px-4 pt-10"></div>
         </div>
@@ -331,6 +318,8 @@
                     app.router('venues');
                 } else if (hash === '#videos') {
                     app.router('videos');
+                } else if (hash === '#tickets') {
+                    app.router('tickets');
                 }
             },
 
@@ -569,6 +558,8 @@
                     history.pushState(null, null, '#venues');
                 } else if (view === 'videos') {
                     history.pushState(null, null, '#videos');
+                } else if (view === 'tickets') {
+                    history.pushState(null, null, '#tickets');
                 }
                 app.state.view = view;
                 document.querySelectorAll('.view-section').forEach(e => e.classList.add('hidden'));
@@ -585,6 +576,21 @@
                             const r = await fetch('matches.html');
                             if(r.ok) { container.innerHTML = await r.text(); if(typeof MatchEngine !== 'undefined') MatchEngine.init(); }
                         } catch (e) { container.innerHTML = `<div class="text-white p-10 text-center">Matches logic loaded via MatchEngine.</div>`; if(typeof MatchEngine !== 'undefined') MatchEngine.init(); }
+                    }
+                } else if (view === 'tickets') {
+                    document.getElementById('tickets-view').classList.remove('hidden');
+                    const container = document.getElementById('tickets-view');
+                    if (container.innerHTML.trim() === '') {
+                        try {
+                            const r = await fetch('tickets.html');
+                            if (r.ok) {
+                                container.innerHTML = await r.text();
+                                if (typeof TicketEngine !== 'undefined') TicketEngine.init();
+                                if (window.lucide) lucide.createIcons();
+                            }
+                        } catch (e) {
+                            container.innerHTML = '<div class="p-10 text-center text-red-500">Error loading ticket tracker.</div>';
+                        }
                     }
                 } else {
                     document.getElementById(`${view}-view`).classList.remove('hidden');
@@ -644,7 +650,6 @@
         window.addEventListener('DOMContentLoaded', app.init);
     </script>
 
-    <!-- Chatbot container -->
     <div id="chatbot-container"></div>
 </body>
 
