@@ -1,6 +1,6 @@
 const BracketApp = {
     state: {
-        phase: 1, // 1=Groups, 2=3rd Place, 3=Bracket
+        phase: 1, // 1=Setup (Groups/3rd), 3=Knockout
         groups: {}, 
         thirdPlaceCandidates: [],
         selectedThirds: [],
@@ -9,7 +9,7 @@ const BracketApp = {
         uid: null
     },
 
-    // OFFICIAL 2026 SCHEDULE with correct Next Match logic
+    // OFFICIAL 2026 SCHEDULE
     schedule: {
         // ROUND OF 32
         74: { date: "Jun 29", venue: "Boston", p1: "1E", p2: "3rd A/B/C/D/F", next: 89, slot: 0 },
@@ -65,27 +65,38 @@ const BracketApp = {
 
     init: () => {
         if(!document.getElementById('groups-container')) return;
-        BracketApp.loadGroups();
-        BracketApp.renderGroups();
+        
         BracketApp.uid = localStorage.getItem('fifa_bracket_uid') || BracketApp.generateUID();
         
         const savedData = localStorage.getItem('fifa_bracket_data');
         if(savedData) {
             const parsed = JSON.parse(savedData);
             BracketApp.state = { ...BracketApp.state, ...parsed };
-            if(BracketApp.state.phase >= 2) BracketApp.lockPhase1(true);
-            if(BracketApp.state.phase >= 3) {
-                BracketApp.lockPhase2(true);
-                setTimeout(BracketApp.restoreBracketState, 300);
-            }
+        } else {
+            BracketApp.loadGroups();
         }
+
+        // Render Initial State
+        BracketApp.renderGroups();
+        BracketApp.updateThirdPlaceLogic(); // Just to prep candidates
+        BracketApp.renderThirdPlacePicker();
+
+        // Check if we should be on Phase 3 (Bracket View)
+        if(BracketApp.state.phase === 3 && BracketApp.state.selectedThirds.length === 8) {
+            BracketApp.switchToBracketView();
+        } else {
+            BracketApp.state.phase = 1; // Force reset to setup if incomplete
+            document.getElementById('setup-view').classList.remove('hidden');
+            document.getElementById('bracket-view').classList.add('hidden');
+        }
+
         if(typeof lucide !== 'undefined') lucide.createIcons();
     },
 
     generateUID: () => 'BRK-' + Math.random().toString(36).substr(2, 9).toUpperCase(),
     getFlag: (t) => window.getFlagHTML ? window.getFlagHTML(t) : '',
 
-    // --- PHASES 1 & 2 ---
+    // --- PHASE 1: GROUPS ---
     loadGroups: () => {
         if(Object.keys(BracketApp.state.groups).length > 0) return;
         ['A','B','C','D','E','F','G','H','I','J','K','L'].forEach(g => {
@@ -96,18 +107,19 @@ const BracketApp = {
     },
     renderGroups: () => {
         const c = document.getElementById('groups-container'); if(!c) return; c.innerHTML = '';
-        const locked = BracketApp.state.phase > 1;
         Object.keys(BracketApp.state.groups).forEach(g => {
             const t = BracketApp.state.groups[g];
             c.innerHTML += `<div class="glass-panel p-4 rounded-xl relative group transition hover:border-emerald-500/30">
-                <div class="flex justify-between items-center mb-3 border-b border-white/5 pb-2"><span class="font-bold text-emerald-400 text-lg font-oswald">Group ${g}</span>${!locked?'<i data-lucide="grip-vertical" class="w-4 h-4 text-gray-600"></i>':'<i data-lucide="lock" class="w-3 h-3 text-gray-500"></i>'}</div>
+                <div class="flex justify-between items-center mb-3 border-b border-white/5 pb-2"><span class="font-bold text-emerald-400 text-lg font-oswald">Group ${g}</span><i data-lucide="grip-vertical" class="w-4 h-4 text-gray-600"></i></div>
                 <ul class="space-y-1" id="group-${g}">
-                    ${t.map((team,i)=>`<li class="${i===0?'border-emerald-500/40 bg-emerald-500/10 text-white':i===1?'border-emerald-500/20 bg-emerald-500/5 text-white':i===2?'border-yellow-500/20 bg-yellow-500/5 text-yellow-200':'border-white/5 bg-black/40 text-gray-500'} border p-2 rounded flex items-center gap-3 transition relative ${!locked?'cursor-move hover:bg-white/5':''}" ${!locked?'draggable="true"':''} data-team="${team}">
+                    ${t.map((team,i)=>`<li class="${i===0?'border-emerald-500/40 bg-emerald-500/10 text-white':i===1?'border-emerald-500/20 bg-emerald-500/5 text-white':i===2?'border-yellow-500/20 bg-yellow-500/5 text-yellow-200':'border-white/5 bg-black/40 text-gray-500'} border p-2 rounded flex items-center gap-3 transition relative cursor-move hover:bg-white/5" draggable="true" data-team="${team}">
                         <span class="text-[10px] font-mono opacity-50 w-3">${i+1}</span><div class="flex items-center gap-2">${BracketApp.getFlag(team)}<span class="font-semibold text-sm">${team}</span></div>
                     </li>`).join('')}
                 </ul></div>`;
         });
-        if(!locked) Object.keys(BracketApp.state.groups).forEach(g => BracketApp.enableDragDrop(g));
+        Object.keys(BracketApp.state.groups).forEach(g => BracketApp.enableDragDrop(g));
+        BracketApp.updateThirdPlaceLogic();
+        BracketApp.renderThirdPlacePicker();
         lucide.createIcons();
     },
     enableDragDrop: (group) => {
@@ -123,95 +135,53 @@ const BracketApp = {
     updateGroupOrder: (group) => {
         const list = document.getElementById(`group-${group}`);
         BracketApp.state.groups[group] = [...list.querySelectorAll('li')].map(li => li.getAttribute('data-team'));
-        BracketApp.renderGroups();
+        BracketApp.renderGroups(); // Re-render to update colors/ranks
     },
     autoSimulateGroups: () => {
-        if(BracketApp.state.phase > 1) return;
         Object.keys(BracketApp.state.groups).forEach(g => BracketApp.state.groups[g].sort(() => Math.random() - 0.5));
         BracketApp.renderGroups();
     },
-    
-    // --- RESET LOGIC ---
-    resetPhase1: () => {
-        if(!confirm("Reset all groups to default? This will clear all subsequent progress.")) return;
-        BracketApp.state.phase = 1;
-        BracketApp.state.groups = {}; 
-        BracketApp.loadGroups(); 
-        BracketApp.state.thirdPlaceCandidates = [];
-        BracketApp.state.selectedThirds = [];
-        BracketApp.state.knockout = {};
-        BracketApp.state.champion = null;
-        
-        document.getElementById('phase-1-container').classList.remove('phase-locked');
-        document.getElementById('lock-p1-btn').classList.remove('hidden');
-        document.getElementById('unlock-p1').classList.add('hidden');
-        document.getElementById('phase-2-container').classList.add('hidden', 'opacity-0');
-        document.getElementById('phase-3-container').classList.add('hidden', 'opacity-0');
-        document.getElementById('winner-section').classList.add('hidden');
-        
-        BracketApp.renderGroups();
-        BracketApp.savePicks();
-    },
-    lockPhase1: (isRestore = false) => {
-        document.getElementById('phase-1-container').classList.add('phase-locked');
-        document.getElementById('lock-p1-btn').classList.add('hidden');
-        document.getElementById('unlock-p1').classList.remove('hidden');
+
+    // --- PHASE 2: 3rd PLACE ---
+    updateThirdPlaceLogic: () => {
         const candidates = [];
         Object.keys(BracketApp.state.groups).forEach(g => candidates.push({ team: BracketApp.state.groups[g][2], group: g }));
         BracketApp.state.thirdPlaceCandidates = candidates;
-        const p2 = document.getElementById('phase-2-container');
-        p2.classList.remove('hidden'); setTimeout(() => p2.classList.remove('opacity-0'), 100);
-        if(!isRestore) { BracketApp.state.phase = 2; BracketApp.renderGroups(); p2.scrollIntoView({behavior: 'smooth'}); }
-        BracketApp.renderThirdPlacePicker();
-    },
-    unlockPhase: (phaseToUnlock) => {
-        if(phaseToUnlock === 1) {
-            BracketApp.state.phase = 1;
-            document.getElementById('phase-1-container').classList.remove('phase-locked');
-            document.getElementById('lock-p1-btn').classList.remove('hidden');
-            document.getElementById('unlock-p1').classList.add('hidden');
-            document.getElementById('phase-2-container').classList.add('hidden', 'opacity-0');
-            document.getElementById('phase-3-container').classList.add('hidden', 'opacity-0');
-            BracketApp.renderGroups();
-        } else if (phaseToUnlock === 2) {
-            BracketApp.state.phase = 2;
-            document.getElementById('phase-2-container').classList.remove('phase-locked');
-            document.getElementById('btn-lock-phase-2').classList.remove('hidden');
-            document.getElementById('unlock-p2').classList.add('hidden');
-            document.getElementById('phase-3-container').classList.add('hidden', 'opacity-0');
-            BracketApp.renderThirdPlacePicker();
-        }
-    },
-    resetPhase2: () => {
-        if(BracketApp.state.phase < 2) return;
-        BracketApp.state.selectedThirds = [];
-        BracketApp.state.knockout = {};
-        BracketApp.state.champion = null;
-        BracketApp.unlockPhase(2);
-        document.getElementById('winner-section').classList.add('hidden');
-        BracketApp.renderThirdPlacePicker();
-        BracketApp.savePicks();
+        
+        // Clean up selected thirds if they moved out of 3rd place
+        BracketApp.state.selectedThirds = BracketApp.state.selectedThirds.filter(t => candidates.find(c => c.team === t));
     },
     renderThirdPlacePicker: () => {
         const c = document.getElementById('third-place-container');
         const counter = document.getElementById('third-place-counter');
-        const lockBtn = document.getElementById('btn-lock-phase-2');
-        const locked = BracketApp.state.phase > 2;
+        const lockBtn = document.getElementById('btn-generate-bracket');
+        
         c.innerHTML = BracketApp.state.thirdPlaceCandidates.map(k => {
             const sel = BracketApp.state.selectedThirds.includes(k.team);
             let cls = sel ? 'bg-yellow-500/20 border-yellow-500 shadow-[0_0_15px_rgba(234,179,8,0.2)]' : 'bg-black/40 border-white/10 opacity-70 hover:opacity-100 hover:bg-white/5';
-            if(locked && !sel) cls = 'bg-black/20 border-white/5 opacity-20 grayscale';
-            return `<div onclick="${!locked?`BracketApp.toggleThirdPlace('${k.team.replace(/'/g, "\\'")}')`:''}" class="cursor-pointer border rounded-xl p-4 flex flex-col items-center justify-center gap-3 transition-all duration-300 relative group transform ${sel?'scale-105':'scale-100'} ${cls}">
+            
+            return `<div onclick="BracketApp.toggleThirdPlace('${k.team.replace(/'/g, "\\'")}')" class="cursor-pointer border rounded-xl p-4 flex flex-col items-center justify-center gap-3 transition-all duration-300 relative group transform ${sel?'scale-105':'scale-100'} ${cls}">
                 <div class="absolute top-2 left-3 text-[10px] text-gray-500 font-bold uppercase tracking-widest">Group ${k.group}</div>
                 ${sel?'<div class="absolute top-2 right-2 text-yellow-400 bg-yellow-900/50 rounded-full p-0.5"><i data-lucide="check" class="w-3 h-3"></i></div>':''}
                 <div class="mt-4 transform scale-150 shadow-lg">${BracketApp.getFlag(k.team)}</div>
                 <div class="font-bold text-sm text-center leading-tight ${sel?'text-white':'text-gray-400'}">${k.team}</div>
             </div>`;
         }).join('');
+        
         const count = BracketApp.state.selectedThirds.length;
         counter.innerText = count;
-        if(count===8) { counter.classList.add('text-emerald-400'); lockBtn.classList.remove('bg-gray-700','text-gray-400','cursor-not-allowed'); lockBtn.classList.add('bg-white','text-black','hover:bg-emerald-400'); lockBtn.disabled = false; }
-        else { counter.classList.remove('text-emerald-400'); lockBtn.classList.add('bg-gray-700','text-gray-400','cursor-not-allowed'); lockBtn.classList.remove('bg-white','text-black','hover:bg-emerald-400'); lockBtn.disabled = true; }
+        
+        if(count === 8) { 
+            counter.classList.add('text-emerald-400'); 
+            lockBtn.classList.remove('bg-gray-700','text-gray-400','cursor-not-allowed'); 
+            lockBtn.classList.add('bg-white','text-black','hover:bg-emerald-400'); 
+            lockBtn.disabled = false; 
+        } else { 
+            counter.classList.remove('text-emerald-400'); 
+            lockBtn.classList.add('bg-gray-700','text-gray-400','cursor-not-allowed'); 
+            lockBtn.classList.remove('bg-white','text-black','hover:bg-emerald-400'); 
+            lockBtn.disabled = true; 
+        }
         lucide.createIcons();
     },
     toggleThirdPlace: (team) => {
@@ -220,13 +190,27 @@ const BracketApp = {
         else { if(BracketApp.state.selectedThirds.length >= 8) return; BracketApp.state.selectedThirds.push(team); }
         BracketApp.renderThirdPlacePicker();
     },
-    lockPhase2: (isRestore = false) => {
-        document.getElementById('phase-2-container').classList.add('phase-locked');
-        document.getElementById('btn-lock-phase-2').classList.add('hidden');
-        document.getElementById('unlock-p2').classList.remove('hidden');
-        const p3 = document.getElementById('phase-3-container');
-        p3.classList.remove('hidden'); setTimeout(() => p3.classList.remove('opacity-0'), 100);
-        if(!isRestore) { BracketApp.state.phase = 3; BracketApp.renderThirdPlacePicker(); p3.scrollIntoView({behavior: 'smooth'}); }
+
+    // --- NAVIGATION LOGIC ---
+    lockSetupAndGo: () => {
+        if(BracketApp.state.selectedThirds.length !== 8) return;
+        BracketApp.state.phase = 3;
+        BracketApp.savePicks();
+        BracketApp.switchToBracketView();
+    },
+    unlockSetup: () => {
+        // Go back to Setup View
+        if(!confirm("Going back will allow you to change groups/3rd place, but might invalidate existing knockout picks. Continue?")) return;
+        BracketApp.state.phase = 1;
+        document.getElementById('bracket-view').classList.add('hidden');
+        document.getElementById('setup-view').classList.remove('hidden');
+        window.scrollTo({top:0, behavior:'smooth'});
+        BracketApp.savePicks();
+    },
+    switchToBracketView: () => {
+        document.getElementById('setup-view').classList.add('hidden');
+        document.getElementById('bracket-view').classList.remove('hidden');
+        window.scrollTo({top:0, behavior:'smooth'});
         BracketApp.renderTree();
     },
     resetBracket: () => {
@@ -237,6 +221,7 @@ const BracketApp = {
         BracketApp.renderTree();
         BracketApp.savePicks();
     },
+
 
     // --- PHASE 3: BRACKET TREE ---
     renderTree: () => {
@@ -262,7 +247,6 @@ const BracketApp = {
             
             const matchIds = BracketApp.orderedMatches[stageIndex];
             
-            // Loop in PAIRS for all stages (except final which handles itself)
             for(let i = 0; i < matchIds.length; i += (stageIndex < 4 ? 2 : 1)) {
                 
                 if(stageIndex === 4) {
@@ -343,6 +327,7 @@ const BracketApp = {
         });
         
         BracketApp.updateTracers();
+        lucide.createIcons();
     },
 
     renderMatchNodeHTML: (id, m, tA, tB, hasNext) => {
@@ -384,7 +369,10 @@ const BracketApp = {
                     slot.dataset.team = team;
                     slot.querySelector('span').innerText = team;
                     slot.querySelector('.flag-box').innerHTML = BracketApp.getFlag(team);
+                    // Clear previous winner in next node if it was different
                     nextNode.querySelectorAll('.team-slot').forEach(s => { s.classList.remove('bg-emerald-500','text-black'); s.querySelector('span').classList.remove('text-black'); });
+                    
+                    // Recursive clear of subsequent nodes if needed (simple version here)
                 }
             }
         } else if(matchId === 104) { BracketApp.declareWinner(team, BracketApp.getFlag(team)); }
@@ -418,15 +406,17 @@ const BracketApp = {
         });
     },
 
-    restoreBracketState: () => { BracketApp.updateTracers(); },
     declareWinner: (n,f) => { document.getElementById('winner-section').classList.remove('hidden'); document.getElementById('champion-display').innerHTML=`${f} <span>${n}</span>`; document.getElementById('winner-section').scrollIntoView({behavior:'smooth'}); },
     generateNanoBadge: () => {
-        const btn = document.querySelector('#winner-section button'); const img = document.getElementById('generated-badge'); const winner = BracketApp.state.champion; if(!winner) return;
+        const btn = document.querySelector('#winner-section button'); const img = document.getElementById('generated-badge'); const winner = BracketApp.state.champion; 
         btn.innerHTML = `<i data-lucide="loader-2" class="animate-spin"></i> Designing Badge...`; btn.disabled = true;
-        setTimeout(() => { img.src = `https://placehold.co/400x400/000/34D399?text=${winner}+Champion`; img.classList.remove('hidden'); btn.innerHTML = `<i data-lucide="check"></i> Badge Created`; btn.classList.add('bg-gray-700', 'cursor-default'); }, 2500);
+        setTimeout(() => { img.src = `https://placehold.co/400x400/000/34D399?text=${BracketApp.state.knockout[104]}+Champion`; img.classList.remove('hidden'); btn.innerHTML = `<i data-lucide="check"></i> Badge Created`; btn.classList.add('bg-gray-700', 'cursor-default'); }, 1500);
     },
     savePicks: () => { localStorage.setItem('fifa_bracket_data', JSON.stringify(BracketApp.state)); const btn = document.getElementById('save-btn'); if(btn) { const og=btn.innerText; btn.innerText="Saved!"; btn.classList.add('text-emerald-400'); setTimeout(()=>{btn.innerText=og;btn.classList.remove('text-emerald-400');},2000); } },
-    shareBracket: () => document.getElementById('share-modal')?.classList.remove('hidden'),
+    shareBracket: () => { 
+        // Logic to switch view for capture if needed, then capture
+        document.getElementById('share-modal')?.classList.remove('hidden');
+    },
     downloadImage: () => { html2canvas(document.getElementById('bracket-capture-area')).then(c => { const l = document.createElement('a'); l.download = `fifa-bracket-${BracketApp.uid}.png`; l.href = c.toDataURL(); l.click(); }); }
 };
 if (typeof window !== 'undefined') window.BracketApp = BracketApp;

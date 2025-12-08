@@ -12,118 +12,115 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-    body { font-family: 'Inter', sans-serif; background-color: #000; color: white; }
-    h1, h2, h3, .brand-font { font-family: 'Oswald', sans-serif; text-transform: uppercase; }
-    
-    ::-webkit-scrollbar { width: 8px; height: 8px; }
-    ::-webkit-scrollbar-track { background: #111; }
-    ::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
-    ::-webkit-scrollbar-thumb:hover { background: #555; }
-    
-    .glass-panel { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
-    .phase-locked { opacity: 0.5; pointer-events: none; filter: grayscale(100%); transition: all 0.5s; }
-    
-    /* --- BRACKET LAYOUT FIXED --- */
-    .bracket-wrapper {
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        gap: 60px;                          /* Gap between columns */
-        padding-bottom: 40px;
-        padding-left: 20px;
-        align-items: stretch;
-    }
+        body { font-family: 'Inter', sans-serif; background-color: #000; color: white; }
+        h1, h2, h3, .brand-font { font-family: 'Oswald', sans-serif; text-transform: uppercase; }
+        
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #111; }
+        ::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+        
+        .glass-panel { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .phase-locked { opacity: 0.5; pointer-events: none; filter: grayscale(100%); transition: all 0.5s; }
+        
+        /* --- BRACKET LAYOUT FIXED --- */
+        .bracket-wrapper {
+            display: flex !important;
+            flex-direction: row !important;
+            flex-wrap: nowrap !important;
+            gap: 60px;                          
+            padding-bottom: 40px;
+            padding-left: 20px;
+            align-items: stretch;
+        }
 
-    .bracket-column { 
-        display: flex; 
-        flex-direction: column; 
-        justify-content: space-around; 
-        width: 300px !important;    /* Column is 300px */
-        flex-shrink: 0 !important;
-        position: relative;
-    }
+        .bracket-column { 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: space-around; 
+            width: 300px !important;    
+            flex-shrink: 0 !important;
+            position: relative;
+        }
 
-    /* Match Pair: Holds two nodes */
-    .match-pair { 
-        display: flex; 
-        flex-direction: column; 
-        justify-content: center;
-        gap: 40px;                  /* Vertical gap between teams in a pair */
-        position: relative;
-        width: 100%;
-        height: auto;               /* Do not stretch height */
-        flex-grow: 0;
-    }
+        .match-pair { 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center;
+            gap: 40px;                  
+            position: relative;
+            width: 100%;
+            height: auto;
+            flex-grow: 0;
+        }
 
-    /* Match Node: Narrower than column */
-    .match-node {
-        height: 96px; 
-        width: 260px !important;    /* Node is 260px (Leaves 40px space on right) */
-        position: relative;
-        z-index: 20;
-        background: #151515;
-        border: 1px solid rgba(255,255,255,0.1);
-        border-radius: 0.5rem;
-        transition: all 0.2s;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
-    }
-    .match-node:hover { border-color: rgba(16, 185, 129, 0.5); transform: translateY(-1px); }
+        /* Match Node */
+        .match-node {
+            height: 96px; 
+            width: 260px !important;    
+            position: relative;
+            z-index: 20;
+            background: #151515;
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 0.5rem;
+            transition: all 0.2s;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+        }
+        .match-node:hover { border-color: rgba(16, 185, 129, 0.5); transform: translateY(-1px); }
 
-    
-    /* --- PERFECT CONNECTORS --- */
-    
-    /* Fork: Bridges the 40px space inside the column */
-    .line-fork { 
-        position: absolute; 
-        right: 0;        /* Aligns with the right edge of the 300px column */
-        width: 40px;     /* Spans exactly from the Node (260px) to Column Edge (300px) */
-        top: 48px;       /* Center of top node (96px / 2) */
-        bottom: 48px;    /* Center of bottom node */
-        border-right: 2px solid #333; 
-        border-top: 2px solid #333; 
-        border-bottom: 2px solid #333; 
-        border-radius: 0 12px 12px 0;
-        z-index: 10; 
-        pointer-events: none; 
-    }
-    
-    /* Stem: Bridges the 60px gap between columns */
-    .line-stem { 
-        position: absolute; 
-        right: -60px;    /* Pushes fully across the gap */
-        width: 60px;     /* Matches the column gap exactly */
-        top: 50%; 
-        height: 2px; 
-        background: #333; 
-        z-index: 10; 
-        pointer-events: none; 
-    }
+        /* Perfect Connectors */
+        .line-fork { 
+            position: absolute; 
+            right: 0;        
+            width: 40px;     
+            top: 48px;       
+            bottom: 48px;    
+            border-right: 2px solid #333; 
+            border-top: 2px solid #333; 
+            border-bottom: 2px solid #333; 
+            border-radius: 0 12px 12px 0;
+            z-index: 10; 
+            pointer-events: none; 
+        }
+        
+        .line-stem { 
+            position: absolute; 
+            right: -60px;    
+            width: 60px;     
+            top: 50%; 
+            height: 2px; 
+            background: #333; 
+            z-index: 10; 
+            pointer-events: none; 
+        }
 
-    /* Active Colors */
-    .line-fork.active-top { border-top-color: #10B981; } 
-    .line-fork.active-bottom { border-bottom-color: #10B981; }
-    .line-fork.active-stem { border-right-color: #10B981; box-shadow: 2px 0 8px rgba(16, 185, 129, 0.2); }
-    .line-stem.active { background: #10B981; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
+        /* Active Colors */
+        .line-fork.active-top { border-top-color: #10B981; } 
+        .line-fork.active-bottom { border-bottom-color: #10B981; }
+        .line-fork.active-stem { border-right-color: #10B981; box-shadow: 2px 0 8px rgba(16, 185, 129, 0.2); }
+        .line-stem.active { background: #10B981; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
 
-    .bronze-node { margin-top: 40px; border-color: rgba(245, 158, 11, 0.3); }
-    .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%; }
+        .bronze-node { margin-top: 40px; border-color: rgba(245, 158, 11, 0.3); }
+        .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%; }
 
-    /* Header Styling */
-    .header-cell {
-        width: 300px !important;
-        flex-shrink: 0;
-        text-align: left;
-        padding-left: 10px;
-        font-family: 'Oswald', sans-serif;
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: #9ca3af; 
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-    }
-</style>
+        /* Header Styling */
+        .header-cell {
+            width: 300px !important;
+            flex-shrink: 0;
+            text-align: left;
+            padding-left: 10px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #9ca3af; 
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+    </style>
 </head>
-<body class="min-h-screen flex flex-col overflow-hidden"> <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-[60] backdrop-blur-md">
+<body class="min-h-screen flex flex-col overflow-hidden bg-black text-white"> 
+    
+    <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-[60] backdrop-blur-md">
         <div class="w-full px-8 h-20 flex justify-between items-center">
             <div class="flex items-center gap-2 cursor-pointer" onclick="window.location.href='index.html'">
                 <img src="./assets/logo_b.jpg" alt="Logo" class="h-10 w-auto">
@@ -140,70 +137,64 @@
 
     <main class="flex-grow p-4 md:p-8 overflow-y-auto h-[calc(100vh-80px)]" id="main-scroll-area">
         
-        <div class="max-w-7xl mx-auto mb-8 text-center" id="bracket-capture-area"> <h1 class="text-5xl md:text-7xl font-bold mb-4">Predict The <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">Champion</span></h1>
-            <p class="text-gray-400 max-w-2xl mx-auto">1. Order Groups &nbsp;|&nbsp; 2. Pick Wildcards &nbsp;|&nbsp; 3. Fill Bracket</p>
-        </div>
-
-        <div id="phase-1-container" class="max-w-[1600px] mx-auto mb-16 transition-all duration-500">
-            <div class="flex justify-between items-end mb-6 border-b border-white/10 pb-2">
-                <div>
-                    <span class="text-xs text-emerald-400 font-bold uppercase tracking-widest">Step 1</span>
-                    <h2 class="text-2xl font-bold">Order The Groups</h2>
-                </div>
-                <div class="flex items-center gap-4">
-                     <button onclick="BracketApp.resetPhase1()" class="text-xs text-gray-400 hover:text-red-400 uppercase font-bold flex items-center gap-1 transition"><i data-lucide="rotate-ccw" class="w-3 h-3"></i> Reset Groups</button>
-                     <div class="h-4 w-px bg-white/20"></div>
-                     <button onclick="BracketApp.unlockPhase(1)" id="unlock-p1" class="hidden text-xs text-emerald-400 hover:text-white uppercase font-bold flex items-center gap-1"><i data-lucide="unlock" class="w-3 h-3"></i> Unlock</button>
-                     <button onclick="BracketApp.autoSimulateGroups()" class="text-xs text-gray-500 hover:text-white uppercase tracking-wider flex items-center gap-1"><i data-lucide="shuffle" class="w-3 h-3"></i> Quick Sim</button>
-                </div>
+        <div id="setup-view" class="transition-all duration-500">
+            <div class="max-w-7xl mx-auto mb-12 text-center"> 
+                <h1 class="text-5xl md:text-7xl font-bold mb-4">Set The <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">Stage</span></h1>
+                <p class="text-gray-400 max-w-2xl mx-auto">Drag teams to order groups, then pick your wildcards.</p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="groups-container"></div>
-            <div class="mt-8 flex justify-center">
-                <button onclick="BracketApp.lockPhase1()" id="lock-p1-btn" class="bg-white text-black font-bold uppercase py-4 px-12 rounded-full hover:bg-emerald-400 transition shadow-[0_0_20px_rgba(255,255,255,0.2)] flex items-center gap-2 text-lg"><i data-lucide="lock"></i> Lock In Groups</button>
-            </div>
-        </div>
 
-        <div id="phase-2-container" class="max-w-[1600px] mx-auto mb-16 hidden opacity-0 transition-all duration-500">
-            <div class="flex justify-between items-end mb-6 border-b border-white/10 pb-2">
-                <div>
-                    <span class="text-xs text-yellow-400 font-bold uppercase tracking-widest">Step 2</span>
-                    <h2 class="text-2xl font-bold">Best 3rd Place Teams</h2>
-                    <p class="text-xs text-gray-400 mt-1">Select the 8 teams that advance.</p>
+            <div id="phase-1-container" class="max-w-[1600px] mx-auto mb-16">
+                <div class="flex justify-between items-end mb-6 border-b border-white/10 pb-2">
+                    <div>
+                        <span class="text-xs text-emerald-400 font-bold uppercase tracking-widest">Step 1</span>
+                        <h2 class="text-2xl font-bold">Order The Groups</h2>
+                    </div>
+                    <div class="flex items-center gap-4">
+                         <button onclick="BracketApp.autoSimulateGroups()" class="text-xs text-gray-500 hover:text-white uppercase tracking-wider flex items-center gap-1"><i data-lucide="shuffle" class="w-3 h-3"></i> Quick Sim</button>
+                    </div>
                 </div>
-                <div class="flex items-center gap-4">
-                    <button onclick="BracketApp.resetPhase2()" class="text-xs text-gray-400 hover:text-red-400 uppercase font-bold flex items-center gap-1 transition"><i data-lucide="rotate-ccw" class="w-3 h-3"></i> Reset Selection</button>
-                    <div class="h-4 w-px bg-white/20"></div>
-                    <button onclick="BracketApp.unlockPhase(2)" id="unlock-p2" class="hidden text-xs text-emerald-400 hover:text-white uppercase font-bold flex items-center gap-1"><i data-lucide="unlock" class="w-3 h-3"></i> Unlock</button>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="groups-container"></div>
+            </div>
+
+            <div id="phase-2-container" class="max-w-[1600px] mx-auto mb-16">
+                <div class="flex justify-between items-end mb-6 border-b border-white/10 pb-2">
+                    <div>
+                        <span class="text-xs text-yellow-400 font-bold uppercase tracking-widest">Step 2</span>
+                        <h2 class="text-2xl font-bold">Best 3rd Place Teams</h2>
+                        <p class="text-xs text-gray-400 mt-1">Select the 8 teams that advance.</p>
+                    </div>
                     <div class="text-right">
                         <span id="third-place-counter" class="text-4xl font-bold text-white font-oswald">0</span><span class="text-gray-500 text-sm uppercase font-bold">/8 Selected</span>
                     </div>
                 </div>
-            </div>
-            <div class="glass-panel p-8 rounded-xl border-t-4 border-yellow-500/50">
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4" id="third-place-container"></div>
-            </div>
-            <div class="mt-8 flex justify-center">
-                <button onclick="BracketApp.lockPhase2()" id="btn-lock-phase-2" class="bg-gray-700 text-gray-400 cursor-not-allowed font-bold uppercase py-4 px-12 rounded-full transition shadow-lg flex items-center gap-2 text-lg" disabled><i data-lucide="lock"></i> Lock In Selections</button>
+                <div class="glass-panel p-8 rounded-xl border-t-4 border-yellow-500/50">
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4" id="third-place-container"></div>
+                </div>
+                
+                <div class="mt-12 flex justify-center pb-20">
+                    <button onclick="BracketApp.lockSetupAndGo()" id="btn-generate-bracket" class="bg-gray-700 text-gray-400 cursor-not-allowed font-bold uppercase py-6 px-16 rounded-full transition shadow-lg flex items-center gap-3 text-2xl hover:scale-105 transform duration-200" disabled>
+                        <span>Generate Bracket</span> <i data-lucide="arrow-right-circle" class="w-8 h-8"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
-        <div id="phase-3-container" class="hidden opacity-0 transition-all duration-500 pb-20">
-             <div class="max-w-[1600px] mx-auto flex justify-between items-end mb-6 border-b border-white/10 pb-2">
+        <div id="bracket-view" class="hidden transition-all duration-500 pb-20">
+             <div class="max-w-[1700px] mx-auto flex justify-between items-end mb-6 border-b border-white/10 pb-2">
                 <div>
                     <span class="text-xs text-cyan-400 font-bold uppercase tracking-widest">Step 3</span>
                     <h2 class="text-2xl font-bold">The Knockout Bracket</h2>
                 </div>
                 <div class="flex items-center gap-4">
-                    <button onclick="BracketApp.resetBracket()" class="text-xs text-gray-400 hover:text-red-400 uppercase font-bold flex items-center gap-1 transition"><i data-lucide="rotate-ccw" class="w-3 h-3"></i> Reset Bracket</button>
-                    <div class="h-4 w-px bg-white/20"></div>
-                    <div class="text-xs text-gray-500 uppercase tracking-wider">Scroll <i data-lucide="move" class="w-3 h-3 inline"></i></div>
+                    <button onclick="BracketApp.unlockSetup()" class="text-xs text-gray-400 hover:text-red-400 uppercase font-bold flex items-center gap-1 transition bg-white/5 px-3 py-1 rounded border border-white/10"><i data-lucide="edit-3" class="w-3 h-3"></i> Edit Groups</button>
+                    <button onclick="BracketApp.resetBracket()" class="text-xs text-gray-400 hover:text-red-400 uppercase font-bold flex items-center gap-1 transition"><i data-lucide="rotate-ccw" class="w-3 h-3"></i> Reset Picks</button>
                 </div>
             </div>
             
-            <div class="max-w-[1700px] mx-auto border border-white/10 rounded-2xl bg-[#0a0a0a] overflow-hidden shadow-2xl">
+            <div class="max-w-full mx-auto border border-white/10 rounded-2xl bg-[#0a0a0a] overflow-hidden shadow-2xl">
                 <div class="overflow-auto h-[75vh] w-full p-8 relative" id="bracket-scroll-viewport">
                     
-                    <div class="w-max mx-auto">
+                    <div class="w-max mx-auto" id="bracket-capture-area">
                         
                         <div class="sticky top-0 z-40 flex gap-[60px] pb-6 bg-[#0a0a0a]/95 backdrop-blur-sm border-b border-white/5 mb-8 pt-2">
                             <div class="header-cell">Round of 32</div>
@@ -218,24 +209,26 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div id="winner-section" class="max-w-4xl mx-auto text-center hidden animate-fade-in pb-20 mt-12">
-            <div class="glass-panel p-12 rounded-3xl border-emerald-500/30 relative overflow-hidden">
-                <div class="absolute inset-0 bg-emerald-500/5 z-0"></div>
-                <div class="relative z-10">
-                    <span class="text-emerald-400 tracking-[0.3em] uppercase text-sm font-bold">World Cup 26 Champion</span>
-                    <div id="champion-display" class="text-6xl font-bold text-white mt-4 mb-8 font-oswald flex justify-center items-center gap-4"></div>
-                    <div class="bg-black/50 p-6 rounded-xl max-w-md mx-auto border border-white/10">
-                        <div id="ai-badge-container" class="w-full aspect-square bg-[#111] rounded-lg mb-4 flex items-center justify-center relative overflow-hidden group">
-                            <span class="text-gray-600 text-xs uppercase tracking-widest">AI Badge Preview</span>
-                            <img id="generated-badge" class="absolute inset-0 w-full h-full object-cover hidden" />
+            <div id="winner-section" class="max-w-4xl mx-auto text-center hidden animate-fade-in mt-12">
+                <div class="glass-panel p-12 rounded-3xl border-emerald-500/30 relative overflow-hidden">
+                    <div class="absolute inset-0 bg-emerald-500/5 z-0"></div>
+                    <div class="relative z-10">
+                        <span class="text-emerald-400 tracking-[0.3em] uppercase text-sm font-bold">World Cup 26 Champion</span>
+                        <div id="champion-display" class="text-6xl font-bold text-white mt-4 mb-8 font-oswald flex justify-center items-center gap-4"></div>
+                        <div class="bg-black/50 p-6 rounded-xl max-w-md mx-auto border border-white/10">
+                            <div id="ai-badge-container" class="w-full aspect-square bg-[#111] rounded-lg mb-4 flex items-center justify-center relative overflow-hidden group">
+                                <span class="text-gray-600 text-xs uppercase tracking-widest">AI Badge Preview</span>
+                                <img id="generated-badge" class="absolute inset-0 w-full h-full object-cover hidden" />
+                            </div>
+                            <button onclick="BracketApp.generateNanoBadge()" class="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white py-3 rounded font-bold uppercase tracking-widest flex justify-center items-center gap-2 transition"><i data-lucide="sparkles"></i> Generate Winner Badge</button>
                         </div>
-                        <button onclick="BracketApp.generateNanoBadge()" class="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white py-3 rounded font-bold uppercase tracking-widest flex justify-center items-center gap-2 transition"><i data-lucide="sparkles"></i> Generate Winner Badge</button>
                     </div>
                 </div>
             </div>
-        </div> </main>
+        </div>
+
+    </main>
 
     <div id="share-modal" class="fixed inset-0 bg-black/90 z-[60] hidden flex items-center justify-center p-4">
         <div class="bg-[#111] border border-white/10 rounded-2xl p-6 max-w-lg w-full">
