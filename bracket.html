@@ -5,100 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIFA La Vida | 2026 Bracket Challenge</title>
     <style>
-        /* --- BRACKET LAYOUT --- */
-        .bracket-wrapper {
-            display: flex !important;
-            flex-direction: row !important;
-            flex-wrap: nowrap !important;
-            gap: 60px;                          
-            padding-bottom: 40px;
-            padding-left: 20px;
-            align-items: stretch;
-        }
-
-        .bracket-column { 
-            display: flex; 
-            flex-direction: column; 
-            justify-content: space-around; 
-            width: 300px !important;    
-            flex-shrink: 0 !important;
-            position: relative;
-        }
-
-        .match-pair { 
-            display: flex; 
-            flex-direction: column; 
-            justify-content: center;
-            gap: 40px;                  
-            position: relative;
-            width: 100%;
-            height: auto;
-            flex-grow: 0;
-        }
-
-        /* Match Node */
-        .match-node {
-            height: 96px; 
-            width: 260px !important;    
-            position: relative;
-            z-index: 20;
-            background: #151515;
-            border: 1px solid rgba(255,255,255,0.1);
-            border-radius: 0.5rem;
-            transition: all 0.2s;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
-        }
-        .match-node:hover { border-color: rgba(16, 185, 129, 0.5); transform: translateY(-1px); }
-
-        /* Perfect Connectors */
-        .line-fork { 
-            position: absolute; 
-            right: 0;        
-            width: 40px;     
-            top: 48px;       
-            bottom: 48px;    
-            border-right: 2px solid #333; 
-            border-top: 2px solid #333; 
-            border-bottom: 2px solid #333; 
-            border-radius: 0 12px 12px 0;
-            z-index: 10; 
-            pointer-events: none; 
-        }
+    /* --- BRACKET LAYOUT FIXED --- */
+    .bracket-wrapper {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        gap: 80px;                          
+        padding-bottom: 40px;
+        padding-left: 20px;
+        align-items: stretch;
         
-        .line-stem { 
-            position: absolute; 
-            right: -60px;    
-            width: 60px;     
-            top: 50%; 
-            height: 2px; 
-            background: #333; 
-            z-index: 10; 
-            pointer-events: none; 
-        }
+        /* KEY FIX: Force plenty of height for R32 */
+        min-height: 2000px; 
+    }
 
-        /* Active Colors */
-        .line-fork.active-top { border-top-color: #10B981; } 
-        .line-fork.active-bottom { border-bottom-color: #10B981; }
-        .line-fork.active-stem { border-right-color: #10B981; box-shadow: 2px 0 8px rgba(16, 185, 129, 0.2); }
-        .line-stem.active { background: #10B981; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
+    .bracket-column { 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: space-around; 
+        width: 300px !important;    
+        flex-shrink: 0 !important;
+        position: relative;
+    }
 
-        .bronze-node { margin-top: 40px; border-color: rgba(245, 158, 11, 0.3); }
-        .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%; }
+    .match-pair { 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        gap: 20px;       /* Reduced gap inside pair slightly to keep them tighter */           
+        position: relative;
+        width: 100%;
+        flex-grow: 0;    /* Prevent shrinking */
+    }
 
-        /* Header Styling */
-        .header-cell {
-            width: 300px !important;
-            flex-shrink: 0;
-            text-align: left;
-            padding-left: 10px;
-            font-family: 'Oswald', sans-serif;
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #9ca3af; 
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-    </style>
+    /* Match Node */
+    .match-node {
+        height: 96px; 
+        width: 260px !important;    
+        position: relative;
+        z-index: 20;
+        background: #151515;
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 0.5rem;
+        transition: all 0.2s;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    }
+    .match-node:hover { border-color: rgba(16, 185, 129, 0.5); transform: translateY(-1px); }
+
+    /* --- CONNECTORS (Updated for alignment) --- */
+    .line-fork { 
+        position: absolute; 
+        right: 0;        
+        width: 40px;     
+        top: 48px;       
+        bottom: 48px;    
+        border-right: 2px solid #333; 
+        border-top: 2px solid #333; 
+        border-bottom: 2px solid #333; 
+        border-radius: 0 12px 12px 0;
+        z-index: 10; 
+        pointer-events: none; 
+    }
+    
+    .line-stem { 
+        position: absolute; 
+        right: -80px;    /* Reaches across the 80px gap */
+        width: 80px;     
+        top: 50%; 
+        height: 2px; 
+        background: #333; 
+        z-index: 10; 
+        pointer-events: none; 
+    }
+
+    /* Active Colors */
+    .line-fork.active-top { border-top-color: #10B981; } 
+    .line-fork.active-bottom { border-bottom-color: #10B981; }
+    .line-fork.active-stem { border-right-color: #10B981; box-shadow: 2px 0 8px rgba(16, 185, 129, 0.2); }
+    .line-stem.active { background: #10B981; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
+
+    .bronze-node { margin-top: 40px; border-color: rgba(245, 158, 11, 0.3); }
+    .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%; }
+
+    /* Header Styling */
+    .header-cell {
+        width: 300px !important;
+        flex-shrink: 0;
+        text-align: left;
+        padding-left: 10px;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #9ca3af; 
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+</style>
 </head>
 <body> 
     <div class="flex-grow p-4 md:p-8" id="main-scroll-area">
