@@ -224,10 +224,20 @@ const BracketApp = {
             return code;
         };
 
+        // --- DYNAMIC GAP CALCULATION START ---
+        // Start gap at 30px for Round of 32. 
+        // Formula: NextGap = CurrentGap * 2 + MatchHeight (96px)
+        let gapSize = 30; 
+        const matchHeight = 96;
+        // -------------------------------------
+
         stages.forEach((stage, stageIndex) => {
             const col = document.createElement('div');
             col.className = "bracket-column";
             
+            // Apply the dynamic gap to the column itself so pairs are spaced correctly
+            col.style.gap = `${gapSize}px`;
+
             const matchIds = BracketApp.orderedMatches[stageIndex];
             
             for(let i = 0; i < matchIds.length; i += (stageIndex < 4 ? 2 : 1)) {
@@ -276,6 +286,10 @@ const BracketApp = {
                 const pairDiv = document.createElement('div');
                 pairDiv.className = "match-pair";
                 pairDiv.dataset.pairId = `${id1}-${id2}`;
+                
+                // Apply the same gap internally to the pair
+                // This forces the "fork" to stretch exactly to where the next round's inputs are
+                pairDiv.style.gap = `${gapSize}px`;
 
                 const m1 = BracketApp.schedule[id1];
                 let t1A = BracketApp.state.knockout[`${id1}-0`] || resolveTeam(m1.p1);
@@ -302,7 +316,13 @@ const BracketApp = {
                 pairDiv.innerHTML += `<div class="line-fork" id="fork-${id1}-${id2}"></div><div class="line-stem" id="stem-${id1}-${id2}"></div>`;
                 col.appendChild(pairDiv);
             }
+            
             container.appendChild(col);
+            
+            // Calculate gap for the NEXT round
+            if(stageIndex < 4) {
+                gapSize = gapSize * 2 + matchHeight;
+            }
         });
         
         BracketApp.updateTracers();

@@ -13,16 +13,20 @@
         gap: 80px;                          
         padding-bottom: 40px;
         padding-left: 20px;
-        align-items: stretch;
         
-        /* KEY FIX: Force plenty of height for R32 */
-        min-height: 2000px; 
+        /* UPDATED: Center everything vertically so the tree aligns */
+        align-items: center; 
+        
+        /* REMOVED: min-height 2000px hack is no longer needed */
     }
 
     .bracket-column { 
         display: flex; 
         flex-direction: column; 
-        justify-content: space-around; 
+        
+        /* UPDATED: Center matches in the column rather than spacing them around */
+        justify-content: center; 
+        
         width: 300px !important;    
         flex-shrink: 0 !important;
         position: relative;
@@ -32,10 +36,10 @@
         display: flex; 
         flex-direction: column; 
         justify-content: center;
-        gap: 20px;       /* Reduced gap inside pair slightly to keep them tighter */           
+        /* Gap is now handled dynamically by JS to ensure alignment */
         position: relative;
         width: 100%;
-        flex-grow: 0;    /* Prevent shrinking */
+        flex-grow: 0;
     }
 
     /* Match Node */
@@ -56,7 +60,7 @@
     .line-fork { 
         position: absolute; 
         right: 0;        
-        width: 40px;     
+        /* Top/Bottom will stretch automatically as the pair gap grows */
         top: 48px;       
         bottom: 48px;    
         border-right: 2px solid #333; 
