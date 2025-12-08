@@ -12,105 +12,109 @@
     
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #000; color: white; }
-        h1, h2, h3, .brand-font { font-family: 'Oswald', sans-serif; text-transform: uppercase; }
-        
-        ::-webkit-scrollbar { width: 8px; height: 8px; }
-        ::-webkit-scrollbar-track { background: #111; }
-        ::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #555; }
-        
-        .glass-panel { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
-        .phase-locked { opacity: 0.5; pointer-events: none; filter: grayscale(100%); transition: all 0.5s; }
-        
-        /* --- BRACKET VISUALS --- */
-        .bracket-wrapper {
-            display: flex;
-            flex-direction: row;
-            gap: 60px; /* Precise gap matching header */
-            padding-bottom: 40px;
-        }
+    body { font-family: 'Inter', sans-serif; background-color: #000; color: white; }
+    h1, h2, h3, .brand-font { font-family: 'Oswald', sans-serif; text-transform: uppercase; }
+    
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: #111; }
+    ::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #555; }
+    
+    .glass-panel { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+    .phase-locked { opacity: 0.5; pointer-events: none; filter: grayscale(100%); transition: all 0.5s; }
+    
+    /* --- BRACKET VISUALS OPTIMIZED --- */
+    .bracket-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 80px; /* Increased from 60px for better spacing */
+        padding-bottom: 40px;
+        padding-left: 20px; /* Added padding for left edge */
+    }
 
-        .bracket-column { 
-            display: flex; 
-            flex-direction: column; 
-            justify-content: space-around; 
-            width: 260px;      /* Fixed width matching header */
-            flex-shrink: 0;    
-            position: relative;
-        }
+    .bracket-column { 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: space-around; 
+        width: 320px;      /* Increased from 260px */
+        flex-shrink: 0;    
+        position: relative;
+    }
 
-        /* Match Node: Fixed height (96px) */
-        .match-node {
-            height: 96px; 
-            width: 100%;
-            position: relative;
-            z-index: 20;
-            background: #151515;
-            border: 1px solid rgba(255,255,255,0.1);
-            border-radius: 0.5rem;
-            transition: all 0.2s;
-        }
-        .match-node:hover { border-color: rgba(16, 185, 129, 0.5); }
+    /* Match Node: Fixed height */
+    .match-node {
+        height: 96px; 
+        width: 100%;
+        position: relative;
+        z-index: 20;
+        background: #151515;
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 0.5rem;
+        transition: all 0.2s;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5); /* Added depth */
+    }
+    .match-node:hover { border-color: rgba(16, 185, 129, 0.5); transform: translateY(-1px); }
 
-        .match-pair { 
-            display: flex; 
-            flex-direction: column; 
-            justify-content: center;
-            gap: 40px; 
-            position: relative;
-            height: 100%; 
-        }
-        
-        /* Connector Lines */
-        .line-fork { 
-            position: absolute; 
-            right: -30px; 
-            top: 48px;    
-            bottom: 48px; 
-            width: 30px; 
-            border-right: 2px solid #333; 
-            border-top: 2px solid #333; 
-            border-bottom: 2px solid #333; 
-            border-radius: 0 8px 8px 0;
-            z-index: 10; 
-            pointer-events: none; 
-        }
-        
-        .line-stem { 
-            position: absolute; 
-            right: -60px; 
-            top: 50%; 
-            width: 30px; 
-            height: 2px; 
-            background: #333; 
-            z-index: 10; 
-            pointer-events: none; 
-        }
+    .match-pair { 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        gap: 40px; 
+        position: relative;
+        height: 100%; 
+    }
+    
+    /* Connector Lines - Updated for 80px Gap */
+    /* Total Gap is 80px. Fork covers first 40px, Stem covers next 40px. */
+    
+    .line-fork { 
+        position: absolute; 
+        right: -40px;   /* Half of gap */
+        top: 48px;    
+        bottom: 48px; 
+        width: 40px;    /* Half of gap */
+        border-right: 2px solid #333; 
+        border-top: 2px solid #333; 
+        border-bottom: 2px solid #333; 
+        border-radius: 0 12px 12px 0; /* Slightly rounder corners */
+        z-index: 10; 
+        pointer-events: none; 
+    }
+    
+    .line-stem { 
+        position: absolute; 
+        right: -80px;   /* Full gap width */
+        top: 50%; 
+        width: 40px;    /* Remaining half of gap */
+        height: 2px; 
+        background: #333; 
+        z-index: 10; 
+        pointer-events: none; 
+    }
 
-        /* Active State Colors */
-        .line-fork.active-top { border-top-color: #10B981; } 
-        .line-fork.active-bottom { border-bottom-color: #10B981; }
-        .line-fork.active-stem { border-right-color: #10B981; box-shadow: 2px 0 8px rgba(16, 185, 129, 0.2); }
-        .line-stem.active { background: #10B981; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
+    /* Active State Colors */
+    .line-fork.active-top { border-top-color: #10B981; } 
+    .line-fork.active-bottom { border-bottom-color: #10B981; }
+    .line-fork.active-stem { border-right-color: #10B981; box-shadow: 2px 0 8px rgba(16, 185, 129, 0.2); }
+    .line-stem.active { background: #10B981; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
 
-        /* Bronze/Final */
-        .bronze-node { margin-top: 40px; border-color: rgba(245, 158, 11, 0.3); }
-        .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; }
+    /* Bronze/Final */
+    .bronze-node { margin-top: 40px; border-color: rgba(245, 158, 11, 0.3); }
+    .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; }
 
-        /* Header Styling */
-        .header-cell {
-            width: 260px;
-            flex-shrink: 0;
-            text-align: center;
-            font-family: 'Oswald', sans-serif;
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #9ca3af; 
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-    </style>
+    /* Header Styling */
+    .header-cell {
+        width: 320px; /* Matches new column width */
+        flex-shrink: 0;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #9ca3af; 
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+</style>
 </head>
 <body class="min-h-screen flex flex-col overflow-hidden"> <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-[60] backdrop-blur-md">
         <div class="max-w-[1600px] mx-auto px-4 h-20 flex justify-between items-center">
@@ -194,7 +198,7 @@
                     
                     <div class="w-max mx-auto">
                         
-                        <div class="sticky top-0 z-40 flex gap-[60px] pb-6 bg-[#0a0a0a]/95 backdrop-blur-sm border-b border-white/5 mb-8 pt-2">
+                        <div class="sticky top-0 z-40 flex gap-[80px] pb-6 bg-[#0a0a0a]/95 backdrop-blur-sm border-b border-white/5 mb-8 pt-2">
                             <div class="header-cell">Round of 32</div>
                             <div class="header-cell">Round of 16</div>
                             <div class="header-cell">Quarter Finals</div>
