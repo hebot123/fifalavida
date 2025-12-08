@@ -5,7 +5,7 @@
             <div>
                 <div class="flex items-center gap-3 mb-2">
                     <span class="bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider border border-emerald-500/30">Beta</span>
-                    <h1 class="text-4xl md:text-6xl font-bold font-oswald text-white">TICKET TRACKER</h1>
+                    <h1 class="text-4xl md:text-6xl font-bold font-oswald text-white">FIFA COLLECT TICKET TRACKER</h1>
                 </div>
                 <p class="text-gray-400 max-w-2xl text-lg">
                     Monitor real-time "Right to Ticket" token prices from the official FIFA Collect marketplace. 
@@ -21,12 +21,10 @@
         </div>
 
         <div class="bg-white/5 border border-white/10 rounded-xl p-4 mb-8">
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4">
                 <div>
-                    <label class="block text-xs uppercase font-bold text-gray-500 mb-1">Competition</label>
-                    <select disabled class="w-full bg-black/50 border border-white/20 text-gray-400 rounded px-3 py-2 text-sm cursor-not-allowed">
-                        <option>World Cup 2026</option>
-                    </select>
+                    <label class="block text-xs uppercase font-bold text-gray-500 mb-1">Match #</label>
+                    <input type="text" id="filter-match-no" data-filter-type="matchNo" class="ticket-filter w-full bg-black border border-white/20 text-white rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none" placeholder="e.g. 104">
                 </div>
 
                 <div>
@@ -90,9 +88,6 @@
                             <th class="p-4 font-bold">Location</th>
                             <th class="p-4 font-bold">Round</th>
                             <th class="p-4 font-bold">Cat</th>
-                            <th class="p-4 font-bold">Face Value</th>
-                            <th class="p-4 font-bold">Volume</th>
-                            <th class="p-4 font-bold">Last Sale</th>
                             <th class="p-4 font-bold">Starting At</th>
                         </tr>
                     </thead>

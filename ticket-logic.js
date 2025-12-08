@@ -8,7 +8,7 @@ const TicketEngine = {
     apiEndpoint: './data/live-listings.json', 
     
     state: {
-        loading: false,
+        loading: true,
         error: null,
         filter: { country: '', city: '', team: '', round: '', category: '' },
         sort: 'matchNo',
@@ -19,11 +19,19 @@ const TicketEngine = {
         TicketEngine.populateFilters();
         TicketEngine.render();
         
-        document.querySelectorAll('.ticket-filter').forEach(select => {
-            select.addEventListener('change', (e) => {
+        document.querySelectorAll('.ticket-filter').forEach(el => {
+            const eventType = el.tagName.toLowerCase() === 'input' ? 'input' : 'change';
+            el.addEventListener(eventType, (e) => {
                 TicketEngine.state.filter[e.target.dataset.filterType] = e.target.value;
                 TicketEngine.render();
             });
+        });
+
+        // Clear button for match number filter
+        const matchNoInput = document.getElementById('filter-match-no');
+        matchNoInput.addEventListener('keydown', (e) => {
+            // Allow only numbers and control keys
+            if (!/[\d\b]/.test(e.key) && !e.ctrlKey && !e.metaKey && e.key !== 'Backspace' && e.key !== 'ArrowLeft' && e.key !== 'ArrowRight' && e.key !== 'Tab') e.preventDefault();
         });
 
         const sortSelect = document.getElementById('ticket-sort-select');
@@ -184,6 +192,7 @@ const TicketEngine = {
             if (f.team && (!row.teams || !row.teams.includes(f.team))) return false;
             if (f.round && row.round !== f.round) return false;
             if (f.category && row.category !== f.category) return false;
+            if (f.matchNo && String(row.matchNo) !== f.matchNo) return false;
             return true;
         });
 
@@ -202,7 +211,7 @@ const TicketEngine = {
 
         // 4. Build HTML
         if (result.length === 0) {
-            tbody.innerHTML = `<tr><td colspan="9" class="p-8 text-center text-gray-500">No tickets found matching your filters.</td></tr>`;
+            tbody.innerHTML = `<tr><td colspan="6" class="p-8 text-center text-gray-500">No tickets found matching your filters.</td></tr>`;
             return;
         }
 
