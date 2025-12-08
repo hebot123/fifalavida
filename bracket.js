@@ -54,7 +54,7 @@ const BracketApp = {
         104: { date: "Jul 19", venue: "NY/NJ", label: "Final" }
     },
 
-    // PAIRING ORDER for Visuals: [MatchA, MatchB] where MatchA->Slot0 and MatchB->Slot1 of the NEXT match
+    // PAIRING ORDER for Visuals
     orderedMatches: {
         0: [74, 77, 73, 75, 83, 84, 81, 82, 76, 78, 79, 80, 86, 88, 85, 87], 
         1: [89, 90, 93, 94, 91, 92, 95, 96],
@@ -85,7 +85,7 @@ const BracketApp = {
     generateUID: () => 'BRK-' + Math.random().toString(36).substr(2, 9).toUpperCase(),
     getFlag: (t) => window.getFlagHTML ? window.getFlagHTML(t) : '',
 
-    // --- PHASES 1 & 2 (Groups/3rd Place) ---
+    // --- PHASES 1 & 2 ---
     loadGroups: () => {
         if(Object.keys(BracketApp.state.groups).length > 0) return;
         ['A','B','C','D','E','F','G','H','I','J','K','L'].forEach(g => {
@@ -130,19 +130,18 @@ const BracketApp = {
         Object.keys(BracketApp.state.groups).forEach(g => BracketApp.state.groups[g].sort(() => Math.random() - 0.5));
         BracketApp.renderGroups();
     },
+    
     // --- RESET LOGIC ---
     resetPhase1: () => {
         if(!confirm("Reset all groups to default? This will clear all subsequent progress.")) return;
-        // 1. Reset State
         BracketApp.state.phase = 1;
-        BracketApp.state.groups = {}; // Clear existing custom order
-        BracketApp.loadGroups(); // Reload from potMapping defaults
+        BracketApp.state.groups = {}; 
+        BracketApp.loadGroups(); 
         BracketApp.state.thirdPlaceCandidates = [];
         BracketApp.state.selectedThirds = [];
         BracketApp.state.knockout = {};
         BracketApp.state.champion = null;
         
-        // 2. UI Updates
         document.getElementById('phase-1-container').classList.remove('phase-locked');
         document.getElementById('lock-p1-btn').classList.remove('hidden');
         document.getElementById('unlock-p1').classList.add('hidden');
@@ -150,11 +149,9 @@ const BracketApp = {
         document.getElementById('phase-3-container').classList.add('hidden', 'opacity-0');
         document.getElementById('winner-section').classList.add('hidden');
         
-        // 3. Render
         BracketApp.renderGroups();
         BracketApp.savePicks();
     },
-
     lockPhase1: (isRestore = false) => {
         document.getElementById('phase-1-container').classList.add('phase-locked');
         document.getElementById('lock-p1-btn').classList.add('hidden');
@@ -185,21 +182,16 @@ const BracketApp = {
             BracketApp.renderThirdPlacePicker();
         }
     },
-    
-    // --- PHASE 2 RESET ---
     resetPhase2: () => {
         if(BracketApp.state.phase < 2) return;
         BracketApp.state.selectedThirds = [];
         BracketApp.state.knockout = {};
         BracketApp.state.champion = null;
-        
-        // UI Unlocking
         BracketApp.unlockPhase(2);
         document.getElementById('winner-section').classList.add('hidden');
         BracketApp.renderThirdPlacePicker();
         BracketApp.savePicks();
     },
-
     renderThirdPlacePicker: () => {
         const c = document.getElementById('third-place-container');
         const counter = document.getElementById('third-place-counter');
@@ -237,8 +229,6 @@ const BracketApp = {
         if(!isRestore) { BracketApp.state.phase = 3; BracketApp.renderThirdPlacePicker(); p3.scrollIntoView({behavior: 'smooth'}); }
         BracketApp.renderTree();
     },
-
-    // --- PHASE 3 RESET ---
     resetBracket: () => {
         if(!confirm("Clear all knockout predictions?")) return;
         BracketApp.state.knockout = {};
@@ -248,7 +238,7 @@ const BracketApp = {
         BracketApp.savePicks();
     },
 
-    // --- PHASE 3: BRACKET TREE (PAIRED LAYOUT) ---
+    // --- PHASE 3: BRACKET TREE ---
     renderTree: () => {
         const container = document.getElementById('bracket-tree');
         container.innerHTML = '';
@@ -266,81 +256,55 @@ const BracketApp = {
             return code;
         };
 
-        // Render standard columns
         stages.forEach((stage, stageIndex) => {
             const col = document.createElement('div');
             col.className = "bracket-column";
             
             const matchIds = BracketApp.orderedMatches[stageIndex];
             
-            // Loop through matches in chunks of 2 (PAIRS) to create the forks
+            // Loop in PAIRS for all stages (except final which handles itself)
             for(let i = 0; i < matchIds.length; i += (stageIndex < 4 ? 2 : 1)) {
                 
-                // If it's the Final (Stage 4), it's a single item, no pair logic needed
                 if(stageIndex === 4) {
-                    const id = matchIds[0]; // Match 104
+                    const id = matchIds[0];
                     const m = BracketApp.schedule[id];
                     let tA = BracketApp.state.knockout[`${id}-0`] || resolveTeam(m.p1);
                     let tB = BracketApp.state.knockout[`${id}-1`] || resolveTeam(m.p2);
-                    
-                    // Check previous round winners
                     if(BracketApp.state.knockout[101]) tA = BracketApp.state.knockout[101];
                     if(BracketApp.state.knockout[102]) tB = BracketApp.state.knockout[102];
 
-                    // Final Stack: Final + Bronze
                     const finalStack = document.createElement('div');
                     finalStack.className = "final-stack";
-                    
-                    // 1. World Cup Final Node
                     finalStack.innerHTML = BracketApp.renderMatchNodeHTML(id, m, tA, tB, false);
                     
-                    // 2. Bronze Match Node (Calculated)
-                    const bId = 103; 
-                    const bM = BracketApp.schedule[bId];
+                    // Bronze Logic
+                    const bId = 103; const bM = BracketApp.schedule[bId];
                     let bA = "Loser M101", bB = "Loser M102";
-                    // Find Losers logic
                     if(BracketApp.state.knockout[101]) {
                         const w = BracketApp.state.knockout[101];
                         const prevNode = document.querySelector(`.match-node[data-id="101"]`);
-                        if(prevNode) {
-                            const t1 = prevNode.querySelector('.team-slot[data-slot="0"]')?.dataset.team;
-                            const t2 = prevNode.querySelector('.team-slot[data-slot="1"]')?.dataset.team;
-                            bA = (t1 === w) ? t2 : t1; 
-                        }
+                        if(prevNode) { bA = (prevNode.querySelector('.team-slot[data-slot="0"]')?.dataset.team === w) ? prevNode.querySelector('.team-slot[data-slot="1"]')?.dataset.team : prevNode.querySelector('.team-slot[data-slot="0"]')?.dataset.team; }
                     }
                     if(BracketApp.state.knockout[102]) {
                         const w = BracketApp.state.knockout[102];
                         const prevNode = document.querySelector(`.match-node[data-id="102"]`);
-                        if(prevNode) {
-                            const t1 = prevNode.querySelector('.team-slot[data-slot="0"]')?.dataset.team;
-                            const t2 = prevNode.querySelector('.team-slot[data-slot="1"]')?.dataset.team;
-                            bB = (t1 === w) ? t2 : t1; 
-                        }
+                        if(prevNode) { bB = (prevNode.querySelector('.team-slot[data-slot="0"]')?.dataset.team === w) ? prevNode.querySelector('.team-slot[data-slot="1"]')?.dataset.team : prevNode.querySelector('.team-slot[data-slot="0"]')?.dataset.team; }
                     }
                     
-                    const bronzeHtml = `
+                    finalStack.innerHTML += `
                         <div class="match-node bg-[#151515] border border-yellow-900/30 rounded-lg w-64 relative group shadow-lg bronze-node" data-id="103">
                             <div class="bronze-label">Bronze Match</div>
-                            <div class="text-[9px] text-yellow-600 px-3 py-1.5 bg-black/40 border-b border-yellow-900/10 uppercase tracking-wider flex justify-between rounded-t-lg">
-                                <span>M103 • ${bM.date}</span><span>${bM.venue}</span>
-                            </div>
+                            <div class="text-[9px] text-yellow-600 px-3 py-1.5 bg-black/40 border-b border-yellow-900/10 uppercase tracking-wider flex justify-between rounded-t-lg"><span>M103 • ${bM.date}</span><span>${bM.venue}</span></div>
                             <div class="p-2 space-y-1">
-                                <div class="p-2 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-yellow-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, 103, 0)" data-team="${bA}" data-slot="0">
-                                    <div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(bA)}</div><span class="text-sm font-bold text-gray-400 truncate">${bA}</span></div>
-                                </div>
-                                <div class="p-2 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-yellow-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, 103, 1)" data-team="${bB}" data-slot="1">
-                                    <div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(bB)}</div><span class="text-sm font-bold text-gray-400 truncate">${bB}</span></div>
-                                </div>
+                                <div class="p-2 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-yellow-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, 103, 0)" data-team="${bA}" data-slot="0"><div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(bA)}</div><span class="text-sm font-bold text-gray-400 truncate">${bA}</span></div></div>
+                                <div class="p-2 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-yellow-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, 103, 1)" data-team="${bB}" data-slot="1"><div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(bB)}</div><span class="text-sm font-bold text-gray-400 truncate">${bB}</span></div></div>
                             </div>
-                        </div>
-                    `;
-                    
-                    finalStack.innerHTML += bronzeHtml;
+                        </div>`;
                     col.appendChild(finalStack);
                     continue;
                 }
 
-                // Normal Pairs (R32, R16, QF, SF)
+                // Standard Pairs
                 const id1 = matchIds[i];
                 const id2 = matchIds[i+1];
                 
@@ -348,35 +312,31 @@ const BracketApp = {
                 pairDiv.className = "match-pair";
                 pairDiv.dataset.pairId = `${id1}-${id2}`;
 
-                // Render Match 1
+                // Match 1
                 const m1 = BracketApp.schedule[id1];
                 let t1A = BracketApp.state.knockout[`${id1}-0`] || resolveTeam(m1.p1);
                 let t1B = BracketApp.state.knockout[`${id1}-1`] || resolveTeam(m1.p2);
-                if(stageIndex > 0) { // Check flow
-                    const feedA = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id1 && BracketApp.schedule[k].slot==0);
-                    const feedB = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id1 && BracketApp.schedule[k].slot==1);
-                    if(feedA && BracketApp.state.knockout[feedA]) t1A = BracketApp.state.knockout[feedA];
-                    if(feedB && BracketApp.state.knockout[feedB]) t1B = BracketApp.state.knockout[feedB];
+                if(stageIndex > 0) {
+                     const feedA = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id1 && BracketApp.schedule[k].slot==0);
+                     const feedB = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id1 && BracketApp.schedule[k].slot==1);
+                     if(feedA && BracketApp.state.knockout[feedA]) t1A = BracketApp.state.knockout[feedA];
+                     if(feedB && BracketApp.state.knockout[feedB]) t1B = BracketApp.state.knockout[feedB];
                 }
                 pairDiv.innerHTML += BracketApp.renderMatchNodeHTML(id1, m1, t1A, t1B, true);
 
-                // Render Match 2
+                // Match 2
                 const m2 = BracketApp.schedule[id2];
                 let t2A = BracketApp.state.knockout[`${id2}-0`] || resolveTeam(m2.p1);
                 let t2B = BracketApp.state.knockout[`${id2}-1`] || resolveTeam(m2.p2);
                 if(stageIndex > 0) {
-                    const feedA = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id2 && BracketApp.schedule[k].slot==0);
-                    const feedB = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id2 && BracketApp.schedule[k].slot==1);
-                    if(feedA && BracketApp.state.knockout[feedA]) t2A = BracketApp.state.knockout[feedA];
-                    if(feedB && BracketApp.state.knockout[feedB]) t2B = BracketApp.state.knockout[feedB];
+                     const feedA = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id2 && BracketApp.schedule[k].slot==0);
+                     const feedB = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id2 && BracketApp.schedule[k].slot==1);
+                     if(feedA && BracketApp.state.knockout[feedA]) t2A = BracketApp.state.knockout[feedA];
+                     if(feedB && BracketApp.state.knockout[feedB]) t2B = BracketApp.state.knockout[feedB];
                 }
                 pairDiv.innerHTML += BracketApp.renderMatchNodeHTML(id2, m2, t2A, t2B, true);
 
-                // Connector Visuals (The Fork)
-                pairDiv.innerHTML += `
-                    <div class="line-fork" id="fork-${id1}-${id2}"></div>
-                    <div class="line-stem" id="stem-${id1}-${id2}"></div>
-                `;
+                pairDiv.innerHTML += `<div class="line-fork" id="fork-${id1}-${id2}"></div><div class="line-stem" id="stem-${id1}-${id2}"></div>`;
                 col.appendChild(pairDiv);
             }
             container.appendChild(col);
@@ -387,7 +347,7 @@ const BracketApp = {
 
     renderMatchNodeHTML: (id, m, tA, tB, hasNext) => {
         return `
-        <div class="match-node bg-[#151515] border border-white/10 rounded-lg w-64 relative group shadow-lg z-10" data-id="${id}">
+        <div class="match-node" data-id="${id}">
             <div class="text-[9px] text-gray-500 px-3 py-1.5 bg-black/40 border-b border-white/5 uppercase tracking-wider flex justify-between rounded-t-lg">
                 <span>M${id} • ${m.date}</span><span>${m.venue}</span>
             </div>
@@ -406,7 +366,6 @@ const BracketApp = {
         const team = el.dataset.team;
         if(!team || team.includes('TBD') || team.includes('Loser') || team.includes('3rd')) return;
 
-        // Visual Selection
         const node = el.closest('.match-node');
         node.querySelectorAll('.team-slot').forEach(s => { s.classList.remove('bg-emerald-500','text-black'); s.querySelector('span').classList.remove('text-black'); });
         if(matchId===103) el.classList.add('bg-yellow-500'); else el.classList.add('bg-emerald-500');
@@ -415,9 +374,8 @@ const BracketApp = {
         BracketApp.state.knockout[matchId] = team;
         BracketApp.savePicks();
 
-        // Advance to Next Round logic
         const m = BracketApp.schedule[matchId];
-        if(matchId === 101 || matchId === 102) { BracketApp.renderTree(); } // Re-render for Bronze
+        if(matchId === 101 || matchId === 102) { BracketApp.renderTree(); }
         else if(m.next) {
             const nextNode = document.querySelector(`.match-node[data-id="${m.next}"]`);
             if(nextNode) {
@@ -426,7 +384,6 @@ const BracketApp = {
                     slot.dataset.team = team;
                     slot.querySelector('span').innerText = team;
                     slot.querySelector('.flag-box').innerHTML = BracketApp.getFlag(team);
-                    // Reset next match selection if invalid
                     nextNode.querySelectorAll('.team-slot').forEach(s => { s.classList.remove('bg-emerald-500','text-black'); s.querySelector('span').classList.remove('text-black'); });
                 }
             }
@@ -436,33 +393,18 @@ const BracketApp = {
     },
 
     updateTracers: () => {
-        // Loop through all Pairs and see if we should light up the fork
         const pairs = document.querySelectorAll('.match-pair');
         pairs.forEach(pair => {
             const [id1, id2] = pair.dataset.pairId.split('-');
             const fork = pair.querySelector('.line-fork');
             const stem = pair.querySelector('.line-stem');
             
-            // If Match 1 has a winner, light up Top Fork
-            if(BracketApp.state.knockout[id1]) fork.classList.add('active-top');
-            else fork.classList.remove('active-top');
-
-            // If Match 2 has a winner, light up Bottom Fork
-            if(BracketApp.state.knockout[id2]) fork.classList.add('active-bottom');
-            else fork.classList.remove('active-bottom');
-
-            // If Next Match (where Stem leads) has entrants, light up Stem? 
-            // Actually, light up Stem if EITHER match has a winner, showing path is active
-            if(BracketApp.state.knockout[id1] || BracketApp.state.knockout[id2]) {
-                fork.classList.add('active-stem');
-                stem.classList.add('active');
-            } else {
-                fork.classList.remove('active-stem');
-                stem.classList.remove('active');
-            }
+            if(BracketApp.state.knockout[id1]) fork.classList.add('active-top'); else fork.classList.remove('active-top');
+            if(BracketApp.state.knockout[id2]) fork.classList.add('active-bottom'); else fork.classList.remove('active-bottom');
+            if(BracketApp.state.knockout[id1] || BracketApp.state.knockout[id2]) { fork.classList.add('active-stem'); stem.classList.add('active'); } 
+            else { fork.classList.remove('active-stem'); stem.classList.remove('active'); }
         });
         
-        // Restore highlights on nodes
         Object.keys(BracketApp.state.knockout).forEach(mid => {
             const winner = BracketApp.state.knockout[mid];
             const node = document.querySelector(`.match-node[data-id="${mid}"]`);
@@ -478,7 +420,6 @@ const BracketApp = {
 
     restoreBracketState: () => { BracketApp.updateTracers(); },
     declareWinner: (n,f) => { document.getElementById('winner-section').classList.remove('hidden'); document.getElementById('champion-display').innerHTML=`${f} <span>${n}</span>`; document.getElementById('winner-section').scrollIntoView({behavior:'smooth'}); },
-    // ... utils (same as before)
     generateNanoBadge: () => {
         const btn = document.querySelector('#winner-section button'); const img = document.getElementById('generated-badge'); const winner = BracketApp.state.champion; if(!winner) return;
         btn.innerHTML = `<i data-lucide="loader-2" class="animate-spin"></i> Designing Badge...`; btn.disabled = true;
