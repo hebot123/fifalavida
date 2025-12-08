@@ -31,12 +31,13 @@ async function run() {
                     language: 'en-UK',
                     listingStatus: 'active',
                     page: page,
-                    pageSize: 100, // Max items per request
+                    pageSize: 100,
                     priceHigh: 10000000,
                     priceLow: 0,
                     sortBy: 'latestCreatedAt',
                     sortDirection: 'desc',
-                    text: 'Match' 
+                    // STRICTER SEARCH: Only find actual ticket rights
+                    text: 'Right To Ticket' 
                 },
                 headers: {
                     'User-Agent': USER_AGENT,
@@ -54,32 +55,28 @@ async function run() {
                 hasMore = false;
             } else {
                 allListings = allListings.concat(pageListings);
-                console.log(`(Got ${pageListings.length} items) - Total so far: ${allListings.length}/${totalItems}`);
+                console.log(`(Got ${pageListings.length} items) - Total so far: ${allListings.length}`);
                 
                 // Stop if we have fetched all available items
                 if (allListings.length >= totalItems) {
                     hasMore = false;
                 } else {
                     page++;
-                    // Small delay to be polite to the API and avoid rate limits
-                    await new Promise(resolve => setTimeout(resolve, 200));
+                    await new Promise(resolve => setTimeout(resolve, 200)); // Be polite to API
                 }
             }
         }
 
-        // Construct the final data object matching the API structure
         const finalData = {
             total: allListings.length,
             listings: allListings
         };
         
-        // Ensure the directory exists
         const dir = path.dirname(OUTPUT_FILE);
         if (!fs.existsSync(dir)){
             fs.mkdirSync(dir);
         }
 
-        // Save to file
         fs.writeFileSync(OUTPUT_FILE, JSON.stringify(finalData, null, 2));
         console.log(`✅ Success! Saved ${allListings.length} listings to ${OUTPUT_FILE}`);
 
