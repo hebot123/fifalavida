@@ -589,10 +589,15 @@
                             const r = await fetch('bracket.html');
                             if (r.ok) { 
                                 const html = await r.text();
-                                // Inject HTML
                                 const parser = new DOMParser();
                                 const doc = parser.parseFromString(html, 'text/html');
-                                container.innerHTML = doc.body.innerHTML;
+                                
+                                // FIX: Inject styles from bracket.html head to ensure proper layout
+                                const styles = doc.querySelectorAll('style');
+                                styles.forEach(style => container.appendChild(style));
+
+                                // Inject body content
+                                container.innerHTML += doc.body.innerHTML;
 
                                 // Manual Script Injection to ensure BracketApp loads
                                 const script = document.createElement('script');
