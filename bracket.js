@@ -201,7 +201,7 @@ const BracketApp = {
             const sel = BracketApp.state.selectedThirds.includes(k.team);
             let cls = sel ? 'bg-yellow-500/20 border-yellow-500 shadow-[0_0_15px_rgba(234,179,8,0.2)]' : 'bg-black/40 border-white/10 opacity-70 hover:opacity-100 hover:bg-white/5';
             if(locked && !sel) cls = 'bg-black/20 border-white/5 opacity-20 grayscale';
-            return `<div onclick="${!locked?`BracketApp.toggleThirdPlace('${k.team}')`:''}" class="cursor-pointer border rounded-xl p-4 flex flex-col items-center justify-center gap-3 transition-all duration-300 relative group transform ${sel?'scale-105':'scale-100'} ${cls}">
+            return `<div onclick="${!locked?`BracketApp.toggleThirdPlace('${k.team.replace(/'/g, "\\'")}')`:''}" class="cursor-pointer border rounded-xl p-4 flex flex-col items-center justify-center gap-3 transition-all duration-300 relative group transform ${sel?'scale-105':'scale-100'} ${cls}">
                 <div class="absolute top-2 left-3 text-[10px] text-gray-500 font-bold uppercase tracking-widest">Group ${k.group}</div>
                 ${sel?'<div class="absolute top-2 right-2 text-yellow-400 bg-yellow-900/50 rounded-full p-0.5"><i data-lucide="check" class="w-3 h-3"></i></div>':''}
                 <div class="mt-4 transform scale-150 shadow-lg">${BracketApp.getFlag(k.team)}</div>
