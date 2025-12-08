@@ -10,53 +10,53 @@ const TicketEngine = {
     // Maps Match ID -> [Team A, Team B]
     matchSchedule: {
         // GROUP A
-        1: ["Mexico", "South Africa"], 2: ["Korea Republic", "Winner Play-off D"],
-        25: ["Winner Play-off D", "South Africa"], 28: ["Mexico", "Korea Republic"],
-        53: ["Winner Play-off D", "Mexico"], 54: ["South Africa", "Korea Republic"],
+        1: ["Mexico", "Winner AFC/CAF Play-off"], 2: ["Germany", "Scotland"],
+        25: ["Mexico", "Germany"], 28: ["Scotland", "Winner AFC/CAF Play-off"],
+        53: ["Scotland", "Mexico"], 54: ["Winner AFC/CAF Play-off", "Germany"],
         // GROUP B
-        3: ["Canada", "Winner Play-off A"], 8: ["Qatar", "Switzerland"],
-        26: ["Switzerland", "Winner Play-off A"], 27: ["Canada", "Qatar"],
-        51: ["Switzerland", "Canada"], 52: ["Winner Play-off A", "Qatar"],
+        3: ["Canada", "Cameroon"], 8: ["Argentina", "Winner CONMEBOL/CONCACAF Play-off"],
+        26: ["Canada", "Argentina"], 27: ["Winner CONMEBOL/CONCACAF Play-off", "Cameroon"],
+        51: ["Winner CONMEBOL/CONCACAF Play-off", "Canada"], 52: ["Cameroon", "Argentina"],
         // GROUP C
-        5: ["Brazil", "Morocco"], 7: ["Haiti", "Scotland"],
-        29: ["Scotland", "Morocco"], 30: ["Brazil", "Haiti"],
-        49: ["Scotland", "Brazil"], 50: ["Morocco", "Haiti"],
+        5: ["England", "IR Iran"], 7: ["Colombia", "Paraguay"],
+        29: ["England", "Colombia"], 30: ["Paraguay", "IR Iran"],
+        49: ["Paraguay", "England"], 50: ["IR Iran", "Colombia"],
         // GROUP D
-        4: ["USA", "Paraguay"], 6: ["Australia", "Winner Play-off C"],
-        31: ["Winner Play-off C", "Paraguay"], 32: ["USA", "Australia"],
-        59: ["Winner Play-off C", "USA"], 60: ["Paraguay", "Australia"],
+        4: ["USA", "Panama"], 6: ["Netherlands", "Senegal"],
+        31: ["USA", "Netherlands"], 32: ["Senegal", "Panama"],
+        59: ["Senegal", "USA"], 60: ["Panama", "Netherlands"],
         // GROUP E
-        9: ["Côte d'Ivoire", "Ecuador"], 10: ["Germany", "Curaçao"],
-        33: ["Germany", "Côte d'Ivoire"], 34: ["Ecuador", "Curaçao"],
-        55: ["Ecuador", "Germany"], 56: ["Curaçao", "Côte d'Ivoire"],
+        9: ["Spain", "Winner OFC/AFC Play-off"], 10: ["Belgium", "Saudi Arabia"],
+        33: ["Spain", "Belgium"], 34: ["Saudi Arabia", "Winner OFC/AFC Play-off"],
+        55: ["Saudi Arabia", "Spain"], 56: ["Winner OFC/AFC Play-off", "Belgium"],
         // GROUP F
-        11: ["Netherlands", "Japan"], 12: ["Winner Play-off B", "Tunisia"],
-        35: ["Netherlands", "Winner Play-off B"], 36: ["Tunisia", "Japan"],
-        57: ["Japan", "Winner Play-off B"], 58: ["Tunisia", "Netherlands"],
+        11: ["Brazil", "Winner UEFA Play-off B"], 12: ["France", "Qatar"],
+        35: ["Brazil", "France"], 36: ["Qatar", "Winner UEFA Play-off B"],
+        57: ["Qatar", "Brazil"], 58: ["Winner UEFA Play-off B", "France"],
         // GROUP G
-        15: ["IR Iran", "New Zealand"], 16: ["Belgium", "Egypt"],
-        39: ["Belgium", "IR Iran"], 40: ["New Zealand", "Egypt"],
-        63: ["Egypt", "IR Iran"], 64: ["New Zealand", "Belgium"],
+        15: ["Portugal", "Uruguay"], 16: ["Japan", "Nigeria"],
+        39: ["Portugal", "Japan"], 40: ["Nigeria", "Uruguay"],
+        63: ["Nigeria", "Portugal"], 64: ["Uruguay", "Japan"],
         // GROUP H
-        13: ["Saudi Arabia", "Uruguay"], 14: ["Spain", "Cabo Verde"],
-        37: ["Uruguay", "Cabo Verde"], 38: ["Spain", "Saudi Arabia"],
-        65: ["Cabo Verde", "Saudi Arabia"], 66: ["Uruguay", "Spain"],
+        13: ["Croatia", "Egypt"], 14: ["Morocco", "Korea Republic"],
+        37: ["Morocco", "Croatia"], 38: ["Egypt", "Korea Republic"],
+        65: ["Korea Republic", "Croatia"], 66: ["Egypt", "Morocco"],
         // GROUP I
-        17: ["France", "Senegal"], 18: ["Winner Play-off 2", "Norway"],
-        41: ["France", "Winner Play-off 2"], 42: ["Norway", "Senegal"],
-        61: ["Norway", "France"], 62: ["Senegal", "Winner Play-off 2"],
+        17: ["Switzerland", "Australia"], 18: ["Winner UEFA Play-off A", "Mali"],
+        41: ["Switzerland", "Winner UEFA Play-off A"], 42: ["Mali", "Australia"],
+        61: ["Mali", "Switzerland"], 62: ["Australia", "Winner UEFA Play-off A"],
         // GROUP J
-        19: ["Argentina", "Algeria"], 20: ["Austria", "Jordan"],
-        43: ["Argentina", "Austria"], 44: ["Jordan", "Algeria"],
-        69: ["Algeria", "Austria"], 70: ["Jordan", "Argentina"],
+        19: ["Italy", "Uzbekistan"], 20: ["Sweden", "South Africa"],
+        43: ["Italy", "Sweden"], 44: ["South Africa", "Uzbekistan"],
+        69: ["South Africa", "Italy"], 70: ["Uzbekistan", "Sweden"],
         // GROUP K
-        23: ["Portugal", "Winner Play-off 1"], 24: ["Uzbekistan", "Colombia"],
-        47: ["Portugal", "Uzbekistan"], 48: ["Colombia", "Winner Play-off 1"],
-        71: ["Colombia", "Portugal"], 72: ["Winner Play-off 1", "Uzbekistan"],
+        23: ["Serbia", "DR Congo"], 24: ["Denmark", "Iraq"],
+        47: ["Serbia", "Denmark"], 48: ["Iraq", "DR Congo"],
+        71: ["Iraq", "Serbia"], 72: ["DR Congo", "Denmark"],
         // GROUP L
-        21: ["Ghana", "Panama"], 22: ["England", "Croatia"],
-        45: ["England", "Ghana"], 46: ["Panama", "Croatia"],
-        67: ["Panama", "England"], 68: ["Croatia", "Ghana"]
+        21: ["Norway", "Algeria"], 22: ["Ecuador", "Honduras"],
+        45: ["Norway", "Ecuador"], 46: ["Honduras", "Algeria"],
+        67: ["Honduras", "Norway"], 68: ["Algeria", "Ecuador"]
     },
 
     state: {
