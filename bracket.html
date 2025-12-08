@@ -23,29 +23,31 @@
     .glass-panel { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
     .phase-locked { opacity: 0.5; pointer-events: none; filter: grayscale(100%); transition: all 0.5s; }
     
-    /* --- BRACKET VISUALS --- */
+    /* --- BRACKET LAYOUT FIXED --- */
     .bracket-wrapper {
-        display: flex;
-        flex-direction: row; /* Forces horizontal layout */
-        gap: 80px;         /* Increased gap for better spacing */
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        gap: 60px;                          /* Gap between columns */
         padding-bottom: 40px;
         padding-left: 20px;
-        align-items: stretch; /* Ensures all columns are same height for vertical alignment */
+        align-items: stretch;
     }
 
     .bracket-column { 
         display: flex; 
         flex-direction: column; 
         justify-content: space-around; 
-        width: 320px;      /* Wider columns for desktop */
-        flex-shrink: 0;    /* Prevents columns from squishing */
+        width: 300px !important;    /* Column is WIDER than the node */
+        flex-shrink: 0 !important;
         position: relative;
+        align-items: flex-start;    /* Aligns nodes to the left */
     }
 
-    /* Match Node */
+    /* Match Node - Narrower than column */
     .match-node {
         height: 96px; 
-        width: 100%;
+        width: 260px !important;    /* Node is narrower (leaves 40px space on right) */
         position: relative;
         z-index: 20;
         background: #151515;
@@ -62,16 +64,19 @@
         justify-content: center;
         gap: 40px; 
         position: relative;
-        height: 100%; /* Important for vertical centering */
+        height: 100%;
+        width: 100%;
     }
     
-    /* Connector Lines (Calculated for 80px gap) */
+    /* Connector Lines - Spanning 100px total (40px column space + 60px gap) */
     .line-fork { 
         position: absolute; 
-        right: -40px;    /* Half of gap */
+        right: -50px;    /* Starts 50px right of Node center? No, relative to Node Edge */
+        /* Note: Node is 260px. Column is 300px. Gap is 60px. Total distance to next node is 100px. */
+        /* We split the 100px line into two 50px segments */
         top: 48px;    
         bottom: 48px; 
-        width: 40px;     /* Half of gap */
+        width: 50px;     
         border-right: 2px solid #333; 
         border-top: 2px solid #333; 
         border-bottom: 2px solid #333; 
@@ -82,30 +87,30 @@
     
     .line-stem { 
         position: absolute; 
-        right: -80px;    /* Full gap width */
+        right: -100px;   /* Reaches fully to the next node */
         top: 50%; 
-        width: 40px;     /* Remaining half */
+        width: 50px; 
         height: 2px; 
         background: #333; 
         z-index: 10; 
         pointer-events: none; 
     }
 
-    /* Active State Colors */
+    /* Colors */
     .line-fork.active-top { border-top-color: #10B981; } 
     .line-fork.active-bottom { border-bottom-color: #10B981; }
     .line-fork.active-stem { border-right-color: #10B981; box-shadow: 2px 0 8px rgba(16, 185, 129, 0.2); }
     .line-stem.active { background: #10B981; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
 
-    /* Bronze/Final */
     .bronze-node { margin-top: 40px; border-color: rgba(245, 158, 11, 0.3); }
-    .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; }
+    .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%; }
 
     /* Header Styling */
     .header-cell {
-        width: 320px; /* MUST Match .bracket-column width */
+        width: 300px !important; /* Matches Column Width */
         flex-shrink: 0;
-        text-align: center;
+        text-align: left;        /* Left align text to match the node alignment */
+        padding-left: 10px;      /* Slight indent */
         font-family: 'Oswald', sans-serif;
         font-size: 1.5rem;
         font-weight: bold;
@@ -116,7 +121,7 @@
 </style>
 </head>
 <body class="min-h-screen flex flex-col overflow-hidden"> <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-[60] backdrop-blur-md">
-        <div class="max-w-[1600px] mx-auto px-4 h-20 flex justify-between items-center">
+        <div class="w-full px-8 h-20 flex justify-between items-center">
             <div class="flex items-center gap-2 cursor-pointer" onclick="window.location.href='index.html'">
                 <img src="./assets/logo_b.jpg" alt="Logo" class="h-10 w-auto">
                 <span class="brand-font text-xl font-bold hidden md:block">Bracket Challenge</span>
@@ -197,7 +202,7 @@
                     
                     <div class="w-max mx-auto">
                         
-                        <div class="sticky top-0 z-40 flex gap-[80px] pb-6 bg-[#0a0a0a]/95 backdrop-blur-sm border-b border-white/5 mb-8 pt-2">
+                        <div class="sticky top-0 z-40 flex gap-[60px] pb-6 bg-[#0a0a0a]/95 backdrop-blur-sm border-b border-white/5 mb-8 pt-2">
                             <div class="header-cell">Round of 32</div>
                             <div class="header-cell">Round of 16</div>
                             <div class="header-cell">Quarter Finals</div>
