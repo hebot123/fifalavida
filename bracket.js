@@ -339,6 +339,10 @@ const BracketApp = {
                 const matchDiv = document.createElement('div');
                 matchDiv.className = "match-node bg-[#151515] border border-white/10 rounded-lg mb-4 w-64 relative group shadow-lg";
                 matchDiv.dataset.id = id;
+                
+                if (id === 101 || id === 102) {
+                    connectorHtml += `<div class="connector-bronze"></div>`;
+                }
 
                 matchDiv.innerHTML = `
                     <div class="text-[9px] text-gray-500 px-3 py-1.5 bg-black/40 border-b border-white/5 uppercase tracking-wider flex justify-between rounded-t-lg">
@@ -368,43 +372,50 @@ const BracketApp = {
             container.appendChild(col);
         });
 
-        // BRONZE MATCH
-        const bronzeCol = document.createElement('div');
-        bronzeCol.className = "flex flex-col justify-end pb-8 relative z-10 ml-8";
-        const bMatch = BracketApp.schedule[103];
+        // FINAL & BRONZE MATCH CONTAINER
+        const finalColumn = document.querySelector('#bracket-tree > div:last-child');
+        const finalMatchNode = finalColumn.querySelector('.match-node[data-id="104"]');
         
+        const finalContainer = document.createElement('div');
+        finalContainer.className = "final-matches-container";
+
+        const bMatch = BracketApp.schedule[103];
         let bTeamA = "Loser M101", bTeamB = "Loser M102";
         const winner101 = BracketApp.state.knockout[101];
         if(winner101) {
             const t1 = document.querySelector(`.match-node[data-id="101"] .team-slot:nth-child(1)`)?.getAttribute('data-team');
             const t2 = document.querySelector(`.match-node[data-id="101"] .team-slot:nth-child(2)`)?.getAttribute('data-team');
-            bTeamA = (t1 === winner101) ? t2 : t1;
+            bTeamA = (t1 === winner101) ? (t2 || "Loser M101") : (t1 || "Loser M101");
         }
         const winner102 = BracketApp.state.knockout[102];
         if(winner102) {
             const t1 = document.querySelector(`.match-node[data-id="102"] .team-slot:nth-child(1)`)?.getAttribute('data-team');
             const t2 = document.querySelector(`.match-node[data-id="102"] .team-slot:nth-child(2)`)?.getAttribute('data-team');
-            bTeamB = (t1 === winner102) ? t2 : t1;
+            bTeamB = (t1 === winner102) ? (t2 || "Loser M102") : (t1 || "Loser M102");
         }
 
-        bronzeCol.innerHTML = `
-            <div class="match-node bg-[#151515] border border-yellow-900/30 rounded-lg w-64 relative group shadow-lg" data-id="103">
+        const bronzeMatchHTML = `
+            <div class="match-node bg-[#151515] border border-yellow-900/30 rounded-lg w-64 relative group shadow-lg bronze-match" data-id="103">
                 <div class="text-[9px] text-yellow-600 px-3 py-1.5 bg-black/40 border-b border-yellow-900/10 uppercase tracking-wider flex justify-between rounded-t-lg">
                     <span>M103 • ${bMatch.date}</span>
                     <span>${bMatch.venue}</span>
                 </div>
                 <div class="p-2 space-y-1">
                     <div class="p-2 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-yellow-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, 103, 0)" data-team="${bTeamA}">
-                        <div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(bTeamA)}</div><span class="text-sm font-bold text-gray-400">${bTeamA}</span></div>
+                        <div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(bTeamA)}</div><span class="text-sm font-bold text-gray-400 truncate">${bTeamA}</span></div>
                     </div>
                     <div class="p-2 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-yellow-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, 103, 1)" data-team="${bTeamB}">
-                        <div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(bTeamB)}</div><span class="text-sm font-bold text-gray-400">${bTeamB}</span></div>
+                        <div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(bTeamB)}</div><span class="text-sm font-bold text-gray-400 truncate">${bTeamB}</span></div>
                     </div>
                 </div>
                 <div class="absolute -top-6 left-0 w-full text-center text-[10px] text-yellow-500 font-bold uppercase tracking-widest">Bronze Match</div>
             </div>
         `;
-        container.appendChild(bronzeCol);
+        
+        finalContainer.appendChild(finalMatchNode.cloneNode(true));
+        finalContainer.innerHTML += bronzeMatchHTML;
+        finalColumn.innerHTML = '';
+        finalColumn.appendChild(finalContainer);
     },
 
     advanceTeam: (el, matchId, slotIdx) => {
