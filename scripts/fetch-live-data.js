@@ -6,7 +6,7 @@ const fs = require('fs');
 const axios = require('axios');
 const path = require('path');
 
-// THE NEW ENDPOINT YOU FOUND
+// THE NEW ENDPOINT (Rock Palisade API)
 const FIFA_API_URL = 'https://api.prod.rock-palisade-352518.com/marketplace/v2/listings/search';
 
 const OUTPUT_FILE = path.join(__dirname, '../data/live-listings.json');
@@ -14,20 +14,25 @@ const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 
 async function run() {
     try {
-        console.log('⚽ Fetching data from FIFA Collect (Rock Palisade API)...');
+        console.log('⚽ Fetching "Right to Ticket" data from FIFA Collect...');
         
-        // We use the exact parameters found in your URL
         const response = await axios.get(FIFA_API_URL, {
             params: {
+                // Standard parameters from the live site
                 generalClubs: 'All',
                 language: 'en-UK',
                 listingStatus: 'active',
                 page: 1,
-                pageSize: 100, // I increased this from 30 to 100 so you get more results
+                pageSize: 100, // Fetch 100 items to maximize chances of finding tickets
                 priceHigh: 10000000,
                 priceLow: 0,
                 sortBy: 'latestCreatedAt',
-                sortDirection: 'desc'
+                sortDirection: 'desc',
+                
+                // CRITICAL FILTER: 
+                // This ensures we only get items with "Match" in the name (Tickets),
+                // filtering out the "Luis Quiñones" player cards.
+                text: 'Match' 
             },
             headers: {
                 'User-Agent': USER_AGENT,
@@ -49,13 +54,15 @@ async function run() {
         
         // Log success details
         const itemCount = data.items ? data.items.length : (Array.isArray(data) ? data.length : 0);
-        console.log(`✅ Success! Data saved to ${OUTPUT_FILE} (${itemCount} items found)`);
+        console.log(`✅ Success! Data saved to ${OUTPUT_FILE} (${itemCount} ticket items found)`);
 
     } catch (error) {
         console.error('❌ Error fetching data:', error.message);
         if (error.response) {
             console.error('Status Code:', error.response.status);
-            console.error('Response Data:', JSON.stringify(error.response.data, null, 2));
+            // Log a snippet of the error data to avoid flooding logs
+            const errorPreview = JSON.stringify(error.response.data).substring(0, 200);
+            console.error('Response Data:', errorPreview + '...');
         }
         process.exit(1); 
     }
