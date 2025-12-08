@@ -25,22 +25,24 @@
         /* --- BRACKET VISUALS --- */
         .bracket-container {
             display: flex;
-            gap: 60px; /* Space between columns */
+            flex-direction: row; /* Force horizontal layout */
+            gap: 60px;         /* Fixed gap between columns */
             padding-bottom: 50px;
-            min-width: 1600px;
+            min-width: 1600px; /* Ensure wide enough for all columns */
         }
 
         .bracket-column { 
             display: flex; 
             flex-direction: column; 
             justify-content: space-around; 
-            min-width: 260px; 
+            width: 260px;      /* Fixed width */
+            flex-shrink: 0;    /* Prevent shrinking */
             position: relative;
         }
 
-        /* Match Node: Fixed height for perfect line alignment */
+        /* Match Node: Fixed height (96px) for perfect line alignment */
         .match-node {
-            height: 96px; /* h-24 */
+            height: 96px; 
             width: 100%;
             position: relative;
             z-index: 20;
@@ -56,17 +58,18 @@
             display: flex; 
             flex-direction: column; 
             justify-content: center;
-            gap: 40px; /* Vertical gap between the two matches in a pair */
+            gap: 40px; 
             position: relative;
-            height: 100%; /* Fill available space in column to distribute evenly */
+            height: 100%; 
         }
         
         /* The Connector Fork (Vertical Bracket) */
         .line-fork { 
             position: absolute; 
-            right: -30px; /* Push out to right */
-            top: 48px;    /* Center of Top Node (96px / 2) */
-            bottom: 48px; /* Center of Bottom Node */
+            right: -30px; 
+            /* 48px is exactly half of the 96px card height */
+            top: 48px;    
+            bottom: 48px; 
             width: 30px; 
             border-right: 2px solid #333; 
             border-top: 2px solid #333; 
@@ -79,7 +82,7 @@
         /* The Stem (Horizontal Line to Next Match) */
         .line-stem { 
             position: absolute; 
-            right: -60px; /* Reach fully across the gap (matches column gap) */
+            right: -60px; /* Matches the column gap exactly */
             top: 50%; 
             width: 30px; 
             height: 2px; 
@@ -88,7 +91,7 @@
             pointer-events: none; 
         }
 
-        /* Active State Colors */
+        /* Active State Colors (Green) */
         .line-fork.active-top { border-top-color: #10B981; } 
         .line-fork.active-bottom { border-bottom-color: #10B981; }
         .line-fork.active-stem { border-right-color: #10B981; box-shadow: 2px 0 8px rgba(16, 185, 129, 0.2); }
@@ -100,10 +103,12 @@
             font-family: 'Oswald', sans-serif;
             font-size: 1.5rem;
             font-weight: bold;
-            color: #4b5563; /* Gray-600 */
+            color: #9ca3af; 
             text-transform: uppercase;
-            margin-bottom: 20px;
             letter-spacing: 0.05em;
+            background: #000; /* Solid background to hide content behind sticky header */
+            padding-bottom: 20px;
+            padding-top: 10px;
         }
 
         /* Bronze Node Specifics */
@@ -113,7 +118,7 @@
 </head>
 <body class="min-h-screen flex flex-col">
 
-    <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-50 backdrop-blur-md">
+    <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-[60] backdrop-blur-md">
         <div class="max-w-[1600px] mx-auto px-4 h-20 flex justify-between items-center">
             <div class="flex items-center gap-2 cursor-pointer" onclick="window.location.href='index.html'">
                 <img src="./assets/logo_b.jpg" alt="Logo" class="h-10 w-auto">
@@ -125,8 +130,7 @@
                     <i data-lucide="share-2" class="w-4 h-4"></i> Share
                 </button>
             </div>
-        </div>
-    </nav>
+        </nav>
 
     <main class="flex-grow p-4 md:p-8" id="bracket-capture-area">
         
@@ -191,12 +195,12 @@
                 </div>
             </div>
             
-            <div class="flex gap-[60px] min-w-[1600px] px-4 mb-4">
-                <div class="min-w-[260px] column-header">Round of 32</div>
-                <div class="min-w-[260px] column-header">Round of 16</div>
-                <div class="min-w-[260px] column-header">Quarter Finals</div>
-                <div class="min-w-[260px] column-header">Semi Finals</div>
-                <div class="min-w-[260px] column-header">Final</div>
+            <div class="sticky top-20 z-50 flex gap-[60px] min-w-[1600px] px-4 mb-4 border-b border-white/10 bg-black/95">
+                <div class="w-[260px] flex-shrink-0 column-header">Round of 32</div>
+                <div class="w-[260px] flex-shrink-0 column-header">Round of 16</div>
+                <div class="w-[260px] flex-shrink-0 column-header">Quarter Finals</div>
+                <div class="w-[260px] flex-shrink-0 column-header">Semi Finals</div>
+                <div class="w-[260px] flex-shrink-0 column-header">Final</div>
             </div>
 
             <div id="bracket-tree" class="bracket-container px-4"></div>
