@@ -1,0 +1,111 @@
+<div class="pt-10 pb-20">
+    <div class="max-w-[1600px] mx-auto px-4">
+        
+        <div class="flex flex-col md:flex-row justify-between items-end mb-10 border-b border-white/10 pb-8">
+            <div>
+                <div class="flex items-center gap-3 mb-2">
+                    <span class="bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded text-xs font-bold uppercase tracking-wider border border-emerald-500/30">Beta</span>
+                    <h1 class="text-4xl md:text-6xl font-bold font-oswald text-white">TICKET TRACKER</h1>
+                </div>
+                <p class="text-gray-400 max-w-2xl text-lg">
+                    Monitor real-time "Right to Ticket" token prices from the official FIFA Collect marketplace. 
+                    This is a secondary market for digital collectibles that may grant access to tickets, not the official FIFA ticket resale platform.
+                    Filter by team, city, or budget to find potential deals for 2026.
+                </p>
+            </div>
+            <div class="mt-6 md:mt-0">
+                <a href="https://collect.fifa.com/marketplace?referrer=fifalavida" target="_blank" class="flex items-center gap-2 text-emerald-400 hover:text-white transition font-bold uppercase tracking-widest text-sm">
+                    View Official Marketplace <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 rounded-xl p-4 mb-8">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                <div>
+                    <label class="block text-xs uppercase font-bold text-gray-500 mb-1">Competition</label>
+                    <select disabled class="w-full bg-black/50 border border-white/20 text-gray-400 rounded px-3 py-2 text-sm cursor-not-allowed">
+                        <option>World Cup 2026</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase font-bold text-gray-500 mb-1">Host Country</label>
+                    <select id="filter-country" data-filter-type="country" class="ticket-filter w-full bg-black border border-white/20 text-white rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none">
+                        <option value="">All</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase font-bold text-gray-500 mb-1">City</label>
+                    <select id="filter-city" data-filter-type="city" class="ticket-filter w-full bg-black border border-white/20 text-white rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none">
+                        <option value="">All</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase font-bold text-gray-500 mb-1">Team</label>
+                    <select id="filter-team" data-filter-type="team" class="ticket-filter w-full bg-black border border-white/20 text-white rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none">
+                        <option value="">All</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase font-bold text-gray-500 mb-1">Round</label>
+                    <select id="filter-round" data-filter-type="round" class="ticket-filter w-full bg-black border border-white/20 text-white rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none">
+                        <option value="">All</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs uppercase font-bold text-gray-500 mb-1">Category</label>
+                    <select id="filter-category" data-filter-type="category" class="ticket-filter w-full bg-black border border-white/20 text-white rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none">
+                        <option value="">All</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center mt-4 pt-4 border-t border-white/10">
+                <div class="text-sm text-emerald-400 font-mono font-bold" id="ticket-count">Loading...</div>
+                <div class="flex items-center gap-2">
+                    <label class="text-xs uppercase font-bold text-gray-500">Sort By:</label>
+                    <select id="ticket-sort-select" class="bg-black border border-white/20 text-white rounded px-3 py-1.5 text-sm focus:border-emerald-500 outline-none">
+                        <option value="matchNo">Match Number</option>
+                        <option value="priceAsc">Lowest Price</option>
+                        <option value="priceDesc">Highest Price</option>
+                        <option value="lastSale">Last Sale Price</option>
+                        <option value="volume">Volume</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white/5 border border-white/10 rounded-xl overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse min-w-[1000px]">
+                    <thead>
+                        <tr class="bg-white/5 text-xs uppercase tracking-widest text-gray-500 border-b border-white/10">
+                            <th class="p-4 font-bold">No.</th>
+                            <th class="p-4 font-bold">Match</th>
+                            <th class="p-4 font-bold">Location</th>
+                            <th class="p-4 font-bold">Round</th>
+                            <th class="p-4 font-bold">Cat</th>
+                            <th class="p-4 font-bold">Face Value</th>
+                            <th class="p-4 font-bold">Volume</th>
+                            <th class="p-4 font-bold">Last Sale</th>
+                            <th class="p-4 font-bold">Starting At</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ticket-table-body" class="text-sm">
+                        </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <p class="text-center text-gray-600 text-xs mt-8 uppercase tracking-widest">
+            * Data is mocked for demonstration. Prices do not reflect real-time market values. <br>
+            Not affiliated with FIFA.
+        </p>
+
+    </div>
+</div>
