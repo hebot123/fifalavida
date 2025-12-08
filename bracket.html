@@ -15,32 +15,32 @@
         body { font-family: 'Inter', sans-serif; background-color: #000; color: white; }
         h1, h2, h3, .brand-font { font-family: 'Oswald', sans-serif; text-transform: uppercase; }
         
-        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
         ::-webkit-scrollbar-track { background: #111; }
-        ::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
         
         .glass-panel { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
         .phase-locked { opacity: 0.5; pointer-events: none; filter: grayscale(100%); transition: all 0.5s; }
         
         /* --- BRACKET VISUALS --- */
-        .bracket-container {
+        .bracket-wrapper {
             display: flex;
-            flex-direction: row; /* Force horizontal layout */
-            gap: 60px;         /* Fixed gap between columns */
-            padding-bottom: 50px;
-            min-width: 1600px; /* Ensure wide enough for all columns */
+            flex-direction: row;
+            gap: 60px; /* Precise gap matching header */
+            padding-bottom: 40px;
         }
 
         .bracket-column { 
             display: flex; 
             flex-direction: column; 
             justify-content: space-around; 
-            width: 260px;      /* Fixed width */
-            flex-shrink: 0;    /* Prevent shrinking */
+            width: 260px;      /* Fixed width matching header */
+            flex-shrink: 0;    
             position: relative;
         }
 
-        /* Match Node: Fixed height (96px) for perfect line alignment */
+        /* Match Node: Fixed height (96px) */
         .match-node {
             height: 96px; 
             width: 100%;
@@ -53,7 +53,6 @@
         }
         .match-node:hover { border-color: rgba(16, 185, 129, 0.5); }
 
-        /* Match Pair: The container for 2 matches that feed the next round */
         .match-pair { 
             display: flex; 
             flex-direction: column; 
@@ -63,11 +62,10 @@
             height: 100%; 
         }
         
-        /* The Connector Fork (Vertical Bracket) */
+        /* Connector Lines */
         .line-fork { 
             position: absolute; 
             right: -30px; 
-            /* 48px is exactly half of the 96px card height */
             top: 48px;    
             bottom: 48px; 
             width: 30px; 
@@ -79,10 +77,9 @@
             pointer-events: none; 
         }
         
-        /* The Stem (Horizontal Line to Next Match) */
         .line-stem { 
             position: absolute; 
-            right: -60px; /* Matches the column gap exactly */
+            right: -60px; 
             top: 50%; 
             width: 30px; 
             height: 2px; 
@@ -91,14 +88,20 @@
             pointer-events: none; 
         }
 
-        /* Active State Colors (Green) */
+        /* Active State Colors */
         .line-fork.active-top { border-top-color: #10B981; } 
         .line-fork.active-bottom { border-bottom-color: #10B981; }
         .line-fork.active-stem { border-right-color: #10B981; box-shadow: 2px 0 8px rgba(16, 185, 129, 0.2); }
         .line-stem.active { background: #10B981; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
 
-        /* Headers */
-        .column-header {
+        /* Bronze/Final */
+        .bronze-node { margin-top: 40px; border-color: rgba(245, 158, 11, 0.3); }
+        .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; }
+
+        /* Header Styling */
+        .header-cell {
+            width: 260px;
+            flex-shrink: 0;
             text-align: center;
             font-family: 'Oswald', sans-serif;
             font-size: 1.5rem;
@@ -106,19 +109,10 @@
             color: #9ca3af; 
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            background: #000; /* Solid background to hide content behind sticky header */
-            padding-bottom: 20px;
-            padding-top: 10px;
         }
-
-        /* Bronze Node Specifics */
-        .bronze-node { margin-top: 40px; border-color: rgba(245, 158, 11, 0.3); }
-        .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; }
     </style>
 </head>
-<body class="min-h-screen flex flex-col">
-
-    <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-[60] backdrop-blur-md">
+<body class="min-h-screen flex flex-col overflow-hidden"> <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-[60] backdrop-blur-md">
         <div class="max-w-[1600px] mx-auto px-4 h-20 flex justify-between items-center">
             <div class="flex items-center gap-2 cursor-pointer" onclick="window.location.href='index.html'">
                 <img src="./assets/logo_b.jpg" alt="Logo" class="h-10 w-auto">
@@ -130,12 +124,12 @@
                     <i data-lucide="share-2" class="w-4 h-4"></i> Share
                 </button>
             </div>
-        </nav>
+        </div>
+    </nav>
 
-    <main class="flex-grow p-4 md:p-8" id="bracket-capture-area">
+    <main class="flex-grow p-4 md:p-8 overflow-y-auto h-[calc(100vh-80px)]" id="main-scroll-area">
         
-        <div class="max-w-7xl mx-auto mb-12 text-center">
-            <h1 class="text-5xl md:text-7xl font-bold mb-4">Predict The <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">Champion</span></h1>
+        <div class="max-w-7xl mx-auto mb-8 text-center" id="bracket-capture-area"> <h1 class="text-5xl md:text-7xl font-bold mb-4">Predict The <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">Champion</span></h1>
             <p class="text-gray-400 max-w-2xl mx-auto">1. Order Groups &nbsp;|&nbsp; 2. Pick Wildcards &nbsp;|&nbsp; 3. Fill Bracket</p>
         </div>
 
@@ -182,8 +176,8 @@
             </div>
         </div>
 
-        <div id="phase-3-container" class="max-w-[1900px] mx-auto overflow-x-auto pb-20 hidden opacity-0 transition-all duration-500">
-             <div class="flex justify-between items-end mb-6 border-b border-white/10 pb-2 min-w-[1400px]">
+        <div id="phase-3-container" class="hidden opacity-0 transition-all duration-500 pb-20">
+             <div class="max-w-[1600px] mx-auto flex justify-between items-end mb-6 border-b border-white/10 pb-2">
                 <div>
                     <span class="text-xs text-cyan-400 font-bold uppercase tracking-widest">Step 3</span>
                     <h2 class="text-2xl font-bold">The Knockout Bracket</h2>
@@ -191,22 +185,31 @@
                 <div class="flex items-center gap-4">
                     <button onclick="BracketApp.resetBracket()" class="text-xs text-gray-400 hover:text-red-400 uppercase font-bold flex items-center gap-1 transition"><i data-lucide="rotate-ccw" class="w-3 h-3"></i> Reset Bracket</button>
                     <div class="h-4 w-px bg-white/20"></div>
-                    <div class="text-xs text-gray-500 uppercase tracking-wider">Scroll right <i data-lucide="arrow-right" class="w-3 h-3 inline"></i></div>
+                    <div class="text-xs text-gray-500 uppercase tracking-wider">Scroll <i data-lucide="move" class="w-3 h-3 inline"></i></div>
                 </div>
             </div>
             
-            <div class="sticky top-20 z-50 flex gap-[60px] min-w-[1600px] px-4 mb-4 border-b border-white/10 bg-black/95">
-                <div class="w-[260px] flex-shrink-0 column-header">Round of 32</div>
-                <div class="w-[260px] flex-shrink-0 column-header">Round of 16</div>
-                <div class="w-[260px] flex-shrink-0 column-header">Quarter Finals</div>
-                <div class="w-[260px] flex-shrink-0 column-header">Semi Finals</div>
-                <div class="w-[260px] flex-shrink-0 column-header">Final</div>
-            </div>
+            <div class="max-w-[1700px] mx-auto border border-white/10 rounded-2xl bg-[#0a0a0a] overflow-hidden shadow-2xl">
+                <div class="overflow-auto h-[75vh] w-full p-8 relative" id="bracket-scroll-viewport">
+                    
+                    <div class="w-max mx-auto">
+                        
+                        <div class="sticky top-0 z-40 flex gap-[60px] pb-6 bg-[#0a0a0a]/95 backdrop-blur-sm border-b border-white/5 mb-8 pt-2">
+                            <div class="header-cell">Round of 32</div>
+                            <div class="header-cell">Round of 16</div>
+                            <div class="header-cell">Quarter Finals</div>
+                            <div class="header-cell">Semi Finals</div>
+                            <div class="header-cell">Final</div>
+                        </div>
 
-            <div id="bracket-tree" class="bracket-container px-4"></div>
+                        <div id="bracket-tree" class="bracket-wrapper"></div>
+                    
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div id="winner-section" class="max-w-4xl mx-auto text-center hidden animate-fade-in pb-20">
+        <div id="winner-section" class="max-w-4xl mx-auto text-center hidden animate-fade-in pb-20 mt-12">
             <div class="glass-panel p-12 rounded-3xl border-emerald-500/30 relative overflow-hidden">
                 <div class="absolute inset-0 bg-emerald-500/5 z-0"></div>
                 <div class="relative z-10">
@@ -221,9 +224,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-    </main>
+        </div> </main>
 
     <div id="share-modal" class="fixed inset-0 bg-black/90 z-[60] hidden flex items-center justify-center p-4">
         <div class="bg-[#111] border border-white/10 rounded-2xl p-6 max-w-lg w-full">
