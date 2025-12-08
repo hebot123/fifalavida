@@ -65,7 +65,7 @@
 
         <!-- Filters Section -->
         <div class="bg-white/5 border border-white/10 rounded-xl p-4 mb-8">
-            <!-- UPDATED: Grid adapted for mobile (1 col -> 2 col -> 3 col -> 6 col) -->
+            <!-- Grid adapted for mobile (1 col -> 2 col -> 3 col -> 6 col) -->
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
                 <div>
                     <label class="block text-xs uppercase font-bold text-gray-500 mb-1">Match #</label>
@@ -100,7 +100,7 @@
                     </select>
                 </div>
                 
-                 <!-- Moved Sort to main grid on mobile/tablet for better access, or keep in footer -->
+                 <!-- Moved Sort to main grid on mobile/tablet for better access -->
                  <div class="sm:col-span-2 md:col-span-1">
                     <label class="block text-xs uppercase font-bold text-gray-500 mb-1">Sort By</label>
                     <select id="ticket-sort-select" class="w-full bg-black border border-white/20 text-white rounded px-3 py-2 text-sm focus:border-emerald-500 outline-none">
@@ -120,10 +120,11 @@
         </div>
 
         <!-- Table / List Section -->
+        <!-- Important: We use block on mobile to break table structure -->
         <div class="bg-transparent md:bg-white/5 md:border md:border-white/10 md:rounded-xl md:overflow-hidden">
             <div class="md:overflow-x-auto">
-                <table class="w-full text-left border-collapse min-w-full md:min-w-[1000px]">
-                    <!-- UPDATED: Hidden on mobile -->
+                <table class="w-full text-left border-collapse block md:table min-w-full md:min-w-[1000px]">
+                    <!-- Hidden on mobile to save space -->
                     <thead class="hidden md:table-header-group">
                         <tr class="bg-white/5 text-xs uppercase tracking-widest text-gray-500 border-b border-white/10">
                             <th class="p-4 font-bold">No.</th>
