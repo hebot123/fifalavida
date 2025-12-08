@@ -40,22 +40,21 @@ const TicketEngine = {
         TicketEngine.renderLoadingState();
 
         try {
-            // Fetch the static JSON file
-            // We add a timestamp query param (?t=...) to prevent browser caching
+            // Fetch the static JSON file with timestamp to prevent caching
             const response = await fetch(`${TicketEngine.apiEndpoint}?t=${new Date().getTime()}`);
             
             if (!response.ok) throw new Error(`Data not found: ${response.status}`);
             
             const rawData = await response.json();
             
-            // --- UPDATED LOGIC: Handle new API structure ---
+            // Handle new API structure
             let items = [];
             if (Array.isArray(rawData)) {
                 items = rawData;
             } else if (Array.isArray(rawData.items)) {
                 items = rawData.items;
             } else if (Array.isArray(rawData.listings)) {
-                items = rawData.listings; // <--- This is likely what the new API uses
+                items = rawData.listings;
             } else if (Array.isArray(rawData.data)) {
                 items = rawData.data;
             } else {
@@ -63,38 +62,45 @@ const TicketEngine = {
                 throw new Error("Invalid data structure");
             }
             
-            TicketEngine.listings = items.map(item => {
-                // Mapping fallback: Try to find data in different common fields
-                const title = item.title || item.name || "Unknown Match";
-                const matchNo = item.matchNumber || (title.match(/M(\d+)/) ? parseInt(title.match(/M(\d+)/)[1]) : 0);
-                
-                return {
-                    id: item.id || `listing-${Math.random()}`,
-                    matchNo: matchNo,
-                    matchLabel: title,
-                    date: item.matchDate || item.date || "TBD",
-                    city: item.city || (item.venue ? item.venue.city : "TBD"),
-                    stadium: item.stadium || (item.venue ? item.venue.name : "TBD"),
-                    country: item.country || "TBD",
-                    round: item.stage || item.phase || "Group Stage",
-                    category: item.category || "General",
-                    faceValue: item.faceValue || 0,
-                    volumeUsd: item.volume || item.totalVolume || 0,
-                    volumeSales: item.salesCount || 0,
-                    lastSale: item.lastSalePrice || 0,
-                    lastSaleDate: item.lastSaleDate || "N/A",
-                    startingPrice: item.price || item.lowestAsk || item.minPrice || 0,
-                    teams: item.teams || [],
-                    fifaCollectUrl: `https://collect.fifa.com/marketplace/${item.id}`
-                };
-            });
+            // FILTER & MAP
+            TicketEngine.listings = items
+                .filter(item => {
+                    const title = item.title || item.name || "";
+                    // Only keep items that are actually Match tickets (filter out player cards)
+                    return title.includes("Match") || item.matchNumber; 
+                })
+                .map(item => {
+                    const title = item.title || item.name || "Unknown Match";
+                    const matchNo = item.matchNumber || (title.match(/M(\d+)/) ? parseInt(title.match(/M(\d+)/)[1]) : 0);
+                    
+                    return {
+                        id: item.id || `listing-${Math.random()}`,
+                        matchNo: matchNo,
+                        matchLabel: title,
+                        date: item.matchDate || item.date || "TBD",
+                        city: item.city || (item.venue ? item.venue.city : "TBD"),
+                        stadium: item.stadium || (item.venue ? item.venue.name : "TBD"),
+                        country: item.country || "TBD",
+                        round: item.stage || item.phase || "Group Stage",
+                        category: item.category || "General",
+                        faceValue: item.faceValue || 0,
+                        volumeUsd: item.volume || item.totalVolume || 0,
+                        volumeSales: item.salesCount || 0,
+                        lastSale: item.lastSalePrice || 0,
+                        lastSaleDate: item.lastSaleDate || "N/A",
+                        startingPrice: item.price || item.lowestAsk || item.minPrice || 0,
+                        teams: item.teams || [],
+                        // UPDATED LINK LOGIC HERE: Points to the general search tag for this match
+                        fifaCollectUrl: `https://collect.fifa.com/marketplace?tags=rtt-m${matchNo}&referrer=fifalavida`
+                    };
+                });
 
             console.log(`TicketEngine: Loaded ${TicketEngine.listings.length} listings from static cache.`);
 
         } catch (error) {
             console.warn("TicketEngine: Could not load live data, using demo.", error);
             TicketEngine.state.error = "Data sync pending. Showing demo data.";
-            TicketEngine.generateMockData(); // Keep fallback so the page is never empty
+            TicketEngine.generateMockData();
         } finally {
             TicketEngine.state.loading = false;
             TicketEngine.render();
@@ -119,7 +125,7 @@ const TicketEngine = {
             lastSale: 120,
             lastSaleDate: "1h ago",
             teams: ["Mexico", "USA"],
-            fifaCollectUrl: "#"
+            fifaCollectUrl: `https://collect.fifa.com/marketplace?tags=rtt-m${i+1}&referrer=fifalavida`
         }));
     },
 
