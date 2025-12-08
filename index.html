@@ -59,35 +59,35 @@
 <body class="bg-black text-white flex flex-col min-h-screen selection:bg-emerald-500 selection:text-black">
 
     <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-50 backdrop-blur-md">
-        <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-20 items-center">
-                <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer group" onclick="app.router('home')">
-                    <img src="./assets/logo_b.jpg" alt="FIFA La Vida Logo" class="h-12 w-auto">
-                </div>
-                <div class="hidden md:flex space-x-1 items-center">
-                    <button onclick="app.router('home')" class="nav-btn text-white bg-white/10 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="home">Home</button>
-                    <button onclick="app.scrollToPath()" class="nav-btn text-emerald-400 border border-emerald-500/50 bg-emerald-900/10 hover:bg-emerald-500 hover:text-black px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition flex items-center gap-2 mx-2"><i data-lucide="map" class="w-4 h-4"></i> Path to Glory</button>
-                    <button onclick="app.router('tournament')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2" data-target="tournament"><i data-lucide="layout-grid" class="w-4 h-4"></i> Matches</button>
-                    <button onclick="app.router('venues')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i> Venues</button>
-                    <button onclick="app.router('news')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="news">Articles</button>
-                    <button onclick="app.router('videos')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="videos">Videos</button>
-                    <button onclick="app.router('tickets')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2" data-target="tickets"><i data-lucide="ticket" class="w-4 h-4"></i> FIFA Collect Tickets</button>
-                    </div>
-                <button id="mobile-menu-btn" class="md:hidden text-white"><i data-lucide="menu" class="h-8 w-8"></i></button>
+    <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between h-20 items-center">
+            <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer group" onclick="app.router('home')">
+                <img src="./assets/logo_b.jpg" alt="FIFA La Vida Logo" class="h-12 w-auto">
             </div>
+            <div class="hidden md:flex space-x-1 items-center">
+                <button onclick="app.router('home')" class="nav-btn text-white bg-white/10 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="home">Home</button>
+                <button onclick="app.scrollToPath()" class="nav-btn text-emerald-400 border border-emerald-500/50 bg-emerald-900/10 hover:bg-emerald-500 hover:text-black px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition flex items-center gap-2 mx-2"><i data-lucide="map" class="w-4 h-4"></i> Path to Glory</button>
+                <button onclick="app.router('tournament')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2" data-target="tournament"><i data-lucide="layout-grid" class="w-4 h-4"></i> Matches</button>
+                <button onclick="app.router('venues')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i> Venues</button>
+                <button onclick="app.router('news')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="news">Articles</button>
+                <button onclick="app.router('videos')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black" data-target="videos">Videos</button>
+                <button onclick="app.router('tickets')" class="nav-btn text-gray-300 px-4 py-2 rounded text-sm font-bold uppercase tracking-wide transition hover:bg-white hover:text-black flex items-center gap-2" data-target="tickets"><i data-lucide="ticket" class="w-4 h-4"></i> FIFA Collect Tickets</button>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-white"><i data-lucide="menu" class="h-8 w-8"></i></button>
         </div>
-        <div id="mobile-menu" class="hidden md:hidden bg-black border-b border-white/10 absolute w-full left-0 top-20">
-            <div class="px-4 pt-2 pb-4 space-y-2">
-                <button onclick="app.router('home')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Home</button>
-                <button onclick="app.scrollToPath()" class="block w-full text-left text-emerald-400 py-3 font-bold uppercase border-b border-white/10">Path to Glory</button>
-                <button onclick="app.router('tournament')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Matches & Bracket</button>
-                <button onclick="app.router('venues')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Host Cities</button>
-                <button onclick="app.router('news')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Articles</button>
-                <button onclick="app.router('videos')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Videos</button>
-                <button onclick="app.router('tickets')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">FIFA Collect Tickets</button>
-                </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-black border-b border-white/10 absolute w-full left-0 top-20">
+        <div class="px-4 pt-2 pb-4 space-y-2">
+            <button onclick="app.router('home')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Home</button>
+            <button onclick="app.scrollToPath()" class="block w-full text-left text-emerald-400 py-3 font-bold uppercase border-b border-white/10">Path to Glory</button>
+            <button onclick="app.router('tournament')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Matches</button>
+            <button onclick="app.router('venues')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Host Cities</button>
+            <button onclick="app.router('news')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Articles</button>
+            <button onclick="app.router('videos')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">Videos</button>
+            <button onclick="app.router('tickets')" class="block w-full text-left text-white py-3 font-bold uppercase border-b border-white/10">FIFA Collect Tickets</button>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <main id="main-content" class="flex-grow">
         <div id="home-view" class="view-section">
@@ -234,6 +234,9 @@
             </div>
         </div>
 
+        <div id="bracket-view" class="view-section hidden bg-black min-h-screen">
+        </div>
+
         <div id="tickets-view" class="view-section hidden bg-black min-h-screen">
             </div>
 
@@ -250,7 +253,7 @@
                 <a href="#" class="hover:text-emerald-400 transition" onclick="app.router('home')">Home</a>
                 <a href="#" class="hover:text-emerald-400 transition" onclick="app.router('news')">Articles</a>
                 <a href="#" class="hover:text-emerald-400 transition" onclick="app.router('videos')">Videos</a>
-                <a href="#" class="hover:text-emerald-400 transition" onclick="app.router('tournament')">Bracket</a>
+                <a href="#" class="hover:text-emerald-400 transition hidden" onclick="app.router('bracket')">Bracket</a>
                 <a href="mailto:admin@fifalavida.com" class="hover:text-emerald-400 transition">Contact</a>
             </div>
             <p class="text-gray-700 text-[10px]">Not affiliated with FIFA.</p>
@@ -317,6 +320,8 @@
                     app.router('videos');
                 } else if (hash === '#tickets') {
                     app.router('tickets');
+                } else if (hash === '#bracket') {
+                    app.router('bracket');
                 }
             },
 
@@ -551,6 +556,8 @@
                     history.pushState(null, null, '#matches');
                 } else if (view === 'news') {
                     history.pushState(null, null, '#articles');
+                } else if (view === 'bracket') {
+                    history.pushState(null, null, '#bracket');
                 } else if (view === 'venues') {
                     history.pushState(null, null, '#venues');
                 } else if (view === 'videos') {
@@ -573,6 +580,34 @@
                             const r = await fetch('matches.html');
                             if(r.ok) { container.innerHTML = await r.text(); if(typeof MatchEngine !== 'undefined') MatchEngine.init(); }
                         } catch (e) { container.innerHTML = `<div class="text-white p-10 text-center">Matches logic loaded via MatchEngine.</div>`; if(typeof MatchEngine !== 'undefined') MatchEngine.init(); }
+                    }
+                } else if (view === 'bracket') {
+                    document.getElementById('bracket-view').classList.remove('hidden');
+                    const container = document.getElementById('bracket-view');
+                    if (container.innerHTML.trim() === '') {
+                        try {
+                            const r = await fetch('bracket.html');
+                            if (r.ok) { 
+                                const html = await r.text();
+                                // Inject HTML
+                                const parser = new DOMParser();
+                                const doc = parser.parseFromString(html, 'text/html');
+                                container.innerHTML = doc.body.innerHTML;
+
+                                // Manual Script Injection to ensure BracketApp loads
+                                const script = document.createElement('script');
+                                script.src = 'bracket.js';
+                                script.onload = () => { if(window.BracketApp) window.BracketApp.init(); };
+                                container.appendChild(script);
+                                
+                                if(window.lucide) lucide.createIcons();
+                            }
+                        } catch (e) {
+                            container.innerHTML = '<div class="p-10 text-center text-red-500">Error loading bracket challenge.</div>';
+                        }
+                    } else {
+                        // If returning to view, ensure init runs
+                        if(window.BracketApp) window.BracketApp.init();
                     }
                 } else if (view === 'tickets') {
                     document.getElementById('tickets-view').classList.remove('hidden');
