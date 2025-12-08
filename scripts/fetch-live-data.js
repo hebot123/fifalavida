@@ -1,6 +1,6 @@
 /**
  * scripts/fetch-live-data.js
- * Runs via GitHub Actions to fetch data and save it to a JSON file.
+ * Runs via GitHub Actions to fetch ALL pages of data and save to a JSON file.
  */
 const fs = require('fs');
 const axios = require('axios');
@@ -14,34 +14,64 @@ const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 
 async function run() {
     try {
-        console.log('⚽ Fetching "Right to Ticket" data from FIFA Collect...');
+        console.log('⚽ Fetching ALL "Right to Ticket" data from FIFA Collect...');
         
-        const response = await axios.get(FIFA_API_URL, {
-            params: {
-                // Standard parameters from the live site
-                generalClubs: 'All',
-                language: 'en-UK',
-                listingStatus: 'active',
-                page: 1,
-                pageSize: 100, // Fetch 100 items to maximize chances of finding tickets
-                priceHigh: 10000000,
-                priceLow: 0,
-                sortBy: 'latestCreatedAt',
-                sortDirection: 'desc',
-                
-                // CRITICAL FILTER: 
-                // This ensures we only get items with "Match" in the name (Tickets),
-                // filtering out the "Luis Quiñones" player cards.
-                text: 'Match' 
-            },
-            headers: {
-                'User-Agent': USER_AGENT,
-                'Origin': 'https://collect.fifa.com',
-                'Referer': 'https://collect.fifa.com/'
-            }
-        });
+        let allListings = [];
+        let page = 1;
+        let hasMore = true;
+        let totalItems = 0;
 
-        const data = response.data;
+        // Loop until we have fetched all active listings
+        while (hasMore) {
+            process.stdout.write(`   ... fetching page ${page} `);
+            
+            const response = await axios.get(FIFA_API_URL, {
+                params: {
+                    generalClubs: 'All',
+                    language: 'en-UK',
+                    listingStatus: 'active',
+                    page: page,
+                    pageSize: 100, // Max items per request
+                    priceHigh: 10000000,
+                    priceLow: 0,
+                    sortBy: 'latestCreatedAt',
+                    sortDirection: 'desc',
+                    text: 'Match' 
+                },
+                headers: {
+                    'User-Agent': USER_AGENT,
+                    'Origin': 'https://collect.fifa.com',
+                    'Referer': 'https://collect.fifa.com/'
+                }
+            });
+
+            const data = response.data;
+            const pageListings = data.listings || [];
+            totalItems = data.total || 0;
+
+            if (pageListings.length === 0) {
+                console.log('(No more items)');
+                hasMore = false;
+            } else {
+                allListings = allListings.concat(pageListings);
+                console.log(`(Got ${pageListings.length} items) - Total so far: ${allListings.length}/${totalItems}`);
+                
+                // Stop if we have fetched all available items
+                if (allListings.length >= totalItems) {
+                    hasMore = false;
+                } else {
+                    page++;
+                    // Small delay to be polite to the API and avoid rate limits
+                    await new Promise(resolve => setTimeout(resolve, 200));
+                }
+            }
+        }
+
+        // Construct the final data object matching the API structure
+        const finalData = {
+            total: allListings.length,
+            listings: allListings
+        };
         
         // Ensure the directory exists
         const dir = path.dirname(OUTPUT_FILE);
@@ -50,19 +80,13 @@ async function run() {
         }
 
         // Save to file
-        fs.writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2));
-        
-        // Log success details
-        const itemCount = data.items ? data.items.length : (Array.isArray(data) ? data.length : 0);
-        console.log(`✅ Success! Data saved to ${OUTPUT_FILE} (${itemCount} ticket items found)`);
+        fs.writeFileSync(OUTPUT_FILE, JSON.stringify(finalData, null, 2));
+        console.log(`✅ Success! Saved ${allListings.length} listings to ${OUTPUT_FILE}`);
 
     } catch (error) {
-        console.error('❌ Error fetching data:', error.message);
+        console.error('\n❌ Error fetching data:', error.message);
         if (error.response) {
             console.error('Status Code:', error.response.status);
-            // Log a snippet of the error data to avoid flooding logs
-            const errorPreview = JSON.stringify(error.response.data).substring(0, 200);
-            console.error('Response Data:', errorPreview + '...');
         }
         process.exit(1); 
     }
