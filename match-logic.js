@@ -1,4 +1,4 @@
-// MATCH LOGIC ENGINE (UPDATED: Full Groups & Teams)
+// MATCH LOGIC ENGINE (UPDATED: Official Schedule Fixes M55/M56)
 const MatchEngine = {
     matches: [],
     filter: 'all',
@@ -6,13 +6,17 @@ const MatchEngine = {
     teamFilter: null,
 
     // --- CONFIGURATION ---
+    // Venues Mapped to Match IDs (Corrected M55/M56)
     officialVenues: { 
         1: "Azteca, Mexico City", 2: "Guadalajara", 3: "Toronto", 4: "Los Angeles", 5: "New York/New Jersey", 6: "Vancouver", 7: "Boston", 8: "San Francisco", 9: "Philadelphia", 10: "Houston", 
         11: "Dallas", 12: "Monterrey", 13: "Miami", 14: "Atlanta", 15: "Los Angeles", 16: "Seattle", 17: "New York/New Jersey", 18: "Boston", 19: "Kansas City", 20: "San Francisco", 
         21: "Toronto", 22: "Dallas", 23: "Houston", 24: "Azteca, Mexico City", 25: "Atlanta", 26: "Los Angeles", 27: "Vancouver", 28: "Guadalajara", 29: "Boston", 30: "Philadelphia", 
         31: "San Francisco", 32: "Seattle", 33: "Toronto", 34: "Kansas City", 35: "Houston", 36: "Monterrey", 37: "Miami", 38: "Atlanta", 39: "Los Angeles", 40: "Vancouver", 
         41: "Philadelphia", 42: "New York/New Jersey", 43: "Dallas", 44: "San Francisco", 45: "Boston", 46: "Toronto", 47: "Houston", 48: "Guadalajara", 49: "Miami", 50: "Atlanta", 
-        51: "Vancouver", 52: "Seattle", 53: "Azteca, Mexico City", 54: "Monterrey", 55: "New York/New Jersey", 56: "Philadelphia", 57: "Dallas", 58: "Kansas City", 59: "Los Angeles", 60: "San Francisco", 
+        51: "Vancouver", 52: "Seattle", 53: "Azteca, Mexico City", 54: "Monterrey", 
+        55: "Philadelphia", // Corrected from NY/NJ
+        56: "New York/New Jersey", // Corrected from Philadelphia
+        57: "Dallas", 58: "Kansas City", 59: "Los Angeles", 60: "San Francisco", 
         61: "Boston", 62: "Toronto", 63: "Seattle", 64: "Vancouver", 65: "Houston", 66: "Guadalajara", 67: "New York/New Jersey", 68: "Philadelphia", 69: "Kansas City", 70: "Dallas", 
         71: "Miami", 72: "Atlanta", 73: "Los Angeles", 74: "Boston", 75: "Monterrey", 76: "Houston", 77: "New York/New Jersey", 78: "Dallas", 79: "Azteca, Mexico City", 80: "Atlanta", 
         81: "San Francisco", 82: "Seattle", 83: "Toronto", 84: "Los Angeles", 85: "Vancouver", 86: "Miami", 87: "Kansas City", 88: "Dallas", 89: "Philadelphia", 90: "Houston", 
@@ -35,7 +39,7 @@ const MatchEngine = {
         21: 'L', 22: 'L', 45: 'L', 46: 'L', 67: 'L', 68: 'L' 
     },
     
-    // Pot Mapping: Updated with ALL teams to ensure dropdowns populate correctly
+    // Pot Mapping
     potMapping: {
         'A': { 1: 'Mexico', 2: 'South Africa', 3: 'Korea Republic', 4: 'Winner Play-off D' },
         'B': { 1: 'Canada', 2: 'Winner Play-off A', 3: 'Qatar', 4: 'Switzerland' },
@@ -86,21 +90,25 @@ const MatchEngine = {
         59: ["Winner Play-off C", "USA", "22:00"],
         60: ["Paraguay", "Australia", "22:00"],
 
-        // GROUP E
+        // GROUP E (FIXED)
         9: ["Côte d'Ivoire", "Ecuador", "19:00"],
         10: ["Germany", "Curaçao", "13:00"],
         33: ["Germany", "Côte d'Ivoire", "16:00"],
         34: ["Ecuador", "Curaçao", "20:00"],
-        55: ["Ecuador", "Germany", "16:00"],
-        56: ["Curaçao", "Côte d'Ivoire", "16:00"],
+        // Match 55 is Philadelphia -> Curacao vs Ivory Coast
+        55: ["Curaçao", "Côte d'Ivoire", "16:00"],
+        // Match 56 is NY/NJ -> Ecuador vs Germany
+        56: ["Ecuador", "Germany", "16:00"],
 
-        // GROUP F
+        // GROUP F (FIXED)
         11: ["Netherlands", "Japan", "16:00"],
         12: ["Winner Play-off B", "Tunisia", "22:00"],
         35: ["Netherlands", "Winner Play-off B", "13:00"],
         36: ["Tunisia", "Japan", "00:00"],
-        57: ["Japan", "Winner Play-off B", "19:00"],
-        58: ["Tunisia", "Netherlands", "19:00"],
+        // Match 57 is Dallas -> Tunisia vs Netherlands
+        57: ["Tunisia", "Netherlands", "19:00"],
+        // Match 58 is Kansas City -> Japan vs Winner B
+        58: ["Japan", "Winner Play-off B", "19:00"],
 
         // GROUP G
         15: ["IR Iran", "New Zealand", "21:00"],
