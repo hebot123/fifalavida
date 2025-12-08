@@ -1,0 +1,37 @@
+name: Update Ticket Data
+
+on:
+  schedule:
+    # Runs at minute 0 past every hour (e.g., 1:00, 2:00, 3:00...)
+    - cron: '0 * * * *'
+  # Allows you to run this workflow manually from the Actions tab for testing
+  workflow_dispatch:
+
+permissions:
+  contents: write # Important: allows the bot to commit the JSON file back to the repo
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        # Installs axios so the script can make HTTP requests
+        run: npm install axios
+
+      - name: Fetch Data
+        # Runs the script that queries the official API
+        run: node scripts/fetch-live-data.js
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Auto-update ticket listings [skip ci]"
+          file_pattern: "data/live-listings.json"
