@@ -38,16 +38,27 @@
         display: flex; 
         flex-direction: column; 
         justify-content: space-around; 
-        width: 300px !important;    /* Column is WIDER than the node */
+        width: 300px !important;    /* Column is 300px */
         flex-shrink: 0 !important;
         position: relative;
-        align-items: flex-start;    /* Aligns nodes to the left */
     }
 
-    /* Match Node - Narrower than column */
+    /* Match Pair: Holds two nodes */
+    .match-pair { 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        gap: 40px;                  /* Vertical gap between teams in a pair */
+        position: relative;
+        width: 100%;
+        height: auto;               /* Do not stretch height */
+        flex-grow: 0;
+    }
+
+    /* Match Node: Narrower than column */
     .match-node {
         height: 96px; 
-        width: 260px !important;    /* Node is narrower (leaves 40px space on right) */
+        width: 260px !important;    /* Node is 260px (Leaves 40px space on right) */
         position: relative;
         z-index: 20;
         background: #151515;
@@ -58,25 +69,16 @@
     }
     .match-node:hover { border-color: rgba(16, 185, 129, 0.5); transform: translateY(-1px); }
 
-    .match-pair { 
-        display: flex; 
-        flex-direction: column; 
-        justify-content: center;
-        gap: 40px; 
-        position: relative;
-        height: 100%;
-        width: 100%;
-    }
     
-    /* Connector Lines - Spanning 100px total (40px column space + 60px gap) */
+    /* --- PERFECT CONNECTORS --- */
+    
+    /* Fork: Bridges the 40px space inside the column */
     .line-fork { 
         position: absolute; 
-        right: -50px;    /* Starts 50px right of Node center? No, relative to Node Edge */
-        /* Note: Node is 260px. Column is 300px. Gap is 60px. Total distance to next node is 100px. */
-        /* We split the 100px line into two 50px segments */
-        top: 48px;    
-        bottom: 48px; 
-        width: 50px;     
+        right: 0;        /* Aligns with the right edge of the 300px column */
+        width: 40px;     /* Spans exactly from the Node (260px) to Column Edge (300px) */
+        top: 48px;       /* Center of top node (96px / 2) */
+        bottom: 48px;    /* Center of bottom node */
         border-right: 2px solid #333; 
         border-top: 2px solid #333; 
         border-bottom: 2px solid #333; 
@@ -85,18 +87,19 @@
         pointer-events: none; 
     }
     
+    /* Stem: Bridges the 60px gap between columns */
     .line-stem { 
         position: absolute; 
-        right: -100px;   /* Reaches fully to the next node */
+        right: -60px;    /* Pushes fully across the gap */
+        width: 60px;     /* Matches the column gap exactly */
         top: 50%; 
-        width: 50px; 
         height: 2px; 
         background: #333; 
         z-index: 10; 
         pointer-events: none; 
     }
 
-    /* Colors */
+    /* Active Colors */
     .line-fork.active-top { border-top-color: #10B981; } 
     .line-fork.active-bottom { border-bottom-color: #10B981; }
     .line-fork.active-stem { border-right-color: #10B981; box-shadow: 2px 0 8px rgba(16, 185, 129, 0.2); }
@@ -107,10 +110,10 @@
 
     /* Header Styling */
     .header-cell {
-        width: 300px !important; /* Matches Column Width */
+        width: 300px !important;
         flex-shrink: 0;
-        text-align: left;        /* Left align text to match the node alignment */
-        padding-left: 10px;      /* Slight indent */
+        text-align: left;
+        padding-left: 10px;
         font-family: 'Oswald', sans-serif;
         font-size: 1.5rem;
         font-weight: bold;
