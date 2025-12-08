@@ -25,14 +25,18 @@ const TicketEngine = {
         4: ["USA", "Paraguay"], 6: ["Australia", "Winner Play-off C"],
         31: ["Winner Play-off C", "Paraguay"], 32: ["USA", "Australia"],
         59: ["Winner Play-off C", "USA"], 60: ["Paraguay", "Australia"],
-        // GROUP E
+        
+        // GROUP E (FIXED: Swapped M55/M56 based on official schedule images)
         9: ["Côte d'Ivoire", "Ecuador"], 10: ["Germany", "Curaçao"],
         33: ["Germany", "Côte d'Ivoire"], 34: ["Ecuador", "Curaçao"],
-        55: ["Ecuador", "Germany"], 56: ["Curaçao", "Côte d'Ivoire"],
+        55: ["Curaçao", "Côte d'Ivoire"], // Fixed: Was Ecuador vs Germany
+        56: ["Ecuador", "Germany"],       // Fixed: Was Curaçao vs Côte d'Ivoire
+        
         // GROUP F
         11: ["Netherlands", "Japan"], 12: ["Winner Play-off B", "Tunisia"],
         35: ["Netherlands", "Winner Play-off B"], 36: ["Tunisia", "Japan"],
         57: ["Japan", "Winner Play-off B"], 58: ["Tunisia", "Netherlands"],
+        
         // GROUP G
         15: ["IR Iran", "New Zealand"], 16: ["Belgium", "Egypt"],
         39: ["Belgium", "IR Iran"], 40: ["New Zealand", "Egypt"],
@@ -197,8 +201,8 @@ const TicketEngine = {
     },
 
     renderLoadingState: () => {
-        const tbody = document.getElementById('ticket-table-body');
-        if(tbody) tbody.innerHTML = `<tr><td colspan="9" class="p-12 text-center text-emerald-400 animate-pulse font-mono uppercase">Updating prices...</td></tr>`;
+        const container = document.getElementById('ticket-table-body');
+        if(container) container.innerHTML = `<div class="col-span-full p-12 text-center text-emerald-400 animate-pulse font-mono uppercase">Updating prices...</div>`;
     },
 
     populateFilters: () => {
@@ -229,9 +233,9 @@ const TicketEngine = {
     },
 
     render: () => {
-        const tbody = document.getElementById('ticket-table-body');
+        const container = document.getElementById('ticket-table-body');
         const countSpan = document.getElementById('ticket-count');
-        if (!tbody) return;
+        if (!container) return;
 
         let result = TicketEngine.listings.filter(row => {
             const f = TicketEngine.state.filter;
@@ -263,26 +267,35 @@ const TicketEngine = {
         if (countSpan) countSpan.innerText = `${result.length} Listings`;
 
         if (result.length === 0) {
-            tbody.innerHTML = `<tr><td colspan="9" class="p-8 text-center text-gray-500">No tickets found.</td></tr>`;
+            container.innerHTML = `<div class="col-span-full p-8 text-center text-gray-500">No tickets found.</div>`;
             return;
         }
 
-        tbody.innerHTML = result.map(row => `
-            <tr class="border-b border-white/5 hover:bg-white/5 transition group">
-                <td class="p-4 text-emerald-400 font-mono font-bold">#${row.matchNo}</td>
-                <td class="p-4">
-                    <div class="font-bold text-white text-sm">${row.matchLabel}</div>
-                    ${row.teams.length > 0 ? `<div class="text-xs text-emerald-400 mt-1">${row.teams.join(' vs ')}</div>` : ''}
-                </td>
-                <td class="p-4 text-gray-300">${row.city}</td>
-                <td class="p-4 text-sm text-gray-400">${row.round}</td>
-                <td class="p-4"><span class="bg-white/10 px-2 py-1 rounded text-xs uppercase tracking-widest text-gray-300">${row.category}</span></td>
-                <td class="p-4">
+        container.innerHTML = result.map(row => `
+            <div class="bg-white/5 border border-white/10 rounded-xl p-4 flex flex-col justify-between hover:border-emerald-500/50 transition-all duration-300 group">
+                <div>
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <div class="font-bold text-white text-base">${row.matchLabel}</div>
+                            ${row.teams.length > 0 ? `<div class="text-sm text-emerald-400 mt-1">${row.teams.join(' vs ')}</div>` : ''}
+                        </div>
+                        <div class="text-emerald-400 font-mono font-bold text-lg">#${row.matchNo}</div>
+                    </div>
+                    
+                    <div class="text-sm space-y-2 text-gray-300 mb-4">
+                        <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3 h-3 text-gray-500"></i> ${row.city}</div>
+                        <div class="flex items-center gap-2"><i data-lucide="trophy" class="w-3 h-3 text-gray-500"></i> ${row.round}</div>
+                    </div>
+                </div>
+
+                <div class="border-t border-white/10 pt-3 flex justify-between items-center">
+                    <span class="bg-white/10 px-2 py-1 rounded text-xs uppercase tracking-widest text-gray-300">${row.category}</span>
                     <a href="${row.fifaCollectUrl}" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded font-bold text-sm uppercase transition">
-                        $${row.startingPrice.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} <i data-lucide="external-link" class="w-3 h-3"></i>
+                        $${row.startingPrice.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}
+                        <i data-lucide="external-link" class="w-3 h-3"></i>
                     </a>
-                </td>
-            </tr>
+                </div>
+            </div>
         `).join('');
 
         if(window.lucide) window.lucide.createIcons();
