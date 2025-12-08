@@ -4,26 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIFA La Vida | 2026 Bracket Challenge</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
-    
-    <script src="match-logic.js"></script>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #000; color: white; }
-        h1, h2, h3, .brand-font { font-family: 'Oswald', sans-serif; text-transform: uppercase; }
-        
-        ::-webkit-scrollbar { width: 8px; height: 8px; }
-        ::-webkit-scrollbar-track { background: #111; }
-        ::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
-        ::-webkit-scrollbar-thumb:hover { background: #555; }
-        
-        .glass-panel { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
-        .phase-locked { opacity: 0.5; pointer-events: none; filter: grayscale(100%); transition: all 0.5s; }
-        
-        /* --- BRACKET LAYOUT FIXED --- */
+        /* --- BRACKET LAYOUT --- */
         .bracket-wrapper {
             display: flex !important;
             flex-direction: row !important;
@@ -118,24 +100,8 @@
         }
     </style>
 </head>
-<body class="min-h-screen flex flex-col overflow-hidden bg-black text-white"> 
-    
-    <nav class="bg-black/90 border-b border-white/10 sticky top-0 z-[60] backdrop-blur-md">
-        <div class="w-full px-8 h-20 flex justify-between items-center">
-            <div class="flex items-center gap-2 cursor-pointer" onclick="window.location.href='index.html'">
-                <img src="./assets/logo_b.jpg" alt="Logo" class="h-10 w-auto">
-                <span class="brand-font text-xl font-bold hidden md:block">Bracket Challenge</span>
-            </div>
-            <div class="flex gap-4">
-                <button id="save-btn" onclick="BracketApp.savePicks()" class="text-sm font-bold uppercase text-gray-400 hover:text-white transition">Save Progress</button>
-                <button onclick="BracketApp.shareBracket()" class="bg-emerald-500 hover:bg-emerald-400 text-black px-6 py-2 rounded text-sm font-bold uppercase transition flex items-center gap-2">
-                    <i data-lucide="share-2" class="w-4 h-4"></i> Share
-                </button>
-            </div>
-        </div>
-    </nav>
-
-    <main class="flex-grow p-4 md:p-8 overflow-y-auto h-[calc(100vh-80px)]" id="main-scroll-area">
+<body> 
+    <div class="flex-grow p-4 md:p-8" id="main-scroll-area">
         
         <div id="setup-view" class="transition-all duration-500">
             <div class="max-w-7xl mx-auto mb-12 text-center"> 
@@ -179,7 +145,7 @@
             </div>
         </div>
 
-        <div id="bracket-view" class="hidden transition-all duration-500 pb-20">
+        <div id="knockout-stage" class="hidden transition-all duration-500 pb-20">
              <div class="max-w-[1700px] mx-auto flex justify-between items-end mb-6 border-b border-white/10 pb-2">
                 <div>
                     <span class="text-xs text-cyan-400 font-bold uppercase tracking-widest">Step 3</span>
@@ -228,7 +194,7 @@
             </div>
         </div>
 
-    </main>
+    </div>
 
     <div id="share-modal" class="fixed inset-0 bg-black/90 z-[60] hidden flex items-center justify-center p-4">
         <div class="bg-[#111] border border-white/10 rounded-2xl p-6 max-w-lg w-full">
@@ -240,8 +206,5 @@
             </div>
         </div>
     </div>
-
-    <script src="bracket.js"></script>
-    <script>setTimeout(() => { if(window.BracketApp) window.BracketApp.init(); }, 100);</script>
 </body>
 </html>

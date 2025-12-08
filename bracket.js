@@ -11,7 +11,6 @@ const BracketApp = {
 
     // OFFICIAL 2026 SCHEDULE
     schedule: {
-        // ROUND OF 32
         74: { date: "Jun 29", venue: "Boston", p1: "1E", p2: "3rd A/B/C/D/F", next: 89, slot: 0 },
         77: { date: "Jun 30", venue: "NY/NJ", p1: "1I", p2: "3rd C/D/F/G/H", next: 89, slot: 1 },
         73: { date: "Jun 28", venue: "Los Angeles", p1: "2A", p2: "2B", next: 90, slot: 0 },
@@ -28,8 +27,6 @@ const BracketApp = {
         88: { date: "Jul 3", venue: "Dallas", p1: "2D", p2: "2G", next: 95, slot: 1 },
         85: { date: "Jul 2", venue: "Vancouver", p1: "1B", p2: "3rd E/F/G/I/J", next: 96, slot: 0 },
         87: { date: "Jul 3", venue: "Kansas City", p1: "1K", p2: "3rd D/E/I/J/L", next: 96, slot: 1 },
-
-        // ROUND OF 16
         89: { date: "Jul 4", venue: "Philadelphia", next: 97, slot: 0 },
         90: { date: "Jul 4", venue: "Houston", next: 97, slot: 1 },
         93: { date: "Jul 6", venue: "Dallas", next: 98, slot: 0 },
@@ -38,23 +35,16 @@ const BracketApp = {
         92: { date: "Jul 5", venue: "Mexico City", next: 99, slot: 1 },
         95: { date: "Jul 7", venue: "Atlanta", next: 100, slot: 0 },
         96: { date: "Jul 7", venue: "Vancouver", next: 100, slot: 1 },
-
-        // QUARTERFINALS
         97: { date: "Jul 9", venue: "Boston", next: 101, slot: 0 },
         98: { date: "Jul 10", venue: "Los Angeles", next: 101, slot: 1 },
         99: { date: "Jul 11", venue: "Miami", next: 102, slot: 0 },
         100: { date: "Jul 11", venue: "Kansas City", next: 102, slot: 1 },
-
-        // SEMIFINALS
         101: { date: "Jul 14", venue: "Dallas", next: 104, slot: 0 },
         102: { date: "Jul 15", venue: "Atlanta", next: 104, slot: 1 },
-
-        // FINAL & BRONZE
         103: { date: "Jul 18", venue: "Miami", label: "Bronze" },
         104: { date: "Jul 19", venue: "NY/NJ", label: "Final" }
     },
 
-    // PAIRING ORDER for Visuals
     orderedMatches: {
         0: [74, 77, 73, 75, 83, 84, 81, 82, 76, 78, 79, 80, 86, 88, 85, 87], 
         1: [89, 90, 93, 94, 91, 92, 95, 96],
@@ -76,18 +66,17 @@ const BracketApp = {
             BracketApp.loadGroups();
         }
 
-        // Render Initial State
         BracketApp.renderGroups();
-        BracketApp.updateThirdPlaceLogic(); // Just to prep candidates
+        BracketApp.updateThirdPlaceLogic();
         BracketApp.renderThirdPlacePicker();
 
-        // Check if we should be on Phase 3 (Bracket View)
         if(BracketApp.state.phase === 3 && BracketApp.state.selectedThirds.length === 8) {
             BracketApp.switchToBracketView();
         } else {
-            BracketApp.state.phase = 1; // Force reset to setup if incomplete
+            BracketApp.state.phase = 1;
             document.getElementById('setup-view').classList.remove('hidden');
-            document.getElementById('bracket-view').classList.add('hidden');
+            // FIX: Target knockout-stage instead of bracket-view to avoid index.html ID conflict
+            document.getElementById('knockout-stage').classList.add('hidden');
         }
 
         if(typeof lucide !== 'undefined') lucide.createIcons();
@@ -96,7 +85,6 @@ const BracketApp = {
     generateUID: () => 'BRK-' + Math.random().toString(36).substr(2, 9).toUpperCase(),
     getFlag: (t) => window.getFlagHTML ? window.getFlagHTML(t) : '',
 
-    // --- PHASE 1: GROUPS ---
     loadGroups: () => {
         if(Object.keys(BracketApp.state.groups).length > 0) return;
         ['A','B','C','D','E','F','G','H','I','J','K','L'].forEach(g => {
@@ -135,20 +123,17 @@ const BracketApp = {
     updateGroupOrder: (group) => {
         const list = document.getElementById(`group-${group}`);
         BracketApp.state.groups[group] = [...list.querySelectorAll('li')].map(li => li.getAttribute('data-team'));
-        BracketApp.renderGroups(); // Re-render to update colors/ranks
+        BracketApp.renderGroups(); 
     },
     autoSimulateGroups: () => {
         Object.keys(BracketApp.state.groups).forEach(g => BracketApp.state.groups[g].sort(() => Math.random() - 0.5));
         BracketApp.renderGroups();
     },
 
-    // --- PHASE 2: 3rd PLACE ---
     updateThirdPlaceLogic: () => {
         const candidates = [];
         Object.keys(BracketApp.state.groups).forEach(g => candidates.push({ team: BracketApp.state.groups[g][2], group: g }));
         BracketApp.state.thirdPlaceCandidates = candidates;
-        
-        // Clean up selected thirds if they moved out of 3rd place
         BracketApp.state.selectedThirds = BracketApp.state.selectedThirds.filter(t => candidates.find(c => c.team === t));
     },
     renderThirdPlacePicker: () => {
@@ -191,7 +176,6 @@ const BracketApp = {
         BracketApp.renderThirdPlacePicker();
     },
 
-    // --- NAVIGATION LOGIC ---
     lockSetupAndGo: () => {
         if(BracketApp.state.selectedThirds.length !== 8) return;
         BracketApp.state.phase = 3;
@@ -199,17 +183,18 @@ const BracketApp = {
         BracketApp.switchToBracketView();
     },
     unlockSetup: () => {
-        // Go back to Setup View
         if(!confirm("Going back will allow you to change groups/3rd place, but might invalidate existing knockout picks. Continue?")) return;
         BracketApp.state.phase = 1;
-        document.getElementById('bracket-view').classList.add('hidden');
+        // FIX: Target knockout-stage instead of bracket-view
+        document.getElementById('knockout-stage').classList.add('hidden');
         document.getElementById('setup-view').classList.remove('hidden');
         window.scrollTo({top:0, behavior:'smooth'});
         BracketApp.savePicks();
     },
     switchToBracketView: () => {
         document.getElementById('setup-view').classList.add('hidden');
-        document.getElementById('bracket-view').classList.remove('hidden');
+        // FIX: Target knockout-stage instead of bracket-view
+        document.getElementById('knockout-stage').classList.remove('hidden');
         window.scrollTo({top:0, behavior:'smooth'});
         BracketApp.renderTree();
     },
@@ -222,8 +207,6 @@ const BracketApp = {
         BracketApp.savePicks();
     },
 
-
-    // --- PHASE 3: BRACKET TREE ---
     renderTree: () => {
         const container = document.getElementById('bracket-tree');
         container.innerHTML = '';
@@ -261,7 +244,6 @@ const BracketApp = {
                     finalStack.className = "final-stack";
                     finalStack.innerHTML = BracketApp.renderMatchNodeHTML(id, m, tA, tB, false);
                     
-                    // Bronze Logic
                     const bId = 103; const bM = BracketApp.schedule[bId];
                     let bA = "Loser M101", bB = "Loser M102";
                     if(BracketApp.state.knockout[101]) {
@@ -288,7 +270,6 @@ const BracketApp = {
                     continue;
                 }
 
-                // Standard Pairs
                 const id1 = matchIds[i];
                 const id2 = matchIds[i+1];
                 
@@ -296,7 +277,6 @@ const BracketApp = {
                 pairDiv.className = "match-pair";
                 pairDiv.dataset.pairId = `${id1}-${id2}`;
 
-                // Match 1
                 const m1 = BracketApp.schedule[id1];
                 let t1A = BracketApp.state.knockout[`${id1}-0`] || resolveTeam(m1.p1);
                 let t1B = BracketApp.state.knockout[`${id1}-1`] || resolveTeam(m1.p2);
@@ -308,7 +288,6 @@ const BracketApp = {
                 }
                 pairDiv.innerHTML += BracketApp.renderMatchNodeHTML(id1, m1, t1A, t1B, true);
 
-                // Match 2
                 const m2 = BracketApp.schedule[id2];
                 let t2A = BracketApp.state.knockout[`${id2}-0`] || resolveTeam(m2.p1);
                 let t2B = BracketApp.state.knockout[`${id2}-1`] || resolveTeam(m2.p2);
@@ -369,10 +348,7 @@ const BracketApp = {
                     slot.dataset.team = team;
                     slot.querySelector('span').innerText = team;
                     slot.querySelector('.flag-box').innerHTML = BracketApp.getFlag(team);
-                    // Clear previous winner in next node if it was different
                     nextNode.querySelectorAll('.team-slot').forEach(s => { s.classList.remove('bg-emerald-500','text-black'); s.querySelector('span').classList.remove('text-black'); });
-                    
-                    // Recursive clear of subsequent nodes if needed (simple version here)
                 }
             }
         } else if(matchId === 104) { BracketApp.declareWinner(team, BracketApp.getFlag(team)); }
@@ -414,7 +390,6 @@ const BracketApp = {
     },
     savePicks: () => { localStorage.setItem('fifa_bracket_data', JSON.stringify(BracketApp.state)); const btn = document.getElementById('save-btn'); if(btn) { const og=btn.innerText; btn.innerText="Saved!"; btn.classList.add('text-emerald-400'); setTimeout(()=>{btn.innerText=og;btn.classList.remove('text-emerald-400');},2000); } },
     shareBracket: () => { 
-        // Logic to switch view for capture if needed, then capture
         document.getElementById('share-modal')?.classList.remove('hidden');
     },
     downloadImage: () => { html2canvas(document.getElementById('bracket-capture-area')).then(c => { const l = document.createElement('a'); l.download = `fifa-bracket-${BracketApp.uid}.png`; l.href = c.toDataURL(); l.click(); }); }
