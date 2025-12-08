@@ -26,16 +26,17 @@ const TicketEngine = {
         31: ["Winner Play-off C", "Paraguay"], 32: ["USA", "Australia"],
         59: ["Winner Play-off C", "USA"], 60: ["Paraguay", "Australia"],
         
-        // GROUP E (FIXED: Swapped M55/M56 based on official schedule images)
+        // GROUP E (FIXED: Swapped M55/M56 based on official schedule)
         9: ["Côte d'Ivoire", "Ecuador"], 10: ["Germany", "Curaçao"],
         33: ["Germany", "Côte d'Ivoire"], 34: ["Ecuador", "Curaçao"],
-        55: ["Curaçao", "Côte d'Ivoire"], // Fixed: Was Ecuador vs Germany
-        56: ["Ecuador", "Germany"],       // Fixed: Was Curaçao vs Côte d'Ivoire
+        55: ["Curaçao", "Côte d'Ivoire"], // Fixed
+        56: ["Ecuador", "Germany"],       // Fixed
         
-        // GROUP F
+        // GROUP F (FIXED: Swapped M57/M58 based on official schedule)
         11: ["Netherlands", "Japan"], 12: ["Winner Play-off B", "Tunisia"],
         35: ["Netherlands", "Winner Play-off B"], 36: ["Tunisia", "Japan"],
-        57: ["Japan", "Winner Play-off B"], 58: ["Tunisia", "Netherlands"],
+        57: ["Tunisia", "Netherlands"], // Fixed
+        58: ["Japan", "Winner Play-off B"], // Fixed
         
         // GROUP G
         15: ["IR Iran", "New Zealand"], 16: ["Belgium", "Egypt"],
@@ -143,7 +144,7 @@ const TicketEngine = {
                     // --- TEAM POPULATION (FULL SCHEDULE) ---
                     let teams = [];
                     if (TicketEngine.matchSchedule[matchNo]) {
-                        teams = TicketEngine.matchSchedule[matchNo]; // Uses the full list from top of file
+                        teams = TicketEngine.matchSchedule[matchNo]; 
                     }
 
                     return {
@@ -162,7 +163,7 @@ const TicketEngine = {
                         lastSale: 0,
                         lastSaleDate: "N/A",
                         startingPrice: rawPrice,
-                        teams: teams, // Now populated for ALL group matches
+                        teams: teams, 
                         fifaCollectUrl: `https://collect.fifa.com/marketplace?tags=rtt-m${matchNo}&referrer=fifalavida`
                     };
                 });
@@ -265,6 +266,9 @@ const TicketEngine = {
         });
 
         if (countSpan) countSpan.innerText = `${result.length} Listings`;
+
+        // --- APPLY GRID LAYOUT CLASSES ---
+        container.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6";
 
         if (result.length === 0) {
             container.innerHTML = `<div class="col-span-full p-8 text-center text-gray-500">No tickets found.</div>`;
