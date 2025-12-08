@@ -54,8 +54,7 @@ const BracketApp = {
         104: { date: "Jul 19", venue: "NY/NJ", label: "Final" }
     },
 
-    // Defines the exact visual pairs. 
-    // Example: 74 & 77 are a pair because they both feed 89.
+    // PAIRING ORDER for Visuals: [MatchA, MatchB] where MatchA->Slot0 and MatchB->Slot1 of the NEXT match
     orderedMatches: {
         0: [74, 77, 73, 75, 83, 84, 81, 82, 76, 78, 79, 80, 86, 88, 85, 87], 
         1: [89, 90, 93, 94, 91, 92, 95, 96],
@@ -86,7 +85,7 @@ const BracketApp = {
     generateUID: () => 'BRK-' + Math.random().toString(36).substr(2, 9).toUpperCase(),
     getFlag: (t) => window.getFlagHTML ? window.getFlagHTML(t) : '',
 
-    // --- PHASES 1 & 2 (Groups/3rd Place) - Condensed ---
+    // --- PHASES 1 & 2 (Groups/3rd Place) ---
     loadGroups: () => {
         if(Object.keys(BracketApp.state.groups).length > 0) return;
         ['A','B','C','D','E','F','G','H','I','J','K','L'].forEach(g => {
