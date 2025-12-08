@@ -130,6 +130,31 @@ const BracketApp = {
         Object.keys(BracketApp.state.groups).forEach(g => BracketApp.state.groups[g].sort(() => Math.random() - 0.5));
         BracketApp.renderGroups();
     },
+    // --- RESET LOGIC ---
+    resetPhase1: () => {
+        if(!confirm("Reset all groups to default? This will clear all subsequent progress.")) return;
+        // 1. Reset State
+        BracketApp.state.phase = 1;
+        BracketApp.state.groups = {}; // Clear existing custom order
+        BracketApp.loadGroups(); // Reload from potMapping defaults
+        BracketApp.state.thirdPlaceCandidates = [];
+        BracketApp.state.selectedThirds = [];
+        BracketApp.state.knockout = {};
+        BracketApp.state.champion = null;
+        
+        // 2. UI Updates
+        document.getElementById('phase-1-container').classList.remove('phase-locked');
+        document.getElementById('lock-p1-btn').classList.remove('hidden');
+        document.getElementById('unlock-p1').classList.add('hidden');
+        document.getElementById('phase-2-container').classList.add('hidden', 'opacity-0');
+        document.getElementById('phase-3-container').classList.add('hidden', 'opacity-0');
+        document.getElementById('winner-section').classList.add('hidden');
+        
+        // 3. Render
+        BracketApp.renderGroups();
+        BracketApp.savePicks();
+    },
+
     lockPhase1: (isRestore = false) => {
         document.getElementById('phase-1-container').classList.add('phase-locked');
         document.getElementById('lock-p1-btn').classList.add('hidden');
@@ -160,6 +185,21 @@ const BracketApp = {
             BracketApp.renderThirdPlacePicker();
         }
     },
+    
+    // --- PHASE 2 RESET ---
+    resetPhase2: () => {
+        if(BracketApp.state.phase < 2) return;
+        BracketApp.state.selectedThirds = [];
+        BracketApp.state.knockout = {};
+        BracketApp.state.champion = null;
+        
+        // UI Unlocking
+        BracketApp.unlockPhase(2);
+        document.getElementById('winner-section').classList.add('hidden');
+        BracketApp.renderThirdPlacePicker();
+        BracketApp.savePicks();
+    },
+
     renderThirdPlacePicker: () => {
         const c = document.getElementById('third-place-container');
         const counter = document.getElementById('third-place-counter');
@@ -196,6 +236,16 @@ const BracketApp = {
         p3.classList.remove('hidden'); setTimeout(() => p3.classList.remove('opacity-0'), 100);
         if(!isRestore) { BracketApp.state.phase = 3; BracketApp.renderThirdPlacePicker(); p3.scrollIntoView({behavior: 'smooth'}); }
         BracketApp.renderTree();
+    },
+
+    // --- PHASE 3 RESET ---
+    resetBracket: () => {
+        if(!confirm("Clear all knockout predictions?")) return;
+        BracketApp.state.knockout = {};
+        BracketApp.state.champion = null;
+        document.getElementById('winner-section').classList.add('hidden');
+        BracketApp.renderTree();
+        BracketApp.savePicks();
     },
 
     // --- PHASE 3: BRACKET TREE (PAIRED LAYOUT) ---
@@ -337,7 +387,7 @@ const BracketApp = {
 
     renderMatchNodeHTML: (id, m, tA, tB, hasNext) => {
         return `
-        <div class="match-node bg-[#151515] border border-white/10 rounded-lg w-64 relative group shadow-lg" data-id="${id}">
+        <div class="match-node bg-[#151515] border border-white/10 rounded-lg w-64 relative group shadow-lg z-10" data-id="${id}">
             <div class="text-[9px] text-gray-500 px-3 py-1.5 bg-black/40 border-b border-white/5 uppercase tracking-wider flex justify-between rounded-t-lg">
                 <span>M${id} • ${m.date}</span><span>${m.venue}</span>
             </div>
