@@ -10,7 +10,7 @@
         display: flex !important;
         flex-direction: row !important;
         flex-wrap: nowrap !important;
-        gap: 60px; /* Space between columns for the "Stem" */                          
+        gap: 80px; /* Increased gap for clearer distinct lines */                          
         padding-bottom: 80px;
         padding-left: 20px;
         padding-top: 40px;
@@ -40,7 +40,7 @@
         flex-grow: 0;
     }
 
-    /* Match Node - NARROWER (180px) */
+    /* Match Node - NARROW (180px) */
     .match-node {
         height: 80px; 
         width: 180px !important;    
@@ -57,7 +57,7 @@
     }
     .match-node:hover { border-color: rgba(16, 185, 129, 0.5); transform: translateY(-1px); }
 
-    /* --- CONNECTORS (Calculated for 180px Card in 240px Column) --- */
+    /* --- CONNECTORS (Updated for 80px Gap) --- */
     
     .line-fork { 
         position: absolute; 
@@ -76,8 +76,8 @@
     
     .line-stem { 
         position: absolute; 
-        right: -60px; /* Matches the .bracket-wrapper gap */
-        width: 60px;     
+        right: -80px; /* Bridges the full 80px gap to the next column */
+        width: 80px;     
         top: 50%; 
         height: 2px; 
         background: #333; 

@@ -336,12 +336,12 @@ const BracketApp = {
             <div class="text-[9px] text-gray-500 px-3 py-1.5 bg-black/40 border-b border-white/5 uppercase tracking-wider flex justify-between rounded-t-lg">
                 <span>M${id} • ${m.date}</span><span>${m.venue}</span>
             </div>
-            <div class="p-2 space-y-1">
-                <div class="p-2 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-emerald-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, ${id}, 0)" data-team="${tA}" data-slot="0">
-                    <div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(tA)}</div><span class="text-sm font-bold text-gray-200 truncate">${tA}</span></div>
+            <div class="p-1.5 space-y-1">
+                <div class="p-1.5 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-emerald-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, ${id}, 0)" data-team="${tA}" data-slot="0">
+                    <div class="flex items-center gap-2"><div class="scale-100 flag-box">${BracketApp.getFlag(tA)}</div><span class="text-xs font-bold text-gray-200 truncate max-w-[120px]">${tA}</span></div>
                 </div>
-                <div class="p-2 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-emerald-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, ${id}, 1)" data-team="${tB}" data-slot="1">
-                    <div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(tB)}</div><span class="text-sm font-bold text-gray-200 truncate">${tB}</span></div>
+                <div class="p-1.5 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-emerald-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, ${id}, 1)" data-team="${tB}" data-slot="1">
+                    <div class="flex items-center gap-2"><div class="scale-100 flag-box">${BracketApp.getFlag(tB)}</div><span class="text-xs font-bold text-gray-200 truncate max-w-[120px]">${tB}</span></div>
                 </div>
             </div>
         </div>`;
