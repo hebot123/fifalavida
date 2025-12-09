@@ -225,10 +225,11 @@ const BracketApp = {
         };
 
         // --- DYNAMIC GAP CALCULATION START ---
-        // Start gap at 30px for Round of 32. 
-        // Formula: NextGap = CurrentGap * 2 + MatchHeight (96px)
-        let gapSize = 30; 
-        const matchHeight = 96;
+        // Start gap at 40px (increased) for Round of 32
+        // Match Height is now 80px
+        // Formula: NextGap = CurrentGap * 2 + MatchHeight
+        let gapSize = 40; 
+        const matchHeight = 80;
         // -------------------------------------
 
         stages.forEach((stage, stageIndex) => {

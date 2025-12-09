@@ -10,24 +10,22 @@
         display: flex !important;
         flex-direction: row !important;
         flex-wrap: nowrap !important;
-        gap: 80px;                          
-        padding-bottom: 40px;
+        gap: 60px; /* Space between columns for the "Stem" */                          
+        padding-bottom: 80px;
         padding-left: 20px;
-        
-        /* UPDATED: Center everything vertically so the tree aligns */
+        padding-top: 40px;
         align-items: center; 
         
-        /* REMOVED: min-height 2000px hack is no longer needed */
+        /* Ensure the container is tall enough to hold the expanded vertical spacing */
+        min-height: 1500px;
     }
 
     .bracket-column { 
         display: flex; 
         flex-direction: column; 
-        
-        /* UPDATED: Center matches in the column rather than spacing them around */
         justify-content: center; 
-        
-        width: 300px !important;    
+        /* 240px Column allows 30px padding on each side of the 180px card */
+        width: 240px !important;     
         flex-shrink: 0 !important;
         position: relative;
     }
@@ -36,16 +34,16 @@
         display: flex; 
         flex-direction: column; 
         justify-content: center;
-        /* Gap is now handled dynamically by JS to ensure alignment */
+        align-items: center; 
         position: relative;
         width: 100%;
         flex-grow: 0;
     }
 
-    /* Match Node */
+    /* Match Node - NARROWER (180px) */
     .match-node {
-        height: 96px; 
-        width: 260px !important;    
+        height: 80px; 
+        width: 180px !important;    
         position: relative;
         z-index: 20;
         background: #151515;
@@ -53,16 +51,21 @@
         border-radius: 0.5rem;
         transition: all 0.2s;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .match-node:hover { border-color: rgba(16, 185, 129, 0.5); transform: translateY(-1px); }
 
-    /* --- CONNECTORS (Updated for alignment) --- */
+    /* --- CONNECTORS (Calculated for 180px Card in 240px Column) --- */
+    
     .line-fork { 
         position: absolute; 
-        right: 0;        
-        /* Top/Bottom will stretch automatically as the pair gap grows */
-        top: 48px;       
-        bottom: 48px;    
+        /* (240px column - 180px card) / 2 = 30px margin on each side */
+        right: 30px;        
+        width: 30px;      
+        top: 40px; /* Center of 80px height */    
+        bottom: 40px;    
         border-right: 2px solid #333; 
         border-top: 2px solid #333; 
         border-bottom: 2px solid #333; 
@@ -73,8 +76,8 @@
     
     .line-stem { 
         position: absolute; 
-        right: -80px;    /* Reaches across the 80px gap */
-        width: 80px;     
+        right: -60px; /* Matches the .bracket-wrapper gap */
+        width: 60px;     
         top: 50%; 
         height: 2px; 
         background: #333; 
@@ -89,16 +92,15 @@
     .line-stem.active { background: #10B981; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
 
     .bronze-node { margin-top: 40px; border-color: rgba(245, 158, 11, 0.3); }
-    .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%; }
+    .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%; gap: 40px; }
 
     /* Header Styling */
     .header-cell {
-        width: 300px !important;
+        width: 240px !important; /* Matches column width */
         flex-shrink: 0;
-        text-align: left;
-        padding-left: 10px;
+        text-align: center; 
         font-family: 'Oswald', sans-serif;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         font-weight: bold;
         color: #9ca3af; 
         text-transform: uppercase;
