@@ -1,4 +1,4 @@
-// MATCH LOGIC ENGINE (UPDATED: Official Schedule Fixes M41/M42, M55-M58)
+// MATCH LOGIC ENGINE (UPDATED: Official Schedule & Times Verified via Screenshots)
 const MatchEngine = {
     matches: [],
     filter: 'all',
@@ -13,7 +13,7 @@ const MatchEngine = {
         21: "Toronto", 22: "Dallas", 23: "Houston", 24: "Azteca, Mexico City", 25: "Atlanta", 26: "Los Angeles", 27: "Vancouver", 28: "Guadalajara", 29: "Boston", 30: "Philadelphia", 
         31: "San Francisco", 32: "Seattle", 33: "Toronto", 34: "Kansas City", 35: "Houston", 36: "Monterrey", 37: "Miami", 38: "Atlanta", 39: "Los Angeles", 40: "Vancouver", 
         
-        // M41/M42 Updated
+        // M41/M42 Verified
         41: "New York/New Jersey", 
         42: "Philadelphia",        
         
@@ -60,109 +60,105 @@ const MatchEngine = {
         'L': { 1: 'England', 2: 'Croatia', 3: 'Ghana', 4: 'Panama' }
     },
 
-    // SPECIFIC MATCH SCHEDULE (Overrides automated generation)
-    // Format: [TeamA, TeamB, Time (Local approx)]
+    // SPECIFIC MATCH SCHEDULE (Official Times Applied)
+    // Format: [TeamA, TeamB, Time (Local)]
     specificSchedule: {
         // GROUP A
-        1: ["Mexico", "South Africa", "15:00"],
-        2: ["Korea Republic", "Winner Play-off D", "22:00"],
-        25: ["Winner Play-off D", "South Africa", "12:00"],
-        28: ["Mexico", "Korea Republic", "21:00"],
-        53: ["Winner Play-off D", "Mexico", "21:00"],
-        54: ["South Africa", "Korea Republic", "21:00"],
+        1: ["Mexico", "South Africa", "12:00"],
+        2: ["Korea Republic", "Winner Play-off D", "19:00"],
+        25: ["Winner Play-off D", "South Africa", "09:00"],
+        28: ["Mexico", "Korea Republic", "18:00"],
+        53: ["Winner Play-off D", "Mexico", "18:00"],
+        54: ["South Africa", "Korea Republic", "18:00"],
 
         // GROUP B
-        3: ["Canada", "Winner Play-off A", "15:00"],
-        8: ["Qatar", "Switzerland", "15:00"],
-        26: ["Switzerland", "Winner Play-off A", "15:00"],
-        27: ["Canada", "Qatar", "18:00"],
-        51: ["Switzerland", "Canada", "15:00"],
-        52: ["Winner Play-off A", "Qatar", "15:00"],
+        3: ["Canada", "Winner Play-off A", "12:00"],
+        8: ["Qatar", "Switzerland", "12:00"],
+        26: ["Switzerland", "Winner Play-off A", "12:00"],
+        27: ["Canada", "Qatar", "15:00"],
+        51: ["Switzerland", "Canada", "12:00"],
+        52: ["Winner Play-off A", "Qatar", "12:00"],
 
         // GROUP C
-        5: ["Brazil", "Morocco", "18:00"], 
-        7: ["Haiti", "Scotland", "21:00"], 
-        29: ["Scotland", "Morocco", "18:00"], 
-        30: ["Brazil", "Haiti", "21:00"],
-        49: ["Scotland", "Brazil", "18:00"], 
-        50: ["Morocco", "Haiti", "18:00"],
+        5: ["Brazil", "Morocco", "15:00"], 
+        7: ["Haiti", "Scotland", "18:00"], 
+        29: ["Scotland", "Morocco", "15:00"], 
+        30: ["Brazil", "Haiti", "18:00"],
+        49: ["Scotland", "Brazil", "15:00"], 
+        50: ["Morocco", "Haiti", "15:00"],
 
         // GROUP D
-        4: ["USA", "Paraguay", "21:00"],
-        6: ["Australia", "Winner Play-off C", "00:00"],
-        31: ["Winner Play-off C", "Paraguay", "00:00"],
-        32: ["USA", "Australia", "15:00"],
-        59: ["Winner Play-off C", "USA", "22:00"],
-        60: ["Paraguay", "Australia", "22:00"],
+        4: ["USA", "Paraguay", "18:00"],
+        6: ["Australia", "Winner Play-off C", "21:00"],
+        31: ["Winner Play-off C", "Paraguay", "21:00"],
+        32: ["USA", "Australia", "12:00"],
+        59: ["Winner Play-off C", "USA", "19:00"],
+        60: ["Paraguay", "Australia", "19:00"],
 
-        // GROUP E (FIXED)
-        9: ["Côte d'Ivoire", "Ecuador", "19:00"],
-        10: ["Germany", "Curaçao", "13:00"],
-        33: ["Germany", "Côte d'Ivoire", "16:00"],
-        34: ["Ecuador", "Curaçao", "20:00"],
-        // Match 55 is Philadelphia -> Curacao vs Ivory Coast
-        55: ["Curaçao", "Côte d'Ivoire", "16:00"],
-        // Match 56 is NY/NJ -> Ecuador vs Germany
-        56: ["Ecuador", "Germany", "16:00"],
+        // GROUP E
+        9: ["Côte d'Ivoire", "Ecuador", "16:00"],
+        10: ["Germany", "Curaçao", "10:00"],
+        33: ["Germany", "Côte d'Ivoire", "13:00"],
+        34: ["Ecuador", "Curaçao", "17:00"],
+        55: ["Curaçao", "Côte d'Ivoire", "13:00"],
+        56: ["Ecuador", "Germany", "13:00"],
 
-        // GROUP F (FIXED)
-        11: ["Netherlands", "Japan", "16:00"],
-        12: ["Winner Play-off B", "Tunisia", "22:00"],
-        35: ["Netherlands", "Winner Play-off B", "13:00"],
-        36: ["Tunisia", "Japan", "00:00"],
-        // Match 57 is Dallas -> Tunisia vs Netherlands
-        57: ["Tunisia", "Netherlands", "19:00"],
-        // Match 58 is Kansas City -> Japan vs Winner B
-        58: ["Japan", "Winner Play-off B", "19:00"],
+        // GROUP F
+        11: ["Netherlands", "Japan", "13:00"],
+        12: ["Winner Play-off B", "Tunisia", "19:00"],
+        35: ["Netherlands", "Winner Play-off B", "10:00"],
+        36: ["Tunisia", "Japan", "21:00"],
+        57: ["Tunisia", "Netherlands", "16:00"],
+        58: ["Japan", "Winner Play-off B", "16:00"],
 
         // GROUP G
-        15: ["IR Iran", "New Zealand", "21:00"],
-        16: ["Belgium", "Egypt", "15:00"],
-        39: ["Belgium", "IR Iran", "15:00"],
-        40: ["New Zealand", "Egypt", "21:00"],
-        63: ["Egypt", "IR Iran", "23:00"],
-        64: ["New Zealand", "Belgium", "23:00"],
+        15: ["IR Iran", "New Zealand", "18:00"],
+        16: ["Belgium", "Egypt", "12:00"],
+        39: ["Belgium", "IR Iran", "12:00"],
+        40: ["New Zealand", "Egypt", "18:00"],
+        63: ["Egypt", "IR Iran", "20:00"],
+        64: ["New Zealand", "Belgium", "20:00"],
 
         // GROUP H
-        13: ["Saudi Arabia", "Uruguay", "18:00"],
-        14: ["Spain", "Cabo Verde", "12:00"],
-        37: ["Uruguay", "Cabo Verde", "18:00"],
-        38: ["Spain", "Saudi Arabia", "12:00"],
-        65: ["Cabo Verde", "Saudi Arabia", "20:00"],
-        66: ["Uruguay", "Spain", "20:00"],
+        13: ["Saudi Arabia", "Uruguay", "15:00"],
+        14: ["Spain", "Cabo Verde", "09:00"],
+        37: ["Uruguay", "Cabo Verde", "15:00"],
+        38: ["Spain", "Saudi Arabia", "09:00"],
+        65: ["Cabo Verde", "Saudi Arabia", "17:00"],
+        66: ["Uruguay", "Spain", "17:00"],
 
-        // GROUP I (FIXED M41/M42)
-        17: ["France", "Senegal", "15:00"],
-        18: ["Winner Play-off 2", "Norway", "18:00"],
-        // Updated M41 and M42 based on official confirmation
-        41: ["Norway", "Senegal", "20:00"],          // June 22
-        42: ["France", "Winner Play-off 2", "17:00"],// June 22
-        61: ["Norway", "France", "15:00"],
-        62: ["Senegal", "Winner Play-off 2", "15:00"],
+        // GROUP I
+        17: ["France", "Senegal", "12:00"],
+        18: ["Winner Play-off 2", "Norway", "15:00"],
+        // Matches 41 & 42 Corrected based on screenshots
+        41: ["Norway", "Senegal", "17:00"],          
+        42: ["France", "Winner Play-off 2", "14:00"],
+        61: ["Norway", "France", "12:00"],
+        62: ["Senegal", "Winner Play-off 2", "12:00"],
 
         // GROUP J
-        19: ["Argentina", "Algeria", "21:00"],
-        20: ["Austria", "Jordan", "00:00"],
-        43: ["Argentina", "Austria", "13:00"],
-        44: ["Jordan", "Algeria", "23:00"],
-        69: ["Algeria", "Austria", "22:00"],
-        70: ["Jordan", "Argentina", "22:00"],
+        19: ["Argentina", "Algeria", "18:00"],
+        20: ["Austria", "Jordan", "21:00"],
+        43: ["Argentina", "Austria", "10:00"],
+        44: ["Jordan", "Algeria", "20:00"],
+        69: ["Algeria", "Austria", "19:00"],
+        70: ["Jordan", "Argentina", "19:00"],
 
         // GROUP K
-        23: ["Portugal", "Winner Play-off 1", "13:00"],
-        24: ["Uzbekistan", "Colombia", "22:00"],
-        47: ["Portugal", "Uzbekistan", "13:00"],
-        48: ["Colombia", "Winner Play-off 1", "22:00"],
-        71: ["Colombia", "Portugal", "19:30"],
-        72: ["Winner Play-off 1", "Uzbekistan", "19:30"],
+        23: ["Portugal", "Winner Play-off 1", "10:00"],
+        24: ["Uzbekistan", "Colombia", "19:00"],
+        47: ["Portugal", "Uzbekistan", "10:00"],
+        48: ["Colombia", "Winner Play-off 1", "19:00"],
+        71: ["Colombia", "Portugal", "16:30"],
+        72: ["Winner Play-off 1", "Uzbekistan", "16:30"],
 
         // GROUP L
-        21: ["Ghana", "Panama", "19:00"],
-        22: ["England", "Croatia", "16:00"],
-        45: ["England", "Ghana", "16:00"],
-        46: ["Panama", "Croatia", "19:00"],
-        67: ["Panama", "England", "17:00"],
-        68: ["Croatia", "Ghana", "17:00"]
+        21: ["Ghana", "Panama", "16:00"],
+        22: ["England", "Croatia", "13:00"],
+        45: ["England", "Ghana", "13:00"],
+        46: ["Panama", "Croatia", "16:00"],
+        67: ["Panama", "England", "14:00"],
+        68: ["Croatia", "Ghana", "14:00"]
     },
 
     // Default Fallback
@@ -192,11 +188,8 @@ const MatchEngine = {
         if (id <= 32) return "June 19";
         if (id <= 36) return "June 20";
         if (id <= 40) return "June 21";
-        
-        // Corrected June 22/23 Split
         if ([41,42,43,44].includes(id)) return "June 22";
         if ([45,46,47,48].includes(id)) return "June 23";
-        
         if (id <= 54) return "June 24";
         if (id <= 60) return "June 25";
         if (id <= 66) return "June 26";
