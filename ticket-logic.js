@@ -6,7 +6,7 @@ const TicketEngine = {
     listings: [],
     apiEndpoint: './data/live-listings.json', 
     
-    // FULL SCHEDULE MAPPING (Corrected M41/M42, M55-M58)
+    // FULL SCHEDULE MAPPING (Verified with Official Matchups)
     matchSchedule: {
         // GROUP A
         1: ["Mexico", "South Africa"], 2: ["Korea Republic", "Winner Play-off D"],
@@ -25,13 +25,13 @@ const TicketEngine = {
         31: ["Winner Play-off C", "Paraguay"], 32: ["USA", "Australia"],
         59: ["Winner Play-off C", "USA"], 60: ["Paraguay", "Australia"],
         
-        // GROUP E (FIXED)
+        // GROUP E
         9: ["Côte d'Ivoire", "Ecuador"], 10: ["Germany", "Curaçao"],
         33: ["Germany", "Côte d'Ivoire"], 34: ["Ecuador", "Curaçao"],
         55: ["Curaçao", "Côte d'Ivoire"], 
         56: ["Ecuador", "Germany"],       
         
-        // GROUP F (FIXED)
+        // GROUP F
         11: ["Netherlands", "Japan"], 12: ["Winner Play-off B", "Tunisia"],
         35: ["Netherlands", "Winner Play-off B"], 36: ["Tunisia", "Japan"],
         57: ["Tunisia", "Netherlands"],     
@@ -46,7 +46,7 @@ const TicketEngine = {
         37: ["Uruguay", "Cabo Verde"], 38: ["Spain", "Saudi Arabia"],
         65: ["Cabo Verde", "Saudi Arabia"], 66: ["Uruguay", "Spain"],
         
-        // GROUP I (FIXED M41/M42)
+        // GROUP I
         17: ["France", "Senegal"], 18: ["Winner Play-off 2", "Norway"],
         41: ["Norway", "Senegal"], 42: ["France", "Winner Play-off 2"], 
         61: ["Norway", "France"], 62: ["Senegal", "Winner Play-off 2"],
