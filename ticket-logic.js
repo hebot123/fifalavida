@@ -6,7 +6,7 @@ const TicketEngine = {
     listings: [],
     apiEndpoint: './data/live-listings.json', 
     
-    // FULL SCHEDULE MAPPING (Corrected M55-M58)
+    // FULL SCHEDULE MAPPING (Corrected M41/M42, M55-M58)
     matchSchedule: {
         // GROUP A
         1: ["Mexico", "South Africa"], 2: ["Korea Republic", "Winner Play-off D"],
@@ -28,14 +28,14 @@ const TicketEngine = {
         // GROUP E (FIXED)
         9: ["Côte d'Ivoire", "Ecuador"], 10: ["Germany", "Curaçao"],
         33: ["Germany", "Côte d'Ivoire"], 34: ["Ecuador", "Curaçao"],
-        55: ["Curaçao", "Côte d'Ivoire"], // Fixed
-        56: ["Ecuador", "Germany"],       // Fixed
+        55: ["Curaçao", "Côte d'Ivoire"], 
+        56: ["Ecuador", "Germany"],       
         
         // GROUP F (FIXED)
         11: ["Netherlands", "Japan"], 12: ["Winner Play-off B", "Tunisia"],
         35: ["Netherlands", "Winner Play-off B"], 36: ["Tunisia", "Japan"],
-        57: ["Tunisia", "Netherlands"],     // Fixed
-        58: ["Japan", "Winner Play-off B"], // Fixed
+        57: ["Tunisia", "Netherlands"],     
+        58: ["Japan", "Winner Play-off B"], 
         
         // GROUP G
         15: ["IR Iran", "New Zealand"], 16: ["Belgium", "Egypt"],
@@ -45,10 +45,12 @@ const TicketEngine = {
         13: ["Saudi Arabia", "Uruguay"], 14: ["Spain", "Cabo Verde"],
         37: ["Uruguay", "Cabo Verde"], 38: ["Spain", "Saudi Arabia"],
         65: ["Cabo Verde", "Saudi Arabia"], 66: ["Uruguay", "Spain"],
-        // GROUP I
+        
+        // GROUP I (FIXED M41/M42)
         17: ["France", "Senegal"], 18: ["Winner Play-off 2", "Norway"],
-        41: ["France", "Winner Play-off 2"], 42: ["Norway", "Senegal"],
+        41: ["Norway", "Senegal"], 42: ["France", "Winner Play-off 2"], 
         61: ["Norway", "France"], 62: ["Senegal", "Winner Play-off 2"],
+        
         // GROUP J
         19: ["Argentina", "Algeria"], 20: ["Austria", "Jordan"],
         43: ["Argentina", "Austria"], 44: ["Jordan", "Algeria"],
