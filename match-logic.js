@@ -1,4 +1,4 @@
-// MATCH LOGIC ENGINE (UPDATED: Official Schedule Fixes M55/M56)
+// MATCH LOGIC ENGINE (UPDATED: Official Schedule Fixes M41/M42, M55-M58)
 const MatchEngine = {
     matches: [],
     filter: 'all',
@@ -6,16 +6,21 @@ const MatchEngine = {
     teamFilter: null,
 
     // --- CONFIGURATION ---
-    // Venues Mapped to Match IDs (Corrected M55/M56)
+    // Venues Mapped to Match IDs
     officialVenues: { 
         1: "Azteca, Mexico City", 2: "Guadalajara", 3: "Toronto", 4: "Los Angeles", 5: "New York/New Jersey", 6: "Vancouver", 7: "Boston", 8: "San Francisco", 9: "Philadelphia", 10: "Houston", 
         11: "Dallas", 12: "Monterrey", 13: "Miami", 14: "Atlanta", 15: "Los Angeles", 16: "Seattle", 17: "New York/New Jersey", 18: "Boston", 19: "Kansas City", 20: "San Francisco", 
         21: "Toronto", 22: "Dallas", 23: "Houston", 24: "Azteca, Mexico City", 25: "Atlanta", 26: "Los Angeles", 27: "Vancouver", 28: "Guadalajara", 29: "Boston", 30: "Philadelphia", 
         31: "San Francisco", 32: "Seattle", 33: "Toronto", 34: "Kansas City", 35: "Houston", 36: "Monterrey", 37: "Miami", 38: "Atlanta", 39: "Los Angeles", 40: "Vancouver", 
-        41: "Philadelphia", 42: "New York/New Jersey", 43: "Dallas", 44: "San Francisco", 45: "Boston", 46: "Toronto", 47: "Houston", 48: "Guadalajara", 49: "Miami", 50: "Atlanta", 
+        
+        // M41/M42 Updated
+        41: "New York/New Jersey", 
+        42: "Philadelphia",        
+        
+        43: "Dallas", 44: "San Francisco", 45: "Boston", 46: "Toronto", 47: "Houston", 48: "Guadalajara", 49: "Miami", 50: "Atlanta", 
         51: "Vancouver", 52: "Seattle", 53: "Azteca, Mexico City", 54: "Monterrey", 
-        55: "Philadelphia", // Corrected from NY/NJ
-        56: "New York/New Jersey", // Corrected from Philadelphia
+        55: "Philadelphia", 
+        56: "New York/New Jersey", 
         57: "Dallas", 58: "Kansas City", 59: "Los Angeles", 60: "San Francisco", 
         61: "Boston", 62: "Toronto", 63: "Seattle", 64: "Vancouver", 65: "Houston", 66: "Guadalajara", 67: "New York/New Jersey", 68: "Philadelphia", 69: "Kansas City", 70: "Dallas", 
         71: "Miami", 72: "Atlanta", 73: "Los Angeles", 74: "Boston", 75: "Monterrey", 76: "Houston", 77: "New York/New Jersey", 78: "Dallas", 79: "Azteca, Mexico City", 80: "Atlanta", 
@@ -126,11 +131,12 @@ const MatchEngine = {
         65: ["Cabo Verde", "Saudi Arabia", "20:00"],
         66: ["Uruguay", "Spain", "20:00"],
 
-        // GROUP I
+        // GROUP I (FIXED M41/M42)
         17: ["France", "Senegal", "15:00"],
         18: ["Winner Play-off 2", "Norway", "18:00"],
-        41: ["France", "Winner Play-off 2", "17:00"],
-        42: ["Norway", "Senegal", "20:00"],
+        // Updated M41 and M42 based on official confirmation
+        41: ["Norway", "Senegal", "20:00"],          // June 22
+        42: ["France", "Winner Play-off 2", "17:00"],// June 22
         61: ["Norway", "France", "15:00"],
         62: ["Senegal", "Winner Play-off 2", "15:00"],
 
@@ -186,8 +192,11 @@ const MatchEngine = {
         if (id <= 32) return "June 19";
         if (id <= 36) return "June 20";
         if (id <= 40) return "June 21";
-        if ([41,43,44,46].includes(id)) return "June 22";
-        if ([42,45,47,48].includes(id)) return "June 23";
+        
+        // Corrected June 22/23 Split
+        if ([41,42,43,44].includes(id)) return "June 22";
+        if ([45,46,47,48].includes(id)) return "June 23";
+        
         if (id <= 54) return "June 24";
         if (id <= 60) return "June 25";
         if (id <= 66) return "June 26";
