@@ -2,6 +2,102 @@
   "total": 1970,
   "listings": [
     {
+      "uniqueCode": "P_AP34",
+      "type": "highlight",
+      "title": "Luis Quiñones",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94fc47e1-03a6-4fee-9e99-22facd7fb4d6.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-24T08:52:07.937Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1acaf371-34e3-4c93-aacd-917015b990e4.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94fc47e1-03a6-4fee-9e99-22facd7fb4d6.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP36",
+      "type": "highlight",
+      "title": "Robert Kenedy",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-24T08:51:56.588Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/95ecedb7-9e9e-48b1-a7ce-19b7ced3bd79.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM21",
+      "type": "highlight",
+      "title": "14. Germán Cano",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e9f78fb-7abc-4cc6-a0e2-78f231775daa.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-24T08:51:10.693Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5db74e5-f601-4ed6-8596-dfb661576a1b.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e9f78fb-7abc-4cc6-a0e2-78f231775daa.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m4",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M4 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1862ae50-919a-484f-b06b-ea3e1e482fb8.png",
+      "lowestPrice": 228900,
+      "latestCreatedAt": "2025-12-24T08:36:02.129Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m4",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/99d31e23-57a1-47b6-9cdf-14e49119a8ee.jpeg",
+      "pack": {
+        "slug": "cat2-m4",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M4",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3e091598-fb83-40e1-82bb-9de44198dcac.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1862ae50-919a-484f-b06b-ea3e1e482fb8.png"
+      }
+    },
+    {
       "uniqueCode": "cat2-m70",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M70 Dallas",
@@ -3770,30 +3866,6 @@
       }
     },
     {
-      "uniqueCode": "P_AP36",
-      "type": "highlight",
-      "title": "Robert Kenedy",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-23T00:05:11.709Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/95ecedb7-9e9e-48b1-a7ce-19b7ced3bd79.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png"
-      }
-    },
-    {
       "uniqueCode": "F_AM24",
       "type": "highlight",
       "title": "22. Juan Pablo Freytes",
@@ -4199,30 +4271,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M50",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db5ff21-b23d-44db-b597-5fd0a28a2cd3.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2e9fcf87-6c70-4758-b80e-5f58685cc9de.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM21",
-      "type": "highlight",
-      "title": "14. Germán Cano",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e9f78fb-7abc-4cc6-a0e2-78f231775daa.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-22T17:29:52.858Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5db74e5-f601-4ed6-8596-dfb661576a1b.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e9f78fb-7abc-4cc6-a0e2-78f231775daa.png"
       }
     },
     {
@@ -4895,30 +4943,6 @@
         "title": "Trophy Lifts - Epic Reward",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1cc67768-d35a-4cb9-84f2-45525e414c8a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8069254-e50d-48dc-a596-0cb3559805b9.jpg"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m4",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M4 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1862ae50-919a-484f-b06b-ea3e1e482fb8.png",
-      "lowestPrice": 228900,
-      "latestCreatedAt": "2025-12-22T02:47:57.933Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m4",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/99d31e23-57a1-47b6-9cdf-14e49119a8ee.jpeg",
-      "pack": {
-        "slug": "cat2-m4",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M4",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3e091598-fb83-40e1-82bb-9de44198dcac.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1862ae50-919a-484f-b06b-ea3e1e482fb8.png"
       }
     },
     {
@@ -15293,30 +15317,6 @@
         "title": "San Lorenzo - 30 Anivesario Campeón 1995",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/08111092-707e-47ca-b696-7de74322128a.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "P_AP34",
-      "type": "highlight",
-      "title": "Luis Quiñones",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94fc47e1-03a6-4fee-9e99-22facd7fb4d6.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-10T17:34:19.189Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1acaf371-34e3-4c93-aacd-917015b990e4.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94fc47e1-03a6-4fee-9e99-22facd7fb4d6.png"
       }
     },
     {
