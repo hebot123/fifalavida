@@ -2,13 +2,493 @@
   "total": 1970,
   "listings": [
     {
+      "uniqueCode": "sp-rv-80",
+      "type": "highlight",
+      "title": "BELGIUM",
+      "subtitle": "1986 FIFA World Cup Mexico™ BEL 1-2 MEX **SKILL: Scifo 22'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/16237cee-9666-4001-b48d-619279ad13c3.jpeg",
+      "lowestPrice": 1900,
+      "latestCreatedAt": "2025-12-25T15:09:41.485Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sp-revelations",
+      "lowestEdition": 13,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sp-revelations",
+        "title": "Surprise Premium - Revelations",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/16237cee-9666-4001-b48d-619279ad13c3.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "sp-rv-88",
+      "type": "highlight",
+      "title": "GERMANY",
+      "subtitle": "FIFA Women's World Cup France 2019™ GER 1-0 CHN **GAME WINNING GOAL: Gwinn 66'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/998f7fa1-9e23-4041-8c1c-e627e0bc2451.jpeg",
+      "lowestPrice": 199,
+      "latestCreatedAt": "2025-12-25T15:09:21.825Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sp-revelations",
+      "lowestEdition": 20,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sp-revelations",
+        "title": "Surprise Premium - Revelations",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/998f7fa1-9e23-4041-8c1c-e627e0bc2451.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "sp-rv-84",
+      "type": "highlight",
+      "title": "CANADA",
+      "subtitle": "FIFA Women's World Cup Canada 2015™ NED 1-1 CAN **TACKLE: Buchanan 45'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7ae1c7d3-bae0-4de9-b83a-c05ecb6809ce.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T15:08:41.187Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sp-revelations",
+      "lowestEdition": 30,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sp-revelations",
+        "title": "Surprise Premium - Revelations",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7ae1c7d3-bae0-4de9-b83a-c05ecb6809ce.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m1",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M1 Mexico City",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d67c200c-6477-4cdf-9626-848fc5aeec93.png",
+      "lowestPrice": 587500,
+      "latestCreatedAt": "2025-12-25T15:01:49.845Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m1",
+      "lowestEdition": 115,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9070e142-5b8e-41c4-963d-4eca1632e6fc.jpeg",
+      "pack": {
+        "slug": "cat2-m1",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1ae71ab-be16-4778-9fc7-7439a621ced0.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d67c200c-6477-4cdf-9626-848fc5aeec93.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m80",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M80 Atlanta",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c86cb7b-6697-4f47-821f-895213c4f5d7.png",
+      "lowestPrice": 99900,
+      "latestCreatedAt": "2025-12-25T15:00:43.462Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m80",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/135dda8b-1838-4df4-8d46-0b873e9cf5a6.jpeg",
+      "pack": {
+        "slug": "cat1-m80",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M80",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1ebfb649-4e4d-4568-baff-3abd92ae7422.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c86cb7b-6697-4f47-821f-895213c4f5d7.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m78",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M78 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a39e6c0d-cc17-4559-8838-06fd881bd0d7.png",
+      "lowestPrice": 79900,
+      "latestCreatedAt": "2025-12-25T14:58:41.017Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m78",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3fa837cd-e5da-4295-ac12-4a470de08229.jpeg",
+      "pack": {
+        "slug": "cat1-m78",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M78",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a5563144-69a5-482e-ab94-f4d453f61cd0.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a39e6c0d-cc17-4559-8838-06fd881bd0d7.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m76",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M76 Houston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png",
+      "lowestPrice": 85800,
+      "latestCreatedAt": "2025-12-25T14:47:32.513Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m76",
+      "lowestEdition": 33,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d492b74e-01bc-4c46-8215-5c63a706b562.jpeg",
+      "pack": {
+        "slug": "cat1-m76",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M76",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09b4f90f-0dd8-4b68-8853-bbf3c9056020.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m61",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M61 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5666a670-b3bf-43a0-a484-19797a0b6710.png",
+      "lowestPrice": 120000,
+      "latestCreatedAt": "2025-12-25T14:34:11.422Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m61",
+      "lowestEdition": 23,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e2a8b462-f7b6-41a1-84ce-28366d873f5f.jpeg",
+      "pack": {
+        "slug": "cat1-m61",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M61",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/337369d5-d675-4d3a-9a95-1c7c15ba3078.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5666a670-b3bf-43a0-a484-19797a0b6710.png"
+      }
+    },
+    {
+      "uniqueCode": "D02-39",
+      "type": "highlight",
+      "title": "Russia",
+      "subtitle": "2018 FIFA World Cup Russia™  \nRUS 5 - 0 KSA, **Goal: Artem Dzyuba 71'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/397aef3a-1c3b-4921-b3ae-1261628b0bac.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:28:31.464Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 201,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/397aef3a-1c3b-4921-b3ae-1261628b0bac.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D02-36",
+      "type": "highlight",
+      "title": "Netherlands",
+      "subtitle": "2014 FIFA World Cup Brazil™  \nNED 2 - 0 CHI, **Goal: Leroy Fer 77'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f06d5-e1fd-4b44-a251-c21ab45b1deb.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:27:37.498Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 68,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f06d5-e1fd-4b44-a251-c21ab45b1deb.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D02-26",
+      "type": "highlight",
+      "title": "Hungary",
+      "subtitle": "1982 FIFA World Cup Spain™  \nBEL 1 - 1 HUN, **Goal: Jozsef Varga 28'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc217aed-1832-4ccc-bbcc-3acfddb38bfb.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:26:30.529Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 58,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc217aed-1832-4ccc-bbcc-3acfddb38bfb.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D02-30",
+      "type": "highlight",
+      "title": "Switzerland",
+      "subtitle": "1994 FIFA World Cup USA™  \nUSA 1 - 1 SUI, **Goal: Georges Bregy 40'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a81656f-1054-416a-b9ad-9609e3cdddf2.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:25:18.382Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 56,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a81656f-1054-416a-b9ad-9609e3cdddf2.png"
+      }
+    },
+    {
+      "uniqueCode": "D02-38",
+      "type": "highlight",
+      "title": "Panama",
+      "subtitle": "2018 FIFA World Cup Russia™  \nENG 6 - 1 PAN, **Goal: Felipe Baloy 78'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b9b3632e-6b25-43c4-84ee-a46010cd652a.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:24:39.845Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 31,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b9b3632e-6b25-43c4-84ee-a46010cd652a.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D02-25",
+      "type": "highlight",
+      "title": "Peru",
+      "subtitle": "1978 FIFA World Cup Argentina™  \nPOL 1 - 0 PER, **Save: Ramon Quiroga 8'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e560f80-bc9f-4e72-a76e-bea3feae87e8.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:24:09.261Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 21,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e560f80-bc9f-4e72-a76e-bea3feae87e8.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D02-32",
+      "type": "highlight",
+      "title": "Denmark",
+      "subtitle": "2002 FIFA World Cup Korea/Japan™  \nDEN 2 - 0 FRA, **Goal: Dennis Rommedahl 22'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c79ff863-44e5-4ca3-9c61-4048e8bda1da.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:23:37.888Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 448,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c79ff863-44e5-4ca3-9c61-4048e8bda1da.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D02-31",
+      "type": "highlight",
+      "title": "Portugal",
+      "subtitle": "2002 FIFA World Cup Korea/Japan™  \nUSA 3 - 2 POR, **Goal: Beto 39'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29399dac-d8c3-4f2e-85f6-57bde2a37d24.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:22:25.223Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 291,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29399dac-d8c3-4f2e-85f6-57bde2a37d24.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D02-33",
+      "type": "highlight",
+      "title": "Costa Rica",
+      "subtitle": "2002 FIFA World Cup Korea/Japan™  \nCHN 0 - 2 CRC, **Goal: Ronald Gomez 61'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a0868db-8eac-47e1-b853-28f79dab7c3c.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:21:34.651Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 50,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a0868db-8eac-47e1-b853-28f79dab7c3c.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D02-27",
+      "type": "highlight",
+      "title": "Austria",
+      "subtitle": "1990 FIFA World Cup Italy™  \nAUT 0 - 1 TCH, **Save: Klaus Lindenberger 57'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0b89545f-2ab1-49ec-9999-4630af4561ac.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:20:17.477Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 108,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0b89545f-2ab1-49ec-9999-4630af4561ac.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D02-34",
+      "type": "highlight",
+      "title": "Slovakia",
+      "subtitle": "2010 FIFA World Cup South Africa™  \nNZL 1 - 1 SVK, **Goal: Robert Vittek 50'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3c1b793b-fed5-433f-b17d-ea6061011e17.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:19:35.183Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 768,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3c1b793b-fed5-433f-b17d-ea6061011e17.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D02-37",
+      "type": "highlight",
+      "title": "Algeria",
+      "subtitle": "2014 FIFA World Cup Brazil™  \nALG 1 - 1 RUS, **Goal: Islam Slimani 60'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a0f9573-9e45-4d10-8af1-fcab49b92297.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:18:44.766Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 48,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a0f9573-9e45-4d10-8af1-fcab49b92297.jpeg"
+      }
+    },
+    {
       "uniqueCode": "D02-19",
       "type": "highlight",
       "title": "Norway",
       "subtitle": "FIFA Women's World Cup China 2007™  \nNOR 2 - 1 CAN, **Goal: Ragnhild Gulbrandsen 52'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/387a53cf-a88c-4cdf-b59b-2682577d03d9.jpeg",
       "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:13:43.280Z",
+      "latestCreatedAt": "2025-12-25T14:17:55.935Z",
       "rarity": {
         "code": "10",
         "color": "#27CFF7",
@@ -26,13 +506,37 @@
       }
     },
     {
+      "uniqueCode": "D02-35",
+      "type": "highlight",
+      "title": "Honduras",
+      "subtitle": "2014 FIFA World Cup Brazil™  \nHON 1 - 2 ECU, **Goal: Carlo Costly 31'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9ed9d507-6940-492b-ba6f-d369ad5fd2a3.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:17:35.809Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 291,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9ed9d507-6940-492b-ba6f-d369ad5fd2a3.jpeg"
+      }
+    },
+    {
       "uniqueCode": "D02-24",
       "type": "highlight",
       "title": "Bulgaria",
       "subtitle": "1970 FIFA World Cup Mexico™  \nBUL 1 - 1 MAR, **Goal: Dobromir Zhechev 40'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/03dd8f3e-2346-4886-bf28-1c0e2e20f035.jpg",
       "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:13:07.564Z",
+      "latestCreatedAt": "2025-12-25T14:17:18.853Z",
       "rarity": {
         "code": "10",
         "color": "#27CFF7",
@@ -47,6 +551,30 @@
         "title": "FIFA Archives Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/03dd8f3e-2346-4886-bf28-1c0e2e20f035.jpg"
+      }
+    },
+    {
+      "uniqueCode": "D02-29",
+      "type": "highlight",
+      "title": "Bolivia",
+      "subtitle": "1994 FIFA World Cup USA™  \nBOL 1 - 3 ESP, **Goal: Erwin Sanchez 67'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/26b1289a-9437-447c-8c2c-9c284c8dd2ab.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-25T14:16:16.201Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 94,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/26b1289a-9437-447c-8c2c-9c284c8dd2ab.jpeg"
       }
     },
     {
@@ -74,54 +602,6 @@
       }
     },
     {
-      "uniqueCode": "D02-29",
-      "type": "highlight",
-      "title": "Bolivia",
-      "subtitle": "1994 FIFA World Cup USA™  \nBOL 1 - 3 ESP, **Goal: Erwin Sanchez 67'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/26b1289a-9437-447c-8c2c-9c284c8dd2ab.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:12:30.308Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 94,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/26b1289a-9437-447c-8c2c-9c284c8dd2ab.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D02-35",
-      "type": "highlight",
-      "title": "Honduras",
-      "subtitle": "2014 FIFA World Cup Brazil™  \nHON 1 - 2 ECU, **Goal: Carlo Costly 31'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9ed9d507-6940-492b-ba6f-d369ad5fd2a3.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:12:05.501Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 291,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9ed9d507-6940-492b-ba6f-d369ad5fd2a3.jpeg"
-      }
-    },
-    {
       "uniqueCode": "D02-18",
       "type": "highlight",
       "title": "China PR",
@@ -143,54 +623,6 @@
         "title": "FIFA Archives Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/abf9ceee-c69e-4f27-8cb9-d05c9153163a.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D02-37",
-      "type": "highlight",
-      "title": "Algeria",
-      "subtitle": "2014 FIFA World Cup Brazil™  \nALG 1 - 1 RUS, **Goal: Islam Slimani 60'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a0f9573-9e45-4d10-8af1-fcab49b92297.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:11:20.614Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 48,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a0f9573-9e45-4d10-8af1-fcab49b92297.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D02-34",
-      "type": "highlight",
-      "title": "Slovakia",
-      "subtitle": "2010 FIFA World Cup South Africa™  \nNZL 1 - 1 SVK, **Goal: Robert Vittek 50'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3c1b793b-fed5-433f-b17d-ea6061011e17.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:10:43.397Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 768,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3c1b793b-fed5-433f-b17d-ea6061011e17.jpeg"
       }
     },
     {
@@ -218,54 +650,6 @@
       }
     },
     {
-      "uniqueCode": "D02-27",
-      "type": "highlight",
-      "title": "Austria",
-      "subtitle": "1990 FIFA World Cup Italy™  \nAUT 0 - 1 TCH, **Save: Klaus Lindenberger 57'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0b89545f-2ab1-49ec-9999-4630af4561ac.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:09:31.200Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 108,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0b89545f-2ab1-49ec-9999-4630af4561ac.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D02-33",
-      "type": "highlight",
-      "title": "Costa Rica",
-      "subtitle": "2002 FIFA World Cup Korea/Japan™  \nCHN 0 - 2 CRC, **Goal: Ronald Gomez 61'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a0868db-8eac-47e1-b853-28f79dab7c3c.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:08:40.103Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 50,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a0868db-8eac-47e1-b853-28f79dab7c3c.jpeg"
-      }
-    },
-    {
       "uniqueCode": "D02-23",
       "type": "highlight",
       "title": "Australia",
@@ -287,30 +671,6 @@
         "title": "FIFA Archives Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7cc025c6-5851-40bb-a248-6ad25b413bd0.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D02-31",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "2002 FIFA World Cup Korea/Japan™  \nUSA 3 - 2 POR, **Goal: Beto 39'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29399dac-d8c3-4f2e-85f6-57bde2a37d24.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:07:31.611Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 291,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29399dac-d8c3-4f2e-85f6-57bde2a37d24.jpeg"
       }
     },
     {
@@ -338,150 +698,6 @@
       }
     },
     {
-      "uniqueCode": "D02-32",
-      "type": "highlight",
-      "title": "Denmark",
-      "subtitle": "2002 FIFA World Cup Korea/Japan™  \nDEN 2 - 0 FRA, **Goal: Dennis Rommedahl 22'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c79ff863-44e5-4ca3-9c61-4048e8bda1da.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:06:57.588Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 448,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c79ff863-44e5-4ca3-9c61-4048e8bda1da.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D02-25",
-      "type": "highlight",
-      "title": "Peru",
-      "subtitle": "1978 FIFA World Cup Argentina™  \nPOL 1 - 0 PER, **Save: Ramon Quiroga 8'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e560f80-bc9f-4e72-a76e-bea3feae87e8.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:06:44.774Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 21,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e560f80-bc9f-4e72-a76e-bea3feae87e8.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D02-38",
-      "type": "highlight",
-      "title": "Panama",
-      "subtitle": "2018 FIFA World Cup Russia™  \nENG 6 - 1 PAN, **Goal: Felipe Baloy 78'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b9b3632e-6b25-43c4-84ee-a46010cd652a.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:06:24.366Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 31,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b9b3632e-6b25-43c4-84ee-a46010cd652a.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D02-30",
-      "type": "highlight",
-      "title": "Switzerland",
-      "subtitle": "1994 FIFA World Cup USA™  \nUSA 1 - 1 SUI, **Goal: Georges Bregy 40'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a81656f-1054-416a-b9ad-9609e3cdddf2.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:06:11.427Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 56,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a81656f-1054-416a-b9ad-9609e3cdddf2.png"
-      }
-    },
-    {
-      "uniqueCode": "D02-26",
-      "type": "highlight",
-      "title": "Hungary",
-      "subtitle": "1982 FIFA World Cup Spain™  \nBEL 1 - 1 HUN, **Goal: Jozsef Varga 28'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc217aed-1832-4ccc-bbcc-3acfddb38bfb.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:05:45.198Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 58,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc217aed-1832-4ccc-bbcc-3acfddb38bfb.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D02-36",
-      "type": "highlight",
-      "title": "Netherlands",
-      "subtitle": "2014 FIFA World Cup Brazil™  \nNED 2 - 0 CHI, **Goal: Leroy Fer 77'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f06d5-e1fd-4b44-a251-c21ab45b1deb.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:05:28.545Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 68,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f06d5-e1fd-4b44-a251-c21ab45b1deb.jpeg"
-      }
-    },
-    {
       "uniqueCode": "D02-20",
       "type": "highlight",
       "title": "Ecuador",
@@ -503,30 +719,6 @@
         "title": "FIFA Archives Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/87a06d86-fabe-40ee-bce2-6331007fe428.png"
-      }
-    },
-    {
-      "uniqueCode": "D02-39",
-      "type": "highlight",
-      "title": "Russia",
-      "subtitle": "2018 FIFA World Cup Russia™  \nRUS 5 - 0 KSA, **Goal: Artem Dzyuba 71'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/397aef3a-1c3b-4921-b3ae-1261628b0bac.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-25T14:05:02.059Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 201,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/397aef3a-1c3b-4921-b3ae-1261628b0bac.jpeg"
       }
     },
     {
@@ -983,30 +1175,6 @@
         "title": "Genesis Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e8ab612d-1016-4a92-8de9-58493e30e276.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m1",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M1 Mexico City",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d67c200c-6477-4cdf-9626-848fc5aeec93.png",
-      "lowestPrice": 589000,
-      "latestCreatedAt": "2025-12-25T08:47:03.425Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m1",
-      "lowestEdition": 57,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9070e142-5b8e-41c4-963d-4eca1632e6fc.jpeg",
-      "pack": {
-        "slug": "cat2-m1",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1ae71ab-be16-4778-9fc7-7439a621ced0.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d67c200c-6477-4cdf-9626-848fc5aeec93.png"
       }
     },
     {
@@ -1487,30 +1655,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M27",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fc33b102-3613-40b2-b8ef-ac1f160054a5.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8510b1f1-21e9-4085-a09e-7b1d5f2d11c9.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m76",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M76 Houston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png",
-      "lowestPrice": 85800,
-      "latestCreatedAt": "2025-12-25T00:15:48.407Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m76",
-      "lowestEdition": 33,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d492b74e-01bc-4c46-8215-5c63a706b562.jpeg",
-      "pack": {
-        "slug": "cat1-m76",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M76",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09b4f90f-0dd8-4b68-8853-bbf3c9056020.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png"
       }
     },
     {
@@ -7322,54 +7466,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m78",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M78 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a39e6c0d-cc17-4559-8838-06fd881bd0d7.png",
-      "lowestPrice": 83500,
-      "latestCreatedAt": "2025-12-20T18:02:03.475Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m78",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3fa837cd-e5da-4295-ac12-4a470de08229.jpeg",
-      "pack": {
-        "slug": "cat1-m78",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M78",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a5563144-69a5-482e-ab94-f4d453f61cd0.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a39e6c0d-cc17-4559-8838-06fd881bd0d7.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m80",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M80 Atlanta",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c86cb7b-6697-4f47-821f-895213c4f5d7.png",
-      "lowestPrice": 109900,
-      "latestCreatedAt": "2025-12-20T16:49:23.159Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m80",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/135dda8b-1838-4df4-8d46-0b873e9cf5a6.jpeg",
-      "pack": {
-        "slug": "cat1-m80",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M80",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1ebfb649-4e4d-4568-baff-3abd92ae7422.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c86cb7b-6697-4f47-821f-895213c4f5d7.png"
-      }
-    },
-    {
       "uniqueCode": "cat2m101",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M101 Dallas",
@@ -8798,54 +8894,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M23",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0f1f8cac-abf8-4249-a1cf-371efb610c99.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6cabbc7f-0487-406b-a745-a0f6235e094f.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m61",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M61 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5666a670-b3bf-43a0-a484-19797a0b6710.png",
-      "lowestPrice": 122500,
-      "latestCreatedAt": "2025-12-18T00:20:28.214Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m61",
-      "lowestEdition": 23,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e2a8b462-f7b6-41a1-84ce-28366d873f5f.jpeg",
-      "pack": {
-        "slug": "cat1-m61",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M61",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/337369d5-d675-4d3a-9a95-1c7c15ba3078.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5666a670-b3bf-43a0-a484-19797a0b6710.png"
-      }
-    },
-    {
-      "uniqueCode": "sp-rv-88",
-      "type": "highlight",
-      "title": "GERMANY",
-      "subtitle": "FIFA Women's World Cup France 2019™ GER 1-0 CHN **GAME WINNING GOAL: Gwinn 66'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/998f7fa1-9e23-4041-8c1c-e627e0bc2451.jpeg",
-      "lowestPrice": 199,
-      "latestCreatedAt": "2025-12-17T23:43:25.357Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sp-revelations",
-      "lowestEdition": 20,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sp-revelations",
-        "title": "Surprise Premium - Revelations",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/998f7fa1-9e23-4041-8c1c-e627e0bc2451.jpeg"
       }
     },
     {
@@ -10454,30 +10502,6 @@
         "title": "Surprise Premium - Revelations",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/539e6d7a-3a27-4940-a523-323216800c3a.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "sp-rv-84",
-      "type": "highlight",
-      "title": "CANADA",
-      "subtitle": "FIFA Women's World Cup Canada 2015™ NED 1-1 CAN **TACKLE: Buchanan 45'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7ae1c7d3-bae0-4de9-b83a-c05ecb6809ce.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-15T20:44:39.683Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sp-revelations",
-      "lowestEdition": 36,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sp-revelations",
-        "title": "Surprise Premium - Revelations",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7ae1c7d3-bae0-4de9-b83a-c05ecb6809ce.jpeg"
       }
     },
     {
@@ -14621,30 +14645,6 @@
         "title": "Surprise Premium - Revelations",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2981288f-fb79-4ded-829e-82c36e3dffa9.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "sp-rv-80",
-      "type": "highlight",
-      "title": "BELGIUM",
-      "subtitle": "1986 FIFA World Cup Mexico™ BEL 1-2 MEX **SKILL: Scifo 22'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/16237cee-9666-4001-b48d-619279ad13c3.jpeg",
-      "lowestPrice": 1900,
-      "latestCreatedAt": "2025-12-12T15:57:11.661Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sp-revelations",
-      "lowestEdition": 13,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sp-revelations",
-        "title": "Surprise Premium - Revelations",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/16237cee-9666-4001-b48d-619279ad13c3.jpeg"
       }
     },
     {
