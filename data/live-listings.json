@@ -2,6 +2,78 @@
   "total": 1970,
   "listings": [
     {
+      "uniqueCode": "S2-R1-03",
+      "type": "highlight",
+      "title": "Germany FR",
+      "subtitle": "1974 FIFA World Cup Germany™  \nNED 1 - 2 FRG, **Trophy Lift: Franz Beckenbauer**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/affd615d-5928-4a68-93b8-7d562a514bcc.jpeg",
+      "lowestPrice": 1700,
+      "latestCreatedAt": "2025-12-26T11:02:18.990Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "trophy-lifts-variety-rewards",
+      "lowestEdition": 6,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "trophy-lifts-variety-rewards",
+        "title": "Trophy Lifts - Variety Reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c252be70-e259-4aa1-a2ae-6b32b33f042a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/affd615d-5928-4a68-93b8-7d562a514bcc.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m43",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M43 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77a98cf1-d0e9-4326-b626-e0dffda734cc.png",
+      "lowestPrice": 99800,
+      "latestCreatedAt": "2025-12-26T10:58:31.487Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m43",
+      "lowestEdition": 47,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1018d8ad-ddf4-4386-a173-4254b87bce55.jpeg",
+      "pack": {
+        "slug": "cat2-m43",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M43",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/76ed17b7-7d9f-4c1b-a1b6-e3f3c82df81a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77a98cf1-d0e9-4326-b626-e0dffda734cc.png"
+      }
+    },
+    {
+      "uniqueCode": "reg-dr01",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 0 CRO **PENALTY: Messi 34'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg",
+      "lowestPrice": 6000,
+      "latestCreatedAt": "2025-12-26T10:54:21.324Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop",
+        "title": "Regenesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg"
+      }
+    },
+    {
       "uniqueCode": "cat1-m91",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M91 New York",
@@ -47,30 +119,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M78",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a5563144-69a5-482e-ab94-f4d453f61cd0.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a39e6c0d-cc17-4559-8838-06fd881bd0d7.png"
-      }
-    },
-    {
-      "uniqueCode": "S2-R1-03",
-      "type": "highlight",
-      "title": "Germany FR",
-      "subtitle": "1974 FIFA World Cup Germany™  \nNED 1 - 2 FRG, **Trophy Lift: Franz Beckenbauer**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/affd615d-5928-4a68-93b8-7d562a514bcc.jpeg",
-      "lowestPrice": 1700,
-      "latestCreatedAt": "2025-12-26T09:00:53.641Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "trophy-lifts-variety-rewards",
-      "lowestEdition": 6,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "trophy-lifts-variety-rewards",
-        "title": "Trophy Lifts - Variety Reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c252be70-e259-4aa1-a2ae-6b32b33f042a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/affd615d-5928-4a68-93b8-7d562a514bcc.jpeg"
       }
     },
     {
@@ -4682,30 +4730,6 @@
       }
     },
     {
-      "uniqueCode": "reg-dr01",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 0 CRO **PENALTY: Messi 34'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg",
-      "lowestPrice": 6000,
-      "latestCreatedAt": "2025-12-24T13:20:32.800Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "regenesis-drop",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "regenesis-drop",
-        "title": "Regenesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg"
-      }
-    },
-    {
       "uniqueCode": "reg-dr06",
       "type": "highlight",
       "title": "Argentina",
@@ -4823,30 +4847,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M80",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/49c21af8-feac-47c5-b829-804b7c82ec50.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcfe7e04-9834-4a69-88ec-335521da652e.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m43",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M43 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77a98cf1-d0e9-4326-b626-e0dffda734cc.png",
-      "lowestPrice": 99800,
-      "latestCreatedAt": "2025-12-24T12:58:02.922Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m43",
-      "lowestEdition": 47,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1018d8ad-ddf4-4386-a173-4254b87bce55.jpeg",
-      "pack": {
-        "slug": "cat2-m43",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M43",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/76ed17b7-7d9f-4c1b-a1b6-e3f3c82df81a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77a98cf1-d0e9-4326-b626-e0dffda734cc.png"
       }
     },
     {
