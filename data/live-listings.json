@@ -2,27 +2,99 @@
   "total": 1970,
   "listings": [
     {
-      "uniqueCode": "reg-dr01",
+      "uniqueCode": "EFT_A8",
       "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 0 CRO **PENALTY: Messi 34'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg",
-      "lowestPrice": 6000,
-      "latestCreatedAt": "2025-12-27T08:09:30.570Z",
+      "title": "Portugal",
+      "subtitle": "2018 FIFA World Cup Russia™ <br/> URU 2-1 POR, **Goal: Pepe 55'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dc5335d-e20f-4f83-8997-c080cf9feedd.jpeg",
+      "lowestPrice": 200,
+      "latestCreatedAt": "2025-12-27T09:15:22.819Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "efirst-timers",
+      "lowestEdition": 2,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "efirst-timers",
+        "title": "Europe First Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dc5335d-e20f-4f83-8997-c080cf9feedd.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "EFT_A6",
+      "type": "highlight",
+      "title": "England",
+      "subtitle": "2018 FIFA World Cup Russia™ <br/> TUN 1-2 ENG, **Goal: Harry Kane 11'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cbb512d2-6247-459c-9c50-665ac1e0f95b.jpeg",
+      "lowestPrice": 199,
+      "latestCreatedAt": "2025-12-27T09:07:35.505Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "efirst-timers",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "efirst-timers",
+        "title": "Europe First Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cbb512d2-6247-459c-9c50-665ac1e0f95b.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "EFT_A7",
+      "type": "highlight",
+      "title": "Germany",
+      "subtitle": "2022 FIFA World Cup Qatar™ <br/> ESP 1-1 GER, **Goal: Niclas Fullkrug 83'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dfa2604a-c25e-4f77-ab37-996de24b1517.jpeg",
+      "lowestPrice": 149,
+      "latestCreatedAt": "2025-12-27T08:44:30.857Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "efirst-timers",
+      "lowestEdition": 3,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "efirst-timers",
+        "title": "Europe First Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dfa2604a-c25e-4f77-ab37-996de24b1517.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m15",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M15 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c151f165-75ea-453c-b364-4f453ed2c935.png",
+      "lowestPrice": 44900,
+      "latestCreatedAt": "2025-12-27T08:39:04.756Z",
       "rarity": {
         "code": "40",
         "color": "#DDBE5E",
         "name": "Iconic"
       },
       "languageCode": "en-UK",
-      "packSlug": "regenesis-drop",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
+      "packSlug": "cat2-m15",
+      "lowestEdition": 6,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c5239207-61ea-4542-9769-12d0163af652.jpeg",
       "pack": {
-        "slug": "regenesis-drop",
-        "title": "Regenesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg"
+        "slug": "cat2-m15",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M15",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0521b243-5fdd-480f-8427-ff43a1dc8113.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c151f165-75ea-453c-b364-4f453ed2c935.png"
       }
     },
     {
@@ -4175,6 +4247,30 @@
         "title": "Trophy Lifts - Variety Reward",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c252be70-e259-4aa1-a2ae-6b32b33f042a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/affd615d-5928-4a68-93b8-7d562a514bcc.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "reg-dr01",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 0 CRO **PENALTY: Messi 34'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg",
+      "lowestPrice": 6000,
+      "latestCreatedAt": "2025-12-26T10:54:21.324Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop",
+        "title": "Regenesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg"
       }
     },
     {
@@ -9575,30 +9671,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M20",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/721e9451-1a06-4fb6-a4a5-8a02967cf05a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/51b1a538-b25c-478e-88dc-b3f67d6bf9d3.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m15",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M15 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c151f165-75ea-453c-b364-4f453ed2c935.png",
-      "lowestPrice": 44900,
-      "latestCreatedAt": "2025-12-23T02:15:48.818Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m15",
-      "lowestEdition": 6,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c5239207-61ea-4542-9769-12d0163af652.jpeg",
-      "pack": {
-        "slug": "cat2-m15",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M15",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0521b243-5fdd-480f-8427-ff43a1dc8113.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c151f165-75ea-453c-b364-4f453ed2c935.png"
       }
     },
     {
@@ -18440,30 +18512,6 @@
       }
     },
     {
-      "uniqueCode": "EFT_A7",
-      "type": "highlight",
-      "title": "Germany",
-      "subtitle": "2022 FIFA World Cup Qatar™ <br/> ESP 1-1 GER, **Goal: Niclas Fullkrug 83'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dfa2604a-c25e-4f77-ab37-996de24b1517.jpeg",
-      "lowestPrice": 149,
-      "latestCreatedAt": "2025-12-11T13:58:11.061Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "efirst-timers",
-      "lowestEdition": 3,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "efirst-timers",
-        "title": "Europe First Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dfa2604a-c25e-4f77-ab37-996de24b1517.jpeg"
-      }
-    },
-    {
       "uniqueCode": "rg2-dr16",
       "type": "highlight",
       "title": "Costa Rica",
@@ -26219,30 +26267,6 @@
       }
     },
     {
-      "uniqueCode": "EFT_A8",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "2018 FIFA World Cup Russia™ <br/> URU 2-1 POR, **Goal: Pepe 55'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dc5335d-e20f-4f83-8997-c080cf9feedd.jpeg",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2025-11-28T20:29:27.268Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "efirst-timers",
-      "lowestEdition": 2,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "efirst-timers",
-        "title": "Europe First Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dc5335d-e20f-4f83-8997-c080cf9feedd.jpeg"
-      }
-    },
-    {
       "uniqueCode": "S2D01-08",
       "type": "highlight",
       "title": "Mexico",
@@ -29048,30 +29072,6 @@
         "title": "Regenesis 2: Last Minute Goals",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8855fdc3-0d1e-4d10-9e5d-66b55d6e61ba.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3e271f02-0eab-4ab4-81cd-00f1f383fbaf.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "EFT_A6",
-      "type": "highlight",
-      "title": "England",
-      "subtitle": "2018 FIFA World Cup Russia™ <br/> TUN 1-2 ENG, **Goal: Harry Kane 11'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cbb512d2-6247-459c-9c50-665ac1e0f95b.jpeg",
-      "lowestPrice": 199,
-      "latestCreatedAt": "2025-11-21T15:20:44.909Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "efirst-timers",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "efirst-timers",
-        "title": "Europe First Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cbb512d2-6247-459c-9c50-665ac1e0f95b.jpeg"
       }
     },
     {
