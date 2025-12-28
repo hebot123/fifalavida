@@ -2,27 +2,843 @@
   "total": 1970,
   "listings": [
     {
-      "uniqueCode": "P_PP21",
+      "uniqueCode": "P_P15",
       "type": "highlight",
-      "title": "Italy 1934",
-      "subtitle": "FIFA World Cup Italy 1934™ <br/> 4.12 goals scored per match",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1d1c98ff-6daf-4153-a5e5-2349d917b789.png",
-      "lowestPrice": 2500,
-      "latestCreatedAt": "2025-12-28T06:23:54.684Z",
+      "title": "Brazil 2014",
+      "subtitle": "FIFA World Cup Brazil 2014™ <br/> 2.67 goals scored per match",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0b0a5665-feb8-41d9-8c26-99ce3fd60f6a.png",
+      "lowestPrice": 250,
+      "latestCreatedAt": "2025-12-28T07:15:59.633Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fifa-120",
+      "lowestEdition": 37,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/784bc748-2cb5-48c4-97fa-496c6355a4c2.png",
+      "pack": {
+        "slug": "fifa-120",
+        "title": "Celebrating 120 years of FIFA™",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0b0a5665-feb8-41d9-8c26-99ce3fd60f6a.png"
+      }
+    },
+    {
+      "uniqueCode": "P_P11",
+      "type": "highlight",
+      "title": "France 1998",
+      "subtitle": "FIFA World Cup France 1998™ <br/> 2.67 goals scored per match",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/26f06976-6a69-45e7-a0f3-41f3c440e598.png",
+      "lowestPrice": 280,
+      "latestCreatedAt": "2025-12-28T07:15:20.525Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fifa-120",
+      "lowestEdition": 15,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/eb7945d5-563e-4cf1-a1d4-fe71d523dc08.png",
+      "pack": {
+        "slug": "fifa-120",
+        "title": "Celebrating 120 years of FIFA™",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/26f06976-6a69-45e7-a0f3-41f3c440e598.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP47",
+      "type": "highlight",
+      "title": "Pedro Pedraza",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66b5d211-cf2b-4bbe-a39c-7c65a8069060.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:13:45.449Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4bcaa566-bf62-4426-a5e4-73fa32d4c446.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66b5d211-cf2b-4bbe-a39c-7c65a8069060.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP46",
+      "type": "highlight",
+      "title": "José Eulogio",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d779c98-fa33-4399-9fbb-47c208a0d884.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:13:21.942Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c4dbbb18-07c4-453b-9d4c-14435763a609.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d779c98-fa33-4399-9fbb-47c208a0d884.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP38",
+      "type": "highlight",
+      "title": "Eduardo Bauermann",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38c18f0b-9371-4dfe-8837-7ebcde438a38.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:13:10.006Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0eceef47-5ccd-40ec-8382-88d2c5345293.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38c18f0b-9371-4dfe-8837-7ebcde438a38.png"
+      }
+    },
+    {
+      "uniqueCode": "SL_AC15",
+      "type": "highlight",
+      "title": "Carlos Netto",
+      "subtitle": "San Lorenzo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29395bfa-2932-4b24-830b-c225c5c3e69b.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:12:52.096Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sanlorenzo-30aniversario1995campeon-sp",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6929062d-0ece-48fd-a2af-3161e7d4b839.png",
+      "pack": {
+        "slug": "sanlorenzo-30aniversario1995campeon-sp",
+        "title": "San Lorenzo - 30 Anivesario Campeón 1995",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29395bfa-2932-4b24-830b-c225c5c3e69b.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "F_AM31",
+      "type": "highlight",
+      "title": "16. Nonato",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4b253ec5-dd67-429f-a937-25c80ef5cb9f.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:12:39.448Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/639321cd-7997-43ce-9d62-4b1db9791a5d.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4b253ec5-dd67-429f-a937-25c80ef5cb9f.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM45",
+      "type": "highlight",
+      "title": "19. Joaquín Lavega",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63e46bb6-c1ed-4713-b9e9-67a1763fe35e.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:12:20.260Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/88f0e3f7-75c1-4617-aabe-19fc83a424e3.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63e46bb6-c1ed-4713-b9e9-67a1763fe35e.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM35",
+      "type": "highlight",
+      "title": "90. Kevin Serna",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42849283-99c5-494b-937d-bc433cf3f8c0.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:12:08.415Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/eb866c65-dd9f-4bb2-b25b-8e3653ff0511.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42849283-99c5-494b-937d-bc433cf3f8c0.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM29",
+      "type": "highlight",
+      "title": "5. Facundo Bernal",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc85e25-c4a4-4747-966e-307c61e0cf94.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:11:58.098Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c6666c78-3f85-419e-b0cd-45ebd66c01df.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc85e25-c4a4-4747-966e-307c61e0cf94.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM43",
+      "type": "highlight",
+      "title": "55. Wallace Davi",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b035233d-be78-466a-925d-275dd101338d.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:11:46.890Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5a94392a-b523-4894-b2f5-64d688ae10b7.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b035233d-be78-466a-925d-275dd101338d.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM24",
+      "type": "highlight",
+      "title": "22. Juan Pablo Freytes",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cba1e688-318b-491e-bd56-1cf9536b8d4a.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:11:37.282Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9adc6762-95c0-4f75-ac9d-55136ad18ac4.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cba1e688-318b-491e-bd56-1cf9536b8d4a.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM30",
+      "type": "highlight",
+      "title": "45. Lima",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c4684cd1-adbe-4c30-96ea-ba447c3f8115.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:11:26.266Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/22a03457-dc4b-4678-b110-1e8608e312aa.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c4684cd1-adbe-4c30-96ea-ba447c3f8115.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM28",
+      "type": "highlight",
+      "title": "2. Samuel Xavier",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c161e02b-43a0-4cca-b57e-06f5a790458e.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:11:15.024Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dd5e977b-9689-4046-ab9a-7c2cb68e2dbb.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c161e02b-43a0-4cca-b57e-06f5a790458e.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM27",
+      "type": "highlight",
+      "title": "6. Renê",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3545e1d9-dc1d-42cf-aae8-3fcc7a438af8.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:11:00.684Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2300d746-0415-431f-9fe7-4f37394ff9d3.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3545e1d9-dc1d-42cf-aae8-3fcc7a438af8.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM42",
+      "type": "highlight",
+      "title": "28. Riquelme",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/885524be-8fb5-43fa-b78e-0604beeaf2ed.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:10:48.972Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1ee90b6d-19fe-47b3-a86e-90b5373c2b1d.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/885524be-8fb5-43fa-b78e-0604beeaf2ed.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM40",
+      "type": "highlight",
+      "title": "29. Thiago Santos",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f2271330-02f3-4f44-ae64-e42ec1ccf2ca.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:10:38.917Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6810dc8e-f0f4-4c62-90a5-776a42aad4fa.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f2271330-02f3-4f44-ae64-e42ec1ccf2ca.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM15",
+      "type": "highlight",
+      "title": "3. Thiago Silva",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c1dce1ed-8041-4431-8611-18205b678e53.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:10:27.945Z",
       "rarity": {
         "code": "30",
         "color": "#8055FE",
         "name": "Epic"
       },
       "languageCode": "en-UK",
-      "packSlug": "burn-fifa-124",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/99600789-3831-4de2-8054-8014c43d3bdd.png",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 12,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5b034643-a88c-42fa-8e2d-7b5de39a6a70.png",
       "pack": {
-        "slug": "burn-fifa-124",
-        "title": "120 years of FIFA: epic reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4156f338-5d15-4288-92b1-4880a37b4cd4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1d1c98ff-6daf-4153-a5e5-2349d917b789.png"
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c1dce1ed-8041-4431-8611-18205b678e53.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM37",
+      "type": "highlight",
+      "title": "98. Vitor Eudes",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67d1af60-e1fa-4bb6-b0cb-a71f5253a98c.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:10:08.671Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/889d0217-d35a-4222-8d3c-f3735058db7e.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67d1af60-e1fa-4bb6-b0cb-a71f5253a98c.png"
+      }
+    },
+    {
+      "uniqueCode": "SL_AC20",
+      "type": "highlight",
+      "title": "Oscar Passet",
+      "subtitle": "San Lorenzo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bf42eeb-8828-44ba-8e0f-f0d80e79233e.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:09:59.796Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sanlorenzo-30aniversario1995campeon-sp",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/da173f77-093c-4d00-a49a-4872d44b265e.png",
+      "pack": {
+        "slug": "sanlorenzo-30aniversario1995campeon-sp",
+        "title": "San Lorenzo - 30 Anivesario Campeón 1995",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bf42eeb-8828-44ba-8e0f-f0d80e79233e.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "F_AM34",
+      "type": "highlight",
+      "title": "11. Keno",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/78b88348-2484-4328-945e-ff751309f09f.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:09:33.449Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5c3e8807-8f10-4f29-894d-0b59d634dc8a.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/78b88348-2484-4328-945e-ff751309f09f.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM25",
+      "type": "highlight",
+      "title": "23. Guga",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67756232-fb8e-4f19-8d27-054c966c8935.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:09:19.049Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3e534ffb-4558-42ca-b0b2-feb15880b741.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67756232-fb8e-4f19-8d27-054c966c8935.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM41",
+      "type": "highlight",
+      "title": "18. Rubén Lezcano",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dfdc12ed-711f-4548-bb35-8b39b1cb65d5.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:08:56.696Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a8b0d30f-5c85-44c4-8a98-948034732802.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dfdc12ed-711f-4548-bb35-8b39b1cb65d5.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM26",
+      "type": "highlight",
+      "title": "4. Ignácio",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bde17626-0efa-444c-b4b0-662cd086ccd4.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:08:37.623Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5dcc63cc-3c08-4288-b9df-17af3ea0b482.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bde17626-0efa-444c-b4b0-662cd086ccd4.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM39",
+      "type": "highlight",
+      "title": "26. Manoel",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f000aecc-eab1-48ee-a819-3c7a02a1f17a.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:07:25.105Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f1031ae1-a850-4da2-bd75-e83419e654bf.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f000aecc-eab1-48ee-a819-3c7a02a1f17a.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP39",
+      "type": "highlight",
+      "title": "Sergio Barreto",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77ebc635-ba66-4583-8856-776ccd0132f9.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:05:37.223Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/92332be1-acb4-4c10-9eee-b7ace1c27f66.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77ebc635-ba66-4583-8856-776ccd0132f9.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM44",
+      "type": "highlight",
+      "title": "7. Yeferson Soltedo",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3fb17f3d-06c8-4ebc-9ff0-9573a7c2285c.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:05:12.971Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a8498b65-bdb3-42ff-8780-6ee82ba15aec.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3fb17f3d-06c8-4ebc-9ff0-9573a7c2285c.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP36",
+      "type": "highlight",
+      "title": "Robert Kenedy",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2025-12-28T07:04:42.595Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/95ecedb7-9e9e-48b1-a7ce-19b7ced3bd79.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png"
+      }
+    },
+    {
+      "uniqueCode": "P_P09",
+      "type": "highlight",
+      "title": "England 1966",
+      "subtitle": "FIFA World Cup England 1966™ <br/> 2.78 goals scored per match",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9a925d1a-db87-4aaf-820a-ea6556868c83.png",
+      "lowestPrice": 299,
+      "latestCreatedAt": "2025-12-28T07:00:51.794Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fifa-120",
+      "lowestEdition": 58,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0d008c6c-ad59-4f47-a516-3f7517b2bfa6.png",
+      "pack": {
+        "slug": "fifa-120",
+        "title": "Celebrating 120 years of FIFA™",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9a925d1a-db87-4aaf-820a-ea6556868c83.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m74",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M74 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/65f5aab1-1171-45e9-bffd-d29252749621.png",
+      "lowestPrice": 61500,
+      "latestCreatedAt": "2025-12-28T07:00:38.948Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m74",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bea24d1e-6d5b-456c-958b-f34b19b2b7b1.jpeg",
+      "pack": {
+        "slug": "cat2-m74",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M74",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/485bedbd-4975-47b7-b253-a355087774de.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/65f5aab1-1171-45e9-bffd-d29252749621.png"
+      }
+    },
+    {
+      "uniqueCode": "P_P08",
+      "type": "highlight",
+      "title": "Mexico 1986",
+      "subtitle": "FIFA World Cup Mexico 1986™ <br/> 2.52  goals scored per match",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0cce9f5e-018d-4df3-9376-f60e1a9e4f86.png",
+      "lowestPrice": 400,
+      "latestCreatedAt": "2025-12-28T06:55:45.275Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fifa-120",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ed3a1452-144f-4573-b6d7-8e54013a5806.png",
+      "pack": {
+        "slug": "fifa-120",
+        "title": "Celebrating 120 years of FIFA™",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0cce9f5e-018d-4df3-9376-f60e1a9e4f86.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m1",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M1 Mexico City",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d67c200c-6477-4cdf-9626-848fc5aeec93.png",
+      "lowestPrice": 580000,
+      "latestCreatedAt": "2025-12-28T06:55:22.363Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m1",
+      "lowestEdition": 57,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9070e142-5b8e-41c4-963d-4eca1632e6fc.jpeg",
+      "pack": {
+        "slug": "cat2-m1",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1ae71ab-be16-4778-9fc7-7439a621ced0.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d67c200c-6477-4cdf-9626-848fc5aeec93.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m59",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M59 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3494e726-c549-42bf-abd6-428390294899.png",
+      "lowestPrice": 112000,
+      "latestCreatedAt": "2025-12-28T06:53:18.962Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m59",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dcd7b1cb-ba28-499e-b918-70d4b5bb9539.jpeg",
+      "pack": {
+        "slug": "cat2-m59",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M59",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5eabe9ba-a0fe-4c23-a133-862a98c5143e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3494e726-c549-42bf-abd6-428390294899.png"
+      }
+    },
+    {
+      "uniqueCode": "P_P05",
+      "type": "highlight",
+      "title": "Russia 2018",
+      "subtitle": "FIFA World Cup Russia 2018™ <br/> 2.64 goals scored per match",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79c95924-ee91-48a1-ba08-86861e89c54f.png",
+      "lowestPrice": 210,
+      "latestCreatedAt": "2025-12-28T06:50:05.184Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fifa-120",
+      "lowestEdition": 79,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ac367611-073b-4e58-b16f-576eb5c89303.png",
+      "pack": {
+        "slug": "fifa-120",
+        "title": "Celebrating 120 years of FIFA™",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79c95924-ee91-48a1-ba08-86861e89c54f.png"
+      }
+    },
+    {
+      "uniqueCode": "P_P07",
+      "type": "highlight",
+      "title": "Chile 1962",
+      "subtitle": "FIFA World Cup Chile 1962™ <br/> 2.78 goals scored per match",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fcdec50-06ed-44c8-b02b-9c6f93d1de2a.png",
+      "lowestPrice": 196,
+      "latestCreatedAt": "2025-12-28T06:35:57.169Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fifa-120",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e0fba695-dbb8-4257-b7aa-cb62e970f00e.png",
+      "pack": {
+        "slug": "fifa-120",
+        "title": "Celebrating 120 years of FIFA™",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fcdec50-06ed-44c8-b02b-9c6f93d1de2a.png"
       }
     },
     {
@@ -32,7 +848,7 @@
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/72eae004-9333-4d6a-8c98-fdf3175c988f.png",
       "lowestPrice": 62000,
-      "latestCreatedAt": "2025-12-28T06:23:43.362Z",
+      "latestCreatedAt": "2025-12-28T06:24:31.997Z",
       "rarity": {
         "code": "40",
         "color": "#DDBE5E",
@@ -47,6 +863,30 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M84",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/876f6571-fc75-4b90-9047-000dd9af0fd8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/72eae004-9333-4d6a-8c98-fdf3175c988f.png"
+      }
+    },
+    {
+      "uniqueCode": "P_PP21",
+      "type": "highlight",
+      "title": "Italy 1934",
+      "subtitle": "FIFA World Cup Italy 1934™ <br/> 4.12 goals scored per match",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1d1c98ff-6daf-4153-a5e5-2349d917b789.png",
+      "lowestPrice": 2500,
+      "latestCreatedAt": "2025-12-28T06:24:28.052Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "burn-fifa-124",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/99600789-3831-4de2-8054-8014c43d3bdd.png",
+      "pack": {
+        "slug": "burn-fifa-124",
+        "title": "120 years of FIFA: epic reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4156f338-5d15-4288-92b1-4880a37b4cd4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1d1c98ff-6daf-4153-a5e5-2349d917b789.png"
       }
     },
     {
@@ -484,30 +1324,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M6",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e901992-2e6f-4baa-9f7a-a7da332afb0e.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fdaac229-2df9-47ea-ad47-7ef56b1561cc.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m74",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M74 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/65f5aab1-1171-45e9-bffd-d29252749621.png",
-      "lowestPrice": 62500,
-      "latestCreatedAt": "2025-12-28T02:26:41.034Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m74",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bea24d1e-6d5b-456c-958b-f34b19b2b7b1.jpeg",
-      "pack": {
-        "slug": "cat2-m74",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M74",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/485bedbd-4975-47b7-b253-a355087774de.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/65f5aab1-1171-45e9-bffd-d29252749621.png"
       }
     },
     {
@@ -8143,30 +8959,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m1",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M1 Mexico City",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d67c200c-6477-4cdf-9626-848fc5aeec93.png",
-      "lowestPrice": 587500,
-      "latestCreatedAt": "2025-12-26T07:19:28.980Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m1",
-      "lowestEdition": 57,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9070e142-5b8e-41c4-963d-4eca1632e6fc.jpeg",
-      "pack": {
-        "slug": "cat2-m1",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1ae71ab-be16-4778-9fc7-7439a621ced0.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d67c200c-6477-4cdf-9626-848fc5aeec93.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m7",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M7 New York",
@@ -8212,30 +9004,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94fc47e1-03a6-4fee-9e99-22facd7fb4d6.png"
-      }
-    },
-    {
-      "uniqueCode": "P_P08",
-      "type": "highlight",
-      "title": "Mexico 1986",
-      "subtitle": "FIFA World Cup Mexico 1986™ <br/> 2.52  goals scored per match",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0cce9f5e-018d-4df3-9376-f60e1a9e4f86.png",
-      "lowestPrice": 400,
-      "latestCreatedAt": "2025-12-26T03:22:20.865Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fifa-120",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ed3a1452-144f-4573-b6d7-8e54013a5806.png",
-      "pack": {
-        "slug": "fifa-120",
-        "title": "Celebrating 120 years of FIFA™",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0cce9f5e-018d-4df3-9376-f60e1a9e4f86.png"
       }
     },
     {
@@ -10855,30 +11623,6 @@
       }
     },
     {
-      "uniqueCode": "P_AP36",
-      "type": "highlight",
-      "title": "Robert Kenedy",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-24T08:51:56.588Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/95ecedb7-9e9e-48b1-a7ce-19b7ced3bd79.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m31",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M31 San Francisco",
@@ -11023,30 +11767,6 @@
       }
     },
     {
-      "uniqueCode": "P_AP39",
-      "type": "highlight",
-      "title": "Sergio Barreto",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77ebc635-ba66-4583-8856-776ccd0132f9.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-24T06:09:24.480Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/92332be1-acb4-4c10-9eee-b7ace1c27f66.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77ebc635-ba66-4583-8856-776ccd0132f9.png"
-      }
-    },
-    {
       "uniqueCode": "t260-51",
       "type": "highlight",
       "title": "2006 World Cup Last 16 Game Munich",
@@ -11092,54 +11812,6 @@
         "title": "Fluminense FC - Armadura Tricolor MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1a9a5701-a02d-4220-a769-383cb96c4a95.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM40",
-      "type": "highlight",
-      "title": "29. Thiago Santos",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f2271330-02f3-4f44-ae64-e42ec1ccf2ca.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-24T06:05:04.813Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6810dc8e-f0f4-4c62-90a5-776a42aad4fa.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f2271330-02f3-4f44-ae64-e42ec1ccf2ca.png"
-      }
-    },
-    {
-      "uniqueCode": "P_AP47",
-      "type": "highlight",
-      "title": "Pedro Pedraza",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66b5d211-cf2b-4bbe-a39c-7c65a8069060.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-24T06:04:42.660Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4bcaa566-bf62-4426-a5e4-73fa32d4c446.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66b5d211-cf2b-4bbe-a39c-7c65a8069060.png"
       }
     },
     {
@@ -11743,54 +12415,6 @@
       }
     },
     {
-      "uniqueCode": "F_AM43",
-      "type": "highlight",
-      "title": "55. Wallace Davi",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b035233d-be78-466a-925d-275dd101338d.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-23T14:51:55.696Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5a94392a-b523-4894-b2f5-64d688ae10b7.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b035233d-be78-466a-925d-275dd101338d.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM37",
-      "type": "highlight",
-      "title": "98. Vitor Eudes",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67d1af60-e1fa-4bb6-b0cb-a71f5253a98c.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-23T14:42:59.233Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/889d0217-d35a-4222-8d3c-f3735058db7e.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67d1af60-e1fa-4bb6-b0cb-a71f5253a98c.png"
-      }
-    },
-    {
       "uniqueCode": "F_AM36",
       "type": "highlight",
       "title": "27. Marcelo Pitaluga",
@@ -11959,30 +12583,6 @@
       }
     },
     {
-      "uniqueCode": "F_AM26",
-      "type": "highlight",
-      "title": "4. Ignácio",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bde17626-0efa-444c-b4b0-662cd086ccd4.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-23T06:42:48.904Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5dcc63cc-3c08-4288-b9df-17af3ea0b482.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bde17626-0efa-444c-b4b0-662cd086ccd4.png"
-      }
-    },
-    {
       "uniqueCode": "ct2-m40",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M40 Vancouver",
@@ -12124,30 +12724,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M68",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ddffe1fe-7b8e-4226-8c1e-14ffef5dc8c1.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/733ef001-bf2d-4b52-8379-87a6219598f0.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m59",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M59 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3494e726-c549-42bf-abd6-428390294899.png",
-      "lowestPrice": 112000,
-      "latestCreatedAt": "2025-12-23T03:58:29.979Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m59",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dcd7b1cb-ba28-499e-b918-70d4b5bb9539.jpeg",
-      "pack": {
-        "slug": "cat2-m59",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M59",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5eabe9ba-a0fe-4c23-a133-862a98c5143e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3494e726-c549-42bf-abd6-428390294899.png"
       }
     },
     {
@@ -12316,54 +12892,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M48",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cdebbb0b-c337-4ff8-879d-ced4780f66c5.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/22c1efea-ae99-48af-9a3e-188d0b0b2d2f.png"
-      }
-    },
-    {
-      "uniqueCode": "P_AP38",
-      "type": "highlight",
-      "title": "Eduardo Bauermann",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38c18f0b-9371-4dfe-8837-7ebcde438a38.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-23T00:08:02.025Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0eceef47-5ccd-40ec-8382-88d2c5345293.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38c18f0b-9371-4dfe-8837-7ebcde438a38.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM24",
-      "type": "highlight",
-      "title": "22. Juan Pablo Freytes",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cba1e688-318b-491e-bd56-1cf9536b8d4a.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-22T23:59:54.137Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9adc6762-95c0-4f75-ac9d-55136ad18ac4.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cba1e688-318b-491e-bd56-1cf9536b8d4a.png"
       }
     },
     {
@@ -14542,30 +15070,6 @@
       }
     },
     {
-      "uniqueCode": "P_P05",
-      "type": "highlight",
-      "title": "Russia 2018",
-      "subtitle": "FIFA World Cup Russia 2018™ <br/> 2.64 goals scored per match",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79c95924-ee91-48a1-ba08-86861e89c54f.png",
-      "lowestPrice": 210,
-      "latestCreatedAt": "2025-12-19T03:34:44.904Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fifa-120",
-      "lowestEdition": 79,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ac367611-073b-4e58-b16f-576eb5c89303.png",
-      "pack": {
-        "slug": "fifa-120",
-        "title": "Celebrating 120 years of FIFA™",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79c95924-ee91-48a1-ba08-86861e89c54f.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m64",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M64 Vancouver",
@@ -15382,30 +15886,6 @@
       }
     },
     {
-      "uniqueCode": "SL_AC20",
-      "type": "highlight",
-      "title": "Oscar Passet",
-      "subtitle": "San Lorenzo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bf42eeb-8828-44ba-8e0f-f0d80e79233e.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-17T01:26:46.527Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sanlorenzo-30aniversario1995campeon-sp",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/da173f77-093c-4d00-a49a-4872d44b265e.png",
-      "pack": {
-        "slug": "sanlorenzo-30aniversario1995campeon-sp",
-        "title": "San Lorenzo - 30 Anivesario Campeón 1995",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bf42eeb-8828-44ba-8e0f-f0d80e79233e.jpeg"
-      }
-    },
-    {
       "uniqueCode": "P_AP21",
       "type": "highlight",
       "title": "Carlos Moreno - Signed",
@@ -16198,30 +16678,6 @@
       }
     },
     {
-      "uniqueCode": "SL_AC15",
-      "type": "highlight",
-      "title": "Carlos Netto",
-      "subtitle": "San Lorenzo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29395bfa-2932-4b24-830b-c225c5c3e69b.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-15T19:46:10.660Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sanlorenzo-30aniversario1995campeon-sp",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6929062d-0ece-48fd-a2af-3161e7d4b839.png",
-      "pack": {
-        "slug": "sanlorenzo-30aniversario1995campeon-sp",
-        "title": "San Lorenzo - 30 Anivesario Campeón 1995",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29395bfa-2932-4b24-830b-c225c5c3e69b.jpeg"
-      }
-    },
-    {
       "uniqueCode": "RO_T16",
       "type": "highlight",
       "title": "Răzvan Marin",
@@ -16339,150 +16795,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M47",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e2c97360-a034-450c-b4fa-e0ff1ff4eba2.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e08211be-479f-490f-8710-1cd8482a45f9.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM15",
-      "type": "highlight",
-      "title": "3. Thiago Silva",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c1dce1ed-8041-4431-8611-18205b678e53.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-15T15:23:14.005Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 12,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5b034643-a88c-42fa-8e2d-7b5de39a6a70.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c1dce1ed-8041-4431-8611-18205b678e53.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM39",
-      "type": "highlight",
-      "title": "26. Manoel",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f000aecc-eab1-48ee-a819-3c7a02a1f17a.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-15T14:46:17.329Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f1031ae1-a850-4da2-bd75-e83419e654bf.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f000aecc-eab1-48ee-a819-3c7a02a1f17a.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM27",
-      "type": "highlight",
-      "title": "6. Renê",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3545e1d9-dc1d-42cf-aae8-3fcc7a438af8.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-15T14:45:58.529Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2300d746-0415-431f-9fe7-4f37394ff9d3.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3545e1d9-dc1d-42cf-aae8-3fcc7a438af8.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM45",
-      "type": "highlight",
-      "title": "19. Joaquín Lavega",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63e46bb6-c1ed-4713-b9e9-67a1763fe35e.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-15T14:45:44.618Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/88f0e3f7-75c1-4617-aabe-19fc83a424e3.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63e46bb6-c1ed-4713-b9e9-67a1763fe35e.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM29",
-      "type": "highlight",
-      "title": "5. Facundo Bernal",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc85e25-c4a4-4747-966e-307c61e0cf94.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-15T14:45:15.323Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c6666c78-3f85-419e-b0cd-45ebd66c01df.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc85e25-c4a4-4747-966e-307c61e0cf94.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM41",
-      "type": "highlight",
-      "title": "18. Rubén Lezcano",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dfdc12ed-711f-4548-bb35-8b39b1cb65d5.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-15T14:44:55.835Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a8b0d30f-5c85-44c4-8a98-948034732802.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dfdc12ed-711f-4548-bb35-8b39b1cb65d5.png"
       }
     },
     {
@@ -16651,30 +16963,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3312d7b-6f0c-4201-9918-cd3adf3c5be1.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM34",
-      "type": "highlight",
-      "title": "11. Keno",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/78b88348-2484-4328-945e-ff751309f09f.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-15T10:21:40.662Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5c3e8807-8f10-4f29-894d-0b59d634dc8a.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/78b88348-2484-4328-945e-ff751309f09f.png"
       }
     },
     {
@@ -17398,30 +17686,6 @@
       }
     },
     {
-      "uniqueCode": "F_AM42",
-      "type": "highlight",
-      "title": "28. Riquelme",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/885524be-8fb5-43fa-b78e-0604beeaf2ed.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-14T10:40:55.523Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1ee90b6d-19fe-47b3-a86e-90b5373c2b1d.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/885524be-8fb5-43fa-b78e-0604beeaf2ed.png"
-      }
-    },
-    {
       "uniqueCode": "P_AP20",
       "type": "highlight",
       "title": "Elías Montiel",
@@ -17443,30 +17707,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e82033d8-f1cc-4e32-8cbb-80ef9f966b11.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM44",
-      "type": "highlight",
-      "title": "7. Yeferson Soltedo",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3fb17f3d-06c8-4ebc-9ff0-9573a7c2285c.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-14T10:36:00.524Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a8498b65-bdb3-42ff-8780-6ee82ba15aec.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3fb17f3d-06c8-4ebc-9ff0-9573a7c2285c.png"
       }
     },
     {
@@ -18315,30 +18555,6 @@
       }
     },
     {
-      "uniqueCode": "F_AM28",
-      "type": "highlight",
-      "title": "2. Samuel Xavier",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c161e02b-43a0-4cca-b57e-06f5a790458e.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-13T13:09:04.795Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dd5e977b-9689-4046-ab9a-7c2cb68e2dbb.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c161e02b-43a0-4cca-b57e-06f5a790458e.png"
-      }
-    },
-    {
       "uniqueCode": "D05-08",
       "type": "highlight",
       "title": "Bulgaria",
@@ -19184,30 +19400,6 @@
       }
     },
     {
-      "uniqueCode": "P_AP46",
-      "type": "highlight",
-      "title": "José Eulogio",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d779c98-fa33-4399-9fbb-47c208a0d884.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-12T14:45:44.524Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c4dbbb18-07c4-453b-9d4c-14435763a609.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d779c98-fa33-4399-9fbb-47c208a0d884.png"
-      }
-    },
-    {
       "uniqueCode": "sp-s1-25",
       "type": "highlight",
       "title": "Italy",
@@ -19517,30 +19709,6 @@
         "title": "Player of the Tournament",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/31343210-5b28-433f-9d07-4443256490a9.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f3ba3d53-704f-4553-862a-c244e33caca5.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "F_AM25",
-      "type": "highlight",
-      "title": "23. Guga",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67756232-fb8e-4f19-8d27-054c966c8935.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-11T21:04:20.705Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3e534ffb-4558-42ca-b0b2-feb15880b741.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67756232-fb8e-4f19-8d27-054c966c8935.png"
       }
     },
     {
@@ -19973,30 +20141,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc853b8f-98e1-440e-bbb3-9299902ba496.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM30",
-      "type": "highlight",
-      "title": "45. Lima",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c4684cd1-adbe-4c30-96ea-ba447c3f8115.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-10T22:46:24.707Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/22a03457-dc4b-4678-b110-1e8608e312aa.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c4684cd1-adbe-4c30-96ea-ba447c3f8115.png"
       }
     },
     {
@@ -21053,30 +21197,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/31f2ceb1-7659-4e35-ac1b-0c6f098e0fa0.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM31",
-      "type": "highlight",
-      "title": "16. Nonato",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4b253ec5-dd67-429f-a937-25c80ef5cb9f.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-12-09T16:41:28.569Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/639321cd-7997-43ce-9d62-4b1db9791a5d.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4b253ec5-dd67-429f-a937-25c80ef5cb9f.png"
       }
     },
     {
@@ -22215,30 +22335,6 @@
         "title": "Pachuca First Timers",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/00bfe30a-fe66-434f-9b7e-364631a6e746.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/13663229-b189-40fa-ba66-d3cc5fb24b8a.png"
-      }
-    },
-    {
-      "uniqueCode": "P_P11",
-      "type": "highlight",
-      "title": "France 1998",
-      "subtitle": "FIFA World Cup France 1998™ <br/> 2.67 goals scored per match",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/26f06976-6a69-45e7-a0f3-41f3c440e598.png",
-      "lowestPrice": 280,
-      "latestCreatedAt": "2025-12-07T20:44:17.174Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fifa-120",
-      "lowestEdition": 15,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/eb7945d5-563e-4cf1-a1d4-fe71d523dc08.png",
-      "pack": {
-        "slug": "fifa-120",
-        "title": "Celebrating 120 years of FIFA™",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/26f06976-6a69-45e7-a0f3-41f3c440e598.png"
       }
     },
     {
@@ -25187,30 +25283,6 @@
       }
     },
     {
-      "uniqueCode": "F_AM35",
-      "type": "highlight",
-      "title": "90. Kevin Serna",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42849283-99c5-494b-937d-bc433cf3f8c0.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-11-30T15:59:20.351Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/eb866c65-dd9f-4bb2-b25b-8e3653ff0511.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42849283-99c5-494b-937d-bc433cf3f8c0.png"
-      }
-    },
-    {
       "uniqueCode": "sp-s3-51",
       "type": "highlight",
       "title": "Brazil",
@@ -27296,30 +27368,6 @@
         "title": "CF Monterrey - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5211419-df41-432d-9ab1-7eaccfb87422.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2f7eb82a-7367-471e-a562-b5256e36615c.png"
-      }
-    },
-    {
-      "uniqueCode": "P_P07",
-      "type": "highlight",
-      "title": "Chile 1962",
-      "subtitle": "FIFA World Cup Chile 1962™ <br/> 2.78 goals scored per match",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fcdec50-06ed-44c8-b02b-9c6f93d1de2a.png",
-      "lowestPrice": 196,
-      "latestCreatedAt": "2025-11-27T08:06:04.928Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fifa-120",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e0fba695-dbb8-4257-b7aa-cb62e970f00e.png",
-      "pack": {
-        "slug": "fifa-120",
-        "title": "Celebrating 120 years of FIFA™",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fcdec50-06ed-44c8-b02b-9c6f93d1de2a.png"
       }
     },
     {
@@ -34682,30 +34730,6 @@
       }
     },
     {
-      "uniqueCode": "P_P09",
-      "type": "highlight",
-      "title": "England 1966",
-      "subtitle": "FIFA World Cup England 1966™ <br/> 2.78 goals scored per match",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9a925d1a-db87-4aaf-820a-ea6556868c83.png",
-      "lowestPrice": 299,
-      "latestCreatedAt": "2025-11-07T01:53:38.302Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fifa-120",
-      "lowestEdition": 58,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0d008c6c-ad59-4f47-a516-3f7517b2bfa6.png",
-      "pack": {
-        "slug": "fifa-120",
-        "title": "Celebrating 120 years of FIFA™",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9a925d1a-db87-4aaf-820a-ea6556868c83.png"
-      }
-    },
-    {
       "uniqueCode": "US_M03",
       "type": "highlight",
       "title": "Russia",
@@ -40657,30 +40681,6 @@
         "title": "Fluminense FC - Armadura Tricolor MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12996b87-47b2-4b60-bd39-0335e191318d.png"
-      }
-    },
-    {
-      "uniqueCode": "P_P15",
-      "type": "highlight",
-      "title": "Brazil 2014",
-      "subtitle": "FIFA World Cup Brazil 2014™ <br/> 2.67 goals scored per match",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0b0a5665-feb8-41d9-8c26-99ce3fd60f6a.png",
-      "lowestPrice": 250,
-      "latestCreatedAt": "2025-09-12T04:25:20.813Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fifa-120",
-      "lowestEdition": 37,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/784bc748-2cb5-48c4-97fa-496c6355a4c2.png",
-      "pack": {
-        "slug": "fifa-120",
-        "title": "Celebrating 120 years of FIFA™",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0b0a5665-feb8-41d9-8c26-99ce3fd60f6a.png"
       }
     },
     {
