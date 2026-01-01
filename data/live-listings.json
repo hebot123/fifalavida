@@ -2,6 +2,30 @@
   "total": 1969,
   "listings": [
     {
+      "uniqueCode": "cat2-m98",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M98 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dcb69b9-5971-425e-b036-f05c00243af1.png",
+      "lowestPrice": 169800,
+      "latestCreatedAt": "2026-01-01T12:06:09.160Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m98",
+      "lowestEdition": 6,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/79b0be52-43b5-445c-9bc4-d1b295f705bd.jpeg",
+      "pack": {
+        "slug": "cat2-m98",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M98",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a688ab22-e865-471d-b2ef-dc87f93ec2ee.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dcb69b9-5971-425e-b036-f05c00243af1.png"
+      }
+    },
+    {
       "uniqueCode": "P_AP34",
       "type": "highlight",
       "title": "Luis Quiñones",
@@ -47,30 +71,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M49",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d249569a-f4e7-441a-a10b-42532a391eeb.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84d94ab4-77b8-4cf8-bb9f-c67091944229.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m98",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M98 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dcb69b9-5971-425e-b036-f05c00243af1.png",
-      "lowestPrice": 169800,
-      "latestCreatedAt": "2026-01-01T09:16:50.541Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m98",
-      "lowestEdition": 6,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/79b0be52-43b5-445c-9bc4-d1b295f705bd.jpeg",
-      "pack": {
-        "slug": "cat2-m98",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M98",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a688ab22-e865-471d-b2ef-dc87f93ec2ee.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dcb69b9-5971-425e-b036-f05c00243af1.png"
       }
     },
     {
@@ -775,7 +775,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M94 Seattle",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/471383e5-cd32-432a-bca8-26c8a2372782.png",
-      "lowestPrice": 94500,
+      "lowestPrice": 104200,
       "latestCreatedAt": "2026-01-01T01:11:34.348Z",
       "rarity": {
         "code": "40",
