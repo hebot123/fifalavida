@@ -2,6 +2,102 @@
   "total": 1969,
   "listings": [
     {
+      "uniqueCode": "P_AP52",
+      "type": "highlight",
+      "title": "POTW - Luis Quiñones",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png",
+      "lowestPrice": 800,
+      "latestCreatedAt": "2026-01-03T07:13:27.109Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/10a2e76f-c0e0-42a7-bfbf-f89e2e5a359f.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m16",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M16 Seattle",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6694e3b9-08ea-4ae7-bf06-dc7b3e14f822.png",
+      "lowestPrice": 90000,
+      "latestCreatedAt": "2026-01-03T07:11:51.669Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m16",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/67b06757-65b1-4db0-b523-1eb8f8f7115a.jpeg",
+      "pack": {
+        "slug": "cat1-m16",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M16",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/430d2451-5017-4b11-b2b6-cf09ec65ef07.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6694e3b9-08ea-4ae7-bf06-dc7b3e14f822.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP36",
+      "type": "highlight",
+      "title": "Robert Kenedy",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-01-03T07:10:55.775Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/95ecedb7-9e9e-48b1-a7ce-19b7ced3bd79.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m26",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M26 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b4799437-015d-42e6-a6e5-189793b9e13f.png",
+      "lowestPrice": 72000,
+      "latestCreatedAt": "2026-01-03T07:10:10.109Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m26",
+      "lowestEdition": 20,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/469b8b2a-9371-4f6f-b907-2e4012cda0ab.jpeg",
+      "pack": {
+        "slug": "cat1-m26",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4528f30f-6186-4acb-8e75-dd3fdad67585.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b4799437-015d-42e6-a6e5-189793b9e13f.png"
+      }
+    },
+    {
       "uniqueCode": "cat2-m82",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M82 Seattle",
@@ -3146,30 +3242,6 @@
       }
     },
     {
-      "uniqueCode": "P_AP52",
-      "type": "highlight",
-      "title": "POTW - Luis Quiñones",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png",
-      "lowestPrice": 800,
-      "latestCreatedAt": "2026-01-02T12:43:51.072Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/10a2e76f-c0e0-42a7-bfbf-f89e2e5a359f.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png"
-      }
-    },
-    {
       "uniqueCode": "SL_AC09",
       "type": "highlight",
       "title": "Oscar Ruggeri",
@@ -4103,30 +4175,6 @@
         "title": "Mexican Legends",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5490a167-0223-4a44-b507-163671835406.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3cd3e49a-4d62-46cc-b4c0-9d66fabe80d2.png"
-      }
-    },
-    {
-      "uniqueCode": "P_AP36",
-      "type": "highlight",
-      "title": "Robert Kenedy",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-01-02T05:40:19.922Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/95ecedb7-9e9e-48b1-a7ce-19b7ced3bd79.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png"
       }
     },
     {
@@ -5337,30 +5385,6 @@
         "title": "Pachuca First Timers",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/00bfe30a-fe66-434f-9b7e-364631a6e746.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/feafda43-9e15-4667-9708-2c434f1dbab6.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m26",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M26 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b4799437-015d-42e6-a6e5-189793b9e13f.png",
-      "lowestPrice": 72000,
-      "latestCreatedAt": "2026-01-01T18:20:49.689Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m26",
-      "lowestEdition": 20,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/469b8b2a-9371-4f6f-b907-2e4012cda0ab.jpeg",
-      "pack": {
-        "slug": "cat1-m26",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4528f30f-6186-4acb-8e75-dd3fdad67585.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b4799437-015d-42e6-a6e5-189793b9e13f.png"
       }
     },
     {
@@ -8073,30 +8097,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M43",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/65ad06a9-9a15-4178-9ad8-636ede1cd4bc.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b1622d-f5ce-452e-85b0-5dfce0736be1.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m16",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M16 Seattle",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6694e3b9-08ea-4ae7-bf06-dc7b3e14f822.png",
-      "lowestPrice": 90000,
-      "latestCreatedAt": "2025-12-30T17:17:11.071Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m16",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/67b06757-65b1-4db0-b523-1eb8f8f7115a.jpeg",
-      "pack": {
-        "slug": "cat1-m16",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M16",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/430d2451-5017-4b11-b2b6-cf09ec65ef07.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6694e3b9-08ea-4ae7-bf06-dc7b3e14f822.png"
       }
     },
     {
