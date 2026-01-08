@@ -2,6 +2,54 @@
   "total": 1971,
   "listings": [
     {
+      "uniqueCode": "cat1-m10",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M10 Houston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png",
+      "lowestPrice": 48200,
+      "latestCreatedAt": "2026-01-08T21:00:23.074Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m10",
+      "lowestEdition": 95,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7dca556-1231-40cb-9b3d-79e41b8e523e.jpeg",
+      "pack": {
+        "slug": "cat1-m10",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M10",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/180cc32b-1eae-4780-8f21-13b788eb7284.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png"
+      }
+    },
+    {
+      "uniqueCode": "EFT_A6",
+      "type": "highlight",
+      "title": "England",
+      "subtitle": "2018 FIFA World Cup Russia™ <br/> TUN 1-2 ENG, **Goal: Harry Kane 11'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cbb512d2-6247-459c-9c50-665ac1e0f95b.jpeg",
+      "lowestPrice": 199,
+      "latestCreatedAt": "2026-01-08T20:48:13.114Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "efirst-timers",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "efirst-timers",
+        "title": "Europe First Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cbb512d2-6247-459c-9c50-665ac1e0f95b.jpeg"
+      }
+    },
+    {
       "uniqueCode": "cat1-m23",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M23 Houston",
@@ -287,30 +335,6 @@
         "title": "San Lorenzo - 30 Anivesario Campeón 1995",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b3d69dd6-c8d6-4687-8867-09fb0adc901c.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m10",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M10 Houston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png",
-      "lowestPrice": 57000,
-      "latestCreatedAt": "2026-01-08T18:48:42.819Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m10",
-      "lowestEdition": 95,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7dca556-1231-40cb-9b3d-79e41b8e523e.jpeg",
-      "pack": {
-        "slug": "cat1-m10",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M10",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/180cc32b-1eae-4780-8f21-13b788eb7284.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png"
       }
     },
     {
@@ -15816,30 +15840,6 @@
         "title": "Europe First Timers",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dc5335d-e20f-4f83-8997-c080cf9feedd.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "EFT_A6",
-      "type": "highlight",
-      "title": "England",
-      "subtitle": "2018 FIFA World Cup Russia™ <br/> TUN 1-2 ENG, **Goal: Harry Kane 11'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cbb512d2-6247-459c-9c50-665ac1e0f95b.jpeg",
-      "lowestPrice": 199,
-      "latestCreatedAt": "2025-12-27T09:07:35.505Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "efirst-timers",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "efirst-timers",
-        "title": "Europe First Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cbb512d2-6247-459c-9c50-665ac1e0f95b.jpeg"
       }
     },
     {
