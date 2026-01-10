@@ -2,6 +2,30 @@
   "total": 1966,
   "listings": [
     {
+      "uniqueCode": "cat2-m97",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M97 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4535d792-c08f-4f87-981e-7a407375e3ea.png",
+      "lowestPrice": 189900,
+      "latestCreatedAt": "2026-01-10T06:39:12.232Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m97",
+      "lowestEdition": 27,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a0d7cc25-a43a-4a0a-84bf-a14e7bf44103.jpeg",
+      "pack": {
+        "slug": "cat2-m97",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M97",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0de00969-b4d0-4059-89e0-a81eb974fe61.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4535d792-c08f-4f87-981e-7a407375e3ea.png"
+      }
+    },
+    {
       "uniqueCode": "cat2-m61",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M61 Boston",
@@ -1953,30 +1977,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M74",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/aa081462-1bca-4df6-9c9c-0d360a990c4b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bea7c68-d74f-44c7-9e1b-2f04042a507f.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m97",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M97 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4535d792-c08f-4f87-981e-7a407375e3ea.png",
-      "lowestPrice": 190000,
-      "latestCreatedAt": "2026-01-09T10:22:37.786Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m97",
-      "lowestEdition": 27,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a0d7cc25-a43a-4a0a-84bf-a14e7bf44103.jpeg",
-      "pack": {
-        "slug": "cat2-m97",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M97",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0de00969-b4d0-4059-89e0-a81eb974fe61.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4535d792-c08f-4f87-981e-7a407375e3ea.png"
       }
     },
     {
@@ -4466,7 +4466,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "panini-1978",
-      "lowestEdition": 8,
+      "lowestEdition": 19,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d33464cb-5cae-4597-ab29-b1fdf04046e5.png",
       "pack": {
         "slug": "panini-1978",
