@@ -2,6 +2,78 @@
   "total": 1969,
   "listings": [
     {
+      "uniqueCode": "FT_M01",
+      "type": "highlight",
+      "title": "Portugal",
+      "subtitle": "2006 FIFA World Cup Germany™ <br/> POR 2 - 0 IRN, **Goal: Cristiano Ronaldo 80'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg",
+      "lowestPrice": 68800,
+      "latestCreatedAt": "2026-01-12T11:06:47.111Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "first-timers",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "first-timers",
+        "title": "World Cup First-Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/63c9d064-285d-4c04-af70-6ec881a486bd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2-R1-01",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™  \nARG 3 - 3 FRA, **Trophy Lift: Lionel Messi**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fa57673-3acb-4068-b01f-18d150fa8943.jpeg",
+      "lowestPrice": 90100,
+      "latestCreatedAt": "2026-01-12T10:47:04.323Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "trophy-lifts-iconic-reward",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "trophy-lifts-iconic-reward",
+        "title": "Trophy Lifts - Iconic Reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b187bcd1-5754-40b3-97af-a125eac76e39.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fa57673-3acb-4068-b01f-18d150fa8943.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-01",
+      "type": "highlight",
+      "title": "France",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 3 - 3 FRA, **GOAL: Kylian Mbappe 81'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0c28df4-f51f-4ccc-a8e5-9e528bcee63b.jpeg",
+      "lowestPrice": 450000,
+      "latestCreatedAt": "2026-01-12T10:46:01.802Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0c28df4-f51f-4ccc-a8e5-9e528bcee63b.jpeg"
+      }
+    },
+    {
       "uniqueCode": "cat1-m37",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M37 Miami",
@@ -3359,30 +3431,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M88",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b0436e0c-dbec-4226-a384-f719a8f9dfe8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0fe2017e-7042-42f5-870d-2bc3a1951106.png"
-      }
-    },
-    {
-      "uniqueCode": "S2-R1-01",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™  \nARG 3 - 3 FRA, **Trophy Lift: Lionel Messi**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fa57673-3acb-4068-b01f-18d150fa8943.jpeg",
-      "lowestPrice": 90100,
-      "latestCreatedAt": "2026-01-10T19:25:12.038Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "trophy-lifts-iconic-reward",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "trophy-lifts-iconic-reward",
-        "title": "Trophy Lifts - Iconic Reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b187bcd1-5754-40b3-97af-a125eac76e39.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fa57673-3acb-4068-b01f-18d150fa8943.jpeg"
       }
     },
     {
@@ -20472,30 +20520,6 @@
         "title": "Memorable Penalties",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a11f8051-e602-4af6-abad-9303eabd17de.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/23ba36c0-0372-4e63-95db-8626a65622d2.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "FT_M01",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "2006 FIFA World Cup Germany™ <br/> POR 2 - 0 IRN, **Goal: Cristiano Ronaldo 80'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg",
-      "lowestPrice": 70000,
-      "latestCreatedAt": "2025-12-21T08:52:56.679Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "first-timers",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "first-timers",
-        "title": "World Cup First-Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/63c9d064-285d-4c04-af70-6ec881a486bd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg"
       }
     },
     {
@@ -47781,30 +47805,6 @@
         "id": "20148609-4e6a-4168-ae48-ea8080196997",
         "title": "Melbourne",
         "subtitle": "Rectangular Stadium"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-01",
-      "type": "highlight",
-      "title": "France",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 3 - 3 FRA, **GOAL: Kylian Mbappe 81'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0c28df4-f51f-4ccc-a8e5-9e528bcee63b.jpeg",
-      "lowestPrice": 2500000,
-      "latestCreatedAt": "2023-05-03T16:06:34.015Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0c28df4-f51f-4ccc-a8e5-9e528bcee63b.jpeg"
       }
     }
   ]
