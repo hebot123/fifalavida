@@ -2,6 +2,54 @@
   "total": 1969,
   "listings": [
     {
+      "uniqueCode": "EFT_A1",
+      "type": "highlight",
+      "title": "Netherlands",
+      "subtitle": "1974 FIFA World Cup Germany™ <br/> NED 4-0 ARG, **Goal: Johan Cruyff 11'** ",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2bf2c83c-c228-4cf3-b529-9bf5f10ab424.jpeg",
+      "lowestPrice": 3900,
+      "latestCreatedAt": "2026-01-24T12:09:45.809Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "efirst-timers",
+      "lowestEdition": 21,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "efirst-timers",
+        "title": "Europe First Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2bf2c83c-c228-4cf3-b529-9bf5f10ab424.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "aft-01",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "2006 FIFA World Cup Germany™ <br/> BRA 1-0 CRO, **Goal: Kaká 44’**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/994538b8-d8bc-4130-a449-672222c10eea.jpeg",
+      "lowestPrice": 3900,
+      "latestCreatedAt": "2026-01-24T12:09:05.846Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "afirst-timers",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "afirst-timers",
+        "title": "Americas First Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ee27b5b9-2b08-47f1-8249-7a369836e07a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/994538b8-d8bc-4130-a449-672222c10eea.jpeg"
+      }
+    },
+    {
       "uniqueCode": "ct1-m43",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M43 Dallas",
@@ -703,30 +751,6 @@
       }
     },
     {
-      "uniqueCode": "EFT_A1",
-      "type": "highlight",
-      "title": "Netherlands",
-      "subtitle": "1974 FIFA World Cup Germany™ <br/> NED 4-0 ARG, **Goal: Johan Cruyff 11'** ",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2bf2c83c-c228-4cf3-b529-9bf5f10ab424.jpeg",
-      "lowestPrice": 3900,
-      "latestCreatedAt": "2026-01-24T02:32:23.208Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "efirst-timers",
-      "lowestEdition": 21,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "efirst-timers",
-        "title": "Europe First Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2bf2c83c-c228-4cf3-b529-9bf5f10ab424.jpeg"
-      }
-    },
-    {
       "uniqueCode": "S2-R1-02",
       "type": "highlight",
       "title": "Japan",
@@ -1399,30 +1423,6 @@
       }
     },
     {
-      "uniqueCode": "P_P120",
-      "type": "highlight",
-      "title": "Brazil 1950",
-      "subtitle": "FIFA World Cup Brazil 1950™ <br/> 4.00 goals scored per match",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/59905c12-f508-42f5-96e0-62ce5b23b57d.png",
-      "lowestPrice": 197,
-      "latestCreatedAt": "2026-01-23T19:18:54.564Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "burn-fifa-125",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9c1d5957-be92-414b-b6e3-85a879d2da12.png",
-      "pack": {
-        "slug": "burn-fifa-125",
-        "title": "120 years of FIFA: rare reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ea62c8a0-e317-4417-9d95-d7ef58e8e68e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/59905c12-f508-42f5-96e0-62ce5b23b57d.png"
-      }
-    },
-    {
       "uniqueCode": "ct1-m65",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M65 Houston",
@@ -2052,7 +2052,7 @@
       "title": "Brazil",
       "subtitle": "2014 FIFA World Cup Brazil™ BRA 2 - 1 COL **GOAL: Silva 7'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3e637f2-71db-4f01-8a53-f81aaf7155bd.jpeg",
-      "lowestPrice": 288,
+      "lowestPrice": 300,
       "latestCreatedAt": "2026-01-23T03:50:51.335Z",
       "rarity": {
         "code": "30",
@@ -8561,6 +8561,30 @@
       }
     },
     {
+      "uniqueCode": "P_P120",
+      "type": "highlight",
+      "title": "Brazil 1950",
+      "subtitle": "FIFA World Cup Brazil 1950™ <br/> 4.00 goals scored per match",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/59905c12-f508-42f5-96e0-62ce5b23b57d.png",
+      "lowestPrice": 197,
+      "latestCreatedAt": "2026-01-13T08:08:29.166Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "burn-fifa-125",
+      "lowestEdition": 19,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9c1d5957-be92-414b-b6e3-85a879d2da12.png",
+      "pack": {
+        "slug": "burn-fifa-125",
+        "title": "120 years of FIFA: rare reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ea62c8a0-e317-4417-9d95-d7ef58e8e68e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/59905c12-f508-42f5-96e0-62ce5b23b57d.png"
+      }
+    },
+    {
       "uniqueCode": "D01-08",
       "type": "highlight",
       "title": "Spain",
@@ -10963,30 +10987,6 @@
         "title": "Surprise - Panini München 1974",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d96e4d3a-4b86-43aa-8182-a529e1202ff4.png"
-      }
-    },
-    {
-      "uniqueCode": "he-s2-20",
-      "type": "highlight",
-      "title": "USA",
-      "subtitle": "2002 FIFA World Cup Korea/Japan™ MEX 0 - 2 USA **GOAL: Donovan 65'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bf35b59c-6be7-475f-ae75-35ca4e698f69.jpeg",
-      "lowestPrice": 380,
-      "latestCreatedAt": "2026-01-07T18:56:39.991Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "headers-sp2",
-      "lowestEdition": 19,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "headers-sp2",
-        "title": "Surprise - Headers Edition 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/33621249-0c95-4b46-922b-dac2fe7ffb98.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bf35b59c-6be7-475f-ae75-35ca4e698f69.jpeg"
       }
     },
     {
@@ -24302,30 +24302,6 @@
       }
     },
     {
-      "uniqueCode": "aft-01",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "2006 FIFA World Cup Germany™ <br/> BRA 1-0 CRO, **Goal: Kaká 44’**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/994538b8-d8bc-4130-a449-672222c10eea.jpeg",
-      "lowestPrice": 3900,
-      "latestCreatedAt": "2025-12-10T08:11:00.392Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "afirst-timers",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "afirst-timers",
-        "title": "Americas First Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ee27b5b9-2b08-47f1-8249-7a369836e07a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/994538b8-d8bc-4130-a449-672222c10eea.jpeg"
-      }
-    },
-    {
       "uniqueCode": "rd-gk-ic",
       "type": "highlight",
       "title": "Germany",
@@ -28492,6 +28468,30 @@
         "title": "Surprise - Headers Edition 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/33621249-0c95-4b46-922b-dac2fe7ffb98.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8cba98e5-f7a1-44de-9691-a19b6fcfad20.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "he-s2-20",
+      "type": "highlight",
+      "title": "USA",
+      "subtitle": "2002 FIFA World Cup Korea/Japan™ MEX 0 - 2 USA **GOAL: Donovan 65'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bf35b59c-6be7-475f-ae75-35ca4e698f69.jpeg",
+      "lowestPrice": 398,
+      "latestCreatedAt": "2025-11-29T23:14:18.689Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "headers-sp2",
+      "lowestEdition": 19,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "headers-sp2",
+        "title": "Surprise - Headers Edition 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/33621249-0c95-4b46-922b-dac2fe7ffb98.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bf35b59c-6be7-475f-ae75-35ca4e698f69.jpeg"
       }
     },
     {
