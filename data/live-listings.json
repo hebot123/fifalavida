@@ -2,6 +2,30 @@
   "total": 1970,
   "listings": [
     {
+      "uniqueCode": "cat1-m82",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M82 Seattle",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/685c0d19-503a-4f7d-a156-1415df59de89.png",
+      "lowestPrice": 69500,
+      "latestCreatedAt": "2026-01-26T06:30:21.356Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m82",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3d5bdb35-3c27-4e1f-aa2c-0cae1dcf3a4c.jpeg",
+      "pack": {
+        "slug": "cat1-m82",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M82",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9b18ba91-3742-473e-b80a-b1ca0c402d7b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/685c0d19-503a-4f7d-a156-1415df59de89.png"
+      }
+    },
+    {
       "uniqueCode": "cat2-m51",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M51 Vancouver",
@@ -6239,30 +6263,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M93",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/07ff70ea-607b-4599-8be3-e280d1abf6cd.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8dfdee43-6a7e-4cc2-9739-c1d165b10577.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m82",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M82 Seattle",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/685c0d19-503a-4f7d-a156-1415df59de89.png",
-      "lowestPrice": 70000,
-      "latestCreatedAt": "2026-01-20T22:37:29.738Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m82",
-      "lowestEdition": 7,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3d5bdb35-3c27-4e1f-aa2c-0cae1dcf3a4c.jpeg",
-      "pack": {
-        "slug": "cat1-m82",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M82",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9b18ba91-3742-473e-b80a-b1ca0c402d7b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/685c0d19-503a-4f7d-a156-1415df59de89.png"
       }
     },
     {
@@ -29431,30 +29431,6 @@
       }
     },
     {
-      "uniqueCode": "cel-d-05",
-      "type": "highlight",
-      "title": "Argentina 2022",
-      "subtitle": "FIFA World Cup Qatar 22™",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e4e8003-9072-46cf-81f8-9cd03a238ae5.jpeg",
-      "lowestPrice": 900,
-      "latestCreatedAt": "2025-11-29T10:15:07.201Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "celebrations-dr",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3922c923-187b-4a12-8114-fae9809e3c12.jpeg",
-      "pack": {
-        "slug": "celebrations-dr",
-        "title": "Celebration Snapshots",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ede4fbe2-83d4-4f2c-bd14-33515dadaf59.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e4e8003-9072-46cf-81f8-9cd03a238ae5.jpeg"
-      }
-    },
-    {
       "uniqueCode": "L_LP23",
       "type": "highlight",
       "title": "Steven Mendoza",
@@ -30700,6 +30676,30 @@
         "title": "Discover FIFA Club World Cup 2025™ cities",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cc7dc133-d4a1-4215-90dc-abfa42fea689.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b55b9b06-5e8a-43a3-a44e-f351dddf7f3e.png"
+      }
+    },
+    {
+      "uniqueCode": "cel-d-05",
+      "type": "highlight",
+      "title": "Argentina 2022",
+      "subtitle": "FIFA World Cup Qatar 22™",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e4e8003-9072-46cf-81f8-9cd03a238ae5.jpeg",
+      "lowestPrice": 900,
+      "latestCreatedAt": "2025-11-24T00:05:52.767Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "celebrations-dr",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3922c923-187b-4a12-8114-fae9809e3c12.jpeg",
+      "pack": {
+        "slug": "celebrations-dr",
+        "title": "Celebration Snapshots",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ede4fbe2-83d4-4f2c-bd14-33515dadaf59.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e4e8003-9072-46cf-81f8-9cd03a238ae5.jpeg"
       }
     },
     {
