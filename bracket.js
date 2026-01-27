@@ -340,7 +340,12 @@ const BracketApp = {
                 if (BracketApp.state.knockout[101]) teamA = BracketApp.state.knockout[101];
                 if (BracketApp.state.knockout[102]) teamB = BracketApp.state.knockout[102];
 
-                roundDiv.innerHTML += BracketApp.renderMatchCard(104, finalMatch, teamA, teamB);
+                const finalCard = BracketApp.renderMatchCard(104, finalMatch, teamA, teamB);
+                roundDiv.innerHTML += `
+                    <div style="position: relative;">
+                        ${finalCard}
+                    </div>
+                `;
 
                 // Bronze match
                 const bronzeMatch = BracketApp.schedule[103];
@@ -410,6 +415,9 @@ const BracketApp = {
 
                     pairDiv.innerHTML += BracketApp.renderMatchCard(match2Id, match2, team2A, team2B);
 
+                    // Add connector lines for this pair
+                    pairDiv.innerHTML += BracketApp.renderConnectors(match1Id, match2Id);
+
                     roundDiv.appendChild(pairDiv);
                 }
             }
@@ -437,7 +445,16 @@ const BracketApp = {
                         <span class="team-name">${teamB}</span>
                     </div>
                 </div>
+                <div class="connector-h"></div>
             </div>
+        `;
+    },
+
+    renderConnectors: (match1Id, match2Id) => {
+        return `
+            <div class="connector-corner top" data-match="${match1Id}"></div>
+            <div class="connector-corner bottom" data-match="${match2Id}"></div>
+            <div class="connector-h-main" data-pair="${match1Id}-${match2Id}"></div>
         `;
     },
 
@@ -474,12 +491,49 @@ const BracketApp = {
     },
 
     updateSelections: () => {
+        // First, reset all connector states
+        document.querySelectorAll('.connector-h, .connector-corner, .connector-h-main').forEach(el => {
+            el.classList.remove('active');
+        });
+
+        // Activate connectors based on knockout state
         Object.keys(BracketApp.state.knockout).forEach(matchId => {
             const winner = BracketApp.state.knockout[matchId];
             const matchCard = document.querySelector(`.match-card[data-id="${matchId}"]`);
+            
             if (matchCard) {
+                // Highlight the winning team
                 const slot = matchCard.querySelector(`.team-slot[data-team="${winner}"]`);
                 if (slot) slot.classList.add('selected');
+
+                // Activate the horizontal connector from this match
+                const connector = matchCard.querySelector('.connector-h');
+                if (connector) connector.classList.add('active');
+
+                // Find and activate the pair connectors
+                const pair = matchCard.closest('.match-pair');
+                if (pair) {
+                    const pairMatches = pair.querySelectorAll('.match-card');
+                    const bothComplete = Array.from(pairMatches).every(card => {
+                        const cardId = card.dataset.id;
+                        return BracketApp.state.knockout[cardId];
+                    });
+
+                    if (bothComplete) {
+                        // Activate corner connectors
+                        pair.querySelectorAll('.connector-corner').forEach(corner => {
+                            corner.classList.add('active');
+                        });
+                        // Activate main horizontal line to next round
+                        const mainConnector = pair.querySelector('.connector-h-main');
+                        if (mainConnector) mainConnector.classList.add('active');
+                    } else {
+                        // Partial activation - only the corner for the completed match
+                        const matchIndex = Array.from(pairMatches).indexOf(matchCard);
+                        const corner = pair.querySelector(`.connector-corner.${matchIndex === 0 ? 'top' : 'bottom'}`);
+                        if (corner) corner.classList.add('active');
+                    }
+                }
             }
         });
     },

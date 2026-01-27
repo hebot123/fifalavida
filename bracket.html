@@ -50,7 +50,7 @@
 
         .bracket-wrapper {
             display: flex;
-            gap: clamp(60px, 8vw, 100px);
+            gap: clamp(80px, 10vw, 120px); /* Increased gap for connector lines */
             width: fit-content;
             margin: 0 auto;
             padding: 2rem 1rem;
@@ -93,8 +93,9 @@
             position: relative;
             display: flex;
             flex-direction: column;
-            gap: clamp(30px, 5vh, 60px);
-            margin: 1rem 0;
+            gap: clamp(40px, 6vh, 80px);
+            margin: 1.5rem 0;
+            --pair-gap: clamp(40px, 6vh, 80px);
         }
 
         /* Match Card */
@@ -179,34 +180,122 @@
             text-overflow: ellipsis;
         }
 
-        /* Connector Lines - Simplified */
-        .connector {
+        /* Connector Lines System */
+        .match-pair {
+            position: relative;
+        }
+
+        /* Horizontal line extending from match to the right */
+        .connector-h {
             position: absolute;
-            right: -50%;
-            top: 50%;
-            width: 50%;
             height: 2px;
             background: #333;
-            z-index: 1;
+            top: 50%;
+            transform: translateY(-50%);
             transition: background 0.3s ease;
+            z-index: 5;
         }
 
-        .connector.active {
+        .connector-h.active {
             background: #10B981;
             box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+            animation: pulse-glow 2s ease-in-out infinite;
         }
 
-        .connector-vertical {
+        /* Vertical line connecting two matches in a pair */
+        .connector-v {
             position: absolute;
-            right: -50%;
             width: 2px;
             background: #333;
-            z-index: 0;
             transition: background 0.3s ease;
+            z-index: 4;
         }
 
-        .connector-vertical.active {
+        .connector-v.active {
             background: #10B981;
+            box-shadow: 0 0 8px rgba(16, 185, 129, 0.3);
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+
+        /* Specific positioning for first match in pair */
+        .match-pair > .match-card:first-of-type .connector-h {
+            right: -50px;
+            width: 25px;
+        }
+
+        /* Specific positioning for second match in pair */
+        .match-pair > .match-card:last-of-type .connector-h {
+            right: -50px;
+            width: 25px;
+        }
+
+        /* Vertical connector between matches in a pair */
+        .match-pair > .connector-v {
+            right: -25px;
+            top: calc(50% - var(--pair-gap) / 2);
+            bottom: calc(50% - var(--pair-gap) / 2);
+        }
+
+        /* Main horizontal line extending to next round */
+        .match-pair > .connector-h-main {
+            position: absolute;
+            right: -50px;
+            top: 50%;
+            width: 50px;
+            height: 2px;
+            background: #333;
+            transform: translateY(-50%);
+            transition: background 0.3s ease;
+            z-index: 6;
+        }
+
+        .match-pair > .connector-h-main.active {
+            background: #10B981;
+            box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+
+        /* Rounded corner connectors */
+        .connector-corner {
+            position: absolute;
+            width: 25px;
+            height: 50%;
+            border: 2px solid #333;
+            transition: border-color 0.3s ease;
+            z-index: 5;
+        }
+
+        .connector-corner.top {
+            right: -25px;
+            top: 50%;
+            border-left: none;
+            border-bottom: none;
+            border-radius: 0 12px 0 0;
+        }
+
+        .connector-corner.bottom {
+            right: -25px;
+            bottom: 50%;
+            border-left: none;
+            border-top: none;
+            border-radius: 0 0 12px 0;
+        }
+
+        .connector-corner.active {
+            border-color: #10B981;
+            box-shadow: 0 0 6px rgba(16, 185, 129, 0.3);
+            animation: pulse-glow 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse-glow {
+            0%, 100% {
+                filter: brightness(1);
+                opacity: 1;
+            }
+            50% {
+                filter: brightness(1.3);
+                opacity: 0.9;
+            }
         }
 
         /* Bronze Match Styling */
