@@ -4,215 +4,588 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FIFA La Vida | 2026 Bracket Challenge</title>
+    
+    <!-- 
+        FIFA LA VIDA - 2026 World Cup Bracket Challenge
+        Integrates with match-logic.js for official team data
+        Make sure to include match-logic.js before bracket.js
+    -->
+    
     <style>
-    /* --- BRACKET LAYOUT FIXED --- */
-    .bracket-wrapper {
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        gap: 80px; /* Increased gap for clearer distinct lines */                          
-        padding-bottom: 80px;
-        padding-left: 20px;
-        padding-top: 40px;
-        align-items: center; 
+        * { box-sizing: border-box; }
         
-        /* Ensure the container is tall enough to hold the expanded vertical spacing */
-        min-height: 1500px;
-    }
+        body {
+            margin: 0;
+            padding: 0;
+            background: #0a0a0a;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
 
-    .bracket-column { 
-        display: flex; 
-        flex-direction: column; 
-        justify-content: center; 
-        /* 240px Column allows 30px padding on each side of the 180px card */
-        width: 240px !important;     
-        flex-shrink: 0 !important;
-        position: relative;
-    }
+        /* Utility Classes */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
 
-    .match-pair { 
-        display: flex; 
-        flex-direction: column; 
-        justify-content: center;
-        align-items: center; 
-        position: relative;
-        width: 100%;
-        flex-grow: 0;
-    }
+        /* Header Styles */
+        .bracket-header {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem 2rem;
+        }
 
-    /* Match Node - NARROW (180px) */
-    .match-node {
-        height: 80px; 
-        width: 180px !important;    
-        position: relative;
-        z-index: 20;
-        background: #151515;
-        border: 1px solid rgba(255,255,255,0.1);
-        border-radius: 0.5rem;
-        transition: all 0.2s;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .match-node:hover { border-color: rgba(16, 185, 129, 0.5); transform: translateY(-1px); }
+        /* IMPROVED BRACKET SYSTEM */
+        .bracket-container {
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 2rem 1rem;
+            min-height: 800px;
+        }
 
-    /* --- CONNECTORS (Updated for 80px Gap) --- */
-    
-    .line-fork { 
-        position: absolute; 
-        /* (240px column - 180px card) / 2 = 30px margin on each side */
-        right: 30px;        
-        width: 30px;      
-        top: 40px; /* Center of 80px height */    
-        bottom: 40px;    
-        border-right: 2px solid #333; 
-        border-top: 2px solid #333; 
-        border-bottom: 2px solid #333; 
-        border-radius: 0 12px 12px 0;
-        z-index: 10; 
-        pointer-events: none; 
-    }
-    
-    .line-stem { 
-        position: absolute; 
-        right: -80px; /* Bridges the full 80px gap to the next column */
-        width: 80px;     
-        top: 50%; 
-        height: 2px; 
-        background: #333; 
-        z-index: 10; 
-        pointer-events: none; 
-    }
+        .bracket-wrapper {
+            display: flex;
+            gap: clamp(60px, 8vw, 100px);
+            width: fit-content;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+            position: relative;
+        }
 
-    /* Active Colors */
-    .line-fork.active-top { border-top-color: #10B981; } 
-    .line-fork.active-bottom { border-bottom-color: #10B981; }
-    .line-fork.active-stem { border-right-color: #10B981; box-shadow: 2px 0 8px rgba(16, 185, 129, 0.2); }
-    .line-stem.active { background: #10B981; box-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
+        /* Round Column */
+        .bracket-round {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            min-width: clamp(180px, 20vw, 220px);
+            position: relative;
+        }
 
-    .bronze-node { margin-top: 40px; border-color: rgba(245, 158, 11, 0.3); }
-    .final-stack { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100%; gap: 40px; }
+        .bracket-round.final-round {
+            justify-content: center;
+            gap: 3rem;
+        }
 
-    /* Header Styling */
-    .header-cell {
-        width: 240px !important; /* Matches column width */
-        flex-shrink: 0;
-        text-align: center; 
-        font-family: 'Oswald', sans-serif;
-        font-size: 1.25rem;
-        font-weight: bold;
-        color: #9ca3af; 
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-    }
-</style>
+        /* Round Header */
+        .round-header {
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+            font-size: clamp(0.875rem, 1.5vw, 1.25rem);
+            font-weight: 700;
+            color: #9ca3af;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 10, 0.9);
+            padding: 0.5rem 0;
+            z-index: 10;
+        }
+
+        /* Match Pair Container */
+        .match-pair {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            gap: clamp(30px, 5vh, 60px);
+            margin: 1rem 0;
+        }
+
+        /* Match Card */
+        .match-card {
+            background: #151515;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 0.75rem;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            min-width: clamp(180px, 20vw, 220px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .match-card:hover {
+            border-color: rgba(16, 185, 129, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+        }
+
+        .match-header {
+            font-size: 0.65rem;
+            color: #6b7280;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 0.5rem 0.75rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: space-between;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .match-teams {
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        /* Team Slot */
+        .team-slot {
+            padding: 0.75rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            min-height: 3rem;
+        }
+
+        .team-slot:hover {
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        .team-slot.selected {
+            background: #10B981;
+            color: #000;
+            font-weight: 600;
+        }
+
+        .team-slot.selected .team-name {
+            color: #000;
+        }
+
+        .team-flag {
+            width: 24px;
+            height: 18px;
+            object-fit: cover;
+            border-radius: 2px;
+            flex-shrink: 0;
+        }
+
+        .team-name {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: #e5e7eb;
+            flex: 1;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Connector Lines - Simplified */
+        .connector {
+            position: absolute;
+            right: -50%;
+            top: 50%;
+            width: 50%;
+            height: 2px;
+            background: #333;
+            z-index: 1;
+            transition: background 0.3s ease;
+        }
+
+        .connector.active {
+            background: #10B981;
+            box-shadow: 0 0 8px rgba(16, 185, 129, 0.4);
+        }
+
+        .connector-vertical {
+            position: absolute;
+            right: -50%;
+            width: 2px;
+            background: #333;
+            z-index: 0;
+            transition: background 0.3s ease;
+        }
+
+        .connector-vertical.active {
+            background: #10B981;
+        }
+
+        /* Bronze Match Styling */
+        .match-card.bronze {
+            border-color: rgba(245, 158, 11, 0.3);
+            margin-top: 2rem;
+        }
+
+        .match-card.bronze .match-header {
+            background: rgba(245, 158, 11, 0.1);
+            color: #f59e0b;
+            border-bottom-color: rgba(245, 158, 11, 0.2);
+        }
+
+        .match-card.bronze .team-slot.selected {
+            background: #f59e0b;
+        }
+
+        /* Winner Section */
+        .winner-section {
+            max-width: 600px;
+            margin: 3rem auto;
+            text-align: center;
+            padding: 3rem;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(6, 182, 212, 0.1));
+            border: 2px solid rgba(16, 185, 129, 0.3);
+            border-radius: 1.5rem;
+        }
+
+        .winner-title {
+            font-size: 0.875rem;
+            color: #10B981;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .champion-display {
+            font-size: clamp(2rem, 5vw, 4rem);
+            font-weight: 700;
+            font-family: 'Oswald', sans-serif;
+            margin: 1.5rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        /* Setup Phase Styles */
+        .setup-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section-header {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-badge {
+            font-size: 0.75rem;
+            color: #10B981;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            font-weight: 700;
+        }
+
+        /* Groups Grid */
+        .groups-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .group-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .group-card:hover {
+            border-color: rgba(16, 185, 129, 0.3);
+        }
+
+        .group-header {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #10B981;
+            margin-bottom: 1rem;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .group-teams {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .group-team {
+            padding: 0.75rem;
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            cursor: move;
+            transition: all 0.2s ease;
+        }
+
+        .group-team:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .group-team.position-1 {
+            border-color: rgba(16, 185, 129, 0.4);
+            background: rgba(16, 185, 129, 0.1);
+        }
+
+        .group-team.position-2 {
+            border-color: rgba(16, 185, 129, 0.2);
+            background: rgba(16, 185, 129, 0.05);
+        }
+
+        .group-team.position-3 {
+            border-color: rgba(245, 158, 11, 0.2);
+            background: rgba(245, 158, 11, 0.05);
+        }
+
+        /* Third Place Selection */
+        .third-place-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .third-place-card {
+            padding: 1.5rem;
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .third-place-card:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .third-place-card.selected {
+            background: rgba(245, 158, 11, 0.2);
+            border-color: #f59e0b;
+            transform: scale(1.05);
+        }
+
+        /* Buttons */
+        .btn {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 9999px;
+            font-weight: 700;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            letter-spacing: 0.05em;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #10B981, #06B6D4);
+            color: #000;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(16, 185, 129, 0.3);
+        }
+
+        .btn-primary:disabled {
+            background: #374151;
+            color: #6b7280;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: #9ca3af;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .bracket-wrapper {
+                gap: 40px;
+            }
+
+            .bracket-round {
+                min-width: 160px;
+            }
+
+            .match-card {
+                min-width: 160px;
+            }
+
+            .setup-container {
+                padding: 1rem;
+            }
+
+            .groups-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .third-place-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        /* Scrollbar Styling */
+        .bracket-container::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .bracket-container::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .bracket-container::-webkit-scrollbar-thumb {
+            background: rgba(16, 185, 129, 0.5);
+            border-radius: 4px;
+        }
+
+        .bracket-container::-webkit-scrollbar-thumb:hover {
+            background: rgba(16, 185, 129, 0.7);
+        }
+
+        .hidden {
+            display: none !important;
+        }
+    </style>
 </head>
-<body> 
-    <div class="flex-grow p-4 md:p-8" id="main-scroll-area">
+<body>
+    
+    <!-- Setup View -->
+    <div id="setup-view" class="setup-container">
         
-        <div id="setup-view" class="transition-all duration-500">
-            <div class="max-w-7xl mx-auto mb-12 text-center"> 
-                <h1 class="text-5xl md:text-7xl font-bold mb-4">Set The <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-500">Stage</span></h1>
-                <p class="text-gray-400 max-w-2xl mx-auto">Drag teams to order groups, then pick your wildcards.</p>
-            </div>
+        <div style="text-align: center; margin-bottom: 4rem;">
+            <h1 style="font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 700; margin-bottom: 1rem;">
+                Set The <span style="background: linear-gradient(135deg, #10B981, #06B6D4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Stage</span>
+            </h1>
+            <p style="color: #9ca3af; font-size: 1.125rem;">Drag teams to order groups, then pick your wildcards.</p>
+        </div>
 
-            <div id="phase-1-container" class="max-w-[1600px] mx-auto mb-16">
-                <div class="flex justify-between items-end mb-6 border-b border-white/10 pb-2">
-                    <div>
-                        <span class="text-xs text-emerald-400 font-bold uppercase tracking-widest">Step 1</span>
-                        <h2 class="text-2xl font-bold">Order The Groups</h2>
-                    </div>
-                    <div class="flex items-center gap-4">
-                         <button onclick="BracketApp.autoSimulateGroups()" class="text-xs text-gray-500 hover:text-white uppercase tracking-wider flex items-center gap-1"><i data-lucide="shuffle" class="w-3 h-3"></i> Quick Sim</button>
-                    </div>
+        <!-- Phase 1: Groups -->
+        <div id="phase-1-container" style="margin-bottom: 4rem;">
+            <div class="section-header">
+                <div>
+                    <span class="section-badge">Step 1</span>
+                    <h2 class="section-title">Order The Groups</h2>
                 </div>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="groups-container"></div>
+                <button onclick="BracketApp.autoSimulateGroups()" class="btn btn-secondary" style="float: right; margin-top: -3rem;">
+                    🎲 Quick Sim
+                </button>
             </div>
+            <div class="groups-grid" id="groups-container"></div>
+        </div>
 
-            <div id="phase-2-container" class="max-w-[1600px] mx-auto mb-16">
-                <div class="flex justify-between items-end mb-6 border-b border-white/10 pb-2">
-                    <div>
-                        <span class="text-xs text-yellow-400 font-bold uppercase tracking-widest">Step 2</span>
-                        <h2 class="text-2xl font-bold">Best 3rd Place Teams</h2>
-                        <p class="text-xs text-gray-400 mt-1">Select the 8 teams that advance.</p>
-                    </div>
-                    <div class="text-right">
-                        <span id="third-place-counter" class="text-4xl font-bold text-white font-oswald">0</span><span class="text-gray-500 text-sm uppercase font-bold">/8 Selected</span>
-                    </div>
+        <!-- Phase 2: Third Place -->
+        <div id="phase-2-container" style="margin-bottom: 4rem;">
+            <div class="section-header">
+                <div>
+                    <span class="section-badge" style="color: #f59e0b;">Step 2</span>
+                    <h2 class="section-title">Best 3rd Place Teams</h2>
+                    <p style="color: #9ca3af; font-size: 0.875rem; margin-top: 0.5rem;">Select the 8 teams that advance.</p>
                 </div>
-                <div class="glass-panel p-8 rounded-xl border-t-4 border-yellow-500/50">
-                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4" id="third-place-container"></div>
+                <div style="float: right; margin-top: -3rem; text-align: right;">
+                    <div style="font-size: 3rem; font-weight: 700; font-family: 'Oswald', sans-serif;" id="third-place-counter">0</div>
+                    <div style="color: #6b7280; font-size: 0.75rem; text-transform: uppercase; font-weight: 700;">/8 Selected</div>
                 </div>
-                
-                <div class="mt-12 flex justify-center pb-20">
-                    <button onclick="BracketApp.lockSetupAndGo()" id="btn-generate-bracket" class="bg-gray-700 text-gray-400 cursor-not-allowed font-bold uppercase py-6 px-16 rounded-full transition shadow-lg flex items-center gap-3 text-2xl hover:scale-105 transform duration-200" disabled>
-                        <span>Generate Bracket</span> <i data-lucide="arrow-right-circle" class="w-8 h-8"></i>
+            </div>
+            <div class="glass-panel" style="padding: 2rem; border-radius: 1rem; border-top: 3px solid rgba(245, 158, 11, 0.5);">
+                <div class="third-place-grid" id="third-place-container"></div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem; padding-bottom: 3rem;">
+                <button onclick="BracketApp.lockSetupAndGo()" id="btn-generate-bracket" class="btn btn-primary" style="font-size: 1.25rem; padding: 1.5rem 3rem;" disabled>
+                    <span>Generate Bracket</span>
+                    <span>→</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Knockout Stage -->
+    <div id="knockout-stage" class="hidden">
+        
+        <div class="bracket-header">
+            <div style="max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                    <span class="section-badge" style="color: #06B6D4;">Step 3</span>
+                    <h2 style="font-size: 1.5rem; font-weight: 700; margin-top: 0.25rem;">The Knockout Bracket</h2>
+                </div>
+                <div style="display: flex; gap: 1rem;">
+                    <button onclick="BracketApp.unlockSetup()" class="btn btn-secondary">
+                        ✏️ Edit Groups
+                    </button>
+                    <button onclick="BracketApp.resetBracket()" class="btn btn-secondary">
+                        ↺ Reset Picks
                     </button>
                 </div>
             </div>
         </div>
-
-        <div id="knockout-stage" class="hidden transition-all duration-500 pb-20">
-             <div class="max-w-[1700px] mx-auto flex justify-between items-end mb-6 border-b border-white/10 pb-2">
-                <div>
-                    <span class="text-xs text-cyan-400 font-bold uppercase tracking-widest">Step 3</span>
-                    <h2 class="text-2xl font-bold">The Knockout Bracket</h2>
-                </div>
-                <div class="flex items-center gap-4">
-                    <button onclick="BracketApp.unlockSetup()" class="text-xs text-gray-400 hover:text-red-400 uppercase font-bold flex items-center gap-1 transition bg-white/5 px-3 py-1 rounded border border-white/10"><i data-lucide="edit-3" class="w-3 h-3"></i> Edit Groups</button>
-                    <button onclick="BracketApp.resetBracket()" class="text-xs text-gray-400 hover:text-red-400 uppercase font-bold flex items-center gap-1 transition"><i data-lucide="rotate-ccw" class="w-3 h-3"></i> Reset Picks</button>
-                </div>
-            </div>
-            
-            <div class="max-w-full mx-auto border border-white/10 rounded-2xl bg-[#0a0a0a] overflow-hidden shadow-2xl">
-                <div class="overflow-auto h-[75vh] w-full p-8 relative" id="bracket-scroll-viewport">
-                    
-                    <div class="w-max mx-auto" id="bracket-capture-area">
-                        
-                        <div class="sticky top-0 z-40 flex gap-[60px] pb-6 bg-[#0a0a0a]/95 backdrop-blur-sm border-b border-white/5 mb-8 pt-2">
-                            <div class="header-cell">Round of 32</div>
-                            <div class="header-cell">Round of 16</div>
-                            <div class="header-cell">Quarter Finals</div>
-                            <div class="header-cell">Semi Finals</div>
-                            <div class="header-cell">Final</div>
-                        </div>
-
-                        <div id="bracket-tree" class="bracket-wrapper"></div>
-                    
-                    </div>
-                </div>
-            </div>
-
-            <div id="winner-section" class="max-w-4xl mx-auto text-center hidden animate-fade-in mt-12">
-                <div class="glass-panel p-12 rounded-3xl border-emerald-500/30 relative overflow-hidden">
-                    <div class="absolute inset-0 bg-emerald-500/5 z-0"></div>
-                    <div class="relative z-10">
-                        <span class="text-emerald-400 tracking-[0.3em] uppercase text-sm font-bold">World Cup 26 Champion</span>
-                        <div id="champion-display" class="text-6xl font-bold text-white mt-4 mb-8 font-oswald flex justify-center items-center gap-4"></div>
-                        <div class="bg-black/50 p-6 rounded-xl max-w-md mx-auto border border-white/10">
-                            <div id="ai-badge-container" class="w-full aspect-square bg-[#111] rounded-lg mb-4 flex items-center justify-center relative overflow-hidden group">
-                                <span class="text-gray-600 text-xs uppercase tracking-widest">AI Badge Preview</span>
-                                <img id="generated-badge" class="absolute inset-0 w-full h-full object-cover hidden" />
-                            </div>
-                            <button onclick="BracketApp.generateNanoBadge()" class="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-white py-3 rounded font-bold uppercase tracking-widest flex justify-center items-center gap-2 transition"><i data-lucide="sparkles"></i> Generate Winner Badge</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        
+        <div class="bracket-container">
+            <div class="bracket-wrapper" id="bracket-tree"></div>
         </div>
 
-    </div>
-
-    <div id="share-modal" class="fixed inset-0 bg-black/90 z-[60] hidden flex items-center justify-center p-4">
-        <div class="bg-[#111] border border-white/10 rounded-2xl p-6 max-w-lg w-full">
-            <h3 class="text-xl font-bold mb-4 text-emerald-400">Share Your Bracket</h3>
-            <div id="share-preview-area" class="w-full h-48 bg-gray-800 rounded mb-4 flex items-center justify-center text-gray-500 text-xs">Generating Preview...</div>
-            <div class="grid grid-cols-2 gap-4">
-                <button onclick="BracketApp.downloadImage()" class="bg-white text-black py-3 rounded font-bold uppercase hover:bg-gray-200">Download Image</button>
-                <button onclick="document.getElementById('share-modal').classList.add('hidden')" class="border border-white/20 text-white py-3 rounded font-bold uppercase hover:bg-white/10">Close</button>
+        <!-- Winner Section -->
+        <div id="winner-section" class="winner-section hidden animate-fade-in">
+            <div class="winner-title">World Cup 26 Champion</div>
+            <div class="champion-display" id="champion-display"></div>
+            <div style="margin-top: 2rem;">
+                <button onclick="BracketApp.generateNanoBadge()" class="btn btn-primary">
+                    ✨ Generate Winner Badge
+                </button>
+            </div>
+            <div id="ai-badge-container" style="margin-top: 2rem; display: none;">
+                <img id="generated-badge" style="max-width: 400px; border-radius: 1rem;" />
             </div>
         </div>
     </div>
+
+    <!-- Share Modal -->
+    <div id="share-modal" class="hidden" style="position: fixed; inset: 0; background: rgba(0, 0, 0, 0.9); z-index: 60; display: flex; align-items: center; justify-content: center; padding: 1rem;">
+        <div style="background: #111; border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 1.5rem; padding: 2rem; max-width: 500px; width: 100%;">
+            <h3 style="font-size: 1.5rem; font-weight: 700; color: #10B981; margin-bottom: 1.5rem;">Share Your Bracket</h3>
+            <div id="share-preview-area" style="width: 100%; height: 200px; background: #1f2937; border-radius: 0.5rem; margin-bottom: 1.5rem; display: flex; align-items: center; justify-content: center; color: #6b7280; font-size: 0.875rem;">
+                Generating Preview...
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                <button onclick="BracketApp.downloadImage()" class="btn" style="background: #fff; color: #000;">Download Image</button>
+                <button onclick="document.getElementById('share-modal').classList.add('hidden')" class="btn btn-secondary">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load match-logic.js first if available for team data integration -->
+    <!-- <script src="match-logic.js"></script> -->
+    <script src="bracket.js"></script>
 </body>
 </html>

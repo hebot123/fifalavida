@@ -1,10 +1,10 @@
 const BracketApp = {
     state: {
-        phase: 1, // 1=Setup (Groups/3rd), 3=Knockout
-        groups: {}, 
+        phase: 1, // 1=Setup, 3=Knockout
+        groups: {},
         thirdPlaceCandidates: [],
         selectedThirds: [],
-        knockout: {}, 
+        knockout: {},
         champion: null,
         uid: null
     },
@@ -46,7 +46,7 @@ const BracketApp = {
     },
 
     orderedMatches: {
-        0: [74, 77, 73, 75, 83, 84, 81, 82, 76, 78, 79, 80, 86, 88, 85, 87], 
+        0: [74, 77, 73, 75, 83, 84, 81, 82, 76, 78, 79, 80, 86, 88, 85, 87],
         1: [89, 90, 93, 94, 91, 92, 95, 96],
         2: [97, 98, 99, 100],
         3: [101, 102],
@@ -54,12 +54,12 @@ const BracketApp = {
     },
 
     init: () => {
-        if(!document.getElementById('groups-container')) return;
-        
+        if (!document.getElementById('groups-container')) return;
+
         BracketApp.uid = localStorage.getItem('fifa_bracket_uid') || BracketApp.generateUID();
-        
+
         const savedData = localStorage.getItem('fifa_bracket_data');
-        if(savedData) {
+        if (savedData) {
             const parsed = JSON.parse(savedData);
             BracketApp.state = { ...BracketApp.state, ...parsed };
         } else {
@@ -70,136 +70,228 @@ const BracketApp = {
         BracketApp.updateThirdPlaceLogic();
         BracketApp.renderThirdPlacePicker();
 
-        if(BracketApp.state.phase === 3 && BracketApp.state.selectedThirds.length === 8) {
+        if (BracketApp.state.phase === 3 && BracketApp.state.selectedThirds.length === 8) {
             BracketApp.switchToBracketView();
         } else {
             BracketApp.state.phase = 1;
             document.getElementById('setup-view').classList.remove('hidden');
-            // FIX: Target knockout-stage instead of bracket-view to avoid index.html ID conflict
             document.getElementById('knockout-stage').classList.add('hidden');
         }
-
-        if(typeof lucide !== 'undefined') lucide.createIcons();
     },
 
     generateUID: () => 'BRK-' + Math.random().toString(36).substr(2, 9).toUpperCase(),
-    getFlag: (t) => window.getFlagHTML ? window.getFlagHTML(t) : '',
+    
+    getFlag: (team) => {
+        // Use the site's existing flag system if available
+        if (typeof window.getFlagHTML === 'function') {
+            return window.getFlagHTML(team);
+        }
+        
+        // Comprehensive emoji flag fallback
+        const flagMap = {
+            'Mexico': '🇲🇽', 'Canada': '🇨🇦', 'USA': '🇺🇸',
+            'Argentina': '🇦🇷', 'Brazil': '🇧🇷', 'Germany': '🇩🇪',
+            'Spain': '🇪🇸', 'France': '🇫🇷', 'England': '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+            'Portugal': '🇵🇹', 'Belgium': '🇧🇪', 'Netherlands': '🇳🇱',
+            'South Africa': '🇿🇦', 'Korea Republic': '🇰🇷', 'Morocco': '🇲🇦',
+            'Haiti': '🇭🇹', 'Scotland': '🏴󠁧󠁢󠁳󠁣󠁴󠁿', 'Paraguay': '🇵🇾',
+            'Australia': '🇦🇺', 'Qatar': '🇶🇦', 'Switzerland': '🇨🇭',
+            'Curaçao': '🇨🇼', 'Côte d\'Ivoire': '🇨🇮', 'Ecuador': '🇪🇨',
+            'Japan': '🇯🇵', 'Tunisia': '🇹🇳', 'Egypt': '🇪🇬',
+            'IR Iran': '🇮🇷', 'New Zealand': '🇳🇿', 'Cabo Verde': '🇨🇻',
+            'Saudi Arabia': '🇸🇦', 'Uruguay': '🇺🇾', 'Senegal': '🇸🇳',
+            'Norway': '🇳🇴', 'Algeria': '🇩🇿', 'Austria': '🇦🇹',
+            'Jordan': '🇯🇴', 'Uzbekistan': '🇺🇿', 'Colombia': '🇨🇴',
+            'Croatia': '🇭🇷', 'Ghana': '🇬🇭', 'Panama': '🇵🇦'
+        };
+        
+        return flagMap[team] || '⚽';
+    },
+
+    // Official Pot Mapping from 2026 World Cup
+    potMapping: {
+        'A': { 1: 'Mexico', 2: 'South Africa', 3: 'Korea Republic', 4: 'Winner Play-off D' },
+        'B': { 1: 'Canada', 2: 'Winner Play-off A', 3: 'Qatar', 4: 'Switzerland' },
+        'C': { 1: 'Brazil', 2: 'Morocco', 3: 'Haiti', 4: 'Scotland' },
+        'D': { 1: 'USA', 2: 'Paraguay', 3: 'Australia', 4: 'Winner Play-off C' },
+        'E': { 1: 'Germany', 2: 'Curaçao', 3: 'Côte d\'Ivoire', 4: 'Ecuador' },
+        'F': { 1: 'Netherlands', 2: 'Japan', 3: 'Winner Play-off B', 4: 'Tunisia' },
+        'G': { 1: 'Belgium', 2: 'Egypt', 3: 'IR Iran', 4: 'New Zealand' },
+        'H': { 1: 'Spain', 2: 'Cabo Verde', 3: 'Saudi Arabia', 4: 'Uruguay' },
+        'I': { 1: 'France', 2: 'Senegal', 3: 'Winner Play-off 2', 4: 'Norway' },
+        'J': { 1: 'Argentina', 2: 'Algeria', 3: 'Austria', 4: 'Jordan' },
+        'K': { 1: 'Portugal', 2: 'Winner Play-off 1', 3: 'Uzbekistan', 4: 'Colombia' },
+        'L': { 1: 'England', 2: 'Croatia', 3: 'Ghana', 4: 'Panama' }
+    },
 
     loadGroups: () => {
-        if(Object.keys(BracketApp.state.groups).length > 0) return;
-        ['A','B','C','D','E','F','G','H','I','J','K','L'].forEach(g => {
-             if(typeof MatchEngine !== 'undefined' && MatchEngine.potMapping && MatchEngine.potMapping[g]) {
-                 BracketApp.state.groups[g] = Object.values(MatchEngine.potMapping[g]);
-             } else { BracketApp.state.groups[g] = [`Team ${g}1`, `Team ${g}2`, `Team ${g}3`, `Team ${g}4`]; }
+        if (Object.keys(BracketApp.state.groups).length > 0) return;
+        ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'].forEach(g => {
+            // Check if MatchEngine is available first
+            if (typeof MatchEngine !== 'undefined' && MatchEngine.potMapping && MatchEngine.potMapping[g]) {
+                BracketApp.state.groups[g] = Object.values(MatchEngine.potMapping[g]);
+            } 
+            // Fallback to BracketApp's own potMapping
+            else if (BracketApp.potMapping && BracketApp.potMapping[g]) {
+                BracketApp.state.groups[g] = Object.values(BracketApp.potMapping[g]);
+            } 
+            // Last resort fallback
+            else {
+                BracketApp.state.groups[g] = [`Team ${g}1`, `Team ${g}2`, `Team ${g}3`, `Team ${g}4`];
+            }
         });
     },
+
     renderGroups: () => {
-        const c = document.getElementById('groups-container'); if(!c) return; c.innerHTML = '';
-        Object.keys(BracketApp.state.groups).forEach(g => {
-            const t = BracketApp.state.groups[g];
-            c.innerHTML += `<div class="glass-panel p-4 rounded-xl relative group transition hover:border-emerald-500/30">
-                <div class="flex justify-between items-center mb-3 border-b border-white/5 pb-2"><span class="font-bold text-emerald-400 text-lg font-oswald">Group ${g}</span><i data-lucide="grip-vertical" class="w-4 h-4 text-gray-600"></i></div>
-                <ul class="space-y-1" id="group-${g}">
-                    ${t.map((team,i)=>`<li class="${i===0?'border-emerald-500/40 bg-emerald-500/10 text-white':i===1?'border-emerald-500/20 bg-emerald-500/5 text-white':i===2?'border-yellow-500/20 bg-yellow-500/5 text-yellow-200':'border-white/5 bg-black/40 text-gray-500'} border p-2 rounded flex items-center gap-3 transition relative cursor-move hover:bg-white/5" draggable="true" data-team="${team}">
-                        <span class="text-[10px] font-mono opacity-50 w-3">${i+1}</span><div class="flex items-center gap-2">${BracketApp.getFlag(team)}<span class="font-semibold text-sm">${team}</span></div>
-                    </li>`).join('')}
-                </ul></div>`;
+        const container = document.getElementById('groups-container');
+        if (!container) return;
+        container.innerHTML = '';
+
+        Object.keys(BracketApp.state.groups).forEach(group => {
+            const teams = BracketApp.state.groups[group];
+            const groupCard = document.createElement('div');
+            groupCard.className = 'group-card';
+            groupCard.innerHTML = `
+                <div class="group-header">Group ${group}</div>
+                <div class="group-teams" id="group-${group}">
+                    ${teams.map((team, i) => `
+                        <div class="group-team position-${i + 1}" draggable="true" data-team="${team}">
+                            <span style="font-size: 0.75rem; color: #6b7280; width: 1rem;">${i + 1}</span>
+                            <span class="team-flag">${BracketApp.getFlag(team)}</span>
+                            <span class="team-name">${team}</span>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            container.appendChild(groupCard);
         });
+
         Object.keys(BracketApp.state.groups).forEach(g => BracketApp.enableDragDrop(g));
         BracketApp.updateThirdPlaceLogic();
         BracketApp.renderThirdPlacePicker();
-        lucide.createIcons();
     },
+
     enableDragDrop: (group) => {
         const list = document.getElementById(`group-${group}`);
         let draggedItem = null;
-        list.querySelectorAll('li').forEach(item => {
-            item.addEventListener('dragstart', () => { draggedItem = item; item.classList.add('opacity-50'); });
-            item.addEventListener('dragend', () => { draggedItem = null; item.classList.remove('opacity-50'); BracketApp.updateGroupOrder(group); });
+
+        list.querySelectorAll('.group-team').forEach(item => {
+            item.addEventListener('dragstart', () => {
+                draggedItem = item;
+                item.style.opacity = '0.5';
+            });
+
+            item.addEventListener('dragend', () => {
+                draggedItem = null;
+                item.style.opacity = '1';
+                BracketApp.updateGroupOrder(group);
+            });
+
             item.addEventListener('dragover', e => e.preventDefault());
-            item.addEventListener('drop', e => { e.preventDefault(); if (draggedItem && draggedItem !== item) { const all = [...list.querySelectorAll('li')]; if (all.indexOf(item) < all.indexOf(draggedItem)) list.insertBefore(draggedItem, item); else list.insertBefore(draggedItem, item.nextSibling); }});
+
+            item.addEventListener('drop', e => {
+                e.preventDefault();
+                if (draggedItem && draggedItem !== item) {
+                    const all = [...list.querySelectorAll('.group-team')];
+                    if (all.indexOf(item) < all.indexOf(draggedItem)) {
+                        list.insertBefore(draggedItem, item);
+                    } else {
+                        list.insertBefore(draggedItem, item.nextSibling);
+                    }
+                }
+            });
         });
     },
+
     updateGroupOrder: (group) => {
         const list = document.getElementById(`group-${group}`);
-        BracketApp.state.groups[group] = [...list.querySelectorAll('li')].map(li => li.getAttribute('data-team'));
-        BracketApp.renderGroups(); 
+        BracketApp.state.groups[group] = [...list.querySelectorAll('.group-team')].map(el => el.getAttribute('data-team'));
+        BracketApp.renderGroups();
     },
+
     autoSimulateGroups: () => {
-        Object.keys(BracketApp.state.groups).forEach(g => BracketApp.state.groups[g].sort(() => Math.random() - 0.5));
+        Object.keys(BracketApp.state.groups).forEach(g => {
+            BracketApp.state.groups[g].sort(() => Math.random() - 0.5);
+        });
         BracketApp.renderGroups();
     },
 
     updateThirdPlaceLogic: () => {
         const candidates = [];
-        Object.keys(BracketApp.state.groups).forEach(g => candidates.push({ team: BracketApp.state.groups[g][2], group: g }));
+        Object.keys(BracketApp.state.groups).forEach(g => {
+            candidates.push({ team: BracketApp.state.groups[g][2], group: g });
+        });
         BracketApp.state.thirdPlaceCandidates = candidates;
-        BracketApp.state.selectedThirds = BracketApp.state.selectedThirds.filter(t => candidates.find(c => c.team === t));
+        BracketApp.state.selectedThirds = BracketApp.state.selectedThirds.filter(t =>
+            candidates.find(c => c.team === t)
+        );
     },
+
     renderThirdPlacePicker: () => {
-        const c = document.getElementById('third-place-container');
+        const container = document.getElementById('third-place-container');
         const counter = document.getElementById('third-place-counter');
         const lockBtn = document.getElementById('btn-generate-bracket');
-        
-        c.innerHTML = BracketApp.state.thirdPlaceCandidates.map(k => {
-            const sel = BracketApp.state.selectedThirds.includes(k.team);
-            let cls = sel ? 'bg-yellow-500/20 border-yellow-500 shadow-[0_0_15px_rgba(234,179,8,0.2)]' : 'bg-black/40 border-white/10 opacity-70 hover:opacity-100 hover:bg-white/5';
-            
-            return `<div onclick="BracketApp.toggleThirdPlace('${k.team.replace(/'/g, "\\'")}')" class="cursor-pointer border rounded-xl p-4 flex flex-col items-center justify-center gap-3 transition-all duration-300 relative group transform ${sel?'scale-105':'scale-100'} ${cls}">
-                <div class="absolute top-2 left-3 text-[10px] text-gray-500 font-bold uppercase tracking-widest">Group ${k.group}</div>
-                ${sel?'<div class="absolute top-2 right-2 text-yellow-400 bg-yellow-900/50 rounded-full p-0.5"><i data-lucide="check" class="w-3 h-3"></i></div>':''}
-                <div class="mt-4 transform scale-150 shadow-lg">${BracketApp.getFlag(k.team)}</div>
-                <div class="font-bold text-sm text-center leading-tight ${sel?'text-white':'text-gray-400'}">${k.team}</div>
-            </div>`;
+
+        container.innerHTML = BracketApp.state.thirdPlaceCandidates.map(candidate => {
+            const isSelected = BracketApp.state.selectedThirds.includes(candidate.team);
+            return `
+                <div onclick="BracketApp.toggleThirdPlace('${candidate.team.replace(/'/g, "\\'")}')" 
+                     class="third-place-card ${isSelected ? 'selected' : ''}">
+                    <div style="font-size: 0.65rem; color: #6b7280; text-transform: uppercase; margin-bottom: 0.5rem;">
+                        Group ${candidate.group}
+                    </div>
+                    <div style="font-size: 2rem; margin: 1rem 0;">
+                        ${BracketApp.getFlag(candidate.team)}
+                    </div>
+                    <div style="font-weight: 600; font-size: 0.875rem; color: ${isSelected ? '#fff' : '#9ca3af'};">
+                        ${candidate.team}
+                    </div>
+                    ${isSelected ? '<div style="margin-top: 0.5rem; color: #f59e0b;">✓</div>' : ''}
+                </div>
+            `;
         }).join('');
-        
+
         const count = BracketApp.state.selectedThirds.length;
         counter.innerText = count;
-        
-        if(count === 8) { 
-            counter.classList.add('text-emerald-400'); 
-            lockBtn.classList.remove('bg-gray-700','text-gray-400','cursor-not-allowed'); 
-            lockBtn.classList.add('bg-white','text-black','hover:bg-emerald-400'); 
-            lockBtn.disabled = false; 
-        } else { 
-            counter.classList.remove('text-emerald-400'); 
-            lockBtn.classList.add('bg-gray-700','text-gray-400','cursor-not-allowed'); 
-            lockBtn.classList.remove('bg-white','text-black','hover:bg-emerald-400'); 
-            lockBtn.disabled = true; 
-        }
-        lucide.createIcons();
+        lockBtn.disabled = count !== 8;
     },
+
     toggleThirdPlace: (team) => {
         const idx = BracketApp.state.selectedThirds.indexOf(team);
-        if(idx > -1) BracketApp.state.selectedThirds.splice(idx, 1);
-        else { if(BracketApp.state.selectedThirds.length >= 8) return; BracketApp.state.selectedThirds.push(team); }
+        if (idx > -1) {
+            BracketApp.state.selectedThirds.splice(idx, 1);
+        } else {
+            if (BracketApp.state.selectedThirds.length >= 8) return;
+            BracketApp.state.selectedThirds.push(team);
+        }
         BracketApp.renderThirdPlacePicker();
     },
 
     lockSetupAndGo: () => {
-        if(BracketApp.state.selectedThirds.length !== 8) return;
+        if (BracketApp.state.selectedThirds.length !== 8) return;
         BracketApp.state.phase = 3;
         BracketApp.savePicks();
         BracketApp.switchToBracketView();
     },
+
     unlockSetup: () => {
-        if(!confirm("Going back will allow you to change groups/3rd place, but might invalidate existing knockout picks. Continue?")) return;
+        if (!confirm("Going back will allow you to change groups/3rd place teams. This might invalidate existing knockout picks. Continue?")) return;
         BracketApp.state.phase = 1;
-        // FIX: Target knockout-stage instead of bracket-view
         document.getElementById('knockout-stage').classList.add('hidden');
         document.getElementById('setup-view').classList.remove('hidden');
-        window.scrollTo({top:0, behavior:'smooth'});
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         BracketApp.savePicks();
     },
+
     switchToBracketView: () => {
         document.getElementById('setup-view').classList.add('hidden');
-        // FIX: Target knockout-stage instead of bracket-view
         document.getElementById('knockout-stage').classList.remove('hidden');
-        window.scrollTo({top:0, behavior:'smooth'});
+        window.scrollTo({ top: 0, behavior: 'smooth' });
         BracketApp.renderTree();
     },
+
     resetBracket: () => {
-        if(!confirm("Clear all knockout predictions?")) return;
+        if (!confirm("Clear all knockout predictions?")) return;
         BracketApp.state.knockout = {};
         BracketApp.state.champion = null;
         document.getElementById('winner-section').classList.add('hidden');
@@ -210,209 +302,249 @@ const BracketApp = {
     renderTree: () => {
         const container = document.getElementById('bracket-tree');
         container.innerHTML = '';
-        const stages = ['Round of 32', 'Round of 16', 'Quarterfinals', 'Semifinals', 'Final'];
-        
+
+        const rounds = ['Round of 32', 'Round of 16', 'Quarter Finals', 'Semi Finals', 'Final'];
+
         const resolveTeam = (code) => {
-            if(!code || code.includes('Winner') || code.includes('Runner') || code.includes('Loser')) return "TBD";
+            if (!code || code.includes('Winner') || code.includes('Runner') || code.includes('Loser')) return "TBD";
             const gMatch = code.match(/^([12])([A-L])$/);
-            if(gMatch) return BracketApp.state.groups[gMatch[2]][parseInt(gMatch[1])-1] || code;
-            if(code.includes('3rd')) {
+            if (gMatch) return BracketApp.state.groups[gMatch[2]][parseInt(gMatch[1]) - 1] || code;
+            if (code.includes('3rd')) {
                 const allowed = code.replace("3rd ", "").split("/");
-                const found = BracketApp.state.thirdPlaceCandidates.find(c => allowed.includes(c.group) && BracketApp.state.selectedThirds.includes(c.team));
+                const found = BracketApp.state.thirdPlaceCandidates.find(c =>
+                    allowed.includes(c.group) && BracketApp.state.selectedThirds.includes(c.team)
+                );
                 return found ? found.team : "3rd Place";
             }
             return code;
         };
 
-        // --- DYNAMIC GAP CALCULATION START ---
-        // Start gap at 40px (increased) for Round of 32
-        // Match Height is now 80px
-        // Formula: NextGap = CurrentGap * 2 + MatchHeight
-        let gapSize = 40; 
-        const matchHeight = 80;
-        // -------------------------------------
-
-        stages.forEach((stage, stageIndex) => {
-            const col = document.createElement('div');
-            col.className = "bracket-column";
+        rounds.forEach((roundName, roundIndex) => {
+            const roundDiv = document.createElement('div');
+            roundDiv.className = `bracket-round ${roundIndex === 4 ? 'final-round' : ''}`;
             
-            // Apply the dynamic gap to the column itself so pairs are spaced correctly
-            col.style.gap = `${gapSize}px`;
+            // Round header
+            const header = document.createElement('div');
+            header.className = 'round-header';
+            header.textContent = roundName;
+            roundDiv.appendChild(header);
 
-            const matchIds = BracketApp.orderedMatches[stageIndex];
-            
-            for(let i = 0; i < matchIds.length; i += (stageIndex < 4 ? 2 : 1)) {
-                
-                if(stageIndex === 4) {
-                    const id = matchIds[0];
-                    const m = BracketApp.schedule[id];
-                    let tA = BracketApp.state.knockout[`${id}-0`] || resolveTeam(m.p1);
-                    let tB = BracketApp.state.knockout[`${id}-1`] || resolveTeam(m.p2);
-                    if(BracketApp.state.knockout[101]) tA = BracketApp.state.knockout[101];
-                    if(BracketApp.state.knockout[102]) tB = BracketApp.state.knockout[102];
+            const matchIds = BracketApp.orderedMatches[roundIndex];
 
-                    const finalStack = document.createElement('div');
-                    finalStack.className = "final-stack";
-                    finalStack.innerHTML = BracketApp.renderMatchNodeHTML(id, m, tA, tB, false);
+            if (roundIndex === 4) {
+                // Final round - special layout
+                const finalMatch = BracketApp.schedule[104];
+                let teamA = resolveTeam(finalMatch.p1);
+                let teamB = resolveTeam(finalMatch.p2);
+
+                if (BracketApp.state.knockout[101]) teamA = BracketApp.state.knockout[101];
+                if (BracketApp.state.knockout[102]) teamB = BracketApp.state.knockout[102];
+
+                roundDiv.innerHTML += BracketApp.renderMatchCard(104, finalMatch, teamA, teamB);
+
+                // Bronze match
+                const bronzeMatch = BracketApp.schedule[103];
+                let bronzeA = "Loser M101";
+                let bronzeB = "Loser M102";
+
+                if (BracketApp.state.knockout[101] && BracketApp.state.knockout[102]) {
+                    const semi1Node = document.querySelector(`.match-card[data-id="101"]`);
+                    const semi2Node = document.querySelector(`.match-card[data-id="102"]`);
                     
-                    const bId = 103; const bM = BracketApp.schedule[bId];
-                    let bA = "Loser M101", bB = "Loser M102";
-                    if(BracketApp.state.knockout[101]) {
-                        const w = BracketApp.state.knockout[101];
-                        const prevNode = document.querySelector(`.match-node[data-id="101"]`);
-                        if(prevNode) { bA = (prevNode.querySelector('.team-slot[data-slot="0"]')?.dataset.team === w) ? prevNode.querySelector('.team-slot[data-slot="1"]')?.dataset.team : prevNode.querySelector('.team-slot[data-slot="0"]')?.dataset.team; }
+                    if (semi1Node) {
+                        const winner = BracketApp.state.knockout[101];
+                        const slots = semi1Node.querySelectorAll('.team-slot');
+                        bronzeA = slots[0].dataset.team === winner ? slots[1].dataset.team : slots[0].dataset.team;
                     }
-                    if(BracketApp.state.knockout[102]) {
-                        const w = BracketApp.state.knockout[102];
-                        const prevNode = document.querySelector(`.match-node[data-id="102"]`);
-                        if(prevNode) { bB = (prevNode.querySelector('.team-slot[data-slot="0"]')?.dataset.team === w) ? prevNode.querySelector('.team-slot[data-slot="1"]')?.dataset.team : prevNode.querySelector('.team-slot[data-slot="0"]')?.dataset.team; }
+                    if (semi2Node) {
+                        const winner = BracketApp.state.knockout[102];
+                        const slots = semi2Node.querySelectorAll('.team-slot');
+                        bronzeB = slots[0].dataset.team === winner ? slots[1].dataset.team : slots[0].dataset.team;
                     }
-                    
-                    finalStack.innerHTML += `
-                        <div class="match-node bg-[#151515] border border-yellow-900/30 rounded-lg w-64 relative group shadow-lg bronze-node" data-id="103">
-                            <div class="bronze-label">Bronze Match</div>
-                            <div class="text-[9px] text-yellow-600 px-3 py-1.5 bg-black/40 border-b border-yellow-900/10 uppercase tracking-wider flex justify-between rounded-t-lg"><span>M103 • ${bM.date}</span><span>${bM.venue}</span></div>
-                            <div class="p-2 space-y-1">
-                                <div class="p-2 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-yellow-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, 103, 0)" data-team="${bA}" data-slot="0"><div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(bA)}</div><span class="text-sm font-bold text-gray-400 truncate">${bA}</span></div></div>
-                                <div class="p-2 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-yellow-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, 103, 1)" data-team="${bB}" data-slot="1"><div class="flex items-center gap-3"><div class="scale-110 flag-box">${BracketApp.getFlag(bB)}</div><span class="text-sm font-bold text-gray-400 truncate">${bB}</span></div></div>
-                            </div>
-                        </div>`;
-                    col.appendChild(finalStack);
-                    continue;
                 }
 
-                const id1 = matchIds[i];
-                const id2 = matchIds[i+1];
-                
-                const pairDiv = document.createElement('div');
-                pairDiv.className = "match-pair";
-                pairDiv.dataset.pairId = `${id1}-${id2}`;
-                
-                // Apply the same gap internally to the pair
-                // This forces the "fork" to stretch exactly to where the next round's inputs are
-                pairDiv.style.gap = `${gapSize}px`;
+                roundDiv.innerHTML += BracketApp.renderMatchCard(103, bronzeMatch, bronzeA, bronzeB, true);
 
-                const m1 = BracketApp.schedule[id1];
-                let t1A = BracketApp.state.knockout[`${id1}-0`] || resolveTeam(m1.p1);
-                let t1B = BracketApp.state.knockout[`${id1}-1`] || resolveTeam(m1.p2);
-                if(stageIndex > 0) {
-                     const feedA = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id1 && BracketApp.schedule[k].slot==0);
-                     const feedB = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id1 && BracketApp.schedule[k].slot==1);
-                     if(feedA && BracketApp.state.knockout[feedA]) t1A = BracketApp.state.knockout[feedA];
-                     if(feedB && BracketApp.state.knockout[feedB]) t1B = BracketApp.state.knockout[feedB];
+            } else {
+                // Regular rounds
+                for (let i = 0; i < matchIds.length; i += 2) {
+                    const match1Id = matchIds[i];
+                    const match2Id = matchIds[i + 1];
+
+                    const pairDiv = document.createElement('div');
+                    pairDiv.className = 'match-pair';
+
+                    // First match
+                    const match1 = BracketApp.schedule[match1Id];
+                    let team1A = BracketApp.state.knockout[`${match1Id}-0`] || resolveTeam(match1.p1);
+                    let team1B = BracketApp.state.knockout[`${match1Id}-1`] || resolveTeam(match1.p2);
+
+                    if (roundIndex > 0) {
+                        const feedA = Object.keys(BracketApp.schedule).find(k =>
+                            BracketApp.schedule[k].next == match1Id && BracketApp.schedule[k].slot == 0
+                        );
+                        const feedB = Object.keys(BracketApp.schedule).find(k =>
+                            BracketApp.schedule[k].next == match1Id && BracketApp.schedule[k].slot == 1
+                        );
+                        if (feedA && BracketApp.state.knockout[feedA]) team1A = BracketApp.state.knockout[feedA];
+                        if (feedB && BracketApp.state.knockout[feedB]) team1B = BracketApp.state.knockout[feedB];
+                    }
+
+                    pairDiv.innerHTML += BracketApp.renderMatchCard(match1Id, match1, team1A, team1B);
+
+                    // Second match
+                    const match2 = BracketApp.schedule[match2Id];
+                    let team2A = BracketApp.state.knockout[`${match2Id}-0`] || resolveTeam(match2.p1);
+                    let team2B = BracketApp.state.knockout[`${match2Id}-1`] || resolveTeam(match2.p2);
+
+                    if (roundIndex > 0) {
+                        const feedA = Object.keys(BracketApp.schedule).find(k =>
+                            BracketApp.schedule[k].next == match2Id && BracketApp.schedule[k].slot == 0
+                        );
+                        const feedB = Object.keys(BracketApp.schedule).find(k =>
+                            BracketApp.schedule[k].next == match2Id && BracketApp.schedule[k].slot == 1
+                        );
+                        if (feedA && BracketApp.state.knockout[feedA]) team2A = BracketApp.state.knockout[feedA];
+                        if (feedB && BracketApp.state.knockout[feedB]) team2B = BracketApp.state.knockout[feedB];
+                    }
+
+                    pairDiv.innerHTML += BracketApp.renderMatchCard(match2Id, match2, team2A, team2B);
+
+                    roundDiv.appendChild(pairDiv);
                 }
-                pairDiv.innerHTML += BracketApp.renderMatchNodeHTML(id1, m1, t1A, t1B, true);
-
-                const m2 = BracketApp.schedule[id2];
-                let t2A = BracketApp.state.knockout[`${id2}-0`] || resolveTeam(m2.p1);
-                let t2B = BracketApp.state.knockout[`${id2}-1`] || resolveTeam(m2.p2);
-                if(stageIndex > 0) {
-                     const feedA = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id2 && BracketApp.schedule[k].slot==0);
-                     const feedB = Object.keys(BracketApp.schedule).find(k=>BracketApp.schedule[k].next==id2 && BracketApp.schedule[k].slot==1);
-                     if(feedA && BracketApp.state.knockout[feedA]) t2A = BracketApp.state.knockout[feedA];
-                     if(feedB && BracketApp.state.knockout[feedB]) t2B = BracketApp.state.knockout[feedB];
-                }
-                pairDiv.innerHTML += BracketApp.renderMatchNodeHTML(id2, m2, t2A, t2B, true);
-
-                pairDiv.innerHTML += `<div class="line-fork" id="fork-${id1}-${id2}"></div><div class="line-stem" id="stem-${id1}-${id2}"></div>`;
-                col.appendChild(pairDiv);
             }
-            
-            container.appendChild(col);
-            
-            // Calculate gap for the NEXT round
-            if(stageIndex < 4) {
-                gapSize = gapSize * 2 + matchHeight;
-            }
+
+            container.appendChild(roundDiv);
         });
-        
-        BracketApp.updateTracers();
-        lucide.createIcons();
+
+        BracketApp.updateSelections();
     },
 
-    renderMatchNodeHTML: (id, m, tA, tB, hasNext) => {
+    renderMatchCard: (matchId, match, teamA, teamB, isBronze = false) => {
         return `
-        <div class="match-node" data-id="${id}">
-            <div class="text-[9px] text-gray-500 px-3 py-1.5 bg-black/40 border-b border-white/5 uppercase tracking-wider flex justify-between rounded-t-lg">
-                <span>M${id} • ${m.date}</span><span>${m.venue}</span>
-            </div>
-            <div class="p-1.5 space-y-1">
-                <div class="p-1.5 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-emerald-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, ${id}, 0)" data-team="${tA}" data-slot="0">
-                    <div class="flex items-center gap-2"><div class="scale-100 flag-box">${BracketApp.getFlag(tA)}</div><span class="text-xs font-bold text-gray-200 truncate max-w-[120px]">${tA}</span></div>
+            <div class="match-card ${isBronze ? 'bronze' : ''}" data-id="${matchId}">
+                <div class="match-header">
+                    <span>M${matchId} • ${match.date}</span>
+                    <span>${match.venue}</span>
                 </div>
-                <div class="p-1.5 bg-white/5 rounded flex items-center justify-between cursor-pointer hover:bg-emerald-500/20 transition team-slot" onclick="BracketApp.advanceTeam(this, ${id}, 1)" data-team="${tB}" data-slot="1">
-                    <div class="flex items-center gap-2"><div class="scale-100 flag-box">${BracketApp.getFlag(tB)}</div><span class="text-xs font-bold text-gray-200 truncate max-w-[120px]">${tB}</span></div>
+                <div class="match-teams">
+                    <div class="team-slot" onclick="BracketApp.advanceTeam(this, ${matchId}, 0)" data-team="${teamA}" data-slot="0">
+                        <span class="team-flag">${BracketApp.getFlag(teamA)}</span>
+                        <span class="team-name">${teamA}</span>
+                    </div>
+                    <div class="team-slot" onclick="BracketApp.advanceTeam(this, ${matchId}, 1)" data-team="${teamB}" data-slot="1">
+                        <span class="team-flag">${BracketApp.getFlag(teamB)}</span>
+                        <span class="team-name">${teamB}</span>
+                    </div>
                 </div>
             </div>
-        </div>`;
+        `;
     },
 
     advanceTeam: (el, matchId, slotIdx) => {
         const team = el.dataset.team;
-        if(!team || team.includes('TBD') || team.includes('Loser') || team.includes('3rd')) return;
+        if (!team || team.includes('TBD') || team.includes('Loser') || team.includes('3rd')) return;
 
-        const node = el.closest('.match-node');
-        node.querySelectorAll('.team-slot').forEach(s => { s.classList.remove('bg-emerald-500','text-black'); s.querySelector('span').classList.remove('text-black'); });
-        if(matchId===103) el.classList.add('bg-yellow-500'); else el.classList.add('bg-emerald-500');
-        el.querySelector('span').classList.add('text-black');
+        const matchCard = el.closest('.match-card');
+        matchCard.querySelectorAll('.team-slot').forEach(slot => slot.classList.remove('selected'));
+        el.classList.add('selected');
 
         BracketApp.state.knockout[matchId] = team;
         BracketApp.savePicks();
 
-        const m = BracketApp.schedule[matchId];
-        if(matchId === 101 || matchId === 102) { BracketApp.renderTree(); }
-        else if(m.next) {
-            const nextNode = document.querySelector(`.match-node[data-id="${m.next}"]`);
-            if(nextNode) {
-                const slot = nextNode.querySelectorAll('.team-slot')[m.slot];
-                if(slot) {
-                    slot.dataset.team = team;
-                    slot.querySelector('span').innerText = team;
-                    slot.querySelector('.flag-box').innerHTML = BracketApp.getFlag(team);
-                    nextNode.querySelectorAll('.team-slot').forEach(s => { s.classList.remove('bg-emerald-500','text-black'); s.querySelector('span').classList.remove('text-black'); });
+        const match = BracketApp.schedule[matchId];
+
+        if (matchId === 101 || matchId === 102) {
+            BracketApp.renderTree();
+        } else if (match.next) {
+            const nextCard = document.querySelector(`.match-card[data-id="${match.next}"]`);
+            if (nextCard) {
+                const targetSlot = nextCard.querySelectorAll('.team-slot')[match.slot];
+                if (targetSlot) {
+                    targetSlot.dataset.team = team;
+                    targetSlot.querySelector('.team-name').textContent = team;
+                    targetSlot.querySelector('.team-flag').innerHTML = BracketApp.getFlag(team);
                 }
             }
-        } else if(matchId === 104) { BracketApp.declareWinner(team, BracketApp.getFlag(team)); }
-        
-        BracketApp.updateTracers();
+        } else if (matchId === 104) {
+            BracketApp.declareWinner(team);
+        }
+
+        BracketApp.updateSelections();
     },
 
-    updateTracers: () => {
-        const pairs = document.querySelectorAll('.match-pair');
-        pairs.forEach(pair => {
-            const [id1, id2] = pair.dataset.pairId.split('-');
-            const fork = pair.querySelector('.line-fork');
-            const stem = pair.querySelector('.line-stem');
-            
-            if(BracketApp.state.knockout[id1]) fork.classList.add('active-top'); else fork.classList.remove('active-top');
-            if(BracketApp.state.knockout[id2]) fork.classList.add('active-bottom'); else fork.classList.remove('active-bottom');
-            if(BracketApp.state.knockout[id1] || BracketApp.state.knockout[id2]) { fork.classList.add('active-stem'); stem.classList.add('active'); } 
-            else { fork.classList.remove('active-stem'); stem.classList.remove('active'); }
-        });
-        
-        Object.keys(BracketApp.state.knockout).forEach(mid => {
-            const winner = BracketApp.state.knockout[mid];
-            const node = document.querySelector(`.match-node[data-id="${mid}"]`);
-            if(node) {
-                const slot = node.querySelector(`.team-slot[data-team="${winner}"]`);
-                if(slot) {
-                    slot.classList.add(mid==='103'?'bg-yellow-500':'bg-emerald-500');
-                    slot.querySelector('span').classList.add('text-black');
-                }
+    updateSelections: () => {
+        Object.keys(BracketApp.state.knockout).forEach(matchId => {
+            const winner = BracketApp.state.knockout[matchId];
+            const matchCard = document.querySelector(`.match-card[data-id="${matchId}"]`);
+            if (matchCard) {
+                const slot = matchCard.querySelector(`.team-slot[data-team="${winner}"]`);
+                if (slot) slot.classList.add('selected');
             }
         });
     },
 
-    declareWinner: (n,f) => { document.getElementById('winner-section').classList.remove('hidden'); document.getElementById('champion-display').innerHTML=`${f} <span>${n}</span>`; document.getElementById('winner-section').scrollIntoView({behavior:'smooth'}); },
+    declareWinner: (team) => {
+        BracketApp.state.champion = team;
+        const winnerSection = document.getElementById('winner-section');
+        const championDisplay = document.getElementById('champion-display');
+        
+        championDisplay.innerHTML = `
+            <span style="font-size: 4rem;">${BracketApp.getFlag(team)}</span>
+            <span>${team}</span>
+        `;
+        
+        winnerSection.classList.remove('hidden');
+        winnerSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    },
+
     generateNanoBadge: () => {
-        const btn = document.querySelector('#winner-section button'); const img = document.getElementById('generated-badge'); const winner = BracketApp.state.champion; 
-        btn.innerHTML = `<i data-lucide="loader-2" class="animate-spin"></i> Designing Badge...`; btn.disabled = true;
-        setTimeout(() => { img.src = `https://placehold.co/400x400/000/34D399?text=${BracketApp.state.knockout[104]}+Champion`; img.classList.remove('hidden'); btn.innerHTML = `<i data-lucide="check"></i> Badge Created`; btn.classList.add('bg-gray-700', 'cursor-default'); }, 1500);
+        const btn = event.target;
+        const container = document.getElementById('ai-badge-container');
+        const img = document.getElementById('generated-badge');
+        const champion = BracketApp.state.knockout[104];
+
+        btn.innerHTML = '⏳ Designing Badge...';
+        btn.disabled = true;
+
+        setTimeout(() => {
+            img.src = `https://placehold.co/400x400/10B981/000000?text=${encodeURIComponent(champion)}+Champion&font=oswald`;
+            container.style.display = 'block';
+            btn.innerHTML = '✓ Badge Created';
+            btn.classList.add('btn-secondary');
+            btn.style.cursor = 'default';
+        }, 1500);
     },
-    savePicks: () => { localStorage.setItem('fifa_bracket_data', JSON.stringify(BracketApp.state)); const btn = document.getElementById('save-btn'); if(btn) { const og=btn.innerText; btn.innerText="Saved!"; btn.classList.add('text-emerald-400'); setTimeout(()=>{btn.innerText=og;btn.classList.remove('text-emerald-400');},2000); } },
-    shareBracket: () => { 
+
+    savePicks: () => {
+        localStorage.setItem('fifa_bracket_data', JSON.stringify(BracketApp.state));
+        localStorage.setItem('fifa_bracket_uid', BracketApp.uid);
+    },
+
+    shareBracket: () => {
         document.getElementById('share-modal')?.classList.remove('hidden');
     },
-    downloadImage: () => { html2canvas(document.getElementById('bracket-capture-area')).then(c => { const l = document.createElement('a'); l.download = `fifa-bracket-${BracketApp.uid}.png`; l.href = c.toDataURL(); l.click(); }); }
+
+    downloadImage: () => {
+        if (typeof html2canvas !== 'undefined') {
+            html2canvas(document.getElementById('bracket-tree')).then(canvas => {
+                const link = document.createElement('a');
+                link.download = `fifa-bracket-${BracketApp.uid}.png`;
+                link.href = canvas.toDataURL();
+                link.click();
+            });
+        } else {
+            alert('Screenshot feature requires html2canvas library. Add it to your page.');
+        }
+    }
 };
-if (typeof window !== 'undefined') window.BracketApp = BracketApp;
+
+// Auto-initialize when DOM is ready
+if (typeof window !== 'undefined') {
+    window.BracketApp = BracketApp;
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', BracketApp.init);
+    } else {
+        BracketApp.init();
+    }
+}
