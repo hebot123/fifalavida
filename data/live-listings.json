@@ -2,6 +2,54 @@
   "total": 1969,
   "listings": [
     {
+      "uniqueCode": "reg-dr01",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 0 CRO **PENALTY: Messi 34'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg",
+      "lowestPrice": 6000,
+      "latestCreatedAt": "2026-01-29T14:44:18.112Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop",
+        "title": "Regenesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "ct2-m9",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M9 Philadelphia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e1e63c8-00c9-42e8-b742-a8a25d4fe515.png",
+      "lowestPrice": 68000,
+      "latestCreatedAt": "2026-01-29T14:40:15.268Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "ct2-m9",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/808de2ff-cf65-4ee5-9b77-9421f1985000.jpeg",
+      "pack": {
+        "slug": "ct2-m9",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M9",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0cccb916-eaeb-4ca0-8f60-1ee9b339b75d.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e1e63c8-00c9-42e8-b742-a8a25d4fe515.png"
+      }
+    },
+    {
       "uniqueCode": "cat2-m98",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M98 Los Angeles",
@@ -748,30 +796,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ba5b1551-9e55-46b4-bee8-b6f6caaa4efc.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ff30be55-bd21-497e-b66b-6ccd60144917.png"
-      }
-    },
-    {
-      "uniqueCode": "D01-06",
-      "type": "highlight",
-      "title": "Netherlands",
-      "subtitle": "2014 FIFA World Cup Brazil™  \nESP 1 - 5 NED, **Goal: Robin van Persie 44'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4fd93025-cfaa-4335-a599-a30fc8eb49ca.png",
-      "lowestPrice": 777,
-      "latestCreatedAt": "2026-01-28T22:06:57.170Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 22,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4fd93025-cfaa-4335-a599-a30fc8eb49ca.png"
       }
     },
     {
@@ -2092,30 +2116,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M103",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1ff992c-7838-4b9f-994c-1d4a806e299e.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png"
-      }
-    },
-    {
-      "uniqueCode": "reg-dr01",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 0 CRO **PENALTY: Messi 34'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg",
-      "lowestPrice": 6000,
-      "latestCreatedAt": "2026-01-27T18:48:29.283Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "regenesis-drop",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "regenesis-drop",
-        "title": "Regenesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg"
       }
     },
     {
@@ -11873,6 +11873,30 @@
       }
     },
     {
+      "uniqueCode": "D01-06",
+      "type": "highlight",
+      "title": "Netherlands",
+      "subtitle": "2014 FIFA World Cup Brazil™  \nESP 1 - 5 NED, **Goal: Robin van Persie 44'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4fd93025-cfaa-4335-a599-a30fc8eb49ca.png",
+      "lowestPrice": 777,
+      "latestCreatedAt": "2026-01-11T04:20:27.618Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 22,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4fd93025-cfaa-4335-a599-a30fc8eb49ca.png"
+      }
+    },
+    {
       "uniqueCode": "sp-a1-62",
       "type": "highlight",
       "title": "Brazil",
@@ -14030,30 +14054,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M58",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4c8c2c82-7ae6-4b2a-8899-d7ec5e6c1946.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/08bd6154-22b9-418a-aa08-ccdfe96724c6.png"
-      }
-    },
-    {
-      "uniqueCode": "ct2-m9",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M9 Philadelphia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e1e63c8-00c9-42e8-b742-a8a25d4fe515.png",
-      "lowestPrice": 72000,
-      "latestCreatedAt": "2026-01-04T13:19:51.029Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "ct2-m9",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/808de2ff-cf65-4ee5-9b77-9421f1985000.jpeg",
-      "pack": {
-        "slug": "ct2-m9",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M9",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0cccb916-eaeb-4ca0-8f60-1ee9b339b75d.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e1e63c8-00c9-42e8-b742-a8a25d4fe515.png"
       }
     },
     {
