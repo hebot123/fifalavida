@@ -2,6 +2,78 @@
   "total": 1968,
   "listings": [
     {
+      "uniqueCode": "SL_AC15",
+      "type": "highlight",
+      "title": "Carlos Netto",
+      "subtitle": "San Lorenzo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29395bfa-2932-4b24-830b-c225c5c3e69b.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-01-29T19:21:29.251Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sanlorenzo-30aniversario1995campeon-sp",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6929062d-0ece-48fd-a2af-3161e7d4b839.png",
+      "pack": {
+        "slug": "sanlorenzo-30aniversario1995campeon-sp",
+        "title": "San Lorenzo - 30 Anivesario Campeón 1995",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29395bfa-2932-4b24-830b-c225c5c3e69b.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m28",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M28 Guadalajara",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0de2fe60-b2cf-4ab0-9343-f221a57faa9b.png",
+      "lowestPrice": 294900,
+      "latestCreatedAt": "2026-01-29T18:44:49.738Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m28",
+      "lowestEdition": 105,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/79a69f13-8ee9-4c8e-9b0f-15f6d66d6bec.jpeg",
+      "pack": {
+        "slug": "cat1-m28",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M28",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a7fe51b9-0a00-4f90-bc31-6b48c22c1956.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0de2fe60-b2cf-4ab0-9343-f221a57faa9b.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m79",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M79 Mexico City",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c91862f9-6034-4889-a267-f095a8585d1e.png",
+      "lowestPrice": 167800,
+      "latestCreatedAt": "2026-01-29T18:43:37.441Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m79",
+      "lowestEdition": 45,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a7b75355-91da-44af-9c2e-a3f8721447db.jpeg",
+      "pack": {
+        "slug": "cat1-m79",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M79",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d63fe59a-1bae-4287-8a30-e0ea6c74d865.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c91862f9-6034-4889-a267-f095a8585d1e.png"
+      }
+    },
+    {
       "uniqueCode": "cat2-m89",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M89 Philadelphia",
@@ -2887,30 +2959,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m92",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M92 Mexico City",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/22825327-653b-4b6b-b75d-def04c643c2f.png",
-      "lowestPrice": 199900,
-      "latestCreatedAt": "2026-01-27T18:28:02.262Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m92",
-      "lowestEdition": 86,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e1cf8bb-9536-4d9a-b442-81a60a24f90e.jpeg",
-      "pack": {
-        "slug": "cat1-m92",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M92",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/28e98add-50c5-4379-a1d0-d5fbdf682c25.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/22825327-653b-4b6b-b75d-def04c643c2f.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m64",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M64 Vancouver",
@@ -3628,6 +3676,30 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M24",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b2b91159-b13e-4952-8382-fdc161fae535.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7c71fcac-f564-42d3-a943-4c135fa8e15e.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m92",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M92 Mexico City",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/22825327-653b-4b6b-b75d-def04c643c2f.png",
+      "lowestPrice": 219700,
+      "latestCreatedAt": "2026-01-26T23:19:49.390Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m92",
+      "lowestEdition": 86,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e1cf8bb-9536-4d9a-b442-81a60a24f90e.jpeg",
+      "pack": {
+        "slug": "cat1-m92",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M92",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/28e98add-50c5-4379-a1d0-d5fbdf682c25.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/22825327-653b-4b6b-b75d-def04c643c2f.png"
       }
     },
     {
@@ -4516,30 +4588,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M93",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a7646c88-daeb-47e1-9876-d6e41835947c.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/45a5d29c-454e-41d9-a4b8-81f353721f60.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m79",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M79 Mexico City",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c91862f9-6034-4889-a267-f095a8585d1e.png",
-      "lowestPrice": 167800,
-      "latestCreatedAt": "2026-01-25T15:56:44.968Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m79",
-      "lowestEdition": 45,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a7b75355-91da-44af-9c2e-a3f8721447db.jpeg",
-      "pack": {
-        "slug": "cat1-m79",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M79",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d63fe59a-1bae-4287-8a30-e0ea6c74d865.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c91862f9-6034-4889-a267-f095a8585d1e.png"
       }
     },
     {
@@ -8887,30 +8935,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m28",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M28 Guadalajara",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0de2fe60-b2cf-4ab0-9343-f221a57faa9b.png",
-      "lowestPrice": 289900,
-      "latestCreatedAt": "2026-01-20T05:46:57.655Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m28",
-      "lowestEdition": 105,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/79a69f13-8ee9-4c8e-9b0f-15f6d66d6bec.jpeg",
-      "pack": {
-        "slug": "cat1-m28",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M28",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a7fe51b9-0a00-4f90-bc31-6b48c22c1956.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0de2fe60-b2cf-4ab0-9343-f221a57faa9b.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m86",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M86 Miami",
@@ -13238,30 +13262,6 @@
         "title": "San Lorenzo - 30 Anivesario Campeón 1995",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5629ae50-a801-4250-952f-b8fc3477197f.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "SL_AC15",
-      "type": "highlight",
-      "title": "Carlos Netto",
-      "subtitle": "San Lorenzo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29395bfa-2932-4b24-830b-c225c5c3e69b.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-01-08T18:53:11.960Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sanlorenzo-30aniversario1995campeon-sp",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6929062d-0ece-48fd-a2af-3161e7d4b839.png",
-      "pack": {
-        "slug": "sanlorenzo-30aniversario1995campeon-sp",
-        "title": "San Lorenzo - 30 Anivesario Campeón 1995",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/29395bfa-2932-4b24-830b-c225c5c3e69b.jpeg"
       }
     },
     {
