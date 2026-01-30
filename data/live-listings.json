@@ -2,6 +2,30 @@
   "total": 1968,
   "listings": [
     {
+      "uniqueCode": "MC-01",
+      "type": "highlight",
+      "title": "VIP Membership Card",
+      "subtitle": "FIFA Collect Club",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png",
+      "lowestPrice": 477700,
+      "latestCreatedAt": "2026-01-30T17:03:41.614Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "membership-cards",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/61134ba9-44cf-4a49-afdc-5e497df8e5af.png",
+      "pack": {
+        "slug": "membership-cards",
+        "title": "FIFA+ Collect Club VIP Membership",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/71a7f925-2a1a-466e-ae60-aeda49d99809.jpeg",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png"
+      }
+    },
+    {
       "uniqueCode": "reg-rwic",
       "type": "highlight",
       "title": "Argentina",
@@ -2210,30 +2234,6 @@
       }
     },
     {
-      "uniqueCode": "MC-01",
-      "type": "highlight",
-      "title": "VIP Membership Card",
-      "subtitle": "FIFA Collect Club",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png",
-      "lowestPrice": 499900,
-      "latestCreatedAt": "2026-01-29T16:04:35.034Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "membership-cards",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/61134ba9-44cf-4a49-afdc-5e497df8e5af.png",
-      "pack": {
-        "slug": "membership-cards",
-        "title": "FIFA+ Collect Club VIP Membership",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/71a7f925-2a1a-466e-ae60-aeda49d99809.jpeg",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png"
-      }
-    },
-    {
       "uniqueCode": "D01-02",
       "type": "highlight",
       "title": "Brazil",
@@ -2695,7 +2695,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M84 Los Angeles",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/72eae004-9333-4d6a-8c98-fdf3175c988f.png",
-      "lowestPrice": 75000,
+      "lowestPrice": 85000,
       "latestCreatedAt": "2026-01-29T03:13:27.476Z",
       "rarity": {
         "code": "40",
@@ -3180,7 +3180,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M76 Houston",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png",
-      "lowestPrice": 68900,
+      "lowestPrice": 70000,
       "latestCreatedAt": "2026-01-28T18:39:50.563Z",
       "rarity": {
         "code": "40",
@@ -7500,7 +7500,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M49 Miami",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66afd220-5cde-4df5-acaa-d3f00194f812.png",
-      "lowestPrice": 123500,
+      "lowestPrice": 147500,
       "latestCreatedAt": "2026-01-24T00:41:11.572Z",
       "rarity": {
         "code": "40",
