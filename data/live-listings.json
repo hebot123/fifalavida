@@ -2,6 +2,78 @@
   "total": 1968,
   "listings": [
     {
+      "uniqueCode": "cat1-m56",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M56 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png",
+      "lowestPrice": 120000,
+      "latestCreatedAt": "2026-01-30T14:28:15.009Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m56",
+      "lowestEdition": 51,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c2511ab3-12dc-4ea1-ba17-70ef33d38ea1.jpeg",
+      "pack": {
+        "slug": "cat1-m56",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M56",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/510dab06-e2d9-4505-9fa6-abbf63565a81.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m70",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M70 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c43279c8-2598-4a4a-a64d-ca97b22e382c.png",
+      "lowestPrice": 82000,
+      "latestCreatedAt": "2026-01-30T14:17:31.801Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m70",
+      "lowestEdition": 200,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f92872e4-22ea-4038-b723-cad66d09247c.jpeg",
+      "pack": {
+        "slug": "cat2-m70",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M70",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/20ad4311-baee-4fb7-9057-ba4967bb71c1.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c43279c8-2598-4a4a-a64d-ca97b22e382c.png"
+      }
+    },
+    {
+      "uniqueCode": "gk-rwpic",
+      "type": "highlight",
+      "title": "Mexico",
+      "subtitle": "FIFA World Cup Qatar 2022™ MEX 0-0 POL **SAVE: Ochoa 58'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcbf9e36-56a7-45ac-82e2-b840c332962c.jpeg",
+      "lowestPrice": 19500,
+      "latestCreatedAt": "2026-01-30T13:54:57.769Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "goalkeepers-airdrop-rwd",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "goalkeepers-airdrop-rwd",
+        "title": "FIFA Collect 11: Goalkeepers Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9b9256f3-be87-440f-9a1f-e429e294bf14.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcbf9e36-56a7-45ac-82e2-b840c332962c.jpeg"
+      }
+    },
+    {
       "uniqueCode": "P_AP48",
       "type": "highlight",
       "title": "Illian Hernández",
@@ -1391,30 +1463,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M15",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0521b243-5fdd-480f-8427-ff43a1dc8113.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c151f165-75ea-453c-b364-4f453ed2c935.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m70",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M70 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c43279c8-2598-4a4a-a64d-ca97b22e382c.png",
-      "lowestPrice": 82000,
-      "latestCreatedAt": "2026-01-29T17:48:10.865Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m70",
-      "lowestEdition": 200,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f92872e4-22ea-4038-b723-cad66d09247c.jpeg",
-      "pack": {
-        "slug": "cat2-m70",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M70",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/20ad4311-baee-4fb7-9057-ba4967bb71c1.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c43279c8-2598-4a4a-a64d-ca97b22e382c.png"
       }
     },
     {
@@ -4684,30 +4732,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M57",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ed0f6adf-886b-4b9c-97e1-0ff8f2ca7fbb.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/28c4ed64-03ac-4603-ba2e-dabc93333675.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m56",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M56 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png",
-      "lowestPrice": 125000,
-      "latestCreatedAt": "2026-01-26T15:02:04.372Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m56",
-      "lowestEdition": 53,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c2511ab3-12dc-4ea1-ba17-70ef33d38ea1.jpeg",
-      "pack": {
-        "slug": "cat1-m56",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M56",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/510dab06-e2d9-4505-9fa6-abbf63565a81.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png"
       }
     },
     {
@@ -17434,30 +17458,6 @@
         "title": "San Lorenzo - 30 Anivesario Campeón 1995",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/30f25643-d1e4-4e57-a762-b881978009c9.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "gk-rwpic",
-      "type": "highlight",
-      "title": "Mexico",
-      "subtitle": "FIFA World Cup Qatar 2022™ MEX 0-0 POL **SAVE: Ochoa 58'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcbf9e36-56a7-45ac-82e2-b840c332962c.jpeg",
-      "lowestPrice": 19500,
-      "latestCreatedAt": "2025-12-28T22:18:53.072Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "goalkeepers-airdrop-rwd",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "goalkeepers-airdrop-rwd",
-        "title": "FIFA Collect 11: Goalkeepers Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9b9256f3-be87-440f-9a1f-e429e294bf14.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcbf9e36-56a7-45ac-82e2-b840c332962c.jpeg"
       }
     },
     {
