@@ -2,6 +2,78 @@
   "total": 1968,
   "listings": [
     {
+      "uniqueCode": "cat2-m89",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M89 Philadelphia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/68ae180e-a7e3-4076-a4bd-7580f2b0665d.png",
+      "lowestPrice": 135000,
+      "latestCreatedAt": "2026-01-30T19:25:47.270Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m89",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/36f11205-4988-4809-80e9-46fcdd0f3d7b.jpeg",
+      "pack": {
+        "slug": "cat2-m89",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M89",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dead3054-22cf-48ba-8150-ce2c2b2f7ac9.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/68ae180e-a7e3-4076-a4bd-7580f2b0665d.png"
+      }
+    },
+    {
+      "uniqueCode": "RF_AH01",
+      "type": "highlight",
+      "title": "Tricolor OF1 - 2023",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f29596d6-c4ca-44fc-add9-3e3f69eb7bfc.png",
+      "lowestPrice": 9500,
+      "latestCreatedAt": "2026-01-30T18:58:00.181Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduras-historicas-sp-level2",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/956cb9c9-3ef5-4dbd-9678-95d237c00b65.png",
+      "pack": {
+        "slug": "fluminense-armaduras-historicas-sp-level2",
+        "title": "Fluminense FC - Armaduras Históricas Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/072d5373-ddab-483e-8c25-dce425ca66de.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f29596d6-c4ca-44fc-add9-3e3f69eb7bfc.png"
+      }
+    },
+    {
+      "uniqueCode": "spgb2-38",
+      "type": "highlight",
+      "title": "Japan",
+      "subtitle": "FIFA Women’s World Cup Australia & New Zealand 2023™ JPN  4-0 ESP **GOAL: Miyazawa 12'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ceed1bbd-e536-4b01-8c90-941d253ce14a.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-01-30T18:40:15.402Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sp-golden-boot-2",
+      "lowestEdition": 44,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sp-golden-boot-2",
+        "title": "Surprise Premium: Golden Boot Part 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e33ce9dd-2702-40d3-93b3-0c8ad88d5b6b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ceed1bbd-e536-4b01-8c90-941d253ce14a.jpeg"
+      }
+    },
+    {
       "uniqueCode": "RF_TG01",
       "type": "highlight",
       "title": "Thiago Silva",
@@ -938,30 +1010,6 @@
       }
     },
     {
-      "uniqueCode": "RF_AH01",
-      "type": "highlight",
-      "title": "Tricolor OF1 - 2023",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f29596d6-c4ca-44fc-add9-3e3f69eb7bfc.png",
-      "lowestPrice": 9500,
-      "latestCreatedAt": "2026-01-30T11:56:07.767Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduras-historicas-sp-level2",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/956cb9c9-3ef5-4dbd-9678-95d237c00b65.png",
-      "pack": {
-        "slug": "fluminense-armaduras-historicas-sp-level2",
-        "title": "Fluminense FC - Armaduras Históricas Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/072d5373-ddab-483e-8c25-dce425ca66de.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f29596d6-c4ca-44fc-add9-3e3f69eb7bfc.png"
-      }
-    },
-    {
       "uniqueCode": "RB_MH02",
       "type": "highlight",
       "title": "Botafogo x São Paulo",
@@ -1295,30 +1343,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M31",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/94f4ff1e-015b-48b3-a45f-fd5bcfdf06ce.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9e7d55ba-f975-4996-b4fe-a2d6473bf8b7.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m89",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M89 Philadelphia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/68ae180e-a7e3-4076-a4bd-7580f2b0665d.png",
-      "lowestPrice": 135000,
-      "latestCreatedAt": "2026-01-30T01:23:10.912Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m89",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/36f11205-4988-4809-80e9-46fcdd0f3d7b.jpeg",
-      "pack": {
-        "slug": "cat2-m89",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M89",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dead3054-22cf-48ba-8150-ce2c2b2f7ac9.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/68ae180e-a7e3-4076-a4bd-7580f2b0665d.png"
       }
     },
     {
@@ -31732,30 +31756,6 @@
         "title": "Curator Collection - South American Flair",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1aad4f9d-d2c0-47a7-80e8-812f4adc3414.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "spgb2-38",
-      "type": "highlight",
-      "title": "Japan",
-      "subtitle": "FIFA Women’s World Cup Australia & New Zealand 2023™ JPN  4-0 ESP **GOAL: Miyazawa 12'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ceed1bbd-e536-4b01-8c90-941d253ce14a.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-11-20T17:57:29.639Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sp-golden-boot-2",
-      "lowestEdition": 44,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sp-golden-boot-2",
-        "title": "Surprise Premium: Golden Boot Part 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e33ce9dd-2702-40d3-93b3-0c8ad88d5b6b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ceed1bbd-e536-4b01-8c90-941d253ce14a.jpeg"
       }
     },
     {
