@@ -2,6 +2,30 @@
   "total": 1968,
   "listings": [
     {
+      "uniqueCode": "cat2-m55",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M55 Philadelphia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d4a574b5-070d-41b1-87b9-266520302aad.png",
+      "lowestPrice": 24900,
+      "latestCreatedAt": "2026-01-30T06:17:46.012Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m55",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b2543c8c-7019-4ddc-b716-ad9c2ba81654.jpeg",
+      "pack": {
+        "slug": "cat2-m55",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M55",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/db9dba62-0720-482b-913a-306fec977e53.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d4a574b5-070d-41b1-87b9-266520302aad.png"
+      }
+    },
+    {
       "uniqueCode": "cat1-m54",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M54 Monterrey",
@@ -2647,30 +2671,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m55",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M55 Philadelphia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d4a574b5-070d-41b1-87b9-266520302aad.png",
-      "lowestPrice": 24900,
-      "latestCreatedAt": "2026-01-28T14:09:14.504Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m55",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b2543c8c-7019-4ddc-b716-ad9c2ba81654.jpeg",
-      "pack": {
-        "slug": "cat2-m55",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M55",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/db9dba62-0720-482b-913a-306fec977e53.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d4a574b5-070d-41b1-87b9-266520302aad.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m12",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M12 Monterrey",
@@ -4317,7 +4317,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "cat1-m14",
-      "lowestEdition": 17,
+      "lowestEdition": 19,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ade140f1-eb6c-4d77-a5c2-6ad087ffa8aa.jpeg",
       "pack": {
         "slug": "cat1-m14",
