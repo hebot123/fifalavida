@@ -2,6 +2,78 @@
   "total": 1968,
   "listings": [
     {
+      "uniqueCode": "cat2-m87",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M87 Kansas City",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1825c71c-5caa-4d3f-a51f-8dc4af07634b.png",
+      "lowestPrice": 79900,
+      "latestCreatedAt": "2026-01-31T09:23:04.271Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m87",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca867b60-f123-4ad0-8c16-bbd41298597c.jpeg",
+      "pack": {
+        "slug": "cat2-m87",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M87",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bb9f102c-e82a-4033-b1e4-da80126288e6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1825c71c-5caa-4d3f-a51f-8dc4af07634b.png"
+      }
+    },
+    {
+      "uniqueCode": "FFT_01",
+      "type": "highlight",
+      "title": "Final Conmebol Libertadores",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/df23d355-5024-451c-b83d-ca977e2c572e.png",
+      "lowestPrice": 6500,
+      "latestCreatedAt": "2026-01-31T09:11:23.972Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fan-tricolor",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b5aa627c-a924-4cce-975f-6612f1e64653.jpeg",
+      "pack": {
+        "slug": "fan-tricolor",
+        "title": "Fluminense FC - Fan Tricolor",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/591cb67d-a723-473d-a56b-30efa94300d7.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/df23d355-5024-451c-b83d-ca977e2c572e.png"
+      }
+    },
+    {
+      "uniqueCode": "ps-rw-01",
+      "type": "highlight",
+      "title": "Dino Zoff - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc84b68c-9876-4066-98b6-c672b0497bc3.png",
+      "lowestPrice": 9000,
+      "latestCreatedAt": "2026-01-31T09:10:33.291Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982-reward",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/494da03c-2220-4636-ac5e-cee6edc92bd7.png",
+      "pack": {
+        "slug": "panini-1982-reward",
+        "title": "Surprise - Panini España 1982 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b7450cc9-db14-4ffb-b6b5-f304fadc134d.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc84b68c-9876-4066-98b6-c672b0497bc3.png"
+      }
+    },
+    {
       "uniqueCode": "sp-bc-30",
       "type": "highlight",
       "title": "BRAZIL",
@@ -986,30 +1058,6 @@
       }
     },
     {
-      "uniqueCode": "ps-rw-01",
-      "type": "highlight",
-      "title": "Dino Zoff - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc84b68c-9876-4066-98b6-c672b0497bc3.png",
-      "lowestPrice": 9000,
-      "latestCreatedAt": "2026-01-30T16:14:06.860Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982-reward",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/494da03c-2220-4636-ac5e-cee6edc92bd7.png",
-      "pack": {
-        "slug": "panini-1982-reward",
-        "title": "Surprise - Panini España 1982 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b7450cc9-db14-4ffb-b6b5-f304fadc134d.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc84b68c-9876-4066-98b6-c672b0497bc3.png"
-      }
-    },
-    {
       "uniqueCode": "df2-rwic",
       "type": "highlight",
       "title": "France",
@@ -1151,30 +1199,6 @@
         "title": "Surprise Premium - Golden Boot Reward Pack",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/50404d54-30c0-44c6-bf5f-5fc28c3bed86.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7c1bc820-1c0e-4d58-9b14-9811d5e874be.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "FFT_01",
-      "type": "highlight",
-      "title": "Final Conmebol Libertadores",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/df23d355-5024-451c-b83d-ca977e2c572e.png",
-      "lowestPrice": 6500,
-      "latestCreatedAt": "2026-01-30T15:54:33.942Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fan-tricolor",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b5aa627c-a924-4cce-975f-6612f1e64653.jpeg",
-      "pack": {
-        "slug": "fan-tricolor",
-        "title": "Fluminense FC - Fan Tricolor",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/591cb67d-a723-473d-a56b-30efa94300d7.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/df23d355-5024-451c-b83d-ca977e2c572e.png"
       }
     },
     {
@@ -1943,30 +1967,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M103",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1ff992c-7838-4b9f-994c-1d4a806e299e.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m87",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M87 Kansas City",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1825c71c-5caa-4d3f-a51f-8dc4af07634b.png",
-      "lowestPrice": 79800,
-      "latestCreatedAt": "2026-01-30T04:21:13.387Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m87",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca867b60-f123-4ad0-8c16-bbd41298597c.jpeg",
-      "pack": {
-        "slug": "cat2-m87",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M87",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bb9f102c-e82a-4033-b1e4-da80126288e6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1825c71c-5caa-4d3f-a51f-8dc4af07634b.png"
       }
     },
     {
