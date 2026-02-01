@@ -2,6 +2,78 @@
   "total": 1968,
   "listings": [
     {
+      "uniqueCode": "cat2-m30",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M30 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png",
+      "lowestPrice": 58900,
+      "latestCreatedAt": "2026-02-01T19:06:30.213Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m30",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8144f9dc-27f6-4e8b-b9c6-9f5d1e0aee7b.jpeg",
+      "pack": {
+        "slug": "cat2-m30",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M30",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f99edbc8-a546-478c-8de6-8128d67e524f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m5",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M5 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png",
+      "lowestPrice": 48900,
+      "latestCreatedAt": "2026-02-01T19:05:34.280Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m5",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/62b5e5a4-e0e1-4d40-a92b-1c3883b1865e.jpeg",
+      "pack": {
+        "slug": "cat2-m5",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M5",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/590991d3-7f00-4440-82dd-f5123c902d5c.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png"
+      }
+    },
+    {
+      "uniqueCode": "reg-dr21",
+      "type": "highlight",
+      "title": "Germany",
+      "subtitle": "2018 FIFA World Cup Russia™ KOR 2 - 0 GER **TACKLE: Sule 86'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fdb4bbbe-7311-4eef-8b37-1fb5f92e0472.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-02-01T18:59:41.543Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop",
+      "lowestEdition": 4,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop",
+        "title": "Regenesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fdb4bbbe-7311-4eef-8b37-1fb5f92e0472.jpeg"
+      }
+    },
+    {
       "uniqueCode": "RO_IO01",
       "type": "highlight",
       "title": "Santi Cazorla",
@@ -311,30 +383,6 @@
         "title": "Surprise Premium - Revelations",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f3dd4464-bf7a-4925-b809-7800a2307884.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m5",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M5 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png",
-      "lowestPrice": 48900,
-      "latestCreatedAt": "2026-02-01T14:41:10.547Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m5",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/62b5e5a4-e0e1-4d40-a92b-1c3883b1865e.jpeg",
-      "pack": {
-        "slug": "cat2-m5",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M5",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/590991d3-7f00-4440-82dd-f5123c902d5c.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png"
       }
     },
     {
@@ -8767,30 +8815,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m30",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M30 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png",
-      "lowestPrice": 59900,
-      "latestCreatedAt": "2026-01-22T20:00:30.763Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m30",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8144f9dc-27f6-4e8b-b9c6-9f5d1e0aee7b.jpeg",
-      "pack": {
-        "slug": "cat2-m30",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M30",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f99edbc8-a546-478c-8de6-8128d67e524f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m95",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M95 Atlanta",
@@ -10212,7 +10236,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M25 Atlanta",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/54cbca49-4146-4e1d-b53c-f916ea022a5f.png",
-      "lowestPrice": 37500,
+      "lowestPrice": 40000,
       "latestCreatedAt": "2026-01-20T04:51:37.332Z",
       "rarity": {
         "code": "40",
@@ -15509,30 +15533,6 @@
         "id": "d951d245-0030-4bcf-b2c9-2a4192ddfd35",
         "title": "Trophy Reveal FIFA Club World Cup 2025™",
         "subtitle": null
-      }
-    },
-    {
-      "uniqueCode": "reg-dr21",
-      "type": "highlight",
-      "title": "Germany",
-      "subtitle": "2018 FIFA World Cup Russia™ KOR 2 - 0 GER **TACKLE: Sule 86'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fdb4bbbe-7311-4eef-8b37-1fb5f92e0472.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-01-03T21:16:13.232Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "regenesis-drop",
-      "lowestEdition": 4,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "regenesis-drop",
-        "title": "Regenesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fdb4bbbe-7311-4eef-8b37-1fb5f92e0472.jpeg"
       }
     },
     {
