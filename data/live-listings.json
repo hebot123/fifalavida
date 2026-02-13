@@ -2,6 +2,59 @@
   "total": 1965,
   "listings": [
     {
+      "uniqueCode": "S1-P2-61",
+      "type": "poster_reward",
+      "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png",
+      "lowestPrice": 99900,
+      "latestCreatedAt": "2026-02-13T11:14:55.918Z",
+      "rarity": {
+        "code": "90",
+        "color": "#FE5211",
+        "name": "Tournament Reward"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "poster-reward-tournament-fwwc23",
+      "lowestEdition": 13,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/67e21bb4-9f98-4170-9e07-0ee158e9e89f.png",
+      "pack": {
+        "slug": "poster-reward-tournament-fwwc23",
+        "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0fc2eb13-a8ca-467a-93b9-523492f7ad15.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png"
+      },
+      "poster": {
+        "id": "c0ddee9f-dbc7-4dad-95c2-58f03eae0c6a",
+        "title": "Tournament Poster",
+        "subtitle": "FIFA Women's World Cup 2023™"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m59",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M59 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/821f1d31-1472-4aef-8a82-58f39d4515d4.png",
+      "lowestPrice": 140000,
+      "latestCreatedAt": "2026-02-13T11:08:06.556Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m59",
+      "lowestEdition": 32,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/30804cb6-228b-4ebf-b317-d7f6ba1ac8dd.jpeg",
+      "pack": {
+        "slug": "cat1-m59",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M59",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3cfd7c01-046c-44e3-8f8c-69041f67b39f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/821f1d31-1472-4aef-8a82-58f39d4515d4.png"
+      }
+    },
+    {
       "uniqueCode": "cat1-m9",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M9 Philadelphia",
@@ -1031,30 +1084,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M72",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17a9b088-0fdb-4753-998a-443dacb72fa7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/70203a88-74e1-4d51-8b34-0a6689cfadfe.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m59",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M59 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/821f1d31-1472-4aef-8a82-58f39d4515d4.png",
-      "lowestPrice": 140000,
-      "latestCreatedAt": "2026-02-12T23:31:52.443Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m59",
-      "lowestEdition": 32,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/30804cb6-228b-4ebf-b317-d7f6ba1ac8dd.jpeg",
-      "pack": {
-        "slug": "cat1-m59",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M59",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3cfd7c01-046c-44e3-8f8c-69041f67b39f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/821f1d31-1472-4aef-8a82-58f39d4515d4.png"
       }
     },
     {
@@ -18394,35 +18423,6 @@
         "title": "Surprise Premium - Revelations",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2981288f-fb79-4ded-829e-82c36e3dffa9.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S1-P2-61",
-      "type": "poster_reward",
-      "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png",
-      "lowestPrice": 175000,
-      "latestCreatedAt": "2026-01-15T20:42:56.084Z",
-      "rarity": {
-        "code": "90",
-        "color": "#FE5211",
-        "name": "Tournament Reward"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "poster-reward-tournament-fwwc23",
-      "lowestEdition": 13,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/67e21bb4-9f98-4170-9e07-0ee158e9e89f.png",
-      "pack": {
-        "slug": "poster-reward-tournament-fwwc23",
-        "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0fc2eb13-a8ca-467a-93b9-523492f7ad15.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png"
-      },
-      "poster": {
-        "id": "c0ddee9f-dbc7-4dad-95c2-58f03eae0c6a",
-        "title": "Tournament Poster",
-        "subtitle": "FIFA Women's World Cup 2023™"
       }
     },
     {
