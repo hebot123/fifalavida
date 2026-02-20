@@ -2,6 +2,78 @@
   "total": 1970,
   "listings": [
     {
+      "uniqueCode": "S2D01-04",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 2 - 0 MEX, **GOAL: Lionel Messi 64'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg",
+      "lowestPrice": 10000,
+      "latestCreatedAt": "2026-02-20T11:01:57.381Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2-R1-01",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™  \nARG 3 - 3 FRA, **Trophy Lift: Lionel Messi**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fa57673-3acb-4068-b01f-18d150fa8943.jpeg",
+      "lowestPrice": 160000,
+      "latestCreatedAt": "2026-02-20T11:01:11.770Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "trophy-lifts-iconic-reward",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "trophy-lifts-iconic-reward",
+        "title": "Trophy Lifts - Iconic Reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b187bcd1-5754-40b3-97af-a125eac76e39.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fa57673-3acb-4068-b01f-18d150fa8943.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "cat3-m83",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 3 for M83 Toronto",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png",
+      "lowestPrice": 125000,
+      "latestCreatedAt": "2026-02-20T10:42:44.686Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat3-m83",
+      "lowestEdition": 17,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4e6afd69-b4a9-41de-b288-6c1cc828ff43.jpeg",
+      "pack": {
+        "slug": "cat3-m83",
+        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M83",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1e96b90b-6c71-43ea-b91d-ce35136e1471.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png"
+      }
+    },
+    {
       "uniqueCode": "cat1-m1",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M1 Mexico City",
@@ -1175,30 +1247,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M81",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4e1fd8c9-b197-47e7-a0cc-367c90ef47e5.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dba3f457-52bd-4223-85bb-0548af18086e.png"
-      }
-    },
-    {
-      "uniqueCode": "cat3-m83",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 3 for M83 Toronto",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png",
-      "lowestPrice": 125000,
-      "latestCreatedAt": "2026-02-20T02:41:58.964Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat3-m83",
-      "lowestEdition": 28,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4e6afd69-b4a9-41de-b288-6c1cc828ff43.jpeg",
-      "pack": {
-        "slug": "cat3-m83",
-        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M83",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1e96b90b-6c71-43ea-b91d-ce35136e1471.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png"
       }
     },
     {
@@ -9968,7 +10016,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M82 Seattle",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6a45acc-9164-48a4-b488-fb2ba977ce77.png",
-      "lowestPrice": 60000,
+      "lowestPrice": 61500,
       "latestCreatedAt": "2026-02-13T22:35:40.820Z",
       "rarity": {
         "code": "40",
@@ -18983,30 +19031,6 @@
       }
     },
     {
-      "uniqueCode": "S2-R1-01",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™  \nARG 3 - 3 FRA, **Trophy Lift: Lionel Messi**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fa57673-3acb-4068-b01f-18d150fa8943.jpeg",
-      "lowestPrice": 164000,
-      "latestCreatedAt": "2026-01-29T16:08:21.989Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "trophy-lifts-iconic-reward",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "trophy-lifts-iconic-reward",
-        "title": "Trophy Lifts - Iconic Reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b187bcd1-5754-40b3-97af-a125eac76e39.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fa57673-3acb-4068-b01f-18d150fa8943.jpeg"
-      }
-    },
-    {
       "uniqueCode": "aglf1",
       "type": "highlight",
       "title": "Canada",
@@ -19244,30 +19268,6 @@
         "title": "Fluminense FC - Armadura Tricolor MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cba1e688-318b-491e-bd56-1cf9536b8d4a.png"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-04",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 2 - 0 MEX, **GOAL: Lionel Messi 64'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg",
-      "lowestPrice": 10000,
-      "latestCreatedAt": "2026-01-29T01:33:56.115Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg"
       }
     },
     {
