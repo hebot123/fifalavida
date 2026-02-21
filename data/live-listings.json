@@ -2,27 +2,123 @@
   "total": 1970,
   "listings": [
     {
-      "uniqueCode": "cat2-m96",
+      "uniqueCode": "D01-07",
       "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M96 Vancouver",
+      "title": "Portugal",
+      "subtitle": "2018 FIFA World Cup Russia™  \nPOR 3 - 3 ESP, **Goal: Cristiano Ronaldo 88'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5582f5b8-501a-452d-a034-4a3e670a25b6.png",
+      "lowestPrice": 1399,
+      "latestCreatedAt": "2026-02-21T12:34:33.250Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 7,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5582f5b8-501a-452d-a034-4a3e670a25b6.png"
+      }
+    },
+    {
+      "uniqueCode": "D01-19",
+      "type": "highlight",
+      "title": "Sweden",
+      "subtitle": "FIFA Women's World Cup France 2019™  \nSWE 1 - 0 CAN, **Save: Hedvig Lindahl 69'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c40c9356-5e5e-42fc-beb2-3a99633fd976.png",
+      "lowestPrice": 150,
+      "latestCreatedAt": "2026-02-21T12:00:36.861Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 186,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c40c9356-5e5e-42fc-beb2-3a99633fd976.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m76",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M76 Houston",
       "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a41b0d2d-8170-42fc-9827-a83468b314ca.png",
-      "lowestPrice": 114000,
-      "latestCreatedAt": "2026-02-21T11:17:12.128Z",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e20db252-7783-43ac-9af7-0a8a1d9d1704.png",
+      "lowestPrice": 74900,
+      "latestCreatedAt": "2026-02-21T11:50:53.857Z",
       "rarity": {
         "code": "40",
         "color": "#DDBE5E",
         "name": "Iconic"
       },
       "languageCode": "en-UK",
-      "packSlug": "cat2-m96",
-      "lowestEdition": 6,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/88bde827-4d17-439e-894a-434beff86185.jpeg",
+      "packSlug": "cat2-m76",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1bb83d3a-ad17-4ebc-acd5-088023cfbc68.jpeg",
       "pack": {
-        "slug": "cat2-m96",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M96",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/aa9a4f3c-38e1-400d-b253-4cb0b245b014.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a41b0d2d-8170-42fc-9827-a83468b314ca.png"
+        "slug": "cat2-m76",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M76",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e8ca6af4-88b7-4760-b2de-fcc71a79187d.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e20db252-7783-43ac-9af7-0a8a1d9d1704.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m11",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M11 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png",
+      "lowestPrice": 89900,
+      "latestCreatedAt": "2026-02-21T11:48:08.553Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m11",
+      "lowestEdition": 29,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/852b6c00-7901-4ae1-b36b-9dbbb5c1ed8e.jpeg",
+      "pack": {
+        "slug": "cat1-m11",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M11",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cf7e1736-67e8-4f0f-a549-d1dead9e2cac.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png"
+      }
+    },
+    {
+      "uniqueCode": "cat3-m62",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 3 for M62 Toronto",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6908122d-21bb-43b7-81ef-eabb3b3a2839.png",
+      "lowestPrice": 35000,
+      "latestCreatedAt": "2026-02-21T11:33:06.664Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat3-m62",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ec19d97e-5ac2-49f8-80c4-da86fbcaf7cf.jpeg",
+      "pack": {
+        "slug": "cat3-m62",
+        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M62",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d9fa35ed-8344-4f12-8286-4f217baad359.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6908122d-21bb-43b7-81ef-eabb3b3a2839.png"
       }
     },
     {
@@ -431,30 +527,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M92",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/28e98add-50c5-4379-a1d0-d5fbdf682c25.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/22825327-653b-4b6b-b75d-def04c643c2f.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m11",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M11 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png",
-      "lowestPrice": 92500,
-      "latestCreatedAt": "2026-02-21T04:46:00.638Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m11",
-      "lowestEdition": 29,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/852b6c00-7901-4ae1-b36b-9dbbb5c1ed8e.jpeg",
-      "pack": {
-        "slug": "cat1-m11",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M11",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cf7e1736-67e8-4f0f-a549-d1dead9e2cac.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png"
       }
     },
     {
@@ -2639,30 +2711,6 @@
         "title": "Trophy Lifts - Iconic Reward",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b187bcd1-5754-40b3-97af-a125eac76e39.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fa57673-3acb-4068-b01f-18d150fa8943.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "cat3-m62",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 3 for M62 Toronto",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6908122d-21bb-43b7-81ef-eabb3b3a2839.png",
-      "lowestPrice": 35000,
-      "latestCreatedAt": "2026-02-20T09:35:51.389Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat3-m62",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ec19d97e-5ac2-49f8-80c4-da86fbcaf7cf.jpeg",
-      "pack": {
-        "slug": "cat3-m62",
-        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M62",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d9fa35ed-8344-4f12-8286-4f217baad359.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6908122d-21bb-43b7-81ef-eabb3b3a2839.png"
       }
     },
     {
@@ -5383,30 +5431,6 @@
       }
     },
     {
-      "uniqueCode": "D01-19",
-      "type": "highlight",
-      "title": "Sweden",
-      "subtitle": "FIFA Women's World Cup France 2019™  \nSWE 1 - 0 CAN, **Save: Hedvig Lindahl 69'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c40c9356-5e5e-42fc-beb2-3a99633fd976.png",
-      "lowestPrice": 150,
-      "latestCreatedAt": "2026-02-18T21:01:03.445Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 186,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c40c9356-5e5e-42fc-beb2-3a99633fd976.png"
-      }
-    },
-    {
       "uniqueCode": "D01-09",
       "type": "highlight",
       "title": "France",
@@ -6388,6 +6412,30 @@
         "title": "Fluminense FC - Armadura Tricolor MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1a9a5701-a02d-4220-a769-383cb96c4a95.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m96",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M96 Vancouver",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a41b0d2d-8170-42fc-9827-a83468b314ca.png",
+      "lowestPrice": 114000,
+      "latestCreatedAt": "2026-02-18T17:19:30.229Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m96",
+      "lowestEdition": 6,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/88bde827-4d17-439e-894a-434beff86185.jpeg",
+      "pack": {
+        "slug": "cat2-m96",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M96",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/aa9a4f3c-38e1-400d-b253-4cb0b245b014.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a41b0d2d-8170-42fc-9827-a83468b314ca.png"
       }
     },
     {
@@ -8556,30 +8604,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m76",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M76 Houston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e20db252-7783-43ac-9af7-0a8a1d9d1704.png",
-      "lowestPrice": 77500,
-      "latestCreatedAt": "2026-02-16T18:04:15.593Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m76",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1bb83d3a-ad17-4ebc-acd5-088023cfbc68.jpeg",
-      "pack": {
-        "slug": "cat2-m76",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M76",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e8ca6af4-88b7-4760-b2de-fcc71a79187d.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e20db252-7783-43ac-9af7-0a8a1d9d1704.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m99",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M99 Miami",
@@ -10320,30 +10344,6 @@
         "title": "Surprise Pack - Series 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cca58647-c978-482b-b4d0-8677bd0f5e7b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f1eef2c2-fd0e-4368-8e1f-5b22e0a445ba.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D01-07",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "2018 FIFA World Cup Russia™  \nPOR 3 - 3 ESP, **Goal: Cristiano Ronaldo 88'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5582f5b8-501a-452d-a034-4a3e670a25b6.png",
-      "lowestPrice": 1399,
-      "latestCreatedAt": "2026-02-14T03:27:30.311Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 7,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5582f5b8-501a-452d-a034-4a3e670a25b6.png"
       }
     },
     {
