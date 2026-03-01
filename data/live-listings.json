@@ -2,6 +2,30 @@
   "total": 2014,
   "listings": [
     {
+      "uniqueCode": "RO_DP01",
+      "type": "highlight",
+      "title": "Santi Cazorla",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7bfe3f80-5a16-4203-ae3e-a2fdcc2914d5.png",
+      "lowestPrice": 39500,
+      "latestCreatedAt": "2026-03-01T20:10:41.495Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/168ad3c2-bb90-4d8d-b84c-656cf115049e.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7bfe3f80-5a16-4203-ae3e-a2fdcc2914d5.png"
+      }
+    },
+    {
       "uniqueCode": "fk-mg-15",
       "type": "highlight",
       "title": "Poland",
@@ -242,30 +266,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m68",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M68 Philadelphia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/acebbb64-1480-4736-b7ef-69be0b4bfb6c.png",
-      "lowestPrice": 48000,
-      "latestCreatedAt": "2026-03-01T19:11:26.860Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m68",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d2d181f9-f18e-43e6-8196-351f4f0bc166.jpeg",
-      "pack": {
-        "slug": "cat1-m68",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M68",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f2787c08-f02f-447f-91a9-c920bfd8030e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/acebbb64-1480-4736-b7ef-69be0b4bfb6c.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m61",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M61 Boston",
@@ -431,30 +431,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M77",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/860b61b8-80fe-4a3c-8aff-78ad9cc08584.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ba6af241-6cf3-45e2-9ddc-176a43cf5afa.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP01",
-      "type": "highlight",
-      "title": "Santi Cazorla",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7bfe3f80-5a16-4203-ae3e-a2fdcc2914d5.png",
-      "lowestPrice": 45000,
-      "latestCreatedAt": "2026-03-01T18:32:47.367Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/168ad3c2-bb90-4d8d-b84c-656cf115049e.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7bfe3f80-5a16-4203-ae3e-a2fdcc2914d5.png"
       }
     },
     {
@@ -3239,6 +3215,30 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M45",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/855c10d9-eef1-4bc0-884d-99a0e80dc2d9.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bd330a5-697c-4c02-a0ca-997dfa6b8f34.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m68",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M68 Philadelphia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/acebbb64-1480-4736-b7ef-69be0b4bfb6c.png",
+      "lowestPrice": 59900,
+      "latestCreatedAt": "2026-02-28T16:19:17.200Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m68",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d2d181f9-f18e-43e6-8196-351f4f0bc166.jpeg",
+      "pack": {
+        "slug": "cat1-m68",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M68",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f2787c08-f02f-447f-91a9-c920bfd8030e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/acebbb64-1480-4736-b7ef-69be0b4bfb6c.png"
       }
     },
     {
