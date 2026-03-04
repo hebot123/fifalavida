@@ -2,6 +2,54 @@
   "total": 2014,
   "listings": [
     {
+      "uniqueCode": "cat1-m50",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M50 Atlanta",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/506c4f23-f7de-46b3-9625-3e84efb07761.png",
+      "lowestPrice": 70000,
+      "latestCreatedAt": "2026-03-04T05:41:23.465Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m50",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e4690d17-b3c8-4155-9577-3bdb673b5623.jpeg",
+      "pack": {
+        "slug": "cat1-m50",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M50",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9c785170-0d21-4f0d-a8b0-5ef26f262035.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/506c4f23-f7de-46b3-9625-3e84efb07761.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1m103",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M103 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png",
+      "lowestPrice": 150000,
+      "latestCreatedAt": "2026-03-04T05:40:24.729Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m103",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f816f270-c725-4900-a7fc-c99a91818226.jpeg",
+      "pack": {
+        "slug": "cat1-m103",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M103",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1ff992c-7838-4b9f-994c-1d4a806e299e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png"
+      }
+    },
+    {
       "uniqueCode": "cat2-m59",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M59 Los Angeles",
@@ -136,7 +184,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "oviedo-deprimera",
-      "lowestEdition": 14,
+      "lowestEdition": 18,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7ce4c096-8a19-480e-8afc-2f43d763136d.png",
       "pack": {
         "slug": "oviedo-deprimera",
@@ -167,30 +215,6 @@
         "title": "Real Oviedo - De Primera",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/637e6a1f-2827-41c6-97f3-1c80c049e4ff.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP12",
-      "type": "highlight",
-      "title": "Dani Calvo",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b1360b0f-3496-48e3-b077-9a016c5ebc59.png",
-      "lowestPrice": 120,
-      "latestCreatedAt": "2026-03-04T04:36:55.724Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6a3ea82d-5e56-4e21-8732-292a0b8dfb66.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b1360b0f-3496-48e3-b077-9a016c5ebc59.png"
       }
     },
     {
@@ -578,30 +602,6 @@
       }
     },
     {
-      "uniqueCode": "RO_DP10",
-      "type": "highlight",
-      "title": "Santiago Colombatto",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7028f1c-87db-45ca-8258-84d4fca42401.png",
-      "lowestPrice": 130,
-      "latestCreatedAt": "2026-03-04T03:01:52.295Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f62da6ea-c19f-4801-9541-0c277334ee93.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7028f1c-87db-45ca-8258-84d4fca42401.png"
-      }
-    },
-    {
       "uniqueCode": "RO_DP15",
       "type": "highlight",
       "title": "Federico Viñas",
@@ -719,6 +719,30 @@
         "title": "Real Oviedo - De Primera",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92d33004-73f8-4aa7-a8e3-e05e7e5fcdcf.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP12",
+      "type": "highlight",
+      "title": "Dani Calvo",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b1360b0f-3496-48e3-b077-9a016c5ebc59.png",
+      "lowestPrice": 120,
+      "latestCreatedAt": "2026-03-04T02:58:58.917Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6a3ea82d-5e56-4e21-8732-292a0b8dfb66.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b1360b0f-3496-48e3-b077-9a016c5ebc59.png"
       }
     },
     {
@@ -3194,6 +3218,30 @@
       }
     },
     {
+      "uniqueCode": "RO_DP10",
+      "type": "highlight",
+      "title": "Santiago Colombatto",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7028f1c-87db-45ca-8258-84d4fca42401.png",
+      "lowestPrice": 139,
+      "latestCreatedAt": "2026-03-03T14:14:24.092Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f62da6ea-c19f-4801-9541-0c277334ee93.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7028f1c-87db-45ca-8258-84d4fca42401.png"
+      }
+    },
+    {
       "uniqueCode": "cat2-m17",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M17 New York",
@@ -5090,30 +5138,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m50",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M50 Atlanta",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/506c4f23-f7de-46b3-9625-3e84efb07761.png",
-      "lowestPrice": 70000,
-      "latestCreatedAt": "2026-03-01T23:48:59.461Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m50",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e4690d17-b3c8-4155-9577-3bdb673b5623.jpeg",
-      "pack": {
-        "slug": "cat1-m50",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M50",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9c785170-0d21-4f0d-a8b0-5ef26f262035.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/506c4f23-f7de-46b3-9625-3e84efb07761.png"
-      }
-    },
-    {
       "uniqueCode": "gk-rwp10",
       "type": "highlight",
       "title": "Portugal",
@@ -5831,30 +5855,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M11",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6ad6b6d0-3787-48ec-ba1a-fa5357bc34e6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7087c9c-5202-4387-bcaf-20c1c16e1ebc.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1m103",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M103 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png",
-      "lowestPrice": 150000,
-      "latestCreatedAt": "2026-03-01T12:10:36.918Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m103",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f816f270-c725-4900-a7fc-c99a91818226.jpeg",
-      "pack": {
-        "slug": "cat1-m103",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M103",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1ff992c-7838-4b9f-994c-1d4a806e299e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png"
       }
     },
     {
