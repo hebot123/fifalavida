@@ -2,6 +2,102 @@
   "total": 2020,
   "listings": [
     {
+      "uniqueCode": "cat2-m96",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M96 Vancouver",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a41b0d2d-8170-42fc-9827-a83468b314ca.png",
+      "lowestPrice": 114000,
+      "latestCreatedAt": "2026-03-06T16:56:24.078Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m96",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/88bde827-4d17-439e-894a-434beff86185.jpeg",
+      "pack": {
+        "slug": "cat2-m96",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M96",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/aa9a4f3c-38e1-400d-b253-4cb0b245b014.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a41b0d2d-8170-42fc-9827-a83468b314ca.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m86",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M86 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d8320e-0e59-4098-a7b8-6a1ce7170881.png",
+      "lowestPrice": 186000,
+      "latestCreatedAt": "2026-03-06T16:55:21.367Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m86",
+      "lowestEdition": 133,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0dc4aa02-dbc8-44c6-8509-b2d20796e3e8.jpeg",
+      "pack": {
+        "slug": "cat1-m86",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M86",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2e4beb34-7420-4503-89d8-f0f04f0aa2a8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d8320e-0e59-4098-a7b8-6a1ce7170881.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m51",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M51 Vancouver",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ae1a2ddc-0d12-44ac-b25b-732c22565cb4.png",
+      "lowestPrice": 98900,
+      "latestCreatedAt": "2026-03-06T16:47:54.932Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m51",
+      "lowestEdition": 23,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ddf60452-19ce-4e3f-bb34-0c8bed6d02f3.jpeg",
+      "pack": {
+        "slug": "cat1-m51",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M51",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a1a88ae-c6d2-473e-be81-8a471754561d.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ae1a2ddc-0d12-44ac-b25b-732c22565cb4.png"
+      }
+    },
+    {
+      "uniqueCode": "cat3-m33",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 3 for M33 Toronto",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png",
+      "lowestPrice": 62000,
+      "latestCreatedAt": "2026-03-06T16:45:19.423Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat3-m33",
+      "lowestEdition": 33,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6bd1b415-ef2e-4ee9-ad48-bdcabc48961e.jpeg",
+      "pack": {
+        "slug": "cat3-m33",
+        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M33",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/08f657b7-b5f9-4261-92d5-6c460f27c489.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png"
+      }
+    },
+    {
       "uniqueCode": "mpen-13",
       "type": "highlight",
       "title": "Canada",
@@ -167,30 +263,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M5",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5a4f0608-65b2-47c3-bbc0-bf9ff20531da.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/317a8f53-4c3b-481f-834e-de17bf992e55.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m86",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M86 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d8320e-0e59-4098-a7b8-6a1ce7170881.png",
-      "lowestPrice": 187500,
-      "latestCreatedAt": "2026-03-06T15:48:44.555Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m86",
-      "lowestEdition": 133,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0dc4aa02-dbc8-44c6-8509-b2d20796e3e8.jpeg",
-      "pack": {
-        "slug": "cat1-m86",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M86",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2e4beb34-7420-4503-89d8-f0f04f0aa2a8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d8320e-0e59-4098-a7b8-6a1ce7170881.png"
       }
     },
     {
@@ -477,7 +549,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1945fec-a0dc-4a51-9d3c-5019b6d83ccf.png"
       }
     },
@@ -597,7 +669,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5af33d4-2fc6-49c3-9ffa-4c22c79a31de.png"
       }
     },
@@ -621,7 +693,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a00c209b-adc2-4e7e-860d-afa496a2b78e.png"
       }
     },
@@ -789,7 +861,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/858624f2-cd16-42ea-b619-de912f00f17d.png"
       }
     },
@@ -842,7 +914,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cf64d69b-2793-4911-be0f-e95667048d4c.png"
       }
     },
@@ -890,7 +962,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0107fbc7-bff4-49cd-b9a2-dbec002948f8.png"
       }
     },
@@ -916,30 +988,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M76",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09b4f90f-0dd8-4b68-8853-bbf3c9056020.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m51",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M51 Vancouver",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ae1a2ddc-0d12-44ac-b25b-732c22565cb4.png",
-      "lowestPrice": 99900,
-      "latestCreatedAt": "2026-03-06T13:45:21.001Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m51",
-      "lowestEdition": 23,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ddf60452-19ce-4e3f-bb34-0c8bed6d02f3.jpeg",
-      "pack": {
-        "slug": "cat1-m51",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M51",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a1a88ae-c6d2-473e-be81-8a471754561d.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ae1a2ddc-0d12-44ac-b25b-732c22565cb4.png"
       }
     },
     {
@@ -1442,7 +1490,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a7e3ed55-8268-49e2-b841-5bcbd2fabfef.png"
       }
     },
@@ -1468,30 +1516,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M85",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fb65bdb6-70c0-46cc-a09a-ccddffde03c6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/867d36fd-500f-4c25-9fe8-3e89a7216b66.png"
-      }
-    },
-    {
-      "uniqueCode": "cat3-m33",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 3 for M33 Toronto",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png",
-      "lowestPrice": 64869,
-      "latestCreatedAt": "2026-03-06T11:59:50.616Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat3-m33",
-      "lowestEdition": 33,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6bd1b415-ef2e-4ee9-ad48-bdcabc48961e.jpeg",
-      "pack": {
-        "slug": "cat3-m33",
-        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M33",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/08f657b7-b5f9-4261-92d5-6c460f27c489.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png"
       }
     },
     {
@@ -1802,7 +1826,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png"
       }
     },
@@ -1826,7 +1850,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e71b896-7694-434a-9d36-b16921994d8c.png"
       }
     },
@@ -1994,7 +2018,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/229e3385-820d-4f45-ac1e-4cdbac5ce59c.png"
       }
     },
@@ -2018,7 +2042,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c6b8df28-c0c6-41a5-8bf8-37ebcd8193f2.png"
       }
     },
@@ -2306,7 +2330,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/269e8b9f-6a1d-45cd-9cd2-01524ad588ef.png"
       }
     },
@@ -2426,7 +2450,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/699a6a15-92a9-4134-a5ea-b042c0c02253.png"
       }
     },
@@ -2450,7 +2474,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f0315-5834-46c8-8452-a480ad8fc11e.png"
       }
     },
@@ -2474,7 +2498,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3ee11d1c-cc36-4c45-a0ba-48bc742dbc8f.png"
       }
     },
@@ -2498,7 +2522,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a06373d9-b6dc-4110-9af8-2f1e3797b92e.png"
       }
     },
@@ -2522,7 +2546,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc8eb707-33aa-478b-9bb9-6835e2a4eb98.png"
       }
     },
@@ -2546,7 +2570,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6d074db-9dd5-4c8c-ad5b-91b17a89d7c7.png"
       }
     },
@@ -2594,7 +2618,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc5a557-b10c-485d-b58e-ce18f5da2daf.png"
       }
     },
@@ -2618,7 +2642,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cfb96d05-24aa-4256-802d-82f74130a419.png"
       }
     },
@@ -2642,7 +2666,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1905d162-a618-40da-9a8a-8449249ab78f.png"
       }
     },
@@ -3055,7 +3079,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e6268a74-c69b-4957-af64-582a3b492ee9.png"
       }
     },
@@ -3079,7 +3103,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png"
       }
     },
@@ -3561,30 +3585,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M103",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1ff992c-7838-4b9f-994c-1d4a806e299e.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m49",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M49 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84d94ab4-77b8-4cf8-bb9f-c67091944229.png",
-      "lowestPrice": 142500,
-      "latestCreatedAt": "2026-03-05T12:49:35.273Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m49",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/61dfd15a-a3ea-4f79-a0fe-10a033eda1a4.jpeg",
-      "pack": {
-        "slug": "cat2-m49",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M49",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d249569a-f4e7-441a-a10b-42532a391eeb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84d94ab4-77b8-4cf8-bb9f-c67091944229.png"
       }
     },
     {
@@ -4087,7 +4087,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/763c74af-a537-48b7-9665-68f6494e8f77.png"
       }
     },
@@ -5287,7 +5287,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png"
       }
     },
@@ -6444,30 +6444,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m96",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M96 Vancouver",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a41b0d2d-8170-42fc-9827-a83468b314ca.png",
-      "lowestPrice": 114000,
-      "latestCreatedAt": "2026-03-04T00:47:34.703Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m96",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/88bde827-4d17-439e-894a-434beff86185.jpeg",
-      "pack": {
-        "slug": "cat2-m96",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M96",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/aa9a4f3c-38e1-400d-b253-4cb0b245b014.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a41b0d2d-8170-42fc-9827-a83468b314ca.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m54",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M54 Monterrey",
@@ -7135,7 +7111,7 @@
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e9f79b7d-7f98-42f8-a60c-bd5fb04f962b.png"
       }
     },
@@ -9057,6 +9033,30 @@
         "title": "Surprise Premium - National Treasures Part 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c455de80-5ab2-4333-94f7-7aaa0a21c720.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e77daa43-7401-4c5a-bdbe-1facea13bdd9.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m49",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M49 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84d94ab4-77b8-4cf8-bb9f-c67091944229.png",
+      "lowestPrice": 147500,
+      "latestCreatedAt": "2026-02-27T18:19:27.705Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m49",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/61dfd15a-a3ea-4f79-a0fe-10a033eda1a4.jpeg",
+      "pack": {
+        "slug": "cat2-m49",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M49",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d249569a-f4e7-441a-a10b-42532a391eeb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84d94ab4-77b8-4cf8-bb9f-c67091944229.png"
       }
     },
     {
