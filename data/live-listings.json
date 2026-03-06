@@ -2,6 +2,78 @@
   "total": 2018,
   "listings": [
     {
+      "uniqueCode": "M_CL07",
+      "type": "highlight",
+      "title": "Monty",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png",
+      "lowestPrice": 359,
+      "latestCreatedAt": "2026-03-06T07:14:43.146Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/385e75e2-fb86-4980-bc4b-31123c2b22dd.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m76",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M76 Houston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png",
+      "lowestPrice": 80000,
+      "latestCreatedAt": "2026-03-06T06:51:23.768Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m76",
+      "lowestEdition": 33,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d492b74e-01bc-4c46-8215-5c63a706b562.jpeg",
+      "pack": {
+        "slug": "cat1-m76",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M76",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09b4f90f-0dd8-4b68-8853-bbf3c9056020.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL02",
+      "type": "highlight",
+      "title": "Anthony Martial",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e71b896-7694-434a-9d36-b16921994d8c.png",
+      "lowestPrice": 320,
+      "latestCreatedAt": "2026-03-06T06:44:48.619Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 18,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d859a317-8f91-4f12-991b-879179f15074.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e71b896-7694-434a-9d36-b16921994d8c.png"
+      }
+    },
+    {
       "uniqueCode": "cat2-m32",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M32 Seattle",
@@ -170,30 +242,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m76",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M76 Houston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png",
-      "lowestPrice": 80000,
-      "latestCreatedAt": "2026-03-06T04:55:17.513Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m76",
-      "lowestEdition": 33,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d492b74e-01bc-4c46-8215-5c63a706b562.jpeg",
-      "pack": {
-        "slug": "cat1-m76",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M76",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09b4f90f-0dd8-4b68-8853-bbf3c9056020.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png"
-      }
-    },
-    {
       "uniqueCode": "rd-cc-c2",
       "type": "highlight",
       "title": "Tigres UANL",
@@ -239,30 +287,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M95",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/94953dc1-339d-43f5-82c0-6f9f97465381.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0dab41ea-f0a0-4cf8-ace2-13e7ea3755dc.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL09",
-      "type": "highlight",
-      "title": "Gerardo Arteaga",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-06T04:27:00.197Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 20,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/423c8fef-3dc9-4583-95c0-6fa11dccd0c3.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png"
       }
     },
     {
@@ -1951,27 +1975,27 @@
       }
     },
     {
-      "uniqueCode": "M_CL02",
+      "uniqueCode": "M_CL09",
       "type": "highlight",
-      "title": "Anthony Martial",
+      "title": "Gerardo Arteaga",
       "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e71b896-7694-434a-9d36-b16921994d8c.png",
-      "lowestPrice": 320,
-      "latestCreatedAt": "2026-03-05T23:13:17.208Z",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-05T23:19:05.445Z",
       "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
       },
       "languageCode": "en-UK",
       "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 18,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d859a317-8f91-4f12-991b-879179f15074.png",
+      "lowestEdition": 20,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/423c8fef-3dc9-4583-95c0-6fa11dccd0c3.png",
       "pack": {
         "slug": "monterrey-clausura2026-vol1",
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e71b896-7694-434a-9d36-b16921994d8c.png"
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png"
       }
     },
     {
@@ -3369,30 +3393,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0107fbc7-bff4-49cd-b9a2-dbec002948f8.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL07",
-      "type": "highlight",
-      "title": "Monty",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png",
-      "lowestPrice": 359,
-      "latestCreatedAt": "2026-03-05T04:10:40.727Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/385e75e2-fb86-4980-bc4b-31123c2b22dd.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f7baa09-d532-46e0-a340-d76cec41b7e3.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png"
       }
     },
     {
