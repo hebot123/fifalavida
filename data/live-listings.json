@@ -2,6 +2,107 @@
   "total": 2020,
   "listings": [
     {
+      "uniqueCode": "cat1-m11",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M11 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png",
+      "lowestPrice": 87500,
+      "latestCreatedAt": "2026-03-07T11:15:40.725Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m11",
+      "lowestEdition": 29,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/852b6c00-7901-4ae1-b36b-9dbbb5c1ed8e.jpeg",
+      "pack": {
+        "slug": "cat1-m11",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M11",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cf7e1736-67e8-4f0f-a549-d1dead9e2cac.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m10",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M10 Houston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png",
+      "lowestPrice": 55000,
+      "latestCreatedAt": "2026-03-07T11:04:23.781Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m10",
+      "lowestEdition": 50,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7dca556-1231-40cb-9b3d-79e41b8e523e.jpeg",
+      "pack": {
+        "slug": "cat1-m10",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M10",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/180cc32b-1eae-4780-8f21-13b788eb7284.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png"
+      }
+    },
+    {
+      "uniqueCode": "S1-P2-61",
+      "type": "poster_reward",
+      "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png",
+      "lowestPrice": 17500,
+      "latestCreatedAt": "2026-03-07T10:35:13.991Z",
+      "rarity": {
+        "code": "90",
+        "color": "#FE5211",
+        "name": "Tournament Reward"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "poster-reward-tournament-fwwc23",
+      "lowestEdition": 13,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/67e21bb4-9f98-4170-9e07-0ee158e9e89f.png",
+      "pack": {
+        "slug": "poster-reward-tournament-fwwc23",
+        "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0fc2eb13-a8ca-467a-93b9-523492f7ad15.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png"
+      },
+      "poster": {
+        "id": "c0ddee9f-dbc7-4dad-95c2-58f03eae0c6a",
+        "title": "Tournament Poster",
+        "subtitle": "FIFA Women's World Cup 2023™"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m55",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M55 Philadelphia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d4a574b5-070d-41b1-87b9-266520302aad.png",
+      "lowestPrice": 21900,
+      "latestCreatedAt": "2026-03-07T10:25:50.832Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m55",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b2543c8c-7019-4ddc-b716-ad9c2ba81654.jpeg",
+      "pack": {
+        "slug": "cat2-m55",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M55",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/db9dba62-0720-482b-913a-306fec977e53.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d4a574b5-070d-41b1-87b9-266520302aad.png"
+      }
+    },
+    {
       "uniqueCode": "cat2-m30",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M30 Boston",
@@ -119,30 +220,6 @@
         "title": "Real Oviedo - De Primera",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b483e7c3-c069-4987-a6e1-4866eda97158.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m11",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M11 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png",
-      "lowestPrice": 87500,
-      "latestCreatedAt": "2026-03-07T09:03:09.175Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m11",
-      "lowestEdition": 29,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/852b6c00-7901-4ae1-b36b-9dbbb5c1ed8e.jpeg",
-      "pack": {
-        "slug": "cat1-m11",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M11",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cf7e1736-67e8-4f0f-a549-d1dead9e2cac.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png"
       }
     },
     {
@@ -583,7 +660,7 @@
       "title": "Santiago Colombatto",
       "subtitle": "Real Oviedo",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7028f1c-87db-45ca-8258-84d4fca42401.png",
-      "lowestPrice": 123,
+      "lowestPrice": 124,
       "latestCreatedAt": "2026-03-07T03:42:42.405Z",
       "rarity": {
         "code": "20",
@@ -647,30 +724,6 @@
         "title": "Real Oviedo - De Primera",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4dcd03cf-e094-4607-8c30-a1b93a332bad.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP11",
-      "type": "highlight",
-      "title": "Luka Ilic",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a8a10ba-e13c-4610-bb7c-dbbc9b60f705.png",
-      "lowestPrice": 106,
-      "latestCreatedAt": "2026-03-07T03:37:45.885Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 18,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7a9a6bcf-8613-4c57-8ca7-a8bd9138d62c.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a8a10ba-e13c-4610-bb7c-dbbc9b60f705.png"
       }
     },
     {
@@ -952,7 +1005,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "oviedo-deprimera",
-      "lowestEdition": 31,
+      "lowestEdition": 34,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/77bb29e9-fa76-4bbf-bd62-570be81e40fe.png",
       "pack": {
         "slug": "oviedo-deprimera",
@@ -1511,6 +1564,30 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M32",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b325e18f-92c4-45fa-a699-89050335e73e.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bd18a10d-7635-4c62-bc61-a0925fb80328.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP11",
+      "type": "highlight",
+      "title": "Luka Ilic",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a8a10ba-e13c-4610-bb7c-dbbc9b60f705.png",
+      "lowestPrice": 115,
+      "latestCreatedAt": "2026-03-06T21:22:06.175Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 18,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7a9a6bcf-8613-4c57-8ca7-a8bd9138d62c.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a8a10ba-e13c-4610-bb7c-dbbc9b60f705.png"
       }
     },
     {
@@ -2447,35 +2524,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/858624f2-cd16-42ea-b619-de912f00f17d.png"
-      }
-    },
-    {
-      "uniqueCode": "S1-P2-61",
-      "type": "poster_reward",
-      "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png",
-      "lowestPrice": 18500,
-      "latestCreatedAt": "2026-03-06T14:20:18.353Z",
-      "rarity": {
-        "code": "90",
-        "color": "#FE5211",
-        "name": "Tournament Reward"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "poster-reward-tournament-fwwc23",
-      "lowestEdition": 13,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/67e21bb4-9f98-4170-9e07-0ee158e9e89f.png",
-      "pack": {
-        "slug": "poster-reward-tournament-fwwc23",
-        "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0fc2eb13-a8ca-467a-93b9-523492f7ad15.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png"
-      },
-      "poster": {
-        "id": "c0ddee9f-dbc7-4dad-95c2-58f03eae0c6a",
-        "title": "Tournament Poster",
-        "subtitle": "FIFA Women's World Cup 2023™"
       }
     },
     {
@@ -5580,30 +5628,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m10",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M10 Houston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png",
-      "lowestPrice": 59000,
-      "latestCreatedAt": "2026-03-04T19:24:51.014Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m10",
-      "lowestEdition": 50,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7dca556-1231-40cb-9b3d-79e41b8e523e.jpeg",
-      "pack": {
-        "slug": "cat1-m10",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M10",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/180cc32b-1eae-4780-8f21-13b788eb7284.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m17",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M17 New York",
@@ -5985,30 +6009,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M86",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1907d33c-5a1c-4ab2-b08d-bf2f96065114.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38829433-cf48-42ed-916b-2aa6e0729f45.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m55",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M55 Philadelphia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d4a574b5-070d-41b1-87b9-266520302aad.png",
-      "lowestPrice": 23500,
-      "latestCreatedAt": "2026-03-04T18:51:15.612Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m55",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b2543c8c-7019-4ddc-b716-ad9c2ba81654.jpeg",
-      "pack": {
-        "slug": "cat2-m55",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M55",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/db9dba62-0720-482b-913a-306fec977e53.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d4a574b5-070d-41b1-87b9-266520302aad.png"
       }
     },
     {
