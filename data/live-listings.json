@@ -2,13 +2,421 @@
   "total": 2023,
   "listings": [
     {
+      "uniqueCode": "M_CL04",
+      "type": "highlight",
+      "title": "Christina Burkenroad",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5af33d4-2fc6-49c3-9ffa-4c22c79a31de.png",
+      "lowestPrice": 249,
+      "latestCreatedAt": "2026-03-09T16:52:08.322Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09227e29-9608-4f16-9916-073208274ed4.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5af33d4-2fc6-49c3-9ffa-4c22c79a31de.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP37",
+      "type": "highlight",
+      "title": "Eduardo Bauermann - Signed",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3312d7b-6f0c-4201-9918-cd3adf3c5be1.png",
+      "lowestPrice": 2100,
+      "latestCreatedAt": "2026-03-09T16:51:22.360Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5f079a84-afa7-4f6b-8051-67b661f0c753.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3312d7b-6f0c-4201-9918-cd3adf3c5be1.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL16",
+      "type": "highlight",
+      "title": "Marcela Restrepo",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6d074db-9dd5-4c8c-ad5b-91b17a89d7c7.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:50:54.422Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/de2df82b-1065-4dbc-9de3-143c17d5e2a2.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6d074db-9dd5-4c8c-ad5b-91b17a89d7c7.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL15",
+      "type": "highlight",
+      "title": "Karol Bernal",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1945fec-a0dc-4a51-9d3c-5019b6d83ccf.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:50:00.985Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 17,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bd9a877a-4793-417e-a0e6-d36b0c0b05c5.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1945fec-a0dc-4a51-9d3c-5019b6d83ccf.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL12",
+      "type": "highlight",
+      "title": "Allison Veloz",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f0315-5834-46c8-8452-a480ad8fc11e.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:48:52.403Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 144,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/64200f8e-8461-4a5b-995b-ebcbc4e17846.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f0315-5834-46c8-8452-a480ad8fc11e.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP03",
+      "type": "highlight",
+      "title": "Ilyas Chaira",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec8c5fa8-4ae3-4673-b619-fdce3abeb8ab.png",
+      "lowestPrice": 179,
+      "latestCreatedAt": "2026-03-09T16:48:49.798Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ee0f6f77-bdd9-453a-a620-a9873d976730.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec8c5fa8-4ae3-4673-b619-fdce3abeb8ab.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL08",
+      "type": "highlight",
+      "title": "Óliver Torres",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png",
+      "lowestPrice": 230,
+      "latestCreatedAt": "2026-03-09T16:48:19.001Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2154e8b7-648b-4426-8a39-de7baebd9d03.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM23",
+      "type": "highlight",
+      "title": "8. Martinelli",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b913e1b-be99-46fb-8e06-ae7630554fe9.png",
+      "lowestPrice": 200,
+      "latestCreatedAt": "2026-03-09T16:45:52.105Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d3d9ff9e-8213-434d-addc-8dee0318394b.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b913e1b-be99-46fb-8e06-ae7630554fe9.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM24",
+      "type": "highlight",
+      "title": "22. Juan Pablo Freytes",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cba1e688-318b-491e-bd56-1cf9536b8d4a.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:42:55.238Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9adc6762-95c0-4f75-ac9d-55136ad18ac4.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cba1e688-318b-491e-bd56-1cf9536b8d4a.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m56",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M56 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png",
+      "lowestPrice": 110000,
+      "latestCreatedAt": "2026-03-09T16:28:03.914Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m56",
+      "lowestEdition": 29,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c2511ab3-12dc-4ea1-ba17-70ef33d38ea1.jpeg",
+      "pack": {
+        "slug": "cat1-m56",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M56",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/510dab06-e2d9-4505-9fa6-abbf63565a81.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP08",
+      "type": "highlight",
+      "title": "Josip Brekalo",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5812fa6-c05a-4805-aa7d-0904d101a731.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:27:39.371Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fbfe0700-85b8-4a8d-bbc0-5b75b5672949.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5812fa6-c05a-4805-aa7d-0904d101a731.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m67",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M67 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb61cff9-39d2-46d9-8a2f-bf1781873e49.png",
+      "lowestPrice": 105000,
+      "latestCreatedAt": "2026-03-09T16:26:41.898Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m67",
+      "lowestEdition": 18,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f400e55e-98da-4b4a-ad55-e8abb941cdbc.jpeg",
+      "pack": {
+        "slug": "cat1-m67",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M67",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/90fa0f38-e501-454c-bb8d-7a40ee666f79.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb61cff9-39d2-46d9-8a2f-bf1781873e49.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m45",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M45 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bd330a5-697c-4c02-a0ca-997dfa6b8f34.png",
+      "lowestPrice": 68300,
+      "latestCreatedAt": "2026-03-09T16:24:00.633Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m45",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cabd9f16-51ae-4438-8abe-f1cfa8be142b.jpeg",
+      "pack": {
+        "slug": "cat2-m45",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M45",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/855c10d9-eef1-4bc0-884d-99a0e80dc2d9.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bd330a5-697c-4c02-a0ca-997dfa6b8f34.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m18",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M18 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4c68ab99-1dd2-480b-98b3-e3e3e657d970.png",
+      "lowestPrice": 40000,
+      "latestCreatedAt": "2026-03-09T16:19:15.884Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m18",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/541f5850-68d9-48ac-8b2a-c4c39beb6a0d.jpeg",
+      "pack": {
+        "slug": "cat2-m18",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M18",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9c4ff2c7-28e4-45ef-986a-bf154dae44ef.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4c68ab99-1dd2-480b-98b3-e3e3e657d970.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m42",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M42 Philadelphia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a5447c8-9150-46bd-9dce-9caaf7aee252.png",
+      "lowestPrice": 65000,
+      "latestCreatedAt": "2026-03-09T16:17:23.228Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m42",
+      "lowestEdition": 20,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/50816a6c-bf8e-443e-97c3-6a5eefcfb35c.jpeg",
+      "pack": {
+        "slug": "cat1-m42",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M42",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9ce15527-789c-4f2e-b627-aee9cd3b42c0.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a5447c8-9150-46bd-9dce-9caaf7aee252.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP05",
+      "type": "highlight",
+      "title": "Haissem Hassan",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ef569209-d409-4e08-9da3-a96b90f0d946.png",
+      "lowestPrice": 615,
+      "latestCreatedAt": "2026-03-09T16:16:01.225Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ebfc6e5c-fc3d-4da5-9069-d0e5d5df5aad.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ef569209-d409-4e08-9da3-a96b90f0d946.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m55",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M55 Philadelphia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0776424-b004-4107-a5ea-36225f558146.png",
+      "lowestPrice": 29900,
+      "latestCreatedAt": "2026-03-09T16:15:34.052Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m55",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3b318942-ff7d-4cdd-81be-b492934f06b8.jpeg",
+      "pack": {
+        "slug": "cat1-m55",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M55",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/62cf2a81-fdb9-479e-affa-ed1547d3ed59.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0776424-b004-4107-a5ea-36225f558146.png"
+      }
+    },
+    {
       "uniqueCode": "RO_DP01",
       "type": "highlight",
       "title": "Santi Cazorla",
       "subtitle": "Real Oviedo",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7bfe3f80-5a16-4203-ae3e-a2fdcc2914d5.png",
       "lowestPrice": 16500,
-      "latestCreatedAt": "2026-03-09T15:53:40.196Z",
+      "latestCreatedAt": "2026-03-09T16:14:18.830Z",
       "rarity": {
         "code": "40",
         "color": "#DDBE5E",
@@ -16,13 +424,397 @@
       },
       "languageCode": "en-UK",
       "packSlug": "oviedo-deprimera",
-      "lowestEdition": 12,
+      "lowestEdition": 1,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/168ad3c2-bb90-4d8d-b84c-656cf115049e.png",
       "pack": {
         "slug": "oviedo-deprimera",
         "title": "Real Oviedo - De Primera",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7bfe3f80-5a16-4203-ae3e-a2fdcc2914d5.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m7",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M7 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da0288cd-55f0-4127-9101-1d1a90a9c686.png",
+      "lowestPrice": 152500,
+      "latestCreatedAt": "2026-03-09T16:13:50.273Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m7",
+      "lowestEdition": 18,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a982a115-2c4c-459b-ae10-9edccc95f0d2.jpeg",
+      "pack": {
+        "slug": "cat1-m7",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M7",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/af91181f-9353-4b9e-bff8-1d57b7a4e8ed.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da0288cd-55f0-4127-9101-1d1a90a9c686.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP11",
+      "type": "highlight",
+      "title": "Luka Ilic",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a8a10ba-e13c-4610-bb7c-dbbc9b60f705.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:12:40.970Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7a9a6bcf-8613-4c57-8ca7-a8bd9138d62c.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a8a10ba-e13c-4610-bb7c-dbbc9b60f705.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP02",
+      "type": "highlight",
+      "title": "David Costas",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2477c3aa-0740-49ed-a194-91f2e9ebb623.png",
+      "lowestPrice": 280,
+      "latestCreatedAt": "2026-03-09T16:07:41.666Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/02e0b758-437e-41ad-84e1-24a03a226f18.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2477c3aa-0740-49ed-a194-91f2e9ebb623.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP21",
+      "type": "highlight",
+      "title": "Rahim Alhassane",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ff8fafa-386f-4c9d-a0ed-3b8a99e144b8.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:06:58.662Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8b8a5061-43b9-40a5-a6a7-014063ad8ec1.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ff8fafa-386f-4c9d-a0ed-3b8a99e144b8.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP19",
+      "type": "highlight",
+      "title": "Nacho Vidal",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/162a93ff-93f4-49c6-a15e-8d6659a71730.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:06:34.980Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 34,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/77bb29e9-fa76-4bbf-bd62-570be81e40fe.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/162a93ff-93f4-49c6-a15e-8d6659a71730.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP13",
+      "type": "highlight",
+      "title": "Alberto Reina",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bb1e8131-acf9-4d0b-8d5d-a191b2ec86fb.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:06:14.406Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/45474458-1cbb-4f47-8c1d-1acb755e613c.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bb1e8131-acf9-4d0b-8d5d-a191b2ec86fb.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP07",
+      "type": "highlight",
+      "title": "Eric Bailly",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e115ab0a-2799-4cb2-a992-940707e6d057.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:05:54.619Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ea4be921-7903-45ca-bc6f-feb64438089a.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e115ab0a-2799-4cb2-a992-940707e6d057.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP10",
+      "type": "highlight",
+      "title": "Santiago Colombatto",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7028f1c-87db-45ca-8258-84d4fca42401.png",
+      "lowestPrice": 149,
+      "latestCreatedAt": "2026-03-09T16:05:37.073Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f62da6ea-c19f-4801-9541-0c277334ee93.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7028f1c-87db-45ca-8258-84d4fca42401.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP17",
+      "type": "highlight",
+      "title": "Kwasi Sibo",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ebda1ea0-4ccc-46fa-9a87-871727ee5e9c.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:04:33.362Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/946a55fa-9deb-4d72-a859-83d2fd9f7070.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ebda1ea0-4ccc-46fa-9a87-871727ee5e9c.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP09",
+      "type": "highlight",
+      "title": "Horațiu Moldovan",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92d33004-73f8-4aa7-a8e3-e05e7e5fcdcf.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:04:14.472Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b88f97c3-8fa7-47bf-a4d0-d9cbace6e9e6.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92d33004-73f8-4aa7-a8e3-e05e7e5fcdcf.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP20",
+      "type": "highlight",
+      "title": "Ovie Ejaria",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/637e6a1f-2827-41c6-97f3-1c80c049e4ff.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:03:31.567Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f94bd060-b4a5-468d-99fc-9e8dc7fb2843.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/637e6a1f-2827-41c6-97f3-1c80c049e4ff.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP06",
+      "type": "highlight",
+      "title": "Leander Dendoncker",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4dcd03cf-e094-4607-8c30-a1b93a332bad.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-09T16:02:47.176Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/01085d90-fbda-42bb-b0d3-9684422974c6.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4dcd03cf-e094-4607-8c30-a1b93a332bad.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP04",
+      "type": "highlight",
+      "title": "Aarón Escandell",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b483e7c3-c069-4987-a6e1-4866eda97158.png",
+      "lowestPrice": 275,
+      "latestCreatedAt": "2026-03-09T16:02:27.363Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5fba0c33-82c1-46c9-9c67-61d97269bfea.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b483e7c3-c069-4987-a6e1-4866eda97158.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m22",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M22 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36ce69d2-68ea-4307-829f-64234bc52d8f.png",
+      "lowestPrice": 109900,
+      "latestCreatedAt": "2026-03-09T16:02:15.616Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m22",
+      "lowestEdition": 33,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7973ee4-a94b-4448-a81d-39098cd524e6.jpeg",
+      "pack": {
+        "slug": "cat2-m22",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M22",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/42b707e7-7c34-4c54-82a0-3f2defa5dfe5.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36ce69d2-68ea-4307-829f-64234bc52d8f.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m22",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M22 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f0ce992-bc27-42b0-b9e9-662fbaa1d98e.png",
+      "lowestPrice": 145000,
+      "latestCreatedAt": "2026-03-09T16:01:57.181Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m22",
+      "lowestEdition": 44,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/21cb1624-5d6d-47b9-b992-dff7a3cb5b96.jpeg",
+      "pack": {
+        "slug": "cat1-m22",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M22",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2551c5ea-d3f6-40c3-a90c-96e29b19ef2a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f0ce992-bc27-42b0-b9e9-662fbaa1d98e.png"
+      }
+    },
+    {
+      "uniqueCode": "O_DPR12",
+      "type": "highlight",
+      "title": "Double Pass - Real Oviedo vs Sevilla FC",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/07c7f738-368c-446b-b37b-c795c2b49008.png",
+      "lowestPrice": 3900,
+      "latestCreatedAt": "2026-03-09T16:00:48.287Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera-level2reward",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/eb6ded7b-262f-4ac1-a976-e6ae25642912.png",
+      "pack": {
+        "slug": "oviedo-deprimera-level2reward",
+        "title": "Real Oviedo - De Primera Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/42fe45ba-1d6b-49cb-b6c0-442cc3981aa2.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/07c7f738-368c-446b-b37b-c795c2b49008.png"
       }
     },
     {
@@ -47,30 +839,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M53",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1c285b17-3693-41da-839e-02c3bca1b699.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/077514ad-6647-404b-9fd5-161fb932ce02.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m45",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M45 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bd330a5-697c-4c02-a0ca-997dfa6b8f34.png",
-      "lowestPrice": 68300,
-      "latestCreatedAt": "2026-03-09T15:45:44.159Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m45",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cabd9f16-51ae-4438-8abe-f1cfa8be142b.jpeg",
-      "pack": {
-        "slug": "cat2-m45",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M45",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/855c10d9-eef1-4bc0-884d-99a0e80dc2d9.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bd330a5-697c-4c02-a0ca-997dfa6b8f34.png"
       }
     },
     {
@@ -287,30 +1055,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M41",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/199db273-6ef0-4ede-8b07-9e965c7eaf73.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b28b2447-39e5-47dc-b1b9-2ec159ed8f86.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m67",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M67 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb61cff9-39d2-46d9-8a2f-bf1781873e49.png",
-      "lowestPrice": 110000,
-      "latestCreatedAt": "2026-03-09T15:07:23.562Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m67",
-      "lowestEdition": 18,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f400e55e-98da-4b4a-ad55-e8abb941cdbc.jpeg",
-      "pack": {
-        "slug": "cat1-m67",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M67",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/90fa0f38-e501-454c-bb8d-7a40ee666f79.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb61cff9-39d2-46d9-8a2f-bf1781873e49.png"
       }
     },
     {
@@ -722,78 +1466,6 @@
       }
     },
     {
-      "uniqueCode": "M_CL08",
-      "type": "highlight",
-      "title": "Óliver Torres",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T14:28:44.692Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2154e8b7-648b-4426-8a39-de7baebd9d03.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL12",
-      "type": "highlight",
-      "title": "Allison Veloz",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f0315-5834-46c8-8452-a480ad8fc11e.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T14:28:23.814Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 144,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/64200f8e-8461-4a5b-995b-ebcbc4e17846.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f0315-5834-46c8-8452-a480ad8fc11e.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL15",
-      "type": "highlight",
-      "title": "Karol Bernal",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1945fec-a0dc-4a51-9d3c-5019b6d83ccf.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T14:26:29.853Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 17,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bd9a877a-4793-417e-a0e6-d36b0c0b05c5.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1945fec-a0dc-4a51-9d3c-5019b6d83ccf.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m32",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M32 Seattle",
@@ -1178,30 +1850,6 @@
       }
     },
     {
-      "uniqueCode": "RO_DP21",
-      "type": "highlight",
-      "title": "Rahim Alhassane",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ff8fafa-386f-4c9d-a0ed-3b8a99e144b8.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T13:08:26.084Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8b8a5061-43b9-40a5-a6a7-014063ad8ec1.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ff8fafa-386f-4c9d-a0ed-3b8a99e144b8.png"
-      }
-    },
-    {
       "uniqueCode": "D01-08",
       "type": "highlight",
       "title": "Spain",
@@ -1271,30 +1919,6 @@
         "title": "Genesis Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2ac014ec-2656-4e6c-93a5-297c7ecdffbb.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP13",
-      "type": "highlight",
-      "title": "Alberto Reina",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bb1e8131-acf9-4d0b-8d5d-a191b2ec86fb.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T13:01:59.538Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/45474458-1cbb-4f47-8c1d-1acb755e613c.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bb1e8131-acf9-4d0b-8d5d-a191b2ec86fb.png"
       }
     },
     {
@@ -1634,30 +2258,6 @@
       }
     },
     {
-      "uniqueCode": "RO_DP09",
-      "type": "highlight",
-      "title": "Horațiu Moldovan",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92d33004-73f8-4aa7-a8e3-e05e7e5fcdcf.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T09:07:41.553Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 7,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b88f97c3-8fa7-47bf-a4d0-d9cbace6e9e6.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92d33004-73f8-4aa7-a8e3-e05e7e5fcdcf.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m14",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M14 Atlanta",
@@ -1679,102 +2279,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M14",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/021f13e3-3855-4fa0-b216-7c35a87138e8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c33abb08-2572-4724-891f-ea5643aaf2a3.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP08",
-      "type": "highlight",
-      "title": "Josip Brekalo",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5812fa6-c05a-4805-aa7d-0904d101a731.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T08:57:30.686Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fbfe0700-85b8-4a8d-bbc0-5b75b5672949.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5812fa6-c05a-4805-aa7d-0904d101a731.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP06",
-      "type": "highlight",
-      "title": "Leander Dendoncker",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4dcd03cf-e094-4607-8c30-a1b93a332bad.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T08:56:30.877Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/01085d90-fbda-42bb-b0d3-9684422974c6.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4dcd03cf-e094-4607-8c30-a1b93a332bad.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP07",
-      "type": "highlight",
-      "title": "Eric Bailly",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e115ab0a-2799-4cb2-a992-940707e6d057.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T08:56:06.455Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ea4be921-7903-45ca-bc6f-feb64438089a.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e115ab0a-2799-4cb2-a992-940707e6d057.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP17",
-      "type": "highlight",
-      "title": "Kwasi Sibo",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ebda1ea0-4ccc-46fa-9a87-871727ee5e9c.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T08:54:51.869Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/946a55fa-9deb-4d72-a859-83d2fd9f7070.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ebda1ea0-4ccc-46fa-9a87-871727ee5e9c.png"
       }
     },
     {
@@ -1826,102 +2330,6 @@
       }
     },
     {
-      "uniqueCode": "RO_DP20",
-      "type": "highlight",
-      "title": "Ovie Ejaria",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/637e6a1f-2827-41c6-97f3-1c80c049e4ff.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T08:53:25.210Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f94bd060-b4a5-468d-99fc-9e8dc7fb2843.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/637e6a1f-2827-41c6-97f3-1c80c049e4ff.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP05",
-      "type": "highlight",
-      "title": "Haissem Hassan",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ef569209-d409-4e08-9da3-a96b90f0d946.png",
-      "lowestPrice": 625,
-      "latestCreatedAt": "2026-03-09T08:52:49.552Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ebfc6e5c-fc3d-4da5-9069-d0e5d5df5aad.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ef569209-d409-4e08-9da3-a96b90f0d946.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP03",
-      "type": "highlight",
-      "title": "Ilyas Chaira",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec8c5fa8-4ae3-4673-b619-fdce3abeb8ab.png",
-      "lowestPrice": 179,
-      "latestCreatedAt": "2026-03-09T08:52:16.988Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ee0f6f77-bdd9-453a-a620-a9873d976730.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec8c5fa8-4ae3-4673-b619-fdce3abeb8ab.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP02",
-      "type": "highlight",
-      "title": "David Costas",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2477c3aa-0740-49ed-a194-91f2e9ebb623.png",
-      "lowestPrice": 285,
-      "latestCreatedAt": "2026-03-09T08:51:07.977Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/02e0b758-437e-41ad-84e1-24a03a226f18.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2477c3aa-0740-49ed-a194-91f2e9ebb623.png"
-      }
-    },
-    {
       "uniqueCode": "MC-01",
       "type": "highlight",
       "title": "VIP Membership Card",
@@ -1946,30 +2354,6 @@
       }
     },
     {
-      "uniqueCode": "RO_DP04",
-      "type": "highlight",
-      "title": "Aarón Escandell",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b483e7c3-c069-4987-a6e1-4866eda97158.png",
-      "lowestPrice": 479,
-      "latestCreatedAt": "2026-03-09T07:56:12.069Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5fba0c33-82c1-46c9-9c67-61d97269bfea.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b483e7c3-c069-4987-a6e1-4866eda97158.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m72",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M72 Atlanta",
@@ -1991,30 +2375,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M72",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17a9b088-0fdb-4753-998a-443dacb72fa7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/70203a88-74e1-4d51-8b34-0a6689cfadfe.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m56",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M56 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png",
-      "lowestPrice": 129000,
-      "latestCreatedAt": "2026-03-09T06:01:06.671Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m56",
-      "lowestEdition": 29,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c2511ab3-12dc-4ea1-ba17-70ef33d38ea1.jpeg",
-      "pack": {
-        "slug": "cat1-m56",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M56",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/510dab06-e2d9-4505-9fa6-abbf63565a81.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png"
       }
     },
     {
@@ -2114,30 +2474,6 @@
       }
     },
     {
-      "uniqueCode": "RO_DP10",
-      "type": "highlight",
-      "title": "Santiago Colombatto",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7028f1c-87db-45ca-8258-84d4fca42401.png",
-      "lowestPrice": 124,
-      "latestCreatedAt": "2026-03-09T05:43:39.346Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f62da6ea-c19f-4801-9541-0c277334ee93.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7028f1c-87db-45ca-8258-84d4fca42401.png"
-      }
-    },
-    {
       "uniqueCode": "RO_DP18",
       "type": "highlight",
       "title": "Lucas Ahijado",
@@ -2231,54 +2567,6 @@
         "title": "Regenesis Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f08ea9d2-0265-4ad9-b2d7-d933ea0139ba.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "M_CL16",
-      "type": "highlight",
-      "title": "Marcela Restrepo",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6d074db-9dd5-4c8c-ad5b-91b17a89d7c7.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T05:11:36.625Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 7,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/de2df82b-1065-4dbc-9de3-143c17d5e2a2.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6d074db-9dd5-4c8c-ad5b-91b17a89d7c7.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL09",
-      "type": "highlight",
-      "title": "Gerardo Arteaga",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png",
-      "lowestPrice": 120,
-      "latestCreatedAt": "2026-03-09T05:10:51.105Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 82,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/423c8fef-3dc9-4583-95c0-6fa11dccd0c3.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png"
       }
     },
     {
@@ -2522,30 +2810,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m22",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M22 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f0ce992-bc27-42b0-b9e9-662fbaa1d98e.png",
-      "lowestPrice": 145000,
-      "latestCreatedAt": "2026-03-09T03:50:34.735Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m22",
-      "lowestEdition": 44,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/21cb1624-5d6d-47b9-b992-dff7a3cb5b96.jpeg",
-      "pack": {
-        "slug": "cat1-m22",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M22",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2551c5ea-d3f6-40c3-a90c-96e29b19ef2a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f0ce992-bc27-42b0-b9e9-662fbaa1d98e.png"
-      }
-    },
-    {
       "uniqueCode": "R_MC04",
       "type": "highlight",
       "title": "Tour Experencia Rayada Double Pass - Clausura 2026",
@@ -2591,30 +2855,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M55",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/db9dba62-0720-482b-913a-306fec977e53.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d4a574b5-070d-41b1-87b9-266520302aad.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL04",
-      "type": "highlight",
-      "title": "Christina Burkenroad",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5af33d4-2fc6-49c3-9ffa-4c22c79a31de.png",
-      "lowestPrice": 250,
-      "latestCreatedAt": "2026-03-09T03:41:17.952Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09227e29-9608-4f16-9916-073208274ed4.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5af33d4-2fc6-49c3-9ffa-4c22c79a31de.png"
       }
     },
     {
@@ -2687,30 +2927,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M71",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/616cde74-927a-49ef-8b32-1b017c4b3dc8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c8a64c1-3d58-4412-a6fe-13baff09409a.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m7",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M7 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da0288cd-55f0-4127-9101-1d1a90a9c686.png",
-      "lowestPrice": 162500,
-      "latestCreatedAt": "2026-03-09T03:18:57.609Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m7",
-      "lowestEdition": 18,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a982a115-2c4c-459b-ae10-9edccc95f0d2.jpeg",
-      "pack": {
-        "slug": "cat1-m7",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M7",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/af91181f-9353-4b9e-bff8-1d57b7a4e8ed.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da0288cd-55f0-4127-9101-1d1a90a9c686.png"
       }
     },
     {
@@ -3002,30 +3218,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m42",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M42 Philadelphia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a5447c8-9150-46bd-9dce-9caaf7aee252.png",
-      "lowestPrice": 70000,
-      "latestCreatedAt": "2026-03-09T01:46:55.670Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m42",
-      "lowestEdition": 20,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/50816a6c-bf8e-443e-97c3-6a5eefcfb35c.jpeg",
-      "pack": {
-        "slug": "cat1-m42",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M42",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9ce15527-789c-4f2e-b627-aee9cd3b42c0.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a5447c8-9150-46bd-9dce-9caaf7aee252.png"
-      }
-    },
-    {
       "uniqueCode": "M_CL03",
       "type": "highlight",
       "title": "Jesús Corona",
@@ -3170,30 +3362,6 @@
       }
     },
     {
-      "uniqueCode": "RO_DP19",
-      "type": "highlight",
-      "title": "Nacho Vidal",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/162a93ff-93f4-49c6-a15e-8d6659a71730.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T01:29:01.268Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 34,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/77bb29e9-fa76-4bbf-bd62-570be81e40fe.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/162a93ff-93f4-49c6-a15e-8d6659a71730.png"
-      }
-    },
-    {
       "uniqueCode": "M_CL24",
       "type": "highlight",
       "title": "Joaquín Moxica",
@@ -3239,30 +3407,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3ee11d1c-cc36-4c45-a0ba-48bc742dbc8f.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL19",
-      "type": "highlight",
-      "title": "Jorge Rodríguez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e9f79b7d-7f98-42f8-a60c-bd5fb04f962b.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T01:22:51.194Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3de5d408-8ebb-4f00-89eb-426fc3a53f83.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e9f79b7d-7f98-42f8-a60c-bd5fb04f962b.png"
       }
     },
     {
@@ -3434,30 +3578,6 @@
       }
     },
     {
-      "uniqueCode": "M_CL14",
-      "type": "highlight",
-      "title": "Fidel Ambriz",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e6268a74-c69b-4957-af64-582a3b492ee9.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-08T23:12:10.124Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e9e4b6e7-cc16-4015-8bd0-00d216f0ddfb.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e6268a74-c69b-4957-af64-582a3b492ee9.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m5",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M5 Boston",
@@ -3479,30 +3599,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M5",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5a4f0608-65b2-47c3-bbc0-bf9ff20531da.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/317a8f53-4c3b-481f-834e-de17bf992e55.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP11",
-      "type": "highlight",
-      "title": "Luka Ilic",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a8a10ba-e13c-4610-bb7c-dbbc9b60f705.png",
-      "lowestPrice": 114,
-      "latestCreatedAt": "2026-03-08T21:57:54.270Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 7,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7a9a6bcf-8613-4c57-8ca7-a8bd9138d62c.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a8a10ba-e13c-4610-bb7c-dbbc9b60f705.png"
       }
     },
     {
@@ -3743,6 +3839,30 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1905d162-a618-40da-9a8a-8449249ab78f.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL19",
+      "type": "highlight",
+      "title": "Jorge Rodríguez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e9f79b7d-7f98-42f8-a60c-bd5fb04f962b.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-08T19:36:46.627Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3de5d408-8ebb-4f00-89eb-426fc3a53f83.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e9f79b7d-7f98-42f8-a60c-bd5fb04f962b.png"
       }
     },
     {
@@ -4202,30 +4322,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m55",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M55 Philadelphia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0776424-b004-4107-a5ea-36225f558146.png",
-      "lowestPrice": 30000,
-      "latestCreatedAt": "2026-03-08T14:56:39.351Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m55",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3b318942-ff7d-4cdd-81be-b492934f06b8.jpeg",
-      "pack": {
-        "slug": "cat1-m55",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M55",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/62cf2a81-fdb9-479e-affa-ed1547d3ed59.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0776424-b004-4107-a5ea-36225f558146.png"
-      }
-    },
-    {
       "uniqueCode": "S2D01-01",
       "type": "highlight",
       "title": "France",
@@ -4535,30 +4631,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M56",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ef7533f1-485d-4ff3-ae6d-3406e06d66f2.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/45613fe7-072f-43aa-a95f-aca27a8e3219.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m18",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M18 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4c68ab99-1dd2-480b-98b3-e3e3e657d970.png",
-      "lowestPrice": 40000,
-      "latestCreatedAt": "2026-03-08T04:29:25.350Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m18",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/541f5850-68d9-48ac-8b2a-c4c39beb6a0d.jpeg",
-      "pack": {
-        "slug": "cat2-m18",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M18",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9c4ff2c7-28e4-45ef-986a-bf154dae44ef.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4c68ab99-1dd2-480b-98b3-e3e3e657d970.png"
       }
     },
     {
@@ -5591,30 +5663,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M90",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c2c29d25-e583-418d-a288-560c4d325393.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/51f1ed85-0d9d-4cd6-843b-d57d4e216ec0.png"
-      }
-    },
-    {
-      "uniqueCode": "O_DPR12",
-      "type": "highlight",
-      "title": "Double Pass - Real Oviedo vs Sevilla FC",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/07c7f738-368c-446b-b37b-c795c2b49008.png",
-      "lowestPrice": 4900,
-      "latestCreatedAt": "2026-03-07T22:30:12.007Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera-level2reward",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/eb6ded7b-262f-4ac1-a976-e6ae25642912.png",
-      "pack": {
-        "slug": "oviedo-deprimera-level2reward",
-        "title": "Real Oviedo - De Primera Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/42fe45ba-1d6b-49cb-b6c0-442cc3981aa2.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/07c7f738-368c-446b-b37b-c795c2b49008.png"
       }
     },
     {
@@ -7453,7 +7501,7 @@
       "subtitle": "CF Monterrey",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a06373d9-b6dc-4110-9af8-2f1e3797b92e.png",
       "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-06T03:17:42.430Z",
+      "latestCreatedAt": "2026-03-06T02:47:32.154Z",
       "rarity": {
         "code": "10",
         "color": "#27CFF7",
@@ -7737,6 +7785,54 @@
         "id": "dbac6743-87f8-4640-a218-a7a9aca1eade",
         "title": "Sydney",
         "subtitle": "Stadium Australia / Sydney Football Stadium"
+      }
+    },
+    {
+      "uniqueCode": "M_CL14",
+      "type": "highlight",
+      "title": "Fidel Ambriz",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e6268a74-c69b-4957-af64-582a3b492ee9.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-05T23:23:03.854Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e9e4b6e7-cc16-4015-8bd0-00d216f0ddfb.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e6268a74-c69b-4957-af64-582a3b492ee9.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL09",
+      "type": "highlight",
+      "title": "Gerardo Arteaga",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png",
+      "lowestPrice": 120,
+      "latestCreatedAt": "2026-03-05T23:19:05.445Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 111,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/423c8fef-3dc9-4583-95c0-6fa11dccd0c3.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png"
       }
     },
     {
@@ -11388,30 +11484,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m22",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M22 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36ce69d2-68ea-4307-829f-64234bc52d8f.png",
-      "lowestPrice": 109900,
-      "latestCreatedAt": "2026-02-28T01:47:38.916Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m22",
-      "lowestEdition": 33,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7973ee4-a94b-4448-a81d-39098cd524e6.jpeg",
-      "pack": {
-        "slug": "cat2-m22",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M22",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/42b707e7-7c34-4c54-82a0-3f2defa5dfe5.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36ce69d2-68ea-4307-829f-64234bc52d8f.png"
-      }
-    },
-    {
       "uniqueCode": "sp-v2-19",
       "type": "highlight",
       "title": "FIFA Collect House Nations World Cup 2026 Pass",
@@ -12329,30 +12401,6 @@
       }
     },
     {
-      "uniqueCode": "P_AP37",
-      "type": "highlight",
-      "title": "Eduardo Bauermann - Signed",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3312d7b-6f0c-4201-9918-cd3adf3c5be1.png",
-      "lowestPrice": 2100,
-      "latestCreatedAt": "2026-02-26T04:54:13.111Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5f079a84-afa7-4f6b-8051-67b661f0c753.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3312d7b-6f0c-4201-9918-cd3adf3c5be1.png"
-      }
-    },
-    {
       "uniqueCode": "rg2-dr01",
       "type": "highlight",
       "title": "Argentina",
@@ -12833,30 +12881,6 @@
       }
     },
     {
-      "uniqueCode": "F_AM23",
-      "type": "highlight",
-      "title": "8. Martinelli",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b913e1b-be99-46fb-8e06-ae7630554fe9.png",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2026-02-25T06:07:45.128Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d3d9ff9e-8213-434d-addc-8dee0318394b.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b913e1b-be99-46fb-8e06-ae7630554fe9.png"
-      }
-    },
-    {
       "uniqueCode": "F_AM17",
       "type": "highlight",
       "title": "1. Fábio",
@@ -12878,30 +12902,6 @@
         "title": "Fluminense FC - Armadura Tricolor MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5da7e7c4-636a-4b42-902c-0d8594e65842.png"
-      }
-    },
-    {
-      "uniqueCode": "F_AM24",
-      "type": "highlight",
-      "title": "22. Juan Pablo Freytes",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cba1e688-318b-491e-bd56-1cf9536b8d4a.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-02-25T05:59:05.504Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9adc6762-95c0-4f75-ac9d-55136ad18ac4.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cba1e688-318b-491e-bd56-1cf9536b8d4a.png"
       }
     },
     {
