@@ -2,6 +2,102 @@
   "total": 2051,
   "listings": [
     {
+      "uniqueCode": "M_AP28",
+      "type": "highlight",
+      "title": "John Stefan Medina",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/86b17a1f-d2f6-40ea-baa6-3198751ebed2.png",
+      "lowestPrice": 200,
+      "latestCreatedAt": "2026-03-10T07:31:10.321Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-apertura2025-sp",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fc78ed01-b580-45fc-9795-901abbcdde9b.png",
+      "pack": {
+        "slug": "monterrey-apertura2025-sp",
+        "title": "CF Monterrey - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5211419-df41-432d-9ab1-7eaccfb87422.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/86b17a1f-d2f6-40ea-baa6-3198751ebed2.png"
+      }
+    },
+    {
+      "uniqueCode": "M_AP24",
+      "type": "highlight",
+      "title": "Héctor Moreno",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7a73ff89-4db6-43e6-8efd-547d4e4f54ea.png",
+      "lowestPrice": 300,
+      "latestCreatedAt": "2026-03-10T07:30:25.248Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-apertura2025-sp",
+      "lowestEdition": 26,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/45efc4c4-f3f4-4ba7-b501-5a158c7cc8e2.png",
+      "pack": {
+        "slug": "monterrey-apertura2025-sp",
+        "title": "CF Monterrey - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5211419-df41-432d-9ab1-7eaccfb87422.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7a73ff89-4db6-43e6-8efd-547d4e4f54ea.png"
+      }
+    },
+    {
+      "uniqueCode": "M_AP26",
+      "type": "highlight",
+      "title": "Jesús Corona",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/70690fce-4d96-4abc-9ad0-f55e1e036011.png",
+      "lowestPrice": 275,
+      "latestCreatedAt": "2026-03-10T07:29:18.917Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-apertura2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/436cfbc2-2163-408e-abff-d21a9e43586d.png",
+      "pack": {
+        "slug": "monterrey-apertura2025-sp",
+        "title": "CF Monterrey - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5211419-df41-432d-9ab1-7eaccfb87422.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/70690fce-4d96-4abc-9ad0-f55e1e036011.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m61",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M61 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8101feb9-188c-4c2e-bc24-6a95a4282a5d.png",
+      "lowestPrice": 99800,
+      "latestCreatedAt": "2026-03-10T06:54:49.283Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m61",
+      "lowestEdition": 12,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bfd493e3-62f5-450e-ab90-6b2ee09b64a0.jpeg",
+      "pack": {
+        "slug": "cat2-m61",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M61",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/90dda999-25a9-4430-aa3e-26c78d8a22bb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8101feb9-188c-4c2e-bc24-6a95a4282a5d.png"
+      }
+    },
+    {
       "uniqueCode": "spgb1-28",
       "type": "highlight",
       "title": "Brazil",
@@ -328,7 +424,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "oviedo-deprimera",
-      "lowestEdition": 2,
+      "lowestEdition": 3,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f62da6ea-c19f-4801-9541-0c277334ee93.png",
       "pack": {
         "slug": "oviedo-deprimera",
@@ -3386,30 +3482,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m61",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M61 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8101feb9-188c-4c2e-bc24-6a95a4282a5d.png",
-      "lowestPrice": 99900,
-      "latestCreatedAt": "2026-03-09T22:17:59.258Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m61",
-      "lowestEdition": 12,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bfd493e3-62f5-450e-ab90-6b2ee09b64a0.jpeg",
-      "pack": {
-        "slug": "cat2-m61",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M61",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/90dda999-25a9-4430-aa3e-26c78d8a22bb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8101feb9-188c-4c2e-bc24-6a95a4282a5d.png"
-      }
-    },
-    {
       "uniqueCode": "cat2m102",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M102 Atlanta",
@@ -5015,30 +5087,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M82",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9b18ba91-3742-473e-b80a-b1ca0c402d7b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/685c0d19-503a-4f7d-a156-1415df59de89.png"
-      }
-    },
-    {
-      "uniqueCode": "M_AP26",
-      "type": "highlight",
-      "title": "Jesús Corona",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/70690fce-4d96-4abc-9ad0-f55e1e036011.png",
-      "lowestPrice": 275,
-      "latestCreatedAt": "2026-03-09T14:41:32.759Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-apertura2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/436cfbc2-2163-408e-abff-d21a9e43586d.png",
-      "pack": {
-        "slug": "monterrey-apertura2025-sp",
-        "title": "CF Monterrey - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5211419-df41-432d-9ab1-7eaccfb87422.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/70690fce-4d96-4abc-9ad0-f55e1e036011.png"
       }
     },
     {
@@ -18350,30 +18398,6 @@
         "title": "Memorable Penalties",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a11f8051-e602-4af6-abad-9303eabd17de.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2b1ecad3-1c0a-4450-8e4c-0c55994e2ef9.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "M_AP24",
-      "type": "highlight",
-      "title": "Héctor Moreno",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7a73ff89-4db6-43e6-8efd-547d4e4f54ea.png",
-      "lowestPrice": 300,
-      "latestCreatedAt": "2026-02-17T00:46:23.295Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-apertura2025-sp",
-      "lowestEdition": 26,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/45efc4c4-f3f4-4ba7-b501-5a158c7cc8e2.png",
-      "pack": {
-        "slug": "monterrey-apertura2025-sp",
-        "title": "CF Monterrey - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5211419-df41-432d-9ab1-7eaccfb87422.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7a73ff89-4db6-43e6-8efd-547d4e4f54ea.png"
       }
     },
     {
@@ -37114,30 +37138,6 @@
         "title": "USA94 - 30 years later",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2ce9da03-f5f0-4ba4-b71e-d73446d6a262.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "M_AP28",
-      "type": "highlight",
-      "title": "John Stefan Medina",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/86b17a1f-d2f6-40ea-baa6-3198751ebed2.png",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2025-11-13T18:32:33.468Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-apertura2025-sp",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fc78ed01-b580-45fc-9795-901abbcdde9b.png",
-      "pack": {
-        "slug": "monterrey-apertura2025-sp",
-        "title": "CF Monterrey - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5211419-df41-432d-9ab1-7eaccfb87422.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/86b17a1f-d2f6-40ea-baa6-3198751ebed2.png"
       }
     },
     {
