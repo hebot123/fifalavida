@@ -1,6 +1,1326 @@
 {
-  "total": 2051,
+  "total": 2052,
   "listings": [
+    {
+      "uniqueCode": "P_AP33",
+      "type": "highlight",
+      "title": "Luis Quiñones - Signed",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/31f2ceb1-7659-4e35-ac1b-0c6f098e0fa0.png",
+      "lowestPrice": 1550,
+      "latestCreatedAt": "2026-03-11T04:00:50.447Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e0709bed-c1df-45b9-bf15-7b628e4e8191.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/31f2ceb1-7659-4e35-ac1b-0c6f098e0fa0.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL12",
+      "type": "highlight",
+      "title": "Allison Veloz",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f0315-5834-46c8-8452-a480ad8fc11e.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:59:08.369Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 144,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/64200f8e-8461-4a5b-995b-ebcbc4e17846.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f0315-5834-46c8-8452-a480ad8fc11e.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL15",
+      "type": "highlight",
+      "title": "Karol Bernal",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1945fec-a0dc-4a51-9d3c-5019b6d83ccf.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:58:53.626Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 17,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bd9a877a-4793-417e-a0e6-d36b0c0b05c5.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1945fec-a0dc-4a51-9d3c-5019b6d83ccf.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL08",
+      "type": "highlight",
+      "title": "Óliver Torres",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png",
+      "lowestPrice": 108,
+      "latestCreatedAt": "2026-03-11T03:58:35.399Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2154e8b7-648b-4426-8a39-de7baebd9d03.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL09",
+      "type": "highlight",
+      "title": "Gerardo Arteaga",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png",
+      "lowestPrice": 184,
+      "latestCreatedAt": "2026-03-11T03:58:03.995Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 111,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/423c8fef-3dc9-4583-95c0-6fa11dccd0c3.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL13",
+      "type": "highlight",
+      "title": "Érick Aguirre",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1905d162-a618-40da-9a8a-8449249ab78f.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:56:35.173Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5a258343-dd0f-413b-9313-ed1e25dd2a64.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1905d162-a618-40da-9a8a-8449249ab78f.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP53",
+      "type": "highlight",
+      "title": "POTW - Gastón Togni",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe0f2229-0632-492b-b28c-444102216d06.png",
+      "lowestPrice": 1080,
+      "latestCreatedAt": "2026-03-11T03:56:11.877Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e38e02b8-14b6-46df-87b6-33ec2305bd75.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe0f2229-0632-492b-b28c-444102216d06.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL18",
+      "type": "highlight",
+      "title": "Luis Cárdenas",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/229e3385-820d-4f45-ac1e-4cdbac5ce59c.png",
+      "lowestPrice": 204,
+      "latestCreatedAt": "2026-03-11T03:55:22.249Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 16,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e481b9f8-ceee-4658-807f-9c5122b3f457.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/229e3385-820d-4f45-ac1e-4cdbac5ce59c.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL23",
+      "type": "highlight",
+      "title": "Gustavo Sánchez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc5a557-b10c-485d-b58e-ce18f5da2daf.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:53:47.516Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 49,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/71358cf5-2ab9-450b-98b8-69231f32bd01.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc5a557-b10c-485d-b58e-ce18f5da2daf.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL03",
+      "type": "highlight",
+      "title": "Jesús Corona",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0107fbc7-bff4-49cd-b9a2-dbec002948f8.png",
+      "lowestPrice": 252,
+      "latestCreatedAt": "2026-03-11T03:53:20.178Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 34,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f699f2da-98e3-41e4-a6c8-968d4d0c0305.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0107fbc7-bff4-49cd-b9a2-dbec002948f8.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL10",
+      "type": "highlight",
+      "title": "Djuka",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3ee11d1c-cc36-4c45-a0ba-48bc742dbc8f.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:52:34.235Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/13f63ce5-6d8f-4307-996e-ea2f3947d9f4.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3ee11d1c-cc36-4c45-a0ba-48bc742dbc8f.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL07",
+      "type": "highlight",
+      "title": "Monty",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png",
+      "lowestPrice": 359,
+      "latestCreatedAt": "2026-03-11T03:51:18.979Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/385e75e2-fb86-4980-bc4b-31123c2b22dd.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL11",
+      "type": "highlight",
+      "title": "Daiane Medeiros",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc8eb707-33aa-478b-9bb9-6835e2a4eb98.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:50:15.381Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 20,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ad71be04-6273-4bf1-bfd7-8d8a6793436a.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc8eb707-33aa-478b-9bb9-6835e2a4eb98.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL16",
+      "type": "highlight",
+      "title": "Marcela Restrepo",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6d074db-9dd5-4c8c-ad5b-91b17a89d7c7.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:48:29.387Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/de2df82b-1065-4dbc-9de3-143c17d5e2a2.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6d074db-9dd5-4c8c-ad5b-91b17a89d7c7.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL04",
+      "type": "highlight",
+      "title": "Christina Burkenroad",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5af33d4-2fc6-49c3-9ffa-4c22c79a31de.png",
+      "lowestPrice": 235,
+      "latestCreatedAt": "2026-03-11T03:47:04.535Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09227e29-9608-4f16-9916-073208274ed4.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5af33d4-2fc6-49c3-9ffa-4c22c79a31de.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL20",
+      "type": "highlight",
+      "title": "Roberto De La Rosa",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/858624f2-cd16-42ea-b619-de912f00f17d.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:45:40.191Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0f70ea9a-b806-4d37-be43-b8eb42cc1723.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/858624f2-cd16-42ea-b619-de912f00f17d.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL24",
+      "type": "highlight",
+      "title": "Joaquín Moxica",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/269e8b9f-6a1d-45cd-9cd2-01524ad588ef.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:44:17.320Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 6,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/78431c55-e3f1-4ba9-bf47-b0e6be49eab2.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/269e8b9f-6a1d-45cd-9cd2-01524ad588ef.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL17",
+      "type": "highlight",
+      "title": "Katty Martínez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a00c209b-adc2-4e7e-860d-afa496a2b78e.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:43:10.648Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 30,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c212b504-70b2-40dd-838b-9e8ba6247248.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a00c209b-adc2-4e7e-860d-afa496a2b78e.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL25",
+      "type": "highlight",
+      "title": "Valeria Del Campo",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cfb96d05-24aa-4256-802d-82f74130a419.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:42:28.260Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 124,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/176bcb9b-bd54-4d7e-b3cd-ca0a158f20c4.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cfb96d05-24aa-4256-802d-82f74130a419.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m27",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M27 Vancouver",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7d638f1b-a921-4f73-b038-9f7b7e8da1bb.png",
+      "lowestPrice": 86900,
+      "latestCreatedAt": "2026-03-11T03:26:41.357Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m27",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab76ea14-561b-4342-948f-27112a01d315.jpeg",
+      "pack": {
+        "slug": "cat1-m27",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M27",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/47f23dc0-e7cb-415d-8851-99d78e336b0d.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7d638f1b-a921-4f73-b038-9f7b7e8da1bb.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_DP01",
+      "type": "highlight",
+      "title": "Santi Cazorla",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7bfe3f80-5a16-4203-ae3e-a2fdcc2914d5.png",
+      "lowestPrice": 8590,
+      "latestCreatedAt": "2026-03-11T03:21:00.588Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 21,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/168ad3c2-bb90-4d8d-b84c-656cf115049e.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7bfe3f80-5a16-4203-ae3e-a2fdcc2914d5.png"
+      }
+    },
+    {
+      "uniqueCode": "O_DPR08",
+      "type": "highlight",
+      "title": "Official Cap - Signed by Santi Cazorla",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/483275c4-1f7d-4ff6-a663-f34a81a82030.png",
+      "lowestPrice": 19900,
+      "latestCreatedAt": "2026-03-11T03:19:01.028Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera-level2reward",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1a5290c1-09fa-4d16-a022-92fbdb07b75b.png",
+      "pack": {
+        "slug": "oviedo-deprimera-level2reward",
+        "title": "Real Oviedo - De Primera Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/42fe45ba-1d6b-49cb-b6c0-442cc3981aa2.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/483275c4-1f7d-4ff6-a663-f34a81a82030.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m28",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M28 Guadalajara",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1391abd1-881b-45a1-a77e-4339b13d9aa9.png",
+      "lowestPrice": 219900,
+      "latestCreatedAt": "2026-03-11T03:18:21.469Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m28",
+      "lowestEdition": 151,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/59a6d41a-ad0b-46f8-848a-e0f274c25708.jpeg",
+      "pack": {
+        "slug": "cat2-m28",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M28",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0158440a-c82e-4693-8d5c-1d4aa40b0c47.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1391abd1-881b-45a1-a77e-4339b13d9aa9.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A19",
+      "type": "highlight",
+      "title": "Oscar Ustari",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/20bbe610-f459-42a7-b0b0-a58f5a57d580.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:14:08.769Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/15aca825-0185-4a59-b7bb-32abfc5836eb.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/20bbe610-f459-42a7-b0b0-a58f5a57d580.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A15",
+      "type": "highlight",
+      "title": "Hernán Medford",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7928c8c-73f7-4d9a-9f60-b34d058b72d9.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:13:24.778Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 28,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/aa89fca3-8ef9-4c96-80cf-1492527f8407.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7928c8c-73f7-4d9a-9f60-b34d058b72d9.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A03",
+      "type": "highlight",
+      "title": "Oscar Murillo",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1d4b2603-3d61-49ec-a031-4b8c9ad9094a.png",
+      "lowestPrice": 275,
+      "latestCreatedAt": "2026-03-11T03:12:51.259Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 13,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/48047c84-cd28-47af-80e0-3f7d92bf802f.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1d4b2603-3d61-49ec-a031-4b8c9ad9094a.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A20",
+      "type": "highlight",
+      "title": "Enner Valencia",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0a00f34c-47df-4e32-9805-ff312f4197a6.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:11:41.197Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 19,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bc29722-c014-47ff-b3f1-03c2f4e9a512.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0a00f34c-47df-4e32-9805-ff312f4197a6.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A13",
+      "type": "highlight",
+      "title": "Diego Alonso",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0db715c7-713e-44b4-a421-d73a22d64d5f.png",
+      "lowestPrice": 120,
+      "latestCreatedAt": "2026-03-11T03:11:13.436Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/eed22b47-b42e-4c63-acc0-8a97d4d61c79.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0db715c7-713e-44b4-a421-d73a22d64d5f.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A01",
+      "type": "highlight",
+      "title": "Miguel Calero",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/350c99e6-ac89-4a8f-bb58-949ff875d2bd.png",
+      "lowestPrice": 7920,
+      "latestCreatedAt": "2026-03-11T03:10:07.945Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 16,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/90898043-8653-453c-8a04-0237437369e6.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/350c99e6-ac89-4a8f-bb58-949ff875d2bd.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A12",
+      "type": "highlight",
+      "title": "Óscar Pérez",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62e452af-f7c0-4d8f-a91a-2e5c4d8e092b.png",
+      "lowestPrice": 160,
+      "latestCreatedAt": "2026-03-11T03:08:01.971Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 13,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09502d59-432a-4d42-a8ca-46c1b3632de4.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62e452af-f7c0-4d8f-a91a-2e5c4d8e092b.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A16",
+      "type": "highlight",
+      "title": "Alfredo Tena",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a2f6b1a-518f-4e9e-b381-f43d53e03e5c.png",
+      "lowestPrice": 126,
+      "latestCreatedAt": "2026-03-11T03:06:14.128Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 25,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/80339a75-3cae-41bf-b50b-7522bd3a0bb4.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a2f6b1a-518f-4e9e-b381-f43d53e03e5c.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A22",
+      "type": "highlight",
+      "title": "Manuel Vidrio",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ddb46f1d-3dde-4521-b9ab-183c0237a320.png",
+      "lowestPrice": 204,
+      "latestCreatedAt": "2026-03-11T03:05:02.467Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8f9d8245-1932-4129-be54-32a785192a8f.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ddb46f1d-3dde-4521-b9ab-183c0237a320.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A10",
+      "type": "highlight",
+      "title": "Jaime Correa",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d7f2e537-dac6-4cf4-b4c6-d6064dcbc5d6.png",
+      "lowestPrice": 219,
+      "latestCreatedAt": "2026-03-11T03:04:36.635Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 41,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26eb3fd4-0e96-4f66-a527-ca5f99c047cb.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d7f2e537-dac6-4cf4-b4c6-d6064dcbc5d6.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m40",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M40 Vancouver",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d0f57bba-c49d-4ea1-b12f-566183337ad1.png",
+      "lowestPrice": 47500,
+      "latestCreatedAt": "2026-03-11T03:03:52.358Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m40",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16723752-9dcb-46f3-871a-39ad367360a6.jpeg",
+      "pack": {
+        "slug": "cat1-m40",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M40",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d8518e21-a4b1-45a8-a342-e4bedb602d5a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d0f57bba-c49d-4ea1-b12f-566183337ad1.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A14",
+      "type": "highlight",
+      "title": "Sergio Santana",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/379a93eb-e4c5-4675-8478-e46ba2fb5416.png",
+      "lowestPrice": 115,
+      "latestCreatedAt": "2026-03-11T03:03:38.673Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 16,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bd9ca894-613b-4757-a7a5-ba244359a712.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/379a93eb-e4c5-4675-8478-e46ba2fb5416.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A21",
+      "type": "highlight",
+      "title": "Hirving Lozano",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e604aa4-8e6a-45a4-b008-09f4cbb969a9.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T03:02:54.354Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/76085e9e-f52e-430c-a293-6d9de434e27d.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e604aa4-8e6a-45a4-b008-09f4cbb969a9.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL02",
+      "type": "highlight",
+      "title": "Anthony Martial",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e71b896-7694-434a-9d36-b16921994d8c.png",
+      "lowestPrice": 475,
+      "latestCreatedAt": "2026-03-11T03:02:53.011Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 18,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d859a317-8f91-4f12-991b-879179f15074.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e71b896-7694-434a-9d36-b16921994d8c.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A04",
+      "type": "highlight",
+      "title": "Andrés Chitiva",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/faf224aa-6ba7-498f-8d7c-68ac934e92a1.png",
+      "lowestPrice": 306,
+      "latestCreatedAt": "2026-03-11T03:02:32.950Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/743a4548-99c3-41d5-9278-2d23fd6197e0.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/faf224aa-6ba7-498f-8d7c-68ac934e92a1.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A11",
+      "type": "highlight",
+      "title": "Carlos Moreno",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a414a049-406a-46b9-b92c-0b48f063e64d.png",
+      "lowestPrice": 800,
+      "latestCreatedAt": "2026-03-11T03:01:55.453Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/042e29ff-cb21-4b8f-8b5b-f165a8270334.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a414a049-406a-46b9-b92c-0b48f063e64d.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A02",
+      "type": "highlight",
+      "title": "Enrique Meza",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/86c12835-5fd0-4899-9a14-431c84420223.png",
+      "lowestPrice": 204,
+      "latestCreatedAt": "2026-03-11T03:01:25.869Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/07a9a0d6-54ab-43c2-a91e-22b054057e37.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/86c12835-5fd0-4899-9a14-431c84420223.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A08",
+      "type": "highlight",
+      "title": "Salomón Rondón",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42a3adbb-63c4-44b9-89ad-fc5857d6e33a.png",
+      "lowestPrice": 187,
+      "latestCreatedAt": "2026-03-11T03:00:54.009Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 46,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f4c65743-e3cd-474d-bebd-86fb2640ebc6.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42a3adbb-63c4-44b9-89ad-fc5857d6e33a.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A09",
+      "type": "highlight",
+      "title": "Christian Giménez",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7960a68-3aad-439d-8b37-2c5f55088a6e.png",
+      "lowestPrice": 178,
+      "latestCreatedAt": "2026-03-11T03:00:13.351Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/964bb6dd-d9f9-46cc-9839-ad2a7ec923b4.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7960a68-3aad-439d-8b37-2c5f55088a6e.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A23",
+      "type": "highlight",
+      "title": "Marvín Cabrera",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/80325fc6-9255-4603-922e-48f7816376f3.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T02:58:26.328Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 91,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/59cc267d-fb74-447a-8d71-ac4e924b3f6d.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/80325fc6-9255-4603-922e-48f7816376f3.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A24",
+      "type": "highlight",
+      "title": "Marco de Almeida",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/296b1761-c06e-4cd7-b8a1-192412d245c6.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T02:57:57.484Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/954d0f95-4b0b-4e42-be17-e3e571c24b28.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/296b1761-c06e-4cd7-b8a1-192412d245c6.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A25",
+      "type": "highlight",
+      "title": "Guillermo Rivarola",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/aac03d06-77b4-47db-a963-e7545b50a5a9.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T02:57:43.039Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 28,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a8d518c0-c42b-4d36-aff7-816c5350b461.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/aac03d06-77b4-47db-a963-e7545b50a5a9.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m57",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M57 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e5f3189e-32c1-4526-80d6-01ea0461ebb5.png",
+      "lowestPrice": 65000,
+      "latestCreatedAt": "2026-03-11T02:37:09.501Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m57",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f919cf64-870f-4f25-be61-1da52859c195.jpeg",
+      "pack": {
+        "slug": "cat1-m57",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M57",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b2875023-1349-4004-b7f1-79420f075760.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e5f3189e-32c1-4526-80d6-01ea0461ebb5.png"
+      }
+    },
+    {
+      "uniqueCode": "cat3-m33",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 3 for M33 Toronto",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png",
+      "lowestPrice": 61500,
+      "latestCreatedAt": "2026-03-11T02:33:25.231Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat3-m33",
+      "lowestEdition": 33,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6bd1b415-ef2e-4ee9-ad48-bdcabc48961e.jpeg",
+      "pack": {
+        "slug": "cat3-m33",
+        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M33",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/08f657b7-b5f9-4261-92d5-6c460f27c489.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m37",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M37 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e561bc7a-669e-4d1e-b093-501b66f6480d.png",
+      "lowestPrice": 40000,
+      "latestCreatedAt": "2026-03-11T02:04:32.679Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m37",
+      "lowestEdition": 22,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e301d04d-13f8-4006-bd53-2a698047afcf.jpeg",
+      "pack": {
+        "slug": "cat1-m37",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M37",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/99d5f727-8e75-486e-9bcd-22fb544231a6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e561bc7a-669e-4d1e-b093-501b66f6480d.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2m101",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M101 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79129c48-3371-4db3-8897-5a99072c4231.png",
+      "lowestPrice": 350000,
+      "latestCreatedAt": "2026-03-11T01:59:31.774Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m101",
+      "lowestEdition": 22,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6a1f3803-6e3e-4069-bb3f-14fe2f5b9456.jpeg",
+      "pack": {
+        "slug": "cat2-m101",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M101",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1612a804-ccbb-47ae-9c66-052ab932481a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79129c48-3371-4db3-8897-5a99072c4231.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL22",
+      "type": "highlight",
+      "title": "Samantha Simental",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a06373d9-b6dc-4110-9af8-2f1e3797b92e.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T01:52:59.906Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dfcd28d7-ba20-47be-a8d3-af818c471dfc.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a06373d9-b6dc-4110-9af8-2f1e3797b92e.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL21",
+      "type": "highlight",
+      "title": "Nicole Pérez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cf64d69b-2793-4911-be0f-e95667048d4c.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-11T01:52:29.547Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1845559b-7dbf-48c3-8597-991662aa2c27.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cf64d69b-2793-4911-be0f-e95667048d4c.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m93",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M93 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8dfdee43-6a7e-4cc2-9739-c1d165b10577.png",
+      "lowestPrice": 147500,
+      "latestCreatedAt": "2026-03-11T01:47:19.799Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m93",
+      "lowestEdition": 59,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/83843784-92b3-4c76-a3b7-26f1d1191444.jpeg",
+      "pack": {
+        "slug": "cat1-m93",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M93",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/07ff70ea-607b-4599-8be3-e280d1abf6cd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8dfdee43-6a7e-4cc2-9739-c1d165b10577.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m13",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M13 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27ab08a7-d2e6-487d-b471-01542954df40.png",
+      "lowestPrice": 44500,
+      "latestCreatedAt": "2026-03-11T01:40:34.904Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m13",
+      "lowestEdition": 17,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/320499b9-7edb-4747-a732-38ee09fb1018.jpeg",
+      "pack": {
+        "slug": "cat2-m13",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M13",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ad16bfcb-62e4-4e46-9d71-86bf42890cdd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27ab08a7-d2e6-487d-b471-01542954df40.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m71",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M71 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c8a64c1-3d58-4412-a6fe-13baff09409a.png",
+      "lowestPrice": 290000,
+      "latestCreatedAt": "2026-03-11T01:35:02.795Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m71",
+      "lowestEdition": 41,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c5af70a5-8e64-4049-b695-fc2baf1ee2ce.jpeg",
+      "pack": {
+        "slug": "cat1-m71",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M71",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/616cde74-927a-49ef-8b32-1b017c4b3dc8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c8a64c1-3d58-4412-a6fe-13baff09409a.png"
+      }
+    },
+    {
+      "uniqueCode": "cat3-m83",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 3 for M83 Toronto",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png",
+      "lowestPrice": 129500,
+      "latestCreatedAt": "2026-03-11T01:27:36.857Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat3-m83",
+      "lowestEdition": 28,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4e6afd69-b4a9-41de-b288-6c1cc828ff43.jpeg",
+      "pack": {
+        "slug": "cat3-m83",
+        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M83",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1e96b90b-6c71-43ea-b91d-ce35136e1471.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png"
+      }
+    },
     {
       "uniqueCode": "cat2-m11",
       "type": "highlight",
@@ -23,30 +1343,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M11",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6ad6b6d0-3787-48ec-ba1a-fa5357bc34e6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7087c9c-5202-4387-bcaf-20c1c16e1ebc.png"
-      }
-    },
-    {
-      "uniqueCode": "cat3-m33",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 3 for M33 Toronto",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png",
-      "lowestPrice": 60000,
-      "latestCreatedAt": "2026-03-11T01:12:35.399Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat3-m33",
-      "lowestEdition": 33,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6bd1b415-ef2e-4ee9-ad48-bdcabc48961e.jpeg",
-      "pack": {
-        "slug": "cat3-m33",
-        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M33",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/08f657b7-b5f9-4261-92d5-6c460f27c489.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png"
       }
     },
     {
@@ -362,30 +1658,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m37",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M37 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e561bc7a-669e-4d1e-b093-501b66f6480d.png",
-      "lowestPrice": 40000,
-      "latestCreatedAt": "2026-03-10T22:59:38.395Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m37",
-      "lowestEdition": 22,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e301d04d-13f8-4006-bd53-2a698047afcf.jpeg",
-      "pack": {
-        "slug": "cat1-m37",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M37",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/99d5f727-8e75-486e-9bcd-22fb544231a6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e561bc7a-669e-4d1e-b093-501b66f6480d.png"
-      }
-    },
-    {
       "uniqueCode": "R_PA19",
       "type": "highlight",
       "title": "Club Pachuca TV Interview Experience",
@@ -407,30 +1679,6 @@
         "title": "CF Pachuca - 133 Aniversario Vol. 1 Reward Pack",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a2ba52d5-ab08-4a9e-a52b-917ee7ee5147.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a7f30bde-646e-48f8-a5b5-a8cf3a59a0eb.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m83",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M83 Toronto",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b8a13ea5-e8ee-48b5-9631-d6f14bbda445.png",
-      "lowestPrice": 200000,
-      "latestCreatedAt": "2026-03-10T22:51:42.784Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m83",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a93fec0e-f129-495b-a919-54a184fe975c.jpeg",
-      "pack": {
-        "slug": "cat1-m83",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M83",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4514dbb2-8bd5-40ec-9966-b8d037610def.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b8a13ea5-e8ee-48b5-9631-d6f14bbda445.png"
       }
     },
     {
@@ -506,6 +1754,30 @@
       }
     },
     {
+      "uniqueCode": "cat1-m83",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M83 Toronto",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b8a13ea5-e8ee-48b5-9631-d6f14bbda445.png",
+      "lowestPrice": 295000,
+      "latestCreatedAt": "2026-03-10T21:50:25.161Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m83",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a93fec0e-f129-495b-a919-54a184fe975c.jpeg",
+      "pack": {
+        "slug": "cat1-m83",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M83",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4514dbb2-8bd5-40ec-9966-b8d037610def.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b8a13ea5-e8ee-48b5-9631-d6f14bbda445.png"
+      }
+    },
+    {
       "uniqueCode": "cat1-m89",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M89 Philadelphia",
@@ -527,30 +1799,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M89",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5410173b-ce9e-4b25-bf08-2d2aa6a94a05.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/71f6d6a4-e625-44c8-8ddd-928e06a9a0fc.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m93",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M93 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8dfdee43-6a7e-4cc2-9739-c1d165b10577.png",
-      "lowestPrice": 142000,
-      "latestCreatedAt": "2026-03-10T21:40:14.602Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m93",
-      "lowestEdition": 59,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/83843784-92b3-4c76-a3b7-26f1d1191444.jpeg",
-      "pack": {
-        "slug": "cat1-m93",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M93",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/07ff70ea-607b-4599-8be3-e280d1abf6cd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8dfdee43-6a7e-4cc2-9739-c1d165b10577.png"
       }
     },
     {
@@ -650,54 +1898,6 @@
       }
     },
     {
-      "uniqueCode": "P_133A08",
-      "type": "highlight",
-      "title": "Salomón Rondón",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42a3adbb-63c4-44b9-89ad-fc5857d6e33a.png",
-      "lowestPrice": 187,
-      "latestCreatedAt": "2026-03-10T21:19:04.070Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 46,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f4c65743-e3cd-474d-bebd-86fb2640ebc6.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42a3adbb-63c4-44b9-89ad-fc5857d6e33a.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A01",
-      "type": "highlight",
-      "title": "Miguel Calero",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/350c99e6-ac89-4a8f-bb58-949ff875d2bd.png",
-      "lowestPrice": 7920,
-      "latestCreatedAt": "2026-03-10T21:18:13.219Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 16,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/90898043-8653-453c-8a04-0237437369e6.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/350c99e6-ac89-4a8f-bb58-949ff875d2bd.png"
-      }
-    },
-    {
       "uniqueCode": "P_133A06",
       "type": "highlight",
       "title": "Juan Carlos Cacho",
@@ -722,78 +1922,6 @@
       }
     },
     {
-      "uniqueCode": "P_133A24",
-      "type": "highlight",
-      "title": "Marco de Almeida",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/296b1761-c06e-4cd7-b8a1-192412d245c6.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T21:17:09.894Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/954d0f95-4b0b-4e42-be17-e3e571c24b28.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/296b1761-c06e-4cd7-b8a1-192412d245c6.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A20",
-      "type": "highlight",
-      "title": "Enner Valencia",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0a00f34c-47df-4e32-9805-ff312f4197a6.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T21:16:53.986Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 65,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bc29722-c014-47ff-b3f1-03c2f4e9a512.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0a00f34c-47df-4e32-9805-ff312f4197a6.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A25",
-      "type": "highlight",
-      "title": "Guillermo Rivarola",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/aac03d06-77b4-47db-a963-e7545b50a5a9.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T21:16:15.058Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 28,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a8d518c0-c42b-4d36-aff7-816c5350b461.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/aac03d06-77b4-47db-a963-e7545b50a5a9.png"
-      }
-    },
-    {
       "uniqueCode": "P_133A18",
       "type": "highlight",
       "title": "Luis Chávez",
@@ -815,150 +1943,6 @@
         "title": "CF Pachuca - 133 Aniversario Vol. 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b39fd530-4162-437b-a51f-bda4fcb8d9ee.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A21",
-      "type": "highlight",
-      "title": "Hirving Lozano",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e604aa4-8e6a-45a4-b008-09f4cbb969a9.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T21:15:28.215Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/76085e9e-f52e-430c-a293-6d9de434e27d.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e604aa4-8e6a-45a4-b008-09f4cbb969a9.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A22",
-      "type": "highlight",
-      "title": "Manuel Vidrio",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ddb46f1d-3dde-4521-b9ab-183c0237a320.png",
-      "lowestPrice": 204,
-      "latestCreatedAt": "2026-03-10T21:14:34.791Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8f9d8245-1932-4129-be54-32a785192a8f.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ddb46f1d-3dde-4521-b9ab-183c0237a320.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A11",
-      "type": "highlight",
-      "title": "Carlos Moreno",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a414a049-406a-46b9-b92c-0b48f063e64d.png",
-      "lowestPrice": 800,
-      "latestCreatedAt": "2026-03-10T21:13:33.206Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/042e29ff-cb21-4b8f-8b5b-f165a8270334.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a414a049-406a-46b9-b92c-0b48f063e64d.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A09",
-      "type": "highlight",
-      "title": "Christian Giménez",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7960a68-3aad-439d-8b37-2c5f55088a6e.png",
-      "lowestPrice": 178,
-      "latestCreatedAt": "2026-03-10T21:13:07.473Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 46,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/964bb6dd-d9f9-46cc-9839-ad2a7ec923b4.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7960a68-3aad-439d-8b37-2c5f55088a6e.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A19",
-      "type": "highlight",
-      "title": "Oscar Ustari",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/20bbe610-f459-42a7-b0b0-a58f5a57d580.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T21:12:46.552Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/15aca825-0185-4a59-b7bb-32abfc5836eb.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/20bbe610-f459-42a7-b0b0-a58f5a57d580.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A14",
-      "type": "highlight",
-      "title": "Sergio Santana",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/379a93eb-e4c5-4675-8478-e46ba2fb5416.png",
-      "lowestPrice": 120,
-      "latestCreatedAt": "2026-03-10T21:12:11.653Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 16,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bd9ca894-613b-4757-a7a5-ba244359a712.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/379a93eb-e4c5-4675-8478-e46ba2fb5416.png"
       }
     },
     {
@@ -1106,54 +2090,6 @@
       }
     },
     {
-      "uniqueCode": "P_133A02",
-      "type": "highlight",
-      "title": "Enrique Meza",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/86c12835-5fd0-4899-9a14-431c84420223.png",
-      "lowestPrice": 211,
-      "latestCreatedAt": "2026-03-10T20:00:53.839Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/07a9a0d6-54ab-43c2-a91e-22b054057e37.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/86c12835-5fd0-4899-9a14-431c84420223.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A04",
-      "type": "highlight",
-      "title": "Andrés Chitiva",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/faf224aa-6ba7-498f-8d7c-68ac934e92a1.png",
-      "lowestPrice": 306,
-      "latestCreatedAt": "2026-03-10T19:54:28.932Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/743a4548-99c3-41d5-9278-2d23fd6197e0.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/faf224aa-6ba7-498f-8d7c-68ac934e92a1.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m64",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M64 Vancouver",
@@ -1247,54 +2183,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M84",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a63b3eda-7809-45a6-abdc-f37b9e20cdbc.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4d4216bc-e7a7-4f29-be40-2874365456fa.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A15",
-      "type": "highlight",
-      "title": "Hernán Medford",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7928c8c-73f7-4d9a-9f60-b34d058b72d9.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:57:51.690Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 28,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/aa89fca3-8ef9-4c96-80cf-1492527f8407.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7928c8c-73f7-4d9a-9f60-b34d058b72d9.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL24",
-      "type": "highlight",
-      "title": "Joaquín Moxica",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/269e8b9f-6a1d-45cd-9cd2-01524ad588ef.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:28:57.516Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 6,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/78431c55-e3f1-4ba9-bf47-b0e6be49eab2.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/269e8b9f-6a1d-45cd-9cd2-01524ad588ef.png"
       }
     },
     {
@@ -1418,54 +2306,6 @@
       }
     },
     {
-      "uniqueCode": "M_CL17",
-      "type": "highlight",
-      "title": "Katty Martínez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a00c209b-adc2-4e7e-860d-afa496a2b78e.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:27:19.479Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 30,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c212b504-70b2-40dd-838b-9e8ba6247248.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a00c209b-adc2-4e7e-860d-afa496a2b78e.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL22",
-      "type": "highlight",
-      "title": "Samantha Simental",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a06373d9-b6dc-4110-9af8-2f1e3797b92e.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:26:52.873Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dfcd28d7-ba20-47be-a8d3-af818c471dfc.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a06373d9-b6dc-4110-9af8-2f1e3797b92e.png"
-      }
-    },
-    {
       "uniqueCode": "P_AP18",
       "type": "highlight",
       "title": "Oussama Idrissi",
@@ -1487,126 +2327,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9ea62168-d0c7-46c7-9d7e-097c9ea0f127.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL23",
-      "type": "highlight",
-      "title": "Gustavo Sánchez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc5a557-b10c-485d-b58e-ce18f5da2daf.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:26:25.429Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 49,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/71358cf5-2ab9-450b-98b8-69231f32bd01.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc5a557-b10c-485d-b58e-ce18f5da2daf.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL25",
-      "type": "highlight",
-      "title": "Valeria Del Campo",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cfb96d05-24aa-4256-802d-82f74130a419.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:25:58.590Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 124,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/176bcb9b-bd54-4d7e-b3cd-ca0a158f20c4.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cfb96d05-24aa-4256-802d-82f74130a419.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL20",
-      "type": "highlight",
-      "title": "Roberto De La Rosa",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/858624f2-cd16-42ea-b619-de912f00f17d.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:25:46.314Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0f70ea9a-b806-4d37-be43-b8eb42cc1723.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/858624f2-cd16-42ea-b619-de912f00f17d.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A03",
-      "type": "highlight",
-      "title": "Oscar Murillo",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1d4b2603-3d61-49ec-a031-4b8c9ad9094a.png",
-      "lowestPrice": 275,
-      "latestCreatedAt": "2026-03-10T18:25:36.301Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 13,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/48047c84-cd28-47af-80e0-3f7d92bf802f.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1d4b2603-3d61-49ec-a031-4b8c9ad9094a.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL21",
-      "type": "highlight",
-      "title": "Nicole Pérez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cf64d69b-2793-4911-be0f-e95667048d4c.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:25:31.671Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1845559b-7dbf-48c3-8597-991662aa2c27.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cf64d69b-2793-4911-be0f-e95667048d4c.png"
       }
     },
     {
@@ -1682,54 +2402,6 @@
       }
     },
     {
-      "uniqueCode": "M_CL13",
-      "type": "highlight",
-      "title": "Érick Aguirre",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1905d162-a618-40da-9a8a-8449249ab78f.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:17:26.076Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5a258343-dd0f-413b-9313-ed1e25dd2a64.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1905d162-a618-40da-9a8a-8449249ab78f.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL03",
-      "type": "highlight",
-      "title": "Jesús Corona",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0107fbc7-bff4-49cd-b9a2-dbec002948f8.png",
-      "lowestPrice": 254,
-      "latestCreatedAt": "2026-03-10T18:16:28.426Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 34,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f699f2da-98e3-41e4-a6c8-968d4d0c0305.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0107fbc7-bff4-49cd-b9a2-dbec002948f8.png"
-      }
-    },
-    {
       "uniqueCode": "P_AP19",
       "type": "highlight",
       "title": "William Carvalho",
@@ -1778,54 +2450,6 @@
       }
     },
     {
-      "uniqueCode": "M_CL08",
-      "type": "highlight",
-      "title": "Óliver Torres",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png",
-      "lowestPrice": 108,
-      "latestCreatedAt": "2026-03-10T18:15:05.377Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2154e8b7-648b-4426-8a39-de7baebd9d03.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL02",
-      "type": "highlight",
-      "title": "Anthony Martial",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e71b896-7694-434a-9d36-b16921994d8c.png",
-      "lowestPrice": 500,
-      "latestCreatedAt": "2026-03-10T18:14:39.248Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 18,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d859a317-8f91-4f12-991b-879179f15074.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4e71b896-7694-434a-9d36-b16921994d8c.png"
-      }
-    },
-    {
       "uniqueCode": "SL_AC09",
       "type": "highlight",
       "title": "Oscar Ruggeri",
@@ -1847,102 +2471,6 @@
         "title": "San Lorenzo - 30 Anivesario Campeón 1995",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b3d69dd6-c8d6-4687-8867-09fb0adc901c.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "M_CL18",
-      "type": "highlight",
-      "title": "Luis Cárdenas",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/229e3385-820d-4f45-ac1e-4cdbac5ce59c.png",
-      "lowestPrice": 204,
-      "latestCreatedAt": "2026-03-10T18:13:36.529Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 16,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e481b9f8-ceee-4658-807f-9c5122b3f457.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/229e3385-820d-4f45-ac1e-4cdbac5ce59c.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL10",
-      "type": "highlight",
-      "title": "Djuka",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3ee11d1c-cc36-4c45-a0ba-48bc742dbc8f.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:10:36.048Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/13f63ce5-6d8f-4307-996e-ea2f3947d9f4.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3ee11d1c-cc36-4c45-a0ba-48bc742dbc8f.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A13",
-      "type": "highlight",
-      "title": "Diego Alonso",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0db715c7-713e-44b4-a421-d73a22d64d5f.png",
-      "lowestPrice": 120,
-      "latestCreatedAt": "2026-03-10T18:10:13.057Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 7,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/eed22b47-b42e-4c63-acc0-8a97d4d61c79.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0db715c7-713e-44b4-a421-d73a22d64d5f.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL12",
-      "type": "highlight",
-      "title": "Allison Veloz",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f0315-5834-46c8-8452-a480ad8fc11e.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:10:08.919Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 144,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/64200f8e-8461-4a5b-995b-ebcbc4e17846.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a3f0315-5834-46c8-8452-a480ad8fc11e.png"
       }
     },
     {
@@ -1970,30 +2498,6 @@
       }
     },
     {
-      "uniqueCode": "M_CL11",
-      "type": "highlight",
-      "title": "Daiane Medeiros",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc8eb707-33aa-478b-9bb9-6835e2a4eb98.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T18:09:02.052Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 177,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ad71be04-6273-4bf1-bfd7-8d8a6793436a.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc8eb707-33aa-478b-9bb9-6835e2a4eb98.png"
-      }
-    },
-    {
       "uniqueCode": "P_AP40",
       "type": "highlight",
       "title": "Alexei Domínguez",
@@ -2015,30 +2519,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c549e28d-b53b-4937-bcb9-546662597339.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL07",
-      "type": "highlight",
-      "title": "Monty",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png",
-      "lowestPrice": 359,
-      "latestCreatedAt": "2026-03-10T18:08:45.587Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 7,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/385e75e2-fb86-4980-bc4b-31123c2b22dd.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png"
       }
     },
     {
@@ -2474,30 +2954,6 @@
       }
     },
     {
-      "uniqueCode": "P_133A10",
-      "type": "highlight",
-      "title": "Jaime Correa",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d7f2e537-dac6-4cf4-b4c6-d6064dcbc5d6.png",
-      "lowestPrice": 219,
-      "latestCreatedAt": "2026-03-10T16:39:12.577Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 41,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26eb3fd4-0e96-4f66-a527-ca5f99c047cb.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d7f2e537-dac6-4cf4-b4c6-d6064dcbc5d6.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m5",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M5 Boston",
@@ -2615,30 +3071,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M11",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cf7e1736-67e8-4f0f-a549-d1dead9e2cac.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A16",
-      "type": "highlight",
-      "title": "Alfredo Tena",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a2f6b1a-518f-4e9e-b381-f43d53e03e5c.png",
-      "lowestPrice": 131,
-      "latestCreatedAt": "2026-03-10T14:55:22.542Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 25,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/80339a75-3cae-41bf-b50b-7522bd3a0bb4.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a2f6b1a-518f-4e9e-b381-f43d53e03e5c.png"
       }
     },
     {
@@ -2858,30 +3290,6 @@
       }
     },
     {
-      "uniqueCode": "P_133A12",
-      "type": "highlight",
-      "title": "Óscar Pérez",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62e452af-f7c0-4d8f-a91a-2e5c4d8e092b.png",
-      "lowestPrice": 160,
-      "latestCreatedAt": "2026-03-10T12:30:27.727Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 13,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09502d59-432a-4d42-a8ca-46c1b3632de4.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62e452af-f7c0-4d8f-a91a-2e5c4d8e092b.png"
-      }
-    },
-    {
       "uniqueCode": "US_R_1",
       "type": "highlight",
       "title": "Italy",
@@ -2978,30 +3386,6 @@
       }
     },
     {
-      "uniqueCode": "M_CL04",
-      "type": "highlight",
-      "title": "Christina Burkenroad",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5af33d4-2fc6-49c3-9ffa-4c22c79a31de.png",
-      "lowestPrice": 235,
-      "latestCreatedAt": "2026-03-10T12:15:31.614Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09227e29-9608-4f16-9916-073208274ed4.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5af33d4-2fc6-49c3-9ffa-4c22c79a31de.png"
-      }
-    },
-    {
       "uniqueCode": "P_133A26",
       "type": "highlight",
       "title": "Fausto Pinto",
@@ -3047,54 +3431,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M43",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/76ed17b7-7d9f-4c1b-a1b6-e3f3c82df81a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77a98cf1-d0e9-4326-b626-e0dffda734cc.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A23",
-      "type": "highlight",
-      "title": "Marvín Cabrera",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/80325fc6-9255-4603-922e-48f7816376f3.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T11:59:59.875Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 91,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/59cc267d-fb74-447a-8d71-ac4e924b3f6d.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd80db4b-9310-4212-b950-5184aa1e2f60.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/80325fc6-9255-4603-922e-48f7816376f3.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m71",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M71 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c8a64c1-3d58-4412-a6fe-13baff09409a.png",
-      "lowestPrice": 290000,
-      "latestCreatedAt": "2026-03-10T11:50:15.047Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m71",
-      "lowestEdition": 41,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c5af70a5-8e64-4049-b695-fc2baf1ee2ce.jpeg",
-      "pack": {
-        "slug": "cat1-m71",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M71",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/616cde74-927a-49ef-8b32-1b017c4b3dc8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c8a64c1-3d58-4412-a6fe-13baff09409a.png"
       }
     },
     {
@@ -3266,30 +3602,6 @@
       }
     },
     {
-      "uniqueCode": "P_AP53",
-      "type": "highlight",
-      "title": "POTW - Gastón Togni",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe0f2229-0632-492b-b28c-444102216d06.png",
-      "lowestPrice": 1100,
-      "latestCreatedAt": "2026-03-10T09:17:22.948Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e38e02b8-14b6-46df-87b6-33ec2305bd75.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe0f2229-0632-492b-b28c-444102216d06.png"
-      }
-    },
-    {
       "uniqueCode": "P_AP26",
       "type": "highlight",
       "title": "Alonso Aceves",
@@ -3335,30 +3647,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e2d195a-5c6c-48d1-a96f-8ea27b3fe2a0.png"
-      }
-    },
-    {
-      "uniqueCode": "P_AP33",
-      "type": "highlight",
-      "title": "Luis Quiñones - Signed",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/31f2ceb1-7659-4e35-ac1b-0c6f098e0fa0.png",
-      "lowestPrice": 1590,
-      "latestCreatedAt": "2026-03-10T08:35:45.327Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e0709bed-c1df-45b9-bf15-7b628e4e8191.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/31f2ceb1-7659-4e35-ac1b-0c6f098e0fa0.png"
       }
     },
     {
@@ -4898,30 +5186,6 @@
       }
     },
     {
-      "uniqueCode": "M_CL16",
-      "type": "highlight",
-      "title": "Marcela Restrepo",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6d074db-9dd5-4c8c-ad5b-91b17a89d7c7.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-10T03:26:10.594Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 7,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/de2df82b-1065-4dbc-9de3-143c17d5e2a2.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6d074db-9dd5-4c8c-ad5b-91b17a89d7c7.png"
-      }
-    },
-    {
       "uniqueCode": "RO_DP18",
       "type": "highlight",
       "title": "Lucas Ahijado",
@@ -5279,30 +5543,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M87",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ce92af9-1a4f-41cd-be4e-0b402a1fdc8a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b9543da9-c28c-4acb-8739-93b226c8ebb5.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m57",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M57 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e5f3189e-32c1-4526-80d6-01ea0461ebb5.png",
-      "lowestPrice": 70000,
-      "latestCreatedAt": "2026-03-09T22:44:46.610Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m57",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f919cf64-870f-4f25-be61-1da52859c195.jpeg",
-      "pack": {
-        "slug": "cat1-m57",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M57",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b2875023-1349-4004-b7f1-79420f075760.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e5f3189e-32c1-4526-80d6-01ea0461ebb5.png"
       }
     },
     {
@@ -5930,30 +6170,6 @@
       }
     },
     {
-      "uniqueCode": "RO_DP01",
-      "type": "highlight",
-      "title": "Santi Cazorla",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7bfe3f80-5a16-4203-ae3e-a2fdcc2914d5.png",
-      "lowestPrice": 16000,
-      "latestCreatedAt": "2026-03-09T17:04:35.351Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 23,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/168ad3c2-bb90-4d8d-b84c-656cf115049e.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7bfe3f80-5a16-4203-ae3e-a2fdcc2914d5.png"
-      }
-    },
-    {
       "uniqueCode": "F_AM23",
       "type": "highlight",
       "title": "8. Martinelli",
@@ -5999,30 +6215,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3312d7b-6f0c-4201-9918-cd3adf3c5be1.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL15",
-      "type": "highlight",
-      "title": "Karol Bernal",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1945fec-a0dc-4a51-9d3c-5019b6d83ccf.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-09T16:50:00.985Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 17,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bd9a877a-4793-417e-a0e6-d36b0c0b05c5.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1945fec-a0dc-4a51-9d3c-5019b6d83ccf.png"
       }
     },
     {
@@ -7010,30 +7202,6 @@
       }
     },
     {
-      "uniqueCode": "cat3-m83",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 3 for M83 Toronto",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png",
-      "lowestPrice": 130900,
-      "latestCreatedAt": "2026-03-09T02:57:37.998Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat3-m83",
-      "lowestEdition": 28,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4e6afd69-b4a9-41de-b288-6c1cc828ff43.jpeg",
-      "pack": {
-        "slug": "cat3-m83",
-        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M83",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1e96b90b-6c71-43ea-b91d-ce35136e1471.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png"
-      }
-    },
-    {
       "uniqueCode": "cat1m103",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M103 Miami",
@@ -7943,30 +8111,6 @@
         "title": "Reward pack - OG Challenge - Spirit of the Game",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/25f8655c-6f9f-40b3-8987-5fe19c6550d4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3000eb7-452a-4934-ad56-219fa28ec749.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m13",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M13 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27ab08a7-d2e6-487d-b471-01542954df40.png",
-      "lowestPrice": 44500,
-      "latestCreatedAt": "2026-03-08T06:36:08.312Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m13",
-      "lowestEdition": 17,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/320499b9-7edb-4747-a732-38ee09fb1018.jpeg",
-      "pack": {
-        "slug": "cat2-m13",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M13",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ad16bfcb-62e4-4e46-9d71-86bf42890cdd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27ab08a7-d2e6-487d-b471-01542954df40.png"
       }
     },
     {
@@ -9794,30 +9938,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m27",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M27 Vancouver",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7d638f1b-a921-4f73-b038-9f7b7e8da1bb.png",
-      "lowestPrice": 86900,
-      "latestCreatedAt": "2026-03-06T07:35:23.207Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m27",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab76ea14-561b-4342-948f-27112a01d315.jpeg",
-      "pack": {
-        "slug": "cat1-m27",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M27",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/47f23dc0-e7cb-415d-8851-99d78e336b0d.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7d638f1b-a921-4f73-b038-9f7b7e8da1bb.png"
-      }
-    },
-    {
       "uniqueCode": "eg-rwd1",
       "type": "highlight",
       "title": "Argentina",
@@ -10759,30 +10879,6 @@
       }
     },
     {
-      "uniqueCode": "cat2m101",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M101 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79129c48-3371-4db3-8897-5a99072c4231.png",
-      "lowestPrice": 361500,
-      "latestCreatedAt": "2026-03-04T22:11:26.656Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m101",
-      "lowestEdition": 35,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6a1f3803-6e3e-4069-bb3f-14fe2f5b9456.jpeg",
-      "pack": {
-        "slug": "cat2-m101",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M101",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1612a804-ccbb-47ae-9c66-052ab932481a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79129c48-3371-4db3-8897-5a99072c4231.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m95",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M95 Atlanta",
@@ -11527,30 +11623,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m40",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M40 Vancouver",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d0f57bba-c49d-4ea1-b12f-566183337ad1.png",
-      "lowestPrice": 47500,
-      "latestCreatedAt": "2026-03-04T04:19:41.768Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m40",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16723752-9dcb-46f3-871a-39ad367360a6.jpeg",
-      "pack": {
-        "slug": "cat1-m40",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M40",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d8518e21-a4b1-45a8-a342-e4bedb602d5a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d0f57bba-c49d-4ea1-b12f-566183337ad1.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m57",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M57 Dallas",
@@ -11860,30 +11932,6 @@
         "title": "Memorable Penalties - Cristiano Ronaldo Rare Redemption",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/24a9676c-7854-4b82-bb02-32bf03c218b9.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/697a6eea-a592-4b29-a818-caab639d5d39.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "M_CL09",
-      "type": "highlight",
-      "title": "Gerardo Arteaga",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png",
-      "lowestPrice": 184,
-      "latestCreatedAt": "2026-03-02T23:32:12.079Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 111,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/423c8fef-3dc9-4583-95c0-6fa11dccd0c3.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/16cedd40-3269-4e50-b9ef-37f5190c2873.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d10579a7-c177-434a-bcd2-3974cbac3db7.png"
       }
     },
     {
@@ -13641,30 +13689,6 @@
         "title": "The Art of Football: Football is Life in LATAM",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b97b5127-5c5b-48ba-911d-dd5f1d73d582.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe25bb2c-5343-48c8-a033-0ac5886be60c.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m28",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M28 Guadalajara",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1391abd1-881b-45a1-a77e-4339b13d9aa9.png",
-      "lowestPrice": 240000,
-      "latestCreatedAt": "2026-02-26T21:38:18.825Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m28",
-      "lowestEdition": 151,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/59a6d41a-ad0b-46f8-848a-e0f274c25708.jpeg",
-      "pack": {
-        "slug": "cat2-m28",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M28",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0158440a-c82e-4693-8d5c-1d4aa40b0c47.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1391abd1-881b-45a1-a77e-4339b13d9aa9.png"
       }
     },
     {
