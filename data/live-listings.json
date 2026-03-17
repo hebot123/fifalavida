@@ -2,13 +2,301 @@
   "total": 2056,
   "listings": [
     {
+      "uniqueCode": "cat1-m32",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M32 Seattle",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bd18a10d-7635-4c62-bc61-a0925fb80328.png",
+      "lowestPrice": 169900,
+      "latestCreatedAt": "2026-03-17T22:14:37.295Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m32",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c0b6a8db-cef2-4b7d-8642-dd12723399fa.jpeg",
+      "pack": {
+        "slug": "cat1-m32",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M32",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b325e18f-92c4-45fa-a699-89050335e73e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bd18a10d-7635-4c62-bc61-a0925fb80328.png"
+      }
+    },
+    {
+      "uniqueCode": "R_PA19",
+      "type": "highlight",
+      "title": "Club Pachuca TV Interview Experience",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a7f30bde-646e-48f8-a5b5-a8cf3a59a0eb.png",
+      "lowestPrice": 1900,
+      "latestCreatedAt": "2026-03-17T22:10:36.376Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1-level2reward",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/55c37039-f2f0-4c0e-83af-ff8904840d47.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1-level2reward",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a2ba52d5-ab08-4a9e-a52b-917ee7ee5147.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a7f30bde-646e-48f8-a5b5-a8cf3a59a0eb.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m39",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M39 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/49757130-b9c8-4f18-a7ad-fbda0167ea33.png",
+      "lowestPrice": 61000,
+      "latestCreatedAt": "2026-03-17T22:01:01.430Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m39",
+      "lowestEdition": 15,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b82463f-39e5-46a8-8ef5-e54773bb54e7.jpeg",
+      "pack": {
+        "slug": "cat1-m39",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M39",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/237c56ca-0598-48a1-8092-c4f16b8f8bda.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/49757130-b9c8-4f18-a7ad-fbda0167ea33.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m82",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M82 Seattle",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6a45acc-9164-48a4-b488-fb2ba977ce77.png",
+      "lowestPrice": 60500,
+      "latestCreatedAt": "2026-03-17T21:58:36.633Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m82",
+      "lowestEdition": 18,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fcb27d0a-4d3d-488e-8289-d346eb0aca5a.jpeg",
+      "pack": {
+        "slug": "cat2-m82",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M82",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/df4dca90-278a-4139-9281-779012a0c640.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6a45acc-9164-48a4-b488-fb2ba977ce77.png"
+      }
+    },
+    {
+      "uniqueCode": "D03-27",
+      "type": "highlight",
+      "title": "Mexico",
+      "subtitle": "2014 FIFA World Cup Brazil™  \nBRA 0 - 0 MEX, **Save: Guillermo Ochoa 26'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d5dc6ad8-d64b-43e5-8cdc-e86765981381.jpeg",
+      "lowestPrice": 1400,
+      "latestCreatedAt": "2026-03-17T21:40:48.587Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 33,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d5dc6ad8-d64b-43e5-8cdc-e86765981381.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D03-23",
+      "type": "highlight",
+      "title": "Colombia",
+      "subtitle": "1990 FIFA World Cup Italy™  \nUAE 0 - 2 COL, **Goal: Carlos Valderrama 86'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7e1c3fef-cbd1-44d9-8779-03471891ca47.jpeg",
+      "lowestPrice": 1600,
+      "latestCreatedAt": "2026-03-17T21:40:04.417Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 2696,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7e1c3fef-cbd1-44d9-8779-03471891ca47.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D03-15",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "FIFA Women's World Cup China 2007™  \nNZL 0 - 5 BRA, **Goal: Renata Costa 86'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18493a86-272f-4369-90f4-c8c15575fadd.jpeg",
+      "lowestPrice": 500,
+      "latestCreatedAt": "2026-03-17T21:38:41.531Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 325,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18493a86-272f-4369-90f4-c8c15575fadd.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D03-18",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "FIFA Women's World Cup France 2019™  \nSCO 3 - 3 ARG, **Goal: Florencia Bonsegundo 90+4'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/16e45928-1848-4f31-aee2-5f639a34c2c8.jpeg",
+      "lowestPrice": 1500,
+      "latestCreatedAt": "2026-03-17T21:37:26.327Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 451,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/16e45928-1848-4f31-aee2-5f639a34c2c8.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D03-29",
+      "type": "highlight",
+      "title": "Portugal",
+      "subtitle": "2014 FIFA World Cup Brazil™  \nUSA 2 - 2 POR, **Goal: Nani 4'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/13cdb69a-f993-4c8e-a211-b28cb5753641.jpeg",
+      "lowestPrice": 800,
+      "latestCreatedAt": "2026-03-17T21:36:56.607Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 313,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/13cdb69a-f993-4c8e-a211-b28cb5753641.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D03-24",
+      "type": "highlight",
+      "title": "Germany",
+      "subtitle": "1994 FIFA World Cup USA™  \nGER 3 - 2 KOR, **Goal: Karl-Heinz Riedle 20'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3dd13f4e-f8f7-4f01-898c-1069831ad9e3.jpeg",
+      "lowestPrice": 570,
+      "latestCreatedAt": "2026-03-17T21:36:37.191Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 2637,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3dd13f4e-f8f7-4f01-898c-1069831ad9e3.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D03-30",
+      "type": "highlight",
+      "title": "England",
+      "subtitle": "2018 FIFA World Cup Russia™  \nTUN 1 - 2 ENG, **Goal: Harry Kane 90+1'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b03fac6a-a12e-455e-9ea9-6456f99c0dc6.jpg",
+      "lowestPrice": 900,
+      "latestCreatedAt": "2026-03-17T21:35:47.004Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 10,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b03fac6a-a12e-455e-9ea9-6456f99c0dc6.jpg"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m39",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M39 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f15e4862-8011-43e1-b605-50b1b54617da.png",
+      "lowestPrice": 46000,
+      "latestCreatedAt": "2026-03-17T21:35:40.310Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m39",
+      "lowestEdition": 27,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2003b9ca-5474-4ea2-812b-824af9ef862b.jpeg",
+      "pack": {
+        "slug": "cat2-m39",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M39",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/48b37ea7-41ac-48e2-bbc4-6a4d1f2ba7d6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f15e4862-8011-43e1-b605-50b1b54617da.png"
+      }
+    },
+    {
       "uniqueCode": "D03-17",
       "type": "highlight",
       "title": "England",
       "subtitle": "FIFA Women's World Cup Canada 2015™  \nENG 2 - 1 COL, **Goal: Karen Carney 15'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3cba481a-6fc9-4254-9f74-bc4cef8ba5c5.jpeg",
       "lowestPrice": 790,
-      "latestCreatedAt": "2026-03-17T21:32:27.823Z",
+      "latestCreatedAt": "2026-03-17T21:32:47.005Z",
       "rarity": {
         "code": "20",
         "color": "#FE36FE",
@@ -890,30 +1178,6 @@
       }
     },
     {
-      "uniqueCode": "D03-27",
-      "type": "highlight",
-      "title": "Mexico",
-      "subtitle": "2014 FIFA World Cup Brazil™  \nBRA 0 - 0 MEX, **Save: Guillermo Ochoa 26'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d5dc6ad8-d64b-43e5-8cdc-e86765981381.jpeg",
-      "lowestPrice": 1400,
-      "latestCreatedAt": "2026-03-17T17:55:58.730Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 33,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d5dc6ad8-d64b-43e5-8cdc-e86765981381.jpeg"
-      }
-    },
-    {
       "uniqueCode": "D03-28",
       "type": "highlight",
       "title": "Italy",
@@ -935,30 +1199,6 @@
         "title": "Curator Collection - South American Flair",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b751ff8e-be91-4b19-9f68-89405d1a7c60.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D03-23",
-      "type": "highlight",
-      "title": "Colombia",
-      "subtitle": "1990 FIFA World Cup Italy™  \nUAE 0 - 2 COL, **Goal: Carlos Valderrama 86'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7e1c3fef-cbd1-44d9-8779-03471891ca47.jpeg",
-      "lowestPrice": 1600,
-      "latestCreatedAt": "2026-03-17T17:54:21.633Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 106,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7e1c3fef-cbd1-44d9-8779-03471891ca47.jpeg"
       }
     },
     {
@@ -1247,30 +1487,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M70",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5bb5a9ea-c54c-48a7-8900-9229e8cad982.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d1026fd9-6dfb-452f-820d-9a56c3a84add.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m32",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M32 Seattle",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bd18a10d-7635-4c62-bc61-a0925fb80328.png",
-      "lowestPrice": 169900,
-      "latestCreatedAt": "2026-03-17T16:45:54.704Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m32",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c0b6a8db-cef2-4b7d-8642-dd12723399fa.jpeg",
-      "pack": {
-        "slug": "cat1-m32",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M32",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b325e18f-92c4-45fa-a699-89050335e73e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bd18a10d-7635-4c62-bc61-a0925fb80328.png"
       }
     },
     {
@@ -7736,30 +7952,6 @@
       }
     },
     {
-      "uniqueCode": "R_PA19",
-      "type": "highlight",
-      "title": "Club Pachuca TV Interview Experience",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a7f30bde-646e-48f8-a5b5-a8cf3a59a0eb.png",
-      "lowestPrice": 3900,
-      "latestCreatedAt": "2026-03-16T23:41:07.303Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1-level2reward",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/55c37039-f2f0-4c0e-83af-ff8904840d47.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1-level2reward",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a2ba52d5-ab08-4a9e-a52b-917ee7ee5147.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a7f30bde-646e-48f8-a5b5-a8cf3a59a0eb.png"
-      }
-    },
-    {
       "uniqueCode": "O_DPR12",
       "type": "highlight",
       "title": "Double Pass - Real Oviedo vs Sevilla FC",
@@ -10568,30 +10760,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m39",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M39 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/49757130-b9c8-4f18-a7ad-fbda0167ea33.png",
-      "lowestPrice": 61000,
-      "latestCreatedAt": "2026-03-14T23:01:47.314Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m39",
-      "lowestEdition": 15,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b82463f-39e5-46a8-8ef5-e54773bb54e7.jpeg",
-      "pack": {
-        "slug": "cat1-m39",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M39",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/237c56ca-0598-48a1-8092-c4f16b8f8bda.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/49757130-b9c8-4f18-a7ad-fbda0167ea33.png"
-      }
-    },
-    {
       "uniqueCode": "D02-08",
       "type": "highlight",
       "title": "Japan",
@@ -11861,30 +12029,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M103",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1ff992c-7838-4b9f-994c-1d4a806e299e.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m39",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M39 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f15e4862-8011-43e1-b605-50b1b54617da.png",
-      "lowestPrice": 46000,
-      "latestCreatedAt": "2026-03-13T18:48:38.785Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m39",
-      "lowestEdition": 27,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2003b9ca-5474-4ea2-812b-824af9ef862b.jpeg",
-      "pack": {
-        "slug": "cat2-m39",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M39",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/48b37ea7-41ac-48e2-bbc4-6a4d1f2ba7d6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f15e4862-8011-43e1-b605-50b1b54617da.png"
       }
     },
     {
@@ -19573,30 +19717,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m82",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M82 Seattle",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6a45acc-9164-48a4-b488-fb2ba977ce77.png",
-      "lowestPrice": 61969,
-      "latestCreatedAt": "2026-03-04T16:30:44.619Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m82",
-      "lowestEdition": 18,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fcb27d0a-4d3d-488e-8289-d346eb0aca5a.jpeg",
-      "pack": {
-        "slug": "cat2-m82",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M82",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/df4dca90-278a-4139-9281-779012a0c640.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6a45acc-9164-48a4-b488-fb2ba977ce77.png"
-      }
-    },
-    {
       "uniqueCode": "rg2-dr05",
       "type": "highlight",
       "title": "Korea Republic",
@@ -23279,30 +23399,6 @@
       }
     },
     {
-      "uniqueCode": "D03-24",
-      "type": "highlight",
-      "title": "Germany",
-      "subtitle": "1994 FIFA World Cup USA™  \nGER 3 - 2 KOR, **Goal: Karl-Heinz Riedle 20'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3dd13f4e-f8f7-4f01-898c-1069831ad9e3.jpeg",
-      "lowestPrice": 570,
-      "latestCreatedAt": "2026-02-18T19:24:02.846Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 2637,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3dd13f4e-f8f7-4f01-898c-1069831ad9e3.jpeg"
-      }
-    },
-    {
       "uniqueCode": "ct2-m84",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M84 Los Angeles",
@@ -23324,30 +23420,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M84",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/04ac49f5-c305-4e73-8c3c-c01caf615020.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19eb302e-f0d9-4328-90c1-7e1b00519a73.png"
-      }
-    },
-    {
-      "uniqueCode": "D03-29",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "2014 FIFA World Cup Brazil™  \nUSA 2 - 2 POR, **Goal: Nani 4'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/13cdb69a-f993-4c8e-a211-b28cb5753641.jpeg",
-      "lowestPrice": 800,
-      "latestCreatedAt": "2026-02-18T19:08:57.019Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 313,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/13cdb69a-f993-4c8e-a211-b28cb5753641.jpeg"
       }
     },
     {
@@ -23375,30 +23447,6 @@
       }
     },
     {
-      "uniqueCode": "D03-30",
-      "type": "highlight",
-      "title": "England",
-      "subtitle": "2018 FIFA World Cup Russia™  \nTUN 1 - 2 ENG, **Goal: Harry Kane 90+1'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b03fac6a-a12e-455e-9ea9-6456f99c0dc6.jpg",
-      "lowestPrice": 900,
-      "latestCreatedAt": "2026-02-18T19:07:27.251Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 10,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b03fac6a-a12e-455e-9ea9-6456f99c0dc6.jpg"
-      }
-    },
-    {
       "uniqueCode": "D03-14",
       "type": "highlight",
       "title": "Russia",
@@ -23420,54 +23468,6 @@
         "title": "Curator Collection - South American Flair",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/86cc81c9-1064-4390-a255-ac292591adec.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D03-18",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "FIFA Women's World Cup France 2019™  \nSCO 3 - 3 ARG, **Goal: Florencia Bonsegundo 90+4'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/16e45928-1848-4f31-aee2-5f639a34c2c8.jpeg",
-      "lowestPrice": 1500,
-      "latestCreatedAt": "2026-02-18T19:01:21.997Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 451,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/16e45928-1848-4f31-aee2-5f639a34c2c8.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D03-15",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "FIFA Women's World Cup China 2007™  \nNZL 0 - 5 BRA, **Goal: Renata Costa 86'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18493a86-272f-4369-90f4-c8c15575fadd.jpeg",
-      "lowestPrice": 500,
-      "latestCreatedAt": "2026-02-18T18:58:57.864Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 325,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18493a86-272f-4369-90f4-c8c15575fadd.jpeg"
       }
     },
     {
