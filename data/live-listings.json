@@ -1,6 +1,54 @@
 {
-  "total": 2086,
+  "total": 2087,
   "listings": [
+    {
+      "uniqueCode": "R_PA10",
+      "type": "highlight",
+      "title": "New Era Cap - Signed by Oussama Idrissi",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/76b44551-5b3d-43b8-91f2-f9f3a5a1c0b2.png",
+      "lowestPrice": 8800,
+      "latestCreatedAt": "2026-03-21T11:13:32.262Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1-level2reward",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c856266d-a3f7-40b2-96ed-3c1fc0cb73a1.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1-level2reward",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a2ba52d5-ab08-4a9e-a52b-917ee7ee5147.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/76b44551-5b3d-43b8-91f2-f9f3a5a1c0b2.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_R2626",
+      "type": "highlight",
+      "title": "Horațiu Moldovan",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee19be04-3f97-4e3f-b98a-daf4ab12de18.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-21T10:21:11.932Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 28,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bc5f91db-c433-4ab3-9928-40476db1ce5b.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee19be04-3f97-4e3f-b98a-daf4ab12de18.png"
+      }
+    },
     {
       "uniqueCode": "cat1-m29",
       "type": "highlight",
@@ -71,30 +119,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M86",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2e4beb34-7420-4503-89d8-f0f04f0aa2a8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d8320e-0e59-4098-a7b8-6a1ce7170881.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2626",
-      "type": "highlight",
-      "title": "Horațiu Moldovan",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee19be04-3f97-4e3f-b98a-daf4ab12de18.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-21T10:00:46.463Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 28,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bc5f91db-c433-4ab3-9928-40476db1ce5b.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee19be04-3f97-4e3f-b98a-daf4ab12de18.png"
       }
     },
     {
@@ -7518,30 +7542,6 @@
         "title": "Pachuca Legends",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f9c437c2-ba18-4dd8-be87-37ab7187c691.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/55bc7a89-6eb6-473d-a6db-5e4f22bf9915.png"
-      }
-    },
-    {
-      "uniqueCode": "cat3-m33",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 3 for M33 Toronto",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png",
-      "lowestPrice": 57000,
-      "latestCreatedAt": "2026-03-19T16:54:06.870Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat3-m33",
-      "lowestEdition": 33,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6bd1b415-ef2e-4ee9-ad48-bdcabc48961e.jpeg",
-      "pack": {
-        "slug": "cat3-m33",
-        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M33",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/08f657b7-b5f9-4261-92d5-6c460f27c489.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png"
       }
     },
     {
@@ -16860,6 +16860,30 @@
         "title": "Surprise Premium: Golden Boot Part 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e33ce9dd-2702-40d3-93b3-0c8ad88d5b6b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/506cecdc-8fa5-4ed7-a5c9-16fddc370a78.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "cat3-m33",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 3 for M33 Toronto",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png",
+      "lowestPrice": 59900,
+      "latestCreatedAt": "2026-03-16T20:27:34.602Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat3-m33",
+      "lowestEdition": 33,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6bd1b415-ef2e-4ee9-ad48-bdcabc48961e.jpeg",
+      "pack": {
+        "slug": "cat3-m33",
+        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M33",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/08f657b7-b5f9-4261-92d5-6c460f27c489.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png"
       }
     },
     {
