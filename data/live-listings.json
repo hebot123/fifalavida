@@ -2,6 +2,30 @@
   "total": 2088,
   "listings": [
     {
+      "uniqueCode": "RO_R2610",
+      "type": "highlight",
+      "title": "Nicușor Bancu",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc27c64f-adfd-4620-a5ba-8c142299eca7.png",
+      "lowestPrice": 195,
+      "latestCreatedAt": "2026-03-22T09:01:24.163Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 32,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f795d08-6662-447b-92ce-af24cfc03d09.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc27c64f-adfd-4620-a5ba-8c142299eca7.png"
+      }
+    },
+    {
       "uniqueCode": "plt-mc-1",
       "type": "highlight",
       "title": "FIFA Collect Platinum Membership Card",
@@ -167,30 +191,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M86",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2e4beb34-7420-4503-89d8-f0f04f0aa2a8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d8320e-0e59-4098-a7b8-6a1ce7170881.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2610",
-      "type": "highlight",
-      "title": "Nicușor Bancu",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc27c64f-adfd-4620-a5ba-8c142299eca7.png",
-      "lowestPrice": 195,
-      "latestCreatedAt": "2026-03-22T06:42:02.963Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 32,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f795d08-6662-447b-92ce-af24cfc03d09.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc27c64f-adfd-4620-a5ba-8c142299eca7.png"
       }
     },
     {
@@ -16253,30 +16253,6 @@
       }
     },
     {
-      "uniqueCode": "D01-03",
-      "type": "highlight",
-      "title": "Germany",
-      "subtitle": "FIFA Women's World Cup USA 2003™  \nGER 2 - 1 SWE, **Goal: Nia Kunzer 98'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36f8f70e-110f-4a3e-9487-40bfcac366ca.png",
-      "lowestPrice": 998,
-      "latestCreatedAt": "2026-03-17T07:11:45.881Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 191,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36f8f70e-110f-4a3e-9487-40bfcac366ca.png"
-      }
-    },
-    {
       "uniqueCode": "S2-R1-05",
       "type": "highlight",
       "title": "Brazil",
@@ -21257,6 +21233,30 @@
         "title": "Surprise - Defense Miracles",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a40b72e9-186a-4187-a305-89936de32ff9.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94ae7424-8d86-4dae-ac2d-cc2a0b56e78f.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D01-03",
+      "type": "highlight",
+      "title": "Germany",
+      "subtitle": "FIFA Women's World Cup USA 2003™  \nGER 2 - 1 SWE, **Goal: Nia Kunzer 98'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36f8f70e-110f-4a3e-9487-40bfcac366ca.png",
+      "lowestPrice": 998,
+      "latestCreatedAt": "2026-03-11T19:18:27.903Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 191,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36f8f70e-110f-4a3e-9487-40bfcac366ca.png"
       }
     },
     {
