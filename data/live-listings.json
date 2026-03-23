@@ -2,6 +2,846 @@
   "total": 2088,
   "listings": [
     {
+      "uniqueCode": "M_CL07",
+      "type": "highlight",
+      "title": "Monty",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png",
+      "lowestPrice": 390,
+      "latestCreatedAt": "2026-03-23T15:54:21.226Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/385e75e2-fb86-4980-bc4b-31123c2b22dd.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e72fe8c7-e6b2-4a07-8239-25a5c67f3f6a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m5",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M5 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/317a8f53-4c3b-481f-834e-de17bf992e55.png",
+      "lowestPrice": 70000,
+      "latestCreatedAt": "2026-03-23T15:51:20.990Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m5",
+      "lowestEdition": 16,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/127ff363-6cf4-423a-81d9-0bcad831e0c6.jpeg",
+      "pack": {
+        "slug": "cat1-m5",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M5",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5a4f0608-65b2-47c3-bbc0-bf9ff20531da.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/317a8f53-4c3b-481f-834e-de17bf992e55.png"
+      }
+    },
+    {
+      "uniqueCode": "cat3-m83",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 3 for M83 Toronto",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png",
+      "lowestPrice": 115000,
+      "latestCreatedAt": "2026-03-23T15:45:15.376Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat3-m83",
+      "lowestEdition": 28,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4e6afd69-b4a9-41de-b288-6c1cc828ff43.jpeg",
+      "pack": {
+        "slug": "cat3-m83",
+        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M83",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1e96b90b-6c71-43ea-b91d-ce35136e1471.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m59",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M59 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/821f1d31-1472-4aef-8a82-58f39d4515d4.png",
+      "lowestPrice": 140000,
+      "latestCreatedAt": "2026-03-23T15:35:41.203Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m59",
+      "lowestEdition": 16,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/30804cb6-228b-4ebf-b317-d7f6ba1ac8dd.jpeg",
+      "pack": {
+        "slug": "cat1-m59",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M59",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3cfd7c01-046c-44e3-8f8c-69041f67b39f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/821f1d31-1472-4aef-8a82-58f39d4515d4.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m30",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M30 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png",
+      "lowestPrice": 78300,
+      "latestCreatedAt": "2026-03-23T15:33:29.930Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m30",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8144f9dc-27f6-4e8b-b9c6-9f5d1e0aee7b.jpeg",
+      "pack": {
+        "slug": "cat2-m30",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M30",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f99edbc8-a546-478c-8de6-8128d67e524f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m44",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M44 San Francisco",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9028cc78-fce9-4ae1-afa4-458f7748fc2c.png",
+      "lowestPrice": 44900,
+      "latestCreatedAt": "2026-03-23T15:21:38.631Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m44",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c6cd8424-e56d-48ee-b6bd-64b6a9f039b6.jpeg",
+      "pack": {
+        "slug": "cat1-m44",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M44",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e74576f5-bb9f-4dc8-830e-122464df1fbd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9028cc78-fce9-4ae1-afa4-458f7748fc2c.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m18",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M18 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40a95128-bbf1-4353-8bf4-83e835032080.png",
+      "lowestPrice": 40000,
+      "latestCreatedAt": "2026-03-23T15:18:03.706Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m18",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3886ec97-ae13-469a-a607-47d8826b1144.jpeg",
+      "pack": {
+        "slug": "cat1-m18",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M18",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a840a3a9-2267-4f29-8ab2-fe6d714c5cb4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40a95128-bbf1-4353-8bf4-83e835032080.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m88",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M88 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0fe2017e-7042-42f5-870d-2bc3a1951106.png",
+      "lowestPrice": 70900,
+      "latestCreatedAt": "2026-03-23T15:16:42.638Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m88",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ac288d4c-c9b2-47ad-a123-d02c09bcd126.jpeg",
+      "pack": {
+        "slug": "cat1-m88",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M88",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b0436e0c-dbec-4226-a384-f719a8f9dfe8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0fe2017e-7042-42f5-870d-2bc3a1951106.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m7",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M7 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da0288cd-55f0-4127-9101-1d1a90a9c686.png",
+      "lowestPrice": 150000,
+      "latestCreatedAt": "2026-03-23T15:09:43.785Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m7",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a982a115-2c4c-459b-ae10-9edccc95f0d2.jpeg",
+      "pack": {
+        "slug": "cat1-m7",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M7",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/af91181f-9353-4b9e-bff8-1d57b7a4e8ed.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da0288cd-55f0-4127-9101-1d1a90a9c686.png"
+      }
+    },
+    {
+      "uniqueCode": "RF_TG01",
+      "type": "highlight",
+      "title": "Thiago Silva",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/516df4a7-0cba-4b85-a5c8-125f82a38dab.png",
+      "lowestPrice": 7500,
+      "latestCreatedAt": "2026-03-23T15:02:19.579Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-time-de-guerreiros-sp-level2",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7ec9eb70-e80e-4d84-b4e2-1f4e739c5801.png",
+      "pack": {
+        "slug": "fluminense-time-de-guerreiros-sp-level2",
+        "title": "Fluminense FC - Time de Guerreiros Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e5f1c1ae-19b8-444e-992e-e17a7255b528.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/516df4a7-0cba-4b85-a5c8-125f82a38dab.png"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-09",
+      "type": "highlight",
+      "title": "Portugal",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nPOR 6 - 1 SUI, **GOAL: Goncalo Ramos 17'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6ceb41df-cb36-4b46-98d7-345559f8d89d.jpeg",
+      "lowestPrice": 600,
+      "latestCreatedAt": "2026-03-23T15:00:57.257Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 5,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6ceb41df-cb36-4b46-98d7-345559f8d89d.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-07",
+      "type": "highlight",
+      "title": "Croatia",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nCRO 2 - 1 MAR, **GOAL: Josko Gvardiol 7'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cda132ca-b9be-4ef1-93f4-8ecd81ec5fe8.jpeg",
+      "lowestPrice": 700,
+      "latestCreatedAt": "2026-03-23T15:00:48.324Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 5,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cda132ca-b9be-4ef1-93f4-8ecd81ec5fe8.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-08",
+      "type": "highlight",
+      "title": "Mexico",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nKSA 1 - 2 MEX, **GOAL: Luis Chavez 52'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc0349c2-a7cc-4d91-9523-6845b88fc526.jpeg",
+      "lowestPrice": 999,
+      "latestCreatedAt": "2026-03-23T15:00:37.132Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 10,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc0349c2-a7cc-4d91-9523-6845b88fc526.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-06",
+      "type": "highlight",
+      "title": "Saudi Arabia",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 1 - 2 KSA, **GOAL: Salem Al-Dawsari 53'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2821db38-facc-4675-84bc-d3ce9dba89e2.jpeg",
+      "lowestPrice": 1300,
+      "latestCreatedAt": "2026-03-23T15:00:22.785Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2821db38-facc-4675-84bc-d3ce9dba89e2.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-05",
+      "type": "highlight",
+      "title": "Morocco",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nMAR 1 - 0 POR, **GOAL: Youssef En-Nesyri 42'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9d3da544-7dac-4e46-bb86-4b399c9c8fc7.jpeg",
+      "lowestPrice": 1300,
+      "latestCreatedAt": "2026-03-23T15:00:07.119Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 4,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9d3da544-7dac-4e46-bb86-4b399c9c8fc7.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-03",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nBRA 2 - 0 SRB, **GOAL: Richarlison 73'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/066abb55-cb6b-4c14-a836-3701ee398648.jpeg",
+      "lowestPrice": 5300,
+      "latestCreatedAt": "2026-03-23T14:57:36.813Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/066abb55-cb6b-4c14-a836-3701ee398648.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-02",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 3 - 0 CRO, **GOAL: Julian Alvarez 69'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7013156-e3c3-422a-bd55-9526582196af.jpeg",
+      "lowestPrice": 5800,
+      "latestCreatedAt": "2026-03-23T14:57:15.181Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 3,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7013156-e3c3-422a-bd55-9526582196af.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "R_PA15",
+      "type": "highlight",
+      "title": "Matchday Experience Double Pass - Pachuca vs Santos - J14 Clausura 2026",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9490eed9-8d7f-4400-afbb-dbce3411db99.png",
+      "lowestPrice": 3900,
+      "latestCreatedAt": "2026-03-23T14:55:58.564Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1-level2reward",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f579fa34-b1d5-4c3d-99d1-0aab3269954e.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1-level2reward",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a2ba52d5-ab08-4a9e-a52b-917ee7ee5147.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9490eed9-8d7f-4400-afbb-dbce3411db99.png"
+      }
+    },
+    {
+      "uniqueCode": "O_DPR06",
+      "type": "highlight",
+      "title": "Official Home Jersey 2025/2026 - Signed by the Team",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ece1dc01-08d0-4f09-9c50-53336fffcf3a.png",
+      "lowestPrice": 24900,
+      "latestCreatedAt": "2026-03-23T14:55:26.017Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera-level2reward",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/05945a92-2750-4254-8493-ee75f33e08dd.png",
+      "pack": {
+        "slug": "oviedo-deprimera-level2reward",
+        "title": "Real Oviedo - De Primera Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/42fe45ba-1d6b-49cb-b6c0-442cc3981aa2.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ece1dc01-08d0-4f09-9c50-53336fffcf3a.png"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-04",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 2 - 0 MEX, **GOAL: Lionel Messi 64'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg",
+      "lowestPrice": 17000,
+      "latestCreatedAt": "2026-03-23T14:53:33.229Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-10",
+      "type": "highlight",
+      "title": "Cameroon",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nCMR 3 - 3 SRB, **GOAL: Vincent Aboubakar 63'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d92726e5-b01c-43b5-913e-57f60853e375.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-23T14:52:29.370Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 17,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d92726e5-b01c-43b5-913e-57f60853e375.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m11",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M11 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png",
+      "lowestPrice": 89500,
+      "latestCreatedAt": "2026-03-23T14:51:26.330Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m11",
+      "lowestEdition": 6,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/852b6c00-7901-4ae1-b36b-9dbbb5c1ed8e.jpeg",
+      "pack": {
+        "slug": "cat1-m11",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M11",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cf7e1736-67e8-4f0f-a549-d1dead9e2cac.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m79",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M79 Mexico City",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c91862f9-6034-4889-a267-f095a8585d1e.png",
+      "lowestPrice": 184000,
+      "latestCreatedAt": "2026-03-23T14:51:01.731Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m79",
+      "lowestEdition": 45,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a7b75355-91da-44af-9c2e-a3f8721447db.jpeg",
+      "pack": {
+        "slug": "cat1-m79",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M79",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d63fe59a-1bae-4287-8a30-e0ea6c74d865.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c91862f9-6034-4889-a267-f095a8585d1e.png"
+      }
+    },
+    {
+      "uniqueCode": "cat3-m33",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 3 for M33 Toronto",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png",
+      "lowestPrice": 66400,
+      "latestCreatedAt": "2026-03-23T14:50:11.339Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat3-m33",
+      "lowestEdition": 33,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6bd1b415-ef2e-4ee9-ad48-bdcabc48961e.jpeg",
+      "pack": {
+        "slug": "cat3-m33",
+        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M33",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/08f657b7-b5f9-4261-92d5-6c460f27c489.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-14",
+      "type": "highlight",
+      "title": "Japan",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nJPN 2 - 1 ESP, **GOAL: Ritsu Doan 48'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92a50931-7d6d-4283-9d7a-8d4f12b0af01.jpeg",
+      "lowestPrice": 196,
+      "latestCreatedAt": "2026-03-23T14:50:06.922Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 10,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92a50931-7d6d-4283-9d7a-8d4f12b0af01.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m49",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M49 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66afd220-5cde-4df5-acaa-d3f00194f812.png",
+      "lowestPrice": 168900,
+      "latestCreatedAt": "2026-03-23T14:49:11.955Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m49",
+      "lowestEdition": 37,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f4cfd9b1-c791-4126-bdd0-1f5c6baba44e.jpeg",
+      "pack": {
+        "slug": "cat1-m49",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M49",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1c56f523-7f86-41f1-b025-bb75f12dcbcb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66afd220-5cde-4df5-acaa-d3f00194f812.png"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-15",
+      "type": "highlight",
+      "title": "Korea Republic",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nBRA 4 - 1 KOR, **GOAL: Paik Seungho 76'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f4604a15-1d1d-4c8c-aa77-8fc7d21181b3.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-23T14:47:17.626Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 14,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f4604a15-1d1d-4c8c-aa77-8fc7d21181b3.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-19",
+      "type": "highlight",
+      "title": "IR Iran",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nWAL 0 - 2 IRN, **GOAL: Rouzbeh Cheshmi 90+8'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/48d90559-8634-4c56-ad66-aac407def116.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-23T14:42:39.928Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 9,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/48d90559-8634-4c56-ad66-aac407def116.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-17",
+      "type": "highlight",
+      "title": "England",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nWAL 0 - 3 ENG, **GOAL: Marcus Rashford 50'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f9f43742-ea3e-47d4-a245-63fbe247a385.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-23T14:39:46.972Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 3,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f9f43742-ea3e-47d4-a245-63fbe247a385.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-13",
+      "type": "highlight",
+      "title": "Netherlands",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nNED 2 - 2 ARG, **GOAL: Wout Weghorst 90+11'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/252fffda-843d-48fd-a851-5d9554e83ea8.jpeg",
+      "lowestPrice": 150,
+      "latestCreatedAt": "2026-03-23T14:35:41.055Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/252fffda-843d-48fd-a851-5d9554e83ea8.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-16",
+      "type": "highlight",
+      "title": "Netherlands",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nNED 1 - 1 ECU, **GOAL: Cody Gakpo 6'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c11ad990-9d81-40cc-b7ab-6cdd86e6d19d.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-23T14:33:15.859Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c11ad990-9d81-40cc-b7ab-6cdd86e6d19d.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-18",
+      "type": "highlight",
+      "title": "Spain",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nESP 7 - 0 CRC, **GOAL: Gavi 74'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/df8d2c47-390e-4b29-802d-038627af4885.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-23T14:29:46.060Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 5,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/df8d2c47-390e-4b29-802d-038627af4885.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-11",
+      "type": "highlight",
+      "title": "Uruguay",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nGHA 0 - 2 URU, **GOAL: Giorgian de Arrascaeta 32'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e4070b1-7d7b-46eb-bd10-f63b67dec061.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-23T14:27:06.159Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 13,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e4070b1-7d7b-46eb-bd10-f63b67dec061.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-20",
+      "type": "highlight",
+      "title": "USA",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nNED 3 - 1 USA, **GOAL: Haji Wright 76'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0b4808b-08f3-4b7e-8d20-e4f0d109bbba.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-03-23T14:24:50.212Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 4,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0b4808b-08f3-4b7e-8d20-e4f0d109bbba.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-12",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nCRO 1 - 1 BRA, **GOAL: Neymar 105+1'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1909c57d-9422-4484-bd57-2aa75e68fcc9.jpeg",
+      "lowestPrice": 267,
+      "latestCreatedAt": "2026-03-23T14:21:07.862Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 3,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1909c57d-9422-4484-bd57-2aa75e68fcc9.jpeg"
+      }
+    },
+    {
       "uniqueCode": "p1974-12",
       "type": "highlight",
       "title": "West Germany Team Badge - München 1974",
@@ -650,30 +1490,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m7",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M7 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da0288cd-55f0-4127-9101-1d1a90a9c686.png",
-      "lowestPrice": 150000,
-      "latestCreatedAt": "2026-03-23T13:00:28.991Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m7",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a982a115-2c4c-459b-ae10-9edccc95f0d2.jpeg",
-      "pack": {
-        "slug": "cat1-m7",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M7",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/af91181f-9353-4b9e-bff8-1d57b7a4e8ed.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da0288cd-55f0-4127-9101-1d1a90a9c686.png"
-      }
-    },
-    {
       "uniqueCode": "P_AP34",
       "type": "highlight",
       "title": "Luis Quiñones",
@@ -983,30 +1799,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M31",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e8659bf7-0661-488e-8011-e97ac50fdb35.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e0dae6b1-b1d9-4856-a3c9-cd56248e0673.png"
-      }
-    },
-    {
-      "uniqueCode": "cat3-m83",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 3 for M83 Toronto",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png",
-      "lowestPrice": 118900,
-      "latestCreatedAt": "2026-03-23T09:38:03.267Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat3-m83",
-      "lowestEdition": 28,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4e6afd69-b4a9-41de-b288-6c1cc828ff43.jpeg",
-      "pack": {
-        "slug": "cat3-m83",
-        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M83",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1e96b90b-6c71-43ea-b91d-ce35136e1471.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18164d2d-a824-41ca-93ae-24bc634b4c8b.png"
       }
     },
     {
@@ -1367,30 +2159,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82ce559d-6659-48fd-869e-730c23e71241.png"
-      }
-    },
-    {
-      "uniqueCode": "cat3-m33",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 3 for M33 Toronto",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png",
-      "lowestPrice": 66400,
-      "latestCreatedAt": "2026-03-23T08:45:37.308Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat3-m33",
-      "lowestEdition": 33,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6bd1b415-ef2e-4ee9-ad48-bdcabc48961e.jpeg",
-      "pack": {
-        "slug": "cat3-m33",
-        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M33",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/08f657b7-b5f9-4261-92d5-6c460f27c489.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3c6158c-34b2-4f1d-a1a7-57e577edb54d.png"
       }
     },
     {
@@ -2930,102 +3698,6 @@
       }
     },
     {
-      "uniqueCode": "S2D01-16",
-      "type": "highlight",
-      "title": "Netherlands",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nNED 1 - 1 ECU, **GOAL: Cody Gakpo 6'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c11ad990-9d81-40cc-b7ab-6cdd86e6d19d.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-23T03:03:38.881Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c11ad990-9d81-40cc-b7ab-6cdd86e6d19d.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-19",
-      "type": "highlight",
-      "title": "IR Iran",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nWAL 0 - 2 IRN, **GOAL: Rouzbeh Cheshmi 90+8'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/48d90559-8634-4c56-ad66-aac407def116.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-23T03:03:06.803Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 9,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/48d90559-8634-4c56-ad66-aac407def116.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-11",
-      "type": "highlight",
-      "title": "Uruguay",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nGHA 0 - 2 URU, **GOAL: Giorgian de Arrascaeta 32'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e4070b1-7d7b-46eb-bd10-f63b67dec061.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-23T03:02:32.691Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 13,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e4070b1-7d7b-46eb-bd10-f63b67dec061.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-10",
-      "type": "highlight",
-      "title": "Cameroon",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nCMR 3 - 3 SRB, **GOAL: Vincent Aboubakar 63'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d92726e5-b01c-43b5-913e-57f60853e375.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-23T03:01:56.870Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 17,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d92726e5-b01c-43b5-913e-57f60853e375.jpeg"
-      }
-    },
-    {
       "uniqueCode": "D02-37",
       "type": "highlight",
       "title": "Algeria",
@@ -3218,78 +3890,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m18",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M18 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40a95128-bbf1-4353-8bf4-83e835032080.png",
-      "lowestPrice": 38000,
-      "latestCreatedAt": "2026-03-23T02:08:22.094Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m18",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3886ec97-ae13-469a-a607-47d8826b1144.jpeg",
-      "pack": {
-        "slug": "cat1-m18",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M18",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a840a3a9-2267-4f29-8ab2-fe6d714c5cb4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40a95128-bbf1-4353-8bf4-83e835032080.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m5",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M5 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/317a8f53-4c3b-481f-834e-de17bf992e55.png",
-      "lowestPrice": 70000,
-      "latestCreatedAt": "2026-03-23T02:06:46.691Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m5",
-      "lowestEdition": 16,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/127ff363-6cf4-423a-81d9-0bcad831e0c6.jpeg",
-      "pack": {
-        "slug": "cat1-m5",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M5",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5a4f0608-65b2-47c3-bbc0-bf9ff20531da.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/317a8f53-4c3b-481f-834e-de17bf992e55.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m79",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M79 Mexico City",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c91862f9-6034-4889-a267-f095a8585d1e.png",
-      "lowestPrice": 185000,
-      "latestCreatedAt": "2026-03-23T02:01:29.707Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m79",
-      "lowestEdition": 45,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a7b75355-91da-44af-9c2e-a3f8721447db.jpeg",
-      "pack": {
-        "slug": "cat1-m79",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M79",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d63fe59a-1bae-4287-8a30-e0ea6c74d865.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c91862f9-6034-4889-a267-f095a8585d1e.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m4",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M4 Los Angeles",
@@ -3455,30 +4055,6 @@
         "title": "Botafogo FR - Momentos Históricos 2024 Reward Pack",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/73151e02-5aa2-4d16-8ff6-150069f7a461.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8c2695ec-a696-4dbb-ac80-4773ec1e42cf.png"
-      }
-    },
-    {
-      "uniqueCode": "RF_TG01",
-      "type": "highlight",
-      "title": "Thiago Silva",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/516df4a7-0cba-4b85-a5c8-125f82a38dab.png",
-      "lowestPrice": 7500,
-      "latestCreatedAt": "2026-03-23T01:18:04.928Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-time-de-guerreiros-sp-level2",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7ec9eb70-e80e-4d84-b4e2-1f4e739c5801.png",
-      "pack": {
-        "slug": "fluminense-time-de-guerreiros-sp-level2",
-        "title": "Fluminense FC - Time de Guerreiros Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e5f1c1ae-19b8-444e-992e-e17a7255b528.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/516df4a7-0cba-4b85-a5c8-125f82a38dab.png"
       }
     },
     {
@@ -3866,37 +4442,13 @@
       }
     },
     {
-      "uniqueCode": "cat1-m44",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M44 San Francisco",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9028cc78-fce9-4ae1-afa4-458f7748fc2c.png",
-      "lowestPrice": 44900,
-      "latestCreatedAt": "2026-03-23T00:43:56.989Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m44",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c6cd8424-e56d-48ee-b6bd-64b6a9f039b6.jpeg",
-      "pack": {
-        "slug": "cat1-m44",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M44",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e74576f5-bb9f-4dc8-830e-122464df1fbd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9028cc78-fce9-4ae1-afa4-458f7748fc2c.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m41",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M41 New York",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6c5ef864-9f0b-4aba-a7cb-dafcba42252c.png",
-      "lowestPrice": 51500,
-      "latestCreatedAt": "2026-03-23T00:20:08.779Z",
+      "lowestPrice": 52000,
+      "latestCreatedAt": "2026-03-23T00:19:53.673Z",
       "rarity": {
         "code": "40",
         "color": "#DDBE5E",
@@ -4879,7 +5431,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M18 Boston",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4c68ab99-1dd2-480b-98b3-e3e3e657d970.png",
-      "lowestPrice": 34900,
+      "lowestPrice": 35000,
       "latestCreatedAt": "2026-03-22T19:39:11.790Z",
       "rarity": {
         "code": "40",
@@ -5255,30 +5807,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M99",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/506c71c0-88bb-4fa3-9759-aa74482fb7b6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/173ad37c-d27e-4889-aff6-74da79ed3a29.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m88",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M88 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0fe2017e-7042-42f5-870d-2bc3a1951106.png",
-      "lowestPrice": 70900,
-      "latestCreatedAt": "2026-03-22T19:02:27.109Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m88",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ac288d4c-c9b2-47ad-a123-d02c09bcd126.jpeg",
-      "pack": {
-        "slug": "cat1-m88",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M88",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b0436e0c-dbec-4226-a384-f719a8f9dfe8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0fe2017e-7042-42f5-870d-2bc3a1951106.png"
       }
     },
     {
@@ -5954,30 +6482,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m49",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M49 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66afd220-5cde-4df5-acaa-d3f00194f812.png",
-      "lowestPrice": 169000,
-      "latestCreatedAt": "2026-03-22T10:00:32.603Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m49",
-      "lowestEdition": 37,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f4cfd9b1-c791-4126-bdd0-1f5c6baba44e.jpeg",
-      "pack": {
-        "slug": "cat1-m49",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M49",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1c56f523-7f86-41f1-b025-bb75f12dcbcb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66afd220-5cde-4df5-acaa-d3f00194f812.png"
-      }
-    },
-    {
       "uniqueCode": "ct2-m41",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M41 New York",
@@ -6314,30 +6818,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m30",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M30 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png",
-      "lowestPrice": 78300,
-      "latestCreatedAt": "2026-03-21T21:19:22.270Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m30",
-      "lowestEdition": 6,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8144f9dc-27f6-4e8b-b9c6-9f5d1e0aee7b.jpeg",
-      "pack": {
-        "slug": "cat2-m30",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M30",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f99edbc8-a546-478c-8de6-8128d67e524f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png"
-      }
-    },
-    {
       "uniqueCode": "aft-03",
       "type": "highlight",
       "title": "Argentina",
@@ -6575,30 +7055,6 @@
         "title": "CF Monterrey - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5211419-df41-432d-9ab1-7eaccfb87422.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2989ec13-9993-4e9a-a024-e3bf8dddff60.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL07",
-      "type": "highlight",
-      "title": "Monty",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png",
-      "lowestPrice": 390,
-      "latestCreatedAt": "2026-03-21T21:00:52.225Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 7,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/385e75e2-fb86-4980-bc4b-31123c2b22dd.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e72fe8c7-e6b2-4a07-8239-25a5c67f3f6a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82a78fc2-7bf4-4d78-a406-c0f53f0e695d.png"
       }
     },
     {
@@ -9175,54 +9631,6 @@
       }
     },
     {
-      "uniqueCode": "S2D01-14",
-      "type": "highlight",
-      "title": "Japan",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nJPN 2 - 1 ESP, **GOAL: Ritsu Doan 48'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92a50931-7d6d-4283-9d7a-8d4f12b0af01.jpeg",
-      "lowestPrice": 196,
-      "latestCreatedAt": "2026-03-21T06:18:40.880Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 10,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92a50931-7d6d-4283-9d7a-8d4f12b0af01.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-15",
-      "type": "highlight",
-      "title": "Korea Republic",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nBRA 4 - 1 KOR, **GOAL: Paik Seungho 76'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f4604a15-1d1d-4c8c-aa77-8fc7d21181b3.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-21T06:17:02.000Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 14,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f4604a15-1d1d-4c8c-aa77-8fc7d21181b3.jpeg"
-      }
-    },
-    {
       "uniqueCode": "FFT_02",
       "type": "highlight",
       "title": "Fred's Farewell",
@@ -9295,78 +9703,6 @@
       }
     },
     {
-      "uniqueCode": "S2D01-05",
-      "type": "highlight",
-      "title": "Morocco",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nMAR 1 - 0 POR, **GOAL: Youssef En-Nesyri 42'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9d3da544-7dac-4e46-bb86-4b399c9c8fc7.jpeg",
-      "lowestPrice": 1300,
-      "latestCreatedAt": "2026-03-21T05:43:19.491Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 4,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9d3da544-7dac-4e46-bb86-4b399c9c8fc7.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-09",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nPOR 6 - 1 SUI, **GOAL: Goncalo Ramos 17'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6ceb41df-cb36-4b46-98d7-345559f8d89d.jpeg",
-      "lowestPrice": 600,
-      "latestCreatedAt": "2026-03-21T05:40:38.048Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 5,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6ceb41df-cb36-4b46-98d7-345559f8d89d.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-07",
-      "type": "highlight",
-      "title": "Croatia",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nCRO 2 - 1 MAR, **GOAL: Josko Gvardiol 7'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cda132ca-b9be-4ef1-93f4-8ecd81ec5fe8.jpeg",
-      "lowestPrice": 700,
-      "latestCreatedAt": "2026-03-21T05:38:26.815Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 5,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cda132ca-b9be-4ef1-93f4-8ecd81ec5fe8.jpeg"
-      }
-    },
-    {
       "uniqueCode": "RO_T41",
       "type": "highlight",
       "title": "Miodrag Belodedici",
@@ -9415,54 +9751,6 @@
       }
     },
     {
-      "uniqueCode": "S2D01-08",
-      "type": "highlight",
-      "title": "Mexico",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nKSA 1 - 2 MEX, **GOAL: Luis Chavez 52'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc0349c2-a7cc-4d91-9523-6845b88fc526.jpeg",
-      "lowestPrice": 999,
-      "latestCreatedAt": "2026-03-21T05:16:55.655Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 10,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc0349c2-a7cc-4d91-9523-6845b88fc526.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-06",
-      "type": "highlight",
-      "title": "Saudi Arabia",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 1 - 2 KSA, **GOAL: Salem Al-Dawsari 53'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2821db38-facc-4675-84bc-d3ce9dba89e2.jpeg",
-      "lowestPrice": 1300,
-      "latestCreatedAt": "2026-03-21T05:13:56.635Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2821db38-facc-4675-84bc-d3ce9dba89e2.jpeg"
-      }
-    },
-    {
       "uniqueCode": "t260-51",
       "type": "highlight",
       "title": "2006 World Cup Last 16 Game Munich",
@@ -9484,30 +9772,6 @@
         "title": "Reward Pack The Art of Football: Grand Finale Challenge",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e1b3eb27-5a9c-4ad8-a535-b65ad2b9fc18.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/220887f9-8c71-457f-a8ba-b25089af14d7.png"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-03",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nBRA 2 - 0 SRB, **GOAL: Richarlison 73'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/066abb55-cb6b-4c14-a836-3701ee398648.jpeg",
-      "lowestPrice": 5300,
-      "latestCreatedAt": "2026-03-21T04:55:10.661Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/066abb55-cb6b-4c14-a836-3701ee398648.jpeg"
       }
     },
     {
@@ -9676,30 +9940,6 @@
         "title": "Genesis Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/809c3211-992f-4c5c-a54c-b81875709a03.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m11",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M11 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png",
-      "lowestPrice": 89500,
-      "latestCreatedAt": "2026-03-21T00:23:12.041Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m11",
-      "lowestEdition": 6,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/852b6c00-7901-4ae1-b36b-9dbbb5c1ed8e.jpeg",
-      "pack": {
-        "slug": "cat1-m11",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M11",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cf7e1736-67e8-4f0f-a549-d1dead9e2cac.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5ac4e706-6e39-4b08-96ed-88312a0a09c5.png"
       }
     },
     {
@@ -11219,30 +11459,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M23",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/870c2291-6e5c-4eb1-afda-84bf3849d25e.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/65d1d9a6-25a4-4b03-b6d1-815b0cc7d92a.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m59",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M59 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/821f1d31-1472-4aef-8a82-58f39d4515d4.png",
-      "lowestPrice": 145000,
-      "latestCreatedAt": "2026-03-20T17:24:40.918Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m59",
-      "lowestEdition": 32,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/30804cb6-228b-4ebf-b317-d7f6ba1ac8dd.jpeg",
-      "pack": {
-        "slug": "cat1-m59",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M59",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3cfd7c01-046c-44e3-8f8c-69041f67b39f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/821f1d31-1472-4aef-8a82-58f39d4515d4.png"
       }
     },
     {
@@ -13595,30 +13811,6 @@
         "title": "Celebration Snapshots",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ede4fbe2-83d4-4f2c-bd14-33515dadaf59.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3914a49c-4563-471d-95b9-902807f38d04.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-02",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 3 - 0 CRO, **GOAL: Julian Alvarez 69'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7013156-e3c3-422a-bd55-9526582196af.jpeg",
-      "lowestPrice": 5800,
-      "latestCreatedAt": "2026-03-18T12:01:08.786Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 3,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7013156-e3c3-422a-bd55-9526582196af.jpeg"
       }
     },
     {
@@ -21020,30 +21212,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m52",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M52 Seattle",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3ebb8870-21c0-46c9-8ce7-91508cb7da95.png",
-      "lowestPrice": 49800,
-      "latestCreatedAt": "2026-03-13T02:00:49.520Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m52",
-      "lowestEdition": 29,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17d8e93f-de12-4abc-93b8-aff4a9144bdc.jpeg",
-      "pack": {
-        "slug": "cat1-m52",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M52",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/68a14783-94d5-4ad3-a7ea-2a43064446ad.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3ebb8870-21c0-46c9-8ce7-91508cb7da95.png"
-      }
-    },
-    {
       "uniqueCode": "cat2m102",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M102 Atlanta",
@@ -21305,30 +21473,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M72",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17a9b088-0fdb-4753-998a-443dacb72fa7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/70203a88-74e1-4d51-8b34-0a6689cfadfe.png"
-      }
-    },
-    {
-      "uniqueCode": "O_DPR06",
-      "type": "highlight",
-      "title": "Official Home Jersey 2025/2026 - Signed by the Team",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ece1dc01-08d0-4f09-9c50-53336fffcf3a.png",
-      "lowestPrice": 29900,
-      "latestCreatedAt": "2026-03-12T15:14:21.439Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera-level2reward",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/05945a92-2750-4254-8493-ee75f33e08dd.png",
-      "pack": {
-        "slug": "oviedo-deprimera-level2reward",
-        "title": "Real Oviedo - De Primera Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/42fe45ba-1d6b-49cb-b6c0-442cc3981aa2.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ece1dc01-08d0-4f09-9c50-53336fffcf3a.png"
       }
     },
     {
@@ -22604,30 +22748,6 @@
       }
     },
     {
-      "uniqueCode": "R_PA15",
-      "type": "highlight",
-      "title": "Matchday Experience Double Pass - Pachuca vs Santos - J14 Clausura 2026",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9490eed9-8d7f-4400-afbb-dbce3411db99.png",
-      "lowestPrice": 4900,
-      "latestCreatedAt": "2026-03-10T19:17:09.221Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1-level2reward",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f579fa34-b1d5-4c3d-99d1-0aab3269954e.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1-level2reward",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a2ba52d5-ab08-4a9e-a52b-917ee7ee5147.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9490eed9-8d7f-4400-afbb-dbce3411db99.png"
-      }
-    },
-    {
       "uniqueCode": "D01-22",
       "type": "highlight",
       "title": "Australia",
@@ -23537,30 +23657,6 @@
         "title": "Black Friday Flash Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4b22191a-df84-4646-86f3-a0ff794e3226.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d8beae84-756b-4a47-9f4b-84abbe5ae4ee.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-04",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 2 - 0 MEX, **GOAL: Lionel Messi 64'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg",
-      "lowestPrice": 17000,
-      "latestCreatedAt": "2026-03-08T07:02:14.011Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg"
       }
     },
     {
@@ -28115,6 +28211,30 @@
       }
     },
     {
+      "uniqueCode": "cat1-m52",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M52 Seattle",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3ebb8870-21c0-46c9-8ce7-91508cb7da95.png",
+      "lowestPrice": 64900,
+      "latestCreatedAt": "2026-02-16T05:25:51.164Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m52",
+      "lowestEdition": 29,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17d8e93f-de12-4abc-93b8-aff4a9144bdc.jpeg",
+      "pack": {
+        "slug": "cat1-m52",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M52",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/68a14783-94d5-4ad3-a7ea-2a43064446ad.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3ebb8870-21c0-46c9-8ce7-91508cb7da95.png"
+      }
+    },
+    {
       "uniqueCode": "D01-26",
       "type": "highlight",
       "title": "Tunisia",
@@ -29173,126 +29293,6 @@
         "title": "Surprise - Panini Legacy",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/468ca15d-01f2-4f5c-9040-6228066c4a8b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bec646e4-3f43-4baf-bd8f-fe2268911f84.png"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-12",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nCRO 1 - 1 BRA, **GOAL: Neymar 105+1'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1909c57d-9422-4484-bd57-2aa75e68fcc9.jpeg",
-      "lowestPrice": 267,
-      "latestCreatedAt": "2026-02-08T10:38:45.411Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 3,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1909c57d-9422-4484-bd57-2aa75e68fcc9.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-13",
-      "type": "highlight",
-      "title": "Netherlands",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nNED 2 - 2 ARG, **GOAL: Wout Weghorst 90+11'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/252fffda-843d-48fd-a851-5d9554e83ea8.jpeg",
-      "lowestPrice": 150,
-      "latestCreatedAt": "2026-02-08T10:29:02.983Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/252fffda-843d-48fd-a851-5d9554e83ea8.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-20",
-      "type": "highlight",
-      "title": "USA",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nNED 3 - 1 USA, **GOAL: Haji Wright 76'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0b4808b-08f3-4b7e-8d20-e4f0d109bbba.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-02-08T09:30:31.931Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 4,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0b4808b-08f3-4b7e-8d20-e4f0d109bbba.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-17",
-      "type": "highlight",
-      "title": "England",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nWAL 0 - 3 ENG, **GOAL: Marcus Rashford 50'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f9f43742-ea3e-47d4-a245-63fbe247a385.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-02-07T21:52:44.441Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 3,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f9f43742-ea3e-47d4-a245-63fbe247a385.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-18",
-      "type": "highlight",
-      "title": "Spain",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nESP 7 - 0 CRC, **GOAL: Gavi 74'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/df8d2c47-390e-4b29-802d-038627af4885.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-02-07T21:44:50.120Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 5,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/df8d2c47-390e-4b29-802d-038627af4885.jpeg"
       }
     },
     {
