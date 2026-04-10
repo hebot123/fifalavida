@@ -2,13 +2,493 @@
   "total": 2138,
   "listings": [
     {
+      "uniqueCode": "cat1-m86",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M86 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d8320e-0e59-4098-a7b8-6a1ce7170881.png",
+      "lowestPrice": 195000,
+      "latestCreatedAt": "2026-04-10T22:29:19.240Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m86",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0dc4aa02-dbc8-44c6-8509-b2d20796e3e8.jpeg",
+      "pack": {
+        "slug": "cat1-m86",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M86",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2e4beb34-7420-4503-89d8-f0f04f0aa2a8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d8320e-0e59-4098-a7b8-6a1ce7170881.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m43",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M43 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77a98cf1-d0e9-4326-b626-e0dffda734cc.png",
+      "lowestPrice": 160000,
+      "latestCreatedAt": "2026-04-10T22:28:02.963Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m43",
+      "lowestEdition": 21,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1018d8ad-ddf4-4386-a173-4254b87bce55.jpeg",
+      "pack": {
+        "slug": "cat2-m43",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M43",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/76ed17b7-7d9f-4c1b-a1b6-e3f3c82df81a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77a98cf1-d0e9-4326-b626-e0dffda734cc.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_R2608",
+      "type": "highlight",
+      "title": "Valentin Mihăilă",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee347635-3b13-4656-8d2c-3fca1c0bff0c.png",
+      "lowestPrice": 276,
+      "latestCreatedAt": "2026-04-10T22:21:54.885Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 29,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/452e8982-0971-4fb0-aab9-eefead431204.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee347635-3b13-4656-8d2c-3fca1c0bff0c.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m24",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M24 Mexico City",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7c71fcac-f564-42d3-a943-4c135fa8e15e.png",
+      "lowestPrice": 141500,
+      "latestCreatedAt": "2026-04-10T22:19:21.095Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m24",
+      "lowestEdition": 22,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f1a2cb4-32f7-4e22-b11a-a9d21ce54221.jpeg",
+      "pack": {
+        "slug": "cat1-m24",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M24",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b2b91159-b13e-4952-8382-fdc161fae535.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7c71fcac-f564-42d3-a943-4c135fa8e15e.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m31",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M31 San Francisco",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e0dae6b1-b1d9-4856-a3c9-cd56248e0673.png",
+      "lowestPrice": 84800,
+      "latestCreatedAt": "2026-04-10T22:17:30.955Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m31",
+      "lowestEdition": 21,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/eb3db971-155d-4c0f-80f1-ae65b0beb818.jpeg",
+      "pack": {
+        "slug": "cat2-m31",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M31",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e8659bf7-0661-488e-8011-e97ac50fdb35.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e0dae6b1-b1d9-4856-a3c9-cd56248e0673.png"
+      }
+    },
+    {
+      "uniqueCode": "R_PA21",
+      "type": "highlight",
+      "title": "Official Away Jersey MDC 2025 - Signed by Enner Valencia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4dce89db-5d42-412e-b726-6374cdab7537.png",
+      "lowestPrice": 24000,
+      "latestCreatedAt": "2026-04-10T22:14:41.805Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1-leaderboard",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1c5e23c-82b1-4853-bce8-8f53e0bc14fb.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1-leaderboard",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/941659f3-e7c4-4b84-a8a4-9a64d1dd6060.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4dce89db-5d42-412e-b726-6374cdab7537.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m91",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M91 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/13c28a79-47bf-4dc1-a90a-5004e264e642.png",
+      "lowestPrice": 141000,
+      "latestCreatedAt": "2026-04-10T22:06:19.186Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m91",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f02a21b5-db21-4d0f-a9d1-052dea643341.jpeg",
+      "pack": {
+        "slug": "cat2-m91",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M91",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fcd45237-acb4-4384-bbe0-6ad3948f81fa.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/13c28a79-47bf-4dc1-a90a-5004e264e642.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m35",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M35 Houston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8c634176-7156-4187-98c7-9d739f19ed42.png",
+      "lowestPrice": 69000,
+      "latestCreatedAt": "2026-04-10T22:06:04.401Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m35",
+      "lowestEdition": 69,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e6bfba12-cd41-4ed0-8e10-137068ea3156.jpeg",
+      "pack": {
+        "slug": "cat1-m35",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M35",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e1776906-6456-45c3-9241-83bfd3c4b9eb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8c634176-7156-4187-98c7-9d739f19ed42.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m39",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M39 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/49757130-b9c8-4f18-a7ad-fbda0167ea33.png",
+      "lowestPrice": 55500,
+      "latestCreatedAt": "2026-04-10T22:03:48.230Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m39",
+      "lowestEdition": 15,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b82463f-39e5-46a8-8ef5-e54773bb54e7.jpeg",
+      "pack": {
+        "slug": "cat1-m39",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M39",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/237c56ca-0598-48a1-8092-c4f16b8f8bda.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/49757130-b9c8-4f18-a7ad-fbda0167ea33.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_R2601",
+      "type": "highlight",
+      "title": "Mircea Lucescu",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png",
+      "lowestPrice": 7313,
+      "latestCreatedAt": "2026-04-10T21:51:12.061Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/33f98d13-4d52-4d3a-800f-3c81d987df10.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_R2624",
+      "type": "highlight",
+      "title": "Adrian Șut",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/03733834-907d-4562-9e81-fef92aa3286e.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-10T21:49:28.290Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/aee89243-0c99-4534-a4ed-97cce0fe8eba.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/03733834-907d-4562-9e81-fef92aa3286e.png"
+      }
+    },
+    {
+      "uniqueCode": "R_PA15",
+      "type": "highlight",
+      "title": "Matchday Experience Double Pass - Pachuca vs Santos - J14 Clausura 2026",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9490eed9-8d7f-4400-afbb-dbce3411db99.png",
+      "lowestPrice": 900,
+      "latestCreatedAt": "2026-04-10T21:48:16.817Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1-level2reward",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f579fa34-b1d5-4c3d-99d1-0aab3269954e.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1-level2reward",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a2ba52d5-ab08-4a9e-a52b-917ee7ee5147.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9490eed9-8d7f-4400-afbb-dbce3411db99.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m22",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M22 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36ce69d2-68ea-4307-829f-64234bc52d8f.png",
+      "lowestPrice": 120000,
+      "latestCreatedAt": "2026-04-10T21:46:29.782Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m22",
+      "lowestEdition": 42,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7973ee4-a94b-4448-a81d-39098cd524e6.jpeg",
+      "pack": {
+        "slug": "cat2-m22",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M22",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/42b707e7-7c34-4c54-82a0-3f2defa5dfe5.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36ce69d2-68ea-4307-829f-64234bc52d8f.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_R2610",
+      "type": "highlight",
+      "title": "Nicușor Bancu",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc27c64f-adfd-4620-a5ba-8c142299eca7.png",
+      "lowestPrice": 195,
+      "latestCreatedAt": "2026-04-10T21:44:59.828Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 15,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f795d08-6662-447b-92ce-af24cfc03d09.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc27c64f-adfd-4620-a5ba-8c142299eca7.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_R2609",
+      "type": "highlight",
+      "title": "Andrei Burcă",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1a1bef05-e312-489d-b64d-9e2228c5417f.png",
+      "lowestPrice": 300,
+      "latestCreatedAt": "2026-04-10T21:42:05.338Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 16,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9666ee40-6991-4ae8-9e58-b92a972dd5ff.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1a1bef05-e312-489d-b64d-9e2228c5417f.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m47",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M47 Houston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9c2bcaa3-bf43-424a-83c6-ebf94dd2b40c.png",
+      "lowestPrice": 99000,
+      "latestCreatedAt": "2026-04-10T21:41:36.294Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m47",
+      "lowestEdition": 12,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f0a63c20-e9b5-42b1-ad02-0762526b6958.jpeg",
+      "pack": {
+        "slug": "cat1-m47",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M47",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ed430885-ed81-4ef2-9001-beee833af1ed.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9c2bcaa3-bf43-424a-83c6-ebf94dd2b40c.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_R2621",
+      "type": "highlight",
+      "title": "Bogdan Racovițan",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/39f02842-f3a7-4b79-b5da-143b63350557.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-10T21:40:44.353Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3148f75b-640e-4284-8e9c-cbd02e7c591c.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/39f02842-f3a7-4b79-b5da-143b63350557.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_R2612",
+      "type": "highlight",
+      "title": "Denis Drăguș",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8fcf4e3c-bed9-408f-acd2-e4edd1398e38.png",
+      "lowestPrice": 178,
+      "latestCreatedAt": "2026-04-10T21:39:50.442Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 12,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e72a6f3a-e600-4193-8f44-318dce212d4c.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8fcf4e3c-bed9-408f-acd2-e4edd1398e38.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_R2605",
+      "type": "highlight",
+      "title": "Nicolae Stanciu",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d85196f-8746-4017-9ff5-c13f4309f132.png",
+      "lowestPrice": 1100,
+      "latestCreatedAt": "2026-04-10T21:38:40.572Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7ddeeca7-eedf-4a25-8875-590cef2e94d0.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d85196f-8746-4017-9ff5-c13f4309f132.png"
+      }
+    },
+    {
+      "uniqueCode": "RO_R2604",
+      "type": "highlight",
+      "title": "Dennis Man",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/25f25237-8f52-4d53-a735-43fbf669bd8d.png",
+      "lowestPrice": 2000,
+      "latestCreatedAt": "2026-04-10T21:37:10.267Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0e409e8b-ed93-4e40-a12d-a25d01ee9567.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/25f25237-8f52-4d53-a735-43fbf669bd8d.png"
+      }
+    },
+    {
       "uniqueCode": "cat1-m82",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M82 Seattle",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/685c0d19-503a-4f7d-a156-1415df59de89.png",
       "lowestPrice": 72000,
-      "latestCreatedAt": "2026-04-10T21:27:17.251Z",
+      "latestCreatedAt": "2026-04-10T21:36:04.565Z",
       "rarity": {
         "code": "40",
         "color": "#DDBE5E",
@@ -407,30 +887,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M61",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/337369d5-d675-4d3a-9a95-1c7c15ba3078.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5666a670-b3bf-43a0-a484-19797a0b6710.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m91",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M91 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f9d492b-239a-4053-8569-f4949ea2effd.png",
-      "lowestPrice": 172900,
-      "latestCreatedAt": "2026-04-10T20:39:35.047Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m91",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8c7f4640-f865-4dd7-b678-f088b8ebddc0.jpeg",
-      "pack": {
-        "slug": "cat1-m91",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M91",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ffa1906f-df74-49f0-8cc9-5aeba742af8a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f9d492b-239a-4053-8569-f4949ea2effd.png"
       }
     },
     {
@@ -938,30 +1394,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m47",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M47 Houston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9c2bcaa3-bf43-424a-83c6-ebf94dd2b40c.png",
-      "lowestPrice": 99000,
-      "latestCreatedAt": "2026-04-10T19:19:41.813Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m47",
-      "lowestEdition": 12,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f0a63c20-e9b5-42b1-ad02-0762526b6958.jpeg",
-      "pack": {
-        "slug": "cat1-m47",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M47",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ed430885-ed81-4ef2-9001-beee833af1ed.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9c2bcaa3-bf43-424a-83c6-ebf94dd2b40c.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m71",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M71 Miami",
@@ -1058,54 +1490,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m31",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M31 San Francisco",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e0dae6b1-b1d9-4856-a3c9-cd56248e0673.png",
-      "lowestPrice": 83800,
-      "latestCreatedAt": "2026-04-10T19:11:37.597Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m31",
-      "lowestEdition": 21,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/eb3db971-155d-4c0f-80f1-ae65b0beb818.jpeg",
-      "pack": {
-        "slug": "cat2-m31",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M31",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e8659bf7-0661-488e-8011-e97ac50fdb35.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e0dae6b1-b1d9-4856-a3c9-cd56248e0673.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m91",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M91 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/13c28a79-47bf-4dc1-a90a-5004e264e642.png",
-      "lowestPrice": 141000,
-      "latestCreatedAt": "2026-04-10T19:09:47.951Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m91",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f02a21b5-db21-4d0f-a9d1-052dea643341.jpeg",
-      "pack": {
-        "slug": "cat2-m91",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M91",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fcd45237-acb4-4384-bbe0-6ad3948f81fa.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/13c28a79-47bf-4dc1-a90a-5004e264e642.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m65",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M65 Houston",
@@ -1175,6 +1559,30 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M31",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/94f4ff1e-015b-48b3-a45f-fd5bcfdf06ce.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9e7d55ba-f975-4996-b4fe-a2d6473bf8b7.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m91",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M91 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f9d492b-239a-4053-8569-f4949ea2effd.png",
+      "lowestPrice": 173000,
+      "latestCreatedAt": "2026-04-10T18:57:43.273Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m91",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8c7f4640-f865-4dd7-b678-f088b8ebddc0.jpeg",
+      "pack": {
+        "slug": "cat1-m91",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M91",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ffa1906f-df74-49f0-8cc9-5aeba742af8a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f9d492b-239a-4053-8569-f4949ea2effd.png"
       }
     },
     {
@@ -1562,30 +1970,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m24",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M24 Mexico City",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7c71fcac-f564-42d3-a943-4c135fa8e15e.png",
-      "lowestPrice": 155000,
-      "latestCreatedAt": "2026-04-10T18:30:53.079Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m24",
-      "lowestEdition": 22,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f1a2cb4-32f7-4e22-b11a-a9d21ce54221.jpeg",
-      "pack": {
-        "slug": "cat1-m24",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M24",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b2b91159-b13e-4952-8382-fdc161fae535.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7c71fcac-f564-42d3-a943-4c135fa8e15e.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m68",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M68 Philadelphia",
@@ -1919,30 +2303,6 @@
         "title": "Fluminense FC - Season 2026",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e7ee45f1-45c7-4a8a-8e8f-0e37fdadccec.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e143112f-856e-476d-9dc7-0af5a9240bfb.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m43",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M43 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77a98cf1-d0e9-4326-b626-e0dffda734cc.png",
-      "lowestPrice": 179800,
-      "latestCreatedAt": "2026-04-10T18:16:07.256Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m43",
-      "lowestEdition": 21,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1018d8ad-ddf4-4386-a173-4254b87bce55.jpeg",
-      "pack": {
-        "slug": "cat2-m43",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M43",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/76ed17b7-7d9f-4c1b-a1b6-e3f3c82df81a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77a98cf1-d0e9-4326-b626-e0dffda734cc.png"
       }
     },
     {
@@ -2498,30 +2858,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m35",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M35 Houston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8c634176-7156-4187-98c7-9d739f19ed42.png",
-      "lowestPrice": 69000,
-      "latestCreatedAt": "2026-04-10T17:25:49.703Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m35",
-      "lowestEdition": 69,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e6bfba12-cd41-4ed0-8e10-137068ea3156.jpeg",
-      "pack": {
-        "slug": "cat1-m35",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M35",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e1776906-6456-45c3-9241-83bfd3c4b9eb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8c634176-7156-4187-98c7-9d739f19ed42.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m37",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M37 Miami",
@@ -2786,30 +3122,6 @@
       }
     },
     {
-      "uniqueCode": "R_PA21",
-      "type": "highlight",
-      "title": "Official Away Jersey MDC 2025 - Signed by Enner Valencia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4dce89db-5d42-412e-b726-6374cdab7537.png",
-      "lowestPrice": 24900,
-      "latestCreatedAt": "2026-04-10T17:14:39.433Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1-leaderboard",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b1c5e23c-82b1-4853-bce8-8f53e0bc14fb.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1-leaderboard",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/941659f3-e7c4-4b84-a8a4-9a64d1dd6060.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4dce89db-5d42-412e-b726-6374cdab7537.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m64",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M64 Vancouver",
@@ -2855,30 +3167,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M73",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c0a3c7d5-2ab6-4b82-bb01-77933e008161.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cc34ede1-0b64-48d7-9eaa-185d7e8c0c38.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m39",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M39 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/49757130-b9c8-4f18-a7ad-fbda0167ea33.png",
-      "lowestPrice": 55500,
-      "latestCreatedAt": "2026-04-10T17:10:13.925Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m39",
-      "lowestEdition": 15,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b82463f-39e5-46a8-8ef5-e54773bb54e7.jpeg",
-      "pack": {
-        "slug": "cat1-m39",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M39",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/237c56ca-0598-48a1-8092-c4f16b8f8bda.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/49757130-b9c8-4f18-a7ad-fbda0167ea33.png"
       }
     },
     {
@@ -4034,78 +4322,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m22",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M22 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36ce69d2-68ea-4307-829f-64234bc52d8f.png",
-      "lowestPrice": 120000,
-      "latestCreatedAt": "2026-04-10T06:42:37.857Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m22",
-      "lowestEdition": 42,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7973ee4-a94b-4448-a81d-39098cd524e6.jpeg",
-      "pack": {
-        "slug": "cat2-m22",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M22",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/42b707e7-7c34-4c54-82a0-3f2defa5dfe5.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/36ce69d2-68ea-4307-829f-64234bc52d8f.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2610",
-      "type": "highlight",
-      "title": "Nicușor Bancu",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc27c64f-adfd-4620-a5ba-8c142299eca7.png",
-      "lowestPrice": 195,
-      "latestCreatedAt": "2026-04-10T06:39:23.498Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 15,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f795d08-6662-447b-92ce-af24cfc03d09.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc27c64f-adfd-4620-a5ba-8c142299eca7.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2612",
-      "type": "highlight",
-      "title": "Denis Drăguș",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8fcf4e3c-bed9-408f-acd2-e4edd1398e38.png",
-      "lowestPrice": 178,
-      "latestCreatedAt": "2026-04-10T06:38:32.678Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 12,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e72a6f3a-e600-4193-8f44-318dce212d4c.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8fcf4e3c-bed9-408f-acd2-e4edd1398e38.png"
-      }
-    },
-    {
       "uniqueCode": "RO_R2618",
       "type": "highlight",
       "title": "Ștefan Târnovanu",
@@ -4127,30 +4343,6 @@
         "title": "Romania - Road to '26",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2239501e-b041-4975-b0f6-6a720cece054.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2621",
-      "type": "highlight",
-      "title": "Bogdan Racovițan",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/39f02842-f3a7-4b79-b5da-143b63350557.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-10T06:36:06.452Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3148f75b-640e-4284-8e9c-cbd02e7c591c.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/39f02842-f3a7-4b79-b5da-143b63350557.png"
       }
     },
     {
@@ -4199,30 +4391,6 @@
         "title": "Romania - Road to '26",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/451b3948-0c70-461b-8e01-a66a6b00b290.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2608",
-      "type": "highlight",
-      "title": "Valentin Mihăilă",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee347635-3b13-4656-8d2c-3fca1c0bff0c.png",
-      "lowestPrice": 276,
-      "latestCreatedAt": "2026-04-10T06:34:24.645Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 29,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/452e8982-0971-4fb0-aab9-eefead431204.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee347635-3b13-4656-8d2c-3fca1c0bff0c.png"
       }
     },
     {
@@ -4394,30 +4562,6 @@
       }
     },
     {
-      "uniqueCode": "RO_R2601",
-      "type": "highlight",
-      "title": "Mircea Lucescu",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png",
-      "lowestPrice": 7313,
-      "latestCreatedAt": "2026-04-10T06:28:29.692Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/33f98d13-4d52-4d3a-800f-3c81d987df10.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png"
-      }
-    },
-    {
       "uniqueCode": "RO_R2627",
       "type": "highlight",
       "title": "Louis Munteanu",
@@ -4463,30 +4607,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M72",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17a9b088-0fdb-4753-998a-443dacb72fa7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/70203a88-74e1-4d51-8b34-0a6689cfadfe.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2624",
-      "type": "highlight",
-      "title": "Adrian Șut",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/03733834-907d-4562-9e81-fef92aa3286e.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-10T06:07:32.983Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/aee89243-0c99-4534-a4ed-97cce0fe8eba.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/03733834-907d-4562-9e81-fef92aa3286e.png"
       }
     },
     {
@@ -4583,30 +4703,6 @@
         "title": "Romania - Road to '26",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1ef120dd-ef0c-4d51-a9a5-aaf8a15e33cb.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2609",
-      "type": "highlight",
-      "title": "Andrei Burcă",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1a1bef05-e312-489d-b64d-9e2228c5417f.png",
-      "lowestPrice": 300,
-      "latestCreatedAt": "2026-04-10T05:51:03.727Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 16,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9666ee40-6991-4ae8-9e58-b92a972dd5ff.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1a1bef05-e312-489d-b64d-9e2228c5417f.png"
       }
     },
     {
@@ -4735,7 +4831,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M17 New York",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/98d26c16-d2e7-41e6-9b08-93581f805a4d.png",
-      "lowestPrice": 94000,
+      "lowestPrice": 95000,
       "latestCreatedAt": "2026-04-10T04:34:07.016Z",
       "rarity": {
         "code": "40",
@@ -4826,30 +4922,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m86",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M86 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d8320e-0e59-4098-a7b8-6a1ce7170881.png",
-      "lowestPrice": 195000,
-      "latestCreatedAt": "2026-04-10T01:26:14.834Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m86",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0dc4aa02-dbc8-44c6-8509-b2d20796e3e8.jpeg",
-      "pack": {
-        "slug": "cat1-m86",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M86",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2e4beb34-7420-4503-89d8-f0f04f0aa2a8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d8320e-0e59-4098-a7b8-6a1ce7170881.png"
-      }
-    },
-    {
       "uniqueCode": "plt-mc-1",
       "type": "highlight",
       "title": "FIFA Collect Platinum Membership Card",
@@ -4912,7 +4984,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "cat3-m102",
-      "lowestEdition": 2,
+      "lowestEdition": 55,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0129def0-60fe-40c0-8469-149fdc54ae1f.jpeg",
       "pack": {
         "slug": "cat3-m102",
@@ -5255,30 +5327,6 @@
         "title": "Romania - Road to '26",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/44ed4533-64ff-4236-a56e-0652dcead681.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2605",
-      "type": "highlight",
-      "title": "Nicolae Stanciu",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d85196f-8746-4017-9ff5-c13f4309f132.png",
-      "lowestPrice": 1100,
-      "latestCreatedAt": "2026-04-09T20:05:49.754Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7ddeeca7-eedf-4a25-8875-590cef2e94d0.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d85196f-8746-4017-9ff5-c13f4309f132.png"
       }
     },
     {
@@ -10946,30 +10994,6 @@
       }
     },
     {
-      "uniqueCode": "R_PA15",
-      "type": "highlight",
-      "title": "Matchday Experience Double Pass - Pachuca vs Santos - J14 Clausura 2026",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9490eed9-8d7f-4400-afbb-dbce3411db99.png",
-      "lowestPrice": 1500,
-      "latestCreatedAt": "2026-04-06T16:53:52.670Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1-level2reward",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f579fa34-b1d5-4c3d-99d1-0aab3269954e.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1-level2reward",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a2ba52d5-ab08-4a9e-a52b-917ee7ee5147.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9490eed9-8d7f-4400-afbb-dbce3411db99.png"
-      }
-    },
-    {
       "uniqueCode": "ct1-m72",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M72 Atlanta",
@@ -16132,30 +16156,6 @@
         "title": "FIFA Archives Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bf9bd1ec-2a82-473a-a7e4-b1fd5b643d31.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2604",
-      "type": "highlight",
-      "title": "Dennis Man",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/25f25237-8f52-4d53-a735-43fbf669bd8d.png",
-      "lowestPrice": 3599,
-      "latestCreatedAt": "2026-04-03T19:41:11.540Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0e409e8b-ed93-4e40-a12d-a25d01ee9567.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/25f25237-8f52-4d53-a735-43fbf669bd8d.png"
       }
     },
     {
