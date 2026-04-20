@@ -1,6 +1,846 @@
 {
-  "total": 2161,
+  "total": 2166,
   "listings": [
+    {
+      "uniqueCode": "M_2CL02",
+      "type": "highlight",
+      "title": "Jermaine Seoposenwe",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a263b7e1-631b-42e7-94ac-4004acde5def.png",
+      "lowestPrice": 390,
+      "latestCreatedAt": "2026-04-20T20:50:18.779Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 25,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3d68e5a4-6faa-4c10-9f00-18c894e99295.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a263b7e1-631b-42e7-94ac-4004acde5def.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB09",
+      "type": "highlight",
+      "title": "Aarón Martín",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2a8d5809-4577-4299-be43-3743cc9ae460.png",
+      "lowestPrice": 330,
+      "latestCreatedAt": "2026-04-20T20:49:25.313Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/52d471b9-3b67-4ea5-ba57-ef437f6febcb.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2a8d5809-4577-4299-be43-3743cc9ae460.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL08",
+      "type": "highlight",
+      "title": "Emily Gielnik",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e676060-5011-4a81-a2ee-33af1c698c09.png",
+      "lowestPrice": 700,
+      "latestCreatedAt": "2026-04-20T20:47:52.096Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 91,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/06902a15-c298-4d1b-bc9e-2a74acca5e1f.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e676060-5011-4a81-a2ee-33af1c698c09.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL22",
+      "type": "highlight",
+      "title": "Ashlyn Fernandez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6e92e9a1-d78f-47de-9622-1f2522ee58f3.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-20T20:46:38.124Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 141,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca10c73d-5c85-41fd-b407-c1a0dbde9348.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6e92e9a1-d78f-47de-9622-1f2522ee58f3.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL20",
+      "type": "highlight",
+      "title": "Ricardo Chávez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ac90b3be-ba4e-4e42-8892-8ee08e906055.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-20T20:45:49.685Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 195,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5201a1ca-8252-44e7-a314-18632e8e5858.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ac90b3be-ba4e-4e42-8892-8ee08e906055.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL05",
+      "type": "highlight",
+      "title": "John Stefan Medina",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/684965e4-0c4c-4ee8-9735-22a3f71e7d7f.png",
+      "lowestPrice": 1000,
+      "latestCreatedAt": "2026-04-20T20:44:32.131Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 78,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca97a18f-a843-41d8-ac5f-d5a15ad9c7ca.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/684965e4-0c4c-4ee8-9735-22a3f71e7d7f.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB26",
+      "type": "highlight",
+      "title": "Jean Onana",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27388052-bb94-49c6-b8a4-1fd3d5e883d0.png",
+      "lowestPrice": 120,
+      "latestCreatedAt": "2026-04-20T20:41:18.973Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/92406b4f-bcb0-4652-bec6-805b212ff0a5.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27388052-bb94-49c6-b8a4-1fd3d5e883d0.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m77",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M77 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ba6af241-6cf3-45e2-9ddc-176a43cf5afa.png",
+      "lowestPrice": 115000,
+      "latestCreatedAt": "2026-04-20T20:40:55.253Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m77",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a16d2001-b8ec-473b-9c91-b9c2d657d9cc.jpeg",
+      "pack": {
+        "slug": "cat1-m77",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M77",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/860b61b8-80fe-4a3c-8aff-78ad9cc08584.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ba6af241-6cf3-45e2-9ddc-176a43cf5afa.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB10",
+      "type": "highlight",
+      "title": "Leo Skiri Østigård",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1614fbf-ecc3-49ec-94db-58cce4dc5381.png",
+      "lowestPrice": 160,
+      "latestCreatedAt": "2026-04-20T20:40:22.912Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/03bdbf89-f5d3-46c0-adeb-cd8c7d79b40c.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1614fbf-ecc3-49ec-94db-58cce4dc5381.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB14",
+      "type": "highlight",
+      "title": "Mikael Ellertsson",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b54c85d8-cded-4ef6-bea4-99638eebe8a4.png",
+      "lowestPrice": 233,
+      "latestCreatedAt": "2026-04-20T20:38:23.466Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 15,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/58b95e69-a5bc-4497-a1a0-27b96d7e34e4.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b54c85d8-cded-4ef6-bea4-99638eebe8a4.png"
+      }
+    },
+    {
+      "uniqueCode": "S2-R1-07",
+      "type": "highlight",
+      "title": "Spain",
+      "subtitle": "2010 FIFA World Cup South Africa™  \nNED 0 - 1 ESP, **Trophy Lift: Iker Casillas**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ecd90e53-11da-49dc-864e-4b8cf8bdae0a.jpeg",
+      "lowestPrice": 450,
+      "latestCreatedAt": "2026-04-20T20:37:06.223Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "trophy-lifts-variety-rewards",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "trophy-lifts-variety-rewards",
+        "title": "Trophy Lifts - Variety Reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c252be70-e259-4aa1-a2ae-6b32b33f042a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ecd90e53-11da-49dc-864e-4b8cf8bdae0a.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D03-25",
+      "type": "highlight",
+      "title": "Saudi Arabia",
+      "subtitle": "1994 FIFA World Cup USA™  \nKSA 2 - 1 MAR, **Goal: Sami Al-Jaber 8'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/60cf4151-8bb3-45c2-95a8-d89898b73428.jpeg",
+      "lowestPrice": 1500,
+      "latestCreatedAt": "2026-04-20T20:36:36.493Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 330,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/60cf4151-8bb3-45c2-95a8-d89898b73428.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "G_RB17",
+      "type": "highlight",
+      "title": "Alessandro Marcandalli",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/795d5c74-597f-4fb7-9a62-9d129b9922b9.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-20T20:36:20.104Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 26,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f28ce7c8-7105-4ff9-9b4e-756769da1311.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/795d5c74-597f-4fb7-9a62-9d129b9922b9.png"
+      }
+    },
+    {
+      "uniqueCode": "P_P01",
+      "type": "highlight",
+      "title": "France 1938",
+      "subtitle": "FIFA World Cup France 1938™ <br/> 4.67 goals scored per match ",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/17967628-7dbf-4586-a937-be7df1332874.png",
+      "lowestPrice": 4000,
+      "latestCreatedAt": "2026-04-20T20:35:27.098Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fifa-120",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/24650939-4e6c-4763-acbb-ce66c78c9f39.png",
+      "pack": {
+        "slug": "fifa-120",
+        "title": "Celebrating 120 years of FIFA™",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/17967628-7dbf-4586-a937-be7df1332874.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB18",
+      "type": "highlight",
+      "title": "Benjamin Siegrist",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b3e4202f-e90d-4cce-acca-e56d51390e36.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-20T20:34:58.832Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 27,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ec5f433-5502-4d74-8ece-4d1b97726f50.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b3e4202f-e90d-4cce-acca-e56d51390e36.png"
+      }
+    },
+    {
+      "uniqueCode": "S2-R1-06",
+      "type": "highlight",
+      "title": "USA",
+      "subtitle": "FIFA Women's World Cup China 1991™  \nNOR 1 - 2 USA, **Trophy Lift: April Heinrichs**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c0855537-2576-4400-814c-1285ed4b51dd.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-20T20:34:45.975Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "trophy-lifts-rare-reward",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "trophy-lifts-rare-reward",
+        "title": "Trophy Lifts - Rare Reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/589cd7f1-6403-49dc-bd37-a135a7722936.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c0855537-2576-4400-814c-1285ed4b51dd.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "G_RB23",
+      "type": "highlight",
+      "title": "Sebastian Otoa",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/73a4c402-d04e-47fb-aaf6-00d2189d5d48.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-20T20:34:40.020Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8acd6e89-3574-43c6-b4fa-691f4467b4ad.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/73a4c402-d04e-47fb-aaf6-00d2189d5d48.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB20",
+      "type": "highlight",
+      "title": "Jeff Ekhator",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ed5ae231-1c15-470e-9ce6-e138e2948f33.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-20T20:34:05.203Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 12,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b554240a-5bdd-4741-aacb-e3ae5994d907.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ed5ae231-1c15-470e-9ce6-e138e2948f33.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m13",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M13 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7577bdcb-d3e6-4d89-be86-486b634cf0b8.png",
+      "lowestPrice": 42000,
+      "latestCreatedAt": "2026-04-20T20:32:44.588Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m13",
+      "lowestEdition": 19,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0149dcb8-632e-45f3-a856-8e9ec9a3392a.jpeg",
+      "pack": {
+        "slug": "cat1-m13",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M13",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0f65df86-49e5-4849-b996-e7a17fd3d302.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7577bdcb-d3e6-4d89-be86-486b634cf0b8.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m72",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M72 Atlanta",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee990ecf-3d38-44e6-a605-7e1f7a9a8091.png",
+      "lowestPrice": 29900,
+      "latestCreatedAt": "2026-04-20T20:30:30.617Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m72",
+      "lowestEdition": 13,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/afd0e356-d543-48f0-8771-01a5c174e02a.jpeg",
+      "pack": {
+        "slug": "cat1-m72",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M72",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/83001016-24f7-4321-b76e-bc1b90f12a9b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee990ecf-3d38-44e6-a605-7e1f7a9a8091.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB02",
+      "type": "highlight",
+      "title": "Ruslan Malinovskyi",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/007bf832-d34e-4d7c-8c8a-624f532a569b.png",
+      "lowestPrice": 591,
+      "latestCreatedAt": "2026-04-20T20:29:12.251Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 15,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c67d6221-3cca-4f85-96da-1974f436600e.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/007bf832-d34e-4d7c-8c8a-624f532a569b.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m95",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M95 Atlanta",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0dab41ea-f0a0-4cf8-ace2-13e7ea3755dc.png",
+      "lowestPrice": 165000,
+      "latestCreatedAt": "2026-04-20T20:24:40.637Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m95",
+      "lowestEdition": 22,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a28f7d90-98af-4e08-b70a-9008886bc854.jpeg",
+      "pack": {
+        "slug": "cat1-m95",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M95",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/94953dc1-339d-43f5-82c0-6f9f97465381.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0dab41ea-f0a0-4cf8-ace2-13e7ea3755dc.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB06",
+      "type": "highlight",
+      "title": "Daniele De Rossi",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7cb3e2ae-8366-4257-8cab-5cf604ff9912.png",
+      "lowestPrice": 730,
+      "latestCreatedAt": "2026-04-20T20:22:42.910Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7e55904-6c14-48e7-b68f-6c0b4feed243.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7cb3e2ae-8366-4257-8cab-5cf604ff9912.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB22",
+      "type": "highlight",
+      "title": "Patrizio Masini",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/011a11a2-89fe-4cdc-9f4f-3d67521523cb.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-20T20:21:12.976Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 46,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f650253f-9b7a-4ffb-984c-108de293f137.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/011a11a2-89fe-4cdc-9f4f-3d67521523cb.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB24",
+      "type": "highlight",
+      "title": "Alexsandro Amorim",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0503d5b0-d39b-44c7-9791-b23279986d4a.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-20T20:19:51.689Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 6,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/706b3843-67d7-4ed6-a76d-aa8dee9fd078.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0503d5b0-d39b-44c7-9791-b23279986d4a.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB25",
+      "type": "highlight",
+      "title": "Nils Zätterström",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38b78cdf-a316-448c-97d0-808ebb15ce5f.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-20T20:18:56.839Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 23,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/be633b35-8f3b-4520-a8a5-5c850e625465.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38b78cdf-a316-448c-97d0-808ebb15ce5f.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB27",
+      "type": "highlight",
+      "title": "Maxwel Cornet",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67fcab46-c798-4c86-82ee-8c6fc82810f4.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-04-20T20:18:38.668Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 16,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c3b05e7a-e976-474e-881a-edacd503b391.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67fcab46-c798-4c86-82ee-8c6fc82810f4.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m68",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M68 Philadelphia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/acebbb64-1480-4736-b7ef-69be0b4bfb6c.png",
+      "lowestPrice": 69800,
+      "latestCreatedAt": "2026-04-20T20:16:26.669Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m68",
+      "lowestEdition": 26,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d2d181f9-f18e-43e6-8196-351f4f0bc166.jpeg",
+      "pack": {
+        "slug": "cat1-m68",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M68",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f2787c08-f02f-447f-91a9-c920bfd8030e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/acebbb64-1480-4736-b7ef-69be0b4bfb6c.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m85",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M85 Vancouver",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2238edf4-5130-4846-9eaf-504c9a1a17ee.png",
+      "lowestPrice": 91500,
+      "latestCreatedAt": "2026-04-20T20:15:43.533Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m85",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4066578f-c83d-48f4-b1a7-122310376e52.jpeg",
+      "pack": {
+        "slug": "cat1-m85",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M85",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/636c233a-347e-4379-bbce-ab1649bd7133.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2238edf4-5130-4846-9eaf-504c9a1a17ee.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m17",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M17 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/247bd1e9-fe50-46d4-945a-ccff08e9ab0a.png",
+      "lowestPrice": 100000,
+      "latestCreatedAt": "2026-04-20T20:10:48.680Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m17",
+      "lowestEdition": 13,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f1232e1e-c02c-4a0f-8ac6-10efa361a873.jpeg",
+      "pack": {
+        "slug": "cat1-m17",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M17",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/581480ab-58d3-4e7e-924f-89b0b60cd323.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/247bd1e9-fe50-46d4-945a-ccff08e9ab0a.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m5",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M5 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png",
+      "lowestPrice": 69969,
+      "latestCreatedAt": "2026-04-20T20:09:23.099Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m5",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/62b5e5a4-e0e1-4d40-a92b-1c3883b1865e.jpeg",
+      "pack": {
+        "slug": "cat2-m5",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M5",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/590991d3-7f00-4440-82dd-f5123c902d5c.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m35",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M35 Houston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8c634176-7156-4187-98c7-9d739f19ed42.png",
+      "lowestPrice": 69900,
+      "latestCreatedAt": "2026-04-20T20:05:17.741Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m35",
+      "lowestEdition": 69,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e6bfba12-cd41-4ed0-8e10-137068ea3156.jpeg",
+      "pack": {
+        "slug": "cat1-m35",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M35",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e1776906-6456-45c3-9241-83bfd3c4b9eb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8c634176-7156-4187-98c7-9d739f19ed42.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m70",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M70 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c43279c8-2598-4a4a-a64d-ca97b22e382c.png",
+      "lowestPrice": 136969,
+      "latestCreatedAt": "2026-04-20T20:04:07.735Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m70",
+      "lowestEdition": 22,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f92872e4-22ea-4038-b723-cad66d09247c.jpeg",
+      "pack": {
+        "slug": "cat2-m70",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M70",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/20ad4311-baee-4fb7-9057-ba4967bb71c1.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c43279c8-2598-4a4a-a64d-ca97b22e382c.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m80",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M80 Atlanta",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcfe7e04-9834-4a69-88ec-335521da652e.png",
+      "lowestPrice": 85000,
+      "latestCreatedAt": "2026-04-20T20:02:39.586Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m80",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bdb3d77a-3477-4f7f-9872-408def3852ac.jpeg",
+      "pack": {
+        "slug": "cat2-m80",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M80",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/49c21af8-feac-47c5-b829-804b7c82ec50.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcfe7e04-9834-4a69-88ec-335521da652e.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m87",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M87 Kansas City",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1825c71c-5caa-4d3f-a51f-8dc4af07634b.png",
+      "lowestPrice": 94000,
+      "latestCreatedAt": "2026-04-20T19:58:08.782Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m87",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca867b60-f123-4ad0-8c16-bbd41298597c.jpeg",
+      "pack": {
+        "slug": "cat2-m87",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M87",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bb9f102c-e82a-4033-b1e4-da80126288e6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1825c71c-5caa-4d3f-a51f-8dc4af07634b.png"
+      }
+    },
     {
       "uniqueCode": "cat2-m15",
       "type": "highlight",
@@ -98,30 +938,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m80",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M80 Atlanta",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcfe7e04-9834-4a69-88ec-335521da652e.png",
-      "lowestPrice": 85000,
-      "latestCreatedAt": "2026-04-20T19:30:45.394Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m80",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bdb3d77a-3477-4f7f-9872-408def3852ac.jpeg",
-      "pack": {
-        "slug": "cat2-m80",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M80",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/49c21af8-feac-47c5-b829-804b7c82ec50.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcfe7e04-9834-4a69-88ec-335521da652e.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m55",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M55 Philadelphia",
@@ -167,30 +983,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M76",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09b4f90f-0dd8-4b68-8853-bbf3c9056020.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m35",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M35 Houston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8c634176-7156-4187-98c7-9d739f19ed42.png",
-      "lowestPrice": 69900,
-      "latestCreatedAt": "2026-04-20T19:28:34.622Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m35",
-      "lowestEdition": 69,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e6bfba12-cd41-4ed0-8e10-137068ea3156.jpeg",
-      "pack": {
-        "slug": "cat1-m35",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M35",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e1776906-6456-45c3-9241-83bfd3c4b9eb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8c634176-7156-4187-98c7-9d739f19ed42.png"
       }
     },
     {
@@ -530,30 +1322,6 @@
       }
     },
     {
-      "uniqueCode": "S2-R1-06",
-      "type": "highlight",
-      "title": "USA",
-      "subtitle": "FIFA Women's World Cup China 1991™  \nNOR 1 - 2 USA, **Trophy Lift: April Heinrichs**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c0855537-2576-4400-814c-1285ed4b51dd.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-20T17:57:00.792Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "trophy-lifts-rare-reward",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "trophy-lifts-rare-reward",
-        "title": "Trophy Lifts - Rare Reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/589cd7f1-6403-49dc-bd37-a135a7722936.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c0855537-2576-4400-814c-1285ed4b51dd.jpeg"
-      }
-    },
-    {
       "uniqueCode": "rd-pn-rr",
       "type": "highlight",
       "title": "Portugal",
@@ -866,30 +1634,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m68",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M68 Philadelphia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/acebbb64-1480-4736-b7ef-69be0b4bfb6c.png",
-      "lowestPrice": 69800,
-      "latestCreatedAt": "2026-04-20T17:26:51.715Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m68",
-      "lowestEdition": 26,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d2d181f9-f18e-43e6-8196-351f4f0bc166.jpeg",
-      "pack": {
-        "slug": "cat1-m68",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M68",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f2787c08-f02f-447f-91a9-c920bfd8030e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/acebbb64-1480-4736-b7ef-69be0b4bfb6c.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m67",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M67 New York",
@@ -1055,30 +1799,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M27",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/47f23dc0-e7cb-415d-8851-99d78e336b0d.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7d638f1b-a921-4f73-b038-9f7b7e8da1bb.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m87",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M87 Kansas City",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1825c71c-5caa-4d3f-a51f-8dc4af07634b.png",
-      "lowestPrice": 94900,
-      "latestCreatedAt": "2026-04-20T16:46:52.153Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m87",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca867b60-f123-4ad0-8c16-bbd41298597c.jpeg",
-      "pack": {
-        "slug": "cat2-m87",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M87",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bb9f102c-e82a-4033-b1e4-da80126288e6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1825c71c-5caa-4d3f-a51f-8dc4af07634b.png"
       }
     },
     {
@@ -1370,30 +2090,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m72",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M72 Atlanta",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee990ecf-3d38-44e6-a605-7e1f7a9a8091.png",
-      "lowestPrice": 29900,
-      "latestCreatedAt": "2026-04-20T15:37:13.107Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m72",
-      "lowestEdition": 13,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/afd0e356-d543-48f0-8771-01a5c174e02a.jpeg",
-      "pack": {
-        "slug": "cat1-m72",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M72",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/83001016-24f7-4321-b76e-bc1b90f12a9b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee990ecf-3d38-44e6-a605-7e1f7a9a8091.png"
-      }
-    },
-    {
       "uniqueCode": "RO_R2601",
       "type": "highlight",
       "title": "Mircea Lucescu",
@@ -1487,30 +2183,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M62",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4ebe1159-faea-4e0d-927f-18cd51033e2e.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/659c507a-70fa-46c2-ba7a-90e63f7fac74.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m13",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M13 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7577bdcb-d3e6-4d89-be86-486b634cf0b8.png",
-      "lowestPrice": 43000,
-      "latestCreatedAt": "2026-04-20T15:32:36.508Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m13",
-      "lowestEdition": 19,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0149dcb8-632e-45f3-a856-8e9ec9a3392a.jpeg",
-      "pack": {
-        "slug": "cat1-m13",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M13",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0f65df86-49e5-4849-b996-e7a17fd3d302.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7577bdcb-d3e6-4d89-be86-486b634cf0b8.png"
       }
     },
     {
@@ -2186,30 +2858,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m5",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M5 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png",
-      "lowestPrice": 70000,
-      "latestCreatedAt": "2026-04-20T12:26:47.103Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m5",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/62b5e5a4-e0e1-4d40-a92b-1c3883b1865e.jpeg",
-      "pack": {
-        "slug": "cat2-m5",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M5",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/590991d3-7f00-4440-82dd-f5123c902d5c.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m61",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M61 Boston",
@@ -2471,30 +3119,6 @@
         "title": "Genoa CFC - Rossoblù 25/26",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cfc92dbb-6c28-4f59-a0e0-e7122f2905d3.png"
-      }
-    },
-    {
-      "uniqueCode": "G_RB06",
-      "type": "highlight",
-      "title": "Daniele De Rossi",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7cb3e2ae-8366-4257-8cab-5cf604ff9912.png",
-      "lowestPrice": 730,
-      "latestCreatedAt": "2026-04-20T09:36:43.530Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7e55904-6c14-48e7-b68f-6c0b4feed243.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7cb3e2ae-8366-4257-8cab-5cf604ff9912.png"
       }
     },
     {
@@ -3527,30 +4151,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M37",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/99d5f727-8e75-486e-9bcd-22fb544231a6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e561bc7a-669e-4d1e-b093-501b66f6480d.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m77",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M77 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ba6af241-6cf3-45e2-9ddc-176a43cf5afa.png",
-      "lowestPrice": 115000,
-      "latestCreatedAt": "2026-04-20T02:56:31.521Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m77",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a16d2001-b8ec-473b-9c91-b9c2d657d9cc.jpeg",
-      "pack": {
-        "slug": "cat1-m77",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M77",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/860b61b8-80fe-4a3c-8aff-78ad9cc08584.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ba6af241-6cf3-45e2-9ddc-176a43cf5afa.png"
       }
     },
     {
@@ -4850,30 +5450,6 @@
       }
     },
     {
-      "uniqueCode": "G_RB24",
-      "type": "highlight",
-      "title": "Alexsandro Amorim",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0503d5b0-d39b-44c7-9791-b23279986d4a.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-19T15:29:53.602Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 6,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/706b3843-67d7-4ed6-a76d-aa8dee9fd078.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0503d5b0-d39b-44c7-9791-b23279986d4a.png"
-      }
-    },
-    {
       "uniqueCode": "rd-gk-c1",
       "type": "highlight",
       "title": "Soviet Union",
@@ -5015,30 +5591,6 @@
         "title": "Fluminense FC - Armadura Tricolor MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6edf2db4-1381-481f-a182-f71e74d5f770.png"
-      }
-    },
-    {
-      "uniqueCode": "G_RB09",
-      "type": "highlight",
-      "title": "Aarón Martín",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2a8d5809-4577-4299-be43-3743cc9ae460.png",
-      "lowestPrice": 395,
-      "latestCreatedAt": "2026-04-19T15:14:56.314Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/52d471b9-3b67-4ea5-ba57-ef437f6febcb.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2a8d5809-4577-4299-be43-3743cc9ae460.png"
       }
     },
     {
@@ -5810,30 +6362,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m70",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M70 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c43279c8-2598-4a4a-a64d-ca97b22e382c.png",
-      "lowestPrice": 139900,
-      "latestCreatedAt": "2026-04-19T11:41:49.285Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m70",
-      "lowestEdition": 54,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f92872e4-22ea-4038-b723-cad66d09247c.jpeg",
-      "pack": {
-        "slug": "cat2-m70",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M70",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/20ad4311-baee-4fb7-9057-ba4967bb71c1.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c43279c8-2598-4a4a-a64d-ca97b22e382c.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m43",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M43 Dallas",
@@ -5855,30 +6383,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M43",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/76ed17b7-7d9f-4c1b-a1b6-e3f3c82df81a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77a98cf1-d0e9-4326-b626-e0dffda734cc.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m17",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M17 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/247bd1e9-fe50-46d4-945a-ccff08e9ab0a.png",
-      "lowestPrice": 100000,
-      "latestCreatedAt": "2026-04-19T11:23:34.379Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m17",
-      "lowestEdition": 13,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f1232e1e-c02c-4a0f-8ac6-10efa361a873.jpeg",
-      "pack": {
-        "slug": "cat1-m17",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M17",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/581480ab-58d3-4e7e-924f-89b0b60cd323.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/247bd1e9-fe50-46d4-945a-ccff08e9ab0a.png"
       }
     },
     {
@@ -6194,30 +6698,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m95",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M95 Atlanta",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0dab41ea-f0a0-4cf8-ace2-13e7ea3755dc.png",
-      "lowestPrice": 179000,
-      "latestCreatedAt": "2026-04-19T08:16:05.134Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m95",
-      "lowestEdition": 22,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a28f7d90-98af-4e08-b70a-9008886bc854.jpeg",
-      "pack": {
-        "slug": "cat1-m95",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M95",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/94953dc1-339d-43f5-82c0-6f9f97465381.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0dab41ea-f0a0-4cf8-ace2-13e7ea3755dc.png"
-      }
-    },
-    {
       "uniqueCode": "D05-29",
       "type": "highlight",
       "title": "Russia",
@@ -6410,54 +6890,6 @@
       }
     },
     {
-      "uniqueCode": "G_RB14",
-      "type": "highlight",
-      "title": "Mikael Ellertsson",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b54c85d8-cded-4ef6-bea4-99638eebe8a4.png",
-      "lowestPrice": 233,
-      "latestCreatedAt": "2026-04-19T03:45:49.207Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 15,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/58b95e69-a5bc-4497-a1a0-27b96d7e34e4.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b54c85d8-cded-4ef6-bea4-99638eebe8a4.png"
-      }
-    },
-    {
-      "uniqueCode": "G_RB02",
-      "type": "highlight",
-      "title": "Ruslan Malinovskyi",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/007bf832-d34e-4d7c-8c8a-624f532a569b.png",
-      "lowestPrice": 800,
-      "latestCreatedAt": "2026-04-19T03:05:35.975Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 15,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c67d6221-3cca-4f85-96da-1974f436600e.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/007bf832-d34e-4d7c-8c8a-624f532a569b.png"
-      }
-    },
-    {
       "uniqueCode": "G_RB11",
       "type": "highlight",
       "title": "Tommaso Baldanzi",
@@ -6479,54 +6911,6 @@
         "title": "Genoa CFC - Rossoblù 25/26",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3c489f5d-5070-4b0a-bf2b-269f391843f0.png"
-      }
-    },
-    {
-      "uniqueCode": "G_RB10",
-      "type": "highlight",
-      "title": "Leo Skiri Østigård",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1614fbf-ecc3-49ec-94db-58cce4dc5381.png",
-      "lowestPrice": 160,
-      "latestCreatedAt": "2026-04-19T03:00:17.272Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 23,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/03bdbf89-f5d3-46c0-adeb-cd8c7d79b40c.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1614fbf-ecc3-49ec-94db-58cce4dc5381.png"
-      }
-    },
-    {
-      "uniqueCode": "G_RB18",
-      "type": "highlight",
-      "title": "Benjamin Siegrist",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b3e4202f-e90d-4cce-acca-e56d51390e36.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-19T02:58:00.596Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 27,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ec5f433-5502-4d74-8ece-4d1b97726f50.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b3e4202f-e90d-4cce-acca-e56d51390e36.png"
       }
     },
     {
@@ -6743,30 +7127,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M91",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ffa1906f-df74-49f0-8cc9-5aeba742af8a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f9d492b-239a-4053-8569-f4949ea2effd.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m85",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M85 Vancouver",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2238edf4-5130-4846-9eaf-504c9a1a17ee.png",
-      "lowestPrice": 91500,
-      "latestCreatedAt": "2026-04-18T22:26:26.214Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m85",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4066578f-c83d-48f4-b1a7-122310376e52.jpeg",
-      "pack": {
-        "slug": "cat1-m85",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M85",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/636c233a-347e-4379-bbce-ab1649bd7133.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2238edf4-5130-4846-9eaf-504c9a1a17ee.png"
       }
     },
     {
@@ -11422,54 +11782,6 @@
       }
     },
     {
-      "uniqueCode": "G_RB26",
-      "type": "highlight",
-      "title": "Jean Onana",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27388052-bb94-49c6-b8a4-1fd3d5e883d0.png",
-      "lowestPrice": 129,
-      "latestCreatedAt": "2026-04-17T03:41:38.114Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/92406b4f-bcb0-4652-bec6-805b212ff0a5.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27388052-bb94-49c6-b8a4-1fd3d5e883d0.png"
-      }
-    },
-    {
-      "uniqueCode": "G_RB22",
-      "type": "highlight",
-      "title": "Patrizio Masini",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/011a11a2-89fe-4cdc-9f4f-3d67521523cb.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-17T03:39:45.791Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 46,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f650253f-9b7a-4ffb-984c-108de293f137.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/011a11a2-89fe-4cdc-9f4f-3d67521523cb.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m66",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M66 Guadalajara",
@@ -11566,30 +11878,6 @@
       }
     },
     {
-      "uniqueCode": "G_RB27",
-      "type": "highlight",
-      "title": "Maxwel Cornet",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67fcab46-c798-4c86-82ee-8c6fc82810f4.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-17T00:36:58.325Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 29,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c3b05e7a-e976-474e-881a-edacd503b391.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67fcab46-c798-4c86-82ee-8c6fc82810f4.png"
-      }
-    },
-    {
       "uniqueCode": "df1-rw09",
       "type": "highlight",
       "title": "Brazil",
@@ -11635,54 +11923,6 @@
         "title": "Celebration Snapshots",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ede4fbe2-83d4-4f2c-bd14-33515dadaf59.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/18119ea5-764a-45d4-81c1-97ad021f9c08.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "G_RB25",
-      "type": "highlight",
-      "title": "Nils Zätterström",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38b78cdf-a316-448c-97d0-808ebb15ce5f.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-16T23:15:30.808Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 40,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/be633b35-8f3b-4520-a8a5-5c850e625465.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38b78cdf-a316-448c-97d0-808ebb15ce5f.png"
-      }
-    },
-    {
-      "uniqueCode": "G_RB20",
-      "type": "highlight",
-      "title": "Jeff Ekhator",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ed5ae231-1c15-470e-9ce6-e138e2948f33.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-16T23:12:10.281Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 12,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b554240a-5bdd-4741-aacb-e3ae5994d907.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ed5ae231-1c15-470e-9ce6-e138e2948f33.png"
       }
     },
     {
@@ -11827,54 +12067,6 @@
         "title": "Real Oviedo - Sí, Volvimos",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e2ce107b-2230-4f7f-8bb6-8c95ed81ee3b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f3306e1e-b5df-4f15-9f1a-ff3137b0c41f.png"
-      }
-    },
-    {
-      "uniqueCode": "G_RB17",
-      "type": "highlight",
-      "title": "Alessandro Marcandalli",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/795d5c74-597f-4fb7-9a62-9d129b9922b9.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-16T21:31:48.516Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 26,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f28ce7c8-7105-4ff9-9b4e-756769da1311.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/795d5c74-597f-4fb7-9a62-9d129b9922b9.png"
-      }
-    },
-    {
-      "uniqueCode": "G_RB23",
-      "type": "highlight",
-      "title": "Sebastian Otoa",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/73a4c402-d04e-47fb-aaf6-00d2189d5d48.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-16T21:30:40.533Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 12,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8acd6e89-3574-43c6-b4fa-691f4467b4ad.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/73a4c402-d04e-47fb-aaf6-00d2189d5d48.png"
       }
     },
     {
@@ -23432,30 +23624,6 @@
       }
     },
     {
-      "uniqueCode": "P_P01",
-      "type": "highlight",
-      "title": "France 1938",
-      "subtitle": "FIFA World Cup France 1938™ <br/> 4.67 goals scored per match ",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/17967628-7dbf-4586-a937-be7df1332874.png",
-      "lowestPrice": 4000,
-      "latestCreatedAt": "2026-04-02T08:27:43.018Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fifa-120",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/24650939-4e6c-4763-acbb-ce66c78c9f39.png",
-      "pack": {
-        "slug": "fifa-120",
-        "title": "Celebrating 120 years of FIFA™",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/17967628-7dbf-4586-a937-be7df1332874.png"
-      }
-    },
-    {
       "uniqueCode": "sp-rv-77",
       "type": "highlight",
       "title": "YUGOSLAVIA",
@@ -33329,30 +33497,6 @@
       }
     },
     {
-      "uniqueCode": "D03-25",
-      "type": "highlight",
-      "title": "Saudi Arabia",
-      "subtitle": "1994 FIFA World Cup USA™  \nKSA 2 - 1 MAR, **Goal: Sami Al-Jaber 8'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/60cf4151-8bb3-45c2-95a8-d89898b73428.jpeg",
-      "lowestPrice": 1500,
-      "latestCreatedAt": "2026-02-18T18:50:26.738Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 330,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/60cf4151-8bb3-45c2-95a8-d89898b73428.jpeg"
-      }
-    },
-    {
       "uniqueCode": "D03-16",
       "type": "highlight",
       "title": "Japan",
@@ -37200,30 +37344,6 @@
         "title": "Curator Collection - South American Flair",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3cd103c4-2df4-431e-8332-87504a85f6ee.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2-R1-07",
-      "type": "highlight",
-      "title": "Spain",
-      "subtitle": "2010 FIFA World Cup South Africa™  \nNED 0 - 1 ESP, **Trophy Lift: Iker Casillas**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ecd90e53-11da-49dc-864e-4b8cf8bdae0a.jpeg",
-      "lowestPrice": 450,
-      "latestCreatedAt": "2025-12-26T08:00:25.473Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "trophy-lifts-variety-rewards",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "trophy-lifts-variety-rewards",
-        "title": "Trophy Lifts - Variety Reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c252be70-e259-4aa1-a2ae-6b32b33f042a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ecd90e53-11da-49dc-864e-4b8cf8bdae0a.jpeg"
       }
     },
     {
