@@ -2,6 +2,30 @@
   "total": 2193,
   "listings": [
     {
+      "uniqueCode": "cat2-m25",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M25 Atlanta",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/54cbca49-4146-4e1d-b53c-f916ea022a5f.png",
+      "lowestPrice": 30000,
+      "latestCreatedAt": "2026-04-26T09:44:41.744Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m25",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dcafba00-8f2e-487b-a21a-7afbe1d65946.jpeg",
+      "pack": {
+        "slug": "cat2-m25",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M25",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c9f053d7-2af0-4e31-b496-88bf3298a1cb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/54cbca49-4146-4e1d-b53c-f916ea022a5f.png"
+      }
+    },
+    {
       "uniqueCode": "df2-rw07",
       "type": "highlight",
       "title": "France",
@@ -6098,30 +6122,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m25",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M25 Atlanta",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/54cbca49-4146-4e1d-b53c-f916ea022a5f.png",
-      "lowestPrice": 30000,
-      "latestCreatedAt": "2026-04-24T21:19:19.492Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m25",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dcafba00-8f2e-487b-a21a-7afbe1d65946.jpeg",
-      "pack": {
-        "slug": "cat2-m25",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M25",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c9f053d7-2af0-4e31-b496-88bf3298a1cb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/54cbca49-4146-4e1d-b53c-f916ea022a5f.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m4",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M4 Los Angeles",
@@ -11661,7 +11661,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "collect11-defenders-pt1",
-      "lowestEdition": 38,
+      "lowestEdition": 61,
       "thumbnailImage": null,
       "pack": {
         "slug": "collect11-defenders-pt1",
