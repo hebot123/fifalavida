@@ -1,6 +1,558 @@
 {
-  "total": 2215,
+  "total": 2216,
   "listings": [
+    {
+      "uniqueCode": "cat1-m18",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M18 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40a95128-bbf1-4353-8bf4-83e835032080.png",
+      "lowestPrice": 36500,
+      "latestCreatedAt": "2026-05-05T10:15:53.314Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m18",
+      "lowestEdition": 13,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3886ec97-ae13-469a-a607-47d8826b1144.jpeg",
+      "pack": {
+        "slug": "cat1-m18",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M18",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a840a3a9-2267-4f29-8ab2-fe6d714c5cb4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40a95128-bbf1-4353-8bf4-83e835032080.png"
+      }
+    },
+    {
+      "uniqueCode": "P1332A11",
+      "type": "highlight",
+      "title": "Javier Aguirre",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e8f03986-93d4-46d4-b3d4-80f8e44a902d.png",
+      "lowestPrice": 285,
+      "latestCreatedAt": "2026-05-05T10:15:03.939Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol2",
+      "lowestEdition": 24,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e626e960-6c32-4403-8dae-353be7c9dcec.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol2",
+        "title": "CF Pachuca - 133 Aniversario Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e8f03986-93d4-46d4-b3d4-80f8e44a902d.png"
+      }
+    },
+    {
+      "uniqueCode": "P1332A13",
+      "type": "highlight",
+      "title": "Walter Silvani",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e69ad57-0133-437b-855a-e243502e56e0.png",
+      "lowestPrice": 170,
+      "latestCreatedAt": "2026-05-05T10:14:01.685Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol2",
+      "lowestEdition": 75,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/43f37758-5341-4903-bd2d-cefdad0246b2.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol2",
+        "title": "CF Pachuca - 133 Aniversario Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e69ad57-0133-437b-855a-e243502e56e0.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m5",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M5 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png",
+      "lowestPrice": 54000,
+      "latestCreatedAt": "2026-05-05T10:13:42.652Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m5",
+      "lowestEdition": 15,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/62b5e5a4-e0e1-4d40-a92b-1c3883b1865e.jpeg",
+      "pack": {
+        "slug": "cat2-m5",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M5",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/590991d3-7f00-4440-82dd-f5123c902d5c.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png"
+      }
+    },
+    {
+      "uniqueCode": "P1332A07",
+      "type": "highlight",
+      "title": "Lorenzo Sáez",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/56831242-9e78-443b-ac18-a20d88dc5214.png",
+      "lowestPrice": 300,
+      "latestCreatedAt": "2026-05-05T10:12:49.038Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol2",
+      "lowestEdition": 28,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e58bfdee-3f69-459c-8863-1632813a927f.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol2",
+        "title": "CF Pachuca - 133 Aniversario Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/56831242-9e78-443b-ac18-a20d88dc5214.png"
+      }
+    },
+    {
+      "uniqueCode": "R_P2A27",
+      "type": "highlight",
+      "title": "CF Pachuca 133 Aniversario - Somos La Historia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8c8e584c-f6b5-419e-b7ca-b08f3f02be9d.png",
+      "lowestPrice": 8900,
+      "latestCreatedAt": "2026-05-05T10:10:03.754Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol-1-2-combined",
+      "lowestEdition": 26,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/008559ed-9a39-4c45-b1ed-942b15f404c8.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol-1-2-combined",
+        "title": "CF Pachuca - 133 Aniversario Vol. 2 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f15d65c9-53aa-4bae-882b-358f435b7fd0.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8c8e584c-f6b5-419e-b7ca-b08f3f02be9d.png"
+      }
+    },
+    {
+      "uniqueCode": "P1332A22",
+      "type": "highlight",
+      "title": "Erick Gutiérrez",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7831c873-32ed-41af-b7b6-7c526f8df714.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-05T10:09:33.654Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol2",
+      "lowestEdition": 32,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0913ed6a-8315-4eff-a77a-cace930d680a.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol2",
+        "title": "CF Pachuca - 133 Aniversario Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7831c873-32ed-41af-b7b6-7c526f8df714.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m78",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M78 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a39e6c0d-cc17-4559-8838-06fd881bd0d7.png",
+      "lowestPrice": 56472,
+      "latestCreatedAt": "2026-05-05T09:57:05.714Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m78",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3fa837cd-e5da-4295-ac12-4a470de08229.jpeg",
+      "pack": {
+        "slug": "cat1-m78",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M78",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a5563144-69a5-482e-ab94-f4d453f61cd0.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a39e6c0d-cc17-4559-8838-06fd881bd0d7.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m71",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M71 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c8a64c1-3d58-4412-a6fe-13baff09409a.png",
+      "lowestPrice": 269000,
+      "latestCreatedAt": "2026-05-05T09:55:08.269Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m71",
+      "lowestEdition": 44,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c5af70a5-8e64-4049-b695-fc2baf1ee2ce.jpeg",
+      "pack": {
+        "slug": "cat1-m71",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M71",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/616cde74-927a-49ef-8b32-1b017c4b3dc8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c8a64c1-3d58-4412-a6fe-13baff09409a.png"
+      }
+    },
+    {
+      "uniqueCode": "cat3-m21",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 3 for M21 Toronto",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cfae51b2-ae16-4e55-9608-0824822134e8.png",
+      "lowestPrice": 35000,
+      "latestCreatedAt": "2026-05-05T09:51:15.648Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat3-m21",
+      "lowestEdition": 17,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2d4f305b-ffe7-46dd-85c8-2b683a8befca.jpeg",
+      "pack": {
+        "slug": "cat3-m21",
+        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M21",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/270b1d70-74bd-45ab-acc1-f8db85814fc2.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cfae51b2-ae16-4e55-9608-0824822134e8.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m76",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M76 Houston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png",
+      "lowestPrice": 85900,
+      "latestCreatedAt": "2026-05-05T09:51:01.513Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m76",
+      "lowestEdition": 39,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d492b74e-01bc-4c46-8215-5c63a706b562.jpeg",
+      "pack": {
+        "slug": "cat1-m76",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M76",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09b4f90f-0dd8-4b68-8853-bbf3c9056020.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m49",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M49 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66afd220-5cde-4df5-acaa-d3f00194f812.png",
+      "lowestPrice": 164500,
+      "latestCreatedAt": "2026-05-05T09:33:53.212Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m49",
+      "lowestEdition": 37,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f4cfd9b1-c791-4126-bdd0-1f5c6baba44e.jpeg",
+      "pack": {
+        "slug": "cat1-m49",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M49",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1c56f523-7f86-41f1-b025-bb75f12dcbcb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66afd220-5cde-4df5-acaa-d3f00194f812.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m63",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M63 Seattle",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cc7fe6a8-944d-423d-a126-c14afb452c79.png",
+      "lowestPrice": 37500,
+      "latestCreatedAt": "2026-05-05T09:14:39.666Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m63",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e0e0420d-7a3a-4e5c-a021-3941519d2ccd.jpeg",
+      "pack": {
+        "slug": "cat1-m63",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M63",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b6d88a7f-07ab-4382-9ffe-ef148c3ea9cc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cc7fe6a8-944d-423d-a126-c14afb452c79.png"
+      }
+    },
+    {
+      "uniqueCode": "R_F26_01",
+      "type": "highlight",
+      "title": "Double Pass - Fluminense vs São Paulo - Matchday 16 Campeonato Brasileiro 2026",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da6aae16-3fd3-4aa9-a7ef-4fa898a6fcbf.png",
+      "lowestPrice": 2900,
+      "latestCreatedAt": "2026-05-05T08:47:18.808Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-season2026-level1reward",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/90a1aab5-5ec5-466f-a514-e06aac5cbba3.png",
+      "pack": {
+        "slug": "fluminense-season2026-level1reward",
+        "title": "Fluminense FC - Season 2026 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d72d72f9-7565-4294-b6c6-4c494e5f2657.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da6aae16-3fd3-4aa9-a7ef-4fa898a6fcbf.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m45",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M45 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b418925d-db0f-489a-9ab6-75bd6efd2b90.png",
+      "lowestPrice": 69500,
+      "latestCreatedAt": "2026-05-05T08:41:38.046Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m45",
+      "lowestEdition": 15,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/687c2053-6aed-43c4-9136-260a52a16cf4.jpeg",
+      "pack": {
+        "slug": "cat1-m45",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M45",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f007afd9-93cc-405c-8149-99d4d2deeecb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b418925d-db0f-489a-9ab6-75bd6efd2b90.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP34",
+      "type": "highlight",
+      "title": "Luis Quiñones",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94fc47e1-03a6-4fee-9e99-22facd7fb4d6.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-05T08:36:46.361Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1acaf371-34e3-4c93-aacd-917015b990e4.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94fc47e1-03a6-4fee-9e99-22facd7fb4d6.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM29",
+      "type": "highlight",
+      "title": "5. Facundo Bernal",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc85e25-c4a4-4747-966e-307c61e0cf94.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-05T08:33:16.345Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c6666c78-3f85-419e-b0cd-45ebd66c01df.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc85e25-c4a4-4747-966e-307c61e0cf94.png"
+      }
+    },
+    {
+      "uniqueCode": "F_AM43",
+      "type": "highlight",
+      "title": "55. Wallace Davi",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b035233d-be78-466a-925d-275dd101338d.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-05T08:31:47.963Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5a94392a-b523-4894-b2f5-64d688ae10b7.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b035233d-be78-466a-925d-275dd101338d.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m56",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M56 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png",
+      "lowestPrice": 100000,
+      "latestCreatedAt": "2026-05-05T08:26:21.284Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m56",
+      "lowestEdition": 32,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c2511ab3-12dc-4ea1-ba17-70ef33d38ea1.jpeg",
+      "pack": {
+        "slug": "cat1-m56",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M56",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/510dab06-e2d9-4505-9fa6-abbf63565a81.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m39",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M39 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f15e4862-8011-43e1-b605-50b1b54617da.png",
+      "lowestPrice": 40500,
+      "latestCreatedAt": "2026-05-05T08:24:44.380Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m39",
+      "lowestEdition": 26,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2003b9ca-5474-4ea2-812b-824af9ef862b.jpeg",
+      "pack": {
+        "slug": "cat2-m39",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M39",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/48b37ea7-41ac-48e2-bbc4-6a4d1f2ba7d6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f15e4862-8011-43e1-b605-50b1b54617da.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m4",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M4 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b81889f1-3d0a-4907-a533-246e7c4c9d29.png",
+      "lowestPrice": 199900,
+      "latestCreatedAt": "2026-05-05T08:23:22.875Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m4",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8c64e7ba-8e9a-4d3c-abf3-2f991c0afc26.jpeg",
+      "pack": {
+        "slug": "cat1-m4",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M4",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fe390b85-7aef-4a7b-b449-ba52647e8634.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b81889f1-3d0a-4907-a533-246e7c4c9d29.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m26",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M26 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b4799437-015d-42e6-a6e5-189793b9e13f.png",
+      "lowestPrice": 74500,
+      "latestCreatedAt": "2026-05-05T08:22:15.571Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m26",
+      "lowestEdition": 44,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/469b8b2a-9371-4f6f-b907-2e4012cda0ab.jpeg",
+      "pack": {
+        "slug": "cat1-m26",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4528f30f-6186-4acb-8e75-dd3fdad67585.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b4799437-015d-42e6-a6e5-189793b9e13f.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m9",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M9 Philadelphia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d006904-c6b6-456b-bd3c-8babd6db4cb6.png",
+      "lowestPrice": 90000,
+      "latestCreatedAt": "2026-05-05T08:08:33.161Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m9",
+      "lowestEdition": 79,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e7ba46cf-cf79-4618-9980-3acb8cea1979.jpeg",
+      "pack": {
+        "slug": "cat1-m9",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M9",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/25ef5942-492f-4e35-96f6-0cc4e7c23658.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d006904-c6b6-456b-bd3c-8babd6db4cb6.png"
+      }
+    },
     {
       "uniqueCode": "cat1-m1",
       "type": "highlight",
@@ -47,30 +599,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M70",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/20ad4311-baee-4fb7-9057-ba4967bb71c1.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c43279c8-2598-4a4a-a64d-ca97b22e382c.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m76",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M76 Houston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png",
-      "lowestPrice": 85900,
-      "latestCreatedAt": "2026-05-05T07:30:19.749Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m76",
-      "lowestEdition": 39,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d492b74e-01bc-4c46-8215-5c63a706b562.jpeg",
-      "pack": {
-        "slug": "cat1-m76",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M76",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/09b4f90f-0dd8-4b68-8853-bbf3c9056020.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fdb433e-addd-415a-8533-444f635f6e63.png"
       }
     },
     {
@@ -626,30 +1154,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m45",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M45 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b418925d-db0f-489a-9ab6-75bd6efd2b90.png",
-      "lowestPrice": 75000,
-      "latestCreatedAt": "2026-05-05T04:47:50.157Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m45",
-      "lowestEdition": 15,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/687c2053-6aed-43c4-9136-260a52a16cf4.jpeg",
-      "pack": {
-        "slug": "cat1-m45",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M45",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f007afd9-93cc-405c-8149-99d4d2deeecb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b418925d-db0f-489a-9ab6-75bd6efd2b90.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m26",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M26 Los Angeles",
@@ -866,30 +1370,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m78",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M78 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a39e6c0d-cc17-4559-8838-06fd881bd0d7.png",
-      "lowestPrice": 56472,
-      "latestCreatedAt": "2026-05-05T03:59:19.582Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m78",
-      "lowestEdition": 16,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3fa837cd-e5da-4295-ac12-4a470de08229.jpeg",
-      "pack": {
-        "slug": "cat1-m78",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M78",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a5563144-69a5-482e-ab94-f4d453f61cd0.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a39e6c0d-cc17-4559-8838-06fd881bd0d7.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m10",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M10 Houston",
@@ -1087,7 +1567,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M74 Boston",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bea7c68-d74f-44c7-9e1b-2f04042a507f.png",
-      "lowestPrice": 69900,
+      "lowestPrice": 67000,
       "latestCreatedAt": "2026-05-05T03:06:31.487Z",
       "rarity": {
         "code": "40",
@@ -1151,30 +1631,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M80",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/49c21af8-feac-47c5-b829-804b7c82ec50.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcfe7e04-9834-4a69-88ec-335521da652e.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m56",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M56 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png",
-      "lowestPrice": 111900,
-      "latestCreatedAt": "2026-05-05T03:02:15.782Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m56",
-      "lowestEdition": 32,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c2511ab3-12dc-4ea1-ba17-70ef33d38ea1.jpeg",
-      "pack": {
-        "slug": "cat1-m56",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M56",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/510dab06-e2d9-4505-9fa6-abbf63565a81.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png"
       }
     },
     {
@@ -1634,30 +2090,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m18",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M18 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40a95128-bbf1-4353-8bf4-83e835032080.png",
-      "lowestPrice": 36500,
-      "latestCreatedAt": "2026-05-05T02:12:26.560Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m18",
-      "lowestEdition": 13,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3886ec97-ae13-469a-a607-47d8826b1144.jpeg",
-      "pack": {
-        "slug": "cat1-m18",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M18",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a840a3a9-2267-4f29-8ab2-fe6d714c5cb4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40a95128-bbf1-4353-8bf4-83e835032080.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m11",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M11 Dallas",
@@ -1703,30 +2135,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M45",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/855c10d9-eef1-4bc0-884d-99a0e80dc2d9.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bd330a5-697c-4c02-a0ca-997dfa6b8f34.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m49",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M49 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66afd220-5cde-4df5-acaa-d3f00194f812.png",
-      "lowestPrice": 164900,
-      "latestCreatedAt": "2026-05-05T02:03:32.081Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m49",
-      "lowestEdition": 37,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f4cfd9b1-c791-4126-bdd0-1f5c6baba44e.jpeg",
-      "pack": {
-        "slug": "cat1-m49",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M49",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1c56f523-7f86-41f1-b025-bb75f12dcbcb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66afd220-5cde-4df5-acaa-d3f00194f812.png"
       }
     },
     {
@@ -1922,30 +2330,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m5",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M5 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png",
-      "lowestPrice": 52000,
-      "latestCreatedAt": "2026-05-05T01:30:12.922Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m5",
-      "lowestEdition": 15,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/62b5e5a4-e0e1-4d40-a92b-1c3883b1865e.jpeg",
-      "pack": {
-        "slug": "cat2-m5",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M5",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/590991d3-7f00-4440-82dd-f5123c902d5c.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c8b9fd9f-8fa6-4140-9e99-4015a41cc182.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m59",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M59 Los Angeles",
@@ -2087,30 +2471,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M15",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e0659ead-17bd-4dd1-a90e-43d066e0250d.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5804183b-b26e-453b-acc3-725c5188ad55.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m4",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M4 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b81889f1-3d0a-4907-a533-246e7c4c9d29.png",
-      "lowestPrice": 159500,
-      "latestCreatedAt": "2026-05-05T01:13:07.841Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m4",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8c64e7ba-8e9a-4d3c-abf3-2f991c0afc26.jpeg",
-      "pack": {
-        "slug": "cat1-m4",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M4",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fe390b85-7aef-4a7b-b449-ba52647e8634.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b81889f1-3d0a-4907-a533-246e7c4c9d29.png"
       }
     },
     {
@@ -2383,7 +2743,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M61 Boston",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8101feb9-188c-4c2e-bc24-6a95a4282a5d.png",
-      "lowestPrice": 80000,
+      "lowestPrice": 70000,
       "latestCreatedAt": "2026-05-05T00:05:41.307Z",
       "rarity": {
         "code": "40",
@@ -3050,30 +3410,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m26",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M26 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b4799437-015d-42e6-a6e5-189793b9e13f.png",
-      "lowestPrice": 74500,
-      "latestCreatedAt": "2026-05-04T22:13:11.635Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m26",
-      "lowestEdition": 67,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/469b8b2a-9371-4f6f-b907-2e4012cda0ab.jpeg",
-      "pack": {
-        "slug": "cat1-m26",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4528f30f-6186-4acb-8e75-dd3fdad67585.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b4799437-015d-42e6-a6e5-189793b9e13f.png"
-      }
-    },
-    {
       "uniqueCode": "G_RB05",
       "type": "highlight",
       "title": "Morten Frendrup",
@@ -3311,30 +3647,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M17",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8f846d69-1d19-4ca8-b0aa-ce4442fcc86a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/98d26c16-d2e7-41e6-9b08-93581f805a4d.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m9",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M9 Philadelphia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d006904-c6b6-456b-bd3c-8babd6db4cb6.png",
-      "lowestPrice": 90000,
-      "latestCreatedAt": "2026-05-04T21:32:39.495Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m9",
-      "lowestEdition": 79,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e7ba46cf-cf79-4618-9980-3acb8cea1979.jpeg",
-      "pack": {
-        "slug": "cat1-m9",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M9",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/25ef5942-492f-4e35-96f6-0cc4e7c23658.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d006904-c6b6-456b-bd3c-8babd6db4cb6.png"
       }
     },
     {
@@ -3631,7 +3943,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M103 Miami",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png",
-      "lowestPrice": 147300,
+      "lowestPrice": 147100,
       "latestCreatedAt": "2026-05-04T20:26:48.383Z",
       "rarity": {
         "code": "40",
@@ -4154,30 +4466,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m71",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M71 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c8a64c1-3d58-4412-a6fe-13baff09409a.png",
-      "lowestPrice": 269000,
-      "latestCreatedAt": "2026-05-04T18:26:28.416Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m71",
-      "lowestEdition": 44,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c5af70a5-8e64-4049-b695-fc2baf1ee2ce.jpeg",
-      "pack": {
-        "slug": "cat1-m71",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M71",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/616cde74-927a-49ef-8b32-1b017c4b3dc8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c8a64c1-3d58-4412-a6fe-13baff09409a.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m38",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M38 Atlanta",
@@ -4634,30 +4922,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m63",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M63 Seattle",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cc7fe6a8-944d-423d-a126-c14afb452c79.png",
-      "lowestPrice": 37900,
-      "latestCreatedAt": "2026-05-04T17:31:54.101Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m63",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e0e0420d-7a3a-4e5c-a021-3941519d2ccd.jpeg",
-      "pack": {
-        "slug": "cat1-m63",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M63",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b6d88a7f-07ab-4382-9ffe-ef148c3ea9cc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cc7fe6a8-944d-423d-a126-c14afb452c79.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m52",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M52 Seattle",
@@ -4919,30 +5183,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M79",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d63fe59a-1bae-4287-8a30-e0ea6c74d865.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c91862f9-6034-4889-a267-f095a8585d1e.png"
-      }
-    },
-    {
-      "uniqueCode": "cat3-m21",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 3 for M21 Toronto",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cfae51b2-ae16-4e55-9608-0824822134e8.png",
-      "lowestPrice": 35500,
-      "latestCreatedAt": "2026-05-04T16:56:25.175Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat3-m21",
-      "lowestEdition": 17,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2d4f305b-ffe7-46dd-85c8-2b683a8befca.jpeg",
-      "pack": {
-        "slug": "cat3-m21",
-        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M21",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/270b1d70-74bd-45ab-acc1-f8db85814fc2.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cfae51b2-ae16-4e55-9608-0824822134e8.png"
       }
     },
     {
@@ -6223,7 +6463,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M31 San Francisco",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e0dae6b1-b1d9-4856-a3c9-cd56248e0673.png",
-      "lowestPrice": 50000,
+      "lowestPrice": 49999,
       "latestCreatedAt": "2026-05-04T10:43:59.837Z",
       "rarity": {
         "code": "40",
@@ -6479,54 +6719,6 @@
         "title": "Romania - Road to '26",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1a1bef05-e312-489d-b64d-9e2228c5417f.png"
-      }
-    },
-    {
-      "uniqueCode": "P1332A07",
-      "type": "highlight",
-      "title": "Lorenzo Sáez",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/56831242-9e78-443b-ac18-a20d88dc5214.png",
-      "lowestPrice": 330,
-      "latestCreatedAt": "2026-05-04T04:38:35.903Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol2",
-      "lowestEdition": 28,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e58bfdee-3f69-459c-8863-1632813a927f.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol2",
-        "title": "CF Pachuca - 133 Aniversario Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/56831242-9e78-443b-ac18-a20d88dc5214.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2-m39",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M39 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f15e4862-8011-43e1-b605-50b1b54617da.png",
-      "lowestPrice": 40500,
-      "latestCreatedAt": "2026-05-04T04:28:05.873Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m39",
-      "lowestEdition": 26,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2003b9ca-5474-4ea2-812b-824af9ef862b.jpeg",
-      "pack": {
-        "slug": "cat2-m39",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M39",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/48b37ea7-41ac-48e2-bbc4-6a4d1f2ba7d6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f15e4862-8011-43e1-b605-50b1b54617da.png"
       }
     },
     {
@@ -7175,30 +7367,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3481b4b7-525a-40bd-99e5-e99ce65c97fd.png"
-      }
-    },
-    {
-      "uniqueCode": "P_AP34",
-      "type": "highlight",
-      "title": "Luis Quiñones",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94fc47e1-03a6-4fee-9e99-22facd7fb4d6.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-03T20:37:07.407Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1acaf371-34e3-4c93-aacd-917015b990e4.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94fc47e1-03a6-4fee-9e99-22facd7fb4d6.png"
       }
     },
     {
@@ -7857,30 +8025,6 @@
         "title": "CF Monterrey - Easter XI Challenge Reward Pack",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/65994b1e-458a-4efc-bf38-f4bee9a56b3a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9c07ef5c-6921-4b9a-b5ea-8f847a784fd8.png"
-      }
-    },
-    {
-      "uniqueCode": "P1332A11",
-      "type": "highlight",
-      "title": "Javier Aguirre",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e8f03986-93d4-46d4-b3d4-80f8e44a902d.png",
-      "lowestPrice": 399,
-      "latestCreatedAt": "2026-05-03T12:08:04.982Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol2",
-      "lowestEdition": 24,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e626e960-6c32-4403-8dae-353be7c9dcec.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol2",
-        "title": "CF Pachuca - 133 Aniversario Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e8f03986-93d4-46d4-b3d4-80f8e44a902d.png"
       }
     },
     {
@@ -8580,30 +8724,6 @@
       }
     },
     {
-      "uniqueCode": "F_AM29",
-      "type": "highlight",
-      "title": "5. Facundo Bernal",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc85e25-c4a4-4747-966e-307c61e0cf94.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-02T21:56:00.791Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c6666c78-3f85-419e-b0cd-45ebd66c01df.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc85e25-c4a4-4747-966e-307c61e0cf94.png"
-      }
-    },
-    {
       "uniqueCode": "F_AM34",
       "type": "highlight",
       "title": "11. Keno",
@@ -8793,30 +8913,6 @@
         "title": "CF Pachuca - 133 Aniversario Vol. 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8f0b7cdc-2c52-4172-b399-51db4ea1ad31.png"
-      }
-    },
-    {
-      "uniqueCode": "P1332A22",
-      "type": "highlight",
-      "title": "Erick Gutiérrez",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7831c873-32ed-41af-b7b6-7c526f8df714.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-02T21:31:24.016Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol2",
-      "lowestEdition": 32,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0913ed6a-8315-4eff-a77a-cace930d680a.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol2",
-        "title": "CF Pachuca - 133 Aniversario Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7831c873-32ed-41af-b7b6-7c526f8df714.png"
       }
     },
     {
@@ -9033,30 +9129,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da59ddb1-70a0-457b-a796-2506d47ca1df.png"
-      }
-    },
-    {
-      "uniqueCode": "P1332A13",
-      "type": "highlight",
-      "title": "Walter Silvani",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e69ad57-0133-437b-855a-e243502e56e0.png",
-      "lowestPrice": 184,
-      "latestCreatedAt": "2026-05-02T18:52:06.901Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol2",
-      "lowestEdition": 120,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/43f37758-5341-4903-bd2d-cefdad0246b2.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol2",
-        "title": "CF Pachuca - 133 Aniversario Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e69ad57-0133-437b-855a-e243502e56e0.png"
       }
     },
     {
@@ -23115,30 +23187,6 @@
       }
     },
     {
-      "uniqueCode": "F_AM43",
-      "type": "highlight",
-      "title": "55. Wallace Davi",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b035233d-be78-466a-925d-275dd101338d.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-18T08:47:32.521Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5a94392a-b523-4894-b2f5-64d688ae10b7.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b035233d-be78-466a-925d-275dd101338d.png"
-      }
-    },
-    {
       "uniqueCode": "D02-05",
       "type": "highlight",
       "title": "Germany",
@@ -26348,30 +26396,6 @@
         "title": "Surprise Premium - Bench Cam",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd1e77df-a35d-40a6-80d5-1cd27cae2d5c.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/10e77725-8e20-48f2-ae06-b549173c374c.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "R_F26_01",
-      "type": "highlight",
-      "title": "Double Pass - Fluminense vs São Paulo - Matchday 16 Campeonato Brasileiro 2026",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da6aae16-3fd3-4aa9-a7ef-4fa898a6fcbf.png",
-      "lowestPrice": 5000,
-      "latestCreatedAt": "2026-04-09T10:55:41.401Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-season2026-level1reward",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/90a1aab5-5ec5-466f-a514-e06aac5cbba3.png",
-      "pack": {
-        "slug": "fluminense-season2026-level1reward",
-        "title": "Fluminense FC - Season 2026 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d72d72f9-7565-4294-b6c6-4c494e5f2657.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da6aae16-3fd3-4aa9-a7ef-4fa898a6fcbf.png"
       }
     },
     {
