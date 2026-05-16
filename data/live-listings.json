@@ -2,27 +2,459 @@
   "total": 2230,
   "listings": [
     {
-      "uniqueCode": "TB_02",
+      "uniqueCode": "cat1-m10",
       "type": "highlight",
-      "title": "The Best - Epic",
-      "subtitle": "The Best FIFA Football Awards™ <br/> Best Player Award",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d6c20a51-4de4-4e88-8de1-77e63f363901.png",
-      "lowestPrice": 1900,
-      "latestCreatedAt": "2026-05-16T11:46:10.904Z",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M10 Houston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png",
+      "lowestPrice": 44969,
+      "latestCreatedAt": "2026-05-16T13:07:00.963Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m10",
+      "lowestEdition": 15,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7dca556-1231-40cb-9b3d-79e41b8e523e.jpeg",
+      "pack": {
+        "slug": "cat1-m10",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M10",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/180cc32b-1eae-4780-8f21-13b788eb7284.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m85",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M85 Vancouver",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/867d36fd-500f-4c25-9fe8-3e89a7216b66.png",
+      "lowestPrice": 74500,
+      "latestCreatedAt": "2026-05-16T12:37:24.195Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m85",
+      "lowestEdition": 23,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/abe153d6-b314-4fe3-9374-9a1dd4b3b7c4.jpeg",
+      "pack": {
+        "slug": "cat2-m85",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M85",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fb65bdb6-70c0-46cc-a09a-ccddffde03c6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/867d36fd-500f-4c25-9fe8-3e89a7216b66.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m28",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M28 Guadalajara",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1391abd1-881b-45a1-a77e-4339b13d9aa9.png",
+      "lowestPrice": 306500,
+      "latestCreatedAt": "2026-05-16T12:29:24.430Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m28",
+      "lowestEdition": 24,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/59a6d41a-ad0b-46f8-848a-e0f274c25708.jpeg",
+      "pack": {
+        "slug": "cat2-m28",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M28",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0158440a-c82e-4693-8d5c-1d4aa40b0c47.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1391abd1-881b-45a1-a77e-4339b13d9aa9.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m30",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M30 Boston",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png",
+      "lowestPrice": 66500,
+      "latestCreatedAt": "2026-05-16T12:16:22.231Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m30",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8144f9dc-27f6-4e8b-b9c6-9f5d1e0aee7b.jpeg",
+      "pack": {
+        "slug": "cat2-m30",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M30",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f99edbc8-a546-478c-8de6-8128d67e524f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-46",
+      "type": "highlight",
+      "title": "Zbigniew Boniek - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc72d4d9-160c-4798-9753-542c9caf853c.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T12:02:23.947Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 15,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ec4a646a-0742-4d2d-904a-4c4d2ee274a0.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc72d4d9-160c-4798-9753-542c9caf853c.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-47",
+      "type": "highlight",
+      "title": "Zico - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c59bcf39-3a90-4da3-9a1b-fe61b44c5d60.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T12:02:14.955Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 21,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8600943e-7bbd-4228-b6e9-c4d48048e3d2.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c59bcf39-3a90-4da3-9a1b-fe61b44c5d60.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-35",
+      "type": "highlight",
+      "title": "Marco Tardelli - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12bd3fe9-5e4f-4b95-a23e-9ae33cab9ca8.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T12:02:01.053Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 21,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f2882598-dd6a-43fe-a1f3-823b571410a7.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12bd3fe9-5e4f-4b95-a23e-9ae33cab9ca8.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-41",
+      "type": "highlight",
+      "title": "Falcao - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/57d8f4ef-6979-43bc-973c-dec73ed10e9e.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T12:01:45.575Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ce0c8fbd-48ce-4f4f-8473-e5f91d643e08.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/57d8f4ef-6979-43bc-973c-dec73ed10e9e.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-39",
+      "type": "highlight",
+      "title": "West Germany - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fcd309a-c61f-4ba2-b705-37a67e2fbff4.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T12:01:32.463Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/adc88086-b475-4334-9e1d-3eb7b7f2b6af.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fcd309a-c61f-4ba2-b705-37a67e2fbff4.png"
+      }
+    },
+    {
+      "uniqueCode": "p1974-07",
+      "type": "highlight",
+      "title": "Brazil - München 1974",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d96e4d3a-4b86-43aa-8182-a529e1202ff4.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T12:01:21.047Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1974",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/949ad027-a3f8-439d-906f-53518a4c52f6.png",
+      "pack": {
+        "slug": "panini-1974",
+        "title": "Surprise - Panini München 1974",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d96e4d3a-4b86-43aa-8182-a529e1202ff4.png"
+      }
+    },
+    {
+      "uniqueCode": "p1974-02",
+      "type": "highlight",
+      "title": "West Germany - München 1974",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/01acf3a8-932a-4569-8dfc-2bf484701d7b.png",
+      "lowestPrice": 250,
+      "latestCreatedAt": "2026-05-16T12:01:07.675Z",
       "rarity": {
         "code": "30",
         "color": "#8055FE",
         "name": "Epic"
       },
       "languageCode": "en-UK",
-      "packSlug": "the-best",
-      "lowestEdition": 95,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a6844724-b1f5-4431-bab4-a1efdcd4c081.png",
+      "packSlug": "panini-1974",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e65775ec-970f-4ff5-b101-e21e49fd88d1.png",
       "pack": {
-        "slug": "the-best",
-        "title": "The Best FIFA Football Awards",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7babc1c5-d963-4960-bd92-266ff0670fc6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d6c20a51-4de4-4e88-8de1-77e63f363901.png"
+        "slug": "panini-1974",
+        "title": "Surprise - Panini München 1974",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/01acf3a8-932a-4569-8dfc-2bf484701d7b.png"
+      }
+    },
+    {
+      "uniqueCode": "p1974-05",
+      "type": "highlight",
+      "title": "Franz Beckenbauer - München 1974",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bf937a86-271b-42f1-9dc9-88b9d00a011e.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T11:58:39.360Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1974",
+      "lowestEdition": 24,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7dcffe98-87da-4270-a4fb-05e6a60be060.png",
+      "pack": {
+        "slug": "panini-1974",
+        "title": "Surprise - Panini München 1974",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bf937a86-271b-42f1-9dc9-88b9d00a011e.png"
+      }
+    },
+    {
+      "uniqueCode": "p1974-10",
+      "type": "highlight",
+      "title": "Netherlands Team Badge - München 1974",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94d7ea44-80e6-4049-a42e-5106d3b9305d.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T11:58:18.260Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1974",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f25cd1e5-8f40-4643-b14b-dfd64cc0018b.png",
+      "pack": {
+        "slug": "panini-1974",
+        "title": "Surprise - Panini München 1974",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94d7ea44-80e6-4049-a42e-5106d3b9305d.png"
+      }
+    },
+    {
+      "uniqueCode": "p1974-11",
+      "type": "highlight",
+      "title": "Brazil Team Badge - München 1974",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0d69abff-aabe-4d1c-a7c9-173502d30f5a.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T11:58:00.156Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1974",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/12da1e8d-2557-4bf8-b0e6-a537b8203ffa.png",
+      "pack": {
+        "slug": "panini-1974",
+        "title": "Surprise - Panini München 1974",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0d69abff-aabe-4d1c-a7c9-173502d30f5a.png"
+      }
+    },
+    {
+      "uniqueCode": "p1974-13",
+      "type": "highlight",
+      "title": "Mascot - München 1974",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1df7cc5f-5e08-4bd0-8c15-513f730def39.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T11:57:33.776Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1974",
+      "lowestEdition": 12,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/81b84403-901b-4704-ac82-54d644009007.png",
+      "pack": {
+        "slug": "panini-1974",
+        "title": "Surprise - Panini München 1974",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1df7cc5f-5e08-4bd0-8c15-513f730def39.png"
+      }
+    },
+    {
+      "uniqueCode": "p1974-01",
+      "type": "highlight",
+      "title": "Gerd Müller - München 1974",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/118b1fdc-a338-4c6f-83ac-6c318a3e0f07.png",
+      "lowestPrice": 280,
+      "latestCreatedAt": "2026-05-16T11:57:16.713Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1974",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7ba27414-c79f-4d38-b7c0-47f921b1c0bb.png",
+      "pack": {
+        "slug": "panini-1974",
+        "title": "Surprise - Panini München 1974",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/118b1fdc-a338-4c6f-83ac-6c318a3e0f07.png"
+      }
+    },
+    {
+      "uniqueCode": "p1974-06",
+      "type": "highlight",
+      "title": "Poland - München 1974",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/95eac313-d38a-4142-a757-d331df6df447.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T11:56:50.688Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1974",
+      "lowestEdition": 81,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a1c3b66f-3928-48ca-aadd-cd647657ab0a.png",
+      "pack": {
+        "slug": "panini-1974",
+        "title": "Surprise - Panini München 1974",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/95eac313-d38a-4142-a757-d331df6df447.png"
+      }
+    },
+    {
+      "uniqueCode": "p1974-08",
+      "type": "highlight",
+      "title": "Netherlands - München 1974",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b448019e-569a-44cf-ac2f-3d02dca2337c.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T11:56:19.110Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1974",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a2d6fbbe-b4f4-4065-a8b4-3571ad2b4797.png",
+      "pack": {
+        "slug": "panini-1974",
+        "title": "Surprise - Panini München 1974",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b448019e-569a-44cf-ac2f-3d02dca2337c.png"
+      }
+    },
+    {
+      "uniqueCode": "p1974-09",
+      "type": "highlight",
+      "title": "Poland Team Badge - München 1974",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c890864-dd8a-4420-9ff6-7830103c3e53.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-05-16T11:55:35.185Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1974",
+      "lowestEdition": 101,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7f686cd7-df7c-4ad9-9623-08d9d32c1b2a.png",
+      "pack": {
+        "slug": "panini-1974",
+        "title": "Surprise - Panini München 1974",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c890864-dd8a-4420-9ff6-7830103c3e53.png"
       }
     },
     {
@@ -50,78 +482,6 @@
       }
     },
     {
-      "uniqueCode": "F_AM15",
-      "type": "highlight",
-      "title": "3. Thiago Silva",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c1dce1ed-8041-4431-8611-18205b678e53.png",
-      "lowestPrice": 288,
-      "latestCreatedAt": "2026-05-16T11:45:24.158Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5b034643-a88c-42fa-8e2d-7b5de39a6a70.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c1dce1ed-8041-4431-8611-18205b678e53.png"
-      }
-    },
-    {
-      "uniqueCode": "P_AP19",
-      "type": "highlight",
-      "title": "William Carvalho",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/64b6f039-7fe0-47a1-bfd6-961d4cc74faf.png",
-      "lowestPrice": 300,
-      "latestCreatedAt": "2026-05-16T11:44:45.907Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/65bc4a69-c28d-463e-8659-15af311a47e5.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/64b6f039-7fe0-47a1-bfd6-961d4cc74faf.png"
-      }
-    },
-    {
-      "uniqueCode": "S2-R1-03",
-      "type": "highlight",
-      "title": "Germany FR",
-      "subtitle": "1974 FIFA World Cup Germany™  \nNED 1 - 2 FRG, **Trophy Lift: Franz Beckenbauer**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/affd615d-5928-4a68-93b8-7d562a514bcc.jpeg",
-      "lowestPrice": 1850,
-      "latestCreatedAt": "2026-05-16T11:43:52.999Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "trophy-lifts-variety-rewards",
-      "lowestEdition": 6,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "trophy-lifts-variety-rewards",
-        "title": "Trophy Lifts - Variety Reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c252be70-e259-4aa1-a2ae-6b32b33f042a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/affd615d-5928-4a68-93b8-7d562a514bcc.jpeg"
-      }
-    },
-    {
       "uniqueCode": "S2-R1-08",
       "type": "highlight",
       "title": "Germany",
@@ -143,126 +503,6 @@
         "title": "Trophy Lifts - Variety Reward",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c252be70-e259-4aa1-a2ae-6b32b33f042a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/04d091b4-4c63-42da-9915-a8a52eef8d27.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D01-06",
-      "type": "highlight",
-      "title": "Netherlands",
-      "subtitle": "2014 FIFA World Cup Brazil™  \nESP 1 - 5 NED, **Goal: Robin van Persie 44'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4fd93025-cfaa-4335-a599-a30fc8eb49ca.png",
-      "lowestPrice": 777,
-      "latestCreatedAt": "2026-05-16T11:41:38.941Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 22,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4fd93025-cfaa-4335-a599-a30fc8eb49ca.png"
-      }
-    },
-    {
-      "uniqueCode": "D01-04",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "FIFA Women's World Cup China 2007™  \nUSA 0 - 4 BRA, **Goal: Marta 79'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2ac014ec-2656-4e6c-93a5-297c7ecdffbb.png",
-      "lowestPrice": 999,
-      "latestCreatedAt": "2026-05-16T11:40:42.893Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 23,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2ac014ec-2656-4e6c-93a5-297c7ecdffbb.png"
-      }
-    },
-    {
-      "uniqueCode": "D01-05",
-      "type": "highlight",
-      "title": "Cameroon",
-      "subtitle": "1990 FIFA World Cup Italy™  \nCMR 2 - 1 COL, **Goal: Roger Milla 106'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/85d378aa-6863-43f7-b39d-1763f976afa1.png",
-      "lowestPrice": 750,
-      "latestCreatedAt": "2026-05-16T11:39:38.915Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 39,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/85d378aa-6863-43f7-b39d-1763f976afa1.png"
-      }
-    },
-    {
-      "uniqueCode": "D01-07",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "2018 FIFA World Cup Russia™  \nPOR 3 - 3 ESP, **Goal: Cristiano Ronaldo 88'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5582f5b8-501a-452d-a034-4a3e670a25b6.png",
-      "lowestPrice": 1400,
-      "latestCreatedAt": "2026-05-16T11:38:57.336Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 7,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5582f5b8-501a-452d-a034-4a3e670a25b6.png"
-      }
-    },
-    {
-      "uniqueCode": "D01-08",
-      "type": "highlight",
-      "title": "Spain",
-      "subtitle": "2010 FIFA World Cup South Africa™  \nNED 0 - 1 ESP, **Save: Iker Casillas 62'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e8ab612d-1016-4a92-8de9-58493e30e276.png",
-      "lowestPrice": 762,
-      "latestCreatedAt": "2026-05-16T11:38:31.476Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 2,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e8ab612d-1016-4a92-8de9-58493e30e276.png"
       }
     },
     {
@@ -415,7 +655,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M41 New York",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b28b2447-39e5-47dc-b1b9-2ec159ed8f86.png",
-      "lowestPrice": 50000,
+      "lowestPrice": 47500,
       "latestCreatedAt": "2026-05-16T09:37:21.785Z",
       "rarity": {
         "code": "40",
@@ -647,30 +887,6 @@
         "title": "Romania - Road to '26",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7e47547e-e39a-4eba-affa-fcb376a3d24b.png"
-      }
-    },
-    {
-      "uniqueCode": "cat1-m10",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M10 Houston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png",
-      "lowestPrice": 44969,
-      "latestCreatedAt": "2026-05-16T07:06:31.289Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m10",
-      "lowestEdition": 15,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7dca556-1231-40cb-9b3d-79e41b8e523e.jpeg",
-      "pack": {
-        "slug": "cat1-m10",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M10",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/180cc32b-1eae-4780-8f21-13b788eb7284.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/239ff311-ee9f-417a-a3a4-3ea5f4c97cde.png"
       }
     },
     {
@@ -986,30 +1202,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m28",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M28 Guadalajara",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1391abd1-881b-45a1-a77e-4339b13d9aa9.png",
-      "lowestPrice": 307000,
-      "latestCreatedAt": "2026-05-16T04:36:45.641Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m28",
-      "lowestEdition": 24,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/59a6d41a-ad0b-46f8-848a-e0f274c25708.jpeg",
-      "pack": {
-        "slug": "cat2-m28",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M28",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0158440a-c82e-4693-8d5c-1d4aa40b0c47.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1391abd1-881b-45a1-a77e-4339b13d9aa9.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m80",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M80 Atlanta",
@@ -1055,30 +1247,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M47",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e2c97360-a034-450c-b4fa-e0ff1ff4eba2.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e08211be-479f-490f-8710-1cd8482a45f9.png"
-      }
-    },
-    {
-      "uniqueCode": "p1974-10",
-      "type": "highlight",
-      "title": "Netherlands Team Badge - München 1974",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94d7ea44-80e6-4049-a42e-5106d3b9305d.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-16T03:33:44.323Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1974",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f25cd1e5-8f40-4643-b14b-dfd64cc0018b.png",
-      "pack": {
-        "slug": "panini-1974",
-        "title": "Surprise - Panini München 1974",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94d7ea44-80e6-4049-a42e-5106d3b9305d.png"
       }
     },
     {
@@ -3386,30 +3554,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m56",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M56 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png",
-      "lowestPrice": 119900,
-      "latestCreatedAt": "2026-05-15T18:28:30.740Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m56",
-      "lowestEdition": 45,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c2511ab3-12dc-4ea1-ba17-70ef33d38ea1.jpeg",
-      "pack": {
-        "slug": "cat1-m56",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M56",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/510dab06-e2d9-4505-9fa6-abbf63565a81.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m87",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M87 Kansas City",
@@ -3770,30 +3914,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m30",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M30 Boston",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png",
-      "lowestPrice": 66900,
-      "latestCreatedAt": "2026-05-15T17:15:47.038Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m30",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8144f9dc-27f6-4e8b-b9c6-9f5d1e0aee7b.jpeg",
-      "pack": {
-        "slug": "cat2-m30",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M30",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f99edbc8-a546-478c-8de6-8128d67e524f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/40c40ec3-0abd-462f-ac50-9b4788fde0f9.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m88",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M88 Dallas",
@@ -3967,7 +4087,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M103 Miami",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png",
-      "lowestPrice": 138000,
+      "lowestPrice": 139900,
       "latestCreatedAt": "2026-05-15T16:27:16.626Z",
       "rarity": {
         "code": "40",
@@ -4007,6 +4127,30 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M28",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a7fe51b9-0a00-4f90-bc31-6b48c22c1956.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0de2fe60-b2cf-4ab0-9343-f221a57faa9b.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m56",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M56 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png",
+      "lowestPrice": 124800,
+      "latestCreatedAt": "2026-05-15T16:20:23.548Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m56",
+      "lowestEdition": 45,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c2511ab3-12dc-4ea1-ba17-70ef33d38ea1.jpeg",
+      "pack": {
+        "slug": "cat1-m56",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M56",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/510dab06-e2d9-4505-9fa6-abbf63565a81.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97e006ca-c049-4fb0-aa2e-a1cfc3bc044f.png"
       }
     },
     {
@@ -7855,30 +7999,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m85",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M85 Vancouver",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/867d36fd-500f-4c25-9fe8-3e89a7216b66.png",
-      "lowestPrice": 74500,
-      "latestCreatedAt": "2026-05-14T03:26:45.427Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m85",
-      "lowestEdition": 23,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/abe153d6-b314-4fe3-9374-9a1dd4b3b7c4.jpeg",
-      "pack": {
-        "slug": "cat2-m85",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M85",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fb65bdb6-70c0-46cc-a09a-ccddffde03c6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/867d36fd-500f-4c25-9fe8-3e89a7216b66.png"
-      }
-    },
-    {
       "uniqueCode": "cat2-m82",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M82 Seattle",
@@ -9991,30 +10111,6 @@
       }
     },
     {
-      "uniqueCode": "p1982-39",
-      "type": "highlight",
-      "title": "West Germany - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fcd309a-c61f-4ba2-b705-37a67e2fbff4.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-13T00:11:20.548Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/adc88086-b475-4334-9e1d-3eb7b7f2b6af.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fcd309a-c61f-4ba2-b705-37a67e2fbff4.png"
-      }
-    },
-    {
       "uniqueCode": "p1982-40",
       "type": "highlight",
       "title": "Spain - SPAIN 1982",
@@ -11215,6 +11311,30 @@
       }
     },
     {
+      "uniqueCode": "P_AP19",
+      "type": "highlight",
+      "title": "William Carvalho",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/64b6f039-7fe0-47a1-bfd6-961d4cc74faf.png",
+      "lowestPrice": 300,
+      "latestCreatedAt": "2026-05-12T22:05:18.534Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/65bc4a69-c28d-463e-8659-15af311a47e5.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/64b6f039-7fe0-47a1-bfd6-961d4cc74faf.png"
+      }
+    },
+    {
       "uniqueCode": "P_AP18",
       "type": "highlight",
       "title": "Oussama Idrissi",
@@ -11260,30 +11380,6 @@
         "title": "Real Oviedo - Sí, Volvimos",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e2ce107b-2230-4f7f-8bb6-8c95ed81ee3b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2ca983b1-4425-46b1-971d-521d4bbb6f80.png"
-      }
-    },
-    {
-      "uniqueCode": "p1974-01",
-      "type": "highlight",
-      "title": "Gerd Müller - München 1974",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/118b1fdc-a338-4c6f-83ac-6c318a3e0f07.png",
-      "lowestPrice": 280,
-      "latestCreatedAt": "2026-05-12T20:02:16.535Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1974",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7ba27414-c79f-4d38-b7c0-47f921b1c0bb.png",
-      "pack": {
-        "slug": "panini-1974",
-        "title": "Surprise - Panini München 1974",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/118b1fdc-a338-4c6f-83ac-6c318a3e0f07.png"
       }
     },
     {
@@ -11484,7 +11580,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M43 Dallas",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77a98cf1-d0e9-4326-b626-e0dffda734cc.png",
-      "lowestPrice": 129500,
+      "lowestPrice": 125000,
       "latestCreatedAt": "2026-05-12T17:46:00.748Z",
       "rarity": {
         "code": "40",
@@ -12948,7 +13044,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M100 Kansas City",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8924e529-e8c7-4ab5-96a5-b71e3af07eb5.png",
-      "lowestPrice": 260000,
+      "lowestPrice": 250000,
       "latestCreatedAt": "2026-05-11T20:48:47.148Z",
       "rarity": {
         "code": "40",
@@ -15655,30 +15751,6 @@
       }
     },
     {
-      "uniqueCode": "p1974-02",
-      "type": "highlight",
-      "title": "West Germany - München 1974",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/01acf3a8-932a-4569-8dfc-2bf484701d7b.png",
-      "lowestPrice": 250,
-      "latestCreatedAt": "2026-05-09T18:59:50.107Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1974",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e65775ec-970f-4ff5-b101-e21e49fd88d1.png",
-      "pack": {
-        "slug": "panini-1974",
-        "title": "Surprise - Panini München 1974",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/01acf3a8-932a-4569-8dfc-2bf484701d7b.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m4",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M4 Los Angeles",
@@ -15748,30 +15820,6 @@
         "title": "Curator Collection - 80's and 90's",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/29e9cdd9-39c3-41e6-b25d-46717d5d2561.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/03c3fedb-e1dd-4173-a865-14dd0d2e8c76.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "p1982-35",
-      "type": "highlight",
-      "title": "Marco Tardelli - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12bd3fe9-5e4f-4b95-a23e-9ae33cab9ca8.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-09T17:35:46.601Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 21,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f2882598-dd6a-43fe-a1f3-823b571410a7.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12bd3fe9-5e4f-4b95-a23e-9ae33cab9ca8.png"
       }
     },
     {
@@ -16132,6 +16180,30 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M16",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/430d2451-5017-4b11-b2b6-cf09ec65ef07.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6694e3b9-08ea-4ae7-bf06-dc7b3e14f822.png"
+      }
+    },
+    {
+      "uniqueCode": "D01-04",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "FIFA Women's World Cup China 2007™  \nUSA 0 - 4 BRA, **Goal: Marta 79'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2ac014ec-2656-4e6c-93a5-297c7ecdffbb.png",
+      "lowestPrice": 999,
+      "latestCreatedAt": "2026-05-09T11:48:38.514Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 23,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2ac014ec-2656-4e6c-93a5-297c7ecdffbb.png"
       }
     },
     {
@@ -19471,30 +19543,6 @@
       }
     },
     {
-      "uniqueCode": "p1974-09",
-      "type": "highlight",
-      "title": "Poland Team Badge - München 1974",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c890864-dd8a-4420-9ff6-7830103c3e53.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-08T19:47:06.942Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1974",
-      "lowestEdition": 101,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7f686cd7-df7c-4ad9-9623-08d9d32c1b2a.png",
-      "pack": {
-        "slug": "panini-1974",
-        "title": "Surprise - Panini München 1974",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c890864-dd8a-4420-9ff6-7830103c3e53.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m52",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M52 Seattle",
@@ -20479,54 +20527,6 @@
       }
     },
     {
-      "uniqueCode": "p1974-06",
-      "type": "highlight",
-      "title": "Poland - München 1974",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/95eac313-d38a-4142-a757-d331df6df447.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-07T12:46:43.344Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1974",
-      "lowestEdition": 81,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a1c3b66f-3928-48ca-aadd-cd647657ab0a.png",
-      "pack": {
-        "slug": "panini-1974",
-        "title": "Surprise - Panini München 1974",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/95eac313-d38a-4142-a757-d331df6df447.png"
-      }
-    },
-    {
-      "uniqueCode": "p1974-08",
-      "type": "highlight",
-      "title": "Netherlands - München 1974",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b448019e-569a-44cf-ac2f-3d02dca2337c.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-07T12:46:26.023Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1974",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a2d6fbbe-b4f4-4065-a8b4-3571ad2b4797.png",
-      "pack": {
-        "slug": "panini-1974",
-        "title": "Surprise - Panini München 1974",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b448019e-569a-44cf-ac2f-3d02dca2337c.png"
-      }
-    },
-    {
       "uniqueCode": "sp-rv-76",
       "type": "highlight",
       "title": "GERMANY",
@@ -20692,6 +20692,78 @@
         "title": "CREDIT REWARD",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/257ceab9-c704-48ab-893d-825605cde9b8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1d414298-3df1-424c-ba9d-b86909501eb9.png"
+      }
+    },
+    {
+      "uniqueCode": "D01-05",
+      "type": "highlight",
+      "title": "Cameroon",
+      "subtitle": "1990 FIFA World Cup Italy™  \nCMR 2 - 1 COL, **Goal: Roger Milla 106'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/85d378aa-6863-43f7-b39d-1763f976afa1.png",
+      "lowestPrice": 750,
+      "latestCreatedAt": "2026-05-07T04:53:28.814Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 39,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/85d378aa-6863-43f7-b39d-1763f976afa1.png"
+      }
+    },
+    {
+      "uniqueCode": "D01-07",
+      "type": "highlight",
+      "title": "Portugal",
+      "subtitle": "2018 FIFA World Cup Russia™  \nPOR 3 - 3 ESP, **Goal: Cristiano Ronaldo 88'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5582f5b8-501a-452d-a034-4a3e670a25b6.png",
+      "lowestPrice": 1400,
+      "latestCreatedAt": "2026-05-07T04:51:19.924Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 7,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5582f5b8-501a-452d-a034-4a3e670a25b6.png"
+      }
+    },
+    {
+      "uniqueCode": "D01-08",
+      "type": "highlight",
+      "title": "Spain",
+      "subtitle": "2010 FIFA World Cup South Africa™  \nNED 0 - 1 ESP, **Save: Iker Casillas 62'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e8ab612d-1016-4a92-8de9-58493e30e276.png",
+      "lowestPrice": 762,
+      "latestCreatedAt": "2026-05-07T04:49:55.162Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 2,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e8ab612d-1016-4a92-8de9-58493e30e276.png"
       }
     },
     {
@@ -24154,7 +24226,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M21 Toronto",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d7142bcf-af5c-46ce-8682-9b31db67bb13.png",
-      "lowestPrice": 57500,
+      "lowestPrice": 59900,
       "latestCreatedAt": "2026-05-04T18:01:16.485Z",
       "rarity": {
         "code": "40",
@@ -24266,30 +24338,6 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M55",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/db9dba62-0720-482b-913a-306fec977e53.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d4a574b5-070d-41b1-87b9-266520302aad.png"
-      }
-    },
-    {
-      "uniqueCode": "p1982-46",
-      "type": "highlight",
-      "title": "Zbigniew Boniek - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc72d4d9-160c-4798-9753-542c9caf853c.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-04T17:11:20.816Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 15,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ec4a646a-0742-4d2d-904a-4c4d2ee274a0.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc72d4d9-160c-4798-9753-542c9caf853c.png"
       }
     },
     {
@@ -24602,6 +24650,30 @@
         "title": "USA94 - 30 years later",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/65434e7a-5a0b-411b-9477-af959c61b7bc.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "F_AM15",
+      "type": "highlight",
+      "title": "3. Thiago Silva",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c1dce1ed-8041-4431-8611-18205b678e53.png",
+      "lowestPrice": 288,
+      "latestCreatedAt": "2026-05-04T13:32:07.864Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5b034643-a88c-42fa-8e2d-7b5de39a6a70.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c1dce1ed-8041-4431-8611-18205b678e53.png"
       }
     },
     {
@@ -25426,30 +25498,6 @@
       }
     },
     {
-      "uniqueCode": "p1982-47",
-      "type": "highlight",
-      "title": "Zico - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c59bcf39-3a90-4da3-9a1b-fe61b44c5d60.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-01T22:19:19.723Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 21,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8600943e-7bbd-4228-b6e9-c4d48048e3d2.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c59bcf39-3a90-4da3-9a1b-fe61b44c5d60.png"
-      }
-    },
-    {
       "uniqueCode": "p1982-44",
       "type": "highlight",
       "title": "Mascot - SPAIN 1982",
@@ -25471,30 +25519,6 @@
         "title": "Surprise Premium - Panini España 1982",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/128021d5-608a-4f9f-8321-a7ef7fc04c30.png"
-      }
-    },
-    {
-      "uniqueCode": "p1974-13",
-      "type": "highlight",
-      "title": "Mascot - München 1974",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1df7cc5f-5e08-4bd0-8c15-513f730def39.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-01T22:14:04.813Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1974",
-      "lowestEdition": 12,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/81b84403-901b-4704-ac82-54d644009007.png",
-      "pack": {
-        "slug": "panini-1974",
-        "title": "Surprise - Panini München 1974",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1df7cc5f-5e08-4bd0-8c15-513f730def39.png"
       }
     },
     {
@@ -25639,6 +25663,30 @@
         "title": "Qatar 2022™: Best of the Rest",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6f573eca-d805-4883-b272-fe632b4714cf.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/93527569-ee7a-447c-98de-1b77da623e9b.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D01-06",
+      "type": "highlight",
+      "title": "Netherlands",
+      "subtitle": "2014 FIFA World Cup Brazil™  \nESP 1 - 5 NED, **Goal: Robin van Persie 44'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4fd93025-cfaa-4335-a599-a30fc8eb49ca.png",
+      "lowestPrice": 777,
+      "latestCreatedAt": "2026-05-01T11:05:32.330Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 22,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4fd93025-cfaa-4335-a599-a30fc8eb49ca.png"
       }
     },
     {
@@ -26628,30 +26676,6 @@
         "title": "USA94 - 30 years later",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/daf12eca-6bf8-413c-8c84-8ea7fc0f3913.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "p1974-05",
-      "type": "highlight",
-      "title": "Franz Beckenbauer - München 1974",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bf937a86-271b-42f1-9dc9-88b9d00a011e.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-28T12:15:10.488Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1974",
-      "lowestEdition": 24,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7dcffe98-87da-4270-a4fb-05e6a60be060.png",
-      "pack": {
-        "slug": "panini-1974",
-        "title": "Surprise - Panini München 1974",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bf937a86-271b-42f1-9dc9-88b9d00a011e.png"
       }
     },
     {
@@ -28865,54 +28889,6 @@
         "title": "Early Goals Magic",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d217289d-de8a-40a3-afe8-b77c2bee7eed.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/317f7499-32b4-4120-a485-cceac1e99b8a.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "p1974-07",
-      "type": "highlight",
-      "title": "Brazil - München 1974",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d96e4d3a-4b86-43aa-8182-a529e1202ff4.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-24T19:09:06.572Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1974",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/949ad027-a3f8-439d-906f-53518a4c52f6.png",
-      "pack": {
-        "slug": "panini-1974",
-        "title": "Surprise - Panini München 1974",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d96e4d3a-4b86-43aa-8182-a529e1202ff4.png"
-      }
-    },
-    {
-      "uniqueCode": "p1974-11",
-      "type": "highlight",
-      "title": "Brazil Team Badge - München 1974",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0d69abff-aabe-4d1c-a7c9-173502d30f5a.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-24T16:18:45.004Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1974",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/12da1e8d-2557-4bf8-b0e6-a537b8203ffa.png",
-      "pack": {
-        "slug": "panini-1974",
-        "title": "Surprise - Panini München 1974",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0d69abff-aabe-4d1c-a7c9-173502d30f5a.png"
       }
     },
     {
@@ -33491,30 +33467,6 @@
       }
     },
     {
-      "uniqueCode": "p1982-41",
-      "type": "highlight",
-      "title": "Falcao - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/57d8f4ef-6979-43bc-973c-dec73ed10e9e.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-04-08T01:16:04.729Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ce0c8fbd-48ce-4f4f-8473-e5f91d643e08.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/57d8f4ef-6979-43bc-973c-dec73ed10e9e.png"
-      }
-    },
-    {
       "uniqueCode": "p1982-42",
       "type": "highlight",
       "title": "Paul Breitner - SPAIN 1982",
@@ -36738,6 +36690,30 @@
         "id": "ca503e44-7672-4f4e-aa04-ef1f2fcdcbae",
         "title": "Brisbane",
         "subtitle": "Brisbane Stadium"
+      }
+    },
+    {
+      "uniqueCode": "S2-R1-03",
+      "type": "highlight",
+      "title": "Germany FR",
+      "subtitle": "1974 FIFA World Cup Germany™  \nNED 1 - 2 FRG, **Trophy Lift: Franz Beckenbauer**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/affd615d-5928-4a68-93b8-7d562a514bcc.jpeg",
+      "lowestPrice": 1850,
+      "latestCreatedAt": "2026-03-21T20:55:34.888Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "trophy-lifts-variety-rewards",
+      "lowestEdition": 6,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "trophy-lifts-variety-rewards",
+        "title": "Trophy Lifts - Variety Reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c252be70-e259-4aa1-a2ae-6b32b33f042a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/affd615d-5928-4a68-93b8-7d562a514bcc.jpeg"
       }
     },
     {
@@ -44244,54 +44220,6 @@
       }
     },
     {
-      "uniqueCode": "A_JG13",
-      "type": "highlight",
-      "title": "Home 1995-96",
-      "subtitle": "Al Ahly FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3f04a67c-191a-4935-b897-b640263543b3.jpeg",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2025-11-29T23:24:36.867Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "alahly-jerseysofglory-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7e9cbfa8-7464-429f-9cb6-4734e8dfaf4b.png",
-      "pack": {
-        "slug": "alahly-jerseysofglory-sp",
-        "title": "Al Ahly FC - Jerseys of Glory",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/154d0924-8b33-4fee-8097-e5458307f69b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3f04a67c-191a-4935-b897-b640263543b3.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "A_JG10",
-      "type": "highlight",
-      "title": "Home 2012-13",
-      "subtitle": "Al Ahly FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f2461b6d-6803-4107-8e92-fc50109734f1.jpeg",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2025-11-29T23:22:21.773Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "alahly-jerseysofglory-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e7053a61-5d9e-4ae3-af7e-10cb41103359.png",
-      "pack": {
-        "slug": "alahly-jerseysofglory-sp",
-        "title": "Al Ahly FC - Jerseys of Glory",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/154d0924-8b33-4fee-8097-e5458307f69b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f2461b6d-6803-4107-8e92-fc50109734f1.jpeg"
-      }
-    },
-    {
       "uniqueCode": "A_JG15",
       "type": "highlight",
       "title": "Home 2010-11",
@@ -44628,12 +44556,36 @@
       }
     },
     {
+      "uniqueCode": "A_JG10",
+      "type": "highlight",
+      "title": "Home 2012-13",
+      "subtitle": "Al Ahly FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f2461b6d-6803-4107-8e92-fc50109734f1.jpeg",
+      "lowestPrice": 279,
+      "latestCreatedAt": "2025-11-24T23:56:35.280Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "alahly-jerseysofglory-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e7053a61-5d9e-4ae3-af7e-10cb41103359.png",
+      "pack": {
+        "slug": "alahly-jerseysofglory-sp",
+        "title": "Al Ahly FC - Jerseys of Glory",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/154d0924-8b33-4fee-8097-e5458307f69b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f2461b6d-6803-4107-8e92-fc50109734f1.jpeg"
+      }
+    },
+    {
       "uniqueCode": "A_JG11",
       "type": "highlight",
       "title": "Home 2020-21",
       "subtitle": "Al Ahly FC",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdef47df-f042-4e6f-b289-7ee536381fba.jpeg",
-      "lowestPrice": 150,
+      "lowestPrice": 189,
       "latestCreatedAt": "2025-11-24T23:55:15.500Z",
       "rarity": {
         "code": "20",
@@ -44721,6 +44673,30 @@
         "title": "Al Ahly FC - Jerseys of Glory",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/154d0924-8b33-4fee-8097-e5458307f69b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ffc754e7-12d2-45a7-9cc5-b5922f6c0435.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "A_JG13",
+      "type": "highlight",
+      "title": "Home 1995-96",
+      "subtitle": "Al Ahly FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3f04a67c-191a-4935-b897-b640263543b3.jpeg",
+      "lowestPrice": 200,
+      "latestCreatedAt": "2025-11-24T23:53:17.880Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "alahly-jerseysofglory-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7e9cbfa8-7464-429f-9cb6-4734e8dfaf4b.png",
+      "pack": {
+        "slug": "alahly-jerseysofglory-sp",
+        "title": "Al Ahly FC - Jerseys of Glory",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/154d0924-8b33-4fee-8097-e5458307f69b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3f04a67c-191a-4935-b897-b640263543b3.jpeg"
       }
     },
     {
@@ -44889,6 +44865,30 @@
         "title": "Surprise Premium - National Treasures Part 3",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/52a4d029-148a-489b-8557-a5ed2cfd1017.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fd465726-26ec-41b2-adc6-cdc0585ec6c6.png"
+      }
+    },
+    {
+      "uniqueCode": "TB_02",
+      "type": "highlight",
+      "title": "The Best - Epic",
+      "subtitle": "The Best FIFA Football Awards™ <br/> Best Player Award",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d6c20a51-4de4-4e88-8de1-77e63f363901.png",
+      "lowestPrice": 3500,
+      "latestCreatedAt": "2025-11-22T16:58:33.690Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "the-best",
+      "lowestEdition": 95,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a6844724-b1f5-4431-bab4-a1efdcd4c081.png",
+      "pack": {
+        "slug": "the-best",
+        "title": "The Best FIFA Football Awards",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7babc1c5-d963-4960-bd92-266ff0670fc6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d6c20a51-4de4-4e88-8de1-77e63f363901.png"
       }
     },
     {
