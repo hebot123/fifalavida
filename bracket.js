@@ -108,19 +108,19 @@ const BracketApp = {
         return flagMap[team] || '⚽';
     },
 
-    // Official Pot Mapping from 2026 World Cup
+    // Official 2026 World Cup groups after the March 2026 play-offs
     potMapping: {
-        'A': { 1: 'Mexico', 2: 'South Africa', 3: 'Korea Republic', 4: 'Winner Play-off D' },
-        'B': { 1: 'Canada', 2: 'Winner Play-off A', 3: 'Qatar', 4: 'Switzerland' },
+        'A': { 1: 'Mexico', 2: 'South Africa', 3: 'Korea Republic', 4: 'Czechia' },
+        'B': { 1: 'Canada', 2: 'Bosnia and Herzegovina', 3: 'Qatar', 4: 'Switzerland' },
         'C': { 1: 'Brazil', 2: 'Morocco', 3: 'Haiti', 4: 'Scotland' },
-        'D': { 1: 'USA', 2: 'Paraguay', 3: 'Australia', 4: 'Winner Play-off C' },
+        'D': { 1: 'USA', 2: 'Paraguay', 3: 'Australia', 4: 'Türkiye' },
         'E': { 1: 'Germany', 2: 'Curaçao', 3: 'Côte d\'Ivoire', 4: 'Ecuador' },
-        'F': { 1: 'Netherlands', 2: 'Japan', 3: 'Winner Play-off B', 4: 'Tunisia' },
+        'F': { 1: 'Netherlands', 2: 'Japan', 3: 'Sweden', 4: 'Tunisia' },
         'G': { 1: 'Belgium', 2: 'Egypt', 3: 'IR Iran', 4: 'New Zealand' },
         'H': { 1: 'Spain', 2: 'Cabo Verde', 3: 'Saudi Arabia', 4: 'Uruguay' },
-        'I': { 1: 'France', 2: 'Senegal', 3: 'Winner Play-off 2', 4: 'Norway' },
+        'I': { 1: 'France', 2: 'Senegal', 3: 'Iraq', 4: 'Norway' },
         'J': { 1: 'Argentina', 2: 'Algeria', 3: 'Austria', 4: 'Jordan' },
-        'K': { 1: 'Portugal', 2: 'Winner Play-off 1', 3: 'Uzbekistan', 4: 'Colombia' },
+        'K': { 1: 'Portugal', 2: 'DR Congo', 3: 'Uzbekistan', 4: 'Colombia' },
         'L': { 1: 'England', 2: 'Croatia', 3: 'Ghana', 4: 'Panama' }
     },
 

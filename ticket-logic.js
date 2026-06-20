@@ -9,21 +9,21 @@ const TicketEngine = {
     // FULL SCHEDULE MAPPING (Verified with Official Matchups)
     matchSchedule: {
         // GROUP A
-        1: ["Mexico", "South Africa"], 2: ["Korea Republic", "Winner Play-off D"],
-        25: ["Winner Play-off D", "South Africa"], 28: ["Mexico", "Korea Republic"],
-        53: ["Winner Play-off D", "Mexico"], 54: ["South Africa", "Korea Republic"],
+        1: ["Mexico", "South Africa"], 2: ["Korea Republic", "Czechia"],
+        25: ["Czechia", "South Africa"], 28: ["Mexico", "Korea Republic"],
+        53: ["Czechia", "Mexico"], 54: ["South Africa", "Korea Republic"],
         // GROUP B
-        3: ["Canada", "Winner Play-off A"], 8: ["Qatar", "Switzerland"],
-        26: ["Switzerland", "Winner Play-off A"], 27: ["Canada", "Qatar"],
-        51: ["Switzerland", "Canada"], 52: ["Winner Play-off A", "Qatar"],
+        3: ["Canada", "Bosnia and Herzegovina"], 8: ["Qatar", "Switzerland"],
+        26: ["Switzerland", "Bosnia and Herzegovina"], 27: ["Canada", "Qatar"],
+        51: ["Switzerland", "Canada"], 52: ["Bosnia and Herzegovina", "Qatar"],
         // GROUP C
         5: ["Brazil", "Morocco"], 7: ["Haiti", "Scotland"],
         29: ["Scotland", "Morocco"], 30: ["Brazil", "Haiti"],
         49: ["Scotland", "Brazil"], 50: ["Morocco", "Haiti"],
         // GROUP D
-        4: ["USA", "Paraguay"], 6: ["Australia", "Winner Play-off C"],
-        31: ["Winner Play-off C", "Paraguay"], 32: ["USA", "Australia"],
-        59: ["Winner Play-off C", "USA"], 60: ["Paraguay", "Australia"],
+        4: ["USA", "Paraguay"], 6: ["Australia", "Türkiye"],
+        31: ["Türkiye", "Paraguay"], 32: ["USA", "Australia"],
+        59: ["Türkiye", "USA"], 60: ["Paraguay", "Australia"],
         
         // GROUP E
         9: ["Côte d'Ivoire", "Ecuador"], 10: ["Germany", "Curaçao"],
@@ -32,10 +32,10 @@ const TicketEngine = {
         56: ["Ecuador", "Germany"],       
         
         // GROUP F
-        11: ["Netherlands", "Japan"], 12: ["Winner Play-off B", "Tunisia"],
-        35: ["Netherlands", "Winner Play-off B"], 36: ["Tunisia", "Japan"],
+        11: ["Netherlands", "Japan"], 12: ["Sweden", "Tunisia"],
+        35: ["Netherlands", "Sweden"], 36: ["Tunisia", "Japan"],
         57: ["Tunisia", "Netherlands"],     
-        58: ["Japan", "Winner Play-off B"], 
+        58: ["Japan", "Sweden"], 
         
         // GROUP G
         15: ["IR Iran", "New Zealand"], 16: ["Belgium", "Egypt"],
@@ -47,18 +47,18 @@ const TicketEngine = {
         65: ["Cabo Verde", "Saudi Arabia"], 66: ["Uruguay", "Spain"],
         
         // GROUP I
-        17: ["France", "Senegal"], 18: ["Winner Play-off 2", "Norway"],
-        41: ["Norway", "Senegal"], 42: ["France", "Winner Play-off 2"], 
-        61: ["Norway", "France"], 62: ["Senegal", "Winner Play-off 2"],
+        17: ["France", "Senegal"], 18: ["Iraq", "Norway"],
+        41: ["Norway", "Senegal"], 42: ["France", "Iraq"], 
+        61: ["Norway", "France"], 62: ["Senegal", "Iraq"],
         
         // GROUP J
         19: ["Argentina", "Algeria"], 20: ["Austria", "Jordan"],
         43: ["Argentina", "Austria"], 44: ["Jordan", "Algeria"],
         69: ["Algeria", "Austria"], 70: ["Jordan", "Argentina"],
         // GROUP K
-        23: ["Portugal", "Winner Play-off 1"], 24: ["Uzbekistan", "Colombia"],
-        47: ["Portugal", "Uzbekistan"], 48: ["Colombia", "Winner Play-off 1"],
-        71: ["Colombia", "Portugal"], 72: ["Winner Play-off 1", "Uzbekistan"],
+        23: ["Portugal", "DR Congo"], 24: ["Uzbekistan", "Colombia"],
+        47: ["Portugal", "Uzbekistan"], 48: ["Colombia", "DR Congo"],
+        71: ["Colombia", "Portugal"], 72: ["DR Congo", "Uzbekistan"],
         // GROUP L
         21: ["Ghana", "Panama"], 22: ["England", "Croatia"],
         45: ["England", "Ghana"], 46: ["Panama", "Croatia"],
