@@ -1,13 +1,109 @@
 {
-  "total": 2062,
+  "total": 2061,
   "listings": [
+    {
+      "uniqueCode": "ET_M05",
+      "type": "highlight",
+      "title": "Extra Time Collectible",
+      "subtitle": "Collect and Win",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2006fcbf-5b62-4f94-b58f-401f2fd421ca.jpeg",
+      "lowestPrice": 800,
+      "latestCreatedAt": "2026-07-03T20:55:24.746Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "extra-time",
+      "lowestEdition": 629,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/73749b38-f517-49bd-beb6-c3e5dd2e4fbe.png",
+      "pack": {
+        "slug": "extra-time",
+        "title": "EXTRA TIME REWARD PACK",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1859f597-260b-4fe9-ba6c-b3fc9e200dcf.jpeg",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2006fcbf-5b62-4f94-b58f-401f2fd421ca.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "rg2-rwic",
+      "type": "highlight",
+      "title": "Italy",
+      "subtitle": "2006 FIFA World Cup Germany™ GER 0-2 ITA **LAST MINUTE GOAL: Del Piero 120+1'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/47ec7e20-c096-49ce-8581-396e68d3e70c.png",
+      "lowestPrice": 9000,
+      "latestCreatedAt": "2026-07-03T20:49:45.162Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop-2-reward",
+      "lowestEdition": 2,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop-2-reward",
+        "title": "Regenesis Drop Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/415c60e9-899d-4159-908b-a529a7b9edf1.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/47ec7e20-c096-49ce-8581-396e68d3e70c.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-01",
+      "type": "highlight",
+      "title": "France",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f80a7129-374d-4590-a68d-0e13d7636e11.png",
+      "lowestPrice": 1700,
+      "latestCreatedAt": "2026-07-03T19:32:56.265Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 226,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/61cfbb20-aa67-4784-b7e8-c8a8da9cc769.jpeg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f80a7129-374d-4590-a68d-0e13d7636e11.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-33",
+      "type": "highlight",
+      "title": "Czechia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe040f84-a722-4b51-aba9-19a226b618d6.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-03T19:30:32.806Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 27,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9e8d2dc9-e260-4a32-85f6-c07898173e65.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe040f84-a722-4b51-aba9-19a226b618d6.png"
+      }
+    },
     {
       "uniqueCode": "cat1-m93",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M93 Dallas",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8dfdee43-6a7e-4cc2-9739-c1d165b10577.png",
-      "lowestPrice": 249900,
+      "lowestPrice": 244900,
       "latestCreatedAt": "2026-07-03T19:01:08.245Z",
       "rarity": {
         "code": "40",
@@ -127,7 +223,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M93 Dallas",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/45a5d29c-454e-41d9-a4b8-81f353721f60.png",
-      "lowestPrice": 185000,
+      "lowestPrice": 180000,
       "latestCreatedAt": "2026-07-03T14:06:07.503Z",
       "rarity": {
         "code": "40",
@@ -2282,30 +2378,6 @@
       }
     },
     {
-      "uniqueCode": "cat2-m94",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M94 Seattle",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b07c9714-155c-4fdf-afb6-395776ad58c1.png",
-      "lowestPrice": 199900,
-      "latestCreatedAt": "2026-07-02T22:42:33.721Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m94",
-      "lowestEdition": 31,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/60b1a2d3-7669-4ce6-a5be-e5930fb93e75.jpeg",
-      "pack": {
-        "slug": "cat2-m94",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M94",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c64c8065-78da-4c80-b9a5-4c51d09c0b77.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b07c9714-155c-4fdf-afb6-395776ad58c1.png"
-      }
-    },
-    {
       "uniqueCode": "df2-rw10",
       "type": "highlight",
       "title": "Argentina",
@@ -2426,30 +2498,6 @@
       }
     },
     {
-      "uniqueCode": "tdfwc-01",
-      "type": "highlight",
-      "title": "France",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f80a7129-374d-4590-a68d-0e13d7636e11.png",
-      "lowestPrice": 1700,
-      "latestCreatedAt": "2026-07-02T22:26:14.461Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 226,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/61cfbb20-aa67-4784-b7e8-c8a8da9cc769.jpeg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f80a7129-374d-4590-a68d-0e13d7636e11.png"
-      }
-    },
-    {
       "uniqueCode": "tdfwc-04",
       "type": "highlight",
       "title": "Brazil",
@@ -2479,7 +2527,7 @@
       "title": "Colombia",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c06be37b-848a-4862-a09b-165ff0a1647e.png",
-      "lowestPrice": 1000,
+      "lowestPrice": 900,
       "latestCreatedAt": "2026-07-02T22:21:34.892Z",
       "rarity": {
         "code": "30",
@@ -2591,30 +2639,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e0b977a-8640-423a-b3b2-aea91e672e49.png"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-33",
-      "type": "highlight",
-      "title": "Czechia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe040f84-a722-4b51-aba9-19a226b618d6.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-07-02T22:09:01.199Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 27,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9e8d2dc9-e260-4a32-85f6-c07898173e65.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe040f84-a722-4b51-aba9-19a226b618d6.png"
       }
     },
     {
@@ -8642,30 +8666,6 @@
       }
     },
     {
-      "uniqueCode": "rg2-rwic",
-      "type": "highlight",
-      "title": "Italy",
-      "subtitle": "2006 FIFA World Cup Germany™ GER 0-2 ITA **LAST MINUTE GOAL: Del Piero 120+1'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/47ec7e20-c096-49ce-8581-396e68d3e70c.png",
-      "lowestPrice": 9299,
-      "latestCreatedAt": "2026-07-01T06:25:06.187Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "regenesis-drop-2-reward",
-      "lowestEdition": 2,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "regenesis-drop-2-reward",
-        "title": "Regenesis Drop Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/415c60e9-899d-4159-908b-a529a7b9edf1.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/47ec7e20-c096-49ce-8581-396e68d3e70c.png"
-      }
-    },
-    {
       "uniqueCode": "tcwc203",
       "type": "poster_variant",
       "title": "FIFA Founding #3",
@@ -11532,7 +11532,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M96 Vancouver",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c641d36-8ae9-4554-a53f-ffc7e93cc6bc.png",
-      "lowestPrice": 160000,
+      "lowestPrice": 140000,
       "latestCreatedAt": "2026-06-25T10:36:52.187Z",
       "rarity": {
         "code": "40",
@@ -16996,30 +16996,6 @@
         "title": "CF Monterrey - Away Jersey MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/45c0c591-78e8-4c1d-891f-f27e620f40c4.png"
-      }
-    },
-    {
-      "uniqueCode": "ET_M05",
-      "type": "highlight",
-      "title": "Extra Time Collectible",
-      "subtitle": "Collect and Win",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2006fcbf-5b62-4f94-b58f-401f2fd421ca.jpeg",
-      "lowestPrice": 900,
-      "latestCreatedAt": "2026-06-19T06:21:17.792Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "extra-time",
-      "lowestEdition": 629,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/73749b38-f517-49bd-beb6-c3e5dd2e4fbe.png",
-      "pack": {
-        "slug": "extra-time",
-        "title": "EXTRA TIME REWARD PACK",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1859f597-260b-4fe9-ba6c-b3fc9e200dcf.jpeg",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2006fcbf-5b62-4f94-b58f-401f2fd421ca.jpeg"
       }
     },
     {
