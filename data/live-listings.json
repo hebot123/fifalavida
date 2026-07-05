@@ -2,6 +2,30 @@
   "total": 2056,
   "listings": [
     {
+      "uniqueCode": "tdfwc-05",
+      "type": "highlight",
+      "title": "Germany",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02ec7967-a67f-4b04-a457-ca8af637bfc9.png",
+      "lowestPrice": 1400,
+      "latestCreatedAt": "2026-07-05T20:54:58.975Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 171,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/da4e8fe9-897d-4fa7-b7e8-cfd092d2fa76.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02ec7967-a67f-4b04-a457-ca8af637bfc9.png"
+      }
+    },
+    {
       "uniqueCode": "cat1-m98",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M98 Los Angeles",
@@ -47,30 +71,6 @@
         "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M97",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e2c98f26-5524-48bd-af75-82ec7cd116ae.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/222a559a-31c3-4565-b9d6-ecac0ced9d6b.png"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-05",
-      "type": "highlight",
-      "title": "Germany",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02ec7967-a67f-4b04-a457-ca8af637bfc9.png",
-      "lowestPrice": 1400,
-      "latestCreatedAt": "2026-07-05T19:54:19.536Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 171,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/da4e8fe9-897d-4fa7-b7e8-cfd092d2fa76.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02ec7967-a67f-4b04-a457-ca8af637bfc9.png"
       }
     },
     {
@@ -818,30 +818,6 @@
       }
     },
     {
-      "uniqueCode": "cat1-m99",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 1 for M99 Miami",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/251ff2ea-7df2-4306-aaed-b9fc95dae68b.png",
-      "lowestPrice": 530000,
-      "latestCreatedAt": "2026-07-04T19:02:14.412Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat1-m99",
-      "lowestEdition": 68,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b32e3453-c0d7-4850-9a66-980eaf5be002.jpeg",
-      "pack": {
-        "slug": "cat1-m99",
-        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M99",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4c71151-fdd1-42c8-9a71-a74010052133.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/251ff2ea-7df2-4306-aaed-b9fc95dae68b.png"
-      }
-    },
-    {
       "uniqueCode": "cat2m101",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 2 for M101 Dallas",
@@ -871,7 +847,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M99 Miami",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/173ad37c-d27e-4889-aff6-74da79ed3a29.png",
-      "lowestPrice": 449900,
+      "lowestPrice": 349900,
       "latestCreatedAt": "2026-07-04T18:28:13.714Z",
       "rarity": {
         "code": "40",
@@ -1247,6 +1223,30 @@
         "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M100",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1bd7d65e-460d-44e7-9d24-958cd5a931dd.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b4dd3cc3-d635-4f7d-8bae-987ac5f4751a.png"
+      }
+    },
+    {
+      "uniqueCode": "cat1-m99",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 1 for M99 Miami",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/251ff2ea-7df2-4306-aaed-b9fc95dae68b.png",
+      "lowestPrice": 650000,
+      "latestCreatedAt": "2026-07-04T06:32:03.045Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat1-m99",
+      "lowestEdition": 68,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b32e3453-c0d7-4850-9a66-980eaf5be002.jpeg",
+      "pack": {
+        "slug": "cat1-m99",
+        "title": "FIFA World Cup 26™: Category 1 Right To Ticket - M99",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4c71151-fdd1-42c8-9a71-a74010052133.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/251ff2ea-7df2-4306-aaed-b9fc95dae68b.png"
       }
     },
     {
