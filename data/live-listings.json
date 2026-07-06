@@ -1,6 +1,54 @@
 {
-  "total": 2057,
+  "total": 2056,
   "listings": [
+    {
+      "uniqueCode": "aft-04",
+      "type": "highlight",
+      "title": "United States",
+      "subtitle": "2002 FIFA World Cup Korea/Japan™ <br/> POL 3-1 USA, **Goal: Landon Donovan 83’**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/51a3bc32-47f3-4667-81c6-a853245a70fa.jpeg",
+      "lowestPrice": 900,
+      "latestCreatedAt": "2026-07-06T22:39:48.460Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "afirst-timers",
+      "lowestEdition": 4,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "afirst-timers",
+        "title": "Americas First Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ee27b5b9-2b08-47f1-8249-7a369836e07a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/51a3bc32-47f3-4667-81c6-a853245a70fa.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "cat2-m98",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M98 Los Angeles",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dcb69b9-5971-425e-b036-f05c00243af1.png",
+      "lowestPrice": 290000,
+      "latestCreatedAt": "2026-07-06T22:01:24.244Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m98",
+      "lowestEdition": 12,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/79b0be52-43b5-445c-9bc4-d1b295f705bd.jpeg",
+      "pack": {
+        "slug": "cat2-m98",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M98",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a688ab22-e865-471d-b2ef-dc87f93ec2ee.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dcb69b9-5971-425e-b036-f05c00243af1.png"
+      }
+    },
     {
       "uniqueCode": "cat2-m97",
       "type": "highlight",
@@ -74,36 +122,12 @@
       }
     },
     {
-      "uniqueCode": "cat2-m98",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M98 Los Angeles",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dcb69b9-5971-425e-b036-f05c00243af1.png",
-      "lowestPrice": 290000,
-      "latestCreatedAt": "2026-07-06T18:32:05.354Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m98",
-      "lowestEdition": 12,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/79b0be52-43b5-445c-9bc4-d1b295f705bd.jpeg",
-      "pack": {
-        "slug": "cat2-m98",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M98",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a688ab22-e865-471d-b2ef-dc87f93ec2ee.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dcb69b9-5971-425e-b036-f05c00243af1.png"
-      }
-    },
-    {
       "uniqueCode": "cat1-m97",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M97 Boston",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/222a559a-31c3-4565-b9d6-ecac0ced9d6b.png",
-      "lowestPrice": 141800,
+      "lowestPrice": 141900,
       "latestCreatedAt": "2026-07-06T16:54:35.178Z",
       "rarity": {
         "code": "40",
@@ -391,7 +415,7 @@
       "title": "Collectible also valid as Right To Ticket Category 2 for M99 Miami",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/173ad37c-d27e-4889-aff6-74da79ed3a29.png",
-      "lowestPrice": 339000,
+      "lowestPrice": 330000,
       "latestCreatedAt": "2026-07-06T09:15:44.882Z",
       "rarity": {
         "code": "40",
@@ -775,7 +799,7 @@
       "title": "Collectible also valid as Right To Ticket Category 3 for M102 Atlanta",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/db145430-a08b-4fa1-b749-da5a7b5a6dc2.png",
-      "lowestPrice": 480000,
+      "lowestPrice": 420000,
       "latestCreatedAt": "2026-07-06T03:30:05.079Z",
       "rarity": {
         "code": "40",
@@ -1840,7 +1864,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "cat2-m100",
-      "lowestEdition": 26,
+      "lowestEdition": 80,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9ed5ce19-a94d-402c-a8e1-b11faca4b368.jpeg",
       "pack": {
         "slug": "cat2-m100",
@@ -8863,7 +8887,7 @@
       "title": "Ianis Hagi",
       "subtitle": "Romania",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/451b3948-0c70-461b-8e01-a66a6b00b290.png",
-      "lowestPrice": 5000,
+      "lowestPrice": 4500,
       "latestCreatedAt": "2026-07-01T12:47:51.295Z",
       "rarity": {
         "code": "30",
@@ -10972,30 +10996,6 @@
         "title": "Romania - Tricolorii",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/73a017c9-9adc-4f50-84a1-128232d331e7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/961387e8-5b39-4968-aa01-31c442dedf19.png"
-      }
-    },
-    {
-      "uniqueCode": "ct2m102",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M102 Atlanta",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a4cebcc6-17dd-4e8d-9e1f-923393dceecc.png",
-      "lowestPrice": 500000,
-      "latestCreatedAt": "2026-06-27T11:17:20.418Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "ct2-m102",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d92164fc-7bc5-4199-81f9-8613072ad638.jpeg",
-      "pack": {
-        "slug": "ct2-m102",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M102",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/29e81d1d-d2c9-4007-8db2-f364527e23ee.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a4cebcc6-17dd-4e8d-9e1f-923393dceecc.png"
       }
     },
     {
@@ -25550,30 +25550,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 2 Reward Pack",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e3219cbe-eb86-43b9-9255-4cac6c9e9e85.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/31f7f558-b629-40f8-8952-6889d45400bf.png"
-      }
-    },
-    {
-      "uniqueCode": "aft-04",
-      "type": "highlight",
-      "title": "United States",
-      "subtitle": "2002 FIFA World Cup Korea/Japan™ <br/> POL 3-1 USA, **Goal: Landon Donovan 83’**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/51a3bc32-47f3-4667-81c6-a853245a70fa.jpeg",
-      "lowestPrice": 900,
-      "latestCreatedAt": "2026-05-31T22:48:56.630Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "afirst-timers",
-      "lowestEdition": 4,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "afirst-timers",
-        "title": "Americas First Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ee27b5b9-2b08-47f1-8249-7a369836e07a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/51a3bc32-47f3-4667-81c6-a853245a70fa.jpeg"
       }
     },
     {
