@@ -2,6 +2,78 @@
   "total": 2067,
   "listings": [
     {
+      "uniqueCode": "tdfwc-tl",
+      "type": "highlight",
+      "title": "FIFA World Cup 26™ Trophy Lift",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b81e05b0-32cf-4208-b337-7c18888adf68.png",
+      "lowestPrice": 199900,
+      "latestCreatedAt": "2026-07-10T22:03:44.303Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026-trophylift",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2d26a142-f4f0-41ac-afe8-da0e9cf77c34.jpeg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026-trophylift",
+        "title": "Dynamic Team Collectible FWC2026 Trophy Lift Reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f746d52d-03e9-4325-a9c4-2b171d239804.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b81e05b0-32cf-4208-b337-7c18888adf68.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-02",
+      "type": "highlight",
+      "title": "Spain",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ff9a6a32-85fb-476d-a135-1d346fd5a273.png",
+      "lowestPrice": 1300,
+      "latestCreatedAt": "2026-07-10T22:02:29.681Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 63,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/56c11cf0-ac16-4edb-bd1b-28d92a883cab.jpeg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ff9a6a32-85fb-476d-a135-1d346fd5a273.png"
+      }
+    },
+    {
+      "uniqueCode": "cat2m101",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 2 for M101 Dallas",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79129c48-3371-4db3-8897-5a99072c4231.png",
+      "lowestPrice": 270000,
+      "latestCreatedAt": "2026-07-10T22:02:00.169Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat2-m101",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6a1f3803-6e3e-4069-bb3f-14fe2f5b9456.jpeg",
+      "pack": {
+        "slug": "cat2-m101",
+        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M101",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1612a804-ccbb-47ae-9c66-052ab932481a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79129c48-3371-4db3-8897-5a99072c4231.png"
+      }
+    },
+    {
       "uniqueCode": "M_2CL14",
       "type": "highlight",
       "title": "Sofía Martínez",
@@ -407,30 +479,6 @@
         "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M104",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c5c2811a-c623-48ef-bd03-ff24301252d6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12892309-8133-4d03-86b0-c8a92f890501.png"
-      }
-    },
-    {
-      "uniqueCode": "cat2m101",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 2 for M101 Dallas",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79129c48-3371-4db3-8897-5a99072c4231.png",
-      "lowestPrice": 270000,
-      "latestCreatedAt": "2026-07-10T02:06:41.756Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat2-m101",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6a1f3803-6e3e-4069-bb3f-14fe2f5b9456.jpeg",
-      "pack": {
-        "slug": "cat2-m101",
-        "title": "FIFA World Cup 26™: Category 2 Right To Ticket - M101",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1612a804-ccbb-47ae-9c66-052ab932481a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/79129c48-3371-4db3-8897-5a99072c4231.png"
       }
     },
     {
@@ -1031,30 +1079,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dd490508-2546-4fb0-a712-0535a68dee73.png"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-02",
-      "type": "highlight",
-      "title": "Spain",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ff9a6a32-85fb-476d-a135-1d346fd5a273.png",
-      "lowestPrice": 1350,
-      "latestCreatedAt": "2026-07-09T13:42:22.292Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 63,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/56c11cf0-ac16-4edb-bd1b-28d92a883cab.jpeg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ff9a6a32-85fb-476d-a135-1d346fd5a273.png"
       }
     },
     {
@@ -22248,30 +22272,6 @@
         "title": "Genesis Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/307e8ab5-c06b-4a51-8623-e7250d1e60e0.png"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-tl",
-      "type": "highlight",
-      "title": "FIFA World Cup 26™ Trophy Lift",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b81e05b0-32cf-4208-b337-7c18888adf68.png",
-      "lowestPrice": 249900,
-      "latestCreatedAt": "2026-06-14T02:58:33.636Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026-trophylift",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2d26a142-f4f0-41ac-afe8-da0e9cf77c34.jpeg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026-trophylift",
-        "title": "Dynamic Team Collectible FWC2026 Trophy Lift Reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f746d52d-03e9-4325-a9c4-2b171d239804.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b81e05b0-32cf-4208-b337-7c18888adf68.png"
       }
     },
     {
