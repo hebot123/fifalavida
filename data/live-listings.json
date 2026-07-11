@@ -2,6 +2,30 @@
   "total": 2066,
   "listings": [
     {
+      "uniqueCode": "tdfwc-14",
+      "type": "highlight",
+      "title": "United States",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f17aef20-8d45-402c-a8cc-5e936d365557.png",
+      "lowestPrice": 1000,
+      "latestCreatedAt": "2026-07-11T23:06:29.732Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 155,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/634325ee-2a6b-4adf-84fd-a6a8c44d301d.jpeg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f17aef20-8d45-402c-a8cc-5e936d365557.png"
+      }
+    },
+    {
       "uniqueCode": "tdfwc-32",
       "type": "highlight",
       "title": "Sweden",
@@ -671,30 +695,6 @@
         "title": "Surprise - Panini Argentina 1978",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/92e3e5ef-c0d2-4b0d-b2bc-4a60e111abcb.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b93605c3-aaec-4df8-aafa-73a47fd049cd.png"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-14",
-      "type": "highlight",
-      "title": "United States",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f17aef20-8d45-402c-a8cc-5e936d365557.png",
-      "lowestPrice": 1000,
-      "latestCreatedAt": "2026-07-11T16:30:42.527Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 155,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/634325ee-2a6b-4adf-84fd-a6a8c44d301d.jpeg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f17aef20-8d45-402c-a8cc-5e936d365557.png"
       }
     },
     {
@@ -5940,7 +5940,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "ct2-m102",
-      "lowestEdition": 2,
+      "lowestEdition": 3,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d92164fc-7bc5-4199-81f9-8613072ad638.jpeg",
       "pack": {
         "slug": "ct2-m102",
