@@ -1,6 +1,54 @@
 {
-  "total": 2067,
+  "total": 2066,
   "listings": [
+    {
+      "uniqueCode": "reg-dr01",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 0 CRO **PENALTY: Messi 34'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg",
+      "lowestPrice": 6500,
+      "latestCreatedAt": "2026-07-14T14:16:18.451Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop",
+      "lowestEdition": 3,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop",
+        "title": "Regenesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "US_M10",
+      "type": "highlight",
+      "title": "Bulgaria",
+      "subtitle": "1994 FIFA World Cup USA™ <br/> BUL 2-1 GER, **Goal: Yordan Letchkov 78’**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/271fc76c-0bc7-40d4-ae13-7c4c0f923792.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-14T12:56:19.856Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "usa-94",
+      "lowestEdition": 34,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "usa-94",
+        "title": "USA94 - 30 years later",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/271fc76c-0bc7-40d4-ae13-7c4c0f923792.jpeg"
+      }
+    },
     {
       "uniqueCode": "tdfwc-23",
       "type": "highlight",
@@ -95,54 +143,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6a0096ff-f83e-4cef-b797-d35c01ae0eff.png"
-      }
-    },
-    {
-      "uniqueCode": "mem-m89",
-      "type": "highlight",
-      "title": "M89 Dynamic Match Collectible",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7d835746-bfc9-4f63-970a-70314d66a454.png",
-      "lowestPrice": 4000,
-      "latestCreatedAt": "2026-07-14T12:50:25.825Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "mem-m89",
-      "lowestEdition": 550,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6ab3a30b-7999-4ef8-8d20-d46c5c0fe1c7.jpg",
-      "pack": {
-        "slug": "mem-m89",
-        "title": "M89 EXCLUSIVE Dynamic Match Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ce33677e-3220-447b-af56-c94dc4fb2b5a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7d835746-bfc9-4f63-970a-70314d66a454.png"
-      }
-    },
-    {
-      "uniqueCode": "mem-m7",
-      "type": "highlight",
-      "title": "M7 Dynamic Match Collectible",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bcd2b4eb-f662-4313-9ffb-2326a295aef8.png",
-      "lowestPrice": 4000,
-      "latestCreatedAt": "2026-07-14T12:49:22.576Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "mem-m7",
-      "lowestEdition": 209,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/151fe72b-4249-4005-8c1d-001977b20f82.jpg",
-      "pack": {
-        "slug": "mem-m7",
-        "title": "M7 EXCLUSIVE Dynamic Match Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b01ec237-2aba-443b-8837-b4ac2ce431cb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bcd2b4eb-f662-4313-9ffb-2326a295aef8.png"
       }
     },
     {
@@ -679,7 +679,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M103 Miami",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png",
-      "lowestPrice": 172000,
+      "lowestPrice": 159900,
       "latestCreatedAt": "2026-07-14T02:45:01.806Z",
       "rarity": {
         "code": "40",
@@ -3194,6 +3194,30 @@
       }
     },
     {
+      "uniqueCode": "mem-m7",
+      "type": "highlight",
+      "title": "M7 Dynamic Match Collectible",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bcd2b4eb-f662-4313-9ffb-2326a295aef8.png",
+      "lowestPrice": 111100,
+      "latestCreatedAt": "2026-07-09T17:41:01.028Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "mem-m7",
+      "lowestEdition": 209,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/151fe72b-4249-4005-8c1d-001977b20f82.jpg",
+      "pack": {
+        "slug": "mem-m7",
+        "title": "M7 EXCLUSIVE Dynamic Match Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b01ec237-2aba-443b-8837-b4ac2ce431cb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bcd2b4eb-f662-4313-9ffb-2326a295aef8.png"
+      }
+    },
+    {
       "uniqueCode": "pn-c1-35",
       "type": "highlight",
       "title": "Panini FIFA World Cup 1982 Album",
@@ -3367,7 +3391,7 @@
       "title": "Mexico",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dd490508-2546-4fb0-a712-0535a68dee73.png",
-      "lowestPrice": 850,
+      "lowestPrice": 599,
       "latestCreatedAt": "2026-07-09T13:43:09.642Z",
       "rarity": {
         "code": "30",
@@ -14182,30 +14206,6 @@
       }
     },
     {
-      "uniqueCode": "reg-dr01",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 0 CRO **PENALTY: Messi 34'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg",
-      "lowestPrice": 6500,
-      "latestCreatedAt": "2026-06-30T19:20:26.390Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "regenesis-drop",
-      "lowestEdition": 3,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "regenesis-drop",
-        "title": "Regenesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg"
-      }
-    },
-    {
       "uniqueCode": "R_CCC10",
       "type": "highlight",
       "title": "Personalized Video Message from Player",
@@ -21163,30 +21163,6 @@
         "title": "USA94 - 30 years later",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2ce9da03-f5f0-4ba4-b71e-d73446d6a262.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "US_M10",
-      "type": "highlight",
-      "title": "Bulgaria",
-      "subtitle": "1994 FIFA World Cup USA™ <br/> BUL 2-1 GER, **Goal: Yordan Letchkov 78’**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/271fc76c-0bc7-40d4-ae13-7c4c0f923792.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-16T17:13:23.891Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "usa-94",
-      "lowestEdition": 34,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "usa-94",
-        "title": "USA94 - 30 years later",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/271fc76c-0bc7-40d4-ae13-7c4c0f923792.jpeg"
       }
     },
     {
