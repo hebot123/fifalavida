@@ -2,12 +2,36 @@
   "total": 2065,
   "listings": [
     {
+      "uniqueCode": "tdfwc-05",
+      "type": "highlight",
+      "title": "Germany",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b6edfc4e-d33e-4bf7-9255-aea58536f98f.png",
+      "lowestPrice": 1800,
+      "latestCreatedAt": "2026-07-15T22:10:47.545Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 170,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/56460bc5-f8c4-4302-a89d-40f9504efb8c.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b6edfc4e-d33e-4bf7-9255-aea58536f98f.png"
+      }
+    },
+    {
       "uniqueCode": "cat3m104",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 3 for M104 New York",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12892309-8133-4d03-86b0-c8a92f890501.png",
-      "lowestPrice": 850000,
+      "lowestPrice": 799900,
       "latestCreatedAt": "2026-07-15T21:24:08.740Z",
       "rarity": {
         "code": "40",
@@ -175,7 +199,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M103 Miami",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png",
-      "lowestPrice": 134500,
+      "lowestPrice": 132000,
       "latestCreatedAt": "2026-07-15T15:35:20.551Z",
       "rarity": {
         "code": "40",
@@ -530,30 +554,6 @@
       }
     },
     {
-      "uniqueCode": "sp-a2-62",
-      "type": "highlight",
-      "title": "FIFA Collect House Nations World Cup 2026 Pass",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d1cde06d-ed4d-49b2-93ab-b4a42d957997.png",
-      "lowestPrice": 1499,
-      "latestCreatedAt": "2026-07-15T11:19:52.444Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "surprise-acrobatic-s2",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e436a88d-15fe-4423-8258-8dfcd09e1af8.png",
-      "pack": {
-        "slug": "surprise-acrobatic-s2",
-        "title": "Surprise Acrobatic Skills - Series 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/78c86063-f288-4dc2-879d-c09cef1bd084.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d1cde06d-ed4d-49b2-93ab-b4a42d957997.png"
-      }
-    },
-    {
       "uniqueCode": "sp-v2-19",
       "type": "highlight",
       "title": "FIFA Collect House Nations World Cup 2026 Pass",
@@ -887,6 +887,30 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/51b9d4fb-7fff-4b0d-b3e9-1df7dc3787ea.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9562c64d-9a98-4819-a5e9-75e27a6a5232.png"
+      }
+    },
+    {
+      "uniqueCode": "sp-a2-62",
+      "type": "highlight",
+      "title": "FIFA Collect House Nations World Cup 2026 Pass",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d1cde06d-ed4d-49b2-93ab-b4a42d957997.png",
+      "lowestPrice": 1499,
+      "latestCreatedAt": "2026-07-15T06:30:18.146Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "surprise-acrobatic-s2",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e436a88d-15fe-4423-8258-8dfcd09e1af8.png",
+      "pack": {
+        "slug": "surprise-acrobatic-s2",
+        "title": "Surprise Acrobatic Skills - Series 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/78c86063-f288-4dc2-879d-c09cef1bd084.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d1cde06d-ed4d-49b2-93ab-b4a42d957997.png"
       }
     },
     {
@@ -2111,30 +2135,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92168399-41a8-44ef-bb81-b2bb4fae6a9c.png"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-05",
-      "type": "highlight",
-      "title": "Germany",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b6edfc4e-d33e-4bf7-9255-aea58536f98f.png",
-      "lowestPrice": 1800,
-      "latestCreatedAt": "2026-07-12T21:35:37.411Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 170,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/56460bc5-f8c4-4302-a89d-40f9504efb8c.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b6edfc4e-d33e-4bf7-9255-aea58536f98f.png"
       }
     },
     {
@@ -16366,30 +16366,6 @@
       }
     },
     {
-      "uniqueCode": "D03-04",
-      "type": "highlight",
-      "title": "USA",
-      "subtitle": "FIFA Women's World Cup USA 1999™  \nUSA 2 - 0 BRA, **Save: Briana Scurry 46'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e20364b-7e55-47c2-813a-1e1a15378efc.jpeg",
-      "lowestPrice": 2500,
-      "latestCreatedAt": "2026-06-24T10:05:11.826Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 31,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e20364b-7e55-47c2-813a-1e1a15378efc.jpeg"
-      }
-    },
-    {
       "uniqueCode": "S2D02-02",
       "type": "highlight",
       "title": "France",
@@ -22995,30 +22971,6 @@
       }
     },
     {
-      "uniqueCode": "reg-dr05",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "2014 FIFA World Cup Brazil™ BRA 2 - 1 COL **GOAL: Silva 7'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3e637f2-71db-4f01-8a53-f81aaf7155bd.jpeg",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2026-06-12T04:12:17.965Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "regenesis-drop",
-      "lowestEdition": 24,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "regenesis-drop",
-        "title": "Regenesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3e637f2-71db-4f01-8a53-f81aaf7155bd.jpeg"
-      }
-    },
-    {
       "uniqueCode": "GTJ_11",
       "type": "highlight",
       "title": "Away 1915",
@@ -23976,6 +23928,30 @@
         "title": "Surprise Premium - Revelations",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/aee6d53f-55c5-4685-bbdf-6a773841f37f.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "reg-dr05",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "2014 FIFA World Cup Brazil™ BRA 2 - 1 COL **GOAL: Silva 7'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3e637f2-71db-4f01-8a53-f81aaf7155bd.jpeg",
+      "lowestPrice": 200,
+      "latestCreatedAt": "2026-06-09T15:40:36.832Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop",
+      "lowestEdition": 24,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop",
+        "title": "Regenesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d3e637f2-71db-4f01-8a53-f81aaf7155bd.jpeg"
       }
     },
     {
@@ -26278,7 +26254,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "efirst-timers",
-      "lowestEdition": 12,
+      "lowestEdition": 24,
       "thumbnailImage": null,
       "pack": {
         "slug": "efirst-timers",
@@ -37746,6 +37722,30 @@
         "title": "Curator Collection - South American Flair",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d007d544-21f0-4b39-9972-692249baaf7f.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D03-04",
+      "type": "highlight",
+      "title": "USA",
+      "subtitle": "FIFA Women's World Cup USA 1999™  \nUSA 2 - 0 BRA, **Save: Briana Scurry 46'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e20364b-7e55-47c2-813a-1e1a15378efc.jpeg",
+      "lowestPrice": 4400,
+      "latestCreatedAt": "2026-04-03T20:57:55.169Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 31,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e20364b-7e55-47c2-813a-1e1a15378efc.jpeg"
       }
     },
     {
