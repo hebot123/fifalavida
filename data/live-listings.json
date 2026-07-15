@@ -2,6 +2,30 @@
   "total": 2065,
   "listings": [
     {
+      "uniqueCode": "cat3m104",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 3 for M104 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12892309-8133-4d03-86b0-c8a92f890501.png",
+      "lowestPrice": 850000,
+      "latestCreatedAt": "2026-07-15T21:24:08.740Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat3-m104",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fd3280df-924a-490c-b87a-a2d1c5e87bad.jpg",
+      "pack": {
+        "slug": "cat3-m104",
+        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M104",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c5c2811a-c623-48ef-bd03-ff24301252d6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12892309-8133-4d03-86b0-c8a92f890501.png"
+      }
+    },
+    {
       "uniqueCode": "pn-c1-32",
       "type": "highlight",
       "title": "Panini FIFA World Cup 1970 Album",
@@ -47,30 +71,6 @@
         "title": "Surprise - Headers Edition 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/33621249-0c95-4b46-922b-dac2fe7ffb98.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bf35b59c-6be7-475f-ae75-35ca4e698f69.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "p1970-22",
-      "type": "highlight",
-      "title": "Franz Beckenbauer - MEXICO 1970",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c872f980-a882-48ac-9b02-d1cd736d55c4.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-07-15T20:06:37.342Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1970",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca9c27f9-9f6e-4c01-a70c-2d528676f7bf.png",
-      "pack": {
-        "slug": "panini-1970",
-        "title": "Surprise - Panini Mexico 1970",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cca181f7-5c9a-4b52-b349-2a510fabe3ab.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c872f980-a882-48ac-9b02-d1cd736d55c4.png"
       }
     },
     {
@@ -175,7 +175,7 @@
       "title": "Collectible also valid as Right To Ticket Category 1 for M103 Miami",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png",
-      "lowestPrice": 139900,
+      "lowestPrice": 134500,
       "latestCreatedAt": "2026-07-15T15:35:20.551Z",
       "rarity": {
         "code": "40",
@@ -3386,30 +3386,6 @@
       }
     },
     {
-      "uniqueCode": "cat3m104",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 3 for M104 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12892309-8133-4d03-86b0-c8a92f890501.png",
-      "lowestPrice": 699900,
-      "latestCreatedAt": "2026-07-10T03:09:03.481Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat3-m104",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fd3280df-924a-490c-b87a-a2d1c5e87bad.jpg",
-      "pack": {
-        "slug": "cat3-m104",
-        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M104",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c5c2811a-c623-48ef-bd03-ff24301252d6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12892309-8133-4d03-86b0-c8a92f890501.png"
-      }
-    },
-    {
       "uniqueCode": "mem-m31",
       "type": "highlight",
       "title": "M31 Dynamic Match Collectible",
@@ -5087,6 +5063,30 @@
         "title": "Surprise - Panini München 1974",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ccda12a-fbad-48bc-bedd-d53045acb994.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d96e4d3a-4b86-43aa-8182-a529e1202ff4.png"
+      }
+    },
+    {
+      "uniqueCode": "p1970-22",
+      "type": "highlight",
+      "title": "Franz Beckenbauer - MEXICO 1970",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c872f980-a882-48ac-9b02-d1cd736d55c4.png",
+      "lowestPrice": 300,
+      "latestCreatedAt": "2026-07-08T19:58:46.287Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1970",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca9c27f9-9f6e-4c01-a70c-2d528676f7bf.png",
+      "pack": {
+        "slug": "panini-1970",
+        "title": "Surprise - Panini Mexico 1970",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cca181f7-5c9a-4b52-b349-2a510fabe3ab.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c872f980-a882-48ac-9b02-d1cd736d55c4.png"
       }
     },
     {
