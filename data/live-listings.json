@@ -2,12 +2,108 @@
   "total": 2056,
   "listings": [
     {
+      "uniqueCode": "aofs-04",
+      "type": "highlight",
+      "title": "LUNA Interstellar Stadium",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a8c186da-8ae7-4148-a9f2-cdbdad20a0e4.png",
+      "lowestPrice": 200,
+      "latestCreatedAt": "2026-07-16T15:06:17.977Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "aof-stadium",
+      "lowestEdition": 2,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "aof-stadium",
+        "title": "The Art of Football: Stadium Edition",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/808d63bc-0762-4f41-81f2-536c13813264.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a8c186da-8ae7-4148-a9f2-cdbdad20a0e4.png"
+      }
+    },
+    {
+      "uniqueCode": "p1970-22",
+      "type": "highlight",
+      "title": "Franz Beckenbauer - MEXICO 1970",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c872f980-a882-48ac-9b02-d1cd736d55c4.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-16T15:05:52.238Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1970",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca9c27f9-9f6e-4c01-a70c-2d528676f7bf.png",
+      "pack": {
+        "slug": "panini-1970",
+        "title": "Surprise - Panini Mexico 1970",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cca181f7-5c9a-4b52-b349-2a510fabe3ab.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c872f980-a882-48ac-9b02-d1cd736d55c4.png"
+      }
+    },
+    {
+      "uniqueCode": "EFT_A8",
+      "type": "highlight",
+      "title": "Portugal",
+      "subtitle": "2018 FIFA World Cup Russia™ <br/> URU 2-1 POR, **Goal: Pepe 55'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dc5335d-e20f-4f83-8997-c080cf9feedd.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-16T15:05:41.279Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "efirst-timers",
+      "lowestEdition": 2,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "efirst-timers",
+        "title": "Europe First Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dc5335d-e20f-4f83-8997-c080cf9feedd.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "aft-01",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "2006 FIFA World Cup Germany™ <br/> BRA 1-0 CRO, **Goal: Kaká 44’**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/994538b8-d8bc-4130-a449-672222c10eea.jpeg",
+      "lowestPrice": 3500,
+      "latestCreatedAt": "2026-07-16T15:05:29.009Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "afirst-timers",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "afirst-timers",
+        "title": "Americas First Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ee27b5b9-2b08-47f1-8249-7a369836e07a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/994538b8-d8bc-4130-a449-672222c10eea.jpeg"
+      }
+    },
+    {
       "uniqueCode": "cat1m103",
       "type": "highlight",
       "title": "Collectible also valid as Right To Ticket Category 1 for M103 Miami",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53792ad7-9b0a-4fb9-a243-b097fe5c19f4.png",
-      "lowestPrice": 79800,
+      "lowestPrice": 78800,
       "latestCreatedAt": "2026-07-16T14:17:54.505Z",
       "rarity": {
         "code": "40",
@@ -815,30 +911,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b6edfc4e-d33e-4bf7-9255-aea58536f98f.png"
-      }
-    },
-    {
-      "uniqueCode": "cat3m104",
-      "type": "highlight",
-      "title": "Collectible also valid as Right To Ticket Category 3 for M104 New York",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12892309-8133-4d03-86b0-c8a92f890501.png",
-      "lowestPrice": 745000,
-      "latestCreatedAt": "2026-07-15T21:24:08.740Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "cat3-m104",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fd3280df-924a-490c-b87a-a2d1c5e87bad.jpg",
-      "pack": {
-        "slug": "cat3-m104",
-        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M104",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c5c2811a-c623-48ef-bd03-ff24301252d6.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12892309-8133-4d03-86b0-c8a92f890501.png"
       }
     },
     {
@@ -5546,30 +5618,6 @@
       }
     },
     {
-      "uniqueCode": "p1970-22",
-      "type": "highlight",
-      "title": "Franz Beckenbauer - MEXICO 1970",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c872f980-a882-48ac-9b02-d1cd736d55c4.png",
-      "lowestPrice": 300,
-      "latestCreatedAt": "2026-07-08T19:58:46.287Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1970",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca9c27f9-9f6e-4c01-a70c-2d528676f7bf.png",
-      "pack": {
-        "slug": "panini-1970",
-        "title": "Surprise - Panini Mexico 1970",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cca181f7-5c9a-4b52-b349-2a510fabe3ab.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c872f980-a882-48ac-9b02-d1cd736d55c4.png"
-      }
-    },
-    {
       "uniqueCode": "p1970-29",
       "type": "highlight",
       "title": "Uruguay - MEXICO 1970",
@@ -7243,30 +7291,6 @@
         "title": "Trophy Lifts - Rare Reward",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/589cd7f1-6403-49dc-bd37-a135a7722936.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/525d2981-171d-4b44-84ed-b2a4696b84bc.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "aofs-04",
-      "type": "highlight",
-      "title": "LUNA Interstellar Stadium",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a8c186da-8ae7-4148-a9f2-cdbdad20a0e4.png",
-      "lowestPrice": 720,
-      "latestCreatedAt": "2026-07-08T03:48:10.730Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "aof-stadium",
-      "lowestEdition": 2,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "aof-stadium",
-        "title": "The Art of Football: Stadium Edition",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/808d63bc-0762-4f41-81f2-536c13813264.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a8c186da-8ae7-4148-a9f2-cdbdad20a0e4.png"
       }
     },
     {
@@ -11926,30 +11950,6 @@
       }
     },
     {
-      "uniqueCode": "EFT_A8",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "2018 FIFA World Cup Russia™ <br/> URU 2-1 POR, **Goal: Pepe 55'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dc5335d-e20f-4f83-8997-c080cf9feedd.jpeg",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2026-07-02T17:15:34.538Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "efirst-timers",
-      "lowestEdition": 2,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "efirst-timers",
-        "title": "Europe First Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/248d6dcf-e2d7-4054-905d-7350ed058b5f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7dc5335d-e20f-4f83-8997-c080cf9feedd.jpeg"
-      }
-    },
-    {
       "uniqueCode": "US_M07",
       "type": "highlight",
       "title": "Belgium",
@@ -14899,6 +14899,30 @@
         "title": "Regenesis 2: Last Minute Goals",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8855fdc3-0d1e-4d10-9e5d-66b55d6e61ba.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b8da10b0-e968-4adb-bda2-dabfa8e9c277.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "cat3m104",
+      "type": "highlight",
+      "title": "Collectible also valid as Right To Ticket Category 3 for M104 New York",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12892309-8133-4d03-86b0-c8a92f890501.png",
+      "lowestPrice": 1650000,
+      "latestCreatedAt": "2026-06-28T11:33:06.531Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "cat3-m104",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fd3280df-924a-490c-b87a-a2d1c5e87bad.jpg",
+      "pack": {
+        "slug": "cat3-m104",
+        "title": "FIFA World Cup 26™: Category 3 Right To Ticket - M104",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c5c2811a-c623-48ef-bd03-ff24301252d6.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12892309-8133-4d03-86b0-c8a92f890501.png"
       }
     },
     {
@@ -22608,30 +22632,6 @@
         "title": "Surprise Premium - Bench Cam",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cd1e77df-a35d-40a6-80d5-1cd27cae2d5c.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/272de39f-bc81-4020-866c-ddde1ec968fa.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "aft-01",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "2006 FIFA World Cup Germany™ <br/> BRA 1-0 CRO, **Goal: Kaká 44’**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/994538b8-d8bc-4130-a449-672222c10eea.jpeg",
-      "lowestPrice": 6800,
-      "latestCreatedAt": "2026-06-13T08:08:16.555Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "afirst-timers",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "afirst-timers",
-        "title": "Americas First Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ee27b5b9-2b08-47f1-8249-7a369836e07a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/994538b8-d8bc-4130-a449-672222c10eea.jpeg"
       }
     },
     {
