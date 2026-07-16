@@ -2,6 +2,30 @@
   "total": 2055,
   "listings": [
     {
+      "uniqueCode": "SL_AC10",
+      "type": "highlight",
+      "title": "Roberto Monserrat",
+      "subtitle": "San Lorenzo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/285206b5-06f0-442c-b95c-b0bcc2fd2fa4.jpeg",
+      "lowestPrice": 390,
+      "latestCreatedAt": "2026-07-16T18:48:19.636Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sanlorenzo-30aniversario1995campeon-sp",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/53032af9-ddca-4167-8d89-3a2b444c9d81.png",
+      "pack": {
+        "slug": "sanlorenzo-30aniversario1995campeon-sp",
+        "title": "San Lorenzo - 30 Anivesario Campeón 1995",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/285206b5-06f0-442c-b95c-b0bcc2fd2fa4.jpeg"
+      }
+    },
+    {
       "uniqueCode": "M_2CL07",
       "type": "highlight",
       "title": "Tanna Sánchez",
@@ -12214,30 +12238,6 @@
       }
     },
     {
-      "uniqueCode": "SL_AC10",
-      "type": "highlight",
-      "title": "Roberto Monserrat",
-      "subtitle": "San Lorenzo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/285206b5-06f0-442c-b95c-b0bcc2fd2fa4.jpeg",
-      "lowestPrice": 390,
-      "latestCreatedAt": "2026-07-02T16:56:54.994Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sanlorenzo-30aniversario1995campeon-sp",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/53032af9-ddca-4167-8d89-3a2b444c9d81.png",
-      "pack": {
-        "slug": "sanlorenzo-30aniversario1995campeon-sp",
-        "title": "San Lorenzo - 30 Anivesario Campeón 1995",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/582faae5-1bd0-4138-a6dd-12e93c46293f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/285206b5-06f0-442c-b95c-b0bcc2fd2fa4.jpeg"
-      }
-    },
-    {
       "uniqueCode": "mem-m1",
       "type": "highlight",
       "title": "M1 Dynamic Match Collectible",
@@ -14883,7 +14883,7 @@
       "title": "Collectible also valid as Right To Ticket Category 3 for M104 New York",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12892309-8133-4d03-86b0-c8a92f890501.png",
-      "lowestPrice": 1650000,
+      "lowestPrice": 1500000,
       "latestCreatedAt": "2026-06-28T11:33:06.531Z",
       "rarity": {
         "code": "40",
