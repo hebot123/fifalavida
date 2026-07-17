@@ -2,6 +2,30 @@
   "total": 2055,
   "listings": [
     {
+      "uniqueCode": "ultra-ar",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bbbc5212-0ef0-4497-88ad-617111d4e628.png",
+      "lowestPrice": 190000,
+      "latestCreatedAt": "2026-07-17T01:21:00.256Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fw-ultra-argentina",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8f342225-153c-4e22-b6a9-fdd3ffc4fa87.jpeg",
+      "pack": {
+        "slug": "fw-ultra-argentina",
+        "title": "Ultra Argentina — FWC2026 Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8c8f225b-da71-4f19-8066-127504435bc7.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bbbc5212-0ef0-4497-88ad-617111d4e628.png"
+      }
+    },
+    {
       "uniqueCode": "mem-m86",
       "type": "highlight",
       "title": "M86 Dynamic Match Collectible",
@@ -3215,30 +3239,6 @@
         "title": "Genesis Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4fd93025-cfaa-4335-a599-a30fc8eb49ca.png"
-      }
-    },
-    {
-      "uniqueCode": "ultra-ar",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bbbc5212-0ef0-4497-88ad-617111d4e628.png",
-      "lowestPrice": 249500,
-      "latestCreatedAt": "2026-07-12T15:19:45.744Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fw-ultra-argentina",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8f342225-153c-4e22-b6a9-fdd3ffc4fa87.jpeg",
-      "pack": {
-        "slug": "fw-ultra-argentina",
-        "title": "Ultra Argentina — FWC2026 Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8c8f225b-da71-4f19-8066-127504435bc7.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bbbc5212-0ef0-4497-88ad-617111d4e628.png"
       }
     },
     {
