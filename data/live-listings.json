@@ -2,6 +2,78 @@
   "total": 2054,
   "listings": [
     {
+      "uniqueCode": "RO_DP07",
+      "type": "highlight",
+      "title": "Eric Bailly",
+      "subtitle": "Real Oviedo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e115ab0a-2799-4cb2-a992-940707e6d057.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-18T22:12:01.127Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "oviedo-deprimera",
+      "lowestEdition": 76,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ea4be921-7903-45ca-bc6f-feb64438089a.png",
+      "pack": {
+        "slug": "oviedo-deprimera",
+        "title": "Real Oviedo - De Primera",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e115ab0a-2799-4cb2-a992-940707e6d057.png"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-04",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 2 - 0 MEX, **GOAL: Lionel Messi 64'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg",
+      "lowestPrice": 9900,
+      "latestCreatedAt": "2026-07-18T22:02:18.981Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "RO_R2601",
+      "type": "highlight",
+      "title": "Mircea Lucescu",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png",
+      "lowestPrice": 6000,
+      "latestCreatedAt": "2026-07-18T21:56:44.371Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/33f98d13-4d52-4d3a-800f-3c81d987df10.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png"
+      }
+    },
+    {
       "uniqueCode": "tdfwc-03",
       "type": "highlight",
       "title": "England",
@@ -431,30 +503,6 @@
         "title": "USA94 - 30 years later",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bfc08aab-eac0-419c-ad24-9d73de91e28e.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2601",
-      "type": "highlight",
-      "title": "Mircea Lucescu",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png",
-      "lowestPrice": 6000,
-      "latestCreatedAt": "2026-07-18T20:21:08.240Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/33f98d13-4d52-4d3a-800f-3c81d987df10.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png"
       }
     },
     {
@@ -19611,30 +19659,6 @@
       }
     },
     {
-      "uniqueCode": "S2D01-04",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nARG 2 - 0 MEX, **GOAL: Lionel Messi 64'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg",
-      "lowestPrice": 12400,
-      "latestCreatedAt": "2026-06-14T15:37:25.036Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bdf6d8cb-2bf9-4554-b470-6c1e0d0905db.jpeg"
-      }
-    },
-    {
       "uniqueCode": "D04-27",
       "type": "highlight",
       "title": "Sweden",
@@ -37607,30 +37631,6 @@
         "title": "Real Oviedo - De Primera",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f767ecc6-0890-47f5-b438-8327b82bf4cf.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_DP07",
-      "type": "highlight",
-      "title": "Eric Bailly",
-      "subtitle": "Real Oviedo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e115ab0a-2799-4cb2-a992-940707e6d057.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-03-24T18:52:27.293Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "oviedo-deprimera",
-      "lowestEdition": 76,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ea4be921-7903-45ca-bc6f-feb64438089a.png",
-      "pack": {
-        "slug": "oviedo-deprimera",
-        "title": "Real Oviedo - De Primera",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d179be75-76d9-4c4c-82b3-c9b00cce23dd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e115ab0a-2799-4cb2-a992-940707e6d057.png"
       }
     },
     {
