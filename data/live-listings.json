@@ -2,6 +2,30 @@
   "total": 2054,
   "listings": [
     {
+      "uniqueCode": "US_R_1",
+      "type": "highlight",
+      "title": "Italy",
+      "subtitle": "1994 FIFA World Cup USA™ <br/> BUL 1-2 ITA, **Goal: Roberto Baggio 26’**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee9f54f6-e99c-4dbd-bb43-67ff8921417a.png",
+      "lowestPrice": 300,
+      "latestCreatedAt": "2026-07-18T15:14:18.621Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "usa-94-epic",
+      "lowestEdition": 27,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "usa-94-epic",
+        "title": "USA94 - EPIC REWARD",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1a437444-5d96-4a05-bf21-6038c869ffde.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee9f54f6-e99c-4dbd-bb43-67ff8921417a.png"
+      }
+    },
+    {
       "uniqueCode": "FT_M01",
       "type": "highlight",
       "title": "Portugal",
@@ -3455,30 +3479,6 @@
         "title": "Colo-Colo - Eterno Campeón",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c56b0ea5-180d-4e9d-b757-44fd63e06e55.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/44923318-150d-43d9-b758-6c21bcab338f.png"
-      }
-    },
-    {
-      "uniqueCode": "US_R_1",
-      "type": "highlight",
-      "title": "Italy",
-      "subtitle": "1994 FIFA World Cup USA™ <br/> BUL 1-2 ITA, **Goal: Roberto Baggio 26’**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee9f54f6-e99c-4dbd-bb43-67ff8921417a.png",
-      "lowestPrice": 300,
-      "latestCreatedAt": "2026-07-12T17:26:44.335Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "usa-94-epic",
-      "lowestEdition": 27,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "usa-94-epic",
-        "title": "USA94 - EPIC REWARD",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1a437444-5d96-4a05-bf21-6038c869ffde.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee9f54f6-e99c-4dbd-bb43-67ff8921417a.png"
       }
     },
     {
@@ -22904,7 +22904,7 @@
       "title": "Brazil",
       "subtitle": "2002 FIFA World Cup Korea/Japan™  \nGER 0 - 2 BRA, **Goal: Ronaldo 79’**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/45f86e16-5b59-4d34-bbd4-1f29f5b34d5f.png",
-      "lowestPrice": 42200,
+      "lowestPrice": 41500,
       "latestCreatedAt": "2026-06-11T14:53:04.725Z",
       "rarity": {
         "code": "40",
