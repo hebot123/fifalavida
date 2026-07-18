@@ -2,6 +2,30 @@
   "total": 2054,
   "listings": [
     {
+      "uniqueCode": "FT_M01",
+      "type": "highlight",
+      "title": "Portugal",
+      "subtitle": "2006 FIFA World Cup Germany™ <br/> POR 2 - 0 IRN, **Goal: Cristiano Ronaldo 80'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg",
+      "lowestPrice": 70000,
+      "latestCreatedAt": "2026-07-18T13:29:12.991Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "first-timers",
+      "lowestEdition": 4,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "first-timers",
+        "title": "World Cup First-Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/63c9d064-285d-4c04-af70-6ec881a486bd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg"
+      }
+    },
+    {
       "uniqueCode": "R_P2A24",
       "type": "highlight",
       "title": "Official Home Jersey 25/26 - Signed by Víctor Guzmán",
@@ -856,7 +880,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 112,
+      "lowestEdition": 116,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bd8ad0ea-5653-4d8b-afc8-377775fd6f22.jpg",
       "pack": {
         "slug": "team-dynamic-fwc2026",
@@ -14398,30 +14422,6 @@
       }
     },
     {
-      "uniqueCode": "FT_M01",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "2006 FIFA World Cup Germany™ <br/> POR 2 - 0 IRN, **Goal: Cristiano Ronaldo 80'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg",
-      "lowestPrice": 70000,
-      "latestCreatedAt": "2026-06-30T16:16:40.949Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "first-timers",
-      "lowestEdition": 4,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "first-timers",
-        "title": "World Cup First-Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/63c9d064-285d-4c04-af70-6ec881a486bd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg"
-      }
-    },
-    {
       "uniqueCode": "S2D02-12",
       "type": "highlight",
       "title": "Germany",
@@ -25621,7 +25621,7 @@
       "title": "France",
       "subtitle": "2006 FIFA World Cup Germany™ POR 0 - 1 FRA **Tackle: Thuram 10'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1446887e-f961-4b27-8dc0-8501b325984d.jpeg",
-      "lowestPrice": 138,
+      "lowestPrice": 210,
       "latestCreatedAt": "2026-06-04T22:41:31.650Z",
       "rarity": {
         "code": "20",
