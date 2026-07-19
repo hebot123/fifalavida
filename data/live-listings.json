@@ -2,6 +2,78 @@
   "total": 2056,
   "listings": [
     {
+      "uniqueCode": "C_CC01",
+      "type": "highlight",
+      "title": "Nico Paz",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d292b47a-c676-4f80-a9d7-63bb40620a74.png",
+      "lowestPrice": 1500,
+      "latestCreatedAt": "2026-07-19T22:21:28.127Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-classiccomo",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dfa21abc-5983-4b7a-a4fe-b4ade4b28eaa.png",
+      "pack": {
+        "slug": "como-classiccomo",
+        "title": "Como 1907 - Classic Como",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e48a1b6d-5cbc-44a7-9d43-5a8b8a9a5390.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d292b47a-c676-4f80-a9d7-63bb40620a74.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-02",
+      "type": "highlight",
+      "title": "Spain",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ff9a6a32-85fb-476d-a135-1d346fd5a273.png",
+      "lowestPrice": 2200,
+      "latestCreatedAt": "2026-07-19T22:08:37.980Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 63,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/56c11cf0-ac16-4edb-bd1b-28d92a883cab.jpeg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ff9a6a32-85fb-476d-a135-1d346fd5a273.png"
+      }
+    },
+    {
+      "uniqueCode": "R_P2A18",
+      "type": "highlight",
+      "title": "Ojo del Huracán Experience - Pachuca's Second Home Match - Apertura 2026",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62cb352f-c266-4af2-9d4d-de681a852d41.png",
+      "lowestPrice": 3900,
+      "latestCreatedAt": "2026-07-19T21:49:44.896Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol2-level2reward",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97c6e0b1-ad57-40f5-b71c-7a429c1c9340.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol2-level2reward",
+        "title": "CF Pachuca - 133 Aniversario Vol. 2 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7155617-10be-4871-8c62-196353090548.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62cb352f-c266-4af2-9d4d-de681a852d41.png"
+      }
+    },
+    {
       "uniqueCode": "CC_EC16",
       "type": "highlight",
       "title": "Diego Ulloa",
@@ -1151,30 +1223,6 @@
         "title": "Genoa CFC - Grifone Eterno Reward Pack",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/808f8d97-a653-4475-ad20-febfe7137bc3.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d2947cf5-b115-4a76-9a51-cbe4b5ed37d9.png"
-      }
-    },
-    {
-      "uniqueCode": "R_P2A18",
-      "type": "highlight",
-      "title": "Ojo del Huracán Experience - Pachuca's Second Home Match - Apertura 2026",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62cb352f-c266-4af2-9d4d-de681a852d41.png",
-      "lowestPrice": 2900,
-      "latestCreatedAt": "2026-07-19T02:44:40.406Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol2-level2reward",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97c6e0b1-ad57-40f5-b71c-7a429c1c9340.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol2-level2reward",
-        "title": "CF Pachuca - 133 Aniversario Vol. 2 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c7155617-10be-4871-8c62-196353090548.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62cb352f-c266-4af2-9d4d-de681a852d41.png"
       }
     },
     {
@@ -5903,30 +5951,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/eb3699c1-aba8-4efd-bf56-dda15a40dbe5.png"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-02",
-      "type": "highlight",
-      "title": "Spain",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ff9a6a32-85fb-476d-a135-1d346fd5a273.png",
-      "lowestPrice": 1350,
-      "latestCreatedAt": "2026-07-09T13:42:22.292Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 63,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/56c11cf0-ac16-4edb-bd1b-28d92a883cab.jpeg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ff9a6a32-85fb-476d-a135-1d346fd5a273.png"
       }
     },
     {
@@ -14131,30 +14155,6 @@
         "title": "Colo-Colo - Eterno Campeón",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c56b0ea5-180d-4e9d-b757-44fd63e06e55.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66956cb3-0297-4444-a1c9-78d4be994892.png"
-      }
-    },
-    {
-      "uniqueCode": "C_CC01",
-      "type": "highlight",
-      "title": "Nico Paz",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d292b47a-c676-4f80-a9d7-63bb40620a74.png",
-      "lowestPrice": 1500,
-      "latestCreatedAt": "2026-06-23T23:03:17.714Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-classiccomo",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dfa21abc-5983-4b7a-a4fe-b4ade4b28eaa.png",
-      "pack": {
-        "slug": "como-classiccomo",
-        "title": "Como 1907 - Classic Como",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e48a1b6d-5cbc-44a7-9d43-5a8b8a9a5390.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d292b47a-c676-4f80-a9d7-63bb40620a74.png"
       }
     },
     {
