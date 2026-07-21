@@ -2,6 +2,78 @@
   "total": 2059,
   "listings": [
     {
+      "uniqueCode": "tdfwc-20",
+      "type": "highlight",
+      "title": "Ecuador",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27572cbe-88eb-46ad-a8ed-82acee62b1f0.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-21T12:43:52.290Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 213,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e8efa094-6b79-4d25-a232-4e39c7cc5133.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27572cbe-88eb-46ad-a8ed-82acee62b1f0.png"
+      }
+    },
+    {
+      "uniqueCode": "D01-32",
+      "type": "highlight",
+      "title": "Korea Republic",
+      "subtitle": "2018 FIFA World Cup Russia™  \nKOR 2 - 0 GER, **Save: Jo Hyeonwoo 47'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d64c0453-8632-4c3f-a601-3f2216914657.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-21T12:40:48.395Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 23,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d64c0453-8632-4c3f-a601-3f2216914657.png"
+      }
+    },
+    {
+      "uniqueCode": "D01-22",
+      "type": "highlight",
+      "title": "Australia",
+      "subtitle": "FIFA Women's World Cup Germany 2011™  \nAUS 3 - 2 EQG, **Goal: Emily van Egmond 48'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9179d6d2-8262-40bb-a128-c6b5898684f3.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-21T12:40:29.628Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 4,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9179d6d2-8262-40bb-a128-c6b5898684f3.png"
+      }
+    },
+    {
       "uniqueCode": "FT_M01",
       "type": "highlight",
       "title": "Portugal",
@@ -1487,30 +1559,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9321c1d7-a499-457a-b01c-4d2f919c7f97.png"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-20",
-      "type": "highlight",
-      "title": "Ecuador",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27572cbe-88eb-46ad-a8ed-82acee62b1f0.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-07-20T14:57:25.211Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 213,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e8efa094-6b79-4d25-a232-4e39c7cc5133.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27572cbe-88eb-46ad-a8ed-82acee62b1f0.png"
       }
     },
     {
@@ -10275,7 +10323,7 @@
       "title": "Uruguay",
       "subtitle": "2010 FIFA World Cup South Africa™ URU 2 - 3 GER **GOAL: Cavani 28'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e28417fd-ae81-40b8-bfbf-f547ec6b7e9e.jpeg",
-      "lowestPrice": 200,
+      "lowestPrice": 100,
       "latestCreatedAt": "2026-07-06T06:51:56.855Z",
       "rarity": {
         "code": "30",
@@ -20398,30 +20446,6 @@
       }
     },
     {
-      "uniqueCode": "D01-22",
-      "type": "highlight",
-      "title": "Australia",
-      "subtitle": "FIFA Women's World Cup Germany 2011™  \nAUS 3 - 2 EQG, **Goal: Emily van Egmond 48'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9179d6d2-8262-40bb-a128-c6b5898684f3.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-16T05:49:36.133Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 4,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9179d6d2-8262-40bb-a128-c6b5898684f3.png"
-      }
-    },
-    {
       "uniqueCode": "S1-P1-07",
       "type": "poster_variant",
       "title": "Sydney Variant #2",
@@ -21432,30 +21456,6 @@
         "title": "FIFA Archives Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4a81656f-1054-416a-b9ad-9609e3cdddf2.png"
-      }
-    },
-    {
-      "uniqueCode": "D01-32",
-      "type": "highlight",
-      "title": "Korea Republic",
-      "subtitle": "2018 FIFA World Cup Russia™  \nKOR 2 - 0 GER, **Save: Jo Hyeonwoo 47'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d64c0453-8632-4c3f-a601-3f2216914657.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-13T20:23:50.412Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 23,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d64c0453-8632-4c3f-a601-3f2216914657.png"
       }
     },
     {
@@ -33589,7 +33589,7 @@
       "title": "Belgium",
       "subtitle": "2018 FIFA World Cup Russia™ BRA 1 - 2 BEL **GOAL: De Bruyne 31'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19e80cc6-dceb-4c2f-9571-2815701ee5d7.jpeg",
-      "lowestPrice": 300,
+      "lowestPrice": 150,
       "latestCreatedAt": "2026-05-12T12:59:16.031Z",
       "rarity": {
         "code": "30",
