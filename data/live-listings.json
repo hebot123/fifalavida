@@ -2,6 +2,78 @@
   "total": 2059,
   "listings": [
     {
+      "uniqueCode": "P1332A16",
+      "type": "highlight",
+      "title": "Alfonso Madrigal",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8f0b7cdc-2c52-4172-b399-51db4ea1ad31.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-22T14:53:54.066Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol2",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7f62b832-e73d-42bb-9710-ef60d9a5615b.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol2",
+        "title": "CF Pachuca - 133 Aniversario Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8f0b7cdc-2c52-4172-b399-51db4ea1ad31.png"
+      }
+    },
+    {
+      "uniqueCode": "pnnc-ic",
+      "type": "highlight",
+      "title": "Panini FIFA World Cup 1970 Album (Italian Edition)",
+      "subtitle": "The Beginning of a Football Collecting Tradition",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d1b61b4-2fe5-4489-9eed-eed6a66d0604.png",
+      "lowestPrice": 13300,
+      "latestCreatedAt": "2026-07-22T14:42:40.226Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-lg-rwd",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ad275606-19a7-4096-83d2-4a61bbea7576.png",
+      "pack": {
+        "slug": "panini-lg-rwd",
+        "title": "The Panini World Cup Legacy Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/02507a74-34b2-45f8-b899-ff78cb22c57c.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d1b61b4-2fe5-4489-9eed-eed6a66d0604.png"
+      }
+    },
+    {
+      "uniqueCode": "FT_M01",
+      "type": "highlight",
+      "title": "Portugal",
+      "subtitle": "2006 FIFA World Cup Germany™ <br/> POR 2 - 0 IRN, **Goal: Cristiano Ronaldo 80'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg",
+      "lowestPrice": 49900,
+      "latestCreatedAt": "2026-07-22T14:32:21.068Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "first-timers",
+      "lowestEdition": 4,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "first-timers",
+        "title": "World Cup First-Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/63c9d064-285d-4c04-af70-6ec881a486bd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg"
+      }
+    },
+    {
       "uniqueCode": "rtgrw-ic",
       "type": "highlight",
       "title": "Brazil",
@@ -2716,30 +2788,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6ffd7074-fb49-4ef9-ae68-3581ba56402a.png"
-      }
-    },
-    {
-      "uniqueCode": "FT_M01",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "2006 FIFA World Cup Germany™ <br/> POR 2 - 0 IRN, **Goal: Cristiano Ronaldo 80'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg",
-      "lowestPrice": 59900,
-      "latestCreatedAt": "2026-07-21T08:54:48.534Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "first-timers",
-      "lowestEdition": 4,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "first-timers",
-        "title": "World Cup First-Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/63c9d064-285d-4c04-af70-6ec881a486bd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19f1251e-5f7a-4aaa-9003-3eb5c995698c.jpeg"
       }
     },
     {
@@ -8844,7 +8892,7 @@
       "title": "Răzvan Marin",
       "subtitle": "Romania",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3c41ca3a-f619-4e4c-8246-ca7b47fd2a59.png",
-      "lowestPrice": 800,
+      "lowestPrice": 700,
       "latestCreatedAt": "2026-07-08T18:33:41.518Z",
       "rarity": {
         "code": "30",
@@ -8860,30 +8908,6 @@
         "title": "Romania - Road to '26",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3c41ca3a-f619-4e4c-8246-ca7b47fd2a59.png"
-      }
-    },
-    {
-      "uniqueCode": "pnnc-ic",
-      "type": "highlight",
-      "title": "Panini FIFA World Cup 1970 Album (Italian Edition)",
-      "subtitle": "The Beginning of a Football Collecting Tradition",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d1b61b4-2fe5-4489-9eed-eed6a66d0604.png",
-      "lowestPrice": 13500,
-      "latestCreatedAt": "2026-07-08T18:33:25.287Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-lg-rwd",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ad275606-19a7-4096-83d2-4a61bbea7576.png",
-      "pack": {
-        "slug": "panini-lg-rwd",
-        "title": "The Panini World Cup Legacy Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/02507a74-34b2-45f8-b899-ff78cb22c57c.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d1b61b4-2fe5-4489-9eed-eed6a66d0604.png"
       }
     },
     {
@@ -9285,7 +9309,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "panini-legacy",
-      "lowestEdition": 10,
+      "lowestEdition": 39,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4e1b343e-a291-410a-ad2f-63740b08e4b2.png",
       "pack": {
         "slug": "panini-legacy",
@@ -14552,7 +14576,7 @@
       "title": "Radu Drăgușin",
       "subtitle": "Romania",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7e47547e-e39a-4eba-affa-fcb376a3d24b.png",
-      "lowestPrice": 1000,
+      "lowestPrice": 850,
       "latestCreatedAt": "2026-06-27T14:34:15.701Z",
       "rarity": {
         "code": "30",
@@ -19128,30 +19152,6 @@
         "title": "Fluminense FC - Fan Tricolor",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/591cb67d-a723-473d-a56b-30efa94300d7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c8289c7-32d1-4d0a-a973-4bdf19a1adb2.png"
-      }
-    },
-    {
-      "uniqueCode": "P1332A16",
-      "type": "highlight",
-      "title": "Alfonso Madrigal",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8f0b7cdc-2c52-4172-b399-51db4ea1ad31.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-19T16:15:55.160Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol2",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7f62b832-e73d-42bb-9710-ef60d9a5615b.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol2",
-        "title": "CF Pachuca - 133 Aniversario Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8f0b7cdc-2c52-4172-b399-51db4ea1ad31.png"
       }
     },
     {
