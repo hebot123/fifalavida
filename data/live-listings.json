@@ -1,6 +1,366 @@
 {
-  "total": 2059,
+  "total": 2060,
   "listings": [
+    {
+      "uniqueCode": "mem-m98",
+      "type": "highlight",
+      "title": "M98 Dynamic Match Collectible",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ef0c6984-b68f-4d82-a26a-75c8bd24a663.png",
+      "lowestPrice": 10000,
+      "latestCreatedAt": "2026-07-23T15:32:42.313Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "mem-m98",
+      "lowestEdition": 135,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/787f8741-4bf6-41b4-826c-944e045fae67.jpg",
+      "pack": {
+        "slug": "mem-m98",
+        "title": "M98 EXCLUSIVE Dynamic Match Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dc9dc440-fa78-47d3-8c27-b1fd6dba1d75.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ef0c6984-b68f-4d82-a26a-75c8bd24a663.png"
+      }
+    },
+    {
+      "uniqueCode": "MC-01",
+      "type": "highlight",
+      "title": "VIP Membership Card",
+      "subtitle": "FIFA Collect Club",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png",
+      "lowestPrice": 333300,
+      "latestCreatedAt": "2026-07-23T15:14:55.826Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "membership-cards",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/61134ba9-44cf-4a49-afdc-5e497df8e5af.png",
+      "pack": {
+        "slug": "membership-cards",
+        "title": "FIFA+ Collect Club VIP Membership",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/71a7f925-2a1a-466e-ae60-aeda49d99809.jpeg",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png"
+      }
+    },
+    {
+      "uniqueCode": "df2-rw09",
+      "type": "highlight",
+      "title": "Korea Republic",
+      "subtitle": "FIFA World Cup Qatar 2022™ KOR 2-1 POR **TACKLE: Y G Kim 23'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/51a1344b-d6a9-48bf-abed-621a1c4b6fbd.jpeg",
+      "lowestPrice": 147,
+      "latestCreatedAt": "2026-07-23T15:14:37.873Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "collect11-defenders-pt2",
+      "lowestEdition": 31,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "collect11-defenders-pt2",
+        "title": "FIFA Collect 11: Defenders Part 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e036e116-b42a-4285-8d5c-6bdee13fac26.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/51a1344b-d6a9-48bf-abed-621a1c4b6fbd.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-22",
+      "type": "highlight",
+      "title": "Austria",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ca5402ed-0dcc-4a2e-8478-583e3dc669b8.png",
+      "lowestPrice": 113,
+      "latestCreatedAt": "2026-07-23T15:07:31.369Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 40,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cb8179b1-eaa8-4a99-a781-745e6e683d80.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ca5402ed-0dcc-4a2e-8478-583e3dc669b8.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-27",
+      "type": "highlight",
+      "title": "Norway",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d788f2b3-c854-4c08-aeb3-4401b1fc7789.png",
+      "lowestPrice": 285,
+      "latestCreatedAt": "2026-07-23T15:04:30.348Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 390,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/78a9798b-c836-4d41-b396-e3c9b8bd8b3c.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d788f2b3-c854-4c08-aeb3-4401b1fc7789.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-38",
+      "type": "highlight",
+      "title": "South Africa",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2444d87e-05cc-4d91-95a7-8c07230ad6d3.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-23T15:02:00.420Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 56,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6be3f09c-6141-4df8-bfcd-a500f96bde88.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2444d87e-05cc-4d91-95a7-8c07230ad6d3.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-39",
+      "type": "highlight",
+      "title": "Saudi Arabia",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/80b732b2-4381-42c5-a09c-247efe110742.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-23T15:00:40.162Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 12,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4af99442-b3be-4e70-b4d8-285a1e36d9d5.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/80b732b2-4381-42c5-a09c-247efe110742.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-39",
+      "type": "highlight",
+      "title": "West Germany - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fcd309a-c61f-4ba2-b705-37a67e2fbff4.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-23T14:43:34.401Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 37,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/adc88086-b475-4334-9e1d-3eb7b7f2b6af.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fcd309a-c61f-4ba2-b705-37a67e2fbff4.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-41",
+      "type": "highlight",
+      "title": "Falcao - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/57d8f4ef-6979-43bc-973c-dec73ed10e9e.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-23T14:43:16.540Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ce0c8fbd-48ce-4f4f-8473-e5f91d643e08.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/57d8f4ef-6979-43bc-973c-dec73ed10e9e.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-40",
+      "type": "highlight",
+      "title": "Spain - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67fbc3bb-04c4-47ea-834b-d18b878d7026.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-23T14:42:58.425Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2518686f-837c-434d-9491-62dd9dc71865.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67fbc3bb-04c4-47ea-834b-d18b878d7026.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-44",
+      "type": "highlight",
+      "title": "Mascot - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/128021d5-608a-4f9f-8321-a7ef7fc04c30.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-23T14:22:52.619Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/278be98f-c4e4-4046-bb18-29e83d6f0e88.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/128021d5-608a-4f9f-8321-a7ef7fc04c30.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-35",
+      "type": "highlight",
+      "title": "Marco Tardelli - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12bd3fe9-5e4f-4b95-a23e-9ae33cab9ca8.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-23T14:22:30.861Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 30,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f2882598-dd6a-43fe-a1f3-823b571410a7.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12bd3fe9-5e4f-4b95-a23e-9ae33cab9ca8.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-42",
+      "type": "highlight",
+      "title": "Paul Breitner - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c60f2f2b-9874-45ec-8282-825259e42b74.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-23T14:22:14.083Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/393a7c33-9995-402f-b55a-7ca07a25c4ea.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c60f2f2b-9874-45ec-8282-825259e42b74.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-43",
+      "type": "highlight",
+      "title": "Laszlo Kiss - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/74f3e6c0-1610-4dd3-8c51-c9e1c14c34fa.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-23T14:22:00.596Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 6,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b151963d-2928-47a2-992e-c4b1cc475f98.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/74f3e6c0-1610-4dd3-8c51-c9e1c14c34fa.png"
+      }
+    },
+    {
+      "uniqueCode": "p1982-37",
+      "type": "highlight",
+      "title": "Gaetano Scirea - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5871ba21-5b5e-4c1e-b26f-a8e67952835a.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-23T14:21:28.020Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a0f6a950-5e8e-45d8-be4f-797f272ab0d3.png",
+      "pack": {
+        "slug": "panini-1982",
+        "title": "Surprise Premium - Panini España 1982",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5871ba21-5b5e-4c1e-b26f-a8e67952835a.png"
+      }
+    },
     {
       "uniqueCode": "reg-dr01",
       "type": "highlight",
@@ -1351,7 +1711,7 @@
       "title": "Morocco",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2d71bafa-09a5-4a8c-a06f-b15647080849.png",
-      "lowestPrice": 300,
+      "lowestPrice": 315,
       "latestCreatedAt": "2026-07-22T13:18:42.465Z",
       "rarity": {
         "code": "30",
@@ -1415,30 +1775,6 @@
         "title": "FIFA Collect 11: Defenders Part 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e036e116-b42a-4285-8d5c-6bdee13fac26.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3925daf4-0485-4775-8736-a5f10e4d3100.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-39",
-      "type": "highlight",
-      "title": "Saudi Arabia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/80b732b2-4381-42c5-a09c-247efe110742.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-07-22T13:16:26.995Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 12,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4af99442-b3be-4e70-b4d8-285a1e36d9d5.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/80b732b2-4381-42c5-a09c-247efe110742.png"
       }
     },
     {
@@ -1514,30 +1850,6 @@
       }
     },
     {
-      "uniqueCode": "tdfwc-27",
-      "type": "highlight",
-      "title": "Norway",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d788f2b3-c854-4c08-aeb3-4401b1fc7789.png",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2026-07-22T13:14:10.289Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 390,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/78a9798b-c836-4d41-b396-e3c9b8bd8b3c.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d788f2b3-c854-4c08-aeb3-4401b1fc7789.png"
-      }
-    },
-    {
       "uniqueCode": "tdfwc-31",
       "type": "highlight",
       "title": "Paraguay",
@@ -1559,30 +1871,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/00905938-ccbf-4176-8c4e-d8ab66e36ea1.png"
-      }
-    },
-    {
-      "uniqueCode": "MC-01",
-      "type": "highlight",
-      "title": "VIP Membership Card",
-      "subtitle": "FIFA Collect Club",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png",
-      "lowestPrice": 346600,
-      "latestCreatedAt": "2026-07-22T12:07:52.290Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "membership-cards",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/61134ba9-44cf-4a49-afdc-5e497df8e5af.png",
-      "pack": {
-        "slug": "membership-cards",
-        "title": "FIFA+ Collect Club VIP Membership",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/71a7f925-2a1a-466e-ae60-aeda49d99809.jpeg",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png"
       }
     },
     {
@@ -1614,7 +1902,7 @@
       "type": "highlight",
       "title": "FIFA World Cup 26™ Trophy Lift",
       "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b81e05b0-32cf-4208-b337-7c18888adf68.png",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f2bee90-24c8-4515-8c05-24bf28bdc50e.png",
       "lowestPrice": 129900,
       "latestCreatedAt": "2026-07-22T04:49:23.915Z",
       "rarity": {
@@ -1625,12 +1913,12 @@
       "languageCode": "en-UK",
       "packSlug": "team-dynamic-fwc2026-trophylift",
       "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2d26a142-f4f0-41ac-afe8-da0e9cf77c34.jpeg",
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17da4d01-e64b-4151-9a2b-4869a6572bda.jpg",
       "pack": {
         "slug": "team-dynamic-fwc2026-trophylift",
         "title": "Dynamic Team Collectible FWC2026 Trophy Lift Reward",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f746d52d-03e9-4325-a9c4-2b171d239804.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b81e05b0-32cf-4208-b337-7c18888adf68.png"
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f2bee90-24c8-4515-8c05-24bf28bdc50e.png"
       }
     },
     {
@@ -3804,7 +4092,7 @@
       "title": "Colombia",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/de644cb7-cb40-41f0-a532-9b40191d70ff.png",
-      "lowestPrice": 500,
+      "lowestPrice": 600,
       "latestCreatedAt": "2026-07-21T03:36:57.145Z",
       "rarity": {
         "code": "30",
@@ -5671,30 +5959,6 @@
       }
     },
     {
-      "uniqueCode": "p1982-43",
-      "type": "highlight",
-      "title": "Laszlo Kiss - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/74f3e6c0-1610-4dd3-8c51-c9e1c14c34fa.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-07-19T20:15:07.755Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 6,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b151963d-2928-47a2-992e-c4b1cc475f98.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/74f3e6c0-1610-4dd3-8c51-c9e1c14c34fa.png"
-      }
-    },
-    {
       "uniqueCode": "p1982-36",
       "type": "highlight",
       "title": "Rummenigge - SPAIN 1982",
@@ -5740,54 +6004,6 @@
         "title": "Regenesis Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9fed4c4f-27c9-4556-a1e1-a8bc37b915b5.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "p1982-39",
-      "type": "highlight",
-      "title": "West Germany - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fcd309a-c61f-4ba2-b705-37a67e2fbff4.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-07-19T20:08:22.653Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 37,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/adc88086-b475-4334-9e1d-3eb7b7f2b6af.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7fcd309a-c61f-4ba2-b705-37a67e2fbff4.png"
-      }
-    },
-    {
-      "uniqueCode": "p1982-41",
-      "type": "highlight",
-      "title": "Falcao - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/57d8f4ef-6979-43bc-973c-dec73ed10e9e.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-07-19T20:07:08.416Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ce0c8fbd-48ce-4f4f-8473-e5f91d643e08.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/57d8f4ef-6979-43bc-973c-dec73ed10e9e.png"
       }
     },
     {
@@ -6196,30 +6412,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/537e3b03-fce5-4d92-977a-321eef0feb1f.png"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-38",
-      "type": "highlight",
-      "title": "South Africa",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2444d87e-05cc-4d91-95a7-8c07230ad6d3.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-07-19T14:45:53.633Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 56,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6be3f09c-6141-4df8-bfcd-a500f96bde88.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2444d87e-05cc-4d91-95a7-8c07230ad6d3.png"
       }
     },
     {
@@ -7903,30 +8095,6 @@
       }
     },
     {
-      "uniqueCode": "tdfwc-22",
-      "type": "highlight",
-      "title": "Austria",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ca5402ed-0dcc-4a2e-8478-583e3dc669b8.png",
-      "lowestPrice": 113,
-      "latestCreatedAt": "2026-07-15T10:16:22.411Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 40,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cb8179b1-eaa8-4a99-a781-745e6e683d80.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ca5402ed-0dcc-4a2e-8478-583e3dc669b8.png"
-      }
-    },
-    {
       "uniqueCode": "tdfwc-r7",
       "type": "highlight",
       "title": "New Zealand",
@@ -8244,7 +8412,7 @@
       "title": "Croatia",
       "subtitle": "FIFA World Cup Qatar 2022™ CRO 0-0 BEL **TACKLE: Gvardiol 48'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a7e4dea9-0c3d-4526-b612-b784d026049b.jpeg",
-      "lowestPrice": 500,
+      "lowestPrice": 900,
       "latestCreatedAt": "2026-07-14T08:55:10.378Z",
       "rarity": {
         "code": "20",
@@ -12051,30 +12219,6 @@
       }
     },
     {
-      "uniqueCode": "df2-rw09",
-      "type": "highlight",
-      "title": "Korea Republic",
-      "subtitle": "FIFA World Cup Qatar 2022™ KOR 2-1 POR **TACKLE: Y G Kim 23'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/51a1344b-d6a9-48bf-abed-621a1c4b6fbd.jpeg",
-      "lowestPrice": 147,
-      "latestCreatedAt": "2026-07-05T17:45:47.359Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "collect11-defenders-pt2",
-      "lowestEdition": 31,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "collect11-defenders-pt2",
-        "title": "FIFA Collect 11: Defenders Part 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e036e116-b42a-4285-8d5c-6bdee13fac26.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/51a1344b-d6a9-48bf-abed-621a1c4b6fbd.jpeg"
-      }
-    },
-    {
       "uniqueCode": "mem-m77",
       "type": "highlight",
       "title": "M77 Dynamic Match Collectible",
@@ -15435,30 +15579,6 @@
       }
     },
     {
-      "uniqueCode": "p1982-42",
-      "type": "highlight",
-      "title": "Paul Breitner - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c60f2f2b-9874-45ec-8282-825259e42b74.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-26T15:34:26.041Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/393a7c33-9995-402f-b55a-7ca07a25c4ea.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c60f2f2b-9874-45ec-8282-825259e42b74.png"
-      }
-    },
-    {
       "uniqueCode": "RO_R2608",
       "type": "highlight",
       "title": "Valentin Mihăilă",
@@ -15792,30 +15912,6 @@
         "title": "Surprise Premium: Golden Boot Part 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e33ce9dd-2702-40d3-93b3-0c8ad88d5b6b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a6bbcedd-c186-482a-9c25-e2f4f26279d0.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "p1982-44",
-      "type": "highlight",
-      "title": "Mascot - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/128021d5-608a-4f9f-8321-a7ef7fc04c30.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-24T21:04:35.415Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/278be98f-c4e4-4046-bb18-29e83d6f0e88.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/128021d5-608a-4f9f-8321-a7ef7fc04c30.png"
       }
     },
     {
@@ -22616,30 +22712,6 @@
       }
     },
     {
-      "uniqueCode": "p1982-35",
-      "type": "highlight",
-      "title": "Marco Tardelli - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12bd3fe9-5e4f-4b95-a23e-9ae33cab9ca8.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-10T23:08:14.149Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 30,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f2882598-dd6a-43fe-a1f3-823b571410a7.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/12bd3fe9-5e4f-4b95-a23e-9ae33cab9ca8.png"
-      }
-    },
-    {
       "uniqueCode": "p1982-33",
       "type": "highlight",
       "title": "Paolo Rossi - SPAIN 1982",
@@ -26053,30 +26125,6 @@
       }
     },
     {
-      "uniqueCode": "p1982-37",
-      "type": "highlight",
-      "title": "Gaetano Scirea - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5871ba21-5b5e-4c1e-b26f-a8e67952835a.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-03T23:31:33.543Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a0f6a950-5e8e-45d8-be4f-797f272ab0d3.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5871ba21-5b5e-4c1e-b26f-a8e67952835a.png"
-      }
-    },
-    {
       "uniqueCode": "M_CL11",
       "type": "highlight",
       "title": "Daiane Medeiros",
@@ -27490,30 +27538,6 @@
         "title": "Surprise - Panini Trophy Lift",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/22cb81db-1e3b-4574-b184-89fe9324841d.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8ab30eed-9a01-43f2-97b6-15c0f58ac953.png"
-      }
-    },
-    {
-      "uniqueCode": "p1982-40",
-      "type": "highlight",
-      "title": "Spain - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67fbc3bb-04c4-47ea-834b-d18b878d7026.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-30T16:22:25.865Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2518686f-837c-434d-9491-62dd9dc71865.png",
-      "pack": {
-        "slug": "panini-1982",
-        "title": "Surprise Premium - Panini España 1982",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b809f9d8-92de-433e-a1c2-e7f399e84dcd.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/67fbc3bb-04c4-47ea-834b-d18b878d7026.png"
       }
     },
     {
