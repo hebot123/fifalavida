@@ -2,6 +2,30 @@
   "total": 2060,
   "listings": [
     {
+      "uniqueCode": "plt-mc-1",
+      "type": "highlight",
+      "title": "FIFA Collect Platinum Membership Card",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/083369a1-09c3-4d41-b884-6b6174489128.png",
+      "lowestPrice": 24000,
+      "latestCreatedAt": "2026-07-24T15:39:15.226Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "plt-mc",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3dcf3ba7-2849-44a5-ab94-18dd33d06a2e.png",
+      "pack": {
+        "slug": "plt-mc",
+        "title": "FIFA Collect Platinum Membership Card",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d32033ef-9b59-40ea-b9b3-e79b4c3c751d.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/083369a1-09c3-4d41-b884-6b6174489128.png"
+      }
+    },
+    {
       "uniqueCode": "RO_R2601",
       "type": "highlight",
       "title": "Mircea Lucescu",
@@ -191,30 +215,6 @@
         "title": "Iconic Reward Pack FIFA Collect Club Competitions",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9b053ee9-18c4-40f7-8dfd-86aa4c0f6801.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e4128ada-1c5c-4c78-b673-c22f1509eb68.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "plt-mc-1",
-      "type": "highlight",
-      "title": "FIFA Collect Platinum Membership Card",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/083369a1-09c3-4d41-b884-6b6174489128.png",
-      "lowestPrice": 25900,
-      "latestCreatedAt": "2026-07-24T01:12:01.656Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "plt-mc",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3dcf3ba7-2849-44a5-ab94-18dd33d06a2e.png",
-      "pack": {
-        "slug": "plt-mc",
-        "title": "FIFA Collect Platinum Membership Card",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d32033ef-9b59-40ea-b9b3-e79b4c3c751d.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/083369a1-09c3-4d41-b884-6b6174489128.png"
       }
     },
     {
