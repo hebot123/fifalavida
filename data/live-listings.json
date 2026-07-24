@@ -2,6 +2,54 @@
   "total": 2060,
   "listings": [
     {
+      "uniqueCode": "RO_R2601",
+      "type": "highlight",
+      "title": "Mircea Lucescu",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png",
+      "lowestPrice": 4000,
+      "latestCreatedAt": "2026-07-24T04:40:48.676Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-road-to-26",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/33f98d13-4d52-4d3a-800f-3c81d987df10.png",
+      "pack": {
+        "slug": "romania-road-to-26",
+        "title": "Romania - Road to '26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-14",
+      "type": "highlight",
+      "title": "United States",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f67fedd-6bd7-493d-ac81-14dcdf14d468.png",
+      "lowestPrice": 500,
+      "latestCreatedAt": "2026-07-24T03:27:58.083Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 45,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/54303920-8064-43f8-946f-30a33c351237.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f67fedd-6bd7-493d-ac81-14dcdf14d468.png"
+      }
+    },
+    {
       "uniqueCode": "plt-mc-1",
       "type": "highlight",
       "title": "FIFA Collect Platinum Membership Card",
@@ -479,30 +527,6 @@
         "title": "Romania - Tricolorii",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/73a017c9-9adc-4f50-84a1-128232d331e7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cd97be90-3e75-4f0c-ab79-a9007ee2db51.png"
-      }
-    },
-    {
-      "uniqueCode": "RO_R2601",
-      "type": "highlight",
-      "title": "Mircea Lucescu",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png",
-      "lowestPrice": 4500,
-      "latestCreatedAt": "2026-07-23T16:33:50.007Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-road-to-26",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/33f98d13-4d52-4d3a-800f-3c81d987df10.png",
-      "pack": {
-        "slug": "romania-road-to-26",
-        "title": "Romania - Road to '26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png"
       }
     },
     {
@@ -3359,30 +3383,6 @@
         "title": "FIFA Collect 11: Defenders Part 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c535ea97-88fb-4485-8acc-7ba8ee37bbaf.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d4c59221-b4e7-432a-95a8-898637e0bebb.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-14",
-      "type": "highlight",
-      "title": "United States",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f67fedd-6bd7-493d-ac81-14dcdf14d468.png",
-      "lowestPrice": 500,
-      "latestCreatedAt": "2026-07-21T18:51:02.650Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 155,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/54303920-8064-43f8-946f-30a33c351237.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7bad8e5b-1892-4f46-8a38-82f3d7fd503b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f67fedd-6bd7-493d-ac81-14dcdf14d468.png"
       }
     },
     {
@@ -30037,30 +30037,6 @@
       }
     },
     {
-      "uniqueCode": "mpen-05",
-      "type": "highlight",
-      "title": "Japan",
-      "subtitle": "FIFA Women's World Cup Germany 2011™ JPN 2 - 2 USA, **Penalty: Kumagai PSO**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6ad0c433-1273-48f2-a31b-0d2943e3e5e3.jpeg",
-      "lowestPrice": 199,
-      "latestCreatedAt": "2026-05-21T04:13:14.292Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "memorable-penalties",
-      "lowestEdition": 28,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "memorable-penalties",
-        "title": "Memorable Penalties",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a11f8051-e602-4af6-abad-9303eabd17de.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6ad0c433-1273-48f2-a31b-0d2943e3e5e3.jpeg"
-      }
-    },
-    {
       "uniqueCode": "TJA_08",
       "type": "highlight",
       "title": "Third 2018-19",
@@ -30586,6 +30562,30 @@
         "title": "Celebrating 120 years of FIFA™",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/97f53154-2789-4e05-a066-341d0d0e923e.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/90e123c2-bf11-416e-9f2b-38c02b5d8266.png"
+      }
+    },
+    {
+      "uniqueCode": "mpen-05",
+      "type": "highlight",
+      "title": "Japan",
+      "subtitle": "FIFA Women's World Cup Germany 2011™ JPN 2 - 2 USA, **Penalty: Kumagai PSO**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6ad0c433-1273-48f2-a31b-0d2943e3e5e3.jpeg",
+      "lowestPrice": 199,
+      "latestCreatedAt": "2026-05-20T03:56:38.189Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "memorable-penalties",
+      "lowestEdition": 28,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "memorable-penalties",
+        "title": "Memorable Penalties",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a11f8051-e602-4af6-abad-9303eabd17de.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6ad0c433-1273-48f2-a31b-0d2943e3e5e3.jpeg"
       }
     },
     {
