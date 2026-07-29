@@ -1,6 +1,414 @@
 {
-  "total": 2116,
+  "total": 2114,
   "listings": [
+    {
+      "uniqueCode": "P_AP52",
+      "type": "highlight",
+      "title": "POTW - Luis Quiñones",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png",
+      "lowestPrice": 428,
+      "latestCreatedAt": "2026-07-29T18:56:50.229Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/10a2e76f-c0e0-42a7-bfbf-f89e2e5a359f.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP53",
+      "type": "highlight",
+      "title": "POTW - Gastón Togni",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe0f2229-0632-492b-b28c-444102216d06.png",
+      "lowestPrice": 390,
+      "latestCreatedAt": "2026-07-29T18:55:36.351Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e38e02b8-14b6-46df-87b6-33ec2305bd75.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe0f2229-0632-492b-b28c-444102216d06.png"
+      }
+    },
+    {
+      "uniqueCode": "M_AMDC36",
+      "type": "highlight",
+      "title": "3. Gerardo Arteaga",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/17f058c8-d10c-4ac8-8dc7-3d8f7b309243.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-29T18:48:09.120Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-awayjerseymdc2025-sp",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/23e1f8f6-2da1-415b-9228-e72a8a83e89f.png",
+      "pack": {
+        "slug": "monterrey-awayjerseymdc2025-sp",
+        "title": "CF Monterrey - Away Jersey MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/17f058c8-d10c-4ac8-8dc7-3d8f7b309243.png"
+      }
+    },
+    {
+      "uniqueCode": "M_AMDC42",
+      "type": "highlight",
+      "title": "30. Jorge Rodríguez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19634b0a-2160-4524-99ce-0257eafa0e6c.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-29T18:47:52.258Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-awayjerseymdc2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9183aa1b-b0f1-4a4f-b9f7-ada5a318b0c8.png",
+      "pack": {
+        "slug": "monterrey-awayjerseymdc2025-sp",
+        "title": "CF Monterrey - Away Jersey MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19634b0a-2160-4524-99ce-0257eafa0e6c.png"
+      }
+    },
+    {
+      "uniqueCode": "M_AMDC44",
+      "type": "highlight",
+      "title": "11. José Alfonso Alvarado",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/371eede2-23ee-40ae-9842-43c70a41b6a7.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-29T18:47:20.467Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-awayjerseymdc2025-sp",
+      "lowestEdition": 29,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9c1a05f5-6c86-40f5-81a1-197e8e7ee23f.png",
+      "pack": {
+        "slug": "monterrey-awayjerseymdc2025-sp",
+        "title": "CF Monterrey - Away Jersey MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/371eede2-23ee-40ae-9842-43c70a41b6a7.png"
+      }
+    },
+    {
+      "uniqueCode": "M_AMDC52",
+      "type": "highlight",
+      "title": "36. Joaquín Moxica",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/32715c96-67be-4f06-9ff0-568b802f0996.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-29T18:46:26.949Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-awayjerseymdc2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f598b79c-ce89-49d6-bb76-557bbc68ef54.png",
+      "pack": {
+        "slug": "monterrey-awayjerseymdc2025-sp",
+        "title": "CF Monterrey - Away Jersey MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/32715c96-67be-4f06-9ff0-568b802f0996.png"
+      }
+    },
+    {
+      "uniqueCode": "M_AMDC53",
+      "type": "highlight",
+      "title": "41. Santiago Pérez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/37948345-78d7-4196-a429-2b9337e03c67.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-29T18:46:08.043Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-awayjerseymdc2025-sp",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0293c7cd-1313-42c9-aaa8-8359447e4e57.png",
+      "pack": {
+        "slug": "monterrey-awayjerseymdc2025-sp",
+        "title": "CF Monterrey - Away Jersey MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/37948345-78d7-4196-a429-2b9337e03c67.png"
+      }
+    },
+    {
+      "uniqueCode": "M_AMDC43",
+      "type": "highlight",
+      "title": "14. Érick Aguirre",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/56b40fb7-9eef-46f5-ae80-551356ef9b09.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-29T18:45:49.150Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-awayjerseymdc2025-sp",
+      "lowestEdition": 21,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d17cbe77-83c9-4945-abe4-c241f34250c4.png",
+      "pack": {
+        "slug": "monterrey-awayjerseymdc2025-sp",
+        "title": "CF Monterrey - Away Jersey MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/56b40fb7-9eef-46f5-ae80-551356ef9b09.png"
+      }
+    },
+    {
+      "uniqueCode": "M_AMDC47",
+      "type": "highlight",
+      "title": "21. Luis Reyes",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/103effca-6743-4c52-9aa3-2f8d0eb375e2.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-29T18:45:34.659Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-awayjerseymdc2025-sp",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4b4abfb6-aa3b-456e-8afa-7bc16cdbadfc.png",
+      "pack": {
+        "slug": "monterrey-awayjerseymdc2025-sp",
+        "title": "CF Monterrey - Away Jersey MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/103effca-6743-4c52-9aa3-2f8d0eb375e2.png"
+      }
+    },
+    {
+      "uniqueCode": "M_AMDC48",
+      "type": "highlight",
+      "title": "2. Ricardo Chávez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f75c47a1-2ca5-4bb5-bd90-785c39c70523.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-29T18:45:19.696Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-awayjerseymdc2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dc787729-1d32-4e89-9542-56e2403d14fa.png",
+      "pack": {
+        "slug": "monterrey-awayjerseymdc2025-sp",
+        "title": "CF Monterrey - Away Jersey MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f75c47a1-2ca5-4bb5-bd90-785c39c70523.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY51",
+      "type": "highlight",
+      "title": "El Camino A La Felicidad",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0f56e87-daf5-42bb-a4fb-6f0883cbd8a7.png",
+      "lowestPrice": 468,
+      "latestCreatedAt": "2026-07-29T18:43:46.435Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/253b6996-bce0-47b5-bfc2-64fb59f95594.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0f56e87-daf5-42bb-a4fb-6f0883cbd8a7.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY58",
+      "type": "highlight",
+      "title": "Bienvenido A Casa",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cea98286-d777-4749-9cdf-418d4fd270c2.png",
+      "lowestPrice": 250,
+      "latestCreatedAt": "2026-07-29T18:42:51.724Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 27,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/84f342ad-a797-4727-bab1-39d5d3a30b57.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cea98286-d777-4749-9cdf-418d4fd270c2.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY37",
+      "type": "highlight",
+      "title": "City of Monterrey 419th Anniversary TIFO",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53a1853a-23e1-4c53-ae18-d12e49c871d2.png",
+      "lowestPrice": 300,
+      "latestCreatedAt": "2026-07-29T18:42:23.034Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/94de93d4-fe9a-4bc3-957a-9dcba6eef297.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53a1853a-23e1-4c53-ae18-d12e49c871d2.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY39",
+      "type": "highlight",
+      "title": "Monterrey Y Su Gente",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ad86c4bd-2bb1-4f19-a6f2-a4e0c1f2e221.png",
+      "lowestPrice": 300,
+      "latestCreatedAt": "2026-07-29T18:42:01.116Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/51fe60be-20d6-42fc-8ff2-3735be6eebbb.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ad86c4bd-2bb1-4f19-a6f2-a4e0c1f2e221.png"
+      }
+    },
+    {
+      "uniqueCode": "R_P2A25",
+      "type": "highlight",
+      "title": "Official Away Jersey MDC 2025 - Signed by Oussama Idrissi",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5985e85-6728-44b5-a613-86b0313a106c.png",
+      "lowestPrice": 14999,
+      "latestCreatedAt": "2026-07-29T17:51:24.201Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol2-specialchallenge3",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca95e268-663f-4372-955f-f5bea6cd5df9.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol2-specialchallenge3",
+        "title": "CF Pachuca - 133 Aniversario Vol. 2 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ce8955cf-eb24-40be-8696-e1eb10859367.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5985e85-6728-44b5-a613-86b0313a106c.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY16",
+      "type": "highlight",
+      "title": "CF Monterrey Under the Lights",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee675d6f-7b0b-48e5-b56f-64f76eace6ec.png",
+      "lowestPrice": 14985,
+      "latestCreatedAt": "2026-07-29T17:48:20.395Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/269f6edc-6e3a-452c-821b-7ea927a7bc6c.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee675d6f-7b0b-48e5-b56f-64f76eace6ec.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY63",
+      "type": "highlight",
+      "title": "El Gigante de Acero por la Noche",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7ae4b6d1-46fc-4580-80fd-2567139bb13d.png",
+      "lowestPrice": 344,
+      "latestCreatedAt": "2026-07-29T17:40:25.901Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 21,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dc74d779-6cff-4bb6-86c8-3d852621235a.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7ae4b6d1-46fc-4580-80fd-2567139bb13d.png"
+      }
+    },
     {
       "uniqueCode": "MMTY15",
       "type": "highlight",
@@ -143,54 +551,6 @@
         "title": "CF Monterrey - Estadio Monterrey",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92553df6-d297-4de0-8baa-7b99b009059f.png"
-      }
-    },
-    {
-      "uniqueCode": "P_AP52",
-      "type": "highlight",
-      "title": "POTW - Luis Quiñones",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png",
-      "lowestPrice": 530,
-      "latestCreatedAt": "2026-07-29T08:11:03.668Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/10a2e76f-c0e0-42a7-bfbf-f89e2e5a359f.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png"
-      }
-    },
-    {
-      "uniqueCode": "P_AP53",
-      "type": "highlight",
-      "title": "POTW - Gastón Togni",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe0f2229-0632-492b-b28c-444102216d06.png",
-      "lowestPrice": 530,
-      "latestCreatedAt": "2026-07-29T08:10:24.801Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e38e02b8-14b6-46df-87b6-33ec2305bd75.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fe0f2229-0632-492b-b28c-444102216d06.png"
       }
     },
     {
@@ -823,7 +1183,7 @@
       "title": "CF Monterrey Under the Lights",
       "subtitle": "CF Monterrey",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c2be7865-869c-4bed-9a2e-44ddb613d18d.png",
-      "lowestPrice": 446,
+      "lowestPrice": 499,
       "latestCreatedAt": "2026-07-28T22:23:47.607Z",
       "rarity": {
         "code": "20",
@@ -832,37 +1192,13 @@
       },
       "languageCode": "en-UK",
       "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 17,
+      "lowestEdition": 18,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a7f1be9c-0c9c-4223-bfc8-c1dc9bc8d973.png",
       "pack": {
         "slug": "monterrey-estadio-monterrey-2026",
         "title": "CF Monterrey - Estadio Monterrey",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c2be7865-869c-4bed-9a2e-44ddb613d18d.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY51",
-      "type": "highlight",
-      "title": "El Camino A La Felicidad",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0f56e87-daf5-42bb-a4fb-6f0883cbd8a7.png",
-      "lowestPrice": 468,
-      "latestCreatedAt": "2026-07-28T22:23:33.743Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/253b6996-bce0-47b5-bfc2-64fb59f95594.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0f56e87-daf5-42bb-a4fb-6f0883cbd8a7.png"
       }
     },
     {
@@ -1034,30 +1370,6 @@
       }
     },
     {
-      "uniqueCode": "MMTY37",
-      "type": "highlight",
-      "title": "City of Monterrey 419th Anniversary TIFO",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53a1853a-23e1-4c53-ae18-d12e49c871d2.png",
-      "lowestPrice": 400,
-      "latestCreatedAt": "2026-07-28T22:10:39.420Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/94de93d4-fe9a-4bc3-957a-9dcba6eef297.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53a1853a-23e1-4c53-ae18-d12e49c871d2.png"
-      }
-    },
-    {
       "uniqueCode": "MMTY46",
       "type": "highlight",
       "title": "The Stage Is Set",
@@ -1127,30 +1439,6 @@
         "title": "CF Monterrey - Estadio Monterrey",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d835c1e2-0e07-4165-a4a6-d6934dee6d09.png"
-      }
-    },
-    {
-      "uniqueCode": "R_P2A25",
-      "type": "highlight",
-      "title": "Official Away Jersey MDC 2025 - Signed by Oussama Idrissi",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5985e85-6728-44b5-a613-86b0313a106c.png",
-      "lowestPrice": 19999,
-      "latestCreatedAt": "2026-07-28T21:44:49.842Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol2-specialchallenge3",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca95e268-663f-4372-955f-f5bea6cd5df9.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol2-specialchallenge3",
-        "title": "CF Pachuca - 133 Aniversario Vol. 2 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ce8955cf-eb24-40be-8696-e1eb10859367.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5985e85-6728-44b5-a613-86b0313a106c.png"
       }
     },
     {
@@ -1922,30 +2210,6 @@
       }
     },
     {
-      "uniqueCode": "MMTY39",
-      "type": "highlight",
-      "title": "Monterrey Y Su Gente",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ad86c4bd-2bb1-4f19-a6f2-a4e0c1f2e221.png",
-      "lowestPrice": 1250,
-      "latestCreatedAt": "2026-07-28T10:30:58.784Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/51fe60be-20d6-42fc-8ff2-3735be6eebbb.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ad86c4bd-2bb1-4f19-a6f2-a4e0c1f2e221.png"
-      }
-    },
-    {
       "uniqueCode": "MMTY34",
       "type": "highlight",
       "title": "360° Pre-Match View",
@@ -2066,30 +2330,6 @@
       }
     },
     {
-      "uniqueCode": "MMTY63",
-      "type": "highlight",
-      "title": "El Gigante de Acero por la Noche",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7ae4b6d1-46fc-4580-80fd-2567139bb13d.png",
-      "lowestPrice": 388,
-      "latestCreatedAt": "2026-07-28T10:24:13.008Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 21,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dc74d779-6cff-4bb6-86c8-3d852621235a.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7ae4b6d1-46fc-4580-80fd-2567139bb13d.png"
-      }
-    },
-    {
       "uniqueCode": "MMTY26",
       "type": "highlight",
       "title": "Bienvenido A Casa",
@@ -2111,30 +2351,6 @@
         "title": "CF Monterrey - Estadio Monterrey",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/69ac5b07-7241-4708-8d1e-2fa917d4194e.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY16",
-      "type": "highlight",
-      "title": "CF Monterrey Under the Lights",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee675d6f-7b0b-48e5-b56f-64f76eace6ec.png",
-      "lowestPrice": 14985,
-      "latestCreatedAt": "2026-07-28T10:22:26.488Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 7,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/269f6edc-6e3a-452c-821b-7ea927a7bc6c.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ee675d6f-7b0b-48e5-b56f-64f76eace6ec.png"
       }
     },
     {
@@ -2978,30 +3194,6 @@
       }
     },
     {
-      "uniqueCode": "MMTY58",
-      "type": "highlight",
-      "title": "Bienvenido A Casa",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cea98286-d777-4749-9cdf-418d4fd270c2.png",
-      "lowestPrice": 469,
-      "latestCreatedAt": "2026-07-27T23:19:39.693Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 36,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/84f342ad-a797-4727-bab1-39d5d3a30b57.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cea98286-d777-4749-9cdf-418d4fd270c2.png"
-      }
-    },
-    {
       "uniqueCode": "MMTY23",
       "type": "highlight",
       "title": "Monterrey Y Su Gente",
@@ -3119,30 +3311,6 @@
         "title": "CF Monterrey - Estadio Monterrey",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5699de5f-70b3-4fe2-bf3e-832faabd99ee.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY21",
-      "type": "highlight",
-      "title": "City of Monterrey 419th Anniversary TIFO",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e6acfd7-b88d-47a1-ba3f-2f0e78c880f8.png",
-      "lowestPrice": 1400,
-      "latestCreatedAt": "2026-07-27T18:40:35.802Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 19,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6a6df3a3-9ee4-406d-b34b-8237801e22b8.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5e6acfd7-b88d-47a1-ba3f-2f0e78c880f8.png"
       }
     },
     {
@@ -5892,7 +6060,7 @@
       "title": "FIFA World Cup 26™ Trophy Lift",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f2bee90-24c8-4515-8c05-24bf28bdc50e.png",
-      "lowestPrice": 129900,
+      "lowestPrice": 99900,
       "latestCreatedAt": "2026-07-23T16:19:13.875Z",
       "rarity": {
         "code": "40",
@@ -17792,30 +17960,6 @@
       }
     },
     {
-      "uniqueCode": "R_P2A26",
-      "type": "highlight",
-      "title": "Official Third Jersey 2026 - Signed by Enner Valencia",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1dc3fa8b-eca0-49ec-b34d-8da080252dd0.png",
-      "lowestPrice": 13900,
-      "latestCreatedAt": "2026-07-01T02:35:03.468Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol2-specialchallenge4",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a3ba5c77-5232-426b-b87e-085431022a66.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol2-specialchallenge4",
-        "title": "CF Pachuca - 133 Aniversario Vol. 2 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b018a362-9b2f-4ce3-a8b7-91b68f5de55e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1dc3fa8b-eca0-49ec-b34d-8da080252dd0.png"
-      }
-    },
-    {
       "uniqueCode": "df2-rw05",
       "type": "highlight",
       "title": "Morocco",
@@ -25405,30 +25549,6 @@
       }
     },
     {
-      "uniqueCode": "M_AMDC36",
-      "type": "highlight",
-      "title": "3. Gerardo Arteaga",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/17f058c8-d10c-4ac8-8dc7-3d8f7b309243.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-09T23:39:57.478Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-awayjerseymdc2025-sp",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/23e1f8f6-2da1-415b-9228-e72a8a83e89f.png",
-      "pack": {
-        "slug": "monterrey-awayjerseymdc2025-sp",
-        "title": "CF Monterrey - Away Jersey MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/17f058c8-d10c-4ac8-8dc7-3d8f7b309243.png"
-      }
-    },
-    {
       "uniqueCode": "O_SV05",
       "type": "highlight",
       "title": "Santi Cazorla",
@@ -29106,30 +29226,6 @@
       }
     },
     {
-      "uniqueCode": "M_AMDC42",
-      "type": "highlight",
-      "title": "30. Jorge Rodríguez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19634b0a-2160-4524-99ce-0257eafa0e6c.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-31T20:20:55.036Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-awayjerseymdc2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9183aa1b-b0f1-4a4f-b9f7-ada5a318b0c8.png",
-      "pack": {
-        "slug": "monterrey-awayjerseymdc2025-sp",
-        "title": "CF Monterrey - Away Jersey MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/19634b0a-2160-4524-99ce-0257eafa0e6c.png"
-      }
-    },
-    {
       "uniqueCode": "M_MDC36",
       "type": "highlight",
       "title": "23. Gustavo Sánchez",
@@ -30423,30 +30519,6 @@
         "title": "Surprise - Panini Argentina 1978",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/92e3e5ef-c0d2-4b0d-b2bc-4a60e111abcb.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/43bd14d3-e850-47ff-83a1-7b5154d23d6f.png"
-      }
-    },
-    {
-      "uniqueCode": "M_AMDC44",
-      "type": "highlight",
-      "title": "11. José Alfonso Alvarado",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/371eede2-23ee-40ae-9842-43c70a41b6a7.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-23T16:30:08.871Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-awayjerseymdc2025-sp",
-      "lowestEdition": 29,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9c1a05f5-6c86-40f5-81a1-197e8e7ee23f.png",
-      "pack": {
-        "slug": "monterrey-awayjerseymdc2025-sp",
-        "title": "CF Monterrey - Away Jersey MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/371eede2-23ee-40ae-9842-43c70a41b6a7.png"
       }
     },
     {
@@ -33954,30 +34026,6 @@
       }
     },
     {
-      "uniqueCode": "M_AMDC53",
-      "type": "highlight",
-      "title": "41. Santiago Pérez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/37948345-78d7-4196-a429-2b9337e03c67.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-15T21:34:12.547Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-awayjerseymdc2025-sp",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0293c7cd-1313-42c9-aaa8-8359447e4e57.png",
-      "pack": {
-        "slug": "monterrey-awayjerseymdc2025-sp",
-        "title": "CF Monterrey - Away Jersey MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/37948345-78d7-4196-a429-2b9337e03c67.png"
-      }
-    },
-    {
       "uniqueCode": "M_AMDC34",
       "type": "highlight",
       "title": "19. Jordi Cortizo",
@@ -33999,30 +34047,6 @@
         "title": "CF Monterrey - Away Jersey MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/59cd2a2d-3d08-406c-98d2-df0850da9af9.png"
-      }
-    },
-    {
-      "uniqueCode": "M_AMDC52",
-      "type": "highlight",
-      "title": "36. Joaquín Moxica",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/32715c96-67be-4f06-9ff0-568b802f0996.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-15T21:33:16.241Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-awayjerseymdc2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f598b79c-ce89-49d6-bb76-557bbc68ef54.png",
-      "pack": {
-        "slug": "monterrey-awayjerseymdc2025-sp",
-        "title": "CF Monterrey - Away Jersey MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/32715c96-67be-4f06-9ff0-568b802f0996.png"
       }
     },
     {
@@ -34098,30 +34122,6 @@
       }
     },
     {
-      "uniqueCode": "M_AMDC43",
-      "type": "highlight",
-      "title": "14. Érick Aguirre",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/56b40fb7-9eef-46f5-ae80-551356ef9b09.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-15T21:32:25.710Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-awayjerseymdc2025-sp",
-      "lowestEdition": 21,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d17cbe77-83c9-4945-abe4-c241f34250c4.png",
-      "pack": {
-        "slug": "monterrey-awayjerseymdc2025-sp",
-        "title": "CF Monterrey - Away Jersey MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/56b40fb7-9eef-46f5-ae80-551356ef9b09.png"
-      }
-    },
-    {
       "uniqueCode": "M_AMDC45",
       "type": "highlight",
       "title": "31. Roberto De La Rosa",
@@ -34143,54 +34143,6 @@
         "title": "CF Monterrey - Away Jersey MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/47df3de6-90ed-4ead-ab46-0f1d71ad7157.png"
-      }
-    },
-    {
-      "uniqueCode": "M_AMDC48",
-      "type": "highlight",
-      "title": "2. Ricardo Chávez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f75c47a1-2ca5-4bb5-bd90-785c39c70523.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-15T21:31:50.486Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-awayjerseymdc2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/dc787729-1d32-4e89-9542-56e2403d14fa.png",
-      "pack": {
-        "slug": "monterrey-awayjerseymdc2025-sp",
-        "title": "CF Monterrey - Away Jersey MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f75c47a1-2ca5-4bb5-bd90-785c39c70523.png"
-      }
-    },
-    {
-      "uniqueCode": "M_AMDC47",
-      "type": "highlight",
-      "title": "21. Luis Reyes",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/103effca-6743-4c52-9aa3-2f8d0eb375e2.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-15T21:31:42.118Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-awayjerseymdc2025-sp",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4b4abfb6-aa3b-456e-8afa-7bc16cdbadfc.png",
-      "pack": {
-        "slug": "monterrey-awayjerseymdc2025-sp",
-        "title": "CF Monterrey - Away Jersey MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d4f73f02-abf0-4dc1-b107-509fcc08010a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/103effca-6743-4c52-9aa3-2f8d0eb375e2.png"
       }
     },
     {
