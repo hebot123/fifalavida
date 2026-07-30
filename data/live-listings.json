@@ -2,6 +2,30 @@
   "total": 2126,
   "listings": [
     {
+      "uniqueCode": "C_CC02",
+      "type": "highlight",
+      "title": "Sergi Roberto",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c0da5bd-6f95-4f75-9eb3-3e1317bc599b.png",
+      "lowestPrice": 175,
+      "latestCreatedAt": "2026-07-30T19:44:18.133Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-classiccomo",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/67b03d29-8b46-4eaf-a99a-a549bbdfee35.png",
+      "pack": {
+        "slug": "como-classiccomo",
+        "title": "Como 1907 - Classic Como",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e48a1b6d-5cbc-44a7-9d43-5a8b8a9a5390.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c0da5bd-6f95-4f75-9eb3-3e1317bc599b.png"
+      }
+    },
+    {
       "uniqueCode": "R_2MC02",
       "type": "highlight",
       "title": "Tour Experencia Rayada Double Pass - Apertura 2026",
@@ -1648,7 +1672,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 3,
+      "lowestEdition": 6,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d150881-b429-4116-a900-d46a4de21255.png",
       "pack": {
         "slug": "monterrey-estadio-monterrey-2026",
@@ -8940,7 +8964,7 @@
       "title": "Fábio",
       "subtitle": "Fluminense FC",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/def3956f-1128-4012-8284-a444acfc6465.png",
-      "lowestPrice": 2145,
+      "lowestPrice": 2000,
       "latestCreatedAt": "2026-07-21T21:07:20.065Z",
       "rarity": {
         "code": "40",
@@ -14033,7 +14057,7 @@
       "title": "Răzvan Marin",
       "subtitle": "Romania",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3c41ca3a-f619-4e4c-8246-ca7b47fd2a59.png",
-      "lowestPrice": 700,
+      "lowestPrice": 570,
       "latestCreatedAt": "2026-07-08T18:33:41.518Z",
       "rarity": {
         "code": "30",
@@ -19661,30 +19685,6 @@
         "title": "Genoa CFC - Rossoblù 25/26",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5fed33e2-d745-4505-9488-6d52e115e5fd.png"
-      }
-    },
-    {
-      "uniqueCode": "C_CC02",
-      "type": "highlight",
-      "title": "Sergi Roberto",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c0da5bd-6f95-4f75-9eb3-3e1317bc599b.png",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2026-06-25T12:23:07.544Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-classiccomo",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/67b03d29-8b46-4eaf-a99a-a549bbdfee35.png",
-      "pack": {
-        "slug": "como-classiccomo",
-        "title": "Como 1907 - Classic Como",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e48a1b6d-5cbc-44a7-9d43-5a8b8a9a5390.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2c0da5bd-6f95-4f75-9eb3-3e1317bc599b.png"
       }
     },
     {
