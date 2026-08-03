@@ -1,6 +1,966 @@
 {
-  "total": 2151,
+  "total": 2152,
   "listings": [
+    {
+      "uniqueCode": "RO_T17",
+      "type": "highlight",
+      "title": "Denis Alibec",
+      "subtitle": "Romania",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f741fce2-9843-4536-a89a-77edecfba402.png",
+      "lowestPrice": 700,
+      "latestCreatedAt": "2026-08-03T21:37:34.386Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "romania-tricolorii-sp",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/df169c51-e9fb-45b9-9270-a280f952d11e.png",
+      "pack": {
+        "slug": "romania-tricolorii-sp",
+        "title": "Romania - Tricolorii",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/73a017c9-9adc-4f50-84a1-128232d331e7.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f741fce2-9843-4536-a89a-77edecfba402.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY15",
+      "type": "highlight",
+      "title": "El Gigante de Acero por la Noche",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png",
+      "lowestPrice": 4300,
+      "latestCreatedAt": "2026-08-03T21:31:09.660Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0ff3d275-a823-4f1b-8c81-2ff15b4c5618.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY02",
+      "type": "highlight",
+      "title": "360° Pre-Match View",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2696f1ad-a762-47ef-96ff-cb9e40bf1941.png",
+      "lowestPrice": 5000,
+      "latestCreatedAt": "2026-08-03T21:31:02.755Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cccc0696-35d4-4dd3-b899-0069b12d59f6.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2696f1ad-a762-47ef-96ff-cb9e40bf1941.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL26",
+      "type": "highlight",
+      "title": "Como Cup Trophy",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcf1c318-f434-4bbd-9a74-e070ecd3249f.png",
+      "lowestPrice": 400,
+      "latestCreatedAt": "2026-08-03T21:05:19.397Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 18,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/145e1397-9225-4177-a199-250310466f64.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcf1c318-f434-4bbd-9a74-e070ecd3249f.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL28",
+      "type": "highlight",
+      "title": "Goal Celebration",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d6ee314-c4b5-42ea-8eba-ba468f83d4a2.png",
+      "lowestPrice": 468,
+      "latestCreatedAt": "2026-08-03T21:04:54.261Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 16,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6266bb0d-c0d6-427c-9f73-14b5434f0e61.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d6ee314-c4b5-42ea-8eba-ba468f83d4a2.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL18",
+      "type": "highlight",
+      "title": "Iker Fimbres",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6a0096ff-f83e-4cef-b797-d35c01ae0eff.png",
+      "lowestPrice": 800,
+      "latestCreatedAt": "2026-08-03T20:59:46.001Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 40,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2619c9ca-689d-48b6-98ca-bca6b0cd2880.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6a0096ff-f83e-4cef-b797-d35c01ae0eff.png"
+      }
+    },
+    {
+      "uniqueCode": "P_L16",
+      "type": "highlight",
+      "title": "Aquivaldo Mosquera",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ea50edb9-a1c8-4e29-b4f6-664dc313e45f.png",
+      "lowestPrice": 115,
+      "latestCreatedAt": "2026-08-03T20:56:32.582Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-legends-sp",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a1c68cb0-ae22-4e8c-a932-8c93a70a4cf7.png",
+      "pack": {
+        "slug": "pachuca-legends-sp",
+        "title": "CF Pachuca - Legends",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f9c437c2-ba18-4dd8-be87-37ab7187c691.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ea50edb9-a1c8-4e29-b4f6-664dc313e45f.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL15",
+      "type": "highlight",
+      "title": "Sinigaglia",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6a86faf-1258-494b-8cdc-1b3e497463cb.png",
+      "lowestPrice": 2000,
+      "latestCreatedAt": "2026-08-03T20:54:06.063Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2f08aba3-4558-4f4b-b6c1-da3752cac1f7.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f6a86faf-1258-494b-8cdc-1b3e497463cb.png"
+      }
+    },
+    {
+      "uniqueCode": "G_RB26",
+      "type": "highlight",
+      "title": "Jean Onana",
+      "subtitle": "Genoa CFC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27388052-bb94-49c6-b8a4-1fd3d5e883d0.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-03T20:54:05.731Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "genoa-rossoblu2526",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/92406b4f-bcb0-4652-bec6-805b212ff0a5.png",
+      "pack": {
+        "slug": "genoa-rossoblu2526",
+        "title": "Genoa CFC - Rossoblù 25/26",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27388052-bb94-49c6-b8a4-1fd3d5e883d0.png"
+      }
+    },
+    {
+      "uniqueCode": "reg-dr09",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™ ARG 2 - 1 AUS **GOAL: Alvarez 57'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1fdc9571-ecc6-44b6-b950-5e1ee293dfad.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-03T20:53:28.316Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop",
+      "lowestEdition": 10,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop",
+        "title": "Regenesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1fdc9571-ecc6-44b6-b950-5e1ee293dfad.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "C_FL10",
+      "type": "highlight",
+      "title": "Como Cup Trophy",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9b5b9cb0-3393-4099-b0b7-f169c17f33f4.png",
+      "lowestPrice": 1500,
+      "latestCreatedAt": "2026-08-03T20:53:10.412Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/027e7f87-eb1e-4b15-97b4-06844b4bae54.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9b5b9cb0-3393-4099-b0b7-f169c17f33f4.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL13",
+      "type": "highlight",
+      "title": "Como Line-Up vs Ajax",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/52ea5509-4d0c-4fab-90ba-7760489bf9b1.png",
+      "lowestPrice": 1600,
+      "latestCreatedAt": "2026-08-03T20:51:52.237Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d706f47c-7dbd-4e7f-a4a7-392ec1b21792.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/52ea5509-4d0c-4fab-90ba-7760489bf9b1.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL12",
+      "type": "highlight",
+      "title": "Goal Celebration",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2bb20fd1-37d9-439a-b655-a7ec060b68ca.png",
+      "lowestPrice": 1400,
+      "latestCreatedAt": "2026-08-03T20:51:08.241Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 13,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b761124c-d438-4187-874c-0f8280446f53.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2bb20fd1-37d9-439a-b655-a7ec060b68ca.png"
+      }
+    },
+    {
+      "uniqueCode": "FFT_10",
+      "type": "highlight",
+      "title": "Flu x Vas Laranjeiras - 1933",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e927060d-1de5-4924-b53b-4e61e03e89b7.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-03T20:50:15.298Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fan-tricolor",
+      "lowestEdition": 24,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f049851-e8a9-47be-8684-d4dfde7a42a8.jpeg",
+      "pack": {
+        "slug": "fan-tricolor",
+        "title": "Fluminense FC - Fan Tricolor",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/591cb67d-a723-473d-a56b-30efa94300d7.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e927060d-1de5-4924-b53b-4e61e03e89b7.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL14",
+      "type": "highlight",
+      "title": "Como Line-Up vs Al-Ahli",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f8acc9cc-4793-46cb-a89a-1dc96d57405b.png",
+      "lowestPrice": 1500,
+      "latestCreatedAt": "2026-08-03T20:49:46.076Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 19,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2b0c9813-b801-4521-b23c-1c2ca6449515.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f8acc9cc-4793-46cb-a89a-1dc96d57405b.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL11",
+      "type": "highlight",
+      "title": "Team Trophy Celebration",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0e84a034-728e-44af-84bb-f814a20e3d55.png",
+      "lowestPrice": 2000,
+      "latestCreatedAt": "2026-08-03T20:49:15.078Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7d288591-e72b-496a-9014-95ec6cf403fe.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0e84a034-728e-44af-84bb-f814a20e3d55.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL09",
+      "type": "highlight",
+      "title": "Como Trophy Lift",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63d9b9fa-fe83-41f4-950b-5c7442245adb.png",
+      "lowestPrice": 1500,
+      "latestCreatedAt": "2026-08-03T20:48:48.528Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/04ecddb2-d049-4900-a8c1-a4c8f6f7dd80.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63d9b9fa-fe83-41f4-950b-5c7442245adb.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL16",
+      "type": "highlight",
+      "title": "Como Cup Logo",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f9a0512a-d455-4f8a-9afa-e63f6a8ee68d.png",
+      "lowestPrice": 1500,
+      "latestCreatedAt": "2026-08-03T20:48:15.427Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 7,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/680c3868-4425-4393-8680-1c873ba5b6d3.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f9a0512a-d455-4f8a-9afa-e63f6a8ee68d.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL23",
+      "type": "highlight",
+      "title": "Sinigaglia",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4ce6406c-6864-499b-8ef8-76e6eb59d3ee.png",
+      "lowestPrice": 633,
+      "latestCreatedAt": "2026-08-03T20:45:22.662Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 22,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0b5c8e24-6918-46c0-a8e3-6394371557ca.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4ce6406c-6864-499b-8ef8-76e6eb59d3ee.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL17",
+      "type": "highlight",
+      "title": "Como Trophy Lift",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5817d731-ec12-4946-868b-12c848cc5bee.png",
+      "lowestPrice": 633,
+      "latestCreatedAt": "2026-08-03T20:43:23.839Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/211b4c35-2dca-4a58-95f6-ff6322adcf49.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5817d731-ec12-4946-868b-12c848cc5bee.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL20",
+      "type": "highlight",
+      "title": "Goal Celebration",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/095c7c12-4299-4845-9c18-6f5761070bfc.png",
+      "lowestPrice": 500,
+      "latestCreatedAt": "2026-08-03T20:41:02.834Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/219d3dcf-b1b8-4efc-911d-54592dab14a4.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/095c7c12-4299-4845-9c18-6f5761070bfc.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP33",
+      "type": "highlight",
+      "title": "Luis Quiñones - Signed",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/31f2ceb1-7659-4e35-ac1b-0c6f098e0fa0.png",
+      "lowestPrice": 1800,
+      "latestCreatedAt": "2026-08-03T20:39:53.776Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e0709bed-c1df-45b9-bf15-7b628e4e8191.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/31f2ceb1-7659-4e35-ac1b-0c6f098e0fa0.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP42",
+      "type": "highlight",
+      "title": "Gastón Togni",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97893ffa-06db-43a4-87dc-4d626115128f.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-03T20:38:44.882Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/92bed013-9618-4e4e-965a-884941fea937.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97893ffa-06db-43a4-87dc-4d626115128f.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP28",
+      "type": "highlight",
+      "title": "Jhonder Cádiz",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc853b8f-98e1-440e-bbb3-9299902ba496.png",
+      "lowestPrice": 125,
+      "latestCreatedAt": "2026-08-03T20:37:59.138Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b05dc5b-7284-478c-9235-e09d23d5cb02.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc853b8f-98e1-440e-bbb3-9299902ba496.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL18",
+      "type": "highlight",
+      "title": "Como Cup Trophy",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94526171-8bcb-4f8c-9d38-99cf107c7dda.png",
+      "lowestPrice": 500,
+      "latestCreatedAt": "2026-08-03T20:37:00.938Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0647a204-f751-4783-87ed-7e5ce1e87ffe.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94526171-8bcb-4f8c-9d38-99cf107c7dda.png"
+      }
+    },
+    {
+      "uniqueCode": "M_MDC32",
+      "type": "highlight",
+      "title": "2. Ricardo Chávez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/462a5ffc-5174-4999-8c2b-640eb7d0107a.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-03T20:35:21.762Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-jerseymdc2025-80aniversario-sp",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5b0cfaee-9d44-4f41-bc14-5b3443aace85.png",
+      "pack": {
+        "slug": "monterrey-jerseymdc2025-80aniversario-sp",
+        "title": "CF Monterrey - Jersey MDC 2025 | 80 Aniversario",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bf3b938d-b101-47d6-aaf1-f9ba06053d6a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/462a5ffc-5174-4999-8c2b-640eb7d0107a.png"
+      }
+    },
+    {
+      "uniqueCode": "M_MDC24",
+      "type": "highlight",
+      "title": "16. Johan Rojas",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d30800e6-abd9-42d2-81cd-6f1b74316749.png",
+      "lowestPrice": 168,
+      "latestCreatedAt": "2026-08-03T20:35:00.430Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-jerseymdc2025-80aniversario-sp",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fabc4c11-f1c0-4126-8dab-6f45686aa1e5.png",
+      "pack": {
+        "slug": "monterrey-jerseymdc2025-80aniversario-sp",
+        "title": "CF Monterrey - Jersey MDC 2025 | 80 Aniversario",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bf3b938d-b101-47d6-aaf1-f9ba06053d6a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d30800e6-abd9-42d2-81cd-6f1b74316749.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL21",
+      "type": "highlight",
+      "title": "Como Line-Up vs Ajax",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63b2b539-8cce-42b6-8f42-78b0283c736b.png",
+      "lowestPrice": 550,
+      "latestCreatedAt": "2026-08-03T20:34:44.654Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3121c011-7806-43d7-8f8f-914b6357aec0.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63b2b539-8cce-42b6-8f42-78b0283c736b.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL19",
+      "type": "highlight",
+      "title": "Team Trophy Celebration",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/69604f9e-ed53-46c5-884c-dbb8b87f247b.png",
+      "lowestPrice": 633,
+      "latestCreatedAt": "2026-08-03T20:32:05.123Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 17,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4590a397-e306-4f6d-9aa6-42ae2345c0ba.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/69604f9e-ed53-46c5-884c-dbb8b87f247b.png"
+      }
+    },
+    {
+      "uniqueCode": "M_MDC15",
+      "type": "highlight",
+      "title": "25. Santiago Mele",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66eb1616-20bb-49c9-b175-cad77cd2aa1e.png",
+      "lowestPrice": 561,
+      "latestCreatedAt": "2026-08-03T20:30:27.911Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-jerseymdc2025-80aniversario-sp",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4eaf03a2-e1ca-4dd7-96fb-e85e7ea4ab3a.png",
+      "pack": {
+        "slug": "monterrey-jerseymdc2025-80aniversario-sp",
+        "title": "CF Monterrey - Jersey MDC 2025 | 80 Aniversario",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bf3b938d-b101-47d6-aaf1-f9ba06053d6a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66eb1616-20bb-49c9-b175-cad77cd2aa1e.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL22",
+      "type": "highlight",
+      "title": "Como Line-Up vs Al-Ahli",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c9063754-83bb-4d73-bdf4-08b89bec0bc8.png",
+      "lowestPrice": 475,
+      "latestCreatedAt": "2026-08-03T20:29:40.288Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6ded17f6-f266-4a1e-9b01-3029084f8fe8.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c9063754-83bb-4d73-bdf4-08b89bec0bc8.png"
+      }
+    },
+    {
+      "uniqueCode": "B_MH12",
+      "type": "highlight",
+      "title": "Internacional x Botafogo",
+      "subtitle": "Botafogo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1c4d130-5792-44c9-982e-6fed669f66dd.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-03T20:28:50.415Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "botafogo-momentos-historicos2024-sp",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d34c28-3b76-4c6f-8331-7d95d45dd523.png",
+      "pack": {
+        "slug": "botafogo-momentos-historicos2024-sp",
+        "title": "Botafogo FR - Momentos Históricos 2024",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b0a39cb-546e-47dc-b0e0-81988023c9fa.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1c4d130-5792-44c9-982e-6fed669f66dd.png"
+      }
+    },
+    {
+      "uniqueCode": "B_MH09",
+      "type": "highlight",
+      "title": "Botafogo x Peñarol",
+      "subtitle": "Botafogo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8073c3dc-c342-40d9-a705-ca316df1c93f.png",
+      "lowestPrice": 150,
+      "latestCreatedAt": "2026-08-03T20:27:48.596Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "botafogo-momentos-historicos2024-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bfe0eab2-a15c-48b9-ac5c-6777250636c4.png",
+      "pack": {
+        "slug": "botafogo-momentos-historicos2024-sp",
+        "title": "Botafogo FR - Momentos Históricos 2024",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b0a39cb-546e-47dc-b0e0-81988023c9fa.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8073c3dc-c342-40d9-a705-ca316df1c93f.png"
+      }
+    },
+    {
+      "uniqueCode": "B_MH13",
+      "type": "highlight",
+      "title": "Botafogo x Vasco",
+      "subtitle": "Botafogo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62392272-0bb5-4f2d-b5bd-aeffb43b9578.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-03T20:27:06.485Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "botafogo-momentos-historicos2024-sp",
+      "lowestEdition": 21,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a179559c-96d1-4f55-a730-38a5a8934bc7.png",
+      "pack": {
+        "slug": "botafogo-momentos-historicos2024-sp",
+        "title": "Botafogo FR - Momentos Históricos 2024",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b0a39cb-546e-47dc-b0e0-81988023c9fa.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62392272-0bb5-4f2d-b5bd-aeffb43b9578.png"
+      }
+    },
+    {
+      "uniqueCode": "B_MH10",
+      "type": "highlight",
+      "title": "São Paulo x Botafogo",
+      "subtitle": "Botafogo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/23b5de68-4ac6-47c7-a8df-ebb5ee611942.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-03T20:26:50.716Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "botafogo-momentos-historicos2024-sp",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/82310868-588f-4f76-8020-f68f6e127fa3.png",
+      "pack": {
+        "slug": "botafogo-momentos-historicos2024-sp",
+        "title": "Botafogo FR - Momentos Históricos 2024",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b0a39cb-546e-47dc-b0e0-81988023c9fa.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/23b5de68-4ac6-47c7-a8df-ebb5ee611942.png"
+      }
+    },
+    {
+      "uniqueCode": "C_FL24",
+      "type": "highlight",
+      "title": "Como Cup Logo",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0919ee4b-c30e-4a74-8e07-c9cfe2e22868.png",
+      "lowestPrice": 430,
+      "latestCreatedAt": "2026-08-03T20:26:46.710Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/53261972-05cf-4a36-bae6-c130c9e39e35.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0919ee4b-c30e-4a74-8e07-c9cfe2e22868.png"
+      }
+    },
+    {
+      "uniqueCode": "B_MH06",
+      "type": "highlight",
+      "title": "Palmeiras x Botafogo",
+      "subtitle": "Botafogo",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a68f0a86-555f-40a9-b1f6-76f024f87a04.png",
+      "lowestPrice": 600,
+      "latestCreatedAt": "2026-08-03T20:26:25.073Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "botafogo-momentos-historicos2024-sp",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b8a4ed4e-e38b-46fe-a4c0-219adefbca40.png",
+      "pack": {
+        "slug": "botafogo-momentos-historicos2024-sp",
+        "title": "Botafogo FR - Momentos Históricos 2024",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b0a39cb-546e-47dc-b0e0-81988023c9fa.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a68f0a86-555f-40a9-b1f6-76f024f87a04.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY37",
+      "type": "highlight",
+      "title": "City of Monterrey 419th Anniversary TIFO",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53a1853a-23e1-4c53-ae18-d12e49c871d2.png",
+      "lowestPrice": 700,
+      "latestCreatedAt": "2026-08-03T20:23:56.069Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/94de93d4-fe9a-4bc3-957a-9dcba6eef297.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53a1853a-23e1-4c53-ae18-d12e49c871d2.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY33",
+      "type": "highlight",
+      "title": "1945 CF Monterrey",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0ed2f044-74b9-4126-9f4a-708f1c8caacf.png",
+      "lowestPrice": 325,
+      "latestCreatedAt": "2026-08-03T20:23:48.325Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3ab2b22b-d81b-4b3f-ac27-afd1ffc85268.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0ed2f044-74b9-4126-9f4a-708f1c8caacf.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY44",
+      "type": "highlight",
+      "title": "Steel Horizon",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e41b76e2-6eee-4ca8-a4a8-dfa67ef9663a.png",
+      "lowestPrice": 475,
+      "latestCreatedAt": "2026-08-03T20:23:22.056Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 17,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/be1a29ad-6241-4ea9-8b6f-8695a8434cca.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e41b76e2-6eee-4ca8-a4a8-dfa67ef9663a.png"
+      }
+    },
     {
       "uniqueCode": "MMTY48",
       "type": "highlight",
@@ -506,30 +1466,6 @@
       }
     },
     {
-      "uniqueCode": "MMTY02",
-      "type": "highlight",
-      "title": "360° Pre-Match View",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2696f1ad-a762-47ef-96ff-cb9e40bf1941.png",
-      "lowestPrice": 5000,
-      "latestCreatedAt": "2026-08-03T20:08:11.170Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cccc0696-35d4-4dd3-b899-0069b12d59f6.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2696f1ad-a762-47ef-96ff-cb9e40bf1941.png"
-      }
-    },
-    {
       "uniqueCode": "C_FL08",
       "type": "highlight",
       "title": "Como Cup Logo",
@@ -647,150 +1583,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e82033d8-f1cc-4e32-8cbb-80ef9f966b11.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL24",
-      "type": "highlight",
-      "title": "Como Cup Logo",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0919ee4b-c30e-4a74-8e07-c9cfe2e22868.png",
-      "lowestPrice": 430,
-      "latestCreatedAt": "2026-08-03T17:42:59.221Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 17,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/53261972-05cf-4a36-bae6-c130c9e39e35.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0919ee4b-c30e-4a74-8e07-c9cfe2e22868.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL22",
-      "type": "highlight",
-      "title": "Como Line-Up vs Al-Ahli",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c9063754-83bb-4d73-bdf4-08b89bec0bc8.png",
-      "lowestPrice": 475,
-      "latestCreatedAt": "2026-08-03T17:42:39.476Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 23,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6ded17f6-f266-4a1e-9b01-3029084f8fe8.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c9063754-83bb-4d73-bdf4-08b89bec0bc8.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL19",
-      "type": "highlight",
-      "title": "Team Trophy Celebration",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/69604f9e-ed53-46c5-884c-dbb8b87f247b.png",
-      "lowestPrice": 700,
-      "latestCreatedAt": "2026-08-03T17:42:21.419Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 17,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4590a397-e306-4f6d-9aa6-42ae2345c0ba.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/69604f9e-ed53-46c5-884c-dbb8b87f247b.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL20",
-      "type": "highlight",
-      "title": "Goal Celebration",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/095c7c12-4299-4845-9c18-6f5761070bfc.png",
-      "lowestPrice": 500,
-      "latestCreatedAt": "2026-08-03T17:41:50.493Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 17,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/219d3dcf-b1b8-4efc-911d-54592dab14a4.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/095c7c12-4299-4845-9c18-6f5761070bfc.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL21",
-      "type": "highlight",
-      "title": "Como Line-Up vs Ajax",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63b2b539-8cce-42b6-8f42-78b0283c736b.png",
-      "lowestPrice": 550,
-      "latestCreatedAt": "2026-08-03T17:41:33.097Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3121c011-7806-43d7-8f8f-914b6357aec0.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63b2b539-8cce-42b6-8f42-78b0283c736b.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL18",
-      "type": "highlight",
-      "title": "Como Cup Trophy",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94526171-8bcb-4f8c-9d38-99cf107c7dda.png",
-      "lowestPrice": 500,
-      "latestCreatedAt": "2026-08-03T17:41:17.774Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0647a204-f751-4783-87ed-7e5ce1e87ffe.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/94526171-8bcb-4f8c-9d38-99cf107c7dda.png"
       }
     },
     {
@@ -1103,30 +1895,6 @@
         "title": "CF Monterrey - Estadio Monterrey",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/712b752b-5912-4a3c-ae42-3335688c27d5.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY15",
-      "type": "highlight",
-      "title": "El Gigante de Acero por la Noche",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png",
-      "lowestPrice": 12500,
-      "latestCreatedAt": "2026-08-03T15:07:43.488Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0ff3d275-a823-4f1b-8c81-2ff15b4c5618.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png"
       }
     },
     {
@@ -1535,78 +2303,6 @@
         "title": "Romania - Road to '26",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bbd2a8ac-9e27-4a1b-825b-8675b974ada8.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ec061b5f-493d-4e7d-adc9-d725e57e8f9e.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY44",
-      "type": "highlight",
-      "title": "Steel Horizon",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e41b76e2-6eee-4ca8-a4a8-dfa67ef9663a.png",
-      "lowestPrice": 475,
-      "latestCreatedAt": "2026-08-03T05:52:49.432Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 28,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/be1a29ad-6241-4ea9-8b6f-8695a8434cca.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e41b76e2-6eee-4ca8-a4a8-dfa67ef9663a.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL17",
-      "type": "highlight",
-      "title": "Como Trophy Lift",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5817d731-ec12-4946-868b-12c848cc5bee.png",
-      "lowestPrice": 688,
-      "latestCreatedAt": "2026-08-03T00:24:39.324Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 33,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/211b4c35-2dca-4a58-95f6-ff6322adcf49.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5817d731-ec12-4946-868b-12c848cc5bee.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL13",
-      "type": "highlight",
-      "title": "Como Line-Up vs Ajax",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/52ea5509-4d0c-4fab-90ba-7760489bf9b1.png",
-      "lowestPrice": 1600,
-      "latestCreatedAt": "2026-08-03T00:22:06.888Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d706f47c-7dbd-4e7f-a4a7-392ec1b21792.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/52ea5509-4d0c-4fab-90ba-7760489bf9b1.png"
       }
     },
     {
@@ -2354,54 +3050,6 @@
       }
     },
     {
-      "uniqueCode": "C_FL10",
-      "type": "highlight",
-      "title": "Como Cup Trophy",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9b5b9cb0-3393-4099-b0b7-f169c17f33f4.png",
-      "lowestPrice": 1500,
-      "latestCreatedAt": "2026-08-02T14:39:00.377Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/027e7f87-eb1e-4b15-97b4-06844b4bae54.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9b5b9cb0-3393-4099-b0b7-f169c17f33f4.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL23",
-      "type": "highlight",
-      "title": "Sinigaglia",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4ce6406c-6864-499b-8ef8-76e6eb59d3ee.png",
-      "lowestPrice": 800,
-      "latestCreatedAt": "2026-08-02T14:37:42.935Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 22,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0b5c8e24-6918-46c0-a8e3-6394371557ca.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4ce6406c-6864-499b-8ef8-76e6eb59d3ee.png"
-      }
-    },
-    {
       "uniqueCode": "F_AM33",
       "type": "highlight",
       "title": "9. Everaldo",
@@ -2738,150 +3386,6 @@
       }
     },
     {
-      "uniqueCode": "C_FL14",
-      "type": "highlight",
-      "title": "Como Line-Up vs Al-Ahli",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f8acc9cc-4793-46cb-a89a-1dc96d57405b.png",
-      "lowestPrice": 1500,
-      "latestCreatedAt": "2026-08-01T22:21:19.221Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 22,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2b0c9813-b801-4521-b23c-1c2ca6449515.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f8acc9cc-4793-46cb-a89a-1dc96d57405b.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL11",
-      "type": "highlight",
-      "title": "Team Trophy Celebration",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0e84a034-728e-44af-84bb-f814a20e3d55.png",
-      "lowestPrice": 3500,
-      "latestCreatedAt": "2026-08-01T22:20:47.677Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7d288591-e72b-496a-9014-95ec6cf403fe.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0e84a034-728e-44af-84bb-f814a20e3d55.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL09",
-      "type": "highlight",
-      "title": "Como Trophy Lift",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63d9b9fa-fe83-41f4-950b-5c7442245adb.png",
-      "lowestPrice": 1500,
-      "latestCreatedAt": "2026-08-01T22:20:04.834Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/04ecddb2-d049-4900-a8c1-a4c8f6f7dd80.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63d9b9fa-fe83-41f4-950b-5c7442245adb.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL16",
-      "type": "highlight",
-      "title": "Como Cup Logo",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f9a0512a-d455-4f8a-9afa-e63f6a8ee68d.png",
-      "lowestPrice": 1500,
-      "latestCreatedAt": "2026-08-01T22:19:06.016Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 21,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/680c3868-4425-4393-8680-1c873ba5b6d3.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f9a0512a-d455-4f8a-9afa-e63f6a8ee68d.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL28",
-      "type": "highlight",
-      "title": "Goal Celebration",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d6ee314-c4b5-42ea-8eba-ba468f83d4a2.png",
-      "lowestPrice": 469,
-      "latestCreatedAt": "2026-08-01T22:02:36.879Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 16,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6266bb0d-c0d6-427c-9f73-14b5434f0e61.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d6ee314-c4b5-42ea-8eba-ba468f83d4a2.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL26",
-      "type": "highlight",
-      "title": "Como Cup Trophy",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcf1c318-f434-4bbd-9a74-e070ecd3249f.png",
-      "lowestPrice": 469,
-      "latestCreatedAt": "2026-08-01T21:49:03.996Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 18,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/145e1397-9225-4177-a199-250310466f64.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcf1c318-f434-4bbd-9a74-e070ecd3249f.png"
-      }
-    },
-    {
       "uniqueCode": "C_FL35",
       "type": "highlight",
       "title": "Como Cup Trophy - Special",
@@ -3047,30 +3551,6 @@
         "title": "Fluminense FC - Armadura Tricolor MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/cba1e688-318b-491e-bd56-1cf9536b8d4a.png"
-      }
-    },
-    {
-      "uniqueCode": "P_AP28",
-      "type": "highlight",
-      "title": "Jhonder Cádiz",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc853b8f-98e1-440e-bbb3-9299902ba496.png",
-      "lowestPrice": 140,
-      "latestCreatedAt": "2026-08-01T19:37:50.220Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b05dc5b-7284-478c-9235-e09d23d5cb02.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fc853b8f-98e1-440e-bbb3-9299902ba496.png"
       }
     },
     {
@@ -3311,30 +3791,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2444d87e-05cc-4d91-95a7-8c07230ad6d3.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY37",
-      "type": "highlight",
-      "title": "City of Monterrey 419th Anniversary TIFO",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53a1853a-23e1-4c53-ae18-d12e49c871d2.png",
-      "lowestPrice": 900,
-      "latestCreatedAt": "2026-08-01T12:36:29.428Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/94de93d4-fe9a-4bc3-957a-9dcba6eef297.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/53a1853a-23e1-4c53-ae18-d12e49c871d2.png"
       }
     },
     {
@@ -4130,30 +4586,6 @@
       }
     },
     {
-      "uniqueCode": "C_FL12",
-      "type": "highlight",
-      "title": "Goal Celebration",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2bb20fd1-37d9-439a-b655-a7ec060b68ca.png",
-      "lowestPrice": 1400,
-      "latestCreatedAt": "2026-07-31T17:06:52.241Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 17,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b761124c-d438-4187-874c-0f8280446f53.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2bb20fd1-37d9-439a-b655-a7ec060b68ca.png"
-      }
-    },
-    {
       "uniqueCode": "MMTY25",
       "type": "highlight",
       "title": "Flashing Lights",
@@ -4175,30 +4607,6 @@
         "title": "CF Monterrey - Estadio Monterrey",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/586c19d7-ff8c-46c1-a279-25cdcca2fe48.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY33",
-      "type": "highlight",
-      "title": "1945 CF Monterrey",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0ed2f044-74b9-4126-9f4a-708f1c8caacf.png",
-      "lowestPrice": 325,
-      "latestCreatedAt": "2026-07-31T14:02:25.741Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3ab2b22b-d81b-4b3f-ac27-afd1ffc85268.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0ed2f044-74b9-4126-9f4a-708f1c8caacf.png"
       }
     },
     {
@@ -6842,30 +7250,6 @@
       }
     },
     {
-      "uniqueCode": "RO_T17",
-      "type": "highlight",
-      "title": "Denis Alibec",
-      "subtitle": "Romania",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f741fce2-9843-4536-a89a-77edecfba402.png",
-      "lowestPrice": 700,
-      "latestCreatedAt": "2026-07-28T00:37:49.324Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "romania-tricolorii-sp",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/df169c51-e9fb-45b9-9270-a280f952d11e.png",
-      "pack": {
-        "slug": "romania-tricolorii-sp",
-        "title": "Romania - Tricolorii",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/73a017c9-9adc-4f50-84a1-128232d331e7.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f741fce2-9843-4536-a89a-77edecfba402.png"
-      }
-    },
-    {
       "uniqueCode": "RO_T19",
       "type": "highlight",
       "title": "Dennis Man",
@@ -7487,30 +7871,6 @@
         "title": "CF Pachuca - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/77ebc635-ba66-4583-8856-776ccd0132f9.png"
-      }
-    },
-    {
-      "uniqueCode": "P_AP42",
-      "type": "highlight",
-      "title": "Gastón Togni",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97893ffa-06db-43a4-87dc-4d626115128f.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-07-27T16:38:12.214Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/92bed013-9618-4e4e-965a-884941fea937.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/97893ffa-06db-43a4-87dc-4d626115128f.png"
       }
     },
     {
@@ -15583,30 +15943,6 @@
       }
     },
     {
-      "uniqueCode": "M_2CL18",
-      "type": "highlight",
-      "title": "Iker Fimbres",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6a0096ff-f83e-4cef-b797-d35c01ae0eff.png",
-      "lowestPrice": 2000,
-      "latestCreatedAt": "2026-07-08T23:53:43.946Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 40,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2619c9ca-689d-48b6-98ca-bca6b0cd2880.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6a0096ff-f83e-4cef-b797-d35c01ae0eff.png"
-      }
-    },
-    {
       "uniqueCode": "mem-m56",
       "type": "highlight",
       "title": "M56 Dynamic Match Collectible",
@@ -15892,30 +16228,6 @@
         "title": "Surprise - Panini Legacy",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/468ca15d-01f2-4f5c-9040-6228066c4a8b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7001d4b7-1bcb-4d75-b432-86b8ee9d3fc4.png"
-      }
-    },
-    {
-      "uniqueCode": "reg-dr09",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™ ARG 2 - 1 AUS **GOAL: Alvarez 57'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1fdc9571-ecc6-44b6-b950-5e1ee293dfad.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-07-08T18:13:27.192Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "regenesis-drop",
-      "lowestEdition": 10,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "regenesis-drop",
-        "title": "Regenesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1fdc9571-ecc6-44b6-b950-5e1ee293dfad.jpeg"
       }
     },
     {
@@ -23091,54 +23403,6 @@
       }
     },
     {
-      "uniqueCode": "M_MDC24",
-      "type": "highlight",
-      "title": "16. Johan Rojas",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d30800e6-abd9-42d2-81cd-6f1b74316749.png",
-      "lowestPrice": 168,
-      "latestCreatedAt": "2026-06-19T17:11:18.753Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-jerseymdc2025-80aniversario-sp",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fabc4c11-f1c0-4126-8dab-6f45686aa1e5.png",
-      "pack": {
-        "slug": "monterrey-jerseymdc2025-80aniversario-sp",
-        "title": "CF Monterrey - Jersey MDC 2025 | 80 Aniversario",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bf3b938d-b101-47d6-aaf1-f9ba06053d6a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d30800e6-abd9-42d2-81cd-6f1b74316749.png"
-      }
-    },
-    {
-      "uniqueCode": "M_MDC32",
-      "type": "highlight",
-      "title": "2. Ricardo Chávez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/462a5ffc-5174-4999-8c2b-640eb7d0107a.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-19T17:10:44.335Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-jerseymdc2025-80aniversario-sp",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5b0cfaee-9d44-4f41-bc14-5b3443aace85.png",
-      "pack": {
-        "slug": "monterrey-jerseymdc2025-80aniversario-sp",
-        "title": "CF Monterrey - Jersey MDC 2025 | 80 Aniversario",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bf3b938d-b101-47d6-aaf1-f9ba06053d6a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/462a5ffc-5174-4999-8c2b-640eb7d0107a.png"
-      }
-    },
-    {
       "uniqueCode": "M_MDC16",
       "type": "highlight",
       "title": "8. Óliver Torres",
@@ -23208,54 +23472,6 @@
         "title": "Fluminense FC - Armadura Tricolor MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ac7d47fb-a2cd-466f-b63b-29dde5143372.png"
-      }
-    },
-    {
-      "uniqueCode": "B_MH12",
-      "type": "highlight",
-      "title": "Internacional x Botafogo",
-      "subtitle": "Botafogo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1c4d130-5792-44c9-982e-6fed669f66dd.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-19T17:01:02.527Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "botafogo-momentos-historicos2024-sp",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5d34c28-3b76-4c6f-8331-7d95d45dd523.png",
-      "pack": {
-        "slug": "botafogo-momentos-historicos2024-sp",
-        "title": "Botafogo FR - Momentos Históricos 2024",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b0a39cb-546e-47dc-b0e0-81988023c9fa.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a1c4d130-5792-44c9-982e-6fed669f66dd.png"
-      }
-    },
-    {
-      "uniqueCode": "B_MH13",
-      "type": "highlight",
-      "title": "Botafogo x Vasco",
-      "subtitle": "Botafogo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62392272-0bb5-4f2d-b5bd-aeffb43b9578.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-19T17:00:52.342Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "botafogo-momentos-historicos2024-sp",
-      "lowestEdition": 21,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a179559c-96d1-4f55-a730-38a5a8934bc7.png",
-      "pack": {
-        "slug": "botafogo-momentos-historicos2024-sp",
-        "title": "Botafogo FR - Momentos Históricos 2024",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b0a39cb-546e-47dc-b0e0-81988023c9fa.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62392272-0bb5-4f2d-b5bd-aeffb43b9578.png"
       }
     },
     {
@@ -27997,30 +28213,6 @@
       }
     },
     {
-      "uniqueCode": "P_AP33",
-      "type": "highlight",
-      "title": "Luis Quiñones - Signed",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/31f2ceb1-7659-4e35-ac1b-0c6f098e0fa0.png",
-      "lowestPrice": 1800,
-      "latestCreatedAt": "2026-06-06T17:13:03.105Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e0709bed-c1df-45b9-bf15-7b628e4e8191.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/31f2ceb1-7659-4e35-ac1b-0c6f098e0fa0.png"
-      }
-    },
-    {
       "uniqueCode": "F_AM45",
       "type": "highlight",
       "title": "19. Joaquín Lavega",
@@ -29818,30 +30010,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e72fe8c7-e6b2-4a07-8239-25a5c67f3f6a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc8eb707-33aa-478b-9bb9-6835e2a4eb98.png"
-      }
-    },
-    {
-      "uniqueCode": "G_RB26",
-      "type": "highlight",
-      "title": "Jean Onana",
-      "subtitle": "Genoa CFC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27388052-bb94-49c6-b8a4-1fd3d5e883d0.png",
-      "lowestPrice": 106,
-      "latestCreatedAt": "2026-06-03T22:17:10.296Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genoa-rossoblu2526",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/92406b4f-bcb0-4652-bec6-805b212ff0a5.png",
-      "pack": {
-        "slug": "genoa-rossoblu2526",
-        "title": "Genoa CFC - Rossoblù 25/26",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a93afb8-aea1-4bee-b562-ae4ad7bf8945.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/27388052-bb94-49c6-b8a4-1fd3d5e883d0.png"
       }
     },
     {
@@ -35917,30 +36085,6 @@
       }
     },
     {
-      "uniqueCode": "FFT_10",
-      "type": "highlight",
-      "title": "Flu x Vas Laranjeiras - 1933",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e927060d-1de5-4924-b53b-4e61e03e89b7.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-14T06:23:58.819Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fan-tricolor",
-      "lowestEdition": 24,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1f049851-e8a9-47be-8684-d4dfde7a42a8.jpeg",
-      "pack": {
-        "slug": "fan-tricolor",
-        "title": "Fluminense FC - Fan Tricolor",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/591cb67d-a723-473d-a56b-30efa94300d7.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e927060d-1de5-4924-b53b-4e61e03e89b7.png"
-      }
-    },
-    {
       "uniqueCode": "FFT_09",
       "type": "highlight",
       "title": "Flu x Fla Laranjeiras - 1941",
@@ -35962,30 +36106,6 @@
         "title": "Fluminense FC - Fan Tricolor",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/591cb67d-a723-473d-a56b-30efa94300d7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/246bf27f-5c09-4e81-9b00-630cd4333609.png"
-      }
-    },
-    {
-      "uniqueCode": "M_MDC15",
-      "type": "highlight",
-      "title": "25. Santiago Mele",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66eb1616-20bb-49c9-b175-cad77cd2aa1e.png",
-      "lowestPrice": 561,
-      "latestCreatedAt": "2026-05-14T02:49:25.550Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-jerseymdc2025-80aniversario-sp",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4eaf03a2-e1ca-4dd7-96fb-e85e7ea4ab3a.png",
-      "pack": {
-        "slug": "monterrey-jerseymdc2025-80aniversario-sp",
-        "title": "CF Monterrey - Jersey MDC 2025 | 80 Aniversario",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bf3b938d-b101-47d6-aaf1-f9ba06053d6a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66eb1616-20bb-49c9-b175-cad77cd2aa1e.png"
       }
     },
     {
@@ -36829,30 +36949,6 @@
       }
     },
     {
-      "uniqueCode": "B_MH09",
-      "type": "highlight",
-      "title": "Botafogo x Peñarol",
-      "subtitle": "Botafogo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8073c3dc-c342-40d9-a705-ca316df1c93f.png",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2026-05-11T00:07:23.442Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "botafogo-momentos-historicos2024-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bfe0eab2-a15c-48b9-ac5c-6777250636c4.png",
-      "pack": {
-        "slug": "botafogo-momentos-historicos2024-sp",
-        "title": "Botafogo FR - Momentos Históricos 2024",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b0a39cb-546e-47dc-b0e0-81988023c9fa.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8073c3dc-c342-40d9-a705-ca316df1c93f.png"
-      }
-    },
-    {
       "uniqueCode": "L_LP25",
       "type": "highlight",
       "title": "Jhonder Cádiz",
@@ -36970,30 +37066,6 @@
         "title": "CF Pachuca - Legends",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f9c437c2-ba18-4dd8-be87-37ab7187c691.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/37e5a488-6dee-4796-b9fa-ab47909bee6f.png"
-      }
-    },
-    {
-      "uniqueCode": "P_L16",
-      "type": "highlight",
-      "title": "Aquivaldo Mosquera",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ea50edb9-a1c8-4e29-b4f6-664dc313e45f.png",
-      "lowestPrice": 115,
-      "latestCreatedAt": "2026-05-11T00:01:05.121Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-legends-sp",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a1c68cb0-ae22-4e8c-a932-8c93a70a4cf7.png",
-      "pack": {
-        "slug": "pachuca-legends-sp",
-        "title": "CF Pachuca - Legends",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f9c437c2-ba18-4dd8-be87-37ab7187c691.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ea50edb9-a1c8-4e29-b4f6-664dc313e45f.png"
       }
     },
     {
@@ -37234,30 +37306,6 @@
         "title": "The Last Line",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a368d47-38e1-4b2b-a808-be5d315b4b3b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d721c8e4-6ca9-4ef8-81e8-e6f4a0dfaa63.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "B_MH10",
-      "type": "highlight",
-      "title": "São Paulo x Botafogo",
-      "subtitle": "Botafogo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/23b5de68-4ac6-47c7-a8df-ebb5ee611942.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-09T02:05:34.864Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "botafogo-momentos-historicos2024-sp",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/82310868-588f-4f76-8020-f68f6e127fa3.png",
-      "pack": {
-        "slug": "botafogo-momentos-historicos2024-sp",
-        "title": "Botafogo FR - Momentos Históricos 2024",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b0a39cb-546e-47dc-b0e0-81988023c9fa.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/23b5de68-4ac6-47c7-a8df-ebb5ee611942.png"
       }
     },
     {
@@ -37786,30 +37834,6 @@
         "title": "Free Kick Magic",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/caec5423-d527-4628-ad36-1e7291a7b7c5.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/806d6ac2-c8f0-4e57-9691-5b15a865ab87.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "B_MH06",
-      "type": "highlight",
-      "title": "Palmeiras x Botafogo",
-      "subtitle": "Botafogo",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a68f0a86-555f-40a9-b1f6-76f024f87a04.png",
-      "lowestPrice": 700,
-      "latestCreatedAt": "2026-05-06T21:31:36.073Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "botafogo-momentos-historicos2024-sp",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b8a4ed4e-e38b-46fe-a4c0-219adefbca40.png",
-      "pack": {
-        "slug": "botafogo-momentos-historicos2024-sp",
-        "title": "Botafogo FR - Momentos Históricos 2024",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1b0a39cb-546e-47dc-b0e0-81988023c9fa.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a68f0a86-555f-40a9-b1f6-76f024f87a04.png"
       }
     },
     {
