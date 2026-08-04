@@ -2,6 +2,30 @@
   "total": 2152,
   "listings": [
     {
+      "uniqueCode": "C_FL01",
+      "type": "highlight",
+      "title": "Como Trophy Lift",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png",
+      "lowestPrice": 6900,
+      "latestCreatedAt": "2026-08-03T22:45:43.343Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b76d9dca-937f-4ff1-98fb-e37b3ed1d91e.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png"
+      }
+    },
+    {
       "uniqueCode": "RO_T17",
       "type": "highlight",
       "title": "Denis Alibec",
@@ -367,7 +391,7 @@
       "title": "Team Trophy Celebration",
       "subtitle": "Como 1907",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0e84a034-728e-44af-84bb-f814a20e3d55.png",
-      "lowestPrice": 2000,
+      "lowestPrice": 2500,
       "latestCreatedAt": "2026-08-03T20:49:15.078Z",
       "rarity": {
         "code": "30",
@@ -1751,30 +1775,6 @@
         "title": "Fluminense FC - Armadura Tricolor MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c161e02b-43a0-4cca-b57e-06f5a790458e.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL01",
-      "type": "highlight",
-      "title": "Como Trophy Lift",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png",
-      "lowestPrice": 6900,
-      "latestCreatedAt": "2026-08-03T16:56:04.976Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b76d9dca-937f-4ff1-98fb-e37b3ed1d91e.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png"
       }
     },
     {
@@ -33229,30 +33229,6 @@
       }
     },
     {
-      "uniqueCode": "F_AM22",
-      "type": "highlight",
-      "title": "35. Hércules",
-      "subtitle": "Fluminense FC",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38411d13-80ee-499a-b273-fec17f555793.png",
-      "lowestPrice": 475,
-      "latestCreatedAt": "2026-05-21T08:30:50.867Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d85e02b3-8e2a-4043-9d5d-ddadff862f19.png",
-      "pack": {
-        "slug": "fluminense-armaduratricolor-mdc2025-sp",
-        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38411d13-80ee-499a-b273-fec17f555793.png"
-      }
-    },
-    {
       "uniqueCode": "G_RB23",
       "type": "highlight",
       "title": "Sebastian Otoa",
@@ -44049,6 +44025,30 @@
         "title": "EXTRA TIME REWARD PACK",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1859f597-260b-4fe9-ba6c-b3fc9e200dcf.jpeg",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/dcd72f5a-44af-462b-81e2-8f2267e18276.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "F_AM22",
+      "type": "highlight",
+      "title": "35. Hércules",
+      "subtitle": "Fluminense FC",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38411d13-80ee-499a-b273-fec17f555793.png",
+      "lowestPrice": 475,
+      "latestCreatedAt": "2025-11-25T21:14:53.178Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fluminense-armaduratricolor-mdc2025-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d85e02b3-8e2a-4043-9d5d-ddadff862f19.png",
+      "pack": {
+        "slug": "fluminense-armaduratricolor-mdc2025-sp",
+        "title": "Fluminense FC - Armadura Tricolor MDC 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/38411d13-80ee-499a-b273-fec17f555793.png"
       }
     },
     {
