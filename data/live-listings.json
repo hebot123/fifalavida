@@ -2,6 +2,54 @@
   "total": 2151,
   "listings": [
     {
+      "uniqueCode": "MMTY15",
+      "type": "highlight",
+      "title": "El Gigante de Acero por la Noche",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png",
+      "lowestPrice": 9500,
+      "latestCreatedAt": "2026-08-05T05:58:03.233Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 9,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0ff3d275-a823-4f1b-8c81-2ff15b4c5618.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png"
+      }
+    },
+    {
+      "uniqueCode": "cc-ms-01",
+      "type": "highlight",
+      "title": "Barcelona",
+      "subtitle": "FIFA Club World Cup Japan 2011™<br/> SAN 0-4 BAR, **Goal: Messi '17**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e4128ada-1c5c-4c78-b673-c22f1509eb68.jpeg",
+      "lowestPrice": 10500,
+      "latestCreatedAt": "2026-08-05T04:34:31.974Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "ccl-iconic-messi",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "ccl-iconic-messi",
+        "title": "Iconic Reward Pack FIFA Collect Club Competitions",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9b053ee9-18c4-40f7-8dfd-86aa4c0f6801.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e4128ada-1c5c-4c78-b673-c22f1509eb68.jpeg"
+      }
+    },
+    {
       "uniqueCode": "M_2CL26",
       "type": "highlight",
       "title": "César Bustos",
@@ -3623,30 +3671,6 @@
         "title": "Como 1907 - Football on the Lake",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/83c888f6-176b-441c-bf58-018193246c94.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY15",
-      "type": "highlight",
-      "title": "El Gigante de Acero por la Noche",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png",
-      "lowestPrice": 12500,
-      "latestCreatedAt": "2026-08-03T15:07:43.488Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 9,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0ff3d275-a823-4f1b-8c81-2ff15b4c5618.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png"
       }
     },
     {
@@ -8135,30 +8159,6 @@
         "title": "FIFA Collect Club Competitions",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/accb485b-48b9-4252-a212-cc2475db6e4c.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/05ca694d-d737-4727-a495-da2b74cf964a.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "cc-ms-01",
-      "type": "highlight",
-      "title": "Barcelona",
-      "subtitle": "FIFA Club World Cup Japan 2011™<br/> SAN 0-4 BAR, **Goal: Messi '17**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e4128ada-1c5c-4c78-b673-c22f1509eb68.jpeg",
-      "lowestPrice": 12500,
-      "latestCreatedAt": "2026-07-27T18:10:47.465Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "ccl-iconic-messi",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "ccl-iconic-messi",
-        "title": "Iconic Reward Pack FIFA Collect Club Competitions",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9b053ee9-18c4-40f7-8dfd-86aa4c0f6801.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e4128ada-1c5c-4c78-b673-c22f1509eb68.jpeg"
       }
     },
     {
