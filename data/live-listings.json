@@ -2,6 +2,30 @@
   "total": 2156,
   "listings": [
     {
+      "uniqueCode": "MC-01",
+      "type": "highlight",
+      "title": "VIP Membership Card",
+      "subtitle": "FIFA Collect Club",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png",
+      "lowestPrice": 333300,
+      "latestCreatedAt": "2026-08-07T17:06:59.985Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "membership-cards",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/61134ba9-44cf-4a49-afdc-5e497df8e5af.png",
+      "pack": {
+        "slug": "membership-cards",
+        "title": "FIFA+ Collect Club VIP Membership",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/71a7f925-2a1a-466e-ae60-aeda49d99809.jpeg",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png"
+      }
+    },
+    {
       "uniqueCode": "C_FL02",
       "type": "highlight",
       "title": "Como Cup Trophy",
@@ -695,30 +719,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f67fedd-6bd7-493d-ac81-14dcdf14d468.png"
-      }
-    },
-    {
-      "uniqueCode": "MC-01",
-      "type": "highlight",
-      "title": "VIP Membership Card",
-      "subtitle": "FIFA Collect Club",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png",
-      "lowestPrice": 333300,
-      "latestCreatedAt": "2026-08-07T13:55:35.558Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "membership-cards",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/61134ba9-44cf-4a49-afdc-5e497df8e5af.png",
-      "pack": {
-        "slug": "membership-cards",
-        "title": "FIFA+ Collect Club VIP Membership",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/71a7f925-2a1a-466e-ae60-aeda49d99809.jpeg",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0f7a1b88-f597-4486-8ed3-abda1b27b979.png"
       }
     },
     {
