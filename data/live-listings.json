@@ -1,6 +1,486 @@
 {
-  "total": 2154,
+  "total": 2155,
   "listings": [
+    {
+      "uniqueCode": "MMTY15",
+      "type": "highlight",
+      "title": "El Gigante de Acero por la Noche",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png",
+      "lowestPrice": 4500,
+      "latestCreatedAt": "2026-08-07T15:48:28.695Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0ff3d275-a823-4f1b-8c81-2ff15b4c5618.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY11",
+      "type": "highlight",
+      "title": "Somos Monterrey TIFO",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/de14b003-f9ef-45b3-a129-99343a5ed24b.png",
+      "lowestPrice": 2800,
+      "latestCreatedAt": "2026-08-07T15:47:51.355Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5b797296-9f44-4825-ae22-d7a7af65cffb.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/de14b003-f9ef-45b3-a129-99343a5ed24b.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY02",
+      "type": "highlight",
+      "title": "360° Pre-Match View",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2696f1ad-a762-47ef-96ff-cb9e40bf1941.png",
+      "lowestPrice": 2800,
+      "latestCreatedAt": "2026-08-07T15:46:18.164Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 6,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cccc0696-35d4-4dd3-b899-0069b12d59f6.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2696f1ad-a762-47ef-96ff-cb9e40bf1941.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY10",
+      "type": "highlight",
+      "title": "Bienvenido A Casa",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/10f1dfb7-5d7e-4603-afa3-65e62de7c27c.png",
+      "lowestPrice": 3300,
+      "latestCreatedAt": "2026-08-07T15:45:17.359Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 6,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f0a77591-2a10-41f6-a5d0-edd89682794a.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/10f1dfb7-5d7e-4603-afa3-65e62de7c27c.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY08",
+      "type": "highlight",
+      "title": "Niños, Jóvenes, Viejos y los del Cielo TIFO",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c458d032-7617-4dc0-aca1-afe5d03bd100.png",
+      "lowestPrice": 5500,
+      "latestCreatedAt": "2026-08-07T15:44:35.826Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/74f02259-cef6-479a-9d99-ee71cc2c8172.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c458d032-7617-4dc0-aca1-afe5d03bd100.png"
+      }
+    },
+    {
+      "uniqueCode": "fk-mg-02",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "1994 FIFA World Cup USA™ NED 2 - 3 BRA **GAME WINNING GOAL: Branco 81'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/95104ae5-f1b4-4a45-aaf6-0d8603e48dd4.jpeg",
+      "lowestPrice": 900,
+      "latestCreatedAt": "2026-08-07T15:23:39.164Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "free-kick-magic",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "free-kick-magic",
+        "title": "Free Kick Magic",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/caec5423-d527-4628-ad36-1e7291a7b7c5.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/95104ae5-f1b4-4a45-aaf6-0d8603e48dd4.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "reg-dr01",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 0 CRO **PENALTY: Messi 34'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg",
+      "lowestPrice": 4900,
+      "latestCreatedAt": "2026-08-07T15:22:59.369Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop",
+      "lowestEdition": 3,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop",
+        "title": "Regenesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "hesp-ic",
+      "type": "highlight",
+      "title": "Spain",
+      "subtitle": "2010 FIFA World Cup South Africa™ GER 0 - 1 ESP **GOAL: Puyol '73**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1232413e-cd23-45aa-8669-ffc283ba68dd.jpeg",
+      "lowestPrice": 6900,
+      "latestCreatedAt": "2026-08-07T15:22:41.003Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "headers-sp-rwd",
+      "lowestEdition": 7,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "headers-sp-rwd",
+        "title": "Surprise Premium Headers Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/70c8c4d9-5008-40a8-ba44-f1ed090f9807.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1232413e-cd23-45aa-8669-ffc283ba68dd.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "og-pn-ch",
+      "type": "highlight",
+      "title": "England",
+      "subtitle": "2002 FIFA World Cup Korea/Japan™ ARG 0 - 1 ENG, **Penalty: Beckham 44'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1b474d43-4a45-4920-a78b-69644a522ee1.jpeg",
+      "lowestPrice": 23300,
+      "latestCreatedAt": "2026-08-07T15:22:12.520Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "og-mempen-ch",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "og-mempen-ch",
+        "title": "Memorable Penalties - Redemption Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e5abff43-a959-4503-bcea-02bfb44c6cf1.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1b474d43-4a45-4920-a78b-69644a522ee1.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "reg-rwic",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 3 FRA **GOAL: Messi 108'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92ad09e0-2c0c-42d6-9a0f-f08f583c91a8.jpeg",
+      "lowestPrice": 11900,
+      "latestCreatedAt": "2026-08-07T15:21:58.478Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop-reward",
+      "lowestEdition": 4,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop-reward",
+        "title": "Regenesis Drop Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/37cd39d9-9072-41e0-878a-4afe99d9d780.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92ad09e0-2c0c-42d6-9a0f-f08f583c91a8.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "pn-rw-01",
+      "type": "highlight",
+      "title": "Pele - Mexico 1970",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f8084487-127c-4392-a0ee-561314c0039c.png",
+      "lowestPrice": 29500,
+      "latestCreatedAt": "2026-08-07T15:20:57.969Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1970-reward",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4229cc23-52bd-4419-b09b-1a0b75d7e7b8.png",
+      "pack": {
+        "slug": "panini-1970-reward",
+        "title": "Surprise - Panini Mexico 1970 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/41adf5ee-e7ea-40ab-b2e5-2edaa363e45e.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f8084487-127c-4392-a0ee-561314c0039c.png"
+      }
+    },
+    {
+      "uniqueCode": "pm-rw-01",
+      "type": "highlight",
+      "title": "Johan Cruijff - Best Midfielder",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42a57f87-cefa-4f94-9098-f88971f43f89.png",
+      "lowestPrice": 3900,
+      "latestCreatedAt": "2026-08-07T15:20:34.878Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1974-reward",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7dfc032e-9019-4120-911b-d855071be130.png",
+      "pack": {
+        "slug": "panini-1974-reward",
+        "title": "Surprise - Panini München 1974 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/31ae5161-6967-4e19-ac14-82d03fb97946.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42a57f87-cefa-4f94-9098-f88971f43f89.png"
+      }
+    },
+    {
+      "uniqueCode": "aw4-l01",
+      "type": "highlight",
+      "title": "The Most Important Voice",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/73a7b30d-cb14-4261-a863-37e27dda2b28.jpeg",
+      "lowestPrice": 4900,
+      "latestCreatedAt": "2026-08-07T15:20:06.512Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "aof-latam",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3e340899-e0bd-4b04-a61b-15f24f62364b.png",
+      "pack": {
+        "slug": "aof-latam",
+        "title": "The Art of Football: Football is Life in LATAM",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b97b5127-5c5b-48ba-911d-dd5f1d73d582.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/73a7b30d-cb14-4261-a863-37e27dda2b28.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "bf01-mbp",
+      "type": "highlight",
+      "title": "France - Black Friday 2024",
+      "subtitle": "2018 FIFA World Cup Russia™ <br/> FRA 1-0 PER, **Goal: Mbappe 34’**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d8beae84-756b-4a47-9f4b-84abbe5ae4ee.jpeg",
+      "lowestPrice": 16900,
+      "latestCreatedAt": "2026-08-07T15:19:39.328Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "bf-mbappe",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "bf-mbappe",
+        "title": "Black Friday Flash Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4b22191a-df84-4646-86f3-a0ff794e3226.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d8beae84-756b-4a47-9f4b-84abbe5ae4ee.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "as-ul-01",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "FIFA World Cup Korea/Japan 2002™ CRC 2 - 5 BRA **GOAL: Edmilson 38'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/68e3dc7c-1558-4507-9f82-2c96b5854997.jpeg",
+      "lowestPrice": 97500,
+      "latestCreatedAt": "2026-08-07T15:19:14.764Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "acrobatic-skills-ultra",
+      "lowestEdition": 2,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "acrobatic-skills-ultra",
+        "title": "Acrobatic Skills - Ultra Edition",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6f862cbb-8164-4ade-b97b-63a9df4a6fc5.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/68e3dc7c-1558-4507-9f82-2c96b5854997.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-07",
+      "type": "highlight",
+      "title": "Portugal",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8717135f-4452-439f-afd7-fe806599e5e5.png",
+      "lowestPrice": 648,
+      "latestCreatedAt": "2026-08-07T15:07:03.974Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 37,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fc2776ca-2ec9-469e-9eea-ac512f09207e.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8717135f-4452-439f-afd7-fe806599e5e5.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-17",
+      "type": "highlight",
+      "title": "Japan",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3f95631c-caed-4950-8870-8adc6d8cbcb2.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-07T15:06:47.886Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 186,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/34dd0c4e-fc8f-4bab-992e-cef7a3e675a0.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3f95631c-caed-4950-8870-8adc6d8cbcb2.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-27",
+      "type": "highlight",
+      "title": "Norway",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d788f2b3-c854-4c08-aeb3-4401b1fc7789.png",
+      "lowestPrice": 285,
+      "latestCreatedAt": "2026-08-07T15:06:32.710Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 390,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/78a9798b-c836-4d41-b396-e3c9b8bd8b3c.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d788f2b3-c854-4c08-aeb3-4401b1fc7789.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-16",
+      "type": "highlight",
+      "title": "Senegal",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/32da10f5-fa29-4874-a363-7fa8b8b95d94.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-07T15:06:13.215Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/25e1cb01-5bf8-46d9-aec0-fd0c50a2fc44.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/32da10f5-fa29-4874-a363-7fa8b8b95d94.png"
+      }
+    },
+    {
+      "uniqueCode": "tdfwc-14",
+      "type": "highlight",
+      "title": "United States",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f67fedd-6bd7-493d-ac81-14dcdf14d468.png",
+      "lowestPrice": 500,
+      "latestCreatedAt": "2026-08-07T15:05:48.261Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "team-dynamic-fwc2026",
+      "lowestEdition": 45,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/54303920-8064-43f8-946f-30a33c351237.jpg",
+      "pack": {
+        "slug": "team-dynamic-fwc2026",
+        "title": "FWC2026 National Teams Dynamic Collectible",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f67fedd-6bd7-493d-ac81-14dcdf14d468.png"
+      }
+    },
     {
       "uniqueCode": "MC-01",
       "type": "highlight",
@@ -434,30 +914,6 @@
       }
     },
     {
-      "uniqueCode": "tdfwc-14",
-      "type": "highlight",
-      "title": "United States",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f67fedd-6bd7-493d-ac81-14dcdf14d468.png",
-      "lowestPrice": 500,
-      "latestCreatedAt": "2026-08-07T04:30:21.379Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 45,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/54303920-8064-43f8-946f-30a33c351237.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4f67fedd-6bd7-493d-ac81-14dcdf14d468.png"
-      }
-    },
-    {
       "uniqueCode": "mem-m78",
       "type": "highlight",
       "title": "M78 Dynamic Match Collectible",
@@ -842,54 +1298,6 @@
       }
     },
     {
-      "uniqueCode": "MMTY10",
-      "type": "highlight",
-      "title": "Bienvenido A Casa",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/10f1dfb7-5d7e-4603-afa3-65e62de7c27c.png",
-      "lowestPrice": 3500,
-      "latestCreatedAt": "2026-08-06T17:04:14.387Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 6,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f0a77591-2a10-41f6-a5d0-edd89682794a.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/10f1dfb7-5d7e-4603-afa3-65e62de7c27c.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY15",
-      "type": "highlight",
-      "title": "El Gigante de Acero por la Noche",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png",
-      "lowestPrice": 4500,
-      "latestCreatedAt": "2026-08-06T17:04:00.821Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0ff3d275-a823-4f1b-8c81-2ff15b4c5618.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9bd965de-fb05-483e-9e9a-15293ce4a105.png"
-      }
-    },
-    {
       "uniqueCode": "MMTY07",
       "type": "highlight",
       "title": "Monterrey Y Su Gente",
@@ -911,30 +1319,6 @@
         "title": "CF Monterrey - Estadio Monterrey",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/af959861-6ca0-4f42-ba26-8ce15dcf10f2.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY11",
-      "type": "highlight",
-      "title": "Somos Monterrey TIFO",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/de14b003-f9ef-45b3-a129-99343a5ed24b.png",
-      "lowestPrice": 3800,
-      "latestCreatedAt": "2026-08-06T16:36:05.244Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5b797296-9f44-4825-ae22-d7a7af65cffb.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/de14b003-f9ef-45b3-a129-99343a5ed24b.png"
       }
     },
     {
@@ -1418,30 +1802,6 @@
       }
     },
     {
-      "uniqueCode": "og-pn-ch",
-      "type": "highlight",
-      "title": "England",
-      "subtitle": "2002 FIFA World Cup Korea/Japan™ ARG 0 - 1 ENG, **Penalty: Beckham 44'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1b474d43-4a45-4920-a78b-69644a522ee1.jpeg",
-      "lowestPrice": 26000,
-      "latestCreatedAt": "2026-08-06T03:52:55.460Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "og-mempen-ch",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "og-mempen-ch",
-        "title": "Memorable Penalties - Redemption Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e5abff43-a959-4503-bcea-02bfb44c6cf1.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1b474d43-4a45-4920-a78b-69644a522ee1.jpeg"
-      }
-    },
-    {
       "uniqueCode": "C_FL05",
       "type": "highlight",
       "title": "Como Line-Up vs Ajax",
@@ -1463,30 +1823,6 @@
         "title": "Como 1907 - Football on the Lake",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b0358b30-6a39-4931-9d89-1dbf70c21e14.png"
-      }
-    },
-    {
-      "uniqueCode": "bf01-mbp",
-      "type": "highlight",
-      "title": "France - Black Friday 2024",
-      "subtitle": "2018 FIFA World Cup Russia™ <br/> FRA 1-0 PER, **Goal: Mbappe 34’**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d8beae84-756b-4a47-9f4b-84abbe5ae4ee.jpeg",
-      "lowestPrice": 18000,
-      "latestCreatedAt": "2026-08-06T01:59:52.436Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "bf-mbappe",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "bf-mbappe",
-        "title": "Black Friday Flash Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4b22191a-df84-4646-86f3-a0ff794e3226.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d8beae84-756b-4a47-9f4b-84abbe5ae4ee.jpeg"
       }
     },
     {
@@ -1970,30 +2306,6 @@
       }
     },
     {
-      "uniqueCode": "hesp-ic",
-      "type": "highlight",
-      "title": "Spain",
-      "subtitle": "2010 FIFA World Cup South Africa™ GER 0 - 1 ESP **GOAL: Puyol '73**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1232413e-cd23-45aa-8669-ffc283ba68dd.jpeg",
-      "lowestPrice": 8500,
-      "latestCreatedAt": "2026-08-06T00:10:50.543Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "headers-sp-rwd",
-      "lowestEdition": 7,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "headers-sp-rwd",
-        "title": "Surprise Premium Headers Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/70c8c4d9-5008-40a8-ba44-f1ed090f9807.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1232413e-cd23-45aa-8669-ffc283ba68dd.jpeg"
-      }
-    },
-    {
       "uniqueCode": "tlrwd-ic",
       "type": "highlight",
       "title": "Italy",
@@ -2159,30 +2471,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/80b732b2-4381-42c5-a09c-247efe110742.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY02",
-      "type": "highlight",
-      "title": "360° Pre-Match View",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2696f1ad-a762-47ef-96ff-cb9e40bf1941.png",
-      "lowestPrice": 4500,
-      "latestCreatedAt": "2026-08-05T23:47:17.911Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 6,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cccc0696-35d4-4dd3-b899-0069b12d59f6.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2696f1ad-a762-47ef-96ff-cb9e40bf1941.png"
       }
     },
     {
@@ -3770,30 +4058,6 @@
       }
     },
     {
-      "uniqueCode": "reg-dr01",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 0 CRO **PENALTY: Messi 34'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg",
-      "lowestPrice": 6500,
-      "latestCreatedAt": "2026-08-04T13:59:29.579Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "regenesis-drop",
-      "lowestEdition": 3,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "regenesis-drop",
-        "title": "Regenesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b14695a-77d1-422c-8d75-99c45bc4007a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6b186791-e4e0-4632-babf-9e245cd8990f.jpeg"
-      }
-    },
-    {
       "uniqueCode": "MMTY14",
       "type": "highlight",
       "title": "The Stage Is Set",
@@ -4106,30 +4370,6 @@
       }
     },
     {
-      "uniqueCode": "tdfwc-27",
-      "type": "highlight",
-      "title": "Norway",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d788f2b3-c854-4c08-aeb3-4401b1fc7789.png",
-      "lowestPrice": 285,
-      "latestCreatedAt": "2026-08-04T04:11:24.481Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 390,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/78a9798b-c836-4d41-b396-e3c9b8bd8b3c.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d788f2b3-c854-4c08-aeb3-4401b1fc7789.png"
-      }
-    },
-    {
       "uniqueCode": "tdfwc-r5",
       "type": "highlight",
       "title": "Curaçao",
@@ -4151,30 +4391,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/51b9d4fb-7fff-4b0d-b3e9-1df7dc3787ea.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7cffeee-d0a0-4b15-b9a1-1222a3c4f28f.png"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-17",
-      "type": "highlight",
-      "title": "Japan",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3f95631c-caed-4950-8870-8adc6d8cbcb2.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-04T04:09:04.565Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 186,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/34dd0c4e-fc8f-4bab-992e-cef7a3e675a0.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3f95631c-caed-4950-8870-8adc6d8cbcb2.png"
       }
     },
     {
@@ -5546,30 +5762,6 @@
       }
     },
     {
-      "uniqueCode": "tdfwc-16",
-      "type": "highlight",
-      "title": "Senegal",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/32da10f5-fa29-4874-a363-7fa8b8b95d94.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-03T13:18:33.509Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/25e1cb01-5bf8-46d9-aec0-fd0c50a2fc44.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/32da10f5-fa29-4874-a363-7fa8b8b95d94.png"
-      }
-    },
-    {
       "uniqueCode": "tdfwc-22",
       "type": "highlight",
       "title": "Austria",
@@ -5615,30 +5807,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7181f915-f0b8-47a7-8c39-5dc465ab18af.png"
-      }
-    },
-    {
-      "uniqueCode": "tdfwc-07",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8717135f-4452-439f-afd7-fe806599e5e5.png",
-      "lowestPrice": 648,
-      "latestCreatedAt": "2026-08-03T12:40:11.723Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "team-dynamic-fwc2026",
-      "lowestEdition": 37,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/fc2776ca-2ec9-469e-9eea-ac512f09207e.jpg",
-      "pack": {
-        "slug": "team-dynamic-fwc2026",
-        "title": "FWC2026 National Teams Dynamic Collectible",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8717135f-4452-439f-afd7-fe806599e5e5.png"
       }
     },
     {
@@ -12535,30 +12703,6 @@
       }
     },
     {
-      "uniqueCode": "fk-mg-02",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "1994 FIFA World Cup USA™ NED 2 - 3 BRA **GAME WINNING GOAL: Branco 81'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/95104ae5-f1b4-4a45-aaf6-0d8603e48dd4.jpeg",
-      "lowestPrice": 1500,
-      "latestCreatedAt": "2026-07-22T02:07:14.573Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "free-kick-magic",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "free-kick-magic",
-        "title": "Free Kick Magic",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/caec5423-d527-4628-ad36-1e7291a7b7c5.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/95104ae5-f1b4-4a45-aaf6-0d8603e48dd4.jpeg"
-      }
-    },
-    {
       "uniqueCode": "US_M01",
       "type": "highlight",
       "title": "Brazil",
@@ -14236,30 +14380,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1da9f9d6-4d88-421a-be3d-f37ab5ef83d1.png"
-      }
-    },
-    {
-      "uniqueCode": "reg-rwic",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "2022 FIFA World Cup Qatar™ ARG 3 - 3 FRA **GOAL: Messi 108'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92ad09e0-2c0c-42d6-9a0f-f08f583c91a8.jpeg",
-      "lowestPrice": 15000,
-      "latestCreatedAt": "2026-07-20T14:52:00.498Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "regenesis-drop-reward",
-      "lowestEdition": 4,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "regenesis-drop-reward",
-        "title": "Regenesis Drop Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/37cd39d9-9072-41e0-878a-4afe99d9d780.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/92ad09e0-2c0c-42d6-9a0f-f08f583c91a8.jpeg"
       }
     },
     {
@@ -19467,30 +19587,6 @@
       }
     },
     {
-      "uniqueCode": "aw4-l01",
-      "type": "highlight",
-      "title": "The Most Important Voice",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/73a7b30d-cb14-4261-a863-37e27dda2b28.jpeg",
-      "lowestPrice": 6750,
-      "latestCreatedAt": "2026-07-02T17:22:09.104Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "aof-latam",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3e340899-e0bd-4b04-a61b-15f24f62364b.png",
-      "pack": {
-        "slug": "aof-latam",
-        "title": "The Art of Football: Football is Life in LATAM",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b97b5127-5c5b-48ba-911d-dd5f1d73d582.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/73a7b30d-cb14-4261-a863-37e27dda2b28.jpeg"
-      }
-    },
-    {
       "uniqueCode": "EFT_A1",
       "type": "highlight",
       "title": "Netherlands",
@@ -22947,30 +23043,6 @@
       }
     },
     {
-      "uniqueCode": "pm-rw-01",
-      "type": "highlight",
-      "title": "Johan Cruijff - Best Midfielder",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42a57f87-cefa-4f94-9098-f88971f43f89.png",
-      "lowestPrice": 5299,
-      "latestCreatedAt": "2026-06-23T19:48:48.878Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1974-reward",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/7dfc032e-9019-4120-911b-d855071be130.png",
-      "pack": {
-        "slug": "panini-1974-reward",
-        "title": "Surprise - Panini München 1974 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/31ae5161-6967-4e19-ac14-82d03fb97946.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/42a57f87-cefa-4f94-9098-f88971f43f89.png"
-      }
-    },
-    {
       "uniqueCode": "FFT_01",
       "type": "highlight",
       "title": "Final Conmebol Libertadores",
@@ -22992,30 +23064,6 @@
         "title": "Fluminense FC - Fan Tricolor",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/591cb67d-a723-473d-a56b-30efa94300d7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/df23d355-5024-451c-b83d-ca977e2c572e.png"
-      }
-    },
-    {
-      "uniqueCode": "pn-rw-01",
-      "type": "highlight",
-      "title": "Pele - Mexico 1970",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f8084487-127c-4392-a0ee-561314c0039c.png",
-      "lowestPrice": 32100,
-      "latestCreatedAt": "2026-06-23T19:33:11.485Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1970-reward",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4229cc23-52bd-4419-b09b-1a0b75d7e7b8.png",
-      "pack": {
-        "slug": "panini-1970-reward",
-        "title": "Surprise - Panini Mexico 1970 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/41adf5ee-e7ea-40ab-b2e5-2edaa363e45e.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f8084487-127c-4392-a0ee-561314c0039c.png"
       }
     },
     {
@@ -31522,30 +31570,6 @@
         "title": "CF Monterrey - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5211419-df41-432d-9ab1-7eaccfb87422.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3bee0206-ee37-4ee9-9f1e-78d5d6aaa7a5.png"
-      }
-    },
-    {
-      "uniqueCode": "as-ul-01",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "FIFA World Cup Korea/Japan 2002™ CRC 2 - 5 BRA **GOAL: Edmilson 38'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/68e3dc7c-1558-4507-9f82-2c96b5854997.jpeg",
-      "lowestPrice": 99900,
-      "latestCreatedAt": "2026-05-29T17:54:53.335Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "acrobatic-skills-ultra",
-      "lowestEdition": 2,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "acrobatic-skills-ultra",
-        "title": "Acrobatic Skills - Ultra Edition",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6f862cbb-8164-4ade-b97b-63a9df4a6fc5.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/68e3dc7c-1558-4507-9f82-2c96b5854997.jpeg"
       }
     },
     {
