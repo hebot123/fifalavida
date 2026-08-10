@@ -2,12 +2,113 @@
   "total": 2153,
   "listings": [
     {
+      "uniqueCode": "S1-P2-61",
+      "type": "poster_reward",
+      "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png",
+      "lowestPrice": 29200,
+      "latestCreatedAt": "2026-08-10T22:18:09.496Z",
+      "rarity": {
+        "code": "90",
+        "color": "#FE5211",
+        "name": "Tournament Reward"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "poster-reward-tournament-fwwc23",
+      "lowestEdition": 13,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/67e21bb4-9f98-4170-9e07-0ee158e9e89f.png",
+      "pack": {
+        "slug": "poster-reward-tournament-fwwc23",
+        "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0fc2eb13-a8ca-467a-93b9-523492f7ad15.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png"
+      },
+      "poster": {
+        "id": "c0ddee9f-dbc7-4dad-95c2-58f03eae0c6a",
+        "title": "Tournament Poster",
+        "subtitle": "FIFA Women's World Cup 2023™"
+      }
+    },
+    {
+      "uniqueCode": "C_FL01",
+      "type": "highlight",
+      "title": "Como Trophy Lift",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png",
+      "lowestPrice": 8500,
+      "latestCreatedAt": "2026-08-10T21:47:20.318Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b76d9dca-937f-4ff1-98fb-e37b3ed1d91e.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png"
+      }
+    },
+    {
+      "uniqueCode": "aofc-002",
+      "type": "highlight",
+      "title": "Football Unites South America",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a869561-85da-4555-9950-53ffae8562a8.png",
+      "lowestPrice": 275,
+      "latestCreatedAt": "2026-08-10T21:45:45.454Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "aof-culture",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "aof-culture",
+        "title": "The Art of Football: Football Unites Edition",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/549e75ac-d92c-4b66-915e-1c4cb511c8fb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a869561-85da-4555-9950-53ffae8562a8.png"
+      }
+    },
+    {
+      "uniqueCode": "MMTY07",
+      "type": "highlight",
+      "title": "Monterrey Y Su Gente",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/af959861-6ca0-4f42-ba26-8ce15dcf10f2.png",
+      "lowestPrice": 4500,
+      "latestCreatedAt": "2026-08-10T21:37:50.351Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-estadio-monterrey-2026",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/aa608711-7876-4db9-9a1b-61f174d75fd2.png",
+      "pack": {
+        "slug": "monterrey-estadio-monterrey-2026",
+        "title": "CF Monterrey - Estadio Monterrey",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/af959861-6ca0-4f42-ba26-8ce15dcf10f2.png"
+      }
+    },
+    {
       "uniqueCode": "tlrwd-ic",
       "type": "highlight",
       "title": "Italy",
       "subtitle": "2006 FIFA World Cup Germany™ ITA 1 - 1 FRA, **Trophy Lift: Cannavaro**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/41b6af01-3d14-40d7-992a-ce54f775fd5c.jpeg",
-      "lowestPrice": 32500,
+      "lowestPrice": 29500,
       "latestCreatedAt": "2026-08-10T21:28:01.146Z",
       "rarity": {
         "code": "40",
@@ -47,30 +148,6 @@
         "title": "Como 1907 - Football on the Lake",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0740cad1-07cf-46e7-b1b8-21279dd6b0f4.png"
-      }
-    },
-    {
-      "uniqueCode": "MMTY07",
-      "type": "highlight",
-      "title": "Monterrey Y Su Gente",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/af959861-6ca0-4f42-ba26-8ce15dcf10f2.png",
-      "lowestPrice": 4500,
-      "latestCreatedAt": "2026-08-10T21:18:39.084Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-estadio-monterrey-2026",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/aa608711-7876-4db9-9a1b-61f174d75fd2.png",
-      "pack": {
-        "slug": "monterrey-estadio-monterrey-2026",
-        "title": "CF Monterrey - Estadio Monterrey",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/17348fdf-eab3-4649-ac90-028fefb5c234.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/af959861-6ca0-4f42-ba26-8ce15dcf10f2.png"
       }
     },
     {
@@ -362,30 +439,6 @@
       }
     },
     {
-      "uniqueCode": "D05-12",
-      "type": "highlight",
-      "title": "Japan",
-      "subtitle": "FIFA Women's World Cup Canada 2015™  \n JPN 2 - 1 NED, **Goal: Mizuho Sakaguchi 78'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5eeb787e-f6fb-41b2-97c1-d7e980f8d283.jpeg",
-      "lowestPrice": 5000,
-      "latestCreatedAt": "2026-08-10T20:28:11.179Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "80s-90s-drop",
-      "lowestEdition": 477,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "80s-90s-drop",
-        "title": "Curator Collection - 80's and 90's",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/29e9cdd9-39c3-41e6-b25d-46717d5d2561.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5eeb787e-f6fb-41b2-97c1-d7e980f8d283.jpeg"
-      }
-    },
-    {
       "uniqueCode": "D01-03",
       "type": "highlight",
       "title": "Germany",
@@ -458,78 +511,6 @@
       }
     },
     {
-      "uniqueCode": "D03-05",
-      "type": "highlight",
-      "title": "Canada",
-      "subtitle": "FIFA Women's World Cup USA 2003™  \nCHN 0 - 1 CAN, **Goal: Charmaine Hooper 7'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5ea7ab3-8bb4-4c34-a35a-1033585b8df1.jpeg",
-      "lowestPrice": 1500,
-      "latestCreatedAt": "2026-08-10T20:23:18.226Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 62,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5ea7ab3-8bb4-4c34-a35a-1033585b8df1.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "fwcgk-02",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "1994 FIFA World Cup USA™<br/> ITA 0-0 BRA, **Save: Claudio Taffarel PSO**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb696020-afab-411a-806c-ebe09f1c82b7.jpeg",
-      "lowestPrice": 500,
-      "latestCreatedAt": "2026-08-10T20:22:48.636Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fwc-gk-dr",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "fwc-gk-dr",
-        "title": "The Last Line",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a368d47-38e1-4b2b-a808-be5d315b4b3b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb696020-afab-411a-806c-ebe09f1c82b7.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D02-03",
-      "type": "highlight",
-      "title": "Cameroon",
-      "subtitle": "FIFA Women's World Cup France 2019™  \nCMR 2 - 1 NZL, **Goal: Ajara Nchout 90+5'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ca7e58a2-f08a-44f6-81b9-eb182f4d22af.jpeg",
-      "lowestPrice": 600,
-      "latestCreatedAt": "2026-08-10T20:22:28.384Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archive-drop",
-      "lowestEdition": 300,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archive-drop",
-        "title": "FIFA Archives Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ca7e58a2-f08a-44f6-81b9-eb182f4d22af.jpeg"
-      }
-    },
-    {
       "uniqueCode": "D05-10",
       "type": "highlight",
       "title": "Togo",
@@ -575,30 +556,6 @@
         "title": "FIFA Archives Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b9563d33-d83b-405a-aa34-bcca0ec4186a.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D03-11",
-      "type": "highlight",
-      "title": "Côte d'Ivoire",
-      "subtitle": "2010 FIFA World Cup South Africa™  \nPRK 0 - 3 CIV, **Goal: Yaya Toure 14'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1aad4f9d-d2c0-47a7-80e8-812f4adc3414.jpeg",
-      "lowestPrice": 2000,
-      "latestCreatedAt": "2026-08-10T20:17:33.349Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 26,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1aad4f9d-d2c0-47a7-80e8-812f4adc3414.jpeg"
       }
     },
     {
@@ -671,30 +628,6 @@
         "title": "Player of the Tournament",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/31343210-5b28-433f-9d07-4443256490a9.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7cbfdcd-af6c-4ed7-956c-e2ee351c3951.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "aofc-002",
-      "type": "highlight",
-      "title": "Football Unites South America",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a869561-85da-4555-9950-53ffae8562a8.png",
-      "lowestPrice": 300,
-      "latestCreatedAt": "2026-08-10T20:13:49.739Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "aof-culture",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "aof-culture",
-        "title": "The Art of Football: Football Unites Edition",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/549e75ac-d92c-4b66-915e-1c4cb511c8fb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3a869561-85da-4555-9950-53ffae8562a8.png"
       }
     },
     {
@@ -815,30 +748,6 @@
         "title": "Mexican Legends",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5490a167-0223-4a44-b507-163671835406.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/756d9cb8-0b76-4051-805a-babb0949e530.png"
-      }
-    },
-    {
-      "uniqueCode": "fwcgk-03",
-      "type": "highlight",
-      "title": "France",
-      "subtitle": "2022 FIFA World Cup Qatar™<br/> ENG 1-2 FRA, **Save: Hugo Lloris '47**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d480bd98-6444-4172-b035-cc2b0fd6954c.jpeg",
-      "lowestPrice": 500,
-      "latestCreatedAt": "2026-08-10T19:57:46.629Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "fwc-gk-dr",
-      "lowestEdition": 24,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "fwc-gk-dr",
-        "title": "The Last Line",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a368d47-38e1-4b2b-a808-be5d315b4b3b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d480bd98-6444-4172-b035-cc2b0fd6954c.jpeg"
       }
     },
     {
@@ -1178,30 +1087,6 @@
       }
     },
     {
-      "uniqueCode": "pott-11",
-      "type": "highlight",
-      "title": "USA",
-      "subtitle": "FIFA Women's World Cup France 2019™ USA 2-0 NED **PENALTY KICK GOAL: Rapinoe 61'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/330070c1-da2b-4064-b4be-4c38365ded7c.jpeg",
-      "lowestPrice": 388,
-      "latestCreatedAt": "2026-08-10T19:47:21.957Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "player-of-the-tournament",
-      "lowestEdition": 22,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "player-of-the-tournament",
-        "title": "Player of the Tournament",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/31343210-5b28-433f-9d07-4443256490a9.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/330070c1-da2b-4064-b4be-4c38365ded7c.jpeg"
-      }
-    },
-    {
       "uniqueCode": "fk-mg-10",
       "type": "highlight",
       "title": "Sweden",
@@ -1438,30 +1323,6 @@
       }
     },
     {
-      "uniqueCode": "rg2-dr05",
-      "type": "highlight",
-      "title": "Korea Republic",
-      "subtitle": "2002 FIFA World Cup Korea/Japan™ KOR 2-1 ITA **GOLDEN GOAL: Ahn 117'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f08d2be-46f3-4cae-85e9-9198e3dafca5.jpeg",
-      "lowestPrice": 400,
-      "latestCreatedAt": "2026-08-10T19:43:51.494Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "regenesis-drop-2",
-      "lowestEdition": 8,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "regenesis-drop-2",
-        "title": "Regenesis 2: Last Minute Goals",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8855fdc3-0d1e-4d10-9e5d-66b55d6e61ba.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f08d2be-46f3-4cae-85e9-9198e3dafca5.jpeg"
-      }
-    },
-    {
       "uniqueCode": "S1-P1-44",
       "type": "poster_variant",
       "title": "Auckland Variant #9",
@@ -1488,30 +1349,6 @@
         "id": "0ef1c766-0ffd-493c-a23d-ad2b5890721c",
         "title": "Auckland",
         "subtitle": "Eden Park"
-      }
-    },
-    {
-      "uniqueCode": "sp-v4-25",
-      "type": "highlight",
-      "title": "Japan",
-      "subtitle": "2002 FIFA World Cup Korea/Japan™ TUN 0 - 2 JPN, **Goal: Nakata 75'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/98c52e09-2e6d-4b23-87e8-d01a1d7bc48d.jpeg",
-      "lowestPrice": 300,
-      "latestCreatedAt": "2026-08-10T19:43:01.258Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sp-national-treasures-p3",
-      "lowestEdition": 12,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sp-national-treasures-p3",
-        "title": "Surprise Premium - National Treasures Part 3",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/52a4d029-148a-489b-8557-a5ed2cfd1017.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/98c52e09-2e6d-4b23-87e8-d01a1d7bc48d.jpeg"
       }
     },
     {
@@ -4933,6 +4770,30 @@
       }
     },
     {
+      "uniqueCode": "D03-11",
+      "type": "highlight",
+      "title": "Côte d'Ivoire",
+      "subtitle": "2010 FIFA World Cup South Africa™  \nPRK 0 - 3 CIV, **Goal: Yaya Toure 14'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1aad4f9d-d2c0-47a7-80e8-812f4adc3414.jpeg",
+      "lowestPrice": 2000,
+      "latestCreatedAt": "2026-08-09T08:18:12.930Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 26,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1aad4f9d-d2c0-47a7-80e8-812f4adc3414.jpeg"
+      }
+    },
+    {
       "uniqueCode": "reg-dr01",
       "type": "highlight",
       "title": "Argentina",
@@ -6253,35 +6114,6 @@
       }
     },
     {
-      "uniqueCode": "S1-P2-61",
-      "type": "poster_reward",
-      "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png",
-      "lowestPrice": 29200,
-      "latestCreatedAt": "2026-08-08T01:25:03.218Z",
-      "rarity": {
-        "code": "90",
-        "color": "#FE5211",
-        "name": "Tournament Reward"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "poster-reward-tournament-fwwc23",
-      "lowestEdition": 13,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/67e21bb4-9f98-4170-9e07-0ee158e9e89f.png",
-      "pack": {
-        "slug": "poster-reward-tournament-fwwc23",
-        "title": "FIFA Women's World Cup Australia & New Zealand 2023™ Official Poster Reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/0fc2eb13-a8ca-467a-93b9-523492f7ad15.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7377e75-d215-4e6f-b0be-7a2ed4cc2853.png"
-      },
-      "poster": {
-        "id": "c0ddee9f-dbc7-4dad-95c2-58f03eae0c6a",
-        "title": "Tournament Poster",
-        "subtitle": "FIFA Women's World Cup 2023™"
-      }
-    },
-    {
       "uniqueCode": "M_CL06",
       "type": "highlight",
       "title": "Pamela Tajonar",
@@ -7407,30 +7239,6 @@
         "title": "Celebration Snapshots",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ede4fbe2-83d4-4f2c-bd14-33515dadaf59.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c3ad750e-5244-452d-a2da-ec386eb5fd5a.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "C_FL01",
-      "type": "highlight",
-      "title": "Como Trophy Lift",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png",
-      "lowestPrice": 12200,
-      "latestCreatedAt": "2026-08-06T01:50:17.093Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b76d9dca-937f-4ff1-98fb-e37b3ed1d91e.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png"
       }
     },
     {
@@ -14644,7 +14452,7 @@
       "title": "Brazil",
       "subtitle": "1994 FIFA World Cup USA™ BRA 0 - 0 ITA, **Trophy Lift: Dunga**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e73232cf-1f84-437c-95eb-c47f3531207e.jpeg",
-      "lowestPrice": 29800,
+      "lowestPrice": 29000,
       "latestCreatedAt": "2026-07-22T16:39:15.800Z",
       "rarity": {
         "code": "40",
@@ -16535,6 +16343,30 @@
       }
     },
     {
+      "uniqueCode": "pott-11",
+      "type": "highlight",
+      "title": "USA",
+      "subtitle": "FIFA Women's World Cup France 2019™ USA 2-0 NED **PENALTY KICK GOAL: Rapinoe 61'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/330070c1-da2b-4064-b4be-4c38365ded7c.jpeg",
+      "lowestPrice": 388,
+      "latestCreatedAt": "2026-07-20T15:01:27.019Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "player-of-the-tournament",
+      "lowestEdition": 22,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "player-of-the-tournament",
+        "title": "Player of the Tournament",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/31343210-5b28-433f-9d07-4443256490a9.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/330070c1-da2b-4064-b4be-4c38365ded7c.jpeg"
+      }
+    },
+    {
       "uniqueCode": "df2-rw03",
       "type": "highlight",
       "title": "Cameroon",
@@ -17236,7 +17068,7 @@
       "title": "USA",
       "subtitle": "FIFA Women's World Cup Canada 2015™  \nUSA 5 - 2 JPN, **Goal: Carli Lloyd 16'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b5e5191a-d5c4-43b3-a5bf-9db88942978f.png",
-      "lowestPrice": 38000,
+      "lowestPrice": 36500,
       "latestCreatedAt": "2026-07-19T05:28:09.262Z",
       "rarity": {
         "code": "40",
@@ -17300,6 +17132,30 @@
         "title": "Europe First Timers",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2b154e09-ba96-4118-bd4f-57b1158ebf99.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/086b1aa8-6287-4446-a657-1782780f3d35.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D03-05",
+      "type": "highlight",
+      "title": "Canada",
+      "subtitle": "FIFA Women's World Cup USA 2003™  \nCHN 0 - 1 CAN, **Goal: Charmaine Hooper 7'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5ea7ab3-8bb4-4c34-a35a-1033585b8df1.jpeg",
+      "lowestPrice": 2500,
+      "latestCreatedAt": "2026-07-19T00:07:11.336Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 62,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f5ea7ab3-8bb4-4c34-a35a-1033585b8df1.jpeg"
       }
     },
     {
@@ -18599,6 +18455,30 @@
       }
     },
     {
+      "uniqueCode": "D02-03",
+      "type": "highlight",
+      "title": "Cameroon",
+      "subtitle": "FIFA Women's World Cup France 2019™  \nCMR 2 - 1 NZL, **Goal: Ajara Nchout 90+5'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ca7e58a2-f08a-44f6-81b9-eb182f4d22af.jpeg",
+      "lowestPrice": 1000,
+      "latestCreatedAt": "2026-07-10T10:55:44.642Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archive-drop",
+      "lowestEdition": 300,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archive-drop",
+        "title": "FIFA Archives Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b148af63-ab4f-427d-8b98-a8b340222ccc.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ca7e58a2-f08a-44f6-81b9-eb182f4d22af.jpeg"
+      }
+    },
+    {
       "uniqueCode": "mem-m31",
       "type": "highlight",
       "title": "M31 Dynamic Match Collectible",
@@ -19766,6 +19646,30 @@
       }
     },
     {
+      "uniqueCode": "fwcgk-02",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "1994 FIFA World Cup USA™<br/> ITA 0-0 BRA, **Save: Claudio Taffarel PSO**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb696020-afab-411a-806c-ebe09f1c82b7.jpeg",
+      "lowestPrice": 1000,
+      "latestCreatedAt": "2026-07-08T12:44:39.155Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fwc-gk-dr",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "fwc-gk-dr",
+        "title": "The Last Line",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a368d47-38e1-4b2b-a808-be5d315b4b3b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb696020-afab-411a-806c-ebe09f1c82b7.jpeg"
+      }
+    },
+    {
       "uniqueCode": "p1970-23",
       "type": "highlight",
       "title": "Brazil - MEXICO 1970",
@@ -20640,7 +20544,7 @@
       "title": "Cameroon",
       "subtitle": "1990 FIFA World Cup Italy™  \nCMR 2 - 1 COL, **Goal: Roger Milla 106'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/85d378aa-6863-43f7-b39d-1763f976afa1.png",
-      "lowestPrice": 750,
+      "lowestPrice": 1100,
       "latestCreatedAt": "2026-07-06T13:34:39.241Z",
       "rarity": {
         "code": "30",
@@ -20656,6 +20560,30 @@
         "title": "Genesis Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/85d378aa-6863-43f7-b39d-1763f976afa1.png"
+      }
+    },
+    {
+      "uniqueCode": "D05-12",
+      "type": "highlight",
+      "title": "Japan",
+      "subtitle": "FIFA Women's World Cup Canada 2015™  \n JPN 2 - 1 NED, **Goal: Mizuho Sakaguchi 78'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5eeb787e-f6fb-41b2-97c1-d7e980f8d283.jpeg",
+      "lowestPrice": 6900,
+      "latestCreatedAt": "2026-07-06T13:31:00.134Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "80s-90s-drop",
+      "lowestEdition": 477,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "80s-90s-drop",
+        "title": "Curator Collection - 80's and 90's",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/29e9cdd9-39c3-41e6-b25d-46717d5d2561.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5eeb787e-f6fb-41b2-97c1-d7e980f8d283.jpeg"
       }
     },
     {
@@ -28605,6 +28533,30 @@
         "title": "Surprise Pack - Series 3",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f83514ef-5d7d-4091-954f-1d1405238fef.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/112ecc91-9cdc-4357-b3e0-599ebcaf1807.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "rg2-dr05",
+      "type": "highlight",
+      "title": "Korea Republic",
+      "subtitle": "2002 FIFA World Cup Korea/Japan™ KOR 2-1 ITA **GOLDEN GOAL: Ahn 117'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f08d2be-46f3-4cae-85e9-9198e3dafca5.jpeg",
+      "lowestPrice": 400,
+      "latestCreatedAt": "2026-06-09T23:50:09.410Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop-2",
+      "lowestEdition": 8,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop-2",
+        "title": "Regenesis 2: Last Minute Goals",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8855fdc3-0d1e-4d10-9e5d-66b55d6e61ba.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f08d2be-46f3-4cae-85e9-9198e3dafca5.jpeg"
       }
     },
     {
@@ -37704,6 +37656,30 @@
       }
     },
     {
+      "uniqueCode": "fwcgk-03",
+      "type": "highlight",
+      "title": "France",
+      "subtitle": "2022 FIFA World Cup Qatar™<br/> ENG 1-2 FRA, **Save: Hugo Lloris '47**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d480bd98-6444-4172-b035-cc2b0fd6954c.jpeg",
+      "lowestPrice": 500,
+      "latestCreatedAt": "2026-05-06T21:44:29.471Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "fwc-gk-dr",
+      "lowestEdition": 24,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "fwc-gk-dr",
+        "title": "The Last Line",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a368d47-38e1-4b2b-a808-be5d315b4b3b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/d480bd98-6444-4172-b035-cc2b0fd6954c.jpeg"
+      }
+    },
+    {
       "uniqueCode": "fk-mg-03",
       "type": "highlight",
       "title": "Uruguay",
@@ -41542,6 +41518,30 @@
         "title": "The Art of Football: Football is Life in LATAM",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b97b5127-5c5b-48ba-911d-dd5f1d73d582.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ba7547b4-54d3-4fe0-b096-2f5863691333.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "sp-v4-25",
+      "type": "highlight",
+      "title": "Japan",
+      "subtitle": "2002 FIFA World Cup Korea/Japan™ TUN 0 - 2 JPN, **Goal: Nakata 75'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/98c52e09-2e6d-4b23-87e8-d01a1d7bc48d.jpeg",
+      "lowestPrice": 650,
+      "latestCreatedAt": "2026-02-22T21:17:16.045Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sp-national-treasures-p3",
+      "lowestEdition": 12,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sp-national-treasures-p3",
+        "title": "Surprise Premium - National Treasures Part 3",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/52a4d029-148a-489b-8557-a5ed2cfd1017.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/98c52e09-2e6d-4b23-87e8-d01a1d7bc48d.jpeg"
       }
     },
     {
@@ -47891,7 +47891,7 @@
       "title": "Sydney Variant #9",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/43ec7c8e-f872-4615-83ab-366d49a6ec61.png",
-      "lowestPrice": 1800,
+      "lowestPrice": 1900,
       "latestCreatedAt": "2025-05-13T21:24:21.643Z",
       "rarity": {
         "code": "60",
@@ -47900,7 +47900,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "posters-1-drop",
-      "lowestEdition": 14,
+      "lowestEdition": 19,
       "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/51d49a2d-586b-4178-b932-2c67a40ac3ba.png",
       "pack": {
         "slug": "posters-1-drop",
