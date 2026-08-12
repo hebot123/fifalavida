@@ -2,6 +2,102 @@
   "total": 2153,
   "listings": [
     {
+      "uniqueCode": "C_FL01",
+      "type": "highlight",
+      "title": "Como Trophy Lift",
+      "subtitle": "Como 1907",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png",
+      "lowestPrice": 3500,
+      "latestCreatedAt": "2026-08-12T07:28:55.341Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "como-footballonthelake",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b76d9dca-937f-4ff1-98fb-e37b3ed1d91e.png",
+      "pack": {
+        "slug": "como-footballonthelake",
+        "title": "Como 1907 - Football on the Lake",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL01",
+      "type": "highlight",
+      "title": "Sergio Canales",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a7e3ed55-8268-49e2-b841-5bcbd2fabfef.png",
+      "lowestPrice": 3450,
+      "latestCreatedAt": "2026-08-12T07:20:52.010Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/705ff87b-ac13-4597-8bc7-20bfc40c1cdc.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e72fe8c7-e6b2-4a07-8239-25a5c67f3f6a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a7e3ed55-8268-49e2-b841-5bcbd2fabfef.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A01",
+      "type": "highlight",
+      "title": "Miguel Calero",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/350c99e6-ac89-4a8f-bb58-949ff875d2bd.png",
+      "lowestPrice": 1000,
+      "latestCreatedAt": "2026-08-12T07:19:25.300Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/90898043-8653-453c-8a04-0237437369e6.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4c01d581-353d-421e-8177-7362c1b7e53a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/350c99e6-ac89-4a8f-bb58-949ff875d2bd.png"
+      }
+    },
+    {
+      "uniqueCode": "P_AP52",
+      "type": "highlight",
+      "title": "POTW - Luis Quiñones",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png",
+      "lowestPrice": 500,
+      "latestCreatedAt": "2026-08-12T06:40:00.427Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-apertura2025-sp",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/10a2e76f-c0e0-42a7-bfbf-f89e2e5a359f.png",
+      "pack": {
+        "slug": "pachuca-apertura2025-sp",
+        "title": "CF Pachuca - Apertura 2025",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png"
+      }
+    },
+    {
       "uniqueCode": "M_CL19",
       "type": "highlight",
       "title": "Jorge Rodríguez",
@@ -143,30 +239,6 @@
         "title": "CF Monterrey - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5211419-df41-432d-9ab1-7eaccfb87422.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6cf621d2-03ee-42dc-87e8-9ebb74be101e.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL01",
-      "type": "highlight",
-      "title": "Sergio Canales",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a7e3ed55-8268-49e2-b841-5bcbd2fabfef.png",
-      "lowestPrice": 3450,
-      "latestCreatedAt": "2026-08-12T02:40:08.919Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/705ff87b-ac13-4597-8bc7-20bfc40c1cdc.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e72fe8c7-e6b2-4a07-8239-25a5c67f3f6a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a7e3ed55-8268-49e2-b841-5bcbd2fabfef.png"
       }
     },
     {
@@ -1103,30 +1175,6 @@
         "title": "Como 1907 - Football on the Lake",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/83c888f6-176b-441c-bf58-018193246c94.png"
-      }
-    },
-    {
-      "uniqueCode": "C_FL01",
-      "type": "highlight",
-      "title": "Como Trophy Lift",
-      "subtitle": "Como 1907",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png",
-      "lowestPrice": 3500,
-      "latestCreatedAt": "2026-08-12T01:45:12.996Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "como-footballonthelake",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b76d9dca-937f-4ff1-98fb-e37b3ed1d91e.png",
-      "pack": {
-        "slug": "como-footballonthelake",
-        "title": "Como 1907 - Football on the Lake",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/84369928-dbfa-4a6b-ae05-745e79d469d6.png"
       }
     },
     {
@@ -4957,30 +5005,6 @@
       }
     },
     {
-      "uniqueCode": "P_133A01",
-      "type": "highlight",
-      "title": "Miguel Calero",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/350c99e6-ac89-4a8f-bb58-949ff875d2bd.png",
-      "lowestPrice": 1000,
-      "latestCreatedAt": "2026-08-10T19:33:26.055Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/90898043-8653-453c-8a04-0237437369e6.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4c01d581-353d-421e-8177-7362c1b7e53a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/350c99e6-ac89-4a8f-bb58-949ff875d2bd.png"
-      }
-    },
-    {
       "uniqueCode": "reg-dr18",
       "type": "highlight",
       "title": "Japan",
@@ -5266,30 +5290,6 @@
         "title": "CF Pachuca - 133 Aniversario Vol. 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4c01d581-353d-421e-8177-7362c1b7e53a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/62e452af-f7c0-4d8f-a91a-2e5c4d8e092b.png"
-      }
-    },
-    {
-      "uniqueCode": "P_AP52",
-      "type": "highlight",
-      "title": "POTW - Luis Quiñones",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png",
-      "lowestPrice": 420,
-      "latestCreatedAt": "2026-08-10T13:38:53.677Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-apertura2025-sp",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/10a2e76f-c0e0-42a7-bfbf-f89e2e5a359f.png",
-      "pack": {
-        "slug": "pachuca-apertura2025-sp",
-        "title": "CF Pachuca - Apertura 2025",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ab613499-9971-4327-a0d4-eb00101210e4.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7db203d6-bf1d-4e86-ac39-eb87e1baf3eb.png"
       }
     },
     {
@@ -6618,7 +6618,7 @@
       "title": "El Camino A La Felicidad",
       "subtitle": "CF Monterrey",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0f56e87-daf5-42bb-a4fb-6f0883cbd8a7.png",
-      "lowestPrice": 200,
+      "lowestPrice": 295,
       "latestCreatedAt": "2026-08-09T21:39:16.433Z",
       "rarity": {
         "code": "10",
