@@ -2,6 +2,30 @@
   "total": 2155,
   "listings": [
     {
+      "uniqueCode": "M_2CL14",
+      "type": "highlight",
+      "title": "Sofía Martínez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02e3e07a-05a1-48ab-b485-b6a773139777.png",
+      "lowestPrice": 300,
+      "latestCreatedAt": "2026-08-13T12:31:47.335Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ed6da29-29aa-47dc-91cc-7c2381638918.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02e3e07a-05a1-48ab-b485-b6a773139777.png"
+      }
+    },
+    {
       "uniqueCode": "P_AP52",
       "type": "highlight",
       "title": "POTW - Luis Quiñones",
@@ -239,30 +263,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/515cd86d-4251-410d-ad73-37ed0226f664.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL14",
-      "type": "highlight",
-      "title": "Sofía Martínez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02e3e07a-05a1-48ab-b485-b6a773139777.png",
-      "lowestPrice": 350,
-      "latestCreatedAt": "2026-08-13T07:02:21.874Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ed6da29-29aa-47dc-91cc-7c2381638918.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02e3e07a-05a1-48ab-b485-b6a773139777.png"
       }
     },
     {
@@ -1692,7 +1692,7 @@
       "title": "China PR",
       "subtitle": "FIFA Women's World Cup USA 1999™  \nNOR 0 - 5 CHN, **Goal: Liu Ailing 14'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f25d357-78ed-4fcf-a657-122551ba2619.png",
-      "lowestPrice": 100,
+      "lowestPrice": 114,
       "latestCreatedAt": "2026-08-12T23:12:37.903Z",
       "rarity": {
         "code": "20",
@@ -4409,8 +4409,8 @@
       "title": "Qatar 2022",
       "subtitle": "",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3d0537ef-186d-4e15-ba5e-8108fb8aad22.png",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2026-08-11T03:38:58.965Z",
+      "lowestPrice": 280,
+      "latestCreatedAt": "2026-08-11T03:38:50.283Z",
       "rarity": {
         "code": "30",
         "color": "#8055FE",
@@ -15287,30 +15287,6 @@
       }
     },
     {
-      "uniqueCode": "spgb1-29",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "1978 FIFA World Cup Argentina™ ARG 3-1 NED **GOAL: Kempes 105'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7cb6376-9d6e-4da6-897c-07162579b5ee.jpeg",
-      "lowestPrice": 2000,
-      "latestCreatedAt": "2026-07-23T15:56:07.768Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sp-golden-boot-1",
-      "lowestEdition": 5,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sp-golden-boot-1",
-        "title": "Surprise Premium - Golden Boot Part 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e4be092b-42f2-402b-be92-8e8a5fcbc6bb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7cb6376-9d6e-4da6-897c-07162579b5ee.jpeg"
-      }
-    },
-    {
       "uniqueCode": "dm-sp-18",
       "type": "highlight",
       "title": "Italy",
@@ -15935,30 +15911,6 @@
       }
     },
     {
-      "uniqueCode": "US_M10",
-      "type": "highlight",
-      "title": "Bulgaria",
-      "subtitle": "1994 FIFA World Cup USA™ <br/> BUL 2-1 GER, **Goal: Yordan Letchkov 78’**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/271fc76c-0bc7-40d4-ae13-7c4c0f923792.jpeg",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-07-22T17:10:44.611Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "usa-94",
-      "lowestEdition": 3,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "usa-94",
-        "title": "USA94 - 30 years later",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/271fc76c-0bc7-40d4-ae13-7c4c0f923792.jpeg"
-      }
-    },
-    {
       "uniqueCode": "G_RB25",
       "type": "highlight",
       "title": "Nils Zätterström",
@@ -16028,30 +15980,6 @@
         "title": "Qatar 2022™: Greatest Goals ​",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0b4808b-08f3-4b7e-8d20-e4f0d109bbba.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "spgb1-34",
-      "type": "highlight",
-      "title": "Bulgaria",
-      "subtitle": "1994 FIFA World Cup USA™ BUL 4-0 GRE **GOAL: Stoichkov 5'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/191700bf-1e27-448d-8f2f-970b99fe984d.jpeg",
-      "lowestPrice": 800,
-      "latestCreatedAt": "2026-07-22T16:39:56.630Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sp-golden-boot-1",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sp-golden-boot-1",
-        "title": "Surprise Premium - Golden Boot Part 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e4be092b-42f2-402b-be92-8e8a5fcbc6bb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/191700bf-1e27-448d-8f2f-970b99fe984d.jpeg"
       }
     },
     {
@@ -19439,6 +19367,30 @@
       }
     },
     {
+      "uniqueCode": "US_M10",
+      "type": "highlight",
+      "title": "Bulgaria",
+      "subtitle": "1994 FIFA World Cup USA™ <br/> BUL 2-1 GER, **Goal: Yordan Letchkov 78’**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/271fc76c-0bc7-40d4-ae13-7c4c0f923792.jpeg",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-07-14T12:56:19.856Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "usa-94",
+      "lowestEdition": 34,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "usa-94",
+        "title": "USA94 - 30 years later",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/271fc76c-0bc7-40d4-ae13-7c4c0f923792.jpeg"
+      }
+    },
+    {
       "uniqueCode": "spgb2-37",
       "type": "highlight",
       "title": "Germany",
@@ -21792,7 +21744,7 @@
       "title": "Lucas Da Cunha",
       "subtitle": "Como 1907",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e61224b0-ac98-48fd-b0dd-4293afcdb5ee.png",
-      "lowestPrice": 200,
+      "lowestPrice": 238,
       "latestCreatedAt": "2026-07-07T09:22:46.486Z",
       "rarity": {
         "code": "30",
@@ -26112,7 +26064,7 @@
       "title": "Maxence Caqueret",
       "subtitle": "Como 1907",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c0a51cf6-1092-4176-a61c-e20bc6794f19.png",
-      "lowestPrice": 130,
+      "lowestPrice": 200,
       "latestCreatedAt": "2026-06-20T07:05:21.122Z",
       "rarity": {
         "code": "20",
@@ -30096,6 +30048,30 @@
       }
     },
     {
+      "uniqueCode": "spgb1-34",
+      "type": "highlight",
+      "title": "Bulgaria",
+      "subtitle": "1994 FIFA World Cup USA™ BUL 4-0 GRE **GOAL: Stoichkov 5'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/191700bf-1e27-448d-8f2f-970b99fe984d.jpeg",
+      "lowestPrice": 800,
+      "latestCreatedAt": "2026-06-07T02:09:39.002Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sp-golden-boot-1",
+      "lowestEdition": 11,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sp-golden-boot-1",
+        "title": "Surprise Premium - Golden Boot Part 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e4be092b-42f2-402b-be92-8e8a5fcbc6bb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/191700bf-1e27-448d-8f2f-970b99fe984d.jpeg"
+      }
+    },
+    {
       "uniqueCode": "p1970-33",
       "type": "highlight",
       "title": "Brazil team badge - MEXICO 1970",
@@ -33237,6 +33213,30 @@
         "title": "Surprise Premium - Golden Boot Part 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e4be092b-42f2-402b-be92-8e8a5fcbc6bb.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/320a37a7-4d19-4338-b976-e0992d364370.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "spgb1-29",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "1978 FIFA World Cup Argentina™ ARG 3-1 NED **GOAL: Kempes 105'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7cb6376-9d6e-4da6-897c-07162579b5ee.jpeg",
+      "lowestPrice": 2000,
+      "latestCreatedAt": "2026-05-27T19:32:27.417Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sp-golden-boot-1",
+      "lowestEdition": 15,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sp-golden-boot-1",
+        "title": "Surprise Premium - Golden Boot Part 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e4be092b-42f2-402b-be92-8e8a5fcbc6bb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c7cb6376-9d6e-4da6-897c-07162579b5ee.jpeg"
       }
     },
     {
