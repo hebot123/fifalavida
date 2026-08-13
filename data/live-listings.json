@@ -1,6 +1,558 @@
 {
-  "total": 2154,
+  "total": 2155,
   "listings": [
+    {
+      "uniqueCode": "M_2CL01",
+      "type": "highlight",
+      "title": "Alice Soto",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/feb40fea-1be1-419c-acfc-b208b8788614.png",
+      "lowestPrice": 3500,
+      "latestCreatedAt": "2026-08-13T07:10:05.682Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3ded854a-a63a-4147-89d7-43129afaa19d.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/feb40fea-1be1-419c-acfc-b208b8788614.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL08",
+      "type": "highlight",
+      "title": "Emily Gielnik",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e676060-5011-4a81-a2ee-33af1c698c09.png",
+      "lowestPrice": 175,
+      "latestCreatedAt": "2026-08-13T07:06:03.578Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 14,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/06902a15-c298-4d1b-bc9e-2a74acca5e1f.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e676060-5011-4a81-a2ee-33af1c698c09.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL15",
+      "type": "highlight",
+      "title": "Alejandra Calderón",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8ebe6bc8-20c3-45b9-a1ff-dce205aff9f1.png",
+      "lowestPrice": 4039,
+      "latestCreatedAt": "2026-08-13T07:05:19.050Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2d2d9194-74bd-4da2-8ff9-340fe82a3dc4.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8ebe6bc8-20c3-45b9-a1ff-dce205aff9f1.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL03",
+      "type": "highlight",
+      "title": "Lucía García",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/04e3650a-d1b9-4190-9edf-276edc957a31.png",
+      "lowestPrice": 410,
+      "latestCreatedAt": "2026-08-13T07:04:08.421Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 12,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/939429ca-e97b-41ab-82b9-19447025f1a1.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/04e3650a-d1b9-4190-9edf-276edc957a31.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL10",
+      "type": "highlight",
+      "title": "Diana García",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3aac6a9d-cb4e-4944-98bf-f8a407018f6b.png",
+      "lowestPrice": 1684,
+      "latestCreatedAt": "2026-08-13T07:03:49.668Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bd2be7d0-8aec-49ba-be0b-6a9b4fcbe6d6.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3aac6a9d-cb4e-4944-98bf-f8a407018f6b.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL04",
+      "type": "highlight",
+      "title": "Lucas Ocampos",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e00e30d1-c73a-40c2-ae7c-f6327bb7509e.png",
+      "lowestPrice": 375,
+      "latestCreatedAt": "2026-08-13T07:03:09.370Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d52689ae-dfe9-495a-b5dc-efdac0d62f23.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e00e30d1-c73a-40c2-ae7c-f6327bb7509e.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL16",
+      "type": "highlight",
+      "title": "Alonso Aceves",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/515cd86d-4251-410d-ad73-37ed0226f664.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-13T07:02:49.030Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/32241008-ddd1-464d-94e2-94598be14665.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/515cd86d-4251-410d-ad73-37ed0226f664.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL14",
+      "type": "highlight",
+      "title": "Sofía Martínez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02e3e07a-05a1-48ab-b485-b6a773139777.png",
+      "lowestPrice": 350,
+      "latestCreatedAt": "2026-08-13T07:02:21.874Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ed6da29-29aa-47dc-91cc-7c2381638918.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02e3e07a-05a1-48ab-b485-b6a773139777.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL18",
+      "type": "highlight",
+      "title": "Iker Fimbres",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6a0096ff-f83e-4cef-b797-d35c01ae0eff.png",
+      "lowestPrice": 200,
+      "latestCreatedAt": "2026-08-13T07:02:03.179Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 18,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2619c9ca-689d-48b6-98ca-bca6b0cd2880.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6a0096ff-f83e-4cef-b797-d35c01ae0eff.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL11",
+      "type": "highlight",
+      "title": "Víctor Guzmán",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/00f4cc61-c25a-40ca-b9e3-d452d636d0f3.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-13T07:01:42.357Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 26,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8d447cb6-689b-4c20-8203-8b177f234fa5.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/00f4cc61-c25a-40ca-b9e3-d452d636d0f3.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL06",
+      "type": "highlight",
+      "title": "Santiago Mele",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a68f9449-ee40-43ba-896f-889df0f15c47.png",
+      "lowestPrice": 385,
+      "latestCreatedAt": "2026-08-13T06:59:50.262Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 5,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/371104cb-c803-4356-91e6-b22dd4a87d9d.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a68f9449-ee40-43ba-896f-889df0f15c47.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL12",
+      "type": "highlight",
+      "title": "Jorge Rodríguez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d8c3f1a-a77d-45eb-a838-f2d2f8d6ffaa.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-13T06:59:30.688Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 8,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/89a1da3a-3a13-48cb-9268-4f8ea2a22808.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d8c3f1a-a77d-45eb-a838-f2d2f8d6ffaa.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL05",
+      "type": "highlight",
+      "title": "John Stefan Medina",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/684965e4-0c4c-4ee8-9735-22a3f71e7d7f.png",
+      "lowestPrice": 425,
+      "latestCreatedAt": "2026-08-13T06:59:06.033Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca97a18f-a843-41d8-ac5f-d5a15ad9c7ca.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/684965e4-0c4c-4ee8-9735-22a3f71e7d7f.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL07",
+      "type": "highlight",
+      "title": "Tanna Sánchez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c3e6f28e-8db6-4f2b-831e-df3b4d31118c.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-13T06:58:45.702Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 19,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1689b5ec-5b09-418e-9bbf-302a78018b60.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c3e6f28e-8db6-4f2b-831e-df3b4d31118c.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL20",
+      "type": "highlight",
+      "title": "Ricardo Chávez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ac90b3be-ba4e-4e42-8892-8ee08e906055.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-13T06:58:24.263Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 4,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5201a1ca-8252-44e7-a314-18632e8e5858.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ac90b3be-ba4e-4e42-8892-8ee08e906055.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL21",
+      "type": "highlight",
+      "title": "Daniela Monroy",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/014901c7-f551-413f-8966-d0192626f623.png",
+      "lowestPrice": 300,
+      "latestCreatedAt": "2026-08-13T06:57:53.475Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 62,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/72bad225-8aad-4095-b596-c799bc58b846.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/014901c7-f551-413f-8966-d0192626f623.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL17",
+      "type": "highlight",
+      "title": "Carlos Salcedo",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5b257c59-307e-4b9a-b44f-024b187498a5.png",
+      "lowestPrice": 500,
+      "latestCreatedAt": "2026-08-13T06:56:43.568Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 15,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e12e1774-6fb9-44b6-b9e7-8dd591f4eba7.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5b257c59-307e-4b9a-b44f-024b187498a5.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL22",
+      "type": "highlight",
+      "title": "Ashlyn Fernandez",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6e92e9a1-d78f-47de-9622-1f2522ee58f3.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-13T06:55:31.688Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca10c73d-5c85-41fd-b407-c1a0dbde9348.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6e92e9a1-d78f-47de-9622-1f2522ee58f3.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL25",
+      "type": "highlight",
+      "title": "Carol Cázares",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/509d63af-7096-4ef0-8b8b-cd7d569883f1.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-13T06:54:22.664Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 3,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5d823e69-9ba1-4adb-bbf1-e96c682569bf.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/509d63af-7096-4ef0-8b8b-cd7d569883f1.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL19",
+      "type": "highlight",
+      "title": "Monty",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/eb3699c1-aba8-4efd-bf56-dda15a40dbe5.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-13T06:53:39.886Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/71775c30-ca37-4733-8b98-c8485ee9957f.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/eb3699c1-aba8-4efd-bf56-dda15a40dbe5.png"
+      }
+    },
+    {
+      "uniqueCode": "M_2CL24",
+      "type": "highlight",
+      "title": "Paola Manrique",
+      "subtitle": "CF Monterrey",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/680b008e-4df9-40d6-bfa3-006ba3e03fd7.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-13T06:53:05.958Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol2",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a8d8cb18-f09b-478c-99d9-66a5e5143387.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol2",
+        "title": "CF Monterrey - Clausura 2026 Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/680b008e-4df9-40d6-bfa3-006ba3e03fd7.png"
+      }
+    },
+    {
+      "uniqueCode": "spgb-rw",
+      "type": "highlight",
+      "title": "Italy",
+      "subtitle": "1982 FIFA World Cup Spain™ ITA 3-2 BRA **GOAL: Rossi 25'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7c1bc820-1c0e-4d58-9b14-9811d5e874be.jpeg",
+      "lowestPrice": 8000,
+      "latestCreatedAt": "2026-08-13T06:36:09.524Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sp-golden-boot-rwd",
+      "lowestEdition": 5,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sp-golden-boot-rwd",
+        "title": "Surprise Premium - Golden Boot Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/50404d54-30c0-44c6-bf5f-5fc28c3bed86.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7c1bc820-1c0e-4d58-9b14-9811d5e874be.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "ps-rw-01",
+      "type": "highlight",
+      "title": "Dino Zoff - SPAIN 1982",
+      "subtitle": "",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc84b68c-9876-4066-98b6-c672b0497bc3.png",
+      "lowestPrice": 7900,
+      "latestCreatedAt": "2026-08-13T06:35:16.973Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-1982-reward",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/494da03c-2220-4636-ac5e-cee6edc92bd7.png",
+      "pack": {
+        "slug": "panini-1982-reward",
+        "title": "Surprise - Panini España 1982 Reward Pack",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b7450cc9-db14-4ffb-b6b5-f304fadc134d.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc84b68c-9876-4066-98b6-c672b0497bc3.png"
+      }
+    },
     {
       "uniqueCode": "cw-hc-01",
       "type": "highlight",
@@ -143,6 +695,30 @@
         "title": "Colo-Colo - Eterno Campeón",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c56b0ea5-180d-4e9d-b757-44fd63e06e55.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/66956cb3-0297-4444-a1c9-78d4be994892.png"
+      }
+    },
+    {
+      "uniqueCode": "D03-01",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "FIFA Women's World Cup USA 1999™  \nBRA 4 - 3 NGA, **Goal: Sissi 104'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/722b6429-0a6e-4955-97c2-4089017f0392.jpeg",
+      "lowestPrice": 129900,
+      "latestCreatedAt": "2026-08-13T02:31:59.559Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sa-flair-drop",
+      "lowestEdition": 10,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sa-flair-drop",
+        "title": "Curator Collection - South American Flair",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/722b6429-0a6e-4955-97c2-4089017f0392.jpeg"
       }
     },
     {
@@ -415,6 +991,30 @@
       }
     },
     {
+      "uniqueCode": "as-ul-02",
+      "type": "highlight",
+      "title": "Australia",
+      "subtitle": "FIFA World Cup Brazil 14™ AUS 2 - 3 NED **GOAL: Cahill 21'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb4320f0-d3e3-48e9-b862-41dc2d762623.jpeg",
+      "lowestPrice": 12400,
+      "latestCreatedAt": "2026-08-13T01:57:20.505Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "acrobatic-skills-ultra",
+      "lowestEdition": 21,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "acrobatic-skills-ultra",
+        "title": "Acrobatic Skills - Ultra Edition",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6f862cbb-8164-4ade-b97b-63a9df4a6fc5.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb4320f0-d3e3-48e9-b862-41dc2d762623.jpeg"
+      }
+    },
+    {
       "uniqueCode": "M_LP11",
       "type": "highlight",
       "title": "Jesús Corona",
@@ -535,6 +1135,30 @@
       }
     },
     {
+      "uniqueCode": "P1332A28",
+      "type": "highlight",
+      "title": "Enner Valencia - Special - Signed",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8ef7a48d-c267-4d56-b1e5-db90c3e4612f.png",
+      "lowestPrice": 100000,
+      "latestCreatedAt": "2026-08-13T01:43:57.865Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol2",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2c307786-ce36-4848-9576-5817b7691d8f.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol2",
+        "title": "CF Pachuca - 133 Aniversario Vol. 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/9fc61b47-1143-4f7f-8375-d495d0d05280.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8ef7a48d-c267-4d56-b1e5-db90c3e4612f.png"
+      }
+    },
+    {
       "uniqueCode": "tdfwc-13",
       "type": "highlight",
       "title": "Mexico",
@@ -580,6 +1204,30 @@
         "title": "Dynamic Team Collectible FWC2026 Kick Off Reward",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/90be395f-a690-4baf-9790-09964c0dda62.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5a0d3124-7505-4a3b-98cd-565af5263070.png"
+      }
+    },
+    {
+      "uniqueCode": "tlrwd-ic",
+      "type": "highlight",
+      "title": "Italy",
+      "subtitle": "2006 FIFA World Cup Germany™ ITA 1 - 1 FRA, **Trophy Lift: Cannavaro**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/41b6af01-3d14-40d7-992a-ce54f775fd5c.jpeg",
+      "lowestPrice": 29500,
+      "latestCreatedAt": "2026-08-13T01:38:21.580Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "tl-rwd-ic",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "tl-rwd-ic",
+        "title": "Trophy Lift - Iconic Reward",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b26394b-f423-486e-9e6d-32ed4fc496ce.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/41b6af01-3d14-40d7-992a-ce54f775fd5c.jpeg"
       }
     },
     {
@@ -901,7 +1549,7 @@
       "subtitle": "CF Monterrey",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c748747-9bd4-4121-aea5-f2e0e34cd997.png",
       "lowestPrice": 595,
-      "latestCreatedAt": "2026-08-13T00:13:49.222Z",
+      "latestCreatedAt": "2026-08-13T00:14:14.962Z",
       "rarity": {
         "code": "20",
         "color": "#FE36FE",
@@ -916,30 +1564,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1c748747-9bd4-4121-aea5-f2e0e34cd997.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL10",
-      "type": "highlight",
-      "title": "Diana García",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3aac6a9d-cb4e-4944-98bf-f8a407018f6b.png",
-      "lowestPrice": 1684,
-      "latestCreatedAt": "2026-08-13T00:12:48.651Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/bd2be7d0-8aec-49ba-be0b-6a9b4fcbe6d6.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3aac6a9d-cb4e-4944-98bf-f8a407018f6b.png"
       }
     },
     {
@@ -967,54 +1591,6 @@
       }
     },
     {
-      "uniqueCode": "M_2CL05",
-      "type": "highlight",
-      "title": "John Stefan Medina",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/684965e4-0c4c-4ee8-9735-22a3f71e7d7f.png",
-      "lowestPrice": 425,
-      "latestCreatedAt": "2026-08-13T00:11:12.260Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca97a18f-a843-41d8-ac5f-d5a15ad9c7ca.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/684965e4-0c4c-4ee8-9735-22a3f71e7d7f.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL03",
-      "type": "highlight",
-      "title": "Lucía García",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/04e3650a-d1b9-4190-9edf-276edc957a31.png",
-      "lowestPrice": 410,
-      "latestCreatedAt": "2026-08-13T00:10:15.922Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 17,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/939429ca-e97b-41ab-82b9-19447025f1a1.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/04e3650a-d1b9-4190-9edf-276edc957a31.png"
-      }
-    },
-    {
       "uniqueCode": "M_2CL02",
       "type": "highlight",
       "title": "Jermaine Seoposenwe",
@@ -1039,27 +1615,27 @@
       }
     },
     {
-      "uniqueCode": "M_2CL06",
+      "uniqueCode": "D01-11",
       "type": "highlight",
-      "title": "Santiago Mele",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a68f9449-ee40-43ba-896f-889df0f15c47.png",
-      "lowestPrice": 385,
-      "latestCreatedAt": "2026-08-13T00:09:13.575Z",
+      "title": "China PR",
+      "subtitle": "FIFA Women's World Cup USA 1999™  \nNOR 0 - 5 CHN, **Goal: Liu Ailing 14'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f25d357-78ed-4fcf-a657-122551ba2619.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-12T23:12:37.903Z",
       "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
       },
       "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 5,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/371104cb-c803-4356-91e6-b22dd4a87d9d.png",
+      "packSlug": "genesis-drop",
+      "lowestEdition": 7,
+      "thumbnailImage": null,
       "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a68f9449-ee40-43ba-896f-889df0f15c47.png"
+        "slug": "genesis-drop",
+        "title": "Genesis Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f25d357-78ed-4fcf-a657-122551ba2619.png"
       }
     },
     {
@@ -1588,30 +2164,6 @@
         "title": "Como 1907 - Football on the Lake",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/26a85981-042e-47f6-80d3-19047dd69293.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/63d9b9fa-fe83-41f4-950b-5c7442245adb.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL24",
-      "type": "highlight",
-      "title": "Paola Manrique",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/680b008e-4df9-40d6-bfa3-006ba3e03fd7.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-12T16:22:38.744Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 10,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/a8d8cb18-f09b-478c-99d9-66a5e5143387.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/680b008e-4df9-40d6-bfa3-006ba3e03fd7.png"
       }
     },
     {
@@ -2212,30 +2764,6 @@
         "title": "USA94 - 30 years later",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8d3e29cf-7cd4-4f0a-bbb0-198f90d47be2.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL01",
-      "type": "highlight",
-      "title": "Alice Soto",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/feb40fea-1be1-419c-acfc-b208b8788614.png",
-      "lowestPrice": 3500,
-      "latestCreatedAt": "2026-08-12T02:37:33.309Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3ded854a-a63a-4147-89d7-43129afaa19d.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/feb40fea-1be1-419c-acfc-b208b8788614.png"
       }
     },
     {
@@ -2863,102 +3391,6 @@
       }
     },
     {
-      "uniqueCode": "M_2CL14",
-      "type": "highlight",
-      "title": "Sofía Martínez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02e3e07a-05a1-48ab-b485-b6a773139777.png",
-      "lowestPrice": 350,
-      "latestCreatedAt": "2026-08-12T01:12:27.467Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8ed6da29-29aa-47dc-91cc-7c2381638918.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/02e3e07a-05a1-48ab-b485-b6a773139777.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL07",
-      "type": "highlight",
-      "title": "Tanna Sánchez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c3e6f28e-8db6-4f2b-831e-df3b4d31118c.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-12T01:08:24.840Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 19,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/1689b5ec-5b09-418e-9bbf-302a78018b60.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/c3e6f28e-8db6-4f2b-831e-df3b4d31118c.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL20",
-      "type": "highlight",
-      "title": "Ricardo Chávez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ac90b3be-ba4e-4e42-8892-8ee08e906055.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-12T01:04:02.247Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5201a1ca-8252-44e7-a314-18632e8e5858.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ac90b3be-ba4e-4e42-8892-8ee08e906055.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL11",
-      "type": "highlight",
-      "title": "Víctor Guzmán",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/00f4cc61-c25a-40ca-b9e3-d452d636d0f3.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-12T01:03:44.791Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 26,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8d447cb6-689b-4c20-8203-8b177f234fa5.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/00f4cc61-c25a-40ca-b9e3-d452d636d0f3.png"
-      }
-    },
-    {
       "uniqueCode": "TJA_05",
       "type": "highlight",
       "title": "Home 2023-24",
@@ -3537,30 +3969,6 @@
         "title": "Genesis Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/809c3211-992f-4c5c-a54c-b81875709a03.png"
-      }
-    },
-    {
-      "uniqueCode": "D01-11",
-      "type": "highlight",
-      "title": "China PR",
-      "subtitle": "FIFA Women's World Cup USA 1999™  \nNOR 0 - 5 CHN, **Goal: Liu Ailing 14'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f25d357-78ed-4fcf-a657-122551ba2619.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-11T19:07:21.190Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "genesis-drop",
-      "lowestEdition": 7,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "genesis-drop",
-        "title": "Genesis Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4db1f228-0dfe-4501-8863-e9bc45f95184.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f25d357-78ed-4fcf-a657-122551ba2619.png"
       }
     },
     {
@@ -5052,30 +5460,6 @@
       }
     },
     {
-      "uniqueCode": "tlrwd-ic",
-      "type": "highlight",
-      "title": "Italy",
-      "subtitle": "2006 FIFA World Cup Germany™ ITA 1 - 1 FRA, **Trophy Lift: Cannavaro**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/41b6af01-3d14-40d7-992a-ce54f775fd5c.jpeg",
-      "lowestPrice": 29500,
-      "latestCreatedAt": "2026-08-10T23:17:12.858Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "tl-rwd-ic",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "tl-rwd-ic",
-        "title": "Trophy Lift - Iconic Reward",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6b26394b-f423-486e-9e6d-32ed4fc496ce.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/41b6af01-3d14-40d7-992a-ce54f775fd5c.jpeg"
-      }
-    },
-    {
       "uniqueCode": "spgb2-28",
       "type": "highlight",
       "title": "France",
@@ -5354,7 +5738,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "sp-national-treasures-p2",
-      "lowestEdition": 14,
+      "lowestEdition": 1,
       "thumbnailImage": null,
       "pack": {
         "slug": "sp-national-treasures-p2",
@@ -5738,7 +6122,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "efirst-timers",
-      "lowestEdition": 18,
+      "lowestEdition": 7,
       "thumbnailImage": null,
       "pack": {
         "slug": "efirst-timers",
@@ -6522,78 +6906,6 @@
       }
     },
     {
-      "uniqueCode": "M_2CL17",
-      "type": "highlight",
-      "title": "Carlos Salcedo",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5b257c59-307e-4b9a-b44f-024b187498a5.png",
-      "lowestPrice": 500,
-      "latestCreatedAt": "2026-08-10T12:18:54.670Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 15,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e12e1774-6fb9-44b6-b9e7-8dd591f4eba7.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5b257c59-307e-4b9a-b44f-024b187498a5.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL19",
-      "type": "highlight",
-      "title": "Monty",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/eb3699c1-aba8-4efd-bf56-dda15a40dbe5.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-10T12:18:04.373Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/71775c30-ca37-4733-8b98-c8485ee9957f.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/eb3699c1-aba8-4efd-bf56-dda15a40dbe5.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL12",
-      "type": "highlight",
-      "title": "Jorge Rodríguez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d8c3f1a-a77d-45eb-a838-f2d2f8d6ffaa.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-10T12:13:03.418Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 8,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/89a1da3a-3a13-48cb-9268-4f8ea2a22808.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5d8c3f1a-a77d-45eb-a838-f2d2f8d6ffaa.png"
-      }
-    },
-    {
       "uniqueCode": "M_2CL26",
       "type": "highlight",
       "title": "César Bustos",
@@ -6615,30 +6927,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 2",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/da59ddb1-70a0-457b-a796-2506d47ca1df.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL16",
-      "type": "highlight",
-      "title": "Alonso Aceves",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/515cd86d-4251-410d-ad73-37ed0226f664.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-10T12:09:58.720Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/32241008-ddd1-464d-94e2-94598be14665.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/515cd86d-4251-410d-ad73-37ed0226f664.png"
       }
     },
     {
@@ -8903,54 +9191,6 @@
       }
     },
     {
-      "uniqueCode": "M_2CL18",
-      "type": "highlight",
-      "title": "Iker Fimbres",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6a0096ff-f83e-4cef-b797-d35c01ae0eff.png",
-      "lowestPrice": 800,
-      "latestCreatedAt": "2026-08-08T02:21:30.656Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 18,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2619c9ca-689d-48b6-98ca-bca6b0cd2880.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6a0096ff-f83e-4cef-b797-d35c01ae0eff.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL15",
-      "type": "highlight",
-      "title": "Alejandra Calderón",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8ebe6bc8-20c3-45b9-a1ff-dce205aff9f1.png",
-      "lowestPrice": 4040,
-      "latestCreatedAt": "2026-08-08T02:12:51.912Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/2d2d9194-74bd-4da2-8ff9-340fe82a3dc4.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8ebe6bc8-20c3-45b9-a1ff-dce205aff9f1.png"
-      }
-    },
-    {
       "uniqueCode": "spgb1-28",
       "type": "highlight",
       "title": "Brazil",
@@ -10343,30 +10583,6 @@
       }
     },
     {
-      "uniqueCode": "M_2CL21",
-      "type": "highlight",
-      "title": "Daniela Monroy",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/014901c7-f551-413f-8966-d0192626f623.png",
-      "lowestPrice": 300,
-      "latestCreatedAt": "2026-08-05T19:28:30.799Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 62,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/72bad225-8aad-4095-b596-c799bc58b846.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/014901c7-f551-413f-8966-d0192626f623.png"
-      }
-    },
-    {
       "uniqueCode": "reg-dr14",
       "type": "highlight",
       "title": "Portugal",
@@ -10460,54 +10676,6 @@
         "title": "Surprise - Panini Argentina 1978",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/92e3e5ef-c0d2-4b0d-b2bc-4a60e111abcb.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/43bd14d3-e850-47ff-83a1-7b5154d23d6f.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL25",
-      "type": "highlight",
-      "title": "Carol Cázares",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/509d63af-7096-4ef0-8b8b-cd7d569883f1.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-04T20:48:50.168Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 3,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5d823e69-9ba1-4adb-bbf1-e96c682569bf.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/509d63af-7096-4ef0-8b8b-cd7d569883f1.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL22",
-      "type": "highlight",
-      "title": "Ashlyn Fernandez",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6e92e9a1-d78f-47de-9622-1f2522ee58f3.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-04T20:48:41.883Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ca10c73d-5c85-41fd-b407-c1a0dbde9348.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/6e92e9a1-d78f-47de-9622-1f2522ee58f3.png"
       }
     },
     {
@@ -10700,54 +10868,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/51b9d4fb-7fff-4b0d-b3e9-1df7dc3787ea.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f7cffeee-d0a0-4b15-b9a1-1222a3c4f28f.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL04",
-      "type": "highlight",
-      "title": "Lucas Ocampos",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e00e30d1-c73a-40c2-ae7c-f6327bb7509e.png",
-      "lowestPrice": 375,
-      "latestCreatedAt": "2026-08-04T04:04:24.493Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/d52689ae-dfe9-495a-b5dc-efdac0d62f23.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e00e30d1-c73a-40c2-ae7c-f6327bb7509e.png"
-      }
-    },
-    {
-      "uniqueCode": "M_2CL08",
-      "type": "highlight",
-      "title": "Emily Gielnik",
-      "subtitle": "CF Monterrey",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e676060-5011-4a81-a2ee-33af1c698c09.png",
-      "lowestPrice": 175,
-      "latestCreatedAt": "2026-08-04T04:04:00.872Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol2",
-      "lowestEdition": 14,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/06902a15-c298-4d1b-bc9e-2a74acca5e1f.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol2",
-        "title": "CF Monterrey - Clausura 2026 Vol. 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4d9b938c-7d36-474b-affc-97335453a24f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8e676060-5011-4a81-a2ee-33af1c698c09.png"
       }
     },
     {
@@ -11828,30 +11948,6 @@
         "title": "FWC2026 National Teams Dynamic Collectible",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6739ef8d-a7fc-4277-b016-8b7d9367d7a1.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2444d87e-05cc-4d91-95a7-8c07230ad6d3.png"
-      }
-    },
-    {
-      "uniqueCode": "spgb-rw",
-      "type": "highlight",
-      "title": "Italy",
-      "subtitle": "1982 FIFA World Cup Spain™ ITA 3-2 BRA **GOAL: Rossi 25'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7c1bc820-1c0e-4d58-9b14-9811d5e874be.jpeg",
-      "lowestPrice": 8000,
-      "latestCreatedAt": "2026-08-01T07:56:50.530Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sp-golden-boot-rwd",
-      "lowestEdition": 5,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sp-golden-boot-rwd",
-        "title": "Surprise Premium - Golden Boot Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/50404d54-30c0-44c6-bf5f-5fc28c3bed86.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/7c1bc820-1c0e-4d58-9b14-9811d5e874be.jpeg"
       }
     },
     {
@@ -15815,6 +15911,30 @@
       }
     },
     {
+      "uniqueCode": "sp-s1-26",
+      "type": "highlight",
+      "title": "Germany",
+      "subtitle": "FIFA World Cup South Africa 2010™\nGER 4 - 1 ENG, **Goal: Thomas Müller 67’**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3cbc0394-e3ae-4a38-beb0-6af64f574d84.jpeg",
+      "lowestPrice": 200,
+      "latestCreatedAt": "2026-07-22T17:11:35.351Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "surprise-pack-s1",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "surprise-pack-s1",
+        "title": "Surprise Pack - Series 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e01a0bce-e418-456c-a798-953eaea3121a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3cbc0394-e3ae-4a38-beb0-6af64f574d84.jpeg"
+      }
+    },
+    {
       "uniqueCode": "S2D02-15",
       "type": "highlight",
       "title": "Saudi Arabia",
@@ -15911,6 +16031,78 @@
       }
     },
     {
+      "uniqueCode": "S2D01-20",
+      "type": "highlight",
+      "title": "USA",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nNED 3 - 1 USA, **GOAL: Haji Wright 76'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0b4808b-08f3-4b7e-8d20-e4f0d109bbba.jpeg",
+      "lowestPrice": 200,
+      "latestCreatedAt": "2026-07-22T16:40:10.083Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0b4808b-08f3-4b7e-8d20-e4f0d109bbba.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "spgb1-34",
+      "type": "highlight",
+      "title": "Bulgaria",
+      "subtitle": "1994 FIFA World Cup USA™ BUL 4-0 GRE **GOAL: Stoichkov 5'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/191700bf-1e27-448d-8f2f-970b99fe984d.jpeg",
+      "lowestPrice": 800,
+      "latestCreatedAt": "2026-07-22T16:39:56.630Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sp-golden-boot-1",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sp-golden-boot-1",
+        "title": "Surprise Premium - Golden Boot Part 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e4be092b-42f2-402b-be92-8e8a5fcbc6bb.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/191700bf-1e27-448d-8f2f-970b99fe984d.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "US_M06",
+      "type": "highlight",
+      "title": "Netherlands",
+      "subtitle": "1994 FIFA World Cup USA™ <br/> MAR 0-1 NED, **Goal: Dennis Bergkamp 43’**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/88a78928-ea87-437d-9ee8-7511459c6773.jpeg",
+      "lowestPrice": 400,
+      "latestCreatedAt": "2026-07-22T16:39:31.738Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "usa-94",
+      "lowestEdition": 1,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "usa-94",
+        "title": "USA94 - 30 years later",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/88a78928-ea87-437d-9ee8-7511459c6773.jpeg"
+      }
+    },
+    {
       "uniqueCode": "rtgrw-ic",
       "type": "highlight",
       "title": "Brazil",
@@ -15932,6 +16124,30 @@
         "title": "Road to Glory - Iconic Reward",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b6ddefca-a288-42e1-a726-4f1e1aa59f06.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e73232cf-1f84-437c-95eb-c47f3531207e.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "pn-c1-45",
+      "type": "highlight",
+      "title": "Panini FIFA World Cup 2022 Album",
+      "subtitle": "Qatar 2022 - The Latest Chapter",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e04c45a-0208-4ebf-8f55-b2547cca9491.png",
+      "lowestPrice": 600,
+      "latestCreatedAt": "2026-07-22T14:41:19.271Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "panini-legacy",
+      "lowestEdition": 10,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4e1b343e-a291-410a-ad2f-63740b08e4b2.png",
+      "pack": {
+        "slug": "panini-legacy",
+        "title": "Surprise - Panini Legacy",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/468ca15d-01f2-4f5c-9040-6228066c4a8b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e04c45a-0208-4ebf-8f55-b2547cca9491.png"
       }
     },
     {
@@ -16055,6 +16271,30 @@
       }
     },
     {
+      "uniqueCode": "rd-gk-ep",
+      "type": "highlight",
+      "title": "Mexico",
+      "subtitle": "1994 FIFA World Cup USA™<br/> MEX 2-1 IRL, **Save: Jorge Campos '38**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/64976752-2e07-4349-af5e-973f9a5a1fcc.jpeg",
+      "lowestPrice": 4300,
+      "latestCreatedAt": "2026-07-22T13:21:25.432Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "red-fwc-gk-ep",
+      "lowestEdition": 4,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "red-fwc-gk-ep",
+        "title": "The Last Line - Jorge Campos Epic Redemption",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cf8a687f-f0c9-4807-864c-2654a7fdf1c0.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/64976752-2e07-4349-af5e-973f9a5a1fcc.jpeg"
+      }
+    },
+    {
       "uniqueCode": "as-ul-03",
       "type": "highlight",
       "title": "Mexico",
@@ -16076,6 +16316,30 @@
         "title": "Acrobatic Skills - Ultra Edition",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6f862cbb-8164-4ade-b97b-63a9df4a6fc5.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f22311d8-cbc4-4a89-af86-7d6ea3ad52b9.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "S2D01-08",
+      "type": "highlight",
+      "title": "Mexico",
+      "subtitle": "2022 FIFA World Cup Qatar™    \nKSA 1 - 2 MEX, **GOAL: Luis Chavez 52'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc0349c2-a7cc-4d91-9523-6845b88fc526.jpeg",
+      "lowestPrice": 700,
+      "latestCreatedAt": "2026-07-22T13:20:24.533Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "qatar-2022-greatest-goals",
+      "lowestEdition": 10,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "qatar-2022-greatest-goals",
+        "title": "Qatar 2022™: Greatest Goals ​",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc0349c2-a7cc-4d91-9523-6845b88fc526.jpeg"
       }
     },
     {
@@ -17327,30 +17591,6 @@
       }
     },
     {
-      "uniqueCode": "S2D01-20",
-      "type": "highlight",
-      "title": "USA",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nNED 3 - 1 USA, **GOAL: Haji Wright 76'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0b4808b-08f3-4b7e-8d20-e4f0d109bbba.jpeg",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2026-07-20T22:02:27.051Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 4,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/a0b4808b-08f3-4b7e-8d20-e4f0d109bbba.jpeg"
-      }
-    },
-    {
       "uniqueCode": "CR_M01",
       "type": "highlight",
       "title": "Zero Credit",
@@ -17447,6 +17687,54 @@
       }
     },
     {
+      "uniqueCode": "rg2-dr03",
+      "type": "highlight",
+      "title": "France",
+      "subtitle": "2022 FIFA World Cup Qatar™ FRA 3-1 POL **LAST MINUTE GOAL: Mbappè 90+1'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b8da10b0-e968-4adb-bda2-dabfa8e9c277.jpeg",
+      "lowestPrice": 1500,
+      "latestCreatedAt": "2026-07-20T18:38:25.597Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "regenesis-drop-2",
+      "lowestEdition": 9,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "regenesis-drop-2",
+        "title": "Regenesis 2: Last Minute Goals",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8855fdc3-0d1e-4d10-9e5d-66b55d6e61ba.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b8da10b0-e968-4adb-bda2-dabfa8e9c277.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "D04-04",
+      "type": "highlight",
+      "title": "Italy",
+      "subtitle": "2006 FIFA World Cup Germany™  \nGER 0 - 2 ITA, **Goal: Fabio Grosso 119'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8b7a4abd-36eb-4b0a-afe3-806ab1078833.jpeg",
+      "lowestPrice": 4299,
+      "latestCreatedAt": "2026-07-20T18:37:51.697Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "archives-2-drop",
+      "lowestEdition": 6,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "archives-2-drop",
+        "title": "FIFA Archives 2 Drop",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8c6f19bb-1a2a-4a50-baf0-0445aa4549a3.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8b7a4abd-36eb-4b0a-afe3-806ab1078833.jpeg"
+      }
+    },
+    {
       "uniqueCode": "rd-cc-ep",
       "type": "highlight",
       "title": "Real Madrid",
@@ -17468,6 +17756,30 @@
         "title": "FIFA Collect Club Competitions Real Madrid CF - Vinicius Junior Epic Redemption",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/38b099b2-4b7b-40d5-9100-ff3e7da36c56.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/0bec8d30-e01d-4a60-aa4b-ed60a6296e15.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "aft-03",
+      "type": "highlight",
+      "title": "Argentina",
+      "subtitle": "1978 FIFA World Cup Argentina™ <br/> ARG 2-0 POL, **Goal: Mario Alberto Kempes 16’**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/81303fff-ff87-4ff4-884d-7a9f49f1c631.jpeg",
+      "lowestPrice": 700,
+      "latestCreatedAt": "2026-07-20T18:36:08.674Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "afirst-timers",
+      "lowestEdition": 3,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "afirst-timers",
+        "title": "Americas First Timers",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ee27b5b9-2b08-47f1-8249-7a369836e07a.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/81303fff-ff87-4ff4-884d-7a9f49f1c631.jpeg"
       }
     },
     {
@@ -17759,6 +18071,30 @@
       }
     },
     {
+      "uniqueCode": "sp-v2-21",
+      "type": "highlight",
+      "title": "Portugal",
+      "subtitle": "2006 FIFA World Cup Germany™ GER 3 - 1 POR, **Assist: Figo 88'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4ac85ce4-de19-4dcb-a215-a4cbd120f090.jpeg",
+      "lowestPrice": 475,
+      "latestCreatedAt": "2026-07-20T14:46:14.703Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sp-national-treasures-p1",
+      "lowestEdition": 2,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sp-national-treasures-p1",
+        "title": "Surprise Premium - National Treasures Part 1",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c455de80-5ab2-4333-94f7-7aaa0a21c720.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4ac85ce4-de19-4dcb-a215-a4cbd120f090.jpeg"
+      }
+    },
+    {
       "uniqueCode": "EFT_A2",
       "type": "highlight",
       "title": "Belgium",
@@ -17852,6 +18188,30 @@
         "title": "Americas First Timers",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ee27b5b9-2b08-47f1-8249-7a369836e07a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/51a3bc32-47f3-4667-81c6-a853245a70fa.jpeg"
+      }
+    },
+    {
+      "uniqueCode": "spgb2-29",
+      "type": "highlight",
+      "title": "Germany",
+      "subtitle": "2010 FIFA World Cup South Africa™ GER 4-0 AUS **GOAL: Muller 68'**",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f3af4389-3d8e-452a-84b2-8645d1f79239.jpeg",
+      "lowestPrice": 500,
+      "latestCreatedAt": "2026-07-20T13:54:13.846Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "sp-golden-boot-2",
+      "lowestEdition": 5,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "sp-golden-boot-2",
+        "title": "Surprise Premium: Golden Boot Part 2",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e33ce9dd-2702-40d3-93b3-0c8ad88d5b6b.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f3af4389-3d8e-452a-84b2-8645d1f79239.jpeg"
       }
     },
     {
@@ -18548,30 +18908,6 @@
         "title": "Surprise Premium - Revelations",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8e71d2f8-6b9b-41fd-b511-5f196c716ab6.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/998f7fa1-9e23-4041-8c1c-e627e0bc2451.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "S2D01-08",
-      "type": "highlight",
-      "title": "Mexico",
-      "subtitle": "2022 FIFA World Cup Qatar™    \nKSA 1 - 2 MEX, **GOAL: Luis Chavez 52'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc0349c2-a7cc-4d91-9523-6845b88fc526.jpeg",
-      "lowestPrice": 700,
-      "latestCreatedAt": "2026-07-18T20:55:22.575Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "qatar-2022-greatest-goals",
-      "lowestEdition": 25,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "qatar-2022-greatest-goals",
-        "title": "Qatar 2022™: Greatest Goals ​",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5cce47de-179b-4778-8aa1-b74dff2e968f.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc0349c2-a7cc-4d91-9523-6845b88fc526.jpeg"
       }
     },
     {
@@ -19631,30 +19967,6 @@
       }
     },
     {
-      "uniqueCode": "US_M06",
-      "type": "highlight",
-      "title": "Netherlands",
-      "subtitle": "1994 FIFA World Cup USA™ <br/> MAR 0-1 NED, **Goal: Dennis Bergkamp 43’**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/88a78928-ea87-437d-9ee8-7511459c6773.jpeg",
-      "lowestPrice": 400,
-      "latestCreatedAt": "2026-07-10T12:45:26.900Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "usa-94",
-      "lowestEdition": 28,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "usa-94",
-        "title": "USA94 - 30 years later",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/88a78928-ea87-437d-9ee8-7511459c6773.jpeg"
-      }
-    },
-    {
       "uniqueCode": "D02-03",
       "type": "highlight",
       "title": "Cameroon",
@@ -20279,30 +20591,6 @@
       }
     },
     {
-      "uniqueCode": "pn-c1-45",
-      "type": "highlight",
-      "title": "Panini FIFA World Cup 2022 Album",
-      "subtitle": "Qatar 2022 - The Latest Chapter",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e04c45a-0208-4ebf-8f55-b2547cca9491.png",
-      "lowestPrice": 600,
-      "latestCreatedAt": "2026-07-08T18:08:48.344Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-legacy",
-      "lowestEdition": 39,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4e1b343e-a291-410a-ad2f-63740b08e4b2.png",
-      "pack": {
-        "slug": "panini-legacy",
-        "title": "Surprise - Panini Legacy",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/468ca15d-01f2-4f5c-9040-6228066c4a8b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/1e04c45a-0208-4ebf-8f55-b2547cca9491.png"
-      }
-    },
-    {
       "uniqueCode": "pn-c1-36",
       "type": "highlight",
       "title": "Panini FIFA World Cup 1986 Album",
@@ -20915,30 +21203,6 @@
         "title": "The Last Line",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8a368d47-38e1-4b2b-a808-be5d315b4b3b.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9f2e5db9-19e4-4f84-8f2a-ea3f6892d575.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "sp-v2-21",
-      "type": "highlight",
-      "title": "Portugal",
-      "subtitle": "2006 FIFA World Cup Germany™ GER 3 - 1 POR, **Assist: Figo 88'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4ac85ce4-de19-4dcb-a215-a4cbd120f090.jpeg",
-      "lowestPrice": 475,
-      "latestCreatedAt": "2026-07-08T04:31:13.393Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sp-national-treasures-p1",
-      "lowestEdition": 23,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sp-national-treasures-p1",
-        "title": "Surprise Premium - National Treasures Part 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/c455de80-5ab2-4333-94f7-7aaa0a21c720.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/4ac85ce4-de19-4dcb-a215-a4cbd120f090.jpeg"
       }
     },
     {
@@ -22339,30 +22603,6 @@
       }
     },
     {
-      "uniqueCode": "aft-03",
-      "type": "highlight",
-      "title": "Argentina",
-      "subtitle": "1978 FIFA World Cup Argentina™ <br/> ARG 2-0 POL, **Goal: Mario Alberto Kempes 16’**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/81303fff-ff87-4ff4-884d-7a9f49f1c631.jpeg",
-      "lowestPrice": 700,
-      "latestCreatedAt": "2026-07-02T17:19:27.346Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "afirst-timers",
-      "lowestEdition": 7,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "afirst-timers",
-        "title": "Americas First Timers",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/ee27b5b9-2b08-47f1-8249-7a369836e07a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/81303fff-ff87-4ff4-884d-7a9f49f1c631.jpeg"
-      }
-    },
-    {
       "uniqueCode": "D01-07",
       "type": "highlight",
       "title": "Portugal",
@@ -23272,30 +23512,6 @@
         "title": "Surprise Pack - Series 1",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e01a0bce-e418-456c-a798-953eaea3121a.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/5f03f66b-8e86-42a8-a0da-32a3539ca0fd.png"
-      }
-    },
-    {
-      "uniqueCode": "sp-s1-26",
-      "type": "highlight",
-      "title": "Germany",
-      "subtitle": "FIFA World Cup South Africa 2010™\nGER 4 - 1 ENG, **Goal: Thomas Müller 67’**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3cbc0394-e3ae-4a38-beb0-6af64f574d84.jpeg",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2026-07-02T04:38:30.337Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "surprise-pack-s1",
-      "lowestEdition": 1,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "surprise-pack-s1",
-        "title": "Surprise Pack - Series 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e01a0bce-e418-456c-a798-953eaea3121a.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/3cbc0394-e3ae-4a38-beb0-6af64f574d84.jpeg"
       }
     },
     {
@@ -25072,30 +25288,6 @@
         "title": "CF Monterrey - Apertura 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f5211419-df41-432d-9ab1-7eaccfb87422.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/86b17a1f-d2f6-40ea-baa6-3198751ebed2.png"
-      }
-    },
-    {
-      "uniqueCode": "ps-rw-01",
-      "type": "highlight",
-      "title": "Dino Zoff - SPAIN 1982",
-      "subtitle": "",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc84b68c-9876-4066-98b6-c672b0497bc3.png",
-      "lowestPrice": 7900,
-      "latestCreatedAt": "2026-06-23T22:52:15.375Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "panini-1982-reward",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/494da03c-2220-4636-ac5e-cee6edc92bd7.png",
-      "pack": {
-        "slug": "panini-1982-reward",
-        "title": "Surprise - Panini España 1982 Reward Pack",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/b7450cc9-db14-4ffb-b6b5-f304fadc134d.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/bc84b68c-9876-4066-98b6-c672b0497bc3.png"
       }
     },
     {
@@ -28968,30 +29160,6 @@
       }
     },
     {
-      "uniqueCode": "spgb2-29",
-      "type": "highlight",
-      "title": "Germany",
-      "subtitle": "2010 FIFA World Cup South Africa™ GER 4-0 AUS **GOAL: Muller 68'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f3af4389-3d8e-452a-84b2-8645d1f79239.jpeg",
-      "lowestPrice": 500,
-      "latestCreatedAt": "2026-06-11T16:19:28.325Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sp-golden-boot-2",
-      "lowestEdition": 26,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sp-golden-boot-2",
-        "title": "Surprise Premium: Golden Boot Part 2",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e33ce9dd-2702-40d3-93b3-0c8ad88d5b6b.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/f3af4389-3d8e-452a-84b2-8645d1f79239.jpeg"
-      }
-    },
-    {
       "uniqueCode": "sp-v-06",
       "type": "highlight",
       "title": "NO LONGER VALID - Collectible valid as RTB for 2 tickets to a FIFA Club World Cup 2025™ M55",
@@ -29925,30 +30093,6 @@
         "title": "Fluminense FC - Armadura Tricolor MDC 2025",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f739c721-cbc8-4532-8e96-208ccbc5a9db.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/9cc85e25-c4a4-4747-966e-307c61e0cf94.png"
-      }
-    },
-    {
-      "uniqueCode": "spgb1-34",
-      "type": "highlight",
-      "title": "Bulgaria",
-      "subtitle": "1994 FIFA World Cup USA™ BUL 4-0 GRE **GOAL: Stoichkov 5'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/191700bf-1e27-448d-8f2f-970b99fe984d.jpeg",
-      "lowestPrice": 800,
-      "latestCreatedAt": "2026-06-07T02:09:39.002Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sp-golden-boot-1",
-      "lowestEdition": 11,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sp-golden-boot-1",
-        "title": "Surprise Premium - Golden Boot Part 1",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/e4be092b-42f2-402b-be92-8e8a5fcbc6bb.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/191700bf-1e27-448d-8f2f-970b99fe984d.jpeg"
       }
     },
     {
@@ -31008,30 +31152,6 @@
       }
     },
     {
-      "uniqueCode": "rg2-dr03",
-      "type": "highlight",
-      "title": "France",
-      "subtitle": "2022 FIFA World Cup Qatar™ FRA 3-1 POL **LAST MINUTE GOAL: Mbappè 90+1'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b8da10b0-e968-4adb-bda2-dabfa8e9c277.jpeg",
-      "lowestPrice": 1500,
-      "latestCreatedAt": "2026-06-04T22:39:24.002Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "regenesis-drop-2",
-      "lowestEdition": 9,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "regenesis-drop-2",
-        "title": "Regenesis 2: Last Minute Goals",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8855fdc3-0d1e-4d10-9e5d-66b55d6e61ba.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/b8da10b0-e968-4adb-bda2-dabfa8e9c277.jpeg"
-      }
-    },
-    {
       "uniqueCode": "S2D01-12",
       "type": "highlight",
       "title": "Brazil",
@@ -31598,7 +31718,7 @@
       },
       "languageCode": "en-UK",
       "packSlug": "80s-90s-drop",
-      "lowestEdition": 1425,
+      "lowestEdition": 1189,
       "thumbnailImage": null,
       "pack": {
         "slug": "80s-90s-drop",
@@ -32661,30 +32781,6 @@
         "title": "FIFA Archives 2 Drop",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8c6f19bb-1a2a-4a50-baf0-0445aa4549a3.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/430e6dfe-ef78-470c-a2a8-be9153374369.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "D04-04",
-      "type": "highlight",
-      "title": "Italy",
-      "subtitle": "2006 FIFA World Cup Germany™  \nGER 0 - 2 ITA, **Goal: Fabio Grosso 119'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8b7a4abd-36eb-4b0a-afe3-806ab1078833.jpeg",
-      "lowestPrice": 4299,
-      "latestCreatedAt": "2026-05-31T11:45:15.073Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "archives-2-drop",
-      "lowestEdition": 22,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "archives-2-drop",
-        "title": "FIFA Archives 2 Drop",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/8c6f19bb-1a2a-4a50-baf0-0445aa4549a3.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/8b7a4abd-36eb-4b0a-afe3-806ab1078833.jpeg"
       }
     },
     {
@@ -38208,30 +38304,6 @@
       }
     },
     {
-      "uniqueCode": "rd-gk-ep",
-      "type": "highlight",
-      "title": "Mexico",
-      "subtitle": "1994 FIFA World Cup USA™<br/> MEX 2-1 IRL, **Save: Jorge Campos '38**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/64976752-2e07-4349-af5e-973f9a5a1fcc.jpeg",
-      "lowestPrice": 4300,
-      "latestCreatedAt": "2026-05-06T21:27:58.337Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "red-fwc-gk-ep",
-      "lowestEdition": 4,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "red-fwc-gk-ep",
-        "title": "The Last Line - Jorge Campos Epic Redemption",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/cf8a687f-f0c9-4807-864c-2654a7fdf1c0.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/64976752-2e07-4349-af5e-973f9a5a1fcc.jpeg"
-      }
-    },
-    {
       "uniqueCode": "F26_21",
       "type": "highlight",
       "title": "Riquelme",
@@ -39902,7 +39974,7 @@
       "subtitle": "FIFA Women's World Cup Sweden 1995™  \n SWE 0 - 1 BRA, **Goal: Roseli 37'**",
       "image": "https://storage.googleapis.com/prod-fifa-cms-storage/2a8cc84c-9007-4de3-9ef6-1363faa004a9.jpeg",
       "lowestPrice": 775,
-      "latestCreatedAt": "2026-04-03T20:23:28.743Z",
+      "latestCreatedAt": "2026-04-03T20:23:42.792Z",
       "rarity": {
         "code": "20",
         "color": "#FE36FE",
@@ -42203,6 +42275,30 @@
       }
     },
     {
+      "uniqueCode": "P_L20",
+      "type": "highlight",
+      "title": "Jaime Correa",
+      "subtitle": "CF Pachuca",
+      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82205f11-73eb-49a2-adbc-06dd680ccb3b.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-02-03T23:25:04.937Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-legends-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/406f5c9c-34a7-46ee-8416-18e1899dfefd.png",
+      "pack": {
+        "slug": "pachuca-legends-sp",
+        "title": "CF Pachuca - Legends",
+        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f9c437c2-ba18-4dd8-be87-37ab7187c691.png",
+        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82205f11-73eb-49a2-adbc-06dd680ccb3b.png"
+      }
+    },
+    {
       "uniqueCode": "D04-31",
       "type": "highlight",
       "title": "Switzerland",
@@ -42858,30 +42954,6 @@
         "title": "Club León - Latin Power",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/55d77380-7b64-4924-83b0-72605662b38f.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/ece7c909-9521-4e79-bc42-f76e0dbcca3d.png"
-      }
-    },
-    {
-      "uniqueCode": "D03-01",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "FIFA Women's World Cup USA 1999™  \nBRA 4 - 3 NGA, **Goal: Sissi 104'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/722b6429-0a6e-4955-97c2-4089017f0392.jpeg",
-      "lowestPrice": 129900,
-      "latestCreatedAt": "2025-12-10T09:35:53.192Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "sa-flair-drop",
-      "lowestEdition": 10,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "sa-flair-drop",
-        "title": "Curator Collection - South American Flair",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/722b6429-0a6e-4955-97c2-4089017f0392.jpeg"
       }
     },
     {
@@ -44770,30 +44842,6 @@
         "title": "FIFA Club World Cup Saudi Arabia 2023™",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/3799a721-e8bb-4cce-b83f-8771abcf5fac.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/948f7c63-e192-49e1-b7d3-1b9d55b64919.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "P_L20",
-      "type": "highlight",
-      "title": "Jaime Correa",
-      "subtitle": "CF Pachuca",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82205f11-73eb-49a2-adbc-06dd680ccb3b.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2025-11-04T00:54:41.183Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-legends-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://storage.googleapis.com/prod-fifa-cms-storage/406f5c9c-34a7-46ee-8416-18e1899dfefd.png",
-      "pack": {
-        "slug": "pachuca-legends-sp",
-        "title": "CF Pachuca - Legends",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/f9c437c2-ba18-4dd8-be87-37ab7187c691.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/82205f11-73eb-49a2-adbc-06dd680ccb3b.png"
       }
     },
     {
@@ -47065,30 +47113,6 @@
         "title": "Curator Collection - 80's and 90's",
         "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/29e9cdd9-39c3-41e6-b25d-46717d5d2561.png",
         "image": "https://storage.googleapis.com/prod-fifa-cms-storage/e7481ee9-e72e-400d-b9dc-23196dfdcf32.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "as-ul-02",
-      "type": "highlight",
-      "title": "Australia",
-      "subtitle": "FIFA World Cup Brazil 14™ AUS 2 - 3 NED **GOAL: Cahill 21'**",
-      "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb4320f0-d3e3-48e9-b862-41dc2d762623.jpeg",
-      "lowestPrice": 12400,
-      "latestCreatedAt": "2025-06-30T09:49:22.954Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "acrobatic-skills-ultra",
-      "lowestEdition": 32,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "acrobatic-skills-ultra",
-        "title": "Acrobatic Skills - Ultra Edition",
-        "coverImage": "https://storage.googleapis.com/prod-fifa-cms-storage/6f862cbb-8164-4ade-b97b-63a9df4a6fc5.png",
-        "image": "https://storage.googleapis.com/prod-fifa-cms-storage/fb4320f0-d3e3-48e9-b862-41dc2d762623.jpeg"
       }
     },
     {
