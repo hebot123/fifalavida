@@ -2,13 +2,61 @@
   "total": 2164,
   "listings": [
     {
+      "uniqueCode": "P_L23",
+      "type": "highlight",
+      "title": "Jorge Hernández",
+      "subtitle": "CF Pachuca",
+      "image": "https://cdn-prod-storage-collect.fifa.com//a8410e7f-6a64-4e18-8620-64c397888ce4.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-23T14:43:10.950Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-legends-sp",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//37f36427-ff49-4b75-bd5d-57a64df20ec4.png",
+      "pack": {
+        "slug": "pachuca-legends-sp",
+        "title": "CF Pachuca - Legends",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//f9c437c2-ba18-4dd8-be87-37ab7187c691.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//a8410e7f-6a64-4e18-8620-64c397888ce4.png"
+      }
+    },
+    {
+      "uniqueCode": "P_L22",
+      "type": "highlight",
+      "title": "Fausto Pinto",
+      "subtitle": "CF Pachuca",
+      "image": "https://cdn-prod-storage-collect.fifa.com//dd25c5a9-bfa5-4a42-9623-d1f2b7dd7ea1.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-08-23T14:40:59.851Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-legends-sp",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//a4ed4306-cb97-47ef-8d79-2ea861097f29.png",
+      "pack": {
+        "slug": "pachuca-legends-sp",
+        "title": "CF Pachuca - Legends",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//f9c437c2-ba18-4dd8-be87-37ab7187c691.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//dd25c5a9-bfa5-4a42-9623-d1f2b7dd7ea1.png"
+      }
+    },
+    {
       "uniqueCode": "P_L20",
       "type": "highlight",
       "title": "Jaime Correa",
       "subtitle": "CF Pachuca",
       "image": "https://cdn-prod-storage-collect.fifa.com//82205f11-73eb-49a2-adbc-06dd680ccb3b.png",
       "lowestPrice": 100,
-      "latestCreatedAt": "2026-08-23T13:53:59.961Z",
+      "latestCreatedAt": "2026-08-23T14:37:18.188Z",
       "rarity": {
         "code": "10",
         "color": "#27CFF7",
@@ -14135,30 +14183,6 @@
       }
     },
     {
-      "uniqueCode": "sp-s2-36",
-      "type": "highlight",
-      "title": "Brazil",
-      "subtitle": "FIFA Women's World Cup USA 2003™ BRA 3 - 0 KOR, **Goal: Marta 14’**",
-      "image": "https://cdn-prod-storage-collect.fifa.com//f1eef2c2-fd0e-4368-8e1f-5b22e0a445ba.jpeg",
-      "lowestPrice": 340,
-      "latestCreatedAt": "2026-08-13T21:49:24.055Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "surprise-pack-s2",
-      "lowestEdition": 23,
-      "thumbnailImage": null,
-      "pack": {
-        "slug": "surprise-pack-s2",
-        "title": "Surprise Pack - Series 2",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//cca58647-c978-482b-b4d0-8677bd0f5e7b.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//f1eef2c2-fd0e-4368-8e1f-5b22e0a445ba.jpeg"
-      }
-    },
-    {
       "uniqueCode": "pott-11",
       "type": "highlight",
       "title": "USA",
@@ -16374,6 +16398,30 @@
         "title": "CF Monterrey - Apertura 2025",
         "coverImage": "https://cdn-prod-storage-collect.fifa.com//f5211419-df41-432d-9ab1-7eaccfb87422.png",
         "image": "https://cdn-prod-storage-collect.fifa.com//603fa57c-77c0-4d65-be00-5e83def776af.png"
+      }
+    },
+    {
+      "uniqueCode": "sp-s2-36",
+      "type": "highlight",
+      "title": "Brazil",
+      "subtitle": "FIFA Women's World Cup USA 2003™ BRA 3 - 0 KOR, **Goal: Marta 14’**",
+      "image": "https://cdn-prod-storage-collect.fifa.com//f1eef2c2-fd0e-4368-8e1f-5b22e0a445ba.jpeg",
+      "lowestPrice": 340,
+      "latestCreatedAt": "2026-08-10T21:07:50.840Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "surprise-pack-s2",
+      "lowestEdition": 23,
+      "thumbnailImage": null,
+      "pack": {
+        "slug": "surprise-pack-s2",
+        "title": "Surprise Pack - Series 2",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//cca58647-c978-482b-b4d0-8677bd0f5e7b.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//f1eef2c2-fd0e-4368-8e1f-5b22e0a445ba.jpeg"
       }
     },
     {
@@ -35248,30 +35296,6 @@
       }
     },
     {
-      "uniqueCode": "P_L23",
-      "type": "highlight",
-      "title": "Jorge Hernández",
-      "subtitle": "CF Pachuca",
-      "image": "https://cdn-prod-storage-collect.fifa.com//a8410e7f-6a64-4e18-8620-64c397888ce4.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-06-03T09:41:51.846Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-legends-sp",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//37f36427-ff49-4b75-bd5d-57a64df20ec4.png",
-      "pack": {
-        "slug": "pachuca-legends-sp",
-        "title": "CF Pachuca - Legends",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//f9c437c2-ba18-4dd8-be87-37ab7187c691.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//a8410e7f-6a64-4e18-8620-64c397888ce4.png"
-      }
-    },
-    {
       "uniqueCode": "O_SV18",
       "type": "highlight",
       "title": "Lucas Ahijado",
@@ -37021,30 +37045,6 @@
         "title": "Curator Collection - South American Flair",
         "coverImage": "https://cdn-prod-storage-collect.fifa.com//4fc37706-9cd8-4e9e-9957-3c16598e2758.png",
         "image": "https://cdn-prod-storage-collect.fifa.com//d4572c3d-3978-4f0a-b189-cdc126c86f50.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "P_L22",
-      "type": "highlight",
-      "title": "Fausto Pinto",
-      "subtitle": "CF Pachuca",
-      "image": "https://cdn-prod-storage-collect.fifa.com//dd25c5a9-bfa5-4a42-9623-d1f2b7dd7ea1.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-05-22T00:19:04.824Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-legends-sp",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//a4ed4306-cb97-47ef-8d79-2ea861097f29.png",
-      "pack": {
-        "slug": "pachuca-legends-sp",
-        "title": "CF Pachuca - Legends",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//f9c437c2-ba18-4dd8-be87-37ab7187c691.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//dd25c5a9-bfa5-4a42-9623-d1f2b7dd7ea1.png"
       }
     },
     {
