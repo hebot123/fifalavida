@@ -2,6 +2,54 @@
   "total": 2283,
   "listings": [
     {
+      "uniqueCode": "M_A26_07",
+      "type": "highlight",
+      "title": "Jesús Corona",
+      "subtitle": "CF Monterrey",
+      "image": "https://cdn-prod-storage-collect.fifa.com//e44ff36a-343e-4920-ad38-cf7eaa1f7fec.png",
+      "lowestPrice": 1900,
+      "latestCreatedAt": "2026-10-11T21:45:20.437Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-apertura2026",
+      "lowestEdition": 23,
+      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//e4675f16-039d-4bbb-9bdd-59dae0be31fc.png",
+      "pack": {
+        "slug": "monterrey-apertura2026",
+        "title": "CF Monterrey - Apertura 2026",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//40a54278-38cf-4a68-8259-1073e3bd583a.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//e44ff36a-343e-4920-ad38-cf7eaa1f7fec.png"
+      }
+    },
+    {
+      "uniqueCode": "R_MA10",
+      "type": "highlight",
+      "title": "Warm-Up Experience Double Pass to Monterrey vs Xolos - J15 Apertura 2026",
+      "subtitle": "",
+      "image": "https://cdn-prod-storage-collect.fifa.com//ba5bdbde-80c3-4ba4-8d6d-9bf8a04d4237.png",
+      "lowestPrice": 14800,
+      "latestCreatedAt": "2026-10-11T20:41:07.109Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-apertura2026-level2reward",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//fc51f8e6-f004-4d33-8361-c6ec49edcf22.png",
+      "pack": {
+        "slug": "monterrey-apertura2026-level2reward",
+        "title": "CF Monterrey - Apertura 2026 Reward Pack",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//a7ca054e-e45d-44dd-b29c-6f58ee8d3708.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//ba5bdbde-80c3-4ba4-8d6d-9bf8a04d4237.png"
+      }
+    },
+    {
       "uniqueCode": "F26_29",
       "type": "highlight",
       "title": "Matheus Reis",
@@ -23,54 +71,6 @@
         "title": "Fluminense FC - Season 2026",
         "coverImage": "https://cdn-prod-storage-collect.fifa.com//e7ee45f1-45c7-4a8a-8e8f-0e37fdadccec.png",
         "image": "https://cdn-prod-storage-collect.fifa.com//6e318944-f7cd-4f90-bf81-3ef2db6371d4.png"
-      }
-    },
-    {
-      "uniqueCode": "M_A26_07",
-      "type": "highlight",
-      "title": "Jesús Corona",
-      "subtitle": "CF Monterrey",
-      "image": "https://cdn-prod-storage-collect.fifa.com//e44ff36a-343e-4920-ad38-cf7eaa1f7fec.png",
-      "lowestPrice": 2100,
-      "latestCreatedAt": "2026-10-11T17:41:18.234Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-apertura2026",
-      "lowestEdition": 4,
-      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//e4675f16-039d-4bbb-9bdd-59dae0be31fc.png",
-      "pack": {
-        "slug": "monterrey-apertura2026",
-        "title": "CF Monterrey - Apertura 2026",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//40a54278-38cf-4a68-8259-1073e3bd583a.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//e44ff36a-343e-4920-ad38-cf7eaa1f7fec.png"
-      }
-    },
-    {
-      "uniqueCode": "R_MA10",
-      "type": "highlight",
-      "title": "Warm-Up Experience Double Pass to Monterrey vs Xolos - J15 Apertura 2026",
-      "subtitle": "",
-      "image": "https://cdn-prod-storage-collect.fifa.com//ba5bdbde-80c3-4ba4-8d6d-9bf8a04d4237.png",
-      "lowestPrice": 14900,
-      "latestCreatedAt": "2026-10-11T17:40:07.063Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-apertura2026-level2reward",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//fc51f8e6-f004-4d33-8361-c6ec49edcf22.png",
-      "pack": {
-        "slug": "monterrey-apertura2026-level2reward",
-        "title": "CF Monterrey - Apertura 2026 Reward Pack",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//a7ca054e-e45d-44dd-b29c-6f58ee8d3708.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//ba5bdbde-80c3-4ba4-8d6d-9bf8a04d4237.png"
       }
     },
     {
@@ -151,7 +151,7 @@
       "title": "Luis Cárdenas",
       "subtitle": "CF Monterrey",
       "image": "https://cdn-prod-storage-collect.fifa.com//28e18b29-0472-4e25-ad37-c07b36635539.png",
-      "lowestPrice": 3800,
+      "lowestPrice": 2900,
       "latestCreatedAt": "2026-10-11T13:25:14.592Z",
       "rarity": {
         "code": "30",
@@ -7255,7 +7255,7 @@
       "title": "Nico Paz",
       "subtitle": "Como 1907",
       "image": "https://cdn-prod-storage-collect.fifa.com//d292b47a-c676-4f80-a9d7-63bb40620a74.png",
-      "lowestPrice": 5300,
+      "lowestPrice": 8900,
       "latestCreatedAt": "2026-09-26T08:20:18.197Z",
       "rarity": {
         "code": "40",
