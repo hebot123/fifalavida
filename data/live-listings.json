@@ -1,6 +1,78 @@
 {
-  "total": 2296,
+  "total": 2295,
   "listings": [
+    {
+      "uniqueCode": "P_133A05",
+      "type": "highlight",
+      "title": "Pablo Hernán Gómez",
+      "subtitle": "CF Pachuca",
+      "image": "https://cdn-prod-storage-collect.fifa.com//6c75bcc1-0019-4649-8b9c-840b87675702.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-10-26T22:06:04.879Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//36057803-d2be-4691-8999-e87db6a901ec.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//4c01d581-353d-421e-8177-7362c1b7e53a.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//6c75bcc1-0019-4649-8b9c-840b87675702.png"
+      }
+    },
+    {
+      "uniqueCode": "P_133A03",
+      "type": "highlight",
+      "title": "Oscar Murillo",
+      "subtitle": "CF Pachuca",
+      "image": "https://cdn-prod-storage-collect.fifa.com//1d4b2603-3d61-49ec-a031-4b8c9ad9094a.png",
+      "lowestPrice": 240,
+      "latestCreatedAt": "2026-10-26T22:04:01.937Z",
+      "rarity": {
+        "code": "30",
+        "color": "#8055FE",
+        "name": "Epic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-133aniversario-vol1",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//48047c84-cd28-47af-80e0-3f7d92bf802f.png",
+      "pack": {
+        "slug": "pachuca-133aniversario-vol1",
+        "title": "CF Pachuca - 133 Aniversario Vol. 1",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//4c01d581-353d-421e-8177-7362c1b7e53a.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//1d4b2603-3d61-49ec-a031-4b8c9ad9094a.png"
+      }
+    },
+    {
+      "uniqueCode": "M_CL08",
+      "type": "highlight",
+      "title": "Óliver Torres",
+      "subtitle": "CF Monterrey",
+      "image": "https://cdn-prod-storage-collect.fifa.com//94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-10-26T22:02:10.477Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-clausura2026-vol1",
+      "lowestEdition": 2,
+      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//2154e8b7-648b-4426-8a39-de7baebd9d03.png",
+      "pack": {
+        "slug": "monterrey-clausura2026-vol1",
+        "title": "CF Monterrey - Clausura 2026 Vol. 1",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//e72fe8c7-e6b2-4a07-8239-25a5c67f3f6a.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png"
+      }
+    },
     {
       "uniqueCode": "R_MA23",
       "type": "highlight",
@@ -71,30 +143,6 @@
         "title": "CF Monterrey - Apertura 2026 Reward Pack",
         "coverImage": "https://cdn-prod-storage-collect.fifa.com//a7ca054e-e45d-44dd-b29c-6f58ee8d3708.png",
         "image": "https://cdn-prod-storage-collect.fifa.com//ba5bdbde-80c3-4ba4-8d6d-9bf8a04d4237.png"
-      }
-    },
-    {
-      "uniqueCode": "R_MA22",
-      "type": "highlight",
-      "title": "Flag Waving Experience to Monterrey vs Xolos - J15 Apertura 2026",
-      "subtitle": "",
-      "image": "https://cdn-prod-storage-collect.fifa.com//212f1187-0c14-4241-b91b-2332fd4b548a.png",
-      "lowestPrice": 15000,
-      "latestCreatedAt": "2026-10-26T17:18:44.485Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-apertura2026-rayados-leaderboard",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//0ef2ce25-7035-41b4-86a7-203cd8e51ba4.png",
-      "pack": {
-        "slug": "monterrey-apertura2026-rayados-leaderboard",
-        "title": "CF Monterrey - Apertura 2026 Reward Pack",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//8e379f16-d8b5-4bb0-9601-67567fe31dd4.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//212f1187-0c14-4241-b91b-2332fd4b548a.png"
       }
     },
     {
@@ -8845,30 +8893,6 @@
         "title": "CF Monterrey - Clausura 2026 Vol. 2",
         "coverImage": "https://cdn-prod-storage-collect.fifa.com//4d9b938c-7d36-474b-affc-97335453a24f.png",
         "image": "https://cdn-prod-storage-collect.fifa.com//6a0096ff-f83e-4cef-b797-d35c01ae0eff.png"
-      }
-    },
-    {
-      "uniqueCode": "M_CL08",
-      "type": "highlight",
-      "title": "Óliver Torres",
-      "subtitle": "CF Monterrey",
-      "image": "https://cdn-prod-storage-collect.fifa.com//94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-10-16T16:59:30.876Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-clausura2026-vol1",
-      "lowestEdition": 2,
-      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//2154e8b7-648b-4426-8a39-de7baebd9d03.png",
-      "pack": {
-        "slug": "monterrey-clausura2026-vol1",
-        "title": "CF Monterrey - Clausura 2026 Vol. 1",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//e72fe8c7-e6b2-4a07-8239-25a5c67f3f6a.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//94f2cbd7-60ed-4594-ae15-ea5f13303cd2.png"
       }
     },
     {
@@ -18085,54 +18109,6 @@
         "title": "Regenesis Drop",
         "coverImage": "https://cdn-prod-storage-collect.fifa.com//6b14695a-77d1-422c-8d75-99c45bc4007a.png",
         "image": "https://cdn-prod-storage-collect.fifa.com//356bc26e-4ed6-4360-844d-9e1b5a271ae0.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "P_133A05",
-      "type": "highlight",
-      "title": "Pablo Hernán Gómez",
-      "subtitle": "CF Pachuca",
-      "image": "https://cdn-prod-storage-collect.fifa.com//6c75bcc1-0019-4649-8b9c-840b87675702.png",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2026-09-29T11:41:25.531Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//36057803-d2be-4691-8999-e87db6a901ec.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//4c01d581-353d-421e-8177-7362c1b7e53a.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//6c75bcc1-0019-4649-8b9c-840b87675702.png"
-      }
-    },
-    {
-      "uniqueCode": "P_133A03",
-      "type": "highlight",
-      "title": "Oscar Murillo",
-      "subtitle": "CF Pachuca",
-      "image": "https://cdn-prod-storage-collect.fifa.com//1d4b2603-3d61-49ec-a031-4b8c9ad9094a.png",
-      "lowestPrice": 200,
-      "latestCreatedAt": "2026-09-29T11:41:11.958Z",
-      "rarity": {
-        "code": "30",
-        "color": "#8055FE",
-        "name": "Epic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-133aniversario-vol1",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//48047c84-cd28-47af-80e0-3f7d92bf802f.png",
-      "pack": {
-        "slug": "pachuca-133aniversario-vol1",
-        "title": "CF Pachuca - 133 Aniversario Vol. 1",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//4c01d581-353d-421e-8177-7362c1b7e53a.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//1d4b2603-3d61-49ec-a031-4b8c9ad9094a.png"
       }
     },
     {
