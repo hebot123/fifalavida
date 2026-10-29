@@ -1,6 +1,54 @@
 {
-  "total": 2296,
+  "total": 2297,
   "listings": [
+    {
+      "uniqueCode": "1of1m19",
+      "type": "highlight",
+      "title": "1 OF 1 M19 Dynamic Match Collectible",
+      "subtitle": "",
+      "image": "https://cdn-prod-storage-collect.fifa.com//702cc866-3aed-4ef1-ac75-2737d0b9f0ed.png",
+      "lowestPrice": 8888800,
+      "latestCreatedAt": "2026-10-29T10:08:19.179Z",
+      "rarity": {
+        "code": "1O",
+        "color": "#A2B5CD",
+        "name": "1 OF 1"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "1of1m19",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//430b65e9-27c4-4567-8f43-cb007d330e5c.jpg",
+      "pack": {
+        "slug": "1of1m19",
+        "title": "1 OF 1 M19 EXCLUSIVE Dynamic Match Pack",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//8cbb6979-5365-44c3-b553-fdba594dd719.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//702cc866-3aed-4ef1-ac75-2737d0b9f0ed.png"
+      }
+    },
+    {
+      "uniqueCode": "PFT_01",
+      "type": "highlight",
+      "title": "Salomón Rondón",
+      "subtitle": "CF Pachuca",
+      "image": "https://cdn-prod-storage-collect.fifa.com//bcf560e0-ec76-4b58-8920-8af79d071910.png",
+      "lowestPrice": 7500,
+      "latestCreatedAt": "2026-10-29T06:02:48.674Z",
+      "rarity": {
+        "code": "40",
+        "color": "#DDBE5E",
+        "name": "Iconic"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "pachuca-first-timers",
+      "lowestEdition": 1,
+      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//af2441b7-d827-4b4a-bbbc-4ec2f84851ec.png",
+      "pack": {
+        "slug": "pachuca-first-timers",
+        "title": "CF Pachuca - First Timers",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//00bfe30a-fe66-434f-9b7e-364631a6e746.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//bcf560e0-ec76-4b58-8920-8af79d071910.png"
+      }
+    },
     {
       "uniqueCode": "R_MA23",
       "type": "highlight",
@@ -122,30 +170,6 @@
       }
     },
     {
-      "uniqueCode": "M_A26_31",
-      "type": "highlight",
-      "title": "Érick Aguirre",
-      "subtitle": "CF Monterrey",
-      "image": "https://cdn-prod-storage-collect.fifa.com//6c56ee45-3d7d-4d6a-a31b-d389da430e16.png",
-      "lowestPrice": 250,
-      "latestCreatedAt": "2026-10-28T19:18:46.422Z",
-      "rarity": {
-        "code": "20",
-        "color": "#FE36FE",
-        "name": "Rare"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-apertura2026",
-      "lowestEdition": 31,
-      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//ac8c3f85-4235-484a-9c67-766a62f5f7e9.png",
-      "pack": {
-        "slug": "monterrey-apertura2026",
-        "title": "CF Monterrey - Apertura 2026",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//40a54278-38cf-4a68-8259-1073e3bd583a.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//6c56ee45-3d7d-4d6a-a31b-d389da430e16.png"
-      }
-    },
-    {
       "uniqueCode": "M_A26_20",
       "type": "highlight",
       "title": "Diego Rossi",
@@ -218,36 +242,12 @@
       }
     },
     {
-      "uniqueCode": "M_A26_61",
-      "type": "highlight",
-      "title": "Djuka",
-      "subtitle": "CF Monterrey",
-      "image": "https://cdn-prod-storage-collect.fifa.com//7dd473a0-24bc-43d1-9d7a-c97c193822c5.png",
-      "lowestPrice": 100,
-      "latestCreatedAt": "2026-10-28T19:16:37.000Z",
-      "rarity": {
-        "code": "10",
-        "color": "#27CFF7",
-        "name": "Common"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "monterrey-apertura2026",
-      "lowestEdition": 11,
-      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//339845f5-1945-4b30-99e5-934f4c1f88b6.png",
-      "pack": {
-        "slug": "monterrey-apertura2026",
-        "title": "CF Monterrey - Apertura 2026",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//40a54278-38cf-4a68-8259-1073e3bd583a.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//7dd473a0-24bc-43d1-9d7a-c97c193822c5.png"
-      }
-    },
-    {
       "uniqueCode": "MWA26_31",
       "type": "highlight",
       "title": "Paola Manrique",
       "subtitle": "CF Monterrey",
       "image": "https://cdn-prod-storage-collect.fifa.com//d4aab529-063f-4498-a207-fca1d95c8b9c.png",
-      "lowestPrice": 175,
+      "lowestPrice": 195,
       "latestCreatedAt": "2026-10-28T19:15:19.387Z",
       "rarity": {
         "code": "20",
@@ -1567,7 +1567,7 @@
       "title": "Bogdan Racovițan",
       "subtitle": "Romania",
       "image": "https://cdn-prod-storage-collect.fifa.com//39f02842-f3a7-4b79-b5da-143b63350557.png",
-      "lowestPrice": 100,
+      "lowestPrice": 145,
       "latestCreatedAt": "2026-10-22T10:41:19.887Z",
       "rarity": {
         "code": "10",
@@ -9309,7 +9309,7 @@
       "title": "Valentin Mihăilă",
       "subtitle": "Romania",
       "image": "https://cdn-prod-storage-collect.fifa.com//ee347635-3b13-4656-8d2c-3fca1c0bff0c.png",
-      "lowestPrice": 182,
+      "lowestPrice": 230,
       "latestCreatedAt": "2026-10-16T16:47:56.832Z",
       "rarity": {
         "code": "20",
@@ -10984,6 +10984,30 @@
       }
     },
     {
+      "uniqueCode": "M_A26_61",
+      "type": "highlight",
+      "title": "Djuka",
+      "subtitle": "CF Monterrey",
+      "image": "https://cdn-prod-storage-collect.fifa.com//7dd473a0-24bc-43d1-9d7a-c97c193822c5.png",
+      "lowestPrice": 100,
+      "latestCreatedAt": "2026-10-15T23:53:49.008Z",
+      "rarity": {
+        "code": "10",
+        "color": "#27CFF7",
+        "name": "Common"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-apertura2026",
+      "lowestEdition": 11,
+      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//339845f5-1945-4b30-99e5-934f4c1f88b6.png",
+      "pack": {
+        "slug": "monterrey-apertura2026",
+        "title": "CF Monterrey - Apertura 2026",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//40a54278-38cf-4a68-8259-1073e3bd583a.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//7dd473a0-24bc-43d1-9d7a-c97c193822c5.png"
+      }
+    },
+    {
       "uniqueCode": "M_A26_60",
       "type": "highlight",
       "title": "Roberto de la Rosa",
@@ -11389,6 +11413,30 @@
         "title": "CF Monterrey - Apertura 2026",
         "coverImage": "https://cdn-prod-storage-collect.fifa.com//40a54278-38cf-4a68-8259-1073e3bd583a.png",
         "image": "https://cdn-prod-storage-collect.fifa.com//08d72fb8-8c62-4b39-964f-6c9c45e77098.png"
+      }
+    },
+    {
+      "uniqueCode": "M_A26_31",
+      "type": "highlight",
+      "title": "Érick Aguirre",
+      "subtitle": "CF Monterrey",
+      "image": "https://cdn-prod-storage-collect.fifa.com//6c56ee45-3d7d-4d6a-a31b-d389da430e16.png",
+      "lowestPrice": 295,
+      "latestCreatedAt": "2026-10-15T23:35:12.560Z",
+      "rarity": {
+        "code": "20",
+        "color": "#FE36FE",
+        "name": "Rare"
+      },
+      "languageCode": "en-UK",
+      "packSlug": "monterrey-apertura2026",
+      "lowestEdition": 31,
+      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//ac8c3f85-4235-484a-9c67-766a62f5f7e9.png",
+      "pack": {
+        "slug": "monterrey-apertura2026",
+        "title": "CF Monterrey - Apertura 2026",
+        "coverImage": "https://cdn-prod-storage-collect.fifa.com//40a54278-38cf-4a68-8259-1073e3bd583a.png",
+        "image": "https://cdn-prod-storage-collect.fifa.com//6c56ee45-3d7d-4d6a-a31b-d389da430e16.png"
       }
     },
     {
@@ -15381,7 +15429,7 @@
       "title": "Katty Martínez",
       "subtitle": "CF Monterrey",
       "image": "https://cdn-prod-storage-collect.fifa.com//6d5d7332-161e-4ad8-abdc-f50fab517772.png",
-      "lowestPrice": 185,
+      "lowestPrice": 249,
       "latestCreatedAt": "2026-10-09T20:28:55.951Z",
       "rarity": {
         "code": "20",
@@ -18421,30 +18469,6 @@
         "title": "USA94 - 30 years later",
         "coverImage": "https://cdn-prod-storage-collect.fifa.com//5ccd0ee8-5e33-4a7b-a3dd-dcddfef9b9c7.png",
         "image": "https://cdn-prod-storage-collect.fifa.com//8d3e29cf-7cd4-4f0a-bbb0-198f90d47be2.jpeg"
-      }
-    },
-    {
-      "uniqueCode": "PFT_01",
-      "type": "highlight",
-      "title": "Salomón Rondón",
-      "subtitle": "CF Pachuca",
-      "image": "https://cdn-prod-storage-collect.fifa.com//bcf560e0-ec76-4b58-8920-8af79d071910.png",
-      "lowestPrice": 6900,
-      "latestCreatedAt": "2026-09-28T21:05:14.751Z",
-      "rarity": {
-        "code": "40",
-        "color": "#DDBE5E",
-        "name": "Iconic"
-      },
-      "languageCode": "en-UK",
-      "packSlug": "pachuca-first-timers",
-      "lowestEdition": 1,
-      "thumbnailImage": "https://cdn-prod-storage-collect.fifa.com//af2441b7-d827-4b4a-bbbc-4ec2f84851ec.png",
-      "pack": {
-        "slug": "pachuca-first-timers",
-        "title": "CF Pachuca - First Timers",
-        "coverImage": "https://cdn-prod-storage-collect.fifa.com//00bfe30a-fe66-434f-9b7e-364631a6e746.png",
-        "image": "https://cdn-prod-storage-collect.fifa.com//bcf560e0-ec76-4b58-8920-8af79d071910.png"
       }
     },
     {
